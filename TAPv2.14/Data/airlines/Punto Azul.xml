@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Punto Azul" iata="PUN" color="Teal" area="344" CEO="Paul Richards" mentality="Safe" market="Regional"  preferedairport="SSG">
+  <narrative narrative="Punto Azul is based at Malabo on the island of Bioko in Equatorial Guinea. It began in 2013. As of March 2015 it was flying domestic to Bata on the mainland,and to Accra,Ghana, Douala,Cameroon and Yaounde,Cameroon. Libreville,Gabon was once served and may start again, and other routes to Brazzaville,Republic of the Congo and Sao Tome may start in the near future. It had one Embraer ERJ145 in January 2015. It had two at the start in 2013. It is leased." />
+</profile>
+   <info real="True" from="2013" to="2199"></info>
+  <prefereds aircrafts="Embraer ERJ145 LR"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="2" late="1"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="SSG" destination2="BSG" opened="2013" closed="2199" />
+	        <route destination1="SSG" destination2="ACC" opened="2013" closed="2199" />
+	        <route destination1="SSG" destination2="DLA"  opened="2013" closed="2199"  />
+	        <route destination1="SSG" destination2="NSI" opened="2015" closed="2199" />
+		<route destination1="SSG" destination2="LBV" opened="2016" closed="2199" />
+		<route destination1="SSG" destination2="BZV" opened="2016" closed="2199" />
+		<route destination1="SSG" destination2="TMS" opened="2016" closed="2199" />
+              </routes>
+  
+
+
+</airline>

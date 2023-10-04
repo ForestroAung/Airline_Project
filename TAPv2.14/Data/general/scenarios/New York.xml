@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="New York - Post 9/11" startyear="2002" shortname="NewYork" logo="newyork" description="In the post-9/11 United States, many airlines had trouble getting their passenger values back up to normal. As the CEO of jetBlue, your job is to revitalize the airline market for the New York Metropolitan area, one of the busiest airspaces in the world. You will have 10 years to grow to a fleet of at least 20 aircraft and serving at least 25 domestic airports from the three main airports of New York City. During that time, you must keep your bank account in the black. Good luck, we know you've got what it takes!.">
+<airportssettings majorairports="False" regions="119"></airportssettings>
+<airlines>
+<airline name="B6" ishuman="True">
+<destinations>
+<destination airport="LGA" slots="10"></destination>
+<destination airport="EWR" slots="10"></destination>
+<destination airport="BOS" slots="5"></destination>
+<destination airport="LAX" slots="5"></destination>
+<destination airport="MIA" slots="5"></destination>
+<destination airport="SFO" slots="5"></destination>
+ </destinations>
+<airliners>
+  <aircraft name="Boeing 737-600" quantity="8" />
+      <aircraft name="Boeing 757-200" quantity="2" />
+      <aircraft name="Boeing 767-200" quantity="1" />
+</airliners>
+</airline>
+ <airline name="DL">
+<destinations>
+<destination airport="ATL" slots="30"></destination>
+<destination airport="JFK" slots="30"></destination>
+<destination airport="LAX" slots="20"></destination>
+<destination airport="BOS" slots="10"></destination>
+<destination airport="DFW" slots="25"></destination>
+<destination airport="MSP" slots="20"></destination>
+</destinations>
+<routes>
+       <route origin="ATL" destination="JFK" airliner="Boeing 737-600" />
+        <route origin="ATL" destination="LAX" airliner="Boeing 757-200"/>
+        <route origin="ATL" destination="BOS" airliner="Boeing 737-600" />
+        <route origin="ATL" destination="PHL" airliner="Boeing 737-600" />
+        <route origin="ATL" destination="LHR" airliner="Boeing 747-400"  />
+        <route origin="ATL" destination="DFW" airliner="Boeing 737-600" />
+ </routes>
+<airliners>
+<airliner type="Boeing 737-600" quantity="10"></airliner>
+<airliner type="Boeing 757-200" quantity="6"></airliner>
+</airliners>
+</airline>
+<airline name="AA">
+<destinations>
+<destination airport="DFW" slots="30"></destination>
+<destination airport="CLT" slots="30"></destination>
+<destination airport="ORD" slots="20"></destination>
+<destination airport="JFK" slots="20"></destination>
+<destination airport="PHL" slots="15"></destination>
+</destinations>
+<routes>
+      <route origin="DFW" destination="ATL" airliner="Boeing 737-600" />
+        <route origin="DFW" destination="JFK" airliner="Boeing 737-800"/>
+        <route origin="DFW" destination="LAX" airliner="Boeing 737-800"/>
+        <route origin="DFW" destination="MIA" airliner="Boeing 737-800"  />
+        <route origin="DFW" destination="ORD" airliner="Boeing 717-200" />
+</routes>
+<airliners>
+<airliner type="Boeing 737-800" quantity="15"></airliner>
+</airliners>
+</airline>
+<airline name="UA">
+<destinations>
+<destination airport="IAH" slots="30"></destination>
+<destination airport="DEN" slots="20"></destination>
+<destination airport="ORD" slots="25"></destination>
+<destination airport="CLE" slots="10"></destination>
+<destination airport="SFO" slots="15"></destination>
+</destinations>
+<routes>
+         <route origin="IAH" destination="CLE" airliner="Airbus A320-200"/>
+        <route origin="IAH" destination="DEN" airliner="Airbus A320-200" />
+        <route origin="IAH" destination="SFO" airliner="Boeing 757-200"  />
+        <route origin="IAH" destination="LAX" airliner="Boeing 737-900"  />
+        <route origin="IAH" destination="LAS" airliner="Boeing 777-300"/>
+</routes>
+<airliners>
+<airliner type="Boeing 757-200" quantity="5"></airliner>
+<airliner type="Airbus A320-200" quantity="7"></airliner>
+</airliners>
+</airline>
+</airlines>
+<parameters>
+<!--<parameter parametertype="Success" type="Opponents" rounds="-1" value="4" interval="Daily" text="Congratulations! You have managed to eliminate all other airlines."></parameter>
+-->
+<parameter parametertype="Failure" type="Cash" value="0" rounds="-1" description="Having a positive balance after two years and maintain the positive balance for 18 years" startround="24" interval="Monthly" text="You have failed the scenario because you didn't create a positive balance. You aren't the right CEO for this company!"></parameter>
+<parameter parametertype="Failure" value="25;JFK+EWR+LGA" type="RoutesFromAirports" interval="Yearly" description="Having over 25 routes from JFK, LGA and/or EWR after 10 years of playing" rounds="10" text="You have failed the scenario because you didn't successfully set up and operate 25 routes in 10 years!"></parameter>
+<parameter parametertype="Failure" value="20" type="TotalFleet" interval="Yearly" description="Having over 20 airliners in your fleet after 10 years of playing" rounds="10" text="You have failed the scenario because you didn't have a fleet of over 20 in 10 years!"></parameter>
+  <parameter parametertype="Success" type="EndOfScenario" description="" value="0" interval="Yearly" rounds="10" text="Congratulations! You have managed to become a healthy airline"></parameter>
+</parameters>
+</scenario>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bin Air" iata="BID" color="RoyalBlue" area="108" CEO="Eugen Pansow" mentality="Safe" market="Regional" preferedairport="MUC" routefocus="Mixed" schedule="Charter"> 
+  <narrative narrative="Bin Air is a German charter cargo and passenger airline. Its base is Munich. It flies charters throughout Europe. It was founded in 1996. It uses eleven Fairchild Swearingen Metroliners as of December 2015 and has the largest fleet of them in Europe. It has been seen at places like Dublin,Ireland
+  and Manchester,England and domestic places like Cologne and Stuttgart as far as photos of their planes in operation." />
+</profile>
+   <info real="True" from="1996" to="2199"></info>
+   <prefereds aircrafts="Fairchild Swearingen Metroliner"></prefereds>
+  <routes>
+    <route destination1="MUC" destination2="CGN"/>
+    <route destination1="MUC" destination2="STR"/>
+  </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="3" late="11"></airliner>
+	     </airliners>
+  </airline>

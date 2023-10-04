@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="BAL Bashkirian Airlines" iata="V9" color="SlateBlue" area="177" CEO="Radomir Bogomolov" mentality="Moderate" market="Global" preferedairport="UFA">
+  <narrative narrative="BAL Bashkirian Airlines was around from 1991 to late 2006. Like many other Russian airlines it had once been a part of Aeroflot and broke off in 1991 after the fall of the Soviet Union. It was based at Ufa, which is the main city in the Republic of Bashkortostan. It had 1,513 employees at the end. At January 2005 it was going domestic to Moscow,Nadym,Nizhnevartovsk,Novy Urengoy,Saint Petersburg and Surgut. International scheduled ones were Baku,Azerbaijian Barcelona,Spain Dushanbe,Tajikistan Istanbul,Turkey and Yerevan,Armenia. Charters were offered to Sharm el Shiekh,Egypt Hurghada,Egypt Cairo,Egypt
+  Tunis,Tunisia and even though it did scheduled service to Barcelona it also did charters to there also. At the end it had 21 planes, they were nine Tu-154M's,eight Tu-134A's and four Antonov 24's. "/>
+</profile>
+  <info real="True" from="1991" to="2007" />
+  <prefereds aircrafts="Tupolev Tu-154M,Tupolev Tu-134A,Antonov An-24"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="4" late="9"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="4" late="8"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="4" late="4"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="UFA" destination2="DME" />
+	          <route destination1="UFA" destination2="VKO" />
+		  <route destination1="UFA" destination2="LED" />
+	          <route destination1="UFA" destination2="SGC" />
+		  <route destination1="UFA" destination2="NUX" />
+	          <route destination1="UFA" destination2="NJC" />
+		  <route destination1="UFA" destination2="IST" />
+		  <route destination1="UFA" destination2="GYD" />
+	          <route destination1="UFA" destination2="EVN" />
+		  <route destination1="UFA" destination2="DYU" />
+		  <route destination1="UFA" destination2="BCN" />
+		  <route destination1="UFA" destination2="SSH" type="Charter" />
+		  <route destination1="UFA" destination2="HRG" type="Charter" />
+        </routes>
+</airline>

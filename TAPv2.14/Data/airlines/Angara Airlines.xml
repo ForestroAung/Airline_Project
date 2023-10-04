@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Angara Airlines" iata="2G" logo="2G2" color="SkyBlue" area="177" CEO="Anatoly Fedorovich Yurtayev" mentality="Moderate" market="Global" preferedairport="IKT" routefocus="Mixed_Passenger">
+  <narrative narrative="Angara Airlines is a Russian carrier based at Irkutsk. It has another hub at Novosibirsk. Its main area of operations is Siberia. At July 2015 from Irkutsk it was going to Bodaybo,Bratsk,Erbogachen,
+  Kirensk,Krasnoyarsk,Mama,Mirny,Novosibirsk,Polyarny,Talakan,Ust-Kut and Yakutsk. And seasonal summer to Sochi. From Novosibirsk besides IKT it was going to Blagoveshchensk,Bratsk,Chelyabinsk,Krasnodar,Mirny,Nizhnevartovsk,Talakan,and Ufa. And an international one
+  to Lankaran,Azerbaijian. Other routes include Chelyabinsk-Kazan,Krasnoyarsk-Mirny, and seasonal ones between Chelyabinsk-Sochi and Krasnodar-Nizhnevartovsk. Its fleet at December 2013 was six Antonov 24's,
+  four Antonov 2's,two Antonov 148-100E's,two Antonov 26's,and twelve Mi-8 helicopters. The airline began in 2000."/>
+</profile>
+  <info real="True" from="2000" to="2199" />
+  <prefereds aircrafts="Antonov An-24,Antonov An-148 100E,Antonov An-2,Antonov An-26,Mi-8P"></prefereds>
+    <focusairports>
+                 <focusairport airport="OVB"></focusairport> 
+     </focusairports>
+        	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="6" late="6"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-2" early="4" late="4"></airliner>
+	     </airliners>
+	                 	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-148 100E" early="0" late="2"></airliner>
+	     </airliners>
+	                 	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="0" late="2"></airliner>
+	     </airliners>
+	                 	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Mi-8P" early="3" late="12"></airliner>
+	     </airliners>
+	     
+               <routes>
+	          <route destination1="IKT" destination2="KJA"   />
+		  <route destination1="IKT" destination2="OVB"   />
+		  <route destination1="IKT" destination2="YKS"   />
+		  <route destination1="IKT" destination2="BTK"   />
+		  <route destination1="IKT" destination2="MJZ"   />
+		   <route destination1="IKT" destination2="PYJ"   />
+		  <route destination1="IKT" destination2="UKX"   />
+	       	 <route destination1="IKT" destination2="ODO"   />
+		  <route destination1="IKT" destination2="KCK"   />
+		   <route destination1="IKT" destination2="ERG"   />
+		   <route destination1="IKT" destination2="TLK"   />
+		   <route destination1="IKT" destination2="AER" season="Summer"  />
+		  <route destination1="OVB" destination2="CEK"   />
+		  <route destination1="OVB" destination2="NJC"   />
+		  <route destination1="OVB" destination2="BQS"   />
+		  <route destination1="OVB" destination2="UFA"   />
+		  <route destination1="OVB" destination2="MJZ"   />
+		  <route destination1="OVB" destination2="BTK"   />
+		  <route destination1="OVB" destination2="KRR"   />
+		  <route destination1="OVB" destination2="LLK"   />
+		  <route destination1="CEK" destination2="KZN"   />
+		  <route destination1="KJA" destination2="MJZ"   />
+		  <route destination1="OVB" destination2="TLK"  opened="2015" closed="2199"  />
+		  <route destination1="CEK" destination2="AER" season="Summer"  />
+		  <route destination1="CEK" destination2="IKT" season="Summer"  />
+		  <route destination1="KRR" destination2="NJC" season="Summer"  />
+		 		        </routes>
+
+
+
+
+</airline>

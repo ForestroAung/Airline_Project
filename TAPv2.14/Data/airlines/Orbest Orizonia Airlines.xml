@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Orbest Orizonia Airlines" iata="TY" color="LightSeaGreen" area="117" CEO="Gabriel Subias Cano" mentality="Safe" market="Global" preferedairport="PMI" schedule="Charter">
+    <narrative
+      narrative="Orbest Orizonia airlines (formerly Iberworld Airlines) was an airline based in Palma de Mallorca. It operated scheduled flights to Cuba and domestic destinations, and charter flights to european and carribean destinations." />
+  <logos>
+	<logo from="1998" to="2010" path="TY1998-2010"/>
+	<logo from="2011" to="2013" path="TY2011-2013"/>
+</logos>
+  <names>
+	<name value="Iberworld Airlines" from="01.01.1998 00:00:00"/>
+	<name value="Orbest Orizonia Airlines" from="05.01.2011 00:00:00"/>
+</names>
+  </profile>
+  <info real="True" from="1998" to="2013" />
+     <prefereds aircrafts="Airbus A320-200,Airbus A330-200"></prefereds>
+	 <focusairports>
+	<focusairport airport="PMI"></focusairport>
+	<focusairport airport="MAD"></focusairport>
+</focusairports>
+</airline>

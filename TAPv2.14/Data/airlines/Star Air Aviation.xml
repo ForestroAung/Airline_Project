@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Star Air Aviation" iata="URJ" color="Yellow" area="221" CEO="Ahsan Urooj Khan" mentality="Safe" market="Regional" preferedairport="KHI" routefocus="Cargo">
+  <narrative narrative="Star Air Aviation is a cargo airline based at Karachi,Pakistan. It began in 2000. At June 2015 from Karachi it was going domestic to Islamabad,Lahore and Peshawar. International routes were to Dubai,UAE
+  Abu Dhabi,UAE and Kuwait. It got a DC-9-30 in 2011. Before it used a 727-200. It is a ground handling agent company as well. It also trains aircraft licensed engineers with several courses at Karachi and Lahore."/>
+</profile>
+  <info real="True" from="2000" to="2199" />
+  <prefereds aircrafts="Boeing 727-200 Adv.,Douglas DC-9-30"></prefereds>
+          <focusairports>
+		 <focusairport airport="LHE"></focusairport>
+					      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="KHI" destination2="DXB"   />
+		<route destination1="KHI" destination2="AUH" />
+		<route destination1="KHI" destination2="KWI"  />
+		<route destination1="KHI" destination2="ISB"   />
+                <route destination1="KHI" destination2="LHE"  />
+		<route destination1="KHI" destination2="PEW"  />
+	        </routes>
+
+
+
+
+</airline>

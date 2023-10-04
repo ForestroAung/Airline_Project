@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="flyadeal" iata="F3" color="Blue" area="308" CEO="Khalid Abdullah Almolhem"
+           mentality="Aggressive" market="Local" preferedairport="JED" businessmodel="LCC">
+           <narrative
+      narrative="flyadeal is a Saudi low-cost airline based at King Abdulaziz International Airport in Jeddah. It is owned by Saudi flag carrier Saudia. The airline began operations on 23 September 2017 with flights to domestic destinations." />
+  
+  </profile>
+  <info real="True" from="2017" to="2199" />
+<airliners>
+      <airliner type="Airbus A320-200" early="6" late="0"></airliner>
+</airliners>
+<routes>
+	     <route destination1="JED" destination2="AHB" />
+		 <route destination1="JED" destination2="DMM" />
+		 <route destination1="JED" destination2="RUH" />
+		 <route destination1="JED" destination2="GIZ" />
+<route destination1="JED" destination2="ELQ" />
+</routes>
+</airline>

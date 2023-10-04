@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Asia" iata="AK" color="Tomato" area="242" CEO="Tony Fernandes" mentality="Aggressive"
+           market="Global" preferedairport="KUL" businessmodel="LCC">
+    <narrative
+      narrative="Air Asia is a budget airline based out of Kuala Lumpur and has been in operation since 1993. They operate over 140 routes to 78 destionations, on a fleet consisting exclusively of Airbus A320s. " />
+  </profile>
+  <info real="True" from="1993" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+  <focusairports>
+    <focusairport airport="MNL"></focusairport>
+    <focusairport airport="DMK"></focusairport>
+    <focusairport airport="DEL"></focusairport>
+    <focusairport airport="CGK"></focusairport>
+    <focusairport airport="MNL"></focusairport>
+  </focusairports>
+  
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="15" late="45"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="KUL" destination2="AOR"/>
+      <route destination1="KUL" destination2="BPN"/>
+      <route destination1="KUL" destination2="BTJ"/>
+      <route destination1="KUL" destination2="BWN"/>
+      <route destination1="KUL" destination2="BDO"/>
+      <route destination1="KUL" destination2="BLR"/>
+      <route destination1="KUL" destination2="BKK" opened="1993" closed="2012"/>
+      <route destination1="KUL" destination2="DMK" opened="2012" closed="2199"/>
+      <route destination1="KUL" destination2="BTU"/>
+      <route destination1="KUL" destination2="CEB"/>
+      <route destination1="KUL" destination2="MAA"/>
+      <route destination1="KUL" destination2="CNX"/>
+      <route destination1="KUL" destination2="CRK"/>
+      <route destination1="KUL" destination2="DAD"/>
+      <route destination1="KUL" destination2="DPS"/>
+      <route destination1="KUL" destination2="DAC"/>
+      <route destination1="KUL" destination2="GOI"/>
+      <route destination1="KUL" destination2="CAN"/>
+      <route destination1="KUL" destination2="KWL"/>
+      <route destination1="KUL" destination2="HGH"/>
+      <route destination1="KUL" destination2="HAN"/>
+      <route destination1="KUL" destination2="HDY"/>
+      <route destination1="KUL" destination2="SGN"/>
+      <route destination1="KUL" destination2="HKG"/>
+      <route destination1="KUL" destination2="HYD"/>
+      <route destination1="KUL" destination2="CGK"/>
+      <route destination1="KUL" destination2="JHB"/>
+      <route destination1="KUL" destination2="KLO"/>
+      <route destination1="KUL" destination2="COK"/>
+      <route destination1="KUL" destination2="CCU"/>
+      <route destination1="KUL" destination2="KBR"/>
+      <route destination1="KUL" destination2="BKI"/>
+      <route destination1="KUL" destination2="KBV"/>
+      <route destination1="KUL" destination2="KUL"/>
+      <route destination1="KUL" destination2="TGG"/>
+      <route destination1="KUL" destination2="KCH"/>
+      <route destination1="KUL" destination2="KMG"/>
+      <route destination1="KUL" destination2="LBU"/>
+      <route destination1="KUL" destination2="LGK"/>
+      <route destination1="KUL" destination2="LOP"/>
+      <route destination1="KUL" destination2="MFM"/>
+      <route destination1="KUL" destination2="UPG"/>
+      <route destination1="KUL" destination2="MLE"/>
+      <route destination1="KUL" destination2="MDC"/>
+      <route destination1="KUL" destination2="MES"/>
+      <route destination1="KUL" destination2="KNO"/>
+      <route destination1="KUL" destination2="MYY"/>
+      <route destination1="KUL" destination2="MKM"/>
+      <route destination1="KUL" destination2="NNG"/>
+      <route destination1="KUL" destination2="PDG"/>
+      <route destination1="KUL" destination2="PLM"/>
+      <route destination1="KUL" destination2="PKU"/>
+      <route destination1="KUL" destination2="PEN"/>
+      <route destination1="KUL" destination2="PNH"/>
+      <route destination1="KUL" destination2="HKT"/>
+      <route destination1="KUL" destination2="PNK"/>
+      <route destination1="KUL" destination2="SDK"/>
+      <route destination1="KUL" destination2="SRG"/>
+      <route destination1="KUL" destination2="SZX"/>
+      <route destination1="KUL" destination2="SBW"/>
+      <route destination1="KUL" destination2="REP"/>
+      <route destination1="KUL" destination2="SIN"/>
+      <route destination1="KUL" destination2="SOC"/>
+      <route destination1="KUL" destination2="SZB"/>
+      <route destination1="KUL" destination2="SUB"/>
+      <route destination1="KUL" destination2="URT"/>
+      <route destination1="KUL" destination2="TPE"/>
+      <route destination1="KUL" destination2="TWU"/>
+      <route destination1="KUL" destination2="TRV"/>
+      <route destination1="KUL" destination2="TRZ"/>
+      <route destination1="KUL" destination2="VTE"/>
+      <route destination1="KUL" destination2="VTZ"/>
+      <route destination1="KUL" destination2="XMN"/>
+      <route destination1="KUL" destination2="RGN"/>
+      <route destination1="KUL" destination2="JOG"/>
+      <route destination1="MYY" destination2="BKI"/>
+      <route destination1="MYY" destination2="SIN"/>
+      <route destination1="BKI" destination2="CAN"/>
+      <route destination1="BKI" destination2="HGH"/>
+      <route destination1="BKI" destination2="HKG"/>
+      <route destination1="BKI" destination2="CGK"/>
+      <route destination1="BKI" destination2="KBR"/>
+      <route destination1="BKI" destination2="SDK"/>
+      <route destination1="BKI" destination2="SZX"/>
+      <route destination1="BKI" destination2="SIN"/>
+      <route destination1="BKI" destination2="TPE"/>
+      <route destination1="BKI" destination2="TWU"/>
+      <route destination1="JHB" destination2="BDO"/>
+      <route destination1="JHB" destination2="DMK"/>
+      <route destination1="JHB" destination2="SGN"/>
+      <route destination1="JHB" destination2="BKI"/>
+      <route destination1="JHB" destination2="KCH"/>
+      <route destination1="JHB" destination2="LOP"/>
+      <route destination1="JHB" destination2="MYY"/>
+      <route destination1="JHB" destination2="SBW"/>
+      <route destination1="JHB" destination2="TWU"/>
+      <route destination1="JHB" destination2="JOG"/>
+      <route destination1="JHB" destination2="KNO"/>
+      <route destination1="PEN" destination2="JHB"/>
+      <route destination1="PEN" destination2="BKI"/>
+      <route destination1="PEN" destination2="KCH"/>
+      <route destination1="PEN" destination2="KNO"/>
+      <route destination1="PEN" destination2="MYY"/>
+      <route destination1="PEN" destination2="SIN"/>
+      <route destination1="PEN" destination2="TPE"/>
+      <route destination1="LGK" destination2="PEN"/>
+      <route destination1="LGK" destination2="SIN"/>
+      <route destination1="KCH" destination2="BTU"/>
+      <route destination1="KCH" destination2="BKI"/>
+      <route destination1="KCH" destination2="MYY"/>
+      <route destination1="KCH" destination2="SBW"/>
+      <route destination1="KCH" destination2="SIN"/>
+    </routes>
+  </startdata>  
+</airline>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Union" iata="FR" logo="FR2" color="LimeGreen" area="113" CEO="Alexandre de Juniac" mentality="Aggressive"
+           market="Global" preferedairport="ORY">
+    <narrative
+      narrative="Air Union was a French airline established January 1, 1923, as the result of a merger between the airlines Compagnie des Messageries Aériennes and Compagnie des Grands Express Aériens. Air Union was merged with four other French airlines to become Air France on 7 October 1933." />
+  </profile>
+
+<info real="True" from="1923" to="1933"></info>
+<startdata>
+<prefereds aircrafts="Farman F.50P,Farman F.60 Goliath,Farman F.190,Breguet 280T"></prefereds>
+<focusairports>
+        <focusairport airport="ORY"></focusairport>
+</focusairports>
+</startdata>
+</airline>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Plus Ultra Líneas Aéreas" iata="PU" color="Yellow" area="117" CEO="Julio Miguel Martínez Sola" mentality="Safe" market="Global" preferedairport="MAD">
+  <narrative narrative="Plus Ultra Líneas Aéreas is a spanish airline founded in 2011 by the CEO of Air Madrid."/>
+</profile>
+  <info real="True" from="2011" to="2199" />
+  <prefereds aircrafts="Airbus A340-300"></prefereds>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A340-300" early="1" late="2"></airliner>
+	     </airliners>  
+
+</airline>

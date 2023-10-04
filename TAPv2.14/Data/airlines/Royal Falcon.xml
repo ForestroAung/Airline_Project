@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Royal Falcon" iata="RFJ"  color="MediumTurquoise" area="301" CEO=" Nabil Ababneh " mentality="Safe" market="Global" preferedairport="AMM">
+    <narrative narrative="Royal Falcon is based at Amman,Jordan at Queen Alia Intl. Airport. It began in 2007 as a charter airline and started scheduled service in 2009. At June 2016 it routes from Queen Alia were to Cairo,Egypt Erbil,Iraq and Najaf,Iraq. Service between Amman's other airport, Civil Airport, and Jeddah,Saudi Arabia were also offered.
+    It has served Abu Dhabi and Mosul,Iraq in the past as well. At June 2013 it had one A320-200 and one 737-400. It had a 767-300ER from 2009 to 2014 and a 767-200 from 2007 to 2013. For a year or two starting in 2008 it had two MD-83's and a 737-200. It has used the 737-400 since 2008
+    and the A320 since 2010. Its owner also operates the cargo airline Jordan International Air Cargo."/>
+  </profile>
+  <info real="True" from="2007" to="2199"/>
+  <prefereds aircrafts="Airbus A320-200,Boeing 737-400,Boeing 737 MAX 7,Boeing 737 MAX 8,Airbus A320neo,MD-83 (DC-9-83),Boeing 767-200,Boeing 767-300ER"/>
+          <focusairports>
+	 <focusairport airport="ADJ"></focusairport>
+     </focusairports>
+           <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-400" early="1" late="1"/>
+  </airliners>
+               <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2016)-->
+  <airliners>
+    <airliner type="Airbus A320-200" early="1" late="1"/>
+  </airliners>
+                 <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2010)-->
+  <airliners>
+    <airliner type="MD-83 (DC-9-83)" early="2" late="0"/>
+  </airliners>
+                   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 767-200" early="1" late="0"/>
+  </airliners>
+                     <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 767-300ER" early="1" late="0"/>
+  </airliners>
+                       <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2010)-->
+                         <airliners>
+    <airliner type="Boeing 737-200 Adv." early="1" late="0"/>
+  </airliners>
+  <routes>
+    <route destination1="AMM" destination2="CAI"/>
+    <route destination1="ADJ" destination2="JED"/>
+    <route destination1="AMM" destination2="EBL"/>
+    <route destination1="AMM" destination2="NJF" />
+  </routes>
+</airline>

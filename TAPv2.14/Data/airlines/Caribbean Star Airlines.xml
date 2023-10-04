@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Caribbean Star Airlines" iata="8B" logo="8B2" color="MediumBlue" area="416" CEO="Allen Stanford" mentality="Safe" market="Local" preferedairport="ANU"> 
+  <narrative narrative="The airline was incorporated in Antigua in January 2000 and started operations with the Dash 8 regional turboprop in June 2000. It was owned by Texan businessman Allen Stanford, through his company Stanford Financial Group. Its sister airline, Caribbean Sun Airlines Inc., launched its maiden flight three years later. The two were affiliated but separate companies." />
+</profile>
+   <info real="True" from="2001" to="2007"></info>
+     <focusairports>
+        <focusairport airport="BGI"></focusairport>
+        <focusairport airport="SXM"></focusairport>
+     </focusairports>
+</airline>

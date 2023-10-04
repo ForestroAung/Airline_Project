@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cham Wings Airlines" iata="SAW" color="Gold" area="303" CEO="Issam Shammout" mentality="Safe" market="Global" preferedairport="DAM"> 
+  <narrative narrative="Cham Wings Airlines is based at Damascus,Syria and has flown since March 3rd,2008 with a hiatus from 2012 to 2015. It was a charter airline with a leased MD type
+  from 2008 to 2012 and flew its first flight to Baghdad,Iraq. It stopped in 2012 due to the Syrian Civil War piled on the fact it was struggling to make money as a charter airline because the
+  government denied it permission to do scheduled service. In 2014 it gained approval to do scheduled service and began flying again in 2015. At mid 2016 it was serving all of its routes 
+  from Damascus. The domestic ones are to Al-Qamishli and Latakia. The international ones are to Baghdad,Iraq Nejaf,Iraq Istanbul,Turkey Kuwait   Dubai,UAE Beirut,Lebanon Tehran,Iran Khartoum,Sudan and Muscat,Oman. Some routes were terminated
+  already as well, to Sharm el Sheikh,Egypy Jeddah,Saudi Arabia Dammam,Saudi Arabia Antalya,Turkey Doha,Qatar Brussels,Belgium and Malmo,Sweden. Its fleet at December 2015 was
+  two A320-200's, one seats 174 passengers and the other 156." />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+   <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+       
+  <routes>
+    <route destination1="DAM" destination2="DXB" opened="2015" closed="2199"/>
+    <route destination1="DAM" destination2="JED" opened="2015" closed="2016"/>
+    <route destination1="DAM" destination2="IST" opened="2015" closed="2199"/>
+    <route destination1="DAM" destination2="IKA" opened="2015" closed="2199"/>
+    <route destination1="DAM" destination2="BGW" opened="2008" closed="2199"/>
+     <route destination1="DAM" destination2="BEY" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="SSH" opened="2015" closed="2016"/>
+     <route destination1="DAM" destination2="KWI" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="MCT" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="LTK" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="KAC" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="NJF" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="KRT" opened="2015" closed="2199"/>
+     <route destination1="DAM" destination2="DMM" opened="2015" closed="2016"/>
+     <route destination1="DAM" destination2="DOH" opened="2015" closed="2016"/>
+     <route destination1="DAM" destination2="AYT" opened="2015" closed="2016"/>
+      <route destination1="DAM" destination2="BRU" opened="2015" closed="2016"/>
+      <route destination1="DAM" destination2="MMX" opened="2015" closed="2016"/>
+     </routes>
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+
+
+
+</airline>

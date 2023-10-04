@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="TEA Italia" iata="TI3" logo="HE2" color="Blue" area="122" CEO="George P. Gutelman" mentality="Moderate" market="Regional" preferedairport="TSF" schedule="Charter">
+  <narrative narrative="TEA Italia was a subsidiary of Trans European Airways."/>
+   </profile>
+    <info real="True" from="1990" to="1995"/>
+       <prefereds aircrafts="Boeing 737-300"></prefereds>
+</airline>

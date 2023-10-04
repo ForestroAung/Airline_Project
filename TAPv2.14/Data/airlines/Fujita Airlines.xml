@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fujita Airlines" iata="FUJ" color="SteelBlue" area="220" CEO="Aoki Haruo" mentality="Moderate" market="Domestic" preferedairport="HND"> 
+  <narrative narrative="Fujita Airlines was a Japanese carrier that existed from 1952 to 1964, in 1964 it merged with 2 other airlines to form Japan Domestic Airlines. These were Nitto Aviation and Kita Nihon Airlines which there is virtually no information to be found abour those 2 airlines.
+  Fujita used Convair 240,DH 104 Dove,DH 114 Heron,Fokker F27 and Cessna 170 aircraft. It seems to have been a domestic carrier only. Its most likely base was Tokyo Haneda. Japan Domestic Airlines would
+  later merge with Toa Airways in 1971 to form Toa Domestic Airlines. That airline changed names in 1988 to Japan Air System. Japan Air System merged into Japan Airlines in 2006. So Fujita's
+  legacy is still technically alive in Japan's flag carrier Japan Airlines today. There are records of two crashes of Fujita Airlines. In August 1963 a DH Heron crashed on Hachijo Island near Tokyo killing 19.
+  And in February 1964 a Convair 240 overran the runway at Oita killing 20 of the 42 people on board. Its founded was Aoki Haruo." />
+</profile>
+   <info real="True" from="1952" to="1965"></info>
+   <prefereds aircrafts="Convair 240,DH 104 Dove,DH 114 Heron,Fokker F27,Cessna 170"></prefereds>
+
+
+</airline>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lebanese International Airways" iata="LIA" color="Silver" area="302" CEO="Ibrahim Tawil" mentality="Safe" market="Global" preferedairport="BEY">
+  <narrative narrative="Lebanese International Airways was around from January 1956 until January 1969. It was based at Beirut,Lebanon. It formed with the help of American carrier Pan Am. It it expanded by 1958
+  to include agreements with Belgian carrier Sabena. By the mid sixties it served places like Tehran,Iran Kuwait Baghdad,Iraq Bahrain Paris,France and Milan,Italy. Most of its fleet was destroyed in January 1969
+  by military action by Israel. It was merged into Middle East Airlines shortly after. The planes it used include the Convair 990 jet,DC-3,DC-4,DC-6,DC-7 and Curtiss Commando."/>
+</profile>
+  <info real="True" from="1956" to="1969" />
+  <prefereds aircrafts="Convair 990,Douglas DC-3,Douglas DC-4-1009,Douglas DC-6,Douglas DC-6B,Douglas DC-7,Douglas DC-7C"></prefereds> 
+               <routes>
+	          <route destination1="BEY" destination2="THR"    />
+		  <route destination1="BEY" destination2="CDG"    />
+		  <route destination1="BEY" destination2="BGW"    />
+		  <route destination1="BEY" destination2="MXP"    />
+		  <route destination1="BEY" destination2="BAH"    />
+		  <route destination1="BEY" destination2="KWI"    />
+		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FlySouthern" iata="FS" logo="7" color="Tomato" area="402" CEO="Kendall Hart" mentality="Aggressive" market="Global" preferedairport="TPA" businessmodel="LCC"  >
+  <narrative narrative="FlySouthern is a fictional airline added by request from an user of the game."/>
+</profile>
+  <info real="False" from="1981" to="2199" />
+  <prefereds aircrafts="Boeing 737-700,Boeing 737-800,Boeing 737-900ER,Boeing 737 MAX 7,Boeing 737 MAX 8,Boeing 787-8"></prefereds>
+            <focusairports>
+	 <focusairport airport="ATL"></focusairport>
+   <focusairport airport="JAX"></focusairport>
+   <focusairport airport="RDU"></focusairport>
+   <focusairport airport="BNA"></focusairport>
+   <focusairport airport="PBI"></focusairport>
+   <focusairport airport="FLL"></focusairport>
+     </focusairports>
+
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="4" late="85"></airliner>
+	       <airliner type="Boeing 737-800" early="2" late="105"></airliner>
+	          <airliner type="Boeing 737-900ER" early="1" late="35"></airliner>
+	             <airliner type="Boeing 737 MAX 7" early="0" late="70"></airliner>
+	             <airliner type="Boeing 737 MAX 8" early="0" late="115"></airliner>
+	             <airliner type="Boeing 787-8" early="0" late="15"></airliner>
+	     </airliners>
+</airline>

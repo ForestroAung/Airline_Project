@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Simplifly" iata="DLK" color="Purple" area="230" CEO="Suren Mirchandani" mentality="Safe" market="Domestic" preferedairport="CMB" routefocus="Mixed_Passenger" schedule="Charter">
+  <narrative narrative="Simplify is the DBA name for Millennium Airlines of Sri Lanka. It is a charter airline based at both of Colombo's airports. It began in 2004 and offers the same 7 destinations from each airport, all of them domestic. It uses a Cessna 206 seaplane,a Gippsland GA8 Airvan,a Bell 206 helicopter and a Bell 407 helicopter. It used Beechcraft 1900's before also. It was called Deccan Aviation Lanka until 2013, after the exit of Deccan Charters Ltd. of India in November 2011 it was renamed." />
+ </profile>
+    <info real="True" from="2004" to="2199" />
+       <prefereds aircrafts="Cessna 206,GA8 Airvan,Bell 206,Bell 407"></prefereds>
+       <focusairports>
+                 <focusairport airport="RML"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna 206" early="1" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2014)-->
+	     	         <airliners>
+	    <airliner type="GA8 Airvan" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="2" late="0"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bell 206" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bell 407" early="1" late="1"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="CMB" destination2="TRR"    />	
+	    <route destination1="CMB" destination2="JAF"    />	
+	    <route destination1="CMB" destination2="GIU"    />	
+	    <route destination1="CMB" destination2="ACJ"    />
+	    <route destination1="CMB" destination2="KCT"    />	
+	    <route destination1="CMB" destination2="KTY"    />
+	    <route destination1="RML" destination2="TRR"    />	
+	    <route destination1="RML" destination2="JAF"    />	
+	    <route destination1="RML" destination2="GIU"    />	
+	    <route destination1="RML" destination2="ACJ"    />
+	    <route destination1="RML" destination2="KCT"    />	
+	    <route destination1="RML" destination2="KTY"    />
+                   </routes>
+</airline>

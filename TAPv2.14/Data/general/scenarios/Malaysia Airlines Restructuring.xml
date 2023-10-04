@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="Malaysia Airlines Rebranding" startyear="2015" shortname="Malaysia" logo="malaysia_airlines" description="After years of mismanagement, Malaysia Airlines has been strained heavily financially and has accumulated significant debt. After the the MH370 and MH17 incidents, these financial and operational strains have been exacerbated. You have been offered the position of CEO with full control of the airline to get the company back on a solid financial footing. Heavy competition will hinder you in your efforts. You know this task will not be easy but the fate of the entire company lies in your hands. You have been given 2 years before the board expects break even. Good Luck!">
+<airportssettings majorairports="True" regions="All"></airportssettings>
+<airlines>
+<airline name="MH" ishuman="True" startmoney="-12431233">
+   <routes>
+      <route origin="KUL" destination="PEK" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="BLR" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="AMS" airliner="Boeing 777-200" />
+      <route origin="KUL" destination="MAA" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="CMB" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="DRW" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="DEL" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="DPS" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="DAC" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="CAN" airliner="Boeing 777-200" />
+      <route origin="KUL" destination="HAN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="SGN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="HKG" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="HKG" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="HYD" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="CGK" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="JED" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="KTM" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="KBR" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="BKI" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="TGG" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="KUA" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="KCH" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="LBU" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="LGK" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="LHR" airliner="Airbus A380-800" />
+      <route origin="KUL" destination="MLE" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="MNL" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="MEL" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="BOM" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="NGO" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="KIX" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="CDG" airliner="Boeing 777-200" />
+      <route origin="KUL" destination="PEN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="PER" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="PNH" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="HKT" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="SDK" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="ICN" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="PVG" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="SBW" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="REP" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="SIN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="SYD" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="TPE" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="TWU" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="NRT" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="RGN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="XMN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="ADL" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="AKL" airliner="Airbus A330-300" />
+      <route origin="KUL" destination="BWN" airliner="Boeing 737-800" />
+      <route origin="KUL" destination="BKK" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="PEN" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="TWU" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="KCH" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="PER" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="SDK" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="PVG" airliner="Boeing 737-800" />
+      <route origin="BKI" destination="TPE" airliner="Boeing 737-800" />
+      <route origin="KCH" destination="MYY" airliner="Boeing 737-800" />
+      <route origin="KCH" destination="SIN" airliner="Boeing 737-800" />
+    </routes> 
+    </airline>
+<airline name="AK">
+<routes>
+        <route origin="KUL" destination="DMK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="TPE" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="AOR" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BPN" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BTJ" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BWN" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BDO" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BLR" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CEB" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="MAA" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CNX" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CRK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CMB" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="DAD" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="DPS" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="DAC" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="GOI" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CAN" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KWL" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="HGH" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SGN" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="HKG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="HYD" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CGK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="JHB" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KLO" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="COK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="CCU" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KBR" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="BKI" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KBV" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="TGG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KCH" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="KMG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="LBU" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="LGK" airliner="Airbus A320-200" />
+         <route origin="KUL" destination="MFM" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="UPG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="MLE" airliner="Airbus A320-200" />
+         <route origin="KUL" destination="MYY" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="NNG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="PDG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="PLM" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="PKU" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="PEN" airliner="Airbus A320-200" />
+    <!--    <route origin="KUL" destination="PHN" airliner="Airbus A320-200"  />-->
+        <route origin="KUL" destination="HKT" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="PNK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SDK" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SRG" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SZX" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="REP" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SBW" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SIN" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SOC" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="SUB" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="URT" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="TPE" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="TWU" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="TRZ" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="VTE" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="VTZ" airliner="Airbus A320-200" />
+        <route origin="KUL" destination="MNL" airliner="Airbus A320-200" />
+</routes>
+</airline>
+<airline name="SQ">
+<routes>
+        <route origin="SIN" destination="ADL" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="AMD" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="AMS" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="ATH" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="AKL" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="AKL" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="BWN" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="BKK" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="BKK" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="BCN" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="PEK" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="PEK" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="PEK" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="BLR" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="BNE" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="CHC" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="CMB" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="CPH" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="DEL" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="DEL" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="DPS" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="DAC" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="DXB" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="DXB" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="FRA" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="FRA" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="FUK" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="CAN" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="SGN" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="HKG" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="HKG" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="HKG" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="IST" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="CGK" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="JNB" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="CCU" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="KUL" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="LHR" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="LHR" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="MLE" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="MNL" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="MNL" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="MEL" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="MEL" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="MEL" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="MXP" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="DME" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="BOM" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="BOM" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="MUC" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="NGO" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="KIX" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="CDG" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="PER" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="PER" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="FCO" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="ICN" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="PVG" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="PVG" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="PVG" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="SUB" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="SYD" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="SYD" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="SYD" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="SYD" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="TPE" airliner="Airbus A330-300" />
+        <route origin="SIN" destination="NRT" airliner="Boeing 777-300ER" />
+        <route origin="SIN" destination="NRT" airliner="Airbus A380-800" />
+        <route origin="SIN" destination="HND" airliner="Boeing 777-300" />
+        <route origin="SIN" destination="HND" airliner="Boeing 777-200" />
+        <route origin="SIN" destination="ZRH" airliner="Airbus A380-800" />
+</routes>
+</airline>
+<airline name="EK">
+<routes>
+        <route origin="IAH" destination="CLE" airliner="Airbus A320-200" />
+        <route origin="IAH" destination="DEN" airliner="Airbus A320-200" />
+        <route origin="IAH" destination="SFO" airliner="Boeing 757-200" />
+        <route origin="IAH" destination="LAX" airliner="Boeing 737-900" />
+        <route origin="IAH" destination="NRT" airliner="Boeing 777-200ER" />
+        </routes>
+</airline>
+<airline name="BA">
+<routes>
+       <route origin="LHR" destination="SIN" airliner="Boeing 777-300" />
+     <route origin="LHR" destination="HKG" airliner="Boeing 777-300" />
+        <route origin="LHR" destination="JFK" airliner="Boeing 777-200" />
+    <!--    <route origin="LHR" destination="EK" airliner="Airbus A380-800"  />-->
+        <route origin="SIN" destination="SYD" airliner="Boeing 777-200" />
+        <route origin="LHR" destination="SJC" airliner="Boeing 787-8" />
+        </routes>
+</airline>
+</airlines>
+<parameters>
+<parameter parametertype="Failure" type="Cash" value="0" rounds="-1" description="Having a positive balance after two years and maintain the positive balance for 18 years" startround="24" interval="Monthly" text="You have failed the scenario because you didn't create a positive balance. You aren't the right CEO for this company!"></parameter>
+<parameter parametertype="Success" type="EndOfScenario" value="0" description="" interval="Yearly" rounds="20" text="Congratulations! You have managed to make Malaysian Airlines a healthy company."></parameter>
+</parameters>
+</scenario>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Azimuth" iata="A4" logo="A42" color="Red" area="177" CEO="Vitaliy Vantsev" mentality="Aggressive" market="Global" preferedairport="ROV">
+    <narrative narrative="Due to the merger of Donavia with Rossiya Airlines in 2016, Rostov-on-Don lost the main airline based at its airport, even though Rossiya continued the flights previously operated by Donavia. As Rostov-on-Don was selected as one of the host cities for the 2018 football world cup in Russia, there was a perceived need for another airline to provide extra flights. The airline received an air operator&apos;s certificate (AOC) in August 2017." />
+  </profile>
+  <info real="True" from="2017" to="2199" />
+<startdata>
+    <airliners>
+      <airliner type="Sukhoi Superjet 100" early="5" late="6"></airliner>
+    </airliners>
+	    <routes>   
+		 <route destination1="ROV" destination2="KRR"/>
+		 <route destination1="ROV" destination2="MCX"/>
+		 <route destination1="ROV" destination2="VKO"/>
+		 <route destination1="ROV" destination2="OVB"/>
+		 <route destination1="ROV" destination2="OMS"/>
+		 <route destination1="ROV" destination2="LED"/>
+		 <route destination1="ROV" destination2="KUF"/>
+		 <route destination1="ROV" destination2="AER"/>
+		 <route destination1="ROV" destination2="SVX"/>
+		</routes>   
+  </startdata>
+</airline>

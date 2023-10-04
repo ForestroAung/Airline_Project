@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Boutique Air" iata="BOA"  color="LightBlue" area="402" CEO="Donald O'Connell" mentality="Safe" market="Local" preferedairport="DFW">
+  <narrative narrative="Boutique Air is an Essential Air Service provider, meaning they get paid by the government to do routes deemed essential to the community served. As of April 2015 these were Dallas-Ft. Worth to
+  Clovis,New Mexico and Albuquerque,New Mexico to Silver City,New Mexico. It also served Hawthorne,California to Las Vegas during 2013 to sometime in 2014. It began the DFW route on July 15,2014 and won the contract for
+  the ABQ-SVC route in December 2014. It uses Pilatus PC-12's in an 8 seat corporate configuration." />
+   </profile>
+    <info real="True" from="2013" to="2199" />
+       <prefereds aircrafts="Pilatus PC-12"></prefereds>
+              <focusairports>
+                 <focusairport airport="ABQ"></focusairport>
+	         <focusairport airport="LAX"></focusairport>
+		 <focusairport airport="LAS"></focusairport>
+     </focusairports>
+	       <routes>
+       	        <route destination1="DFW" destination2="CVN" opened="2014" closed="2199"/>
+		<route destination1="ABQ" destination2="SVC" opened="2015" closed="2199"/>
+			              </routes>
+</airline>

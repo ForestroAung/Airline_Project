@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Elbee Airlines" iata="LBE" color="Gold" area="224" CEO="Nikhil Shah" mentality="Safe" market="Domestic" preferedairport="BOM" routefocus="Cargo">
+    <narrative narrative="Elbee Airlines was a cargo airline from June 1995 to July 1998 and was based at Mumbai (Bombay),India. It started with threee Fokker F27's and operated routes to Delhi,Balgalore and Chennai.
+    It lost one of its planes in a crash in 1997. It was part of Elbee Services, one of India's largest express logistics companies that would also go on to close down in 2002. However in 2004 a new company was founded and the name brought back.
+    Elbee Airlines also flew for UPS. It had plans to spend 57 million dollars on three Boeing 727's and three DC-10's but the 1997 crash hindered business and it would go on to close in July 1998." />
+  </profile>
+    <info real="True" from="1995" to="1999" />
+           <prefereds aircrafts="Fokker F27"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1998)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="3" late="2"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="BOM" destination2="DEL"    />	
+	    <route destination1="BOM" destination2="BLR"    />	
+	    <route destination1="BOM" destination2="MAA"    />	
+                   </routes>
+</airline>

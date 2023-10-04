@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Turan Air" iata="3T" color="ForestGreen" area="181" CEO="Rustam Orujov" mentality="Safe" market="Global"  preferedairport="GYD">
+  <narrative narrative="Turan Air was an airline based at Baku,Azerbaijan from 1994 until 2013. At the end it was serving the domestic destination of Lenkoran and the Russian cities of Novosibirsk,Yekaterinburg,
+  Kazan and Surgut. It had five Tupolev Tu-154M's at the end." />
+</profile>
+   <info real="True" from="1994" to="2013"></info>
+   <prefereds aircrafts="Tupolev Tu-154M"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2012)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="5" late="5"></airliner>
+	     </airliners>
+	
+<routes>
+	        <route destination1="GYD" destination2="LLK" opened="1994" closed="2199"  />
+		<route destination1="GYD" destination2="OVB" opened="1994" closed="2199"  />
+     		<route destination1="GYD" destination2="SVX" opened="1994" closed="2199"  />
+		<route destination1="GYD" destination2="KZN" opened="1994" closed="2199"  />
+	        <route destination1="GYD" destination2="SGC" opened="1994" closed="2199"  />
+        </routes>
+ 
+
+
+</airline>

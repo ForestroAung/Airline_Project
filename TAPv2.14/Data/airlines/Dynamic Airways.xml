@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dynamic Airways" iata="2D" color="DarkRed" area="402" CEO="Karl D. Stoltzfus, Sr." mentality="Safe" market="Regional" preferedairport="GSO">
+  <narrative narrative="Dynamic Airways LLC, doing business as Dynamic International Airways, is a US Certificated airline owned by private owners, founded in 2010. The airline operates several Boeing 767-200ERs and a single Boeing 767-300ER; and formerly operated McDonnell Douglas MD-88s."/>
+</profile>
+  <info real="True" from="2010" to="2199" />
+  <prefereds aircrafts="Boeing 767-200ER,Boeing 767-300ER"></prefereds>
+</airline>

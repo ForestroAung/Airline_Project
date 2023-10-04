@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Uganda National Airlines" iata="QU3" logo="QU3" color="Red" area="357" CEO="Ephraim Bagenda"
+           mentality="Safe" market="Global" preferedairport="EBB">
+    <narrative
+      narrative="Uganda National Airlines, starting operations in 2019, is the new flag carrier of Uganda after the previous flag carrier ceased operations in 2001.">
+    </narrative>
+  </profile>
+  <info real="True" from="2019" to="2199" />
+</airline>

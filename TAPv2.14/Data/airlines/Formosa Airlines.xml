@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Formosa Airlines" iata="FOS" color="Cyan" area="217" CEO="Kuo-Hsiung Kao" mentality="Moderate" market="Domestic" preferedairport="TSA">
+  <narrative narrative="Formosa Airlines was a domestic Taiwan airline, of which Formosa is a historical name for it,that was around from 1996 to 1999 when it merged with Mandarin Airlines. Its first decade however was as a crop dusting service, and it was called Yung Shing Airlines from the start to 1987. When it started passenger operations about ten years after founding it used BN-2A Islanders and Cessna 404's on routes from Taitung to outlying islands at Orchid Island and Green Island. It began using Dornier 228's in 1983. In 1988 it became the first Far East airline to operate the Swedish made Saab 340. And in 1995 it got its first jets, two Fokker 100's and more props with five Fokker 50's. At about 1993 it was serving 15 domestic routes. In July 1996 China Airlines took a 41 percent stake in it and took over management and focused on improving its safety record. It also developed Kaohsiung as a hub. On August 8,1998 the merger with another China Airlines subsidiary,Mandarin Airlines, was finalized. This was in reponse to main competitor EVA Air merging its subs to make Uni Air in 1998. Formosa's fleet in 1993 was four Dornier 228's,three Saab 340's with two on order,and three BN Islanders." />
+ </profile>
+    <info real="True" from="1976" to="2000" />
+       <prefereds aircrafts="Dornier 228-212,Fokker 50,Fokker 100,BN-2A Islander,Saab 340B"></prefereds>
+       <focusairports>
+                 <focusairport airport="KHH"></focusairport> 
+		 <focusairport airport="TTT"></focusairport> 
+		 <focusairport airport="RMQ"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1983) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="4" late="4"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1999)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1999)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="5" late="5"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1999)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="3" late="3"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1999)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="3" late="5"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Cessna 404 Titan" early="3" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="TSA" destination2="KHH"    />	
+	    <route destination1="TSA" destination2="RMQ"    />	
+	    <route destination1="TSA" destination2="KYD"    />	
+	    <route destination1="TSA" destination2="TTT"    />	
+	    <route destination1="KHH" destination2="CMJ"    />	
+	    <route destination1="KHH" destination2="MZG"    />	
+	    <route destination1="KHH" destination2="RMQ"    />
+            <route destination1="KHH" destination2="TTT"    />	
+            <route destination1="KHH" destination2="KYD"    />
+            <route destination1="RMQ" destination2="HUN"    />
+	    <route destination1="RMQ" destination2="TTT"    />
+            <route destination1="RMQ" destination2="MZG"    />
+            <route destination1="MZG" destination2="CMJ"    />			
+	    <route destination1="TTT" destination2="GNI" opened="1976" closed="2199"    />
+	    <route destination1="TTT" destination2="KYD" opened="1976" closed="2199"    />	
+                   </routes>
+</airline>

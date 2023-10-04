@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="TruJet" iata="TRJ" color="Tomato" area="224" CEO="Ram Charan" mentality="Moderate" market="Local" preferedairport="HYD">
+    <narrative narrative="TruJet is a domestic Indian carrier that first took flight July 12th 2015. It is the brand name of Turbo Megha Airways. Hyderabad is it's hub. Its initial fleet was two  ATR 72-500's with one coming in December 2015 and two more arrived in March 2016. Its routes from HYD are to Aurangabad,Bangalore,Chennai,Goa,Rajahmundry,
+    Tirupati and Nagpur.  Nagpur began service March 20,2016. It also flies between Aurangabad and Bangalore and Aurangabad and Tirupati, as well as between Chennai and Goa and Chennai and Rajahmundry. Rajahmundy to Goa is another. One of the key people  is a well known actor in India, Ram Charan, who is also well known for his
+    entrprenuerships. This airline being one of them. Vankayalapati Umesh is his business partner in the airline. "/>  </profile>
+  <info real="True" from="2015" to="2199"/>
+  <prefereds aircrafts="ATR 72-500,ATR 72-600"/>
+    <focusairports>
+                  <focusairport airport="MAA"></focusairport> 
+                   <focusairport airport="GOI"></focusairport> 
+                 <focusairport airport="IXU"></focusairport> 
+     </focusairports>
+  <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+  <airliners>
+    <airliner type="ATR 72-500" early="3" late="5"/>
+  </airliners>
+  <routes>
+    <route destination1="HYD" destination2="BLR" opened="2015" closed="2199"/>
+     <route destination1="HYD" destination2="MAA" opened="2015" closed="2199"/>
+    <route destination1="HYD" destination2="IXU" opened="2015" closed="2199"/>
+     <route destination1="HYD" destination2="GOI" opened="2015" closed="2199"/>
+    <route destination1="HYD" destination2="RJA" opened="2015" closed="2199"/>
+    <route destination1="HYD" destination2="TIR" opened="2015" closed="2199"/>
+    <route destination1="HYD" destination2="NAG" opened="2016" closed="2199"/>
+    <route destination1="IXU" destination2="BLR" opened="2016" closed="2199"/>
+    <route destination1="IXU" destination2="TIR" opened="2016" closed="2199"/>
+    <route destination1="MAA" destination2="GOI" opened="2016" closed="2199"/>
+    <route destination1="MAA" destination2="RJA" opened="2016" closed="2199"/>
+    <route destination1="GOI" destination2="RJA"  opened="2016" closed="2199"/>
+
+  </routes>
+</airline>

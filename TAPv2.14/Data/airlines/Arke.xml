@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Arke" iata="OR" color="Cyan" area="111" CEO="Elie Bruyninckx" mentality="Aggressive" market="Global"
+           preferedairport="AMS" schedule="Charter">
+    <narrative
+      narrative="Arke started as Arkefly back in 2005. Its first flight was the 22th of april 2005. Arke is part of TUI Airlines. Currently Arke is a charter company which performs flights to mostly sunny destinations from Amsterdam, Eelde, Rotterdam and Eindhoven. Its current fleet exists of 5 Boeing 737-800, 2 Boeing 767-300ER but 1 of them will leave the fleet in april 2015 and 3 Boeing 787-8 Dreamliners. The last one of the Dreamliners is expected to join the fleet in march 2015" />
+  </profile>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 737-800" early="5" late="5"></airliner>
+      <airliner type="Boeing 767-300ER" early="2" late="1"></airliner>
+      <airliner type="Boeing 787-8" early="2" late="3"></airliner>
+    </airliners>
+  </startdata>
+
+  <info real="True" from="2005" to="2199" />
+</airline>

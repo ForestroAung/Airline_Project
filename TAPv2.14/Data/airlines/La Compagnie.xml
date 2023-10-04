@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="La Compagnie" iata="B0"  color="LightBlue" area="113" CEO="Frantz Yvelin" mentality="Safe" market="Global" preferedairport="CDG">
+  <narrative narrative="La Compagnie is a Paris CDG based airline that started on July 21,2014. The initial route is CDG to Newark,NJ,USA and it started flying from London Luton to Newark on April 24,2015 also.
+  It's CEO is Frantz Yvelin who founded L'Avion which was sold to British Airways and turned into OpenSkies. Those airlines are almost exactly the same, they fly/flew from Paris Orly to Newark, just using the other Paris airport as La Compagnie.
+  They in fact use the same plane, the 757-200 of which it has two of." />
+   </profile>
+    <info real="True" from="2014" to="2199" />
+       <prefereds aircrafts="Boeing 757-200"></prefereds>
+        <focusairports>
+                 <focusairport airport="LTN"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="CDG" destination2="EWR" opened="2014" closed="2199"/>
+	        <route destination1="LTN" destination2="EWR" opened="2015" closed="2199"/>
+              </routes>
+</airline>

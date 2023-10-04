@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Sikorsky S-34-->
+<configuration type="Sikorsky S-41" economy="0" premium="0" first="-1" business="0" exitrows="153" emergencyrows="-1" toiletrows="535" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76.4" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Sikorsky S-38" economy="0" premium="0" first="-1" business="0" exitrows="304" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Sikorsky S-36" economy="0" premium="0" first="-1" business="0" exitrows="225" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Sikorsky S-34" economy="0" premium="0" first="-1" business="0" exitrows="222" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Sikorsky S-40-->
+<configuration type="Sikorsky S-42" economy="0" premium="0" first="-1" business="0" exitrows="720" emergencyrows="-1" toiletrows="720" kitchenrows="720">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="80" width="52"></seat>
+</seats>
+</configuration>
+<configuration type="Sikorsky S-40" economy="0" premium="0" first="-1" business="0" exitrows="780" emergencyrows="-1" toiletrows="780" kitchenrows="780">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="78" width="52"></seat>
+</seats>
+</configuration>
+
+<!--Sikorsky S-43-->
+<configuration type="Sikorsky S-43" economy="0" premium="0" first="-1" business="0" exitrows="510" emergencyrows="-1" toiletrows="510" kitchenrows="510">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="102" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Sikorsky S-76-->
+<configuration type="Sikorsky S-76" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="147" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.7" width="45"></seat>
+</seats>
+</configuration>
+
+<!--Sikorsky S-92-->
+<configuration type="Sikorsky S-92" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="440" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="45"></seat>
+</seats>
+</configuration>
+</configurations>

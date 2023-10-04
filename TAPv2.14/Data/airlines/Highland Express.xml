@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Highland Express" iata="TTN" color="DarkBlue" area="102" CEO="Randolph Fields" mentality="Safe" market="Global" preferedairport="PIK">
+  <narrative narrative="Highland Express was a short lived airline based at Scotland's Prestwick Airport near Glasgow. It first launched May 30,197 during the Scottish International Airshow at Prestwick flying to Toronto,Canada. This flight used a 747-200 of Caribbean Airlines since their own 747-100 had yet to be delivered.
+  Their 747 was delivered weeks late and service finally started on June 30th flying from PIK to :London Stansted onto Newark,New Jersey,USA. It did that routing 4 days a week. 3 days a week it stopped over in Birmingham. It also did a short lived service stopping over in London Gatwick starting in November hoping for
+  more passengers. Three weeks later their only plane was repossessed by Citicorp while it was at maintenance in Brussels. The airlines founded Randolph Fields had also founded Virgin Atlantic Airlines and had sold his share of that airline to Richard Branson in 1985." />
+ </profile>
+    <info real="True" from="1987" to="1988" />
+          <prefereds aircrafts="Boeing 747-100"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1987) late (1988)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-100" early="1" late="1"></airliner>
+	     </airliners>
+</airline>

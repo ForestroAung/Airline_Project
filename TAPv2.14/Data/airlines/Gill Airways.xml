@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gill Airways" iata="GIL" color="Red" area="102" CEO="Michael Gill" mentality="Safe" market="Local" preferedairport="NCL" routefocus="Mixed">
+  <narrative narrative="Gill Airways was an airline based at Newcastle,England,UK from 1969 to September 20,2001. It began as a cargo and mail carrier and was called Gill Aviation. In 1989 it started
+  passenger service and in 1995 changed to Gill Airways. Its passenger service was to Aberdeen,Scotland Belfast,Northern Ireland Dublin,Ireland Manchester,England London Gatwick,England Wick,Scotland
+  and Jersey in the Channel Islands. It also had a codeshare with Air France on the Newcastle-Paris CDG route starting in 1995. The planes it used were Short 360's,Short 330's,Fokker 100's,BAe 146's and ATR 42-300's
+  and ATR 72's. At the end its ATR fleet was four ATR 42-300's and at the start of 2000 it had seven ATR 72's but this number went down by 2001."/>
+</profile>
+  <info real="True" from="1969" to="2002" />
+  <prefereds aircrafts="Short 360,Short 330,Fokker 100,ATR 72-200,ATR 42-300,BAe 146-200"></prefereds> 
+  <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2001)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="2" late="4"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2000)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="7"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="NCL" destination2="ABZ" routefocus="Passenger"   />
+	          <route destination1="NCL" destination2="DUB" routefocus="Passenger"  />
+                  <route destination1="NCL" destination2="BHD" routefocus="Passenger"  />
+		  <route destination1="NCL" destination2="STN" routefocus="Passenger"  />
+		  <route destination1="NCL" destination2="JER" routefocus="Passenger"  />
+		  <route destination1="ABZ" destination2="WIC" routefocus="Passenger"  />
+		  <route destination1="MAN" destination2="ABZ" routefocus="Passenger"  />
+		        </routes>
+
+
+
+
+</airline>

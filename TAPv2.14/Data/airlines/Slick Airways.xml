@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Slick Airways" iata="SCK" color="Red" area="402" CEO="Harold Delaney" mentality="Moderate" market="Global" preferedairport="SFO" routefocus="Cargo">
+  <narrative narrative="Slick Airways was a cargo airline based at San Francisco and Burbank airports from January 1946 to July 1966. Its corporate HQ were at San Antonio,TX. It at first did charters then started scheuduled
+  flights in 1949 to domestic destinations. By 1951 it was the largest all cargo airline in the US. It used the Curtiss C-46 Commando in its first year and became the first cargo operator of the Douglas DC-6 in 1951. It was in talks
+  in 1954 to merge with Flying Tiger Line but the shateholders did not agree. In 1958 it suspended services but kept doing charters for the Air Force including to Europe. In 1959 it introduced bew Lockheed L-1049 Super
+  Constellations. It flew from Travis AFB near Sacramento,CA to Japan at this time. In 1962 it added Canadair CL-44's. In 1962 it restarted scheduled service. It served routes to Dallas,St. Louis,Chicago,Indianapolis,and New York City
+  with the Constellations from its two hubs. It was also using the DC-6 on some routes. But in 1965 it replaced the Lockheeds with the CL-44's. It was also doing stuff for the Navy domestic as well.In August 1965 it had to suspend
+  scheduled flighst again due to a poor financial situation. On July 1,1966 it shut down and its remaining assets were bought by Airlift International. Slick had also used DC-4's and DC-8's."/>
+</profile>
+  <info real="True" from="1946" to="1967" />
+  <prefereds aircrafts="L-1049 Super Constellation,CL-44D4,Commando C-46 Cargo,Douglas DC-6,Douglas DC-4-1009,Douglas DC-8-54CF"></prefereds>
+
+   <focusairports>
+                 <focusairport airport="BUR"></focusairport> 
+     </focusairports>	 
+              <routes>
+	          <route destination1="SFO" destination2="ORD"   />
+	          <route destination1="SFO" destination2="STL"   />
+                  <route destination1="SFO" destination2="JFK"   />
+		  <route destination1="SFO" destination2="DAL" />
+		  <route destination1="BUR" destination2="ORD"   />
+	          <route destination1="BUR" destination2="STL"   />
+                  <route destination1="BUR" destination2="JFK"   />
+		  <route destination1="BUR" destination2="DAL" />
+		        </routes>
+
+
+
+
+</airline>

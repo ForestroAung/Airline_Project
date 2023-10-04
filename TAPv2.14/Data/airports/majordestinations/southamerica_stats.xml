@@ -1,0 +1,78 @@
+
+
+<majordestinations>
+  <majordestination airport="BOG">
+    <destinations>
+      <destination airport="MDE" pax="1836" />
+      <destination airport="CLO" pax="1517" />
+      <destination airport="CTG" pax="1231" />
+      <destination airport="BAQ" pax="968" />
+      <destination airport="BGA" pax="707" />
+      <destination airport="SMR" pax="653" />
+      <destination airport="CUC" pax="501" />
+      <destination airport="PEI" pax="475" />
+      <destination airport="ADZ" pax="443" />
+      <destination airport="MTR" pax="368" />
+      <destination airport="MAD" pax="427" />
+      <destination airport="PTY" pax="410" />
+      <destination airport="LIM" pax="340" />
+      <destination airport="UIO" pax="290" />
+      <destination airport="MEX" pax="501" cargo="77" />
+      <destination airport="CCS" pax="222" />
+      <destination airport="CDG" pax="168" />
+      <destination airport="GRU" pax="155" />
+      <destination airport="SCL" pax="134" />
+      <destination airport="FRA" pax="132" />
+      <destination airport="EZE" pax="130" />
+      <destination airport="SJO" pax="80" />
+      <destination airport="GYE" pax="71" />
+      <destination airport="YYZ" pax="67" />
+    </destinations>
+  </majordestination>
+        <majordestination airport="CCS">
+    <destinations>
+        <destination airport="FCO" pax="126"  />
+                   </destinations>
+  </majordestination>
+      <majordestination airport="CGH">
+    <destinations>
+        <destination airport="GIG" pax="938"  />
+       <destination airport="SDU" pax="3438"  />
+               </destinations>
+  </majordestination>
+    <majordestination airport="EZE">
+    <destinations>
+       <destination airport="FCO" pax="278"  />
+       <destination airport="LHR" pax="175"  />
+       <destination airport="SYD" pax="52"  />
+               </destinations>
+  </majordestination>
+    <majordestination airport="GIG">
+    <destinations>
+        <destination airport="CGH" pax="938"  />
+	<destination airport="FCO" pax="106"  />
+        <destination airport="GRU" pax="1016"  />
+       <destination airport="LHR" pax="208"  />
+               </destinations>
+  </majordestination>
+    <majordestination airport="GRU">
+    <destinations>
+       <destination airport="FCO" pax="208"  />
+      <destination airport="GIG" pax="1016"  />
+       <destination airport="LHR" pax="412"  />
+       <destination airport="MXP" pax="135" />
+        <destination airport="SDU" pax="703"  />
+               </destinations>
+  </majordestination>
+        <majordestination airport="SCL">
+    <destinations>
+       <destination airport="SYD" pax="153"  />
+               </destinations>
+  </majordestination>
+      <majordestination airport="SDU">
+    <destinations>
+       <destination airport="CGH" pax="3438"  />
+        <destination airport="GRU" pax="703"  />
+               </destinations>
+  </majordestination>
+</majordestinations>

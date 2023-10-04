@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="RUTACA Airlines" iata="RUC"  color="Orange" area="426" CEO="Eutimio Juarez" mentality="Moderate" market="Global" preferedairport="CBL">
+  <narrative narrative="RUTACA Airlines is based at Ciudad Bolivar,Venezuela where it serves about 3 destinations from. It started in 1974. Caracas is also a hub where it serves about 8 routes. Porlamar on Isla Margarita is also a focus city where 5 routes were being served as of March 2015. Maturin serves 5 routes also, one is a charter to Port of Spain,Trinidad and Tobago. It serves about 8 domestic airports. International destinations besides Port of Spain include Santo Domingo,Dominican Republic, Curacao and in the summer from Porlamar Medellin,Colombia. Its fleet at January 2015 was ten 737-200 Adv.'s which it started usinh around 2006. It is known to have used DC-3's and to have Cessna 208B's also."/>
+   </profile>
+    <info real="True" from="1974" to="2199" />
+       <prefereds aircrafts="Boeing 737-200 Adv.,Douglas DC-3,Cessna 208B,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+	      <focusairports>
+                 <focusairport airport="CCS"></focusairport>
+		 <focusairport airport="PMV"></focusairport>
+		 <focusairport airport="MUN"></focusairport>
+     </focusairports>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="3" late="10"></airliner>
+	     </airliners>
+
+	       <routes>
+       	 	<route destination1="CBL" destination2="CCS" />
+		<route destination1="CBL" destination2="MUN"  />
+		<route destination1="CBL" destination2="PZO"  />
+		<route destination1="CCS" destination2="PMV"  />
+		<route destination1="CCS" destination2="BLA"  />
+		<route destination1="CCS" destination2="SDQ"  />
+		<route destination1="CCS" destination2="PZO"  />
+		<route destination1="CCS" destination2="CUR"  />
+		<route destination1="CCS" destination2="STD"  />
+		<route destination1="CCS" destination2="SVZ"  />
+		<route destination1="PMV" destination2="BLA"  />
+		<route destination1="PMV" destination2="PZO"  />
+		<route destination1="PMV" destination2="MUN"  />
+		<route destination1="PMV" destination2="CUM"  />
+		<route destination1="PMV" destination2="MDE" season="Summer"  />
+		<route destination1="MUN" destination2="POS"  />
+		<route destination1="MUN" destination2="PMV"  />
+		<route destination1="MUN" destination2="POS" type="Charter" />
+
+		
+              </routes>
+</airline>

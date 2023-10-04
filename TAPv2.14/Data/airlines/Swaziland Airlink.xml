@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Swaziland Airlink" iata="SZL" logo="4Z" color="Red" area="373" CEO="Chris Johnson" mentality="Safe" market="Local" preferedairport="SHO"> 
+  <narrative narrative="Swaziland Airlink is a subsidiary of the South African airline Airlink. It is the flag carrier of Swaziland as of 2015 and the only route it does is Manzini-Johannesburg with an ERJ 135. Its hub recently changed since the old Manzini Matsapha Airport was taken over by the military and the new 
+  King Mswati Airport opened in early 2014. The airline was founded in 1999 and is 60% owned by the government and 40% by Airlink. It had a Fokker F28 for the first year and a half and then a BAe Jetstream 41." />
+ <airports>
+<airport  preferedairport="MTS" date="1.01.1999 00:00:00"></airport>
+<airport   preferedairport="SHO" date="12.01.2014 00:00:00"></airport>
+</airports>
+</profile>
+   <info real="True" from="1999" to="2199"></info>
+   <prefereds aircrafts="Embraer ERJ135 ER,Fokker F28-6000,BAe Jetstream 41"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2001)-->
+	         <airliners>
+	    <airliner type="Fokker F28-6000" early="1" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="0" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="1" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+		<route destination1="MTS" destination2="JNB" opened="1995" closed="2014"/>
+		<route destination1="SHO" destination2="JNB" opened="2014" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

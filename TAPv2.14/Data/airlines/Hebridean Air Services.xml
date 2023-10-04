@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hebridean Air Services" iata="HEB" color="Yellow" area="102" CEO="George Cormack" mentality="Safe" market="Domestic" preferedairport="OBN">
+  <narrative narrative="Hebridean Air Services is an airline based at Oban,Scotland,UK. From Oban it goes to the Scottish islands of Islay,Coll,Colonsay and Tiree off the west coast. Flights between Islay and Colonsay and Tiree and Coll are also done. Its actual base is Cumbernauld Airport but no scheduled flights are done there. It does offer charters to up to 40 airfields in Scotland. At early 2014 it was using two Britten Norman Islanders which carry 8 people each. The airline was founded around 1980."/>
+</profile>
+  <info real="True" from="1980" to="2199" />
+  <prefereds aircrafts="BN-2A Islander"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1980) late (2014)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="2"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="OBN" destination2="ILY"/>
+	       	  <route destination1="OBN" destination2="TRE"/>
+		  <route destination1="OBN" destination2="COL"/>
+		  <route destination1="OBN" destination2="CSA"/>
+		  <route destination1="ILY" destination2="CSA"/>
+		  <route destination1="TRE" destination2="COL"/>
+		 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Po-2-->
+<configuration type="Po-2" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

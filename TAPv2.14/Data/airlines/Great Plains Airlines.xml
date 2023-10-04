@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Great Plains Airlines" iata="GEP" color="Yellow" area="402" CEO="Fred Johnson" mentality="Safe" market="Domestic" preferedairport="OKC">
+    <narrative narrative="Great Plains Airlines was around from 2001 to 2004 and operated out of Oklahoma City and Tulsa,OK. Its aim was to provide OKC and TUL travelers quality non stop service to underserved business destinations. It ended up serving Chicago-Midway,IL Nashville,TN St. Louis,MO Washington Dulles 
+    Austin,TX Colorado Springs,CO Alamogordo,NM Albuquerque,NM and Taos,NM. It started with two Dornier 328 JET's it had got from a small airline it bought the air operators certificate from. It got three more by the time it closed. It served some popular name brands of fast food on board, such as Krispy Kreme donuts and Arby's roast beef sandwiches. " />
+  </profile>
+     <info real="True" from="2001" to="2004"></info>
+  <startdata>
+     <prefereds aircrafts="Fairchild-Dornier 328JET"></prefereds>
+<focusairports>
+        <focusairport airport="TUL"></focusairport>
+     </focusairports>
+    <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2003)-->
+    <airliners>
+      <airliner type="Fairchild-Dornier 328JET" early="2" late="5"></airliner>
+    </airliners>
+      <routes>  
+	    <route destination1="OKC" destination2="MDW"    />	
+	    <route destination1="TUL" destination2="MDW"    />	
+	    <route destination1="OKC" destination2="STL"      />
+	    <route destination1="TUL" destination2="STL"    />	
+	     <route destination1="OKC" destination2="IAD"    />	
+                   </routes>
+  </startdata>
+</airline>

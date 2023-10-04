@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="National Airways Cameroon" iata="NCM" color="Orange" area="341" CEO="Yomi Ojetunde" mentality="Safe" market="Domestic"  preferedairport="NSI">
+  <narrative narrative="National Airways Cameroon was a domestic carrier based at Yaounde,Cameroon. It began flying in February 2000 and ceased in 2009. At September 2008 it had two 737-200's." />
+</profile>
+   <info real="True" from="2000" to="2009"></info>
+  <prefereds aircrafts="Boeing 737-200 Adv."></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="2"></airliner>
+	     </airliners>
+<routes>
+          <route destination1="NSI" destination2="DLA" />
+          <route destination1="NSI" destination2="MVR" />
+              </routes>
+  
+
+
+</airline>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="SalamAir" iata="OV" logo="OV2" color="Green" area="314" mentality="Aggressive" market="Regional" preferedairport="MCT" CEO="Mohammed Ahmed" businessmodel="LCC">
+           <narrative
+      narrative="SalamAir is a low-cost airline from Oman headquartered and based at Muscat International Airport." />
+  
+  </profile>
+  <info real="True" from="2016" to="2199" />
+<airliners>
+<airliner type="Airbus A320-200" early="3" late="1"></airliner>
+</airliners>
+<routes>
+<route destination1="MCT" destination2="DOH" />
+<route destination1="MCT" destination2="DXB" />
+<route destination1="MCT" destination2="JED" />
+<route destination1="MCT" destination2="KHI" />
+<route destination1="MCT" destination2="MED" />
+<route destination1="MCT" destination2="SLL" />
+<route destination1="MCT" destination2="SYZ" />
+<route destination1="MCT" destination2="SKT" />
+
+<route destination1="MCT" destination2="TIF" season="Summer" opened="2018" closed="2199"/>
+</routes>
+</airline>

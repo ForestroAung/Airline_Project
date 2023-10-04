@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Nunavut" iata="BFF" color="Blue" area="400" CEO="Jeff Mahoney" mentality="Safe" market="Domestic" preferedairport="YFB" schedule="Charter">
+  <narrative narrative="Air Nunavut is based at Iqaluit in Canada's Nunavut territory in its most extreme north region in the Arctic. It began in 1989 as Air Baffin,
+  which Baffin is the large island Iqaluit lays on. It does charters and MEDEVAC service. It has another base at Oshawa,Ontario. From Oshawa it operates three
+  Dassault Falcon 10's under the name SmoothAir Charter.From Iqaluit it offers charters to Arctic Bay,Cape Dorset,Clyde River,Hall Beach,Igoolik,Mary River,
+  Montreal,Ottawa,Pangnirtung,Pond Inlet,Qikiqtarjuaq,Rankin Inlet,Resolute Bay,and Yellowknife. Its fleet at May 2014 was four Dassault Falcon 10's and three Beechcraft
+  King Air 200's."/>
+</profile>
+  <info real="True" from="1989" to="2199" />
+  <prefereds aircrafts="Beechcraft King Air B200,Dassault Falcon 10"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2014)-->
+	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="3" late="3"></airliner>
+	     </airliners>
+		    <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2014)-->
+	         <airliners>
+	    <airliner type="Dassault Falcon 10" early="0" late="4"></airliner>
+	     </airliners>
+		 
+              <routes>
+	    <route destination1="YFB" destination2="YUL"   />
+		<route destination1="YFB" destination2="YOW"   />
+        <route destination1="YFB" destination2="YZF"   />
+		<route destination1="YFB" destination2="YRT" />
+		<route destination1="YFB" destination2="YTE" />
+		<route destination1="YFB" destination2="YRB" />
+		<route destination1="YFB" destination2="YIO" />
+		<route destination1="YFB" destination2="YVM" />
+		<route destination1="YFB" destination2="YAB" />
+		<route destination1="YFB" destination2="YUX" />
+		<route destination1="YFB" destination2="YGT" />
+		<route destination1="YFB" destination2="YXP" />
+	        </routes>
+
+
+
+
+</airline>

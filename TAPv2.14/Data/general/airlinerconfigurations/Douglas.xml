@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Douglas Skymaster-->
+<configuration type="C-54 Skymaster" economy="0" premium="0" first="-1" business="0" exitrows="808" emergencyrows="-1" toiletrows="970" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80.8" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="C-54B Skymaster" economy="0" premium="0" first="-1" business="0" exitrows="900" emergencyrows="-1" toiletrows="1080" kitchenrows="1080">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="C-54G Skymaster" economy="0" premium="0" first="-1" business="0" exitrows="900" emergencyrows="-1" toiletrows="1080" kitchenrows="1080">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-->
+<configuration type="Douglas DC-2" economy="0" premium="0" first="-1" business="0" exitrows="553" emergencyrows="-1" toiletrows="553" kitchenrows="553">
+<seats>
+<seat class="First_Class" type="Standard" pitch="79" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-3" economy="0" premium="0" first="-1" business="0" exitrows="570" emergencyrows="-1" toiletrows="570" kitchenrows="570">
+<seats>
+<seat class="First_Class" type="Standard" pitch="81.4" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-4-->
+<configuration type="Douglas DC-4-1009" economy="0" premium="0" first="-1" business="0" exitrows="1118" emergencyrows="-1" toiletrows="1360" kitchenrows="1360">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90.6" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-6-->
+<configuration type="Douglas DC-6" economy="0" premium="0" first="-1" business="0" exitrows="840" emergencyrows="105,420,1050" toiletrows="0,1260" kitchenrows="840">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="105" width="52"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-6B" economy="0" premium="0" first="-1" business="0" exitrows="1270" emergencyrows="88,364,729,817,1358" toiletrows="264" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="88.2" width="52"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-7-->
+<configuration type="Douglas DC-7" economy="0" premium="0" first="-1" business="0" exitrows="1576" emergencyrows="1970" toiletrows="197" kitchenrows="1970">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="98.5" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-7B" economy="0" premium="0" first="-1" business="0" exitrows="1576" emergencyrows="1970" toiletrows="197" kitchenrows="1970">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="98.5" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-7C" economy="0" premium="0" first="-1" business="0" exitrows="1733" emergencyrows="2215" toiletrows="289" kitchenrows="1733">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="96.3" width="51"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-8-->
+<configuration type="Douglas DC-8-10" economy="0" premium="0" first="-1" business="0" exitrows="0,2370" emergencyrows="-1" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.7" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-20" economy="0" premium="0" first="-1" business="0" exitrows="0,2370" emergencyrows="-1" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.7" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-32" economy="0" premium="0" first="-1" business="0" exitrows="0,2370" emergencyrows="1931,2106" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.7" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-40" economy="0" premium="0" first="-1" business="0" exitrows="0,2370" emergencyrows="1931,2106" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.7" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-51" economy="-1" premium="0" first="8" business="0" exitrows="0,2370" emergencyrows="1923,2071" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-55" economy="-1" premium="0" first="8" business="0" exitrows="0,2370" emergencyrows="1923,2071" toiletrows="0,2370" kitchenrows="0,2370">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-54CF" economy="-1" premium="0" first="1" business="0" exitrows="686" emergencyrows="-1" toiletrows="686" kitchenrows="686">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-61" economy="-1" premium="0" first="5" business="0" exitrows="0,2714,3390" emergencyrows="460,1286,1436" toiletrows="0,3390" kitchenrows="0,2714">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-62" economy="-1" premium="0" first="5" business="0" exitrows="0,2570" emergencyrows="1286,1436" toiletrows="0,2570" kitchenrows="0,2570">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-8-63" economy="-1" premium="0" first="5" business="0" exitrows="0,2714,3390" emergencyrows="460,1286,1436" toiletrows="0,3390" kitchenrows="0,2714">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="92" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Douglas DC-9-->
+<configuration type="Douglas DC-9-10" economy="0" premium="0" first="-1" business="0" exitrows="0,1830" emergencyrows="697" toiletrows="1830" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.1" width="52.2"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-9-15" economy="0" premium="0" first="-1" business="0" exitrows="0,1830" emergencyrows="697" toiletrows="1830" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="87.1" width="52.2"></seat>
+</seats>
+</configuration>
+<configuration type="Douglas DC-9-30" economy="0" premium="0" first="-1" business="0" exitrows="0,2080" emergencyrows="1040,1126" toiletrows="2080" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="86.6" width="52.2"></seat>
+</seats>
+</configuration>
+</configurations>

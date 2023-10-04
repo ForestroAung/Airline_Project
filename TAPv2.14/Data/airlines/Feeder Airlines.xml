@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Feeder Airlines" iata="FDD"  color="SaddleBrown" area="349" CEO="Nichola Ali Khamis" mentality="Safe" market="Regional" preferedairport="JUB">
+    <narrative narrative="Feeder Airlines operated from June 2007 to around April 2014. It was based at Juba,South Sudan. It flew domestic routes to Malakal,Rumbek and Wau and international ones to Khartoum,Sudan and Entebbe,Uganda. Although much of the time was before South Sudan was independant so Khartoum was a domestic route at one time as well.
+    It used two Fokker 50's as of March 2012."/>
+  </profile>
+  <info real="True" from="2007" to="2014"/>
+  <prefereds aircrafts="Fokker 50"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2013)-->
+  <airliners>
+    <airliner type="Fokker 50" early="2" late="2"/>
+  </airliners>
+  <routes>
+    <route destination1="JUB" destination2="KRT"/>
+    <route destination1="JUB" destination2="RBX"/>
+    <route destination1="JUB" destination2="MAK"/>
+    <route destination1="JUB" destination2="WUU"/>
+    <route destination1="JUB" destination2="EBB"/>
+  </routes>
+</airline>

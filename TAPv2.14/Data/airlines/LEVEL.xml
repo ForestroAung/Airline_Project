@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Level" iata="IB" logo="IB2" color="White" area="117" mentality="Aggressive" market="Regional" preferedairport="BCN" businessmodel="LCC" CEO="Antonio Vázquez Romero">
+           <narrative
+      narrative="Level is a Spanish low-cost virtual airline based at Barcelona–El Prat Airport in Spain. It is a wholly owned subsidiary of the multinational airline holding company International Airlines Group (IAG), which operates several independent brand names." />
+  
+  </profile>
+  <info real="True" from="2017" to="2199" />
+<airliners>
+      <airliner type="Boeing 757-200" early="0" late="3"></airliner>
+<airliner type="Boeing 767-300ER" early="0" late="1"></airliner>
+<airliner type="Airbus A330-200" early="2" late="3"></airliner>
+</airliners>
+<routes>
+<route destination1="BCN" destination2="BOS" season="Summer"/>
+<route destination1="BCN" destination2="LAX" season="Summer"/>
+<route destination1="BCN" destination2="OAK" />
+<route destination1="BCN" destination2="EZE" />
+
+
+<route destination1="ORY" destination2="FDF" opened="2018" closed="2199"/>
+<route destination1="ORY" destination2="YUL" opened="2018" closed="2199"/>
+<route destination1="ORY" destination2="EWR" opened="2018" closed="2199"/>
+<route destination1="ORY" destination2="PTP" opened="2018" closed="2199"/>
+</routes>
+</airline>

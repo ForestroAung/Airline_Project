@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Yeongnam Air" iata="ONA" color="Cyan" area="219" CEO="Byong Hun Oh" mentality="Safe" market="Domestic" preferedairport="PUS">
+  <narrative narrative="Yeongnam Air was a very short lived airline based at Busan,South Korea from July 25,2008 to December of the same year. It had one Fokker 100 and had another base at Seoul Gimpo Airport
+  and also flew to Jeju Island and Daegu." />
+ </profile>
+    <info real="True" from="2008" to="2009" />
+       <prefereds aircrafts="Fokker 100"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="1" late="0"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="PUS" destination2="GMP"    />	
+	    <route destination1="PUS" destination2="CJU"   />	
+            <route destination1="PUS" destination2="TAE"    />	
+                   </routes>
+</airline>

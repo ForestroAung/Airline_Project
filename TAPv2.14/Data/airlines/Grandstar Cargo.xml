@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Grandstar Cargo" iata="GSC" color="SteelBlue" area="209" CEO="Kwang-Sa Lee" mentality="Safe" market="Global" preferedairport="TSN" routefocus="Cargo">
+  <narrative narrative="Grandstar Cargo was around from 2008 until May 2012. Its base was Tianjin,China.  It was 51% owned by the large Chinese logistic company Sinotrans,25% by Korean Air,13% by Hana Capital Co,
+  and 11% by Shinhan Capital Co. It used a single 747-400F. It operated service from Tianjin domestic to Shanghai and international to Seoul,South Korea and Frankfurt,Germany."/>
+</profile>
+  <info real="True" from="2008" to="2012" />
+  <prefereds aircrafts="Boeing 747-400F"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	         <airliners>
+	    <airliner type="Boeing 747-400F" early="1" late="1"></airliner>
+	     </airliners>
+	 	                      <routes>
+                <route destination1="TSN" destination2="PVG"   />
+		<route destination1="TSN" destination2="ICN"   />
+		<route destination1="TSN" destination2="FRA"   />
+	        </routes>
+
+
+
+
+</airline>

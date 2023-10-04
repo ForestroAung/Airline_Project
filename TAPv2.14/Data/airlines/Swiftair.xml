@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Swiftair" iata="WT" color="DarkRed" area="117" CEO="Torres Quevedo" mentality="Aggressive" market="Global " preferedairport="MAD" routefocus="All">
+    <narrative narrative="is a Philippine low-cost airline based on the grounds of Ninoy Aquino International Airport (Manila Terminal 3), Pasay City, Metro Manila, the Philippines.It offers scheduled flights to both domestic and international destinations. Its main base is Ninoy Aquino International Airport, Manila, with other hubs at Mactan-Cebu International Airport, Clark International Airport, Kalibo International Airport, Francisco Bangoy International Airport, and Iloilo International Airport on a fleet of 33 Airbus A320s, 6 A330-300 and 7 ATR 72-500s."/>
+  	
+   </profile>
+  <info real="True" from="1986" to="2199"/>
+
+	<prefereds aircrafts="ATR 72-500,Boeing 737-700C,EMB 120 Brasilia">
+	</prefereds>
+
+</airline>

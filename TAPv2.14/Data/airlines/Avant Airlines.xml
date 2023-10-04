@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Avant Airlines" iata="VAT" color="MediumBlue" area="435" CEO="Juan Garcia" mentality="Moderate" market="Domestic" preferedairport="SCL" >
+    <narrative narrative="Avant Airlines was around from 1997 to 2001 and was based at Santiago,Chile and did domestic flights. It had 30% of the air market in Chile in 1999 when it went bankrupt. Its first flight in 1997 was from SCL to La Serena and its last in 2001 was from SCL to Calama. It started with four 737-200 Adv.'s and had nine by the end of 1998.At the end it had six." />
+  </profile>
+     <info real="True" from="1997" to="2001"></info>
+     <prefereds aircrafts="Boeing 737-200 Adv."></prefereds>
+		      	      <!--the airliners the airline would start with which isn't on a route earyl (1997) late (1998)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="4" late="9"></airliner>
+	     </airliners>
+      <routes>  
+	    <route destination1="SCL" destination2="LSC"  />
+            <route destination1="SCL" destination2="CJC"  />	
+                   </routes>
+</airline>

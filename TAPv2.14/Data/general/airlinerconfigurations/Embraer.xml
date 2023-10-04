@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Embraer ERJ-->
+<configuration type="Embraer ERJ135 ER" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="584" toiletrows="950" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer ERJ140 ER" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="720" toiletrows="1080" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer ERJ145 LR" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="740" toiletrows="1260" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Embraer EMB-->
+<configuration type="EMB 110 Bandeirante" economy="-1" premium="0" first="0" business="0" exitrows="430" emergencyrows="215" toiletrows="430" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.6" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="EMB 120 Brasilia" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="286,503" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Embraer E-Jet-->
+<configuration type="Embraer E-170" economy="-1" premium="0" first="0" business="3" exitrows="0,1625" emergencyrows="-1" toiletrows="0,1625" kitchenrows="0,1625">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.6" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer E-175" economy="-1" premium="0" first="0" business="2" exitrows="0,1625" emergencyrows="-1" toiletrows="0,1625" kitchenrows="0,1625">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.6" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer E-190" economy="-1" premium="0" first="0" business="4" exitrows="0,2140" emergencyrows="912" toiletrows="0,2140" kitchenrows="0,2140">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.6" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer E-195" economy="-1" premium="0" first="0" business="4" exitrows="0,2285" emergencyrows="912" toiletrows="0,2285" kitchenrows="0,2285">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.3" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Embraer E-Jet E2-->
+<configuration type="Embraer E-175E2" economy="-1" premium="0" first="0" business="3" exitrows="0,1700" emergencyrows="-1" toiletrows="0,1700" kitchenrows="0,1700">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer E-190E2" economy="-1" premium="0" first="0" business="4" exitrows="0,2140" emergencyrows="912" toiletrows="0,2140" kitchenrows="0,2140">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer E-195E2" economy="-1" premium="0" first="0" business="4" exitrows="0,2635" emergencyrows="912" toiletrows="0,2635" kitchenrows="0,2635">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.2" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Embraer Phenom-->
+<configuration type="Embraer Phenom 100" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="215" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="107" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer Phenom 300" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="360" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="120" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Embraer Lineage-->
+<configuration type="Embraer Lineage 1000" economy="0" premium="0" first="1" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,816,2140" kitchenrows="408">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="204" width="78.9"></seat>
+<seat class="First_Class" type="Luxurious Closed Suites" pitch="300" width="210"></seat>
+</seats>
+</configuration>
+
+<!--Embraer Legacy-->
+<configuration type="Embraer Legacy 500" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="850" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="212" width="73.5"></seat>
+</seats>
+</configuration>
+<configuration type="Embraer Legacy 600" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="1080" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="180" width="73.5"></seat>
+</seats>
+</configuration>
+ </configurations>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Glenorchy Air" iata="GLN" color="Blue" area="252" CEO="Janet Rutherford" mentality="Safe" market="Domestic" preferedairport="ZQN">
+  <narrative narrative="Glenorchy Air is a scenic flight and charter airline based at Queenstown,New Zealand in the southwest of the South Island. It operated a scheduled flight between Queenstown and Milford Sound, a 75km flight. It also has a base at its namesake of Glenorchy which is a small town on the north shore of Lake Wakatipu in the same area as Milford Sound. Common scenic flights include to Mount Cook,glaciers,Taiaroa Head and others. Filming locations of the Lord of the Rings movies are also popular. It even flew some cast members in 1999 around the island to shooting locations. In the winter ski season it goes to Treble Cone. The airline began in 1992 with a Cessna 185 Skywagon. It then got a Piper Cherokee Six in 1996. In 2003 it replaced the 185 with a Gippsland GA8 Airvan. At 2015 it had another Airvan now as well, and a Cessna 172 Skyhawk. It is owned by Robert Rutherford who is also chief pilot, Janet Rutherford is the CEO."/>
+</profile>
+  <info real="True" from="1992" to="2199" />
+  <prefereds aircrafts="GA8 Airvan,Cessna 185 Skywagon,PA-32 Cherokee Six,Cessna 172 Skyhawk"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	     	         <airliners>
+	    <airliner type="GA8 Airvan" early="1" late="2"></airliner>
+	     </airliners>
+		     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Cessna 185 Skywagon" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-32 Cherokee Six" early="1" late="0"></airliner>
+	     </airliners>
+               <routes>
+	      	          <route destination1="ZQN" destination2="MFN" />
+        </routes>
+</airline>

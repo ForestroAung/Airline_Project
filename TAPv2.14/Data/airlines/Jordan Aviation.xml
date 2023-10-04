@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Jordan Aviation" iata="JAV"  color="DarkRed" area="301" CEO=" Moh'd Al-Khashman" mentality="Safe" market="Global" preferedairport="AMM">
+    <narrative narrative="Jordan Aviation is based at Amman,Jordan's Queen Alia Intl. Airport. It also operates charters at Amman's other airport, Civil Airport. It began flying in 2000. It has scheduled flights, does worldwide charters,wet leases to other airlines,and is one of the main airlines of the UN peacekeeping forces.
+    At June 2016 three scheduled flights were from Queen Alia to Bahrain,Dubai and Jarkarta,Indonesia. The charters offered at Civil Airport were to Aqaba,Jordan Baghdad,Iraq Dalaman,Turkey Dubai,UAE Istanbul,Turkey Najaf,Iraq and Kuwait. Its fleet at December 2012 was five 737-300's,three 767-200ER's,two A320-200's
+    and one 737-400. For a short time in its past it had a Lockheed L-1011-500,a 737-500,a 737-200,and an A330-200, but it didn't use any of those more than 2 years. It started using A320-200's in 2004,737-300s in 2008,767-200ER's in 2008 and has had the 737-400 since 2012."/>
+  </profile>
+  <info real="True" from="2000" to="2199"/>
+  <prefereds aircrafts="Boeing 737-300,Boeing 767-200ER,Airbus A320-200,Boeing 737-400,Boeing 737 MAX 7,Boeing 737 MAX 8,Airbus A320neo"/>
+          <focusairports>
+	 <focusairport airport="ADJ"></focusairport>
+     </focusairports>
+         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-300" early="2" late="5"/>
+  </airliners>
+           <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-400" early="1" late="1"/>
+  </airliners>
+             <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+  <airliners>
+    <airliner type="Boeing 737-500" early="1" late="0"/>
+  </airliners>
+  <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 767-200ER" early="3" late="3"/>
+  </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2006)-->
+  <airliners>
+    <airliner type="Lockheed L-1011-500" early="1" late="0"/>
+  </airliners>
+           <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+  <airliners>
+    <airliner type="Boeing 737-200 Adv." early="1" late="0"/>
+  </airliners>
+             <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+  <airliners>
+    <airliner type="Airbus A330-200" early="1" late="0"/>
+  </airliners>
+               <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2016)-->
+  <airliners>
+    <airliner type="Airbus A320-200" early="1" late="2"/>
+  </airliners>
+  <routes>
+    <route destination1="AMM" destination2="BAH"/>
+    <route destination1="AMM" destination2="DXB"/>
+    <route destination1="AMM" destination2="CGK"/>
+    <route destination1="ADJ" destination2="AQJ" type="Charter"/>
+    <route destination1="ADJ" destination2="BGW" type="Charter"/>
+    <route destination1="ADJ" destination2="DXB" type="Charter"/>
+    <route destination1="ADJ" destination2="SAW" type="Charter"/>
+    <route destination1="ADJ" destination2="NJF" type="Charter"/>
+    <route destination1="ADJ" destination2="KWI" type="Charter"/>
+    <route destination1="ADJ" destination2="DLM" type="Charter"/>
+  </routes>
+</airline>

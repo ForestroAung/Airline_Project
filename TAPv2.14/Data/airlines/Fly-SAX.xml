@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Fly-SAX" iata="EXZ"  color="Tomato" area="356" CEO="Don Smith" mentality="Safe" market="Global" preferedairport="NBO" schedule="Charter">
+  <narrative narrative="Originally East African Safari Air, the airline was rebranded as Fly-SAX after its purchase by the parent company of Kenyan airline Fly540, and it now claims to be Kenya's premier safari and private charter airline."/>
+   </profile>
+    <info real="True" from="2013" to="2199" />
+       <prefereds aircrafts="Bombardier CRJ100,Bombardier CRJ200,Bombardier Dash 8-100,Douglas DC-9-10,Fokker F28-4000,Beechcraft 1900C,Cessna 208B,MD-83 (DC-9-83)"></prefereds>
+        <focusairports>
+			       <focusairport airport="NBO"></focusairport>
+			       <focusairport airport="WIL"></focusairport>
+     </focusairports>
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ100" early="1" late="1"></airliner>
+	    <airliner type="Bombardier CRJ200" early="1" late="0"></airliner>
+	    <airliner type="Bombardier Dash 8-100" early="1" late="1"></airliner>
+	    <airliner type="Douglas DC-9-10" early="2" late="2"></airliner>
+	    <airliner type="Fokker F28-4000" early="1" late="1"></airliner>
+	    <airliner type="Beechcraft 1900C" early="1" late="0"></airliner>
+	    <airliner type="Cessna 208B" early="1" late="0"></airliner>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="0"></airliner>
+	     </airliners>
+	       <routes>
+	       	<route destination1="NBO" destination2="EBB" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="LAU" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="LOK" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="MYD" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="MGQ" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="MBA" opened="2013" closed="2199"/>
+	       	<route destination1="NBO" destination2="HAH" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="GAS" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="HBY" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="KMK" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="KTL" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="LAU" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="MRE" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="MYD" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="MBA" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="NYK" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="UKA" opened="2013" closed="2199"/>
+	       	<route destination1="WIL" destination2="WJR" opened="2013" closed="2199"/>
+	       	<route destination1="EBB" destination2="MGQ" opened="2013" closed="2199"/>
+	       	<route destination1="KMK" destination2="MRE" opened="2013" closed="2199"/>
+	       	<route destination1="LAU" destination2="MYD" opened="2013" closed="2199"/>
+	       	<route destination1="LAU" destination2="MBA" opened="2013" closed="2199"/>
+	       	<route destination1="MRE" destination2="UKA" opened="2013" closed="2199"/>
+	       	<route destination1="MBA" destination2="HAH" opened="2013" closed="2199"/>
+	       	<route destination1="MBA" destination2="UKA" opened="2013" closed="2199"/>
+              </routes>
+</airline>

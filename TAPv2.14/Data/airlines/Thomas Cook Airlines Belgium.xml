@@ -1,0 +1,102 @@
+﻿<airline>
+ <profile name="Thomas Cook Airlines Belgium" iata="HQ" color="Yellow" area="112" CEO="Jean-Christophe Degen" mentality="Safe" market="Regional" preferedairport="BRU">
+ <narrative narrative="Thomas Cook Airlines Belgium is a Belgian leisure airline owned by the Thomas Cook Group. It operates scheduled flights to destinations throughout Europe and Africa from its base at Brussels Airport."/>
+   <logos>
+     <logo from="2001" to="2012" path="HQ2001-2012"></logo>
+     <logo from="2013" to="2017" path="HQ2013-2017"></logo>
+   </logos>
+ </profile>
+ <info real="True" from="2001" to="2017" />
+ <prefereds aircrafts="A320-200"></prefereds> 
+ <focusairports>
+<focusairport airport="BRU"></focusairport> 
+<focusairport airport="LGG"></focusairport>
+    </focusairports>
+           
+<startdata>  
+   <airliners>
+     <airliner type="Airbus A320-200" early="1" late="5"></airliner>
+   </airliners>
+ </startdata>
+
+              <routes>
+<route destination1="BRU" destination2="AGA"></route>
+     <route destination1="BRU" destination2="AJA"/>
+         <route destination1="BRU" destination2="ALC" />
+ <route destination1="BRU" destination2="LEI" />
+ <route destination1="BRU" destination2="AYT" />
+ <route destination1="BRU" destination2="AQJ" />
+ <route destination1="BRU" destination2="ACE" />
+ <route destination1="BRU" destination2="BIA" />
+ <route destination1="BRU" destination2="BVC"/>
+ <route destination1="BRU" destination2="BOJ" />
+ <route destination1="BRU" destination2="CHQ"/>
+ <route destination1="BRU" destination2="JKH"/>
+ <route destination1="BRU" destination2="CFU"/>
+ <route destination1="BRU" destination2="DJE"/>
+ <route destination1="BRU" destination2="DBV"/>
+ <route destination1="BRU" destination2="FUE"/>
+ <route destination1="BRU" destination2="FNC"/>
+ <route destination1="BRU" destination2="GRO"/>
+ <route destination1="BRU" destination2="LPA" />
+ <route destination1="BRU" destination2="HER"/>
+ <route destination1="BRU" destination2="HRG" />
+ <route destination1="BRU" destination2="IBZ" />
+ <route destination1="BRU" destination2="ADB" />
+ <route destination1="BRU" destination2="XRY" />
+ <route destination1="BRU" destination2="KGS" />
+ <route destination1="BRU" destination2="LDE" />
+ <route destination1="BRU" destination2="AGP" />
+ <route destination1="BRU" destination2="RAK" />
+ <route destination1="BRU" destination2="RMF" />
+ <route destination1="BRU" destination2="MAH"/>
+ <route destination1="BRU" destination2="JMK" />
+ <route destination1="BRU" destination2="MJT" />
+ <route destination1="BRU" destination2="NCE" />
+ <route destination1="BRU" destination2="OHD" />
+ <route destination1="BRU" destination2="OLB" />
+ <route destination1="BRU" destination2="PMI" />
+ <route destination1="BRU" destination2="PFO" />
+ <route destination1="BRU" destination2="REU" />
+ <route destination1="BRU" destination2="KEF" />
+ <route destination1="BRU" destination2="RHO"/>
+ <route destination1="BRU" destination2="RMI" />
+ <route destination1="BRU" destination2="SID" />
+ <route destination1="BRU" destination2="SPC"/>
+ <route destination1="BRU" destination2="JTR" />
+ <route destination1="BRU" destination2="SPU" />
+ <route destination1="BRU" destination2="TFS" />
+ <route destination1="BRU" destination2="TIV" />
+ <route destination1="BRU" destination2="VAR" />
+ <route destination1="BRU" destination2="ZTH" />
+ 
+ <route destination1="LGG" destination2="AGA" />
+     <route destination1="LGG" destination2="AJA" />
+         <route destination1="LGG" destination2="ALC" />
+ <route destination1="LGG" destination2="AYT" />
+ <route destination1="LGG" destination2="CFU"/>
+ <route destination1="LGG" destination2="DJE" />
+ <route destination1="LGG" destination2="DBV" />
+ <route destination1="LGG" destination2="HER"/>
+ <route destination1="LGG" destination2="IBZ" />
+ <route destination1="LGG" destination2="ADB" />
+ <route destination1="LGG" destination2="KGS" />
+ <route destination1="LGG" destination2="LDE" />
+ <route destination1="LGG" destination2="AGP" />
+ <route destination1="LGG" destination2="RAK" />
+ <route destination1="LGG" destination2="MAH" />
+ <route destination1="LGG" destination2="JMK" />
+ <route destination1="LGG" destination2="NCE" />
+ <route destination1="LGG" destination2="PMI" />
+ <route destination1="LGG" destination2="PFO" />
+ <route destination1="LGG" destination2="REU" />
+ <route destination1="LGG" destination2="RHO" />
+ <route destination1="LGG" destination2="RMI" />
+ <route destination1="LGG" destination2="SPU" />
+ <route destination1="LGG" destination2="TFS" />
+ <route destination1="LGG" destination2="TIV" />
+ <route destination1="LGG" destination2="VAR"/>
+ <route destination1="LGG" destination2="ZTH" />
+       </routes>
+
+</airline>

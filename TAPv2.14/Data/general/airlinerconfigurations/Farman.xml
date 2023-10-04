@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Farman-->
+<!--Farman F.50-->
+<configuration type="Farman F.50P" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="46"></seat>
+</seats>
+</configuration>
+
+<!--Farman F.60-->
+<configuration type="Farman F.60 Goliath" economy="0" premium="0" first="-1" business="0" exitrows="444" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="46"></seat>
+</seats>
+</configuration>
+
+<!--Farman F.70-->
+<configuration type="Farman F.70" economy="0" premium="0" first="-1" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="46"></seat>
+</seats>
+</configuration>
+
+<!--Farman F.120-->
+<configuration type="Farman F.120" economy="0" premium="0" first="-1" business="0" exitrows="740" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Farman F.170 Jaibru-->
+<configuration type="Farman F.170 Jaibru" economy="0" premium="0" first="-1" business="0" exitrows="300" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Farman F.190-->
+<configuration type="Farman F.190" economy="0" premium="0" first="-1" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="47"></seat>
+</seats>
+</configuration>
+</configurations>

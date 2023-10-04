@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Air 2000" iata="DP" logo="DP2" color="Cyan" area="102" CEO="Jason Watson" mentality="Aggressive" market="Global" preferedairport="MAN">
+    <narrative narrative="Air 2000 was a British charter airline that operated for 17 years between 1987 and 2004. The airline was renamed as First Choice Airways in 2004 ."/>
+  	<logos>
+  		<logo from="2004" to="2008" path="DP2004-2008"/>
+  	</logos>
+  		<names>
+	<name value="Air 2000" from="1.1.1987 00:00:00"/>
+	<name value="First Choice Airways" from="1.1.2004 00:00:00"> </name>
+	</names>
+	  <info real="True" from="1987" to="2008"/>
+   </profile>
+	<prefereds aircrafts="Boeing 767-300ER,Boeing 757-200,Airbus A320-200,Airbus A321-200">
+	</prefereds>
+  <focusairports>
+		<focusairport airport="LGW"/>
+		<focusairport airport="GLA"/>
+		<focusairport airport="BHX"/>
+	</focusairports>
+		<startdata>
+	<airliners>
+      <airliner type="Airbus A320-200" early="1" late="6"/>
+      <airliner type="Airbus A321-200" early="1" late="5"/>
+      <airliner type="Boeing 767-300ER" early="2" late="6"/>
+      <airliner type="Boeing 757-200" early="2" late="6"/>
+	</airliners>
+		</startdata>
+</airline>

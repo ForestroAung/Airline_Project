@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Britair" iata="DB" color="BurlyWood" area="113" CEO="Lionel Guérin" mentality="Moderate"
+           market="Regional" preferedairport="ORY">
+    <narrative
+      narrative="Britair started operations in 1975. It mainly flew business passengers to London Gatwick." />
+  </profile>
+
+<info real="True" from="1975" to="2012"></info>
+<startdata>
+
+<focusairports>
+        <focusairport airport="ORY"></focusairport>
+        <focusairport airport="LYS"></focusairport>
+        <focusairport airport="CDG"></focusairport>
+</focusairports>
+
+</startdata>
+
+</airline>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="Southwest Airlines Birth" startyear="1971" shortname="Southwest" logo="southwest_airlines" description="You will try and do what Southwest did in real life and make at least 40 domestic routes within the U.S within 12 years, from 1971-1983. You will start without any fleet or routes and with Dallas Love as only destination. Your competition will all start with both routes and airliners. This first is Continental based in IAH. United will be based at Philadelpia while Delta will be at Atlanta. All airports in North America will be available for use.">
+<airportssettings majorairports="False" regions="119"></airportssettings>
+<airlines>
+<airline name="WN" ishuman="True">
+<destinations>
+<destination airport="DAL" slots="5"></destination>
+</destinations>
+   <routes>
+     </routes>
+    </airline>
+<airline name="CO">
+<destinations>
+<destination airport="IAH" slots="10"></destination>
+</destinations>
+<routes>
+      <route origin="IAH" destination="ELP" airliner="Boeing 720B (707-020B)"/>
+        <route origin="IAH" destination="MAF" airliner="Boeing 737-200"   />
+        <route origin="IAH" destination="LAX" airliner="Boeing 727-200"   />
+        <route origin="IAH" destination="SAT" airliner="Boeing 720B (707-020B)"   />
+        <route origin="IAH" destination="ABQ" airliner="Boeing 720B (707-020B)"   />
+        <route origin="IAH" destination="SAN" airliner="Boeing 727-200"   />
+</routes>
+<airliners>
+<airliner type="Boeing 737-200" quantity="4"></airliner>
+<airliner type="Boeing 727-200" quantity="6"></airliner>
+</airliners>
+</airline>
+<airline name="UA">
+<destinations>
+<destination airport="PHL" slots="10"></destination>
+</destinations>
+<routes>
+      <route origin="PHL" destination="ORD" airliner="Boeing 707-320B"   />
+        <route origin="PHL" destination="BUF" airliner="Boeing 737-200"   />
+        <route origin="PHL" destination="SEA" airliner="Boeing 707-320B"   />
+        <route origin="PHL" destination="CLE" airliner="Boeing 737-200"   />
+        <route origin="PHL" destination="IAD" airliner="Boeing 707-320B"   />
+	<route origin="PHL" destination="MDW" airliner="Boeing 737-200"   />
+</routes>
+<airliners>
+<airliner type="Boeing 737-200" quantity="3"></airliner>
+<airliner type="Boeing 727-200" quantity="7"></airliner>
+</airliners>
+</airline>
+<airline name="DL">
+<destinations>
+<destination airport="ATL" slots="10"></destination>
+</destinations>
+<routes>
+        <route origin="ATL" destination="CLT" airliner="Douglas DC-8-40"   />
+        <route origin="ATL" destination="DAL" airliner="Douglas DC-8-40"   />
+        <route origin="ATL" destination="SFO" airliner="Douglas DC-8-32"   />
+        <route origin="ATL" destination="MSY" airliner="Douglas DC-9-30"   />
+        <route origin="ATL" destination="JAX" airliner="Douglas DC-9-30"   />
+        <route origin="ATL" destination="AGS" airliner="Douglas DC-9-10"   />
+</routes>
+<airliners>
+<airliner type="Douglas DC-8-40" quantity="6"></airliner>
+<airliner type="Douglas DC-9-30" quantity="8"></airliner>
+</airliners>
+</airline>
+</airlines>
+<parameters>
+<!--<parameter parametertype="Success" type="Opponents" rounds="-1" value="4" interval="Daily" text="Congratulations! You have managed to eliminate all other airlines."></parameter>
+--><parameter parametertype="Failure" value="40" type="DomesticRoutes" description="Having over 40 domestic routes after 12 years of playing" interval="Yearly" rounds="12" text="You have failed the scenario because you didn't successfully set up 40 domestic US destinations within 12 years!"></parameter>
+<parameter parametertype="Success" type="EndOfScenario" description="" value="0" interval="Yearly" rounds="12" text="Congratulations! You have managed to create 40 domestic routes after 12 years of playing."></parameter>
+</parameters>
+</scenario>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lloyd Luftdienst" iata="LLD" color="Red" area="108" CEO="Max Schwab" mentality="Safe" market="Regional" preferedairport="JHT" ismajor="True" >
+    <narrative 
+	narrative="The boom in passenger aviation begins after the First World War in the mid-1920s and more than 30 airlines compete for passengers in Germany. One of the largest providers was the 'Lloyd Luftdienst', which merged 1923 with 'Deutsche Luft-Reederei'." />
+  </profile>
+  <info real="True" from="1920" to="1923"></info>
+   
+</airline>

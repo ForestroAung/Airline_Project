@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Ki-->
+<configuration type="Ki-57" economy="0" premium="0" first="-1" business="0" exitrows="450" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="47"></seat>
+</seats>
+</configuration>
+
+<!--SpaceJet-->
+<configuration type="M90" economy="-1" premium="0" first="0" business="0" exitrows="0,1705" emergencyrows="814" toiletrows="0,1705" kitchenrows="0,1705">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="M100" economy="-1" premium="0" first="0" business="0" exitrows="0,1650" emergencyrows="963" toiletrows="0,1650" kitchenrows="0,1650">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Mitsubishi MU-2-->
+<configuration type="Mitsubishi MU-2" economy="0" premium="0" first="0" business="-1" exitrows="370" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="92.5" width="53"></seat>
+</seats>
+</configuration>
+
+<!--NAMC YS-->
+<configuration type="NAMC YS-11" economy="-1" premium="0" first="0" business="0" exitrows="0,1140" emergencyrows="-1" toiletrows="1140" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Mitsubishi MH2000-->
+<configuration type="Mitsubishi MH2000" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="48"></seat>
+</seats>
+</configuration>
+
+</configurations>

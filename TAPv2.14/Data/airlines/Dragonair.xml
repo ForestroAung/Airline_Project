@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dragonair" iata="KA" color="Firebrick" area="215" CEO="Ivan Chu" mentality="Aggressive"
+           market="Regional" preferedairport="HKG">
+    <narrative
+      narrative="The airline was established in Hong Kong on 24 May 1985 on the initiative of Kuang-Piu Chao, the airline's present honorary chairman, as a subsidiary of Hong Kong Macau International Investment Co. It started operations in July 1985 with a Boeing 737-200 service from Kai Tak International Airport to Kota Kinabalu International Airport in Malaysia. As of 30 October 2013, the airline operates a scheduled passenger network to 44 destinations in 13 countries and territories across Asia. Additionally, the airline has 3 codeshares on routes which are served by partner airlines. It has an all Airbus fleet of 41 aircraft, consisting of A320s, A321s and A330s." />
+  </profile>
+  <info real="True" from="1985" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200,Airbus A321-200,Airbus A330-300">
+  </prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="8" late="7"></airliner>
+      <airliner type="Airbus A321-200" early="4" late="4"></airliner>
+      <airliner type="Airbus A330-300" early="8" late="10"></airliner>
+     </airliners>
+    
+    <routes>
+      <route destination1="HKG" destination2="DAC" opened="1989" closed="2199"/>
+      <route destination1="HKG" destination2="PNH" opened="1993" closed="2199"/>
+      <route destination1="HKG" destination2="REP" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="PEK" opened="1990" closed="2199"/>
+      <route destination1="HKG" destination2="HHA" opened="1991" closed="2199"/>
+      <route destination1="HKG" destination2="CTU" opened="1991" closed="2199"/>
+      <route destination1="HKG" destination2="CKG" opened="1997" closed="2199"/>
+      <route destination1="HKG" destination2="DLC" opened="1988" closed="2199"/>
+      <route destination1="HKG" destination2="FOC" opened="1988" closed="2009"/>
+      <route destination1="HKG" destination2="CAN" opened="2009" closed="2199"/>
+      <route destination1="HKG" destination2="KWL" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="HAK" opened="1987" closed="2199"/>
+      <route destination1="HKG" destination2="HGH" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="KMG" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="NKG" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="NGB" opened="1993" closed="2199"/>
+      <route destination1="HKG" destination2="TAO" opened="1996" closed="2199"/>
+      <route destination1="HKG" destination2="SYX" opened="2000" closed="2199"/>
+      <route destination1="HKG" destination2="SHA" opened="1990" closed="2199"/>
+      <route destination1="HKG" destination2="PVG" opened="2002" closed="2199"/>
+      <route destination1="HKG" destination2="SHE" opened="2006" closed="2009"/>
+      <route destination1="HKG" destination2="TSN" opened="1991" closed="1999"/>
+      <route destination1="HKG" destination2="WNZ" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="WUH" opened="1987" closed="2199"/>
+      <route destination1="HKG" destination2="XMN" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="XIY" opened="1992" closed="2199"/>
+      <route destination1="HKG" destination2="CGO" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="BLR" opened="2008" closed="2199"/>
+      <route destination1="HKG" destination2="CCU" opened="2012" closed="2199"/>
+      <route destination1="HKG" destination2="DPS" opened="2014" closed="2199"/>
+      <route destination1="HKG" destination2="FUK" opened="2007" closed="2199"/>
+      <route destination1="HKG" destination2="HIJ" opened="1992" closed="2199"/>
+      <route destination1="HKG" destination2="OKA" opened="2010" closed="2199"/>
+      <route destination1="HKG" destination2="SDJ" opened="1993" closed="2199"/>
+      <route destination1="HKG" destination2="NRT" opened="2004" closed="2007"/>
+      <route destination1="HKG" destination2="HND" opened="2015" closed="2199"/>
+      <route destination1="HKG" destination2="PUS" opened="2006" closed="2199"/>
+      <route destination1="HKG" destination2="CJU" opened="2012" closed="2199"/>
+      <route destination1="HKG" destination2="BKI" opened="1985" closed="2199"/>
+      <route destination1="HKG" destination2="KCH" opened="1994" closed="2003"/>
+      <route destination1="HKG" destination2="PEN" opened="2014" closed="2199"/>
+      <route destination1="HKG" destination2="RGN" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="KTM" opened="1985" closed="2199"/>
+      <route destination1="HKG" destination2="CRK" opened="2012" closed="2199"/>
+      <route destination1="HKG" destination2="MNL" opened="2008" closed="2199"/>
+      <route destination1="HKG" destination2="KHH" opened="1996" closed="2199"/>
+      <route destination1="HKG" destination2="RMQ" opened="2007" closed="2199"/>
+      <route destination1="HKG" destination2="TPE" opened="2002" closed="2199"/>
+      <route destination1="HKG" destination2="DMK" opened="2003" closed="2006"/>
+      <route destination1="HKG" destination2="CNX" opened="2012" closed="2199"/>
+      <route destination1="HKG" destination2="HKT" opened="1986" closed="2199"/>
+      <route destination1="HKG" destination2="DAD" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="HAN" opened="2008" closed="2199"/>
+    </routes>
+  </startdata>
+</airline>

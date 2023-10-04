@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Oriental Air Bridge" iata="ORC"  color="SeaGreen" area="220" CEO="Sawa" mentality="Safe" market="Local" preferedairport="NGS"> 
+  <narrative narrative="Oriental Air Bridge is a Japanese airline based at Nagasaki on the island of Kyushu, one of the main islands of Japan and the third largest. It has been flying since 1961 when it was called
+  Nagasaki Airways, and changed its name in 2001. Its routes from Nagasaki as of 2016 were to the islands of Fukue,Iki and Tsushima. And it also flies between Fukuoka and Fukue. Its longest route is only 182 km and the others are only
+  161,105 and 93 kilometers. Its fleet at May 2014 included two Bombardier Dash 8-300s which were leased from UNI Air,two Dash 8-200's,and one Dash 8-100 which was leased from Amakusa Airlines. At 2005 it had three BN Islanders as well." />
+</profile>
+   <info real="True" from="1961" to="2199"></info>
+   <prefereds aircrafts="Bombardier Dash 8-300,Bombardier Dash 8-200,Bombardier Dash 8-100,Bombardier Dash 8-400,Bombardier Dash 8-400NextGen,BN-2A Islander"></prefereds>
+<routes>
+          <route destination1="NGS" destination2="FUJ"/>
+	        <route destination1="NGS" destination2="TSJ"/>
+	        <route destination1="NGS" destination2="IKI"/>
+	        <route destination1="FUK" destination2="FUJ"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1965) late (2016)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="3" late="0"></airliner>
+	     </airliners>
+	           	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="0" late="2"></airliner>
+	     </airliners>
+	     	           	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="0" late="2"></airliner>
+	     </airliners>
+	     	           	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="0" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Aero Espresso Italiana" iata="I1" color="Green" area="121" CEO="Andrea Ragnetti" mentality="Aggressive" market="Regional" preferedairport="BDS">
+    <narrative narrative="Aero Espresso Italiana was the first airline of Italy. It offered flights in seaplanes from Brindisi. In 1934 Aero Espresso Italiana was absorbed into the national airline Ala Littoria."/>
+  </profile>
+<info real="True" from="1923" to="1934"></info>
+<prefereds aircrafts="Savoia-Marchetti S.55"/>
+
+<routes>
+		<route destination1="BDS" destination2="ATH" destination3="RHO"/>
+		<route destination1="BDS" destination2="ATH" destination3="IST"/>		
+</routes>
+</airline>

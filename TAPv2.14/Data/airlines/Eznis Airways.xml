@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eznis Airways" iata="EZA" color="Orange" area="208" CEO="Hiroshi Kitahara" mentality="Moderate" market="Regional" preferedairport="ULN">
+  <narrative narrative="Eznis Airways was an airline based at Ulaanbaatar,Mongolia from 2006 until ceasing in May 2014. It served 12 domestic destinations and Hailar,China which was ran from August 2009 and Ulan Ude,Russia which started June 2010. It had two Saab 340's to start and had four by 2010.
+  In 2011 it got two Avro RJ 85's,and in 2011 it got two Bombardier Dash 8-400's. It leased at 737-700 for a few months also. It was the largest domestic airline while it lasted, and carried at least 100,000 passengers by November 2008, just a month
+  shy of its 2 year mark since starting."/>
+</profile>
+  <info real="True" from="2006" to="2014" />
+  <prefereds aircrafts="Bombardier Dash 8-400,Saab 340B,Avro RJ 85"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2010)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="2" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2013)-->
+	         <airliners>
+	    <airliner type="Avro RJ 85" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="2" late="2"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="ULN" destination2="HVD"  />
+                <route destination1="ULN" destination2="ULG"  />	
+		<route destination1="ULN" destination2="ULO"  />
+		<route destination1="ULN" destination2="DLZ"  />
+		<route destination1="ULN" destination2="OOT"  />
+		<route destination1="ULN" destination2="COQ"  />
+		<route destination1="ULN" destination2="LTI"  />
+		<route destination1="ULN" destination2="MUV"  />
+		<route destination1="ULN" destination2="UGA"  />
+		<route destination1="ULN" destination2="BYN"  />
+		<route destination1="ULN" destination2="UUN"  />
+		<route destination1="ULN" destination2="ULZ"  />
+		<route destination1="ULN" destination2="AVK"  />
+		<route destination1="ULN" destination2="HLD" opened="2009" closed="2199"  />
+		<route destination1="ULN" destination2="MMR"  />
+		<route destination1="ULN" destination2="MXV"  />
+	        </routes>
+
+
+
+
+</airline>

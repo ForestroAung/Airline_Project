@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Saab 340-->
+<configuration type="Saab 340" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="380" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.6" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Saab 340B" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="380" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71,1" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Saab 340B Plus" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="380" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71,1" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Saab 2000" economy="-1" premium="0" first="0" business="0" exitrows="0,1300" emergencyrows="688" toiletrows="0" kitchenrows="1300">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.4" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Saab 90-->
+<configuration type="Saab 90 Scandia" economy="0" premium="0" first="-1" business="0" exitrows="600" emergencyrows="-1" toiletrows="600" kitchenrows="600">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="45"></seat>
+</seats>
+</configuration>
+<configuration type="Saab 90A Scandia" economy="0" premium="0" first="-1" business="0" exitrows="600" emergencyrows="-1" toiletrows="600" kitchenrows="600">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+
+</configurations>

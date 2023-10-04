@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aserca Airlines" iata="R7"  color="Red" area="426" CEO="Simeon Garcia" mentality="Moderate" market="Local" preferedairport="VLN">
+  <narrative narrative="Aserca Airlines is based at Valencia,Venezuela with another hub at Caracas. Its name means Aero Servicios Carabobo. At March 2015 it was serving 8 domestic destinations from Caracas and one to Aruba. From Valencia it was serving four domestic routes. At October 2014 its fleet was made of five MD-83's and four MD-82's. It had about 17 DC-9-30's up until recently when the government started forcing the airline of the country to get newer planes. The airline was founded in 1968 but did not start a very long time later in 1991. It served Bogota,Colombia Lima,Peru and Miami,FL,USA at one time also."/>
+   </profile>
+    <info real="True" from="1991" to="2199" />
+       <prefereds aircrafts="MD-83 (DC-9-83),MD-82 (DC-9-82),Douglas DC-9-30,MD-87 (DC-9-87)"></prefereds>
+	      <focusairports>
+                 <focusairport airport="CCS"></focusairport>
+     </focusairports>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2014)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="5"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="4" late="4"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="17" late="0"></airliner>
+	     </airliners>
+
+
+	       <routes>
+	       	<route destination1="VLN" destination2="PMV"  />
+		<route destination1="VLN" destination2="BLA"  />
+		<route destination1="VLN" destination2="MAR"  />
+		<route destination1="VLN" destination2="PZO"  />
+		<route destination1="CCS" destination2="PMV"  />
+		<route destination1="CCS" destination2="BLA"  />
+		<route destination1="CCS" destination2="MUN"  />
+		<route destination1="CCS" destination2="PZO"  />
+		<route destination1="CCS" destination2="MAR"  />
+		<route destination1="CCS" destination2="BRM"  />
+		<route destination1="CCS" destination2="STD"  />
+		<route destination1="CCS" destination2="LSP"  />
+		<route destination1="CCS" destination2="AUA"  />
+
+		
+              </routes>
+</airline>

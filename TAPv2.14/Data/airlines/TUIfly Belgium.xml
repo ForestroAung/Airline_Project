@@ -1,0 +1,128 @@
+<airline>
+ <profile name="TUIfly Belgium" iata="TB" logo="X3" color="Black" area="112" CEO="Elie Bruyninckx" mentality="Aggressive" market="Global" preferedairport="BRU">
+  <narrative narrative="TUI fly Belgium, legally incorporated as TUI Airlines Belgium S.A./N.V. and formerly branded Jetairfly, is a Belgian airline with its registered office at Brussels Airport."/>
+ </profile>
+  <prefereds aircrafts="Boeing 737-700,Boeing 737-800,Boeing 737 MAX 8,Boeing 767-300ER,Boeing 787-8,Embraer E-190"></prefereds>
+   <info real="True" from="2005" to="2199">
+   </info>
+   <focusairports>
+	<focusairport airport="ANR"></focusairport>
+	<focusairport airport="CRL"></focusairport>
+	<focusairport airport="LGG"></focusairport>
+	<focusairport airport="OST"></focusairport>
+   </focusairports>
+    <startdata>
+    <airliners>
+     <airliner type="Boeing 737-700" early="5" late="5"></airliner>
+	 <airliner type="Boeing 737-800" early="3" late="16"></airliner>
+	 <airliner type="Boeing 737 MAX 8" early="0" late="1"></airliner>
+	 <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	 <airliner type="Boeing 787-8" early="1" late="1"></airliner>
+	 <airliner type="Embraer E-190" early="4" late="4"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="EIN" destination2="NDR"/>
+	  <route destination1="EIN" destination2="OUD"/>
+	  <route destination1="OST" destination2="ALC"/>
+	  <route destination1="OST" destination2="BCN"/>
+	  <route destination1="OST" destination2="LPA"/>
+	  <route destination1="OST" destination2="AGP"/>
+	  <route destination1="OST" destination2="TFS"/>
+	  <route destination1="OST" destination2="AOE"/>
+	  <route destination1="ANR" destination2="INN"/>
+	  <route destination1="ANR" destination2="NDR"/>
+	  <route destination1="ANR" destination2="ALC"/>
+	  <route destination1="ANR" destination2="BCN"/>
+	  <route destination1="ANR" destination2="AGP"/>
+	  <route destination1="ANR" destination2="MJV"/>
+	  <route destination1="LIL" destination2="BES"/>
+	  <route destination1="LIL" destination2="NTE"/>
+	  <route destination1="LIL" destination2="AGA"/>
+	  <route destination1="LIL" destination2="RAK"/>
+	  <route destination1="LIL" destination2="FUE"/>
+	  <route destination1="LGG" destination2="ALC"/>
+	  <route destination1="LGG" destination2="AGP"/>
+	  <route destination1="LGG" destination2="TFS"/>
+	  <route destination1="CRL" destination2="ALG"/>
+	  <route destination1="CRL" destination2="CZL"/>
+	  <route destination1="CRL" destination2="ORN"/>
+	  <route destination1="CRL" destination2="SSH"/>
+	  <route destination1="CRL" destination2="TLN"/>
+	  <route destination1="CRL" destination2="CMN"/>
+	  <route destination1="CRL" destination2="ESU"/>
+	  <route destination1="CRL" destination2="FEZ"/>
+	  <route destination1="CRL" destination2="NDR"/>
+	  <route destination1="CRL" destination2="OUD"/>
+	  <route destination1="CRL" destination2="RBA"/>
+	  <route destination1="CRL" destination2="TNG"/>
+	  <route destination1="CRL" destination2="ALC"/>
+	  <route destination1="CRL" destination2="LPA"/>
+	  <route destination1="CRL" destination2="AGP"/>
+	  <route destination1="CRL" destination2="MJV"/>
+	  <route destination1="CRL" destination2="TFS"/>
+	  <route destination1="CRL" destination2="TUN"/>
+	  <route destination1="BRU" destination2="TIA"/>
+	  <route destination1="BRU" destination2="BVC"/>
+	  <route destination1="BRU" destination2="VRA"/>
+	  <route destination1="BRU" destination2="PFO"/>
+	  <route destination1="BRU" destination2="PUJ"/>
+	  <route destination1="BRU" destination2="SDQ"/>
+	  <route destination1="BRU" destination2="LXR"/>
+	  <route destination1="BRU" destination2="RMF"/>
+	  <route destination1="BRU" destination2="SSH"/>
+	  <route destination1="BRU" destination2="BJL"/>
+	  <route destination1="BRU" destination2="NAP"/>
+	  <route destination1="BRU" destination2="PRN"/>
+	  <route destination1="BRU" destination2="CUN"/>
+	  <route destination1="BRU" destination2="AGA"/>
+	  <route destination1="BRU" destination2="RAK"/>
+	  <route destination1="BRU" destination2="FAO"/>
+	  <route destination1="BRU" destination2="FNC"/>
+	  <route destination1="BRU" destination2="ALC"/>
+	  <route destination1="BRU" destination2="LEI"/>
+	  <route destination1="BRU" destination2="FUE"/>
+	  <route destination1="BRU" destination2="LPA"/>
+	  <route destination1="BRU" destination2="ACE"/>
+	  <route destination1="BRU" destination2="AGP"/>
+	  <route destination1="BRU" destination2="TFS"/>
+	  <route destination1="BRU" destination2="NBE"/>
+	  <route destination1="BRU" destination2="AYT"/>
+	  <route destination1="BRU" destination2="MIA"/>
+	  <route destination1="BES" destination2="DOL"/>
+	  <route destination1="BES" destination2="LIL"/>
+	  <route destination1="BES" destination2="TLN"/>
+	  <route destination1="BES" destination2="AGA"/>
+	  <route destination1="BES" destination2="TFS"/>
+	  <route destination1="DOL" destination2="LIL"/>
+	  <route destination1="DOL" destination2="ACE"/>
+	  <route destination1="CDG" destination2="RNS" destination3="FUE"/>
+	  <route destination1="CDG" destination2="FUE"/>
+	  <route destination1="CDG" destination2="ACE"/>
+	  <route destination1="CDG" destination2="TFS"/>
+	  <route destination1="CDG" destination2="SID"/>
+	  <route destination1="ORY" destination2="AGA"/>
+	  <route destination1="ORY" destination2="CMN"/>
+	  <route destination1="ORY" destination2="RAK"/>
+	  <route destination1="ORY" destination2="OUD"/>
+	  <route destination1="ORY" destination2="RBA"/>
+	  <route destination1="ORY" destination2="TNG"/>
+	  <route destination1="NTE" destination2="SID"/>
+	  <route destination1="NTE" destination2="LYS"/>
+	  <route destination1="NTE" destination2="AGA"/>
+	  <route destination1="NTE" destination2="RAK"/>
+	  <route destination1="NTE" destination2="FUE"/>
+	  <route destination1="BOD" destination2="NTE"/>
+	  <route destination1="BOD" destination2="TLS"/>
+	  <route destination1="BOD" destination2="CMN"/>
+	  <route destination1="TLS" destination2="AGA"/>  
+	  <route destination1="TLS" destination2="FUE"/> 
+	  <route destination1="TLS" destination2="ACE"/>
+	  <route destination1="MRS" destination2="CFE"/>
+	  <route destination1="TRN" destination2="NAP" destination3="RAK"/>
+	  <route destination1="BLQ" destination2="RAK"/>
+	  <route destination1="NAP" destination2="BRU"/>
+	  <route destination1="NAP" destination2="ZAZ"/>
+	  <route destination1="SSH" destination2="PFO" destination3="BRU"/>
+     </routes>
+    </startdata>
+</airline>

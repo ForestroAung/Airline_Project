@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Tobias Air" iata="TOB" color="Blue" area="107" CEO="Tobias Sonderholm" mentality="Aggressive" market="Global" preferedairport="AAR">
+  <narrative narrative="Tobias Air will be the airline Christian Sonderholm's son Tobias will found in the year 2035. It was buy and merge with Sonderholm Airlines right after founding. Its base will be Aarhus."/>
+</profile>
+  <info real="False" from="2035" to="2199" />
+
+
+</airline>

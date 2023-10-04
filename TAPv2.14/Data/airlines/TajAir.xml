@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="TajAir" iata="TAJ" color="Gold" area="224" CEO="Mehernosh Kapadia" mentality="Safe" market="Regional" preferedairport="BOM" schedule="Charter">
+    <narrative narrative="TajAir is a charter airline based at Mumbai,India that does package deals for Taj Hotels and Resorts and Palaces. They have 75 hotels in 50 cities in 10 countries. One can get a package deal 
+    that includes the use of the air charter, on one of their two Dassault Falcon 2000 jets or their Piaggio Avanti prop. It owns a hanger and exclusive lounge at the General Aviation Terminal of BOM. At May 2015
+    it costs about 11,950 US Dollars on the package deal for the Falcon 2000 and around 5,800 USD for the Piaggio. One of their advertised packages is from Mumbai to Goa. Its parent company is Indian conglomerate Tata Sons.
+    Which itself is linked to JRD Tata who was India's first licensed pilot. It was founded in 1993 as Megapode Airlines and started operations as Taj Air on August 9,2002." />
+  </profile>
+    <info real="True" from="2002" to="2199" />
+           <prefereds aircrafts="Dassault Falcon 2000,P180 Avanti"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dassault Falcon 2000" early="2" late="2"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="P180 Avanti" early="1" late="1"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="BOM" destination2="GOI"    />	
+                   </routes>
+</airline>

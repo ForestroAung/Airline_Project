@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Amsterdam Airlines" iata="AAN" color="DarkGreen" area="111" CEO="Ayhan Kara" mentality="Safe" market="Global" preferedairport="AMS" schedule="Charter">
+  <narrative narrative="Amsterdam Airlines was a charter and wet leasing airline that was in operation from June 2008 until Halloween 2011. Besides the Amsterdam hub it also had one at Maastricht Aachen Airport.
+  It began with one A320-200 and had three at the end."/>
+</profile>
+  <info real="True" from="2008" to="2012" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+    <focusairports>
+		 <focusairport airport="MST"></focusairport>
+					      </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="3"></airliner>
+	     </airliners>
+
+
+</airline>

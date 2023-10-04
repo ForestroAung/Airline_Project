@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Convair-->
+<configuration type="Convair 240" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="770">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77" width="52"></seat>
+</seats>
+</configuration>
+<configuration type="Convair 440" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="1005">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.3" width="52"></seat>
+</seats>
+</configuration>
+<configuration type="Convair 880" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="1005">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="91.9" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Convair 990" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="1005">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="84.8" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Convair 990A" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="1005">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="84.8" width="47"></seat>
+</seats>
+</configuration>
+
+</configurations>

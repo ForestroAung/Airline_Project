@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eva Air" iata="BR" color="Green" area="217" CEO="Chang Yung-fa" mentality="Safe" market="Global"
+           preferedairport="TPE">
+    <narrative
+      narrative="Since its founding in 1989 as an affiliate of shipping conglomerate Evergreen Group, EVA Air has expanded to include air cargo, airline catering, ground handling, and aviation engineering service" />
+  </profile>
+  <info real="True" from="1989" to="2199" />
+  <prefereds aircrafts="Airbus A321-200,Airbus A330-200,Airbus A330-300,Boeing 747-400,Boeing 777-300ER">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="TPE"></focusairport>
+    <focusairport airport="KHH"></focusairport>
+    <focusairport airport="BKK"></focusairport>
+    </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A321-200" early="9" late="9"></airliner>
+      <airliner type="Airbus A330-200" early="4" late="5"></airliner>
+      <airliner type="Airbus A330-300" early="1" late="3"></airliner>
+      <airliner type="Boeing 747-400" early="3" late="0"></airliner>
+      <airliner type="Boeing 777-300ER" early="7" late="14"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="TPE" destination2="AMS"/>
+      <route destination1="TPE" destination2="BKK"/>
+      <route destination1="TPE" destination2="PEK"/>
+      <route destination1="TPE" destination2="BNE"/>
+      <route destination1="TPE" destination2="CTU"/>
+      <route destination1="TPE" destination2="DPS"/>
+      <route destination1="TPE" destination2="FUK"/>
+      <route destination1="TPE" destination2="GUM"/>
+      <route destination1="TPE" destination2="CAN"/>
+      <route destination1="TPE" destination2="HKD"/>
+      <route destination1="TPE" destination2="HGH"/>
+      <route destination1="TPE" destination2="HAN"/>
+      <route destination1="TPE" destination2="HRB"/>
+      <route destination1="TPE" destination2="SGN"/>
+      <route destination1="TPE" destination2="HET"/>
+      <route destination1="TPE" destination2="HKG"/>
+      <route destination1="TPE" destination2="IAH"/>
+      <route destination1="TPE" destination2="TXN"/>
+      <route destination1="TPE" destination2="LHR"/>
+      <route destination1="TPE" destination2="LAX"/>
+      <route destination1="TPE" destination2="MFM"/>
+      <route destination1="TPE" destination2="MNL"/>
+      <route destination1="TPE" destination2="OKA"/>
+      <route destination1="TPE" destination2="JFK"/>
+      <route destination1="TPE" destination2="KIX"/>
+      <route destination1="TPE" destination2="CDG"/>
+      <route destination1="TPE" destination2="PNH"/>
+      <route destination1="TPE" destination2="SFO"/>
+      <route destination1="TPE" destination2="CTS"/>
+      <route destination1="TPE" destination2="SEA"/>
+      <route destination1="TPE" destination2="SDJ"/>
+      <route destination1="TPE" destination2="ICN"/>
+      <route destination1="TPE" destination2="PVG"/>
+      <route destination1="TPE" destination2="SJW"/>
+      <route destination1="TPE" destination2="SIN"/>
+      <route destination1="TPE" destination2="SUB"/>
+      <route destination1="TPE" destination2="TYN"/>
+      <route destination1="TPE" destination2="TSN"/>
+      <route destination1="TPE" destination2="NRT"/>
+      <route destination1="TPE" destination2="YYZ"/>
+      <route destination1="TPE" destination2="YVR"/>
+      <route destination1="TPE" destination2="VIE"/>
+      <route destination1="TPE" destination2="CGO"/>
+      <route destination1="TPE" destination2="BKK" destination3="AMS"/>
+      <route destination1="TPE" destination2="BKK" destination3="LHR"/>
+      <route destination1="TPE" destination2="BKK" destination3="TPE"/>
+      <route destination1="TPE" destination2="BKK" destination3="VIE"/>
+      <route destination1="KHH" destination2="FUK"/>
+      <route destination1="KHH" destination2="CAN"/>
+      <route destination1="KHH" destination2="MFM"/>
+      <route destination1="KHH" destination2="NGB"/>
+      <route destination1="KHH" destination2="ICN"/>
+      <route destination1="KHH" destination2="KIX"/>
+      <route destination1="KHH" destination2="PVG"/>
+      <route destination1="KHH" destination2="TSN"/>
+      <route destination1="KHH" destination2="NRT"/>
+      <route destination1="KHH" destination2="CGO"/>
+    </routes>
+  </startdata>
+</airline>

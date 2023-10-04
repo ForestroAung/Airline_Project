@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AB Aviation" iata="AYD" color="SkyBlue" area="376" CEO="Unknown" mentality="Moderate" market="Local"  preferedairport="HAH">
+  <narrative narrative="AB Aviation is an airline based at Moroni,Comoros. Comoros is the island nation in the Indian Ocean between mainland Africa and Madagascar. It began in 2013 and has two Embraer 120's and a 737. It goes to the other two domestic airports at Anjouan and Moheli and international to
+  Pemba,Mozambique Dar es Salam,Tanzania Antananarivo,Madagascar Majunga,Madagascar and the French island territory of Mayotte nearby. It has flights between all 3 domestic airports, while Mayotte is served from Anjouan and Moheli. The mainland Africa and Madagascar flights are from the hub at Moroni." />
+</profile>
+   <info real="True" from="2013" to="2199"></info>
+  <prefereds aircrafts="EMB 120 Brasilia,Boeing 737-300,Boeing 737-500,Boeing 737-700,Boeing 737 MAX 7"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="2" late="2"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="1" late="1"></airliner>
+	     </airliners>
+<routes>
+          <route destination1="HAH" destination2="DAR" />
+          <route destination1="HAH" destination2="AJN" />
+          <route destination1="HAH" destination2="NWA" />
+          <route destination1="AJN" destination2="NWA" />
+          <route destination1="AJN" destination2="DZA" />
+          <route destination1="NWA" destination2="DZA" />
+          <route destination1="HAH" destination2="POL" />
+          <route destination1="HAH" destination2="TNR" />
+          <route destination1="HAH" destination2="MJN" />
+              </routes>
+  
+
+
+</airline>

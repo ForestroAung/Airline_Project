@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+ <airline>
+  <profile name="Aero Virgin Islands" iata="VIG"  color="Red" area="402" CEO="Reuben B. Wheatley" mentality="Safe" market="Local" preferedairport="STT">
+  <narrative narrative="Aero Virgin Islands was around from about 1977 until 1990. It's base was St. Thomas,U.S Virgin Islands and its main routes were St. Thomas to St.Croix also in the USVI and both of those to San Juan,Puerto Rico, the main city of that US territory also in the Caribbean near the USVI. It also did charters to other places in the Caribbean. Its fleet ws made up of three DC-3's most the time. In 1989 it had two operating when one of them was destroyed parked at St. Thomas by Hurricane Hugo leaving one plane in the fleet. It had got a Martin 404 in 1986 also. A main reason for their demise was the increased and heavy competition from airlines like LIAT and American Eagle." />
+   </profile>
+    <info real="True" from="1977" to="1990" />
+       <prefereds aircrafts="Douglas DC-3,Martin 4-0-4"></prefereds>
+              <focusairports>
+                 <focusairport airport="STX"></focusairport>
+	         <focusairport airport="SJU"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1977) late (1989)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="3" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1986) late (1989)-->
+	     	         <airliners>
+	    <airliner type="Martin 4-0-4" early="1" late="1"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="STT" destination2="STX" opened="1977" closed="2199"/>
+		<route destination1="STT" destination2="SJU" opened="1977" closed="2199"/>
+		<route destination1="STX" destination2="SJU" opened="1977" closed="2199" />
+		              </routes>
+</airline>

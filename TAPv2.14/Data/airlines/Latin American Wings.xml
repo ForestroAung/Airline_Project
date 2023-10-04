@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Latin American Wings" iata="H8" color="Pink" area="435" CEO="Andrés Dulcinelli" mentality="Moderate" market="Regional" preferedairport="SCL">
+  <narrative narrative="Latin American Wings (LAW) is a scheduled charter airline based at Comodoro Arturo Merino Benítez International Airport in Santiago, Chile." />
+ </profile>
+    <info real="True" from="2016" to="2199" />
+    <focusairports>
+      <focusairport airport="CCP"></focusairport>
+     <focusairport airport="LRM"></focusairport>
+     <focusairport airport="PUJ"></focusairport>
+     <focusairport airport="PAP"></focusairport>
+     <focusairport airport="LIM"></focusairport>
+     <focusairport airport="CCS"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Boeing 737-300"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    	    	    <airliner type="Boeing 737-300" early="5" late="5"></airliner>
+	     </airliners>
+</airline>

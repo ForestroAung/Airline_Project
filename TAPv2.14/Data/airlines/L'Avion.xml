@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="L'Avion" iata="AVI"  color="Orchid" area="113" CEO="Marc Rochet" mentality="Safe" market="Global" preferedairport="ORY">
+  <narrative narrative="L'Avion was a short lived French airline based at Paris Orly that did one route. Paris Orly to Newark,New Jersey,USA.It was the brand name used by Elysair SAS. L'Avion in French means the plane.
+  Its first flight was on January 3,2007. It used two 757-200's. Each plane were configured with 90 seats in a 2 by 2 configuration and it was all business class. Each seat had laptop power,food and wine,and seats that reclined 140 degrees.
+  It had plans to go to the Middle East. It was bought by British Airways on July 2,2008 for 54 million British pounds and was merged into BA's new Paris Orly venture OpenSkies the next April. OpenSkies had been just doing the Orly-New York JFK route
+  and also had been using the 757. So the Newark route was adopted after the merger." />
+   </profile>
+    <info real="True" from="2007" to="2010" />
+       <prefereds aircrafts="Boeing 757-200"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="2" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="ORY" destination2="EWR" opened="2007" closed="2199"/>
+              </routes>
+</airline>

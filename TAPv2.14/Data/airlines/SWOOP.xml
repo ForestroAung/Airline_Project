@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Swoop" iata="WO" logo="WO2" color="Turquoise" area="400" CEO="Gregg Saretsky" mentality="Safe" market="Domestic" preferedairport="YHM">
+    <narrative narrative="September 27, 2017. WestJet announced the name and logo for its ultra-low-cost airline (ULCC) in Canada. Named Swoop, the ULCC began selling flights in early 2018." />
+</profile>
+  <info real="True" from="2018" to="2199" />
+    <focusairports>
+      <focusairport airport="YHM"></focusairport>
+      <focusairport airport="YXX"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Boeing 737-800"></prefereds>
+                <airliners>
+     <airliner type="Boeing 737-800" early="2" late="2"></airliner>
+      </airliners>
+<routes> 
+     <route destination1="YHM" destination2="YXX"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+     <route destination1="YHM" destination2="YEG"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+     <route destination1="YHM" destination2="YHZ"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+     <route destination1="YHM" destination2="YWG"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+     <route destination1="YXX" destination2="YEG"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+     <route destination1="YXX" destination2="YWG"  opened="2018" closed="2199"    airliner="Boeing 737-800"  />
+                   </routes>
+</airline>

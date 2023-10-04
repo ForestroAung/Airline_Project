@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<airline>
+  <profile name="Elders Colonial Airways" iata="ELC" color="Red" area="332" CEO="Elder" mentality="Safe"
+           market="Regional" preferedairport="FNA">
+    <narrative
+      narrative="Elders Colonial Airways was an airline meant to connect passengers comming from Europe with Imperial Airways to their destinations.">
+    </narrative>
+  </profile>
+  <info real="True" from="1935" to="1940" />
+</airline>

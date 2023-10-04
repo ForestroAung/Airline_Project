@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="EcoJet" iata="ECO" color="Cyan" area="432" CEO="Jose Garcia" mentality="Moderate" market="Domestic" preferedairport="CBB">
+  <narrative narrative="EcoJet is a domestic Bolivian airline that started in November 2013. It began with two Avro RJ 85's and got two more in 2014. Its hub is Cochabamba where it has 6 destinations offered. The other cities it serves are Cobija,Guayaramerin,La Paz,Riberalta,Santa Cruz,Sucre,Tarija,and Trinidad. It connects most this cities with each other and has about 25 routes in mid 2015."/>
+</profile>
+  <info real="True" from="2013" to="2199" />
+  <prefereds aircrafts="Avro RJ 85,BAe 146-200"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ 85" early="2" late="4"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="CBB" destination2="TDD" />
+	       	  <route destination1="CBB" destination2="SRE" />
+		  <route destination1="CBB" destination2="RIB" />
+		  <route destination1="CBB" destination2="CIJ" />
+	          <route destination1="CBB" destination2="GYA" />
+		  <route destination1="CBB" destination2="TJA" />
+	           <route destination1="LPB" destination2="TDD" />
+		   <route destination1="LPB" destination2="SRE" />
+		   <route destination1="LPB" destination2="RIB" />
+		   <route destination1="LPB" destination2="GYA" />
+		   <route destination1="LPB" destination2="CIJ" />
+		   <route destination1="VVI" destination2="TDD" />
+		   <route destination1="VVI" destination2="SRE" />
+		   <route destination1="VVI" destination2="GYA" />
+		   <route destination1="VVI" destination2="TJA" />
+		   <route destination1="VVI" destination2="RIB" />
+		   <route destination1="VVI" destination2="CIJ" />
+		   <route destination1="SRE" destination2="RIB" />
+		   <route destination1="SRE" destination2="GYA" />
+		   <route destination1="TDD" destination2="RIB" />
+		   <route destination1="TDD" destination2="CIJ" />
+		   <route destination1="TDD" destination2="GYA" />
+		   <route destination1="TDD" destination2="TJA" />
+		    <route destination1="RIB" destination2="TJA" />
+		    <route destination1="GYA" destination2="TJA" />
+		 		        </routes>
+
+
+
+
+</airline>

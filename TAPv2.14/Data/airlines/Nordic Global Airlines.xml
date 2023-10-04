@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Nordic Global Airlines" iata="NJ" color="Blue" area="106" CEO="Timo Backman" mentality="Moderate" market="Global" onlyfromhome="False" preferedairport="HEL" routefocus="Cargo"> 
+  <narrative narrative="Nordic Global Airlines is a cargo airline based at Helsinki,Finland and was founded in 2011. It also has a base at Liege,Belgium. It is 40% owned by the Finnair Group. From Helsinki it goes to Brussels,New York JFK,Hong Kong and Hanoi,Vietnam on a scheduled basis. From Liege it serves many African places like Lagos,Pointe Noire,Abuja,Accra,Lusaka,Johannesburg,Entebbe,Kigali and Nairobi. The Hong Kong route stops over in Novosibirsk,Russia. Finnair Cargo uses their codes for the routes out of Helsinki. It has four MD-11F's as of February 2015. They have claimed to operated in 44 countries and 62 cities." />
+</profile>
+   <info real="True" from="2011" to="2199"></info>
+   <prefereds aircrafts="MD-11F"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="LGG"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-11F" early="4" late="4"></airliner>
+	     </airliners>
+
+
+<routes>
+		<route destination1="HEL" destination2="BRU" opened="2011" closed="2199"/>
+		<route destination1="HEL" destination2="JFK" opened="2011" closed="2199"/>
+		<route destination1="HEL" destination2="OVB" destination3="HKG"  opened="2011" closed="2199"/>
+		<route destination1="HEL" destination2="HAN" opened="2011" closed="2199"/>
+		<route destination1="HEL" destination2="OVB" opened="2012" closed="2199"/>
+		<route destination1="LGG" destination2="LOS" opened="2012" closed="2199"/>
+		<route destination1="LGG" destination2="PNR" opened="2012" closed="2199"/>
+		<route destination1="LGG" destination2="ABJ" opened="2012" closed="2199"/>
+		<route destination1="LGG" destination2="ACC" opened="2013" closed="2199"/>
+		<route destination1="LGG" destination2="LUN" opened="2013" closed="2199"/>
+		<route destination1="LGG" destination2="JNB" opened="2013" closed="2199"/>
+		<route destination1="LGG" destination2="EBB" opened="2014" closed="2199"/>
+		<route destination1="LGG" destination2="NBO" opened="2014" closed="2199"/>
+		<route destination1="LGG" destination2="KGL" opened="2014" closed="2199"/>
+        </routes>
+ 
+
+</airline>

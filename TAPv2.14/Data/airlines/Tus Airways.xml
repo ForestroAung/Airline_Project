@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Tus Airways " iata="CYF" color="SkyBlue" area="146" CEO="Efthymios Liasis" mentality="Safe" market="Global" preferedairport="LCA">
+  <narrative narrative="Tus Airways is based at Larnaca, Cyrpus and began flying in February 2016. It's two initial routes are to Tel Aviv and Haifa, both in Israel. In July 2016 the routes to Greece opened, to Heraklion,Rhodes and the seasonal offerings of Kos and Samos. Its initial fleet is two Saab 340B's as of June 2016.
+  All flights are out of Larnaca as of now. It is one of the two airlines along with Cobalt Air that were founded after the closing of Cyprus Airways to fill the void left in air service." />
+</profile>
+   <info real="True" from="2016" to="2199"></info>
+   <prefereds aircrafts="Saab 340B"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="2" late="2"></airliner>
+	     </airliners>
+	     	
+
+
+<routes>
+    <route destination1="LCA" destination2="TLV" />
+    <route destination1="LCA" destination2="HFA" />
+    <route destination1="LCA" destination2="HER" />
+		<route destination1="LCA" destination2="RHO" />
+    <route destination1="LCA" destination2="KGS" season="Summer" />
+    <route destination1="LCA" destination2="SMI" season="Summer" />
+        </routes>
+  
+
+
+</airline>

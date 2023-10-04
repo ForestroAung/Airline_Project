@@ -1,0 +1,38 @@
+﻿<airline>
+  <profile name="Adria Airways" iata="JP" logo="JP" color="White" area="124" CEO="Mark Anžur" mentality="Moderate" market="Regional" preferedairport="LJU">
+    <narrative
+      narrative="Adria Airways d.d., formerly Inex-Adria Airways, is the Slovenian national airline. Today, the majority of Adria Airways business is in scheduled flights. Adria operates to 22 scheduled destinations throughout Europe. It is a Star Alliance member since 2004 and a Lufthansa partner since 1996. IOSA Registration was received among the first airlines in the world." />
+  </profile>
+  <info real="True" from="1961" to="2019"></info>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A319-100" early="0" late="3"></airliner>
+      <airliner type="Bombardier CRJ200" early="1" late="2"></airliner>
+      <airliner type="Bombardier CRJ900LR" early="1" late="7"></airliner>
+    </airliners>
+	    <routes>      
+	     <route destination1="LJU" destination2="TIA"/>
+		 <route destination1="LJU" destination2="VIE"/>
+		 <route destination1="LJU" destination2="BRU"/>
+		 <route destination1="LJU" destination2="SJJ"/>
+		 <route destination1="LJU" destination2="PRG"/>
+		 <route destination1="LJU" destination2="CPH"/>
+		 <route destination1="LJU" destination2="CDG"/>
+		 <route destination1="LJU" destination2="FRA"/>
+		 <route destination1="LJU" destination2="MUC"/>
+		 <route destination1="LJU" destination2="PRN"/>
+		 <route destination1="LJU" destination2="SKP"/>
+		 <route destination1="LJU" destination2="TGD"/>
+		 <route destination1="LJU" destination2="AMS"/>
+		 <route destination1="LJU" destination2="WAW"/>
+		 <route destination1="LJU" destination2="SVO"/>
+		 <route destination1="LJU" destination2="ZRH"/>
+		 <route destination1="LJU" destination2="KBP"/>
+		 <route destination1="TIA" destination2="FRA"/>
+		 <route destination1="TIA" destination2="MUC"/>
+		 <route destination1="TIA" destination2="PRN"/>
+		 <route destination1="PRN" destination2="FRA"/>
+		 <route destination1="PRN" destination2="MUC"/>
+        </routes>
+  </startdata>
+</airline>

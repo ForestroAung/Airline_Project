@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Pacific Airlines" iata="BL" color="Orange" area="238" CEO="Lê Hong Hà" mentality="Moderate" market="Regional" preferedairport="SGN">
+ <narrative narrative="Jetstar Pacific is a low-cost airline headquartered in Tan Son Nhat Airport, Ho Chi Minh City. The airline was formerly known as Pacific Airlines."></narrative>
+<logos>
+	<logo from="1991" to="2007" path="BL1991-2007"/>
+	<logo from="2008" to="2199" path="BL2008-"/>
+</logos>
+ <names>
+	<name value="Pacific Airlines" from="01.01.1991 00:00:00"/>
+	<name value="Jetstar Pacific" from="23.05.2008 00:00:00"/>
+</names>
+ </profile>
+<info real="True" from="1991" to="2199"/>
+
+
+</airline>

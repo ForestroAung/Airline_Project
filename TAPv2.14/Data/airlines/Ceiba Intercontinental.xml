@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ceiba Intercontinental" iata="C2" color="SeaGreen" area="344" CEO="Santiago Nsobeya Efuman Nchama" mentality="Moderate" market="Global" preferedairport="SSG">
+  <narrative narrative="Ceiba Intercontinental is an airline based at Malabo on the island of Bioko in Equitorial Guinea. As of early 2015 it was flying to ten other African airports from its base including one other domestic one
+  at Bata. The other nine are Abidjan,Cote d'Ivoire Accra,Ghana Brazzaville,Republic of the Congo Cotonou,Benin Douala,Cameroon Libreville,Gabon Lome,Togo and Pointe-Noire,Republic of the Congo. It also had the Portuguese airline White Airways
+  operate to Madrid,Spain on its behalf, because Equitorial Guinea are banned from flying into Europe. The airline was founded in May 2007. At February 2015 its fleet had two 777-200LR's,a 767-300ER,three 737-800's,
+  two ATR 72-500's,an ATR 42-500 and an ATR 42-300. At the start it also had an A300B4, it also had the two ATR 42's at the airlines start." />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+  <prefereds aircrafts="Boeing 777-200LR,Boeing 767-300ER,Boeing 737-800,ATR 72-500,ATR 42-500,ATR 42-300,ATR 72-600,Boeing 737 MAX 8,Boeing 777-8X"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 777-200LR" early="1" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="2" late="2"></airliner>
+	     </airliners>
+	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-500" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300B4" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+
+
+
+
+
+<routes>
+	        <route destination1="SSP" destination2="ACC" opened="2007" closed="2199"  />
+	        <route destination1="SSP" destination2="BZV" opened="2007" closed="2199"  />
+		<route destination1="SSP" destination2="BSG" opened="2007" closed="2199"  />
+	        <route destination1="SSP" destination2="LFW" opened="2007" closed="2199"  />
+	         <route destination1="SSP" destination2="ABJ" opened="2007" closed="2199"  />
+	         <route destination1="SSP" destination2="LBV" opened="2007" closed="2199"  />
+		<route destination1="SSP" destination2="DLA" opened="2007" closed="2199"  />
+	        <route destination1="SSP" destination2="PNR" opened="2007" closed="2199"  />
+	        <route destination1="SSP" destination2="COO" opened="2007" closed="2199"  />
+              </routes>
+  
+
+
+</airline>

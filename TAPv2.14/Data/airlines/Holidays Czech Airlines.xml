@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Holidays Czech Airlines" iata="HCC" color="Orange" area="155" CEO="Philippe Moreels" mentality="Safe" market="Regional" preferedairport="PRG" schedule="Charter">
+  <narrative narrative="Holidays Czech Airlines was a subsidiary of Czech Airlines that did holiday destination flights. Its base was Prague. It was formed on June 1st,2010 and ceased June 30th,2014. It operated to many Greek places. In Greece it went to Corfu,Heraklion,Kavala,Kefalonia,Kos,Preveza,Rhodes,Thessaloniki,abd Zakynthos. Other places were Burgas,Bulgaria Larnaca,Cyprus Palma de Mallorca,Spain Reus,Spain and Antalya,Turkey. It also flew from two other domestic airports at Brno and Ostrava and flew holiday flights for Ireland from Dublin and Cork. The airline model itself had been used by Czech Airlines since 1985 for holiday charters. Holidays had two 737-400's to start and began using the A320-200 in 2011. By 2013 the 737's were not used and A320's were. It had two A320's near the end."/>
+</profile>
+  <info real="True" from="2010" to="2015" />
+  <prefereds aircrafts="Airbus A320-200,Boeing 737-400"></prefereds>
+            <focusairports>
+		 <focusairport airport="BRQ"></focusairport>
+		 <focusairport airport="OSR"></focusairport>
+					      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2013)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2014)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="PRG" destination2="HER"   />
+		<route destination1="PRG" destination2="RHO" />
+		<route destination1="PRG" destination2="SKG" />
+		<route destination1="PRG" destination2="EFL" />
+		<route destination1="PRG" destination2="KGS" />
+		<route destination1="PRG" destination2="KVA" />
+		<route destination1="PRG" destination2="CFU" />
+		<route destination1="PRG" destination2="ZTH" />
+		<route destination1="PRG" destination2="PVK" />
+		<route destination1="PRG" destination2="PMI" />
+		<route destination1="PRG" destination2="AYT" />
+		<route destination1="PRG" destination2="LCA" />
+		<route destination1="PRG" destination2="BOJ" />
+		<route destination1="PRG" destination2="REU" />
+	        </routes>
+
+
+
+
+</airline>

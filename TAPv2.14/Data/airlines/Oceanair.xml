@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Oceanair" iata="TJ"  color="Cyan" area="402" CEO="Jaime Carrion" mentality="Safe" market="Local" preferedairport="SJU">
+  <narrative narrative="Oceanair was around from 1976 to the mid-80's. Its base was San Juan,Puerto Rico where it flew to St. Thomas in the US Virgin Islands as well as St. Croix also in the USVI. the 1976 timetable shows six flights a day to St. Thomas except none on Sunday. In 1982 it was doing St. Thomas up to 13 times a day every weekday with a few less on the weekend days.Ten were done with the 40+ seater Fairchild F-27 while three were done by the Beechcraft Queen Air 10 seater. Nine on weekdays to St. Croix with a few less on the weekends once again. Five with the F-27 and four the Queen Air. And lastly twice a day every week day between St. Thomas and St. Croix and once on weekend days with the Queen Air. It also used CASA Aviocar's near the start."/>
+   </profile>
+    <info real="True" from="1976" to="1986" />
+       <prefereds aircrafts="Fairchild F-27,Beechcraft Queen Air B80,CASA C212 Aviocar"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1978)-->
+	     	         <airliners>
+	    <airliner type="CASA C212 Aviocar" early="2" late="0"></airliner>
+	     </airliners>
+	     	              <!--the airliners the airline would start with which isn't on a route earyl (1978) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Fairchild F-27" early="2" late="2"></airliner>
+	     </airliners>
+	              <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft Queen Air B80" early="2" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	 	<route destination1="SJU" destination2="STT" opened="1976" closed="2199" />
+		<route destination1="SJU" destination2="STX" opened="1977" closed="2199"  />
+		<route destination1="STT" destination2="STX" opened="1977" closed="2199"  />
+              </routes>
+</airline>

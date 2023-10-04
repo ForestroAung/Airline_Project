@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="The Hawaii Express" iata="HEA" color="Gold" area="402" CEO="Michael Hartley" mentality="Safe" market="Domestic" preferedairport="HNL" >
+    <narrative narrative="The Hawaii Express was around from operations start on August 20,1982 until December 20,1983. It operated between Honolulu and Los Angeles. It used a 747-100 from the start until May 1983. It also got two DC-10-10's in April 1983 which it had until the end. The DC-10's would in fact later be used with
+ Air Hawaii, another venture started by Michael Hartley that lasted from November 1985 until February 1986 flying between the same places in addition to San Francisco. The Hawaii Express was nicknamed The Big Pineapple, and had a pineapple painted on its planes tail. Most of its original 15 pilots were with Braniff before which recently had gone bankrupt. The 50 flight attendants were furlouged from various airlines around the US. Besides Air Hawaii, Michael Hartley would also be a co founder of tcket website CheapTickets." />
+  </profile>
+     <info real="True" from="1982" to="1984"></info>
+     <prefereds aircrafts="MD DC-10-10"></prefereds>
+		      	      <!--the airliners the airline would start with which isn't on a route earyl (1983) late (1984)-->
+	         <airliners>
+	    <airliner type="MD DC-10-10" early="2" late="2"></airliner>
+	     </airliners>
+	     		      	      <!--the airliners the airline would start with which isn't on a route earyl (1982) late (1983)-->
+	         <airliners>
+	    <airliner type="Boeing 747-100" early="1" late="0"></airliner>
+	     </airliners>
+
+      <routes>  
+	    <route destination1="HNL" destination2="LAX"  />
+                   </routes>
+</airline>

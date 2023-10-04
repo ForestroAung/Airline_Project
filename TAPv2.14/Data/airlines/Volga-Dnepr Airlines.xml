@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Volga-Dnepr Airlines" iata="VI" color="Blue" area="177" CEO="Alexander Bashkov" mentality="Aggressive" market="Global" onlyfromhome="False" preferedairport="KJA" routefocus="Cargo" schedule="Charter">
+  <narrative narrative="Volga-Dnepr Airlines is a cargo airline with its hub at Krasnoyarsk,Russia and its base at Ulyanovsk Vostochny. It is the parent of the largest cargo airline in Russia, AirBridgeCargo Airlines formed in 2004.
+  Volga-Dnepr itself is a worldwide leader in moving oversized,heavy and unique cargo with the worlds largest fleet of Antonov 124's, the second heaviest cargo plane behind the Antonov 225 which only one of those exist. At December 2014 
+  they had 10 of them with 40 on order, in addition to 5 Il-76TD's. It has hauled things such as excavators and yachts,missle launchers,smaller planes and helicopters,animals like elephants and whales,entire mini factories and power plants,unique museum collections and
+  parts of the International Space Station just to name some stuff. The most hauled stuff is for the oil and gas industry,aerospace and heavy machine building industries. It has been an official hauler for NATO and the US Air Force.
+  It started operations in 1991. For a time starting in 1996 it did passenger operations with Yak-40's from Moscow Vnukovo to Ulyanovsk,Nizhniy Novgorod and Penza. It also has the subsidiary ATRAN, which does cargo charters from a base at Moscow
+  Domodedovo, which at July 2012 had three Antonov 12's and two 737-400's. From 2009 to 2013 it had Air Cargo Germany,based at Frankfurt Hahn in an attempt to compete with Lufthansa Cargo,it operated four 747-400's." />
+</profile>
+   <info real="True" from="1991" to="2199"></info>
+   <prefereds aircrafts="Antonov An-124,Il-76TD"></prefereds>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2020)-->
+	         <airliners>
+	    <airliner type="Antonov An-124" early="5" late="50"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	         <airliners>
+	    <airliner type="Il-76TD" early="5" late="5"></airliner>
+	     </airliners>
+
+
+
+
+
+</airline>

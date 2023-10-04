@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Airspeed-->
+<!--Ambassador-->
+<configuration type="Ambassador" economy="0" premium="0" first="-1" business="0" exitrows="1100" emergencyrows="-1" toiletrows="1100" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="91" width="57.5"></seat>
+</seats>
+</configuration>
+</configurations>

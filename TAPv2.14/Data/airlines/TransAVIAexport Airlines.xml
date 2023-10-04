@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="TransAVIAexport Airlines" iata="TXC" color="Blue" area="169" CEO="Kudritsky Oleg" mentality="Safe" market="Global" preferedairport="MSQ" routefocus="Cargo">
+  <narrative narrative="TransAVIAexport Airlines is a cargo airline based at Minsk,Belarus and Sharjah,United Arab Emirates. It started in 1992. It flies all over the world, spanning every continent, even the arctic.
+  At 2012 it had six Il-76TD's. It has been said to even help nations come closer by creating links between them through cargo contracts, and has become known for being a reliable cargo hauler. "/>
+</profile>
+  <info real="True" from="1992" to="2199" />
+  <prefereds aircrafts="Il-76TD"></prefereds>
+              <focusairports>
+                 <focusairport airport="SHJ"></focusairport>
+     </focusairports>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Il-76TD" early="1" late="6"></airliner>
+	     </airliners>
+</airline>

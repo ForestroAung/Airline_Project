@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Hansa Jet-->
+<configuration type="HFB 320 Hansa Jet" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="50"></seat>
+</seats>
+</configuration>
+
+<!--BK 117-->
+<configuration type="BK 117" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

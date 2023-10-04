@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Motor Sich Airlines" iata="M9" color="Silver" area="164" CEO="Viacheslav Bohuslayev" mentality="Safe" market="Regional" preferedairport="OZH" routefocus="All">
+  <narrative narrative="Motor Sich Airlines is based at Zaporizhia,Ukraine where its parent Motor Sich has its main aircraft engine manufacturing plant on the grounds of the airport. It was founded in 1984 and does both passengers and cargo and also charters. It has scheduled flights
+  from its home to Kiev Zhuliany and Moscow Vnokovo and from Kiev Zhuliany to Uzhhorod. At February 2013 its fleet was three Antonov 24's,two Antonov 12's,two Antonov 140's,two Yak-40's,an Antonov 74 and three helicopters, Mil Mi-8's.
+  It also used to have five Antonov 26's." />
+</profile>
+   <info real="True" from="1984" to="2199"></info>
+   <prefereds aircrafts="Antonov An-24,Antonov An-12 Passenger,Antonov An-74,Antonov An-140,Yak-40,Antonov An-26,Mi-8P,Mi-8P ER"></prefereds>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="5" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-12 Passenger" early="1" late="2"></airliner>
+	     </airliners>
+	         	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-74" early="0" late="1"></airliner>
+	     </airliners>
+	     	         	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-140" early="0" late="2"></airliner>
+	     </airliners>
+	     	         	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-40" early="0" late="2"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-8P" early="0" late="3"></airliner>
+	     </airliners>
+	
+
+
+<routes>
+                <route destination1="OZH" destination2="IEV" routefocus="Passenger"/>
+		<route destination1="OZH" destination2="VKO" routefocus="Passenger"/>
+		<route destination1="UDJ" destination2="IEV" routefocus="Passenger"/>
+
+        </routes>
+  
+
+
+</airline>

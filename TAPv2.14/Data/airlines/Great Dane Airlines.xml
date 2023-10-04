@@ -1,0 +1,11 @@
+﻿<airline>
+  <profile name="Great Dane Airlines" iata="K9" color="Red" area="107" CEO="Thomas Hugo Moller" mentality="Moderate" market="Regional" preferedairport="AAL">
+  <narrative narrative="Great Dane Airlines is a Danish airline that started operations in June 2019. The airline operates charter and scheduled flights." />
+   </profile>
+    <info real="True" from="2019" to="2199" />
+<prefereds aircrafts="Embraer E-195"></prefereds>
+	<focusairports>
+	<focusairport airport="AAL"></focusairport>
+	<focusairport airport="CPH"></focusairport>
+</focusairports>
+</airline>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airphil Express" iata="2P" color="Black" area="240" CEO="Bonifacio Sam" mentality="Moderate"
+           market="Global" preferedairport="MNL">
+             <narrative narrative="PAL Express, formerly Air Philippines or Airphil Express, is operating under business name of Air Philippines Corporation. After operating as PAL Express for a while, the airline transformed again the brand into Airphil Express." />
+    <names>
+      <name value="Air Philippines" from="1.1.1995 00:00:00"></name>
+      <name value="AirPhil Express" from="1.1.2008 00:00:00"></name>
+      <name value="PAL Express" from="1.1.2013 00:00:00"></name>
+    </names>
+    <logos>
+      <logo from="1995" to="2008" path="2P1995-2008"></logo>
+      <logo from="2008" to="2012" path="2P2008-2013"></logo>
+      </logos>
+    <markets>
+      <market value="International" date="01.01.1995 00:00:00"></market>
+      <market value="Regoinal" date="01.01.2013 00:00:00"></market>
+    </markets> 
+  </profile>
+  <info real="True" from="1995" to="2199" />
+  
+  <prefereds aircrafts="Bombardier Dash 8-400,Bombardier Dash 8-300,Airbus A320-200,Boeing 737-300">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="MNL"></focusairport>
+    <focusairport airport="CEB"></focusairport>
+    <focusairport airport="DVO"></focusairport>
+    <focusairport airport="ZAM"></focusairport>
+    </focusairports>
+
+<startdata>
+    <airliners>
+      <airliner type="Boeing 737-300" early="5" late="0"></airliner>
+      <airliner type="Airbus A320-200" early="2" late="11"></airliner>
+      <airliner type="Bombardier Dash 8-400" early="1" late="3"></airliner>
+      <airliner type="Bombardier Dash 8-300" early="1" late="4"></airliner>
+    </airliners>
+  <routes>
+    <route destination1="MNL" destination2="BCD"/>
+    <route destination1="MNL" destination2="BSO"/>
+    <route destination1="MNL" destination2="USU"/>
+    <route destination1="MNL" destination2="BXU"/>
+    <route destination1="MNL" destination2="CGY"/>
+    <route destination1="MNL" destination2="CYP"/>
+    <route destination1="MNL" destination2="CRM"/>
+    <route destination1="MNL" destination2="MPH"/>
+    <route destination1="MNL" destination2="CEB"/>
+    <route destination1="MNL" destination2="CRK" opened="2003" closed="2013"/>
+    <route destination1="MNL" destination2="CBO"/>
+    <route destination1="MNL" destination2="DVO"/>
+    <route destination1="MNL" destination2="DPL"/>
+    <route destination1="MNL" destination2="DGT"/>
+    <route destination1="MNL" destination2="GES"/>
+    <route destination1="MNL" destination2="HKG" opened="2001" closed="2013"/>
+    <route destination1="MNL" destination2="ILO"/>
+    <route destination1="MNL" destination2="JOL" opened="2006" closed="2013"/>
+    <route destination1="CEB" destination2="BCD"/>
+    <route destination1="CEB" destination2="DVO"/>
+    <route destination1="CEB" destination2="CDO"/>
+    <route destination1="CEB" destination2="ILO"/>
+    <route destination1="CEB" destination2="TAC"/>
+    <route destination1="ILO" destination2="GES"/>
+  </routes>
+</startdata>
+</airline>
+
+

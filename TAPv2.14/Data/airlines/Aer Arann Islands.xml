@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aer Arann Islands" iata="AAI" color="Coral" area="101" CEO="Padraig O Ceidigh" mentality="Safe" market="Local" preferedairport="NNR">
+  <narrative narrative="Aer Arann Islands is an Irish airline that serves the Aran Islands, which lay at the mouth of Galway Bay off the west coast of Ireland. Its base is on the mainland at Connemara Airport which is 28km or 17 miles west of Galway. From there it flies to the three Aran Islands, they are in order from largest to smallest, Inishmaan,Inishmore and Inisheer. Around 1,200 residents call them home. The airports on each island from Connemara are 17-19km's away. It also flies between the islands, which two routes are 6km's and the other is 11. The airline started in 1970 with a Britten Norman Islander. At 2014 it was still using the Islander, and still only had the one. It used to be a part of the Irish airline Aer Arann which at 2014 was renamed Stobart Air. But the airline was sold in 1994 to the current CEO and owner."/>
+</profile>
+  <info real="True" from="1970" to="2199" />
+  <prefereds aircrafts="BN-2A Islander"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="NNR" destination2="IIA"/>
+	          <route destination1="NNR" destination2="IOR"/>
+		  <route destination1="NNR" destination2="INQ"/>
+		  <route destination1="IIA" destination2="IOR" />
+	          <route destination1="IIA" destination2="INQ" />
+		  <route destination1="IOR" destination2="INQ" />
+        </routes>
+</airline>

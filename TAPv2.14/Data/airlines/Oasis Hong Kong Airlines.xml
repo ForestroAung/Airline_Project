@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Oasis Hong Kong Airlines" iata="O8" color="Red" area="215" CEO="Stephen Miller" mentality="Safe" market="Global" preferedairport="HKG">
+  <narrative narrative="Oasis Hong Kong Airlines was around from founding in February 2005 to April 2008. It began flying in October 2006. The routes it served from Hong Kong were to London Gatwick and Vancouver,Canada. It had four 747-400's, 
+  two of which it got in 2006 and two near the end. Its model was that of a low cost airline. At the start it advertised fares for as low as 75 British pounds but these prices became less competitive later. It ceased in April 2008 after posting a $128 million US dollar loss since the launch. Two hot meals and soft drinks were served free on both long haul routes in all classes. 
+  Snacks and alcoholic drinks were also free for business class passengers and available to be ordered in economy. Free headphones, blankets and pillows were also distributed in all classes, while passengers could purchase noise-canceling headphones and amenity kits on board. Each passenger had personal seat-back TV which had at least 16 channels available, in addition of up to 12 channels of audio, 
+  although these were not on demand. There were also four fare classes. In 2007, Oasis Hong Kong was voted Worlds Leading New Airline and Asia's Leading Budget - No Frills Airline at the Annual World Travel Awards 2007. It was also named New Airline of the Year by the Centre for Asia Pacific Aviation of Australia, and was voted Best New Service and Best Business Class Carrier at 
+  the 2007 World Low Cost Airline Congress Awards held in London." />
+ </profile>
+    <info real="True" from="2006" to="2008" />
+       <prefereds aircrafts="Boeing 747-400"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-400" early="2" late="4"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="HKG" destination2="LGW" opened="2006" closed="2199" />	
+	    <route destination1="HKG" destination2="YVR" opened="2007" closed="2199" />	
+                   </routes>
+</airline>

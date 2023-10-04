@@ -1,0 +1,377 @@
+<airline>
+<profile name="Air China" iata="CA" color="Linen" area="209" CEO="Wang Changshun" mentality="Aggressive" market="Global" preferedairport="PEK">
+  <narrative narrative="Air China is the flag carrier of China, in operation since 1988 out of its main hub in Beijing. They operate a fleet of almost 300 to 185 destionations throughout the world. Their fleet is a mix of various Airbus and Boeing aircraft, with many many more on order. " />
+</profile>
+<info real="True" from="1988" to="2199"></info>
+
+<prefereds aircrafts="Airbus A319-100,Airbus A320-200,Airbus A320neo,Airbus A321-200,Airbus A330-200,Airbus A330-300,Airbus A350-900,Boeing 737-300,Boeing 737-700,Boeing 737-800,Boeing 747-400,Boeing 777-200,Boeing 777-300ER,Boeing 787-9,Comac C919"></prefereds>
+   
+  <focusairports>
+        <focusairport airport="CTU"></focusairport>
+        <focusairport airport="PVG"></focusairport>
+        <focusairport airport="HGH"></focusairport>
+        <focusairport airport="CAN"></focusairport>
+        <focusairport airport="CKG"></focusairport>
+        <focusairport airport="TSN"></focusairport>
+        <focusairport airport="WUH"></focusairport>
+        <focusairport airport="KWE"></focusairport>
+        <focusairport airport="HET"></focusairport>
+        <focusairport airport="LXA"></focusairport>
+     </focusairports>
+    
+     <airliners>
+	       
+	         <airliner type="Airbus A319-100" early="0" late="30"></airliner>
+	        <airliner type="Airbus A320-200" early="0" late="58"></airliner>
+		<airliner type="Airbus A320neo" early="5" late="33"></airliner>
+		 <airliner type="Airbus A321-200" early="0" late="58"></airliner>
+		 <airliner type="Airbus A330-200" early="0" late="30"></airliner>
+		 <airliner type="Airbus A330-300" early="0" late="23"></airliner>
+		 <airliner type="Airbus A340-300" early="0" late="6"></airliner>
+		  <airliner type="Airbus A350-900" early="2" late="10"></airliner>
+		  <airliner type="BAe 146-200" early="0" late="6"></airliner>
+		  <airliner type="Boeing 737-200" early="0" late="3"></airliner>
+		 <airliner type="Boeing 737-300" early="0" late="21"></airliner>
+		  <airliner type="Boeing 737-500" early="0" late="1"></airliner>
+		  <airliner type="Boeing 737-600" early="6" late="0"></airliner>
+		   <airliner type="Boeing 737-700" early="0" late="21"></airliner>
+		   <airliner type="Boeing 737-800" early="0" late="95"></airliner>
+		   <airliner type="Boeing 747-200B" early="0" late="4"></airliner>
+		    <airliner type="Boeing 747-400" early="0" late="15"></airliner>
+		    <airliner type="Boeing 747-400M" early="0" late="3"></airliner>
+		    <airliner type="Boeing 747SP" early="0" late="5"></airliner>
+		    <airliner type="Boeing 757-200" early="0" late="8"></airliner>
+		     <airliner type="Boeing 767-200ER" early="0" late="6"></airliner>
+		     <airliner type="Boeing 767-300" early="0" late="4"></airliner>
+		     <airliner type="Boeing 767-300ER" early="0" late="5"></airliner>
+		    <airliner type="Boeing 777-200" early="0" late="10"></airliner>
+		    <airliner type="Boeing 777-300ER" early="0" late="19"></airliner>
+		    <airliner type="Boeing 787-9" early="5" late="15"></airliner>
+		    <airliner type="Comac C919" early="4" late="20"></airliner>
+
+	  </airliners>
+	<routes>
+		<route destination1="PEK" destination2="AKU"/>
+		<route destination1="PEK" destination2="BAV"/>
+		<route destination1="PEK" destination2="RLK"/>
+		<route destination1="PEK" destination2="BHU"/>
+		<route destination1="PEK" destination2="CGQ"/>
+		<route destination1="PEK" destination2="CSX"/>
+		<route destination1="PEK" destination2="CZX"/>
+		<route destination1="PEK" destination2="CHG"/>
+		<route destination1="PEK" destination2="CIF"/>
+		<route destination1="PEK" destination2="DLC"/>
+		<route destination1="PEK" destination2="DDG"/>
+		<route destination1="PEK" destination2="DQA"/>
+		<route destination1="PEK" destination2="DAT"/>
+		<route destination1="PEK" destination2="DAX"/>
+		<route destination1="PEK" destination2="DNH"/>
+		<route destination1="PEK" destination2="FUG"/>
+		<route destination1="PEK" destination2="FYJ"/>
+		<route destination1="PEK" destination2="FOC"/>
+		<route destination1="PEK" destination2="KOU"/>
+		<route destination1="PEK" destination2="GYS"/>
+		<route destination1="PEK" destination2="CAN"/>
+		<route destination1="PEK" destination2="HAK"/>
+		<route destination1="PEK" destination2="HLD"/>
+		<route destination1="PEK" destination2="HRB"/>
+		<route destination1="PEK" destination2="HFE"/>
+		<route destination1="PEK" destination2="HTN"/>
+		<route destination1="PEK" destination2="TXN"/>
+		<route destination1="PEK" destination2="JMU"/>
+		<route destination1="PEK" destination2="SWA"/>
+		<route destination1="PEK" destination2="JDZ"/>
+		<route destination1="PEK" destination2="JGS"/>
+		<route destination1="PEK" destination2="JZH"/>
+		<route destination1="PEK" destination2="KRY"/>
+		<route destination1="PEK" destination2="KHG"/>
+		<route destination1="PEK" destination2="KRL"/>
+		<route destination1="PEK" destination2="KMG"/>
+		<route destination1="PEK" destination2="LHW"/>
+		<route destination1="PEK" destination2="LJG"/>
+		<route destination1="PEK" destination2="LZH"/>
+		<route destination1="PEK" destination2="NZH"/>
+		<route destination1="PEK" destination2="MIG"/>
+		<route destination1="PEK" destination2="MDG"/>
+		<route destination1="PEK" destination2="KHN"/>
+		<route destination1="PEK" destination2="NKG"/>
+		<route destination1="PEK" destination2="NNG"/>
+		<route destination1="PEK" destination2="NTG"/>
+		<route destination1="PEK" destination2="NGB"/>
+		<route destination1="PEK" destination2="DSN"/>
+		<route destination1="PEK" destination2="TAO"/>
+		<route destination1="PEK" destination2="NOG"/>
+		<route destination1="PEK" destination2="SYX"/>
+		<route destination1="PEK" destination2="SHE"/>
+		<route destination1="PEK" destination2="SZX"/>
+		<route destination1="PEK" destination2="TYN"/>
+		<route destination1="PEK" destination2="HYN"/>
+		<route destination1="PEK" destination2="TNH"/>
+		<route destination1="PEK" destination2="TGO"/>
+		<route destination1="PEK" destination2="HLH"/>
+		<route destination1="PEK" destination2="URC"/>
+		<route destination1="PEK" destination2="WTH"/>
+		<route destination1="PEK" destination2="WNZ"/>
+		<route destination1="PEK" destination2="WUX"/>
+		<route destination1="PEK" destination2="XMN"/>
+		<route destination1="PEK" destination2="XIY"/>
+		<route destination1="PEK" destination2="XFN"/>
+		<route destination1="PEK" destination2="XIL"/>
+		<route destination1="PEK" destination2="XNN"/>
+		<route destination1="PEK" destination2="XYZ"/>
+		<route destination1="PEK" destination2="YNZ"/>
+		<route destination1="PEK" destination2="YTY"/>
+		<route destination1="PEK" destination2="YNJ"/>
+		<route destination1="PEK" destination2="YNI"/>
+		<route destination1="PEK" destination2="YBP"/>
+		<route destination1="PEK" destination2="YIH"/>
+		<route destination1="PEK" destination2="INC"/>
+		<route destination1="PEK" destination2="YIN"/>
+		<route destination1="PEK" destination2="YIW"/>
+		<route destination1="PEK" destination2="YCU"/>
+		<route destination1="PEK" destination2="DYG"/>
+		<route destination1="PEK" destination2="ZHA"/>
+		<route destination1="PEK" destination2="CGO"/>
+		<route destination1="PEK" destination2="ZUH"/>
+		<route destination1="PEK" destination2="ZYI"/>
+		<route destination1="PEK" destination2="ADD"/>
+		<route destination1="PEK" destination2="ATH"/>
+		<route destination1="PEK" destination2="AKL"/>
+		<route destination1="PEK" destination2="BKK"/>
+		<route destination1="PEK" destination2="BCN"/>
+		<route destination1="PEK" destination2="BCN" destination3="GRU"/>
+		<route destination1="PEK" destination2="BUD"/>
+		<route destination1="PEK" destination2="PUS"/>
+		<route destination1="PEK" destination2="CNX"/>
+		<route destination1="PEK" destination2="HTA"/>
+		<route destination1="PEK" destination2="CMB"/>
+		<route destination1="PEK" destination2="TAE"/>
+		<route destination1="PEK" destination2="DEL"/>
+		<route destination1="PEK" destination2="DXB"/>
+		<route destination1="PEK" destination2="DUS"/>
+		<route destination1="PEK" destination2="FRA"/>
+		<route destination1="PEK" destination2="FUK"/>
+		<route destination1="PEK" destination2="GVA"/>
+		<route destination1="PEK" destination2="HKD"/>
+		<route destination1="PEK" destination2="YUL" destination3="HAV"/>
+		<route destination1="PEK" destination2="HIJ"/>
+		<route destination1="PEK" destination2="SGN"/>
+		<route destination1="PEK" destination2="HKG"/>
+		<route destination1="PEK" destination2="HNL"/>
+		<route destination1="PEK" destination2="IAH"/>
+		<route destination1="PEK" destination2="ISB"/>
+		<route destination1="PEK" destination2="CGK"/>
+		<route destination1="PEK" destination2="JNB"/>
+		<route destination1="PEK" destination2="KHI"/>
+		<route destination1="PEK" destination2="KUL"/>
+		<route destination1="PEK" destination2="LHR"/>
+		<route destination1="PEK" destination2="LAX"/>
+		<route destination1="PEK" destination2="MFM"/>
+		<route destination1="PEK" destination2="MAD"/>
+		<route destination1="PEK" destination2="MNL"/>
+		<route destination1="PEK" destination2="MEL"/>
+		<route destination1="PEK" destination2="MXP"/>
+		<route destination1="PEK" destination2="MSQ"/>
+		<route destination1="PEK" destination2="YUL"/>
+		<route destination1="PEK" destination2="SVO"/>
+		<route destination1="PEK" destination2="BOM"/>
+		<route destination1="PEK" destination2="MUN"/>
+		<route destination1="PEK" destination2="NGO"/>
+		<route destination1="PEK" destination2="OKA"/>
+		<route destination1="PEK" destination2="JFK"/>
+		<route destination1="PEK" destination2="EXR"/>
+		<route destination1="PEK" destination2="KIX"/>
+		<route destination1="PEK" destination2="CDG"/>
+		<route destination1="PEK" destination2="HKT"/>
+		<route destination1="PEK" destination2="FNJ"/>
+		<route destination1="PEK" destination2="FCO"/>
+		<route destination1="PEK" destination2="SFO"/>
+		<route destination1="PEK" destination2="CTS"/>
+		<route destination1="PEK" destination2="GMP"/>
+		<route destination1="PEK" destination2="ICN"/>
+		<route destination1="PEK" destination2="SDJ"/>
+		<route destination1="PEK" destination2="REP"/>
+		<route destination1="PEK" destination2="SIN"/>
+		<route destination1="PEK" destination2="ARN"/>
+		<route destination1="PEK" destination2="STD"/>
+		<route destination1="PEK" destination2="TPE"/>
+		<route destination1="PEK" destination2="HND"/>
+		<route destination1="PEK" destination2="NRT"/>
+		<route destination1="PEK" destination2="ULN"/>
+		<route destination1="PEK" destination2="YVR"/>
+		<route destination1="PEK" destination2="VIE"/>
+		<route destination1="PEK" destination2="IAD"/>
+		<route destination1="CTU" destination2="AKU"/>
+		<route destination1="CTU" destination2="PEK"/>
+		<route destination1="CTU" destination2="CGQ"/>
+		<route destination1="CTU" destination2="CSX"/>
+		<route destination1="CTU" destination2="CHI"/>
+		<route destination1="CTU" destination2="CZX"/>
+		<route destination1="CTU" destination2="DLU"/>
+		<route destination1="CTU" destination2="DCY"/>
+		<route destination1="CTU" destination2="FOC"/>
+		<route destination1="CTU" destination2="CAN"/>
+		<route destination1="CTU" destination2="KWL"/>
+		<route destination1="CTU" destination2="KWE"/>
+		<route destination1="CTU" destination2="HAK"/>
+		<route destination1="CTU" destination2="HGH"/>
+		<route destination1="CTU" destination2="HRB"/>
+		<route destination1="CTU" destination2="HFE"/>
+		<route destination1="CTU" destination2="AHJ"/>
+		<route destination1="CTU" destination2="HUZ"/>
+		<route destination1="CTU" destination2="TNA"/>
+		<route destination1="CTU" destination2="JZH"/>
+		<route destination1="CTU" destination2="KHG"/>
+		<route destination1="CTU" destination2="KRL"/>
+		<route destination1="CTU" destination2="KMG"/>
+		<route destination1="CTU" destination2="LHW"/>
+		<route destination1="CTU" destination2="SWA"/>
+		<route destination1="CTU" destination2="SHE"/>
+		<route destination1="CTU" destination2="SZX"/>
+		<route destination1="CTU" destination2="TYN"/>
+		<route destination1="CTU" destination2="URC"/>
+		<route destination1="CTU" destination2="WNZ"/>
+		<route destination1="CTU" destination2="XMN"/>
+		<route destination1="CTU" destination2="XIC"/>
+		<route destination1="CTU" destination2="XNN"/>
+		<route destination1="CTU" destination2="YNT"/>
+		<route destination1="CTU" destination2="INC"/>
+		<route destination1="CTU" destination2="YIN"/>
+		<route destination1="CTU" destination2="UYN"/>
+		<route destination1="CTU" destination2="DYG"/>
+		<route destination1="CTU" destination2="ZHA"/>
+		<route destination1="CTU" destination2="CGO"/>
+		<route destination1="CTU" destination2="ZUH"/>
+		<route destination1="CTU" destination2="CMB"/>
+		<route destination1="CTU" destination2="FRA"/>
+		<route destination1="CTU" destination2="KHI"/>
+		<route destination1="CTU" destination2="KTM"/>
+		<route destination1="CTU" destination2="BOM"/>
+		<route destination1="CTU" destination2="KIX"/>
+		<route destination1="CTU" destination2="ICN"/>
+		<route destination1="CTU" destination2="CDG"/>
+		<route destination1="CTU" destination2="SIN"/>
+		<route destination1="CTU" destination2="NRT"/>
+		<route destination1="CTU" destination2="HKG"/>
+		<route destination1="CTU" destination2="TPE"/>
+		<route destination1="CAN" destination2="CKG"/>
+		<route destination1="CAN" destination2="DAX"/>
+		<route destination1="CAN" destination2="GYS"/>
+		<route destination1="CAN" destination2="KWE"/>
+		<route destination1="CAN" destination2="HGH"/>
+		<route destination1="CAN" destination2="HET"/>
+		<route destination1="CAN" destination2="JZH"/>
+		<route destination1="CAN" destination2="LHW"/>
+		<route destination1="CAN" destination2="SHA"/>
+		<route destination1="CAN" destination2="PVG"/>
+		<route destination1="CAN" destination2="TSN"/>
+		<route destination1="CAN" destination2="TNH"/>
+		<route destination1="CAN" destination2="WXN"/>
+		<route destination1="CAN" destination2="WUH"/>
+		<route destination1="CAN" destination2="YNZ"/>
+		<route destination1="HGH" destination2="BAV"/>
+		<route destination1="HGH" destination2="PEK"/>
+		<route destination1="HGH" destination2="CGQ"/>
+		<route destination1="HGH" destination2="CKG"/>
+		<route destination1="HGH" destination2="GYS"/>
+		<route destination1="HGH" destination2="CAN"/>
+		<route destination1="HGH" destination2="KWL"/>
+		<route destination1="HGH" destination2="KWE"/>
+		<route destination1="HGH" destination2="HRB"/>
+		<route destination1="HGH" destination2="HET"/>
+		<route destination1="HGH" destination2="XNN"/>
+		<route destination1="HGH" destination2="INC"/>
+		<route destination1="HGH" destination2="YCU"/>
+		<route destination1="HGH" destination2="CGO"/>
+		<route destination1="HET" destination2="PEK"/>
+		<route destination1="HET" destination2="CAN"/>
+		<route destination1="HET" destination2="PVG"/>
+		<route destination1="HET" destination2="TSN"/>
+		<route destination1="CKG" destination2="CGQ"/>
+		<route destination1="CKG" destination2="FOC"/>
+		<route destination1="CKG" destination2="HRB"/>\
+		<route destination1="CKG" destination2="JZH"/>
+		<route destination1="CKG" destination2="LXA"/>
+		<route destination1="CKG" destination2="LJG"/>
+		<route destination1="CKG" destination2="NKG"/>
+		<route destination1="CKG" destination2="PVG"/>
+		<route destination1="CKG" destination2="SZX"/>
+		<route destination1="CKG" destination2="TSN"/>
+		<route destination1="CKG" destination2="WNZ"/>
+		<route destination1="CKG" destination2="XMN"/>
+		<route destination1="CKG" destination2="YTY"/>
+		<route destination1="CKG" destination2="INC"/>
+		<route destination1="CKG" destination2="ZUH"/>
+		<route destination1="CKG" destination2="HKG"/>
+		<route destination1="CKG" destination2="ICN"/>
+		<route destination1="CKG" destination2="TPE"/>
+		<route destination1="PVG" destination2="PEK"/>
+		<route destination1="PVG" destination2="FRA"/>
+		<route destination1="PVG" destination2="FUK"/>
+		<route destination1="PVG" destination2="FOC"/>
+		<route destination1="PVG" destination2="KWL"/>
+		<route destination1="PVG" destination2="KWE"/>
+		<route destination1="PVG" destination2="HRB"/>
+		<route destination1="PVG" destination2="HET"/>
+		<route destination1="PVG" destination2="TNA"/>
+		<route destination1="PVG" destination2="JZH"/>
+		<route destination1="PVG" destination2="KMG"/>
+		<route destination1="PVG" destination2="LHW"/>
+		<route destination1="PVG" destination2="MEL"/>
+		<route destination1="PVG" destination2="MXP"/>
+		<route destination1="PVG" destination2="MUN"/>
+		<route destination1="PVG" destination2="NGO"/>
+		<route destination1="PVG" destination2="KIX"/>
+		<route destination1="PVG" destination2="CDG"/>
+		<route destination1="PVG" destination2="SDJ"/>
+		<route destination1="PVG" destination2="SZX"/>
+		<route destination1="PVG" destination2="SYD"/>
+		<route destination1="PVG" destination2="TPE"/>
+		<route destination1="PVG" destination2="TSN"/>
+		<route destination1="PVG" destination2="NRT"/>
+		<route destination1="PVG" destination2="WNZ"/>
+		<route destination1="PVG" destination2="XIY"/>
+		<route destination1="PVG" destination2="XIC"/>
+		<route destination1="PVG" destination2="YIH"/>
+		<route destination1="TSN" destination2="BKK"/>
+		<route destination1="TSN" destination2="BAV"/>
+		<route destination1="TSN" destination2="CSX"/>
+		<route destination1="TSN" destination2="CTU"/>
+		<route destination1="TSN" destination2="CKG"/>
+		<route destination1="TSN" destination2="DLC"/>
+		<route destination1="TSN" destination2="DQA"/>
+		<route destination1="TSN" destination2="HAK"/>
+		<route destination1="TSN" destination2="SZX"/>
+		<route destination1="TSN" destination2="TSA"/>
+		<route destination1="TSN" destination2="NRT"/>
+		<route destination1="TSN" destination2="TNH"/>
+		<route destination1="TSN" destination2="URC"/>
+		<route destination1="TSN" destination2="XMN"/>
+		<route destination1="TSN" destination2="XIY"/>
+		<route destination1="TSN" destination2="XNN"/>
+		<route destination1="TSN" destination2="YNJ"/>
+		<route destination1="TSN" destination2="YCU"/>
+		<route destination1="WUH" destination2="PEK"/>
+		<route destination1="WUH" destination2="CGQ"/>
+		<route destination1="WUH" destination2="CTU"/>
+		<route destination1="WUH" destination2="DQA"/>
+		<route destination1="WUH" destination2="TAO"/>
+		<route destination1="WUH" destination2="SZX"/>
+		<route destination1="WUH" destination2="TSN"/>
+		<route destination1="WUH" destination2="XMN"/>
+		<route destination1="WUH" destination2="XIY"/>
+		<route destination1="WUH" destination2="YNT"/>
+		<route destination1="WUH" destination2="INC"/>
+		<route destination1="WUH" destination2="CNX"/>
+		<route destination1="WUH" destination2="MFM"/>
+		<route destination1="WUH" destination2="URT"/>
+		<route destination1="LXA" destination2="PEK"/>
+		<route destination1="LXA" destination2="CTU"/>
+		<route destination1="LXA" destination2="CKG"/>
+		<route destination1="LXA" destination2="KTM"/>
+
+	</routes>
+	
+
+</airline>
+

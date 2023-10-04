@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Harmony Airways" iata="HQ" logo="HQ2" color="Yellow" area="400" CEO="David Ting Kwok Ho" mentality="Safe" market="Global" preferedairport="YVR">
+  <narrative narrative="Harmony Airways was an airline around from 2002 until April 9,2007. Its base was Vancouver,BC,Canada. It focused on holiday flights like to Hawaii,Las Vegas,Southern California,Mexico and Manchester in England.
+  It was called HMY Airways from the start until May 2004. It used four 757-200's much of its life, which it had at the end."/>
+</profile>
+  <info real="True" from="2002" to="2007" />
+  <prefereds aircrafts="Boeing 757-200"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200" early="4" late="4"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="YVR" destination2="LAS"  />
+                <route destination1="YVR" destination2="HNL"  />	
+	        <route destination1="YVR" destination2="OGG"  />
+		<route destination1="YVR" destination2="MAN"  />
+	        <route destination1="YVR" destination2="PSP"  />
+	        <route destination1="YVR" destination2="JFK"  />
+	        <route destination1="YVR" destination2="LAX"  />
+	        </routes>
+
+
+
+
+</airline>

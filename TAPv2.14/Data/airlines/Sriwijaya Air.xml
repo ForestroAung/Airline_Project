@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sriwijaya Air" iata="SJ" color="Blue" area="246" CEO="Chandra Lie" mentality="Aggressive"
+           market="Domestic" preferedairport="CGK">
+  </profile>
+  <info real="True" from="2003" to="2199" />
+    <narrative narrative="Sriwijaya Air is an Indonesian airline based in Jakarta. Headquartered in Central Jakarta, the airline is the country's third largest carrier, operating a fleet of narrow-body aircraft and offers flights to various Indonesian destinations and a few international destinations. The airline is listed as a Category 1 airline by Indonesia's Civil Aviation Authority, the highest status that can be achieved for operational safety."/>
+</airline>

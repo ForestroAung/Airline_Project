@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Congo Express" iata="EXY" color="Cyan" area="358" CEO="Didier Kindambu" mentality="Safe" market="Domestic"  preferedairport="FBM">
+  <narrative narrative="Congo Express was around from February 2010 to 2012, was based at Lubumbashi,Democratic Republic of Congo, and was a subsidiary of South African Express. Its only route was from its hub to the DMRC's capital of Kinshasa, at N'Djili Airport. Its two planes both owned by its parent were Bombardier CRJ200ER's." />
+</profile>
+   <info real="True" from="2010" to="2012"></info>
+  <prefereds aircrafts="Bombardier CRJ200"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="2" late="2"></airliner>
+	     </airliners>
+	         	      <routes>  
+	    <route destination1="FBM" destination2="FIH"/>
+                   </routes>
+
+</airline>

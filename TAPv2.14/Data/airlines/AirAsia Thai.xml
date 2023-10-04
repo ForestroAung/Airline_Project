@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Thai Air Asia" iata="FD" color="Tomato" area="234" CEO="Tassapon Bijleveld " mentality="Aggressive"
+           market="Global" preferedairport="DMK" businessmodel="LCC">
+    <narrative
+      narrative="is a joint venture of Malaysian low-fare airline AirAsia (Thai: แอร์เอเชีย) and Thailand's Asia Aviation. It serves AirAsia's regularly scheduled domestic and international flights from Bangkok and other cities in Thailand." />
+  </profile>
+  <info real="True" from="2003" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+    
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="15" late="29"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="DMK" destination2="BLR"/>
+      <route destination1="DMK" destination2="BFV"/>
+      <route destination1="DMK" destination2="CSX"/>
+      <route destination1="DMK" destination2="MAA"/>
+      <route destination1="DMK" destination2="CNX"/>
+      <route destination1="DMK" destination2="CEI"/>
+      <route destination1="DMK" destination2="CKG"/>
+      <route destination1="DMK" destination2="DPS"/>
+      <route destination1="DMK" destination2="CAN"/>
+      <route destination1="DMK" destination2="HGH"/>
+      <route destination1="DMK" destination2="HAN"/>
+      <route destination1="DMK" destination2="HDY"/>
+      <route destination1="DMK" destination2="SGN"/>
+      <route destination1="DMK" destination2="HKG"/>
+      <route destination1="DMK" destination2="KKC"/>
+      <route destination1="DMK" destination2="KBV"/>
+      <route destination1="DMK" destination2="KUL"/>
+      <route destination1="DMK" destination2="KMG"/>
+      <route destination1="DMK" destination2="LOE"/>
+      <route destination1="DMK" destination2="MFM"/>
+      <route destination1="DMK" destination2="MDL"/>
+      <route destination1="DMK" destination2="KOP"/>
+      <route destination1="DMK" destination2="NST"/>
+      <route destination1="DMK" destination2="NNT"/>
+      <route destination1="DMK" destination2="NAW"/>
+      <route destination1="DMK" destination2="NYT"/>
+      <route destination1="DMK" destination2="PEN"/>
+      <route destination1="DMK" destination2="PNH"/>
+      <route destination1="DMK" destination2="HKT"/>
+      <route destination1="DMK" destination2="ROI"/>
+      <route destination1="DMK" destination2="SZX"/>
+      <route destination1="DMK" destination2="SIN"/>
+      <route destination1="DMK" destination2="URT"/>
+      <route destination1="DMK" destination2="TST"/>
+      <route destination1="DMK" destination2="UBP"/>
+      <route destination1="DMK" destination2="UTH"/>
+      <route destination1="DMK" destination2="XMN"/>
+      <route destination1="DMK" destination2="WUH"/>
+      <route destination1="DMK" destination2="XIY"/>
+      <route destination1="DMK" destination2="RGN"/>
+      <route destination1="KBV" destination2="CAN"/>
+      <route destination1="KBV" destination2="SIN"/>
+      <route destination1="KBV" destination2="CNX"/>
+      <route destination1="HKT" destination2="HKG"/>
+      <route destination1="HKT" destination2="KUL"/>
+      <route destination1="HKT" destination2="SIN"/>
+      <route destination1="HKT" destination2="CNX"/>
+      <route destination1="HKT" destination2="UTH"/>
+      <route destination1="CNX" destination2="HDY"/>
+      <route destination1="CNX" destination2="URT"/>
+      <route destination1="CNX" destination2="HKG"/>
+      <route destination1="CNX" destination2="MFM"/>
+      <route destination1="UTH" destination2="UTP"/>
+    </routes>
+  </startdata>  
+</airline>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="PBair" iata="9Q" color="MediumSlateBlue" area="234" CEO="Piya Bhirom Bhakdi" mentality="Safe" market="Regional" preferedairport="BKK">
+  <narrative narrative="PBair was an airline based at Bangkok,Thailand. It was founded as a corporate shuttle for Boon Rawd Brewery in 1990 but the owner Piya Bhirom Bhakdi, the largest brewery in Thailand. In 1997 it got a license to do charters and started. In February 1999 it began scheduled service in an alliance with Thai Airways and Air Andaman. It shut down in December 2009. In May 2009 it was serving 8 domestic destinations from BKK and Da Nang,Vietnam while charters were offered to Seoul-Incheon,South Korea. It had two ATR 72-500's on lease from Bangkok Airways in May 2009. Starting in 1999 it was using Fokker F28-4000's and had three at one point. It had one Dornier 328-120 at one time. It used two Embraer 145 LR's starting in 2005 until sometime around late 2008 or early 2009. It had a 767-300ER for awhile during 2005." />
+  <airports>
+<airport  preferedairport="DMK" date="1.01.1997 00:00:00"></airport>
+<airport   preferedairport="BKK" date="9.16.2006 00:00:00"></airport>
+</airports>
+ </profile>
+    <info real="True" from="1997" to="2010" />
+       <prefereds aircrafts="ATR 72-500,Embraer ERJ145 LR,Fokker F28-4000,Dornier 328-110"></prefereds>
+       <focusairports>
+ 		 <focusairport airport="HKT"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Fokker F28-4000" early="3" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="2" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="2" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-120" early="1" late="0"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="BKK" destination2="BFV"    />	
+	    <route destination1="BKK" destination2="LPT"    />	
+	    <route destination1="BKK" destination2="KOP"  />
+	    <route destination1="BKK" destination2="NNT"  />
+	    <route destination1="BKK" destination2="ROI"    />	
+	    <route destination1="BKK" destination2="SNO"    />	
+	    <route destination1="BKK" destination2="MAQ"  />
+	    <route destination1="BKK" destination2="HGN"  />
+	    <route destination1="BKK" destination2="DAD"    />	
+	    <route destination1="BKK" destination2="ICN" type="Charter"  />
+	     
+                   </routes>
+</airline>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Albania" iata="ZB" logo="ABN" color="Red" area="136" CEO="Sinan Dilek" mentality="Safe" market="Regional" preferedairport="TIA"> 
+  <narrative narrative="Air Albania is the national flag carrier airline of Albania, headquartered in Rinas, Albania. The airline's hub is at Tirana International Airport Nënë Tereza, where the airline's corporate headquarters are also located.
+Air Albania was founded on 16 May 2018 by a consortium led by the Albanian and Turkish governments under a public–private partnership. Turkish Airlines, a founding partner, owns 49.12% of Air Albania. The remaining 50.88% is publicly traded, currently split between Albcontrol, a corporation owned by the Albanian government, with roughly 10% and MDN Investment, a privately-held company in Albania, with roughly 41% of shares." />
+</profile>
+   <info real="True" from="2019" to="2199"></info>
+   <prefereds aircrafts="Airbus A319-100,Airbus A320-200"></prefereds>
+   
+	<airliners>
+	    <airliner type="Airbus A319-100" early="1" late="1"></airliner>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	</airliners>
+	
+	<routes>
+		<route destination1="TIA" destination2="IST"/>
+    </routes>
+</airline>

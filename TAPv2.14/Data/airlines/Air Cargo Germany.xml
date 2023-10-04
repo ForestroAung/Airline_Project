@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Cargo Germany" iata="6U" color="DarkRed" area="108" CEO="Michael Schaecher" mentality="Moderate"  market="Global " preferedairport="FRA" routefocus="Cargo">
+    <narrative
+      narrative="Air Cargo Germany GmbH (abbreviated ACG) was a German cargo airline. Based at Frankfurt-Hahn Airport, it was operational between 2009 and 2013." />
+  </profile>
+  <info real="True" from="2008" to="2013" />
+  <prefereds aircrafts="Boeing 747-400F"></prefereds>
+  <focusairports>
+        <focusairport airport="HHN"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 747-400" early="2" late="8"></airliner>
+    </airliners>
+  </startdata>
+  <logos>
+<logo from="2008" to="2013" path="6U2008-2013"></logo>
+</logos>
+
+</airline>

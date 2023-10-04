@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Sunrise Airways" iata="KSZ"  color="Orange" area="414" CEO="Philippe Bayard" mentality="Moderate" market="Local" preferedairport="PAP" routefocus="Mixed">
+  <narrative narrative="Sunrise Airways is based at Port-au-Prince,Haiti and does both passengers and cargo. It's scheduled flights as of March 2015 are to Cap-Haitien domestic wise and to Kingston,Jamaica
+  and Santiago de Cuba,Cuba. Charters for both passengers and freight are offered to around 6 other domestic airports and both Santo Domingo airports and Santiago de los Caballero in the Dominican Republic. 
+  At March 2015 its fleet is made of three BAe Jetstream 31's and three Let 410's."/>
+   </profile>
+    <info real="True" from="2011" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31,Let L-410"></prefereds>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="3" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="3"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="PAP" destination2="MBJ" routefocus="Cargo"/>
+	            <route destination1="PAP" destination2="CAP" routefocus="Passenger,Cargo"/>
+	        <route destination1="PAP" destination2="SCU" routefocus="Passenger" />
+	       	<route destination1="PAP" destination2="KIN" routefocus="Passenger"  />
+	        <route destination1="PAP" destination2="PAX" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="CYA" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="JEE" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="JAK" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="SDQ" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="STI" routefocus="Passenger,Cargo" type="Charter" />
+		<route destination1="PAP" destination2="JBQ" routefocus="Passenger,Cargo" type="Charter" />
+              </routes>
+</airline>

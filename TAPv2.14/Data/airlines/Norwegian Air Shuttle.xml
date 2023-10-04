@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Norwegian" iata="DY" logo="DY" color="DarkRed" area="104" CEO="Bjørn Kjos" mentality="Safe" onlyfromhome="False" market="Global" preferedairport="BGO" businessmodel="LCC">
+           <narrative narrative="Norwegian Air Shuttle (NAS) was founded on 22 January 1993 to take over the regional airline services produced by Busy Bee for Braathens in Western Norway. Busy Bee, founded in 1966, was a subsidiary of Braathens that operated a fleet of Fokker 50 aircraft for charter. This included the network of regional services between cities on the west coast of Norway operated on wet lease for the mother company. "/>
+  
+  <airports>
+	<airport  preferedairport="BGO" date="01.01.1993 00:00:00"></airport>
+	<airport  preferedairport="GOT" date="01.01.2002 00:00:00"></airport>
+</airports>
+  </profile>
+  <info real="True" from="1993" to="2199" />
+  <airliners>
+   <airliner type="Fokker 50" early="8" late="0" ></airliner>
+   <airliner type="MD-82 (DC-9-82)" early="0" late="6" ></airliner>
+   <airliner type="MD-83 (DC-9-83)" early="0" late="5" ></airliner>
+   <airliner type="Boeing 737-300" early="0" late="15" ></airliner>
+   <airliner type="Boeing 737-500" early="0" late="19" ></airliner>
+   <airliner type="Boeing 737-800" early="0" late="52" ></airliner>
+  </airliners>
+ <routes>      
+	<route destination1="TOS" destination2="LGW"/>
+	<route destination1="TRD" destination2="ALC"/>
+	<route destination1="TRD" destination2="LGW"/>
+	<route destination1="BGO" destination2="CPH"/>
+	<route destination1="BGO" destination2="ALC"/>
+	<route destination1="BGO" destination2="LPA"/>
+	<route destination1="BGO" destination2="LGW"/>
+	<route destination1="BGO" destination2="SWF"/>
+	<route destination1="OSL" destination2="CPH"/>
+	<route destination1="OSL" destination2="HEL"/>
+	<route destination1="OSL" destination2="BUD"/>
+	<route destination1="OSL" destination2="FCO"/>
+	<route destination1="OSL" destination2="WAW"/>
+	<route destination1="OSL" destination2="ALC"/>
+	<route destination1="OSL" destination2="BCN"/>
+	<route destination1="OSL" destination2="LPA"/>
+	<route destination1="OSL" destination2="MAD"/>
+	<route destination1="OSL" destination2="AGP"/>
+	<route destination1="OSL" destination2="PMI"/>
+	<route destination1="OSL" destination2="TFS"/>
+	<route destination1="OSL" destination2="ARN"/>
+	<route destination1="OSL" destination2="EDI"/>
+	<route destination1="OSL" destination2="LGW"/>
+	<route destination1="SVG" destination2="ALC"/>
+	<route destination1="SVG" destination2="LGW"/>
+	<route destination1="TRF" destination2="ALC"/>
+	<route destination1="TRF" destination2="LPA"/>
+	<route destination1="TRF" destination2="AGP"/>
+	<route destination1="ARN" destination2="CPH"/>
+	<route destination1="ARN" destination2="HEL"/>
+	<route destination1="ARN" destination2="FCO"/>
+	<route destination1="ARN" destination2="ALC"/>
+	<route destination1="ARN" destination2="BCN"/>
+	<route destination1="ARN" destination2="MAD"/>
+	<route destination1="ARN" destination2="AGP"/>
+	<route destination1="ARN" destination2="PMI"/>
+	<route destination1="ARN" destination2="TFS"/>
+	<route destination1="ARN" destination2="LGW"/>
+	<route destination1="KSD" destination2="LPA"/>
+	<route destination1="GOT" destination2="FCO"/>
+	<route destination1="GOT" destination2="ALC"/>
+	<route destination1="GOT" destination2="BCN"/>
+	<route destination1="GOT" destination2="LPA"/>
+	<route destination1="GOT" destination2="MAD"/>
+	<route destination1="GOT" destination2="AGP"/>
+	<route destination1="GOT" destination2="PMI"/>
+	<route destination1="GOT" destination2="TFS"/>
+    <route destination1="CPH" destination2="SZG"/>
+	<route destination1="CPH" destination2="ZAG"/>
+	<route destination1="CPH" destination2="PRG"/>
+	<route destination1="CPH" destination2="AAL"/>
+	<route destination1="CPH" destination2="HEL"/>
+	<route destination1="CPH" destination2="NCE"/>
+	<route destination1="CPH" destination2="ORY"/>
+	<route destination1="CPH" destination2="SXF"/>
+	<route destination1="CPH" destination2="BUD"/>
+	<route destination1="CPH" destination2="DUB"/>
+	<route destination1="CPH" destination2="TLV"/>
+	<route destination1="CPH" destination2="RIX"/>
+	<route destination1="CPH" destination2="AGA"/>
+	<route destination1="CPH" destination2="RAK"/>
+	<route destination1="CPH" destination2="AMS"/>
+	<route destination1="CPH" destination2="KRK"/>
+	<route destination1="CPH" destination2="FAO"/>
+	<route destination1="CPH" destination2="FNC"/>
+	<route destination1="CPH" destination2="LIS"/>
+	<route destination1="CPH" destination2="ALC"/>
+	<route destination1="CPH" destination2="BCN"/>
+	<route destination1="CPH" destination2="LPA"/>
+	<route destination1="CPH" destination2="MAD"/>
+	<route destination1="CPH" destination2="AGP"/>
+	<route destination1="CPH" destination2="PMI"/>
+	<route destination1="CPH" destination2="TFS"/>
+	<route destination1="CPH" destination2="GVA"/>
+	<route destination1="CPH" destination2="DXB"/>
+	<route destination1="CPH" destination2="EDI"/>
+	<route destination1="CPH" destination2="LGW"/>
+	<route destination1="AAL" destination2="LPA"/>
+	<route destination1="AAL" destination2="AGP"/>
+	<route destination1="AAL" destination2="LGW"/>
+	<route destination1="BLL" destination2="BCN"/>
+	<route destination1="HEL" destination2="SZG"/>
+	<route destination1="HEL" destination2="PRG"/>
+	<route destination1="HEL" destination2="IVL"/>
+	<route destination1="HEL" destination2="KTT"/>
+	<route destination1="HEL" destination2="OUL"/>
+	<route destination1="HEL" destination2="RVN"/>
+	<route destination1="HEL" destination2="NCE"/>
+	<route destination1="HEL" destination2="ORY"/>
+	<route destination1="HEL" destination2="BUD"/>
+	<route destination1="HEL" destination2="DUB"/>
+	<route destination1="HEL" destination2="FCO"/>
+	<route destination1="HEL" destination2="RAK"/>
+	<route destination1="HEL" destination2="ALC"/>
+	<route destination1="HEL" destination2="BCN"/>
+	<route destination1="HEL" destination2="LPA"/>
+	<route destination1="HEL" destination2="MAD"/>
+	<route destination1="HEL" destination2="AGP"/>
+	<route destination1="HEL" destination2="PMI"/>
+	<route destination1="HEL" destination2="TFS"/>
+	<route destination1="HEL" destination2="DXB"/>
+	<route destination1="HEL" destination2="LGW"/>
+	<route destination1="OUL" destination2="LPA"/>
+	<route destination1="OUL" destination2="TFS"/>
+	<route destination1="RVN" destination2="LGW"/>
+	<route destination1="SXF" destination2="LPA"/>
+	<route destination1="SXF" destination2="TFS"/>
+	<route destination1="HAM" destination2="ALC"/>
+	<route destination1="HAM" destination2="LPA"/>
+	<route destination1="HAM" destination2="AGP"/>
+	<route destination1="HAM" destination2="TFS"/>
+	<route destination1="DUS" destination2="BCN"/>
+	<route destination1="DUS" destination2="LPA"/>
+	<route destination1="DUS" destination2="PMI"/>
+	<route destination1="DUS" destination2="TFS"/>
+	<route destination1="CGN" destination2="ALC"/>
+	<route destination1="CGN" destination2="LPA"/>
+	<route destination1="CGN" destination2="AGP"/>
+	<route destination1="MUC" destination2="ALC"/>
+	<route destination1="MUC" destination2="LPA"/>
+	<route destination1="MUC" destination2="PMI"/>
+	<route destination1="MUC" destination2="TFS"/>
+	<route destination1="DUB" destination2="SWF"/>
+	<route destination1="DUB" destination2="PVD"/>
+	<route destination1="SNN" destination2="SWF"/>
+	<route destination1="SNN" destination2="PVD"/>
+	<route destination1="ORK" destination2="PVD"/>
+	<route destination1="BFS" destination2="SWF"/>
+	<route destination1="EDI" destination2="TFS"/>
+	<route destination1="EDI" destination2="SWF"/>
+	<route destination1="EDI" destination2="PVD"/>
+	<route destination1="EDI" destination2="BDL"/>
+	<route destination1="LGW" destination2="SZG"/>
+	<route destination1="LGW" destination2="KEF"/>
+	<route destination1="LGW" destination2="ALC"/>
+	<route destination1="LGW" destination2="BCN"/>
+	<route destination1="LGW" destination2="FUE"/>
+	<route destination1="LGW" destination2="LPA"/>
+	<route destination1="LGW" destination2="ACE"/>
+	<route destination1="LGW" destination2="MAD"/>
+	<route destination1="LGW" destination2="AGP"/>
+	<route destination1="LGW" destination2="PMI"/>
+	<route destination1="LGW" destination2="TFS"/>
+	<route destination1="KEF" destination2="ALC"/>
+	<route destination1="KEF" destination2="BCN"/>
+	<route destination1="KEF" destination2="MAD"/>
+	<route destination1="MAD" destination2="RAK"/>
+	<route destination1="MAD" destination2="LPA"/>
+	<route destination1="MAD" destination2="PMI"/>
+	<route destination1="MAD" destination2="TFN"/>
+	<route destination1="BCN" destination2="TLV"/>
+	<route destination1="BCN" destination2="LPA"/>
+	<route destination1="BCN" destination2="TFN"/>
+	<route destination1="BIO" destination2="TFS"/>
+	<route destination1="FCO" destination2="TFS"/>
+ </routes> 
+</airline>

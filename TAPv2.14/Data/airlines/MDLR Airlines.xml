@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="MDLR Airlines" iata="MDL" color="SteelBlue" area="224" CEO="Gopal Goyal Kanda" mentality="Safe" market="Domestic" preferedairport="DEL">
+    <narrative narrative="MDLR Airlines, which stands for Murli Dhar Lakh Ram, its owners, was based at Delhi,India and operated from March 14,2007 until November 5,2009. It operated domestic service with
+    three Avro RJ 70's, a version of the BAe 146. In April 2009 it was serving Goa,Chandigarh,Kullu,Jamshedpur,Ranchi,Lucknow and Kolkata. It had about 250 employees at September 2008." />
+  </profile>
+    <info real="True" from="2007" to="2010" />
+           <prefereds aircrafts="BAe 146-200"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="3" late="3"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DEL" destination2="GOI"    />	
+	    <route destination1="DEL" destination2="IXR"    />	
+	    <route destination1="DEL" destination2="CCU"    />	
+	    <route destination1="DEL" destination2="IXC"    />
+	    <route destination1="DEL" destination2="LKO"    />
+	    <route destination1="DEL" destination2="KUU"    />
+	    <route destination1="DEL" destination2="IXW"    />
+                   </routes>
+</airline>

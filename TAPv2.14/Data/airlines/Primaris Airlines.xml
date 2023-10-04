@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Primaris Airlines" iata="WCP" color="Black" area="402" CEO="Mark Morris" mentality="Safe" market="Global" preferedairport="LAS" schedule="Charter" >
+    <narrative narrative="Primaris Airlines was a charter airline based at Las Vegas,NV from operations start on June 1,2004 until operations stoppage on December 2,2008 due to bankruptcy. It used the Boeing 757-200 airliner type, having three of them over its life but not all at once. It served the Oakland,CA-Kona,Hawaii route for a few years. It also flew international charters. It had ordered 20 Boeing 787's being the first US customer but it cancelled the order in June 2006. The plane type did not enter service until 2011 anyway, long after the demise of Primaris." />
+  </profile>
+     <info real="True" from="2004" to="2009"></info>
+     <prefereds aircrafts="Boeing 757-200"></prefereds>
+      <routes>  
+	    <route destination1="OAK" destination2="KOA"  />		    
+                   </routes>
+</airline>

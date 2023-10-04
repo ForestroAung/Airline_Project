@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aria Air" iata="IRX" color="Green" area="205" CEO="Asghar Abdollahpour" mentality="Safe" market="Regional" preferedairport="THR">
+  <narrative narrative="Aria Air was an airline based at Tehran Mehrabad Airport,Iran from 2000 until 2013. It flew domestic to Bandar Abbas,Kish Island and Mashhad and international to Dubai,UAE. Its final fleet
+  was three Fokker 50's. It also used Yak's and Il-62's."/>
+</profile>
+  <info real="True" from="2000" to="2013" />
+  <prefereds aircrafts="Fokker 50,Yak-42D,Yak-42,Il-62M"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2005) late (2012)-->
+	         <airliners>
+	    <airliner type="Fokker 50" early="3" late="3"></airliner>
+	     </airliners>
+	                      <routes>
+                <route destination1="THR" destination2="DXB"   />
+		<route destination1="THR" destination2="BND" />
+		<route destination1="THR" destination2="KIH"  />
+		<route destination1="THR" destination2="MHD"   />
+	        </routes>
+
+
+
+
+</airline>

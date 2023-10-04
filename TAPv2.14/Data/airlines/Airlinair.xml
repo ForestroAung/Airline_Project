@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airlinair" iata="AN" logo="AN2" color="Grey" area="113" CEO="Lionel Guérin" mentality="Moderate"
+           market="Regional" preferedairport="ORY">
+    <narrative
+      narrative="Airlinair is a subsidiary of Air France created in 1998 to better compete with low cost airlines on regional flights." />
+  </profile>
+
+<info real="True" from="1999" to="2013"></info>
+<startdata>
+
+<focusairports>
+        <focusairport airport="ORY"></focusairport>
+        <focusairport airport="LYS"></focusairport>
+        <focusairport airport="CDG"></focusairport>
+</focusairports>
+
+</startdata>
+
+</airline>

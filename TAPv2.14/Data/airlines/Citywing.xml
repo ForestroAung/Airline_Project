@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+ <profile name="Citywing" iata="V9" logo="V9B" color="Blue" area="102" CEO="David Buck" mentality="Safe" market="Local" preferedairport="IOM">
+  <narrative narrative="Citywing (a trading name of Citywing Aviation Services Limited) was an Isle of Man-based virtual airline that sold seats on scheduled air flights operated under charter Flights linked several airports in the British Isles, with the company having a base at Isle of Man Airport. Its head office was in Hangar 9 at Isle of Man Airport in Ballasalla."/>
+ </profile>
+  <prefereds aircrafts="Let L-410,Saab 340B"></prefereds>
+   <info real="true" from="2012" to="2017">
+   </info>
+   <focusairports>
+	<focusairport airport="IOM"></focusairport>
+   </focusairports>
+    <startdata>
+    <airliners>
+     <airliner type="Let L-410" early="4" late="4"></airliner>
+    </airliners>
+	<airliners>
+     <airliner type="Saab 340B" early="0" late="1"></airliner>
+    </airliners>
+       <routes>
+        <route destination1="IOM" destination2="CWL"/>
+		<route destination1="IOM" destination2="BLK"/>
+		<route destination1="IOM" destination2="JER"/>
+		<route destination1="IOM" destination2="VLY"/>
+		<route destination1="IOM" destination2="BHD"/>
+		<route destination1="IOM" destination2="GLO"/>
+		<route destination1="IOM" destination2="GLA"/>
+		<route destination1="IOM" destination2="NCL"/>
+		<route destination1="CWL" destination2="BLK"/>
+		<route destination1="CWL" destination2="JER"/>
+		<route destination1="CWL" destination2="VLY"/>
+		<route destination1="CWL" destination2="BHD"/>
+		<route destination1="CWL" destination2="GLO"/>
+		<route destination1="CWL" destination2="GLA"/>
+		<route destination1="CWL" destination2="NCL"/>
+		<route destination1="BLK" destination2="JER"/>
+		<route destination1="BLK" destination2="VLY"/>
+		<route destination1="BLK" destination2="BHD"/>
+		<route destination1="BLK" destination2="GLO"/>
+		<route destination1="BLK" destination2="GLA"/>
+		<route destination1="BLK" destination2="NCL"/>
+       </routes>
+    </startdata>
+</airline>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Deutsche Luft-Reederei" iata="DLH" color="Indigo" area="108" CEO="Walther Rathenau" mentality="Aggressive" market="Global" ismajor="True" >
+  <narrative 
+  narrative="After receiving the license for civil aviation on 8 January 1919, the company took on the airmail service between Berlin and Weimar on 6 February 1919. Home airfield was initially the airfield Johannisthal in Berlin-Johannisthal. 
+	In 1922, the relocation to the site of the former Zeppelinwerke in Berlin-Staaken. Merged with Lloyd Luftdienst in 1923 and became 1926 the 'Deutsche Luft Hansa'."/>
+	<airports>
+	<airport preferedairport="JHT" date="01.01.1920 00:00:00" ></airport>
+	<airport preferedairport="SZH" date="07.01.1922 00:00:00" ></airport>
+	<airport preferedairport="THF" date="01.01.1926 00:00:00"></airport>
+	</airports>
+	<logos>
+	<logo from="1920" to="1926" path="DLH1920-1926"></logo>
+     <logo from="1927" to="1932" path="DLH1927-1932"></logo>
+	 <logo from="1933" to="1945" path="DLH1933-1945"></logo>
+     </logos> 
+	 <names>
+	<name value="Deutsche Aero Lloyd" from="02.06.1923 00:00:00"/>
+	<name value="Deutsche Luft Hansa" from="10.01.1926 00:00:00"/>
+	<name value="Deutsche Lufthansa" from="01.01.1933 00:00:00"/>
+	</names>
+	</profile>
+	 <info real="True" from="1919" to="1945"></info>
+<startdata>
+ <prefereds aircrafts="F.13,Fokker F.V,Ju-52/3m"></prefereds>
+<focusairports>
+        <focusairport airport="THF"></focusairport>
+		<focusairport airport="HAJ"></focusairport>
+		<focusairport airport="CGN"></focusairport>
+		<focusairport airport="MUC"></focusairport>
+		<focusairport airport="FRA"></focusairport>
+		<focusairport airport="LEJ"></focusairport>
+</focusairports>
+<routes>
+		<route destination1="THF" destination2="DRS" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="LBC" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="AOC" opened="1926" closed="1929"></route>
+		<route destination1="THF" destination2="LEJ" opened="1929" closed="2199"></route>
+		<route destination1="THF" destination2="BRE" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="FRA" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="MUC" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="HAJ" opened="1926" closed="2199"></route>
+		<route destination1="HAJ" destination2="AMS" opened="1926" closed="2199"></route>
+		<route destination1="HAJ" destination2="FRA" opened="1926" closed="2199"></route>
+		<route destination1="HAJ" destination2="ERF" opened="1926" closed="2199"></route>
+		<route destination1="HAJ" destination2="HAM" opened="1926" closed="2199"></route>
+		<route destination1="ESS" destination2="THF" opened="1926" closed="2199"></route>
+		<route destination1="ESS" destination2="HAJ" opened="1926" closed="2199"></route>
+		<route destination1="ESS" destination2="AMS" opened="1926" closed="2199"></route>
+		<route destination1="ESS" destination2="BRE" opened="1926" closed="2199"></route>
+		<route destination1="DTM" destination2="HAJ" opened="1926" closed="2199"></route>
+		<route destination1="DTM" destination2="LEJ" opened="1926" closed="2199"></route>
+		<route destination1="DTM" destination2="BMK" opened="1927" closed="2199"></route>
+		<route destination1="MUC" destination2="STR" opened="1926" closed="2199"></route>
+		<route destination1="MUC" destination2="NUE" opened="1926" closed="2199"></route>
+		<route destination1="MUC" destination2="AOC" opened="1926" closed="1929"></route>
+		<route destination1="MUC" destination2="LEJ" opened="1929" closed="2199"></route>
+		<route destination1="FRA" destination2="NUE" opened="1926" closed="2199"></route>
+		<route destination1="FRA" destination2="STR" opened="1926" closed="2199"></route>
+		<route destination1="FRA" destination2="LEJ" opened="1926" closed="2199"></route>
+		<route destination1="FRA" destination2="MUC" opened="1926" closed="2199"></route>
+		<route destination1="FRA" destination2="ERF" opened="1926" closed="2199"></route>
+		<route destination1="CGN" destination2="BRE" opened="1926" closed="2199"></route>
+		<route destination1="CGN" destination2="LBG" opened="1926" closed="1932"></route>
+		<route destination1="CGN" destination2="ORY" opened="1933" closed="2199"></route>
+		<route destination1="THF" destination2="GDN" destination3="KGD" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="GDN" destination3="KGD" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="HAJ" destination3="AMS" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="HAM" destination3="CPH" opened="1926" closed="2199"></route>
+		<route destination1="THF" destination2="AOC" destination3="MUC" opened="1926" closed="1929"></route>
+		<route destination1="THF" destination2="LEJ" destination3="MUC" opened="1929" closed="2199"></route>
+		<route destination1="FRA" destination2="NUE" destination3="MUC" opened="1926" closed="2199"></route>
+		<route destination1="MUC" destination2="VIE" destination3="BUD" opened="1926" closed="2199"></route>
+</routes>
+</startdata>
+</airline>

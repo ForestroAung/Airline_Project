@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--TBM-->
+<configuration type="TBM 900" economy="0" premium="-1" first="0" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="TBM 850" economy="0" premium="-1" first="0" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="TBM 700" economy="0" premium="-1" first="0" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Korongo Airlines" iata="ZC"  color="Orange" area="358" CEO="George Arthur Forrest" mentality="Safe" market="Regional"  preferedairport="FBM"> 
+  <narrative narrative="Korongo Airlines is based at Lubumbashi,Democratic Republic of the Congo and started in 2012. It is a Brussels Airlines joint venture. Airbel owns 70% of it which is a Belgian holding company,Brussels Airlines owns 49.5% of that
+  and Forrest Group 50.5%. The other 30% is owned by local investors. The owner of Forrest Group who himself was born in and is from Lubumbashi is the chairman. Its main route is the domestic trunk route between the two largest airports,its base
+  and the other main airport in the country at Kinshasa. It also flies to Mbuji Mayi from both places and from Lubumbashi it flies to Johannesburg,South Africa. All of these routes started within the year of 2012. At January 2015 it has one 737-300 which Brussels Airlines owns. It had two BAe 146-200's for 6-9 months between 2012 and 2013 but its first plane was the 737-300 which it still has.
+   There had been another attempt by Brussels to feed its Brussels-Kinshasa route starting in 2007. It was a joing venture with Hewa Bora Airways called airDC but a Hewa Bora plane crash in 2008 caused them to be blacklisted by th EU. Korongo was then founded in 2009 but did not get going until 2012. Korongo is a term for large migrating birds in Swahili. Flights to Kolwezi,DRC start in 2015." />
+</profile>
+   <info real="True" from="2012" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-300,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="FIH"></focusairport>
+	     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2014)-->
+	         <airliners>
+	    <airliner type="BAe 146-200" early="2" late="0"></airliner>
+	     </airliners>
+<routes>
+		<route destination1="FBM" destination2="FIH" opened="2012" closed="2199"/>
+		<route destination1="FBM" destination2="MJM" opened="2012" closed="2199"/>
+	       <route destination1="FIH" destination2="MJM" opened="2012" closed="2199"/>
+	       <route destination1="FBM" destination2="JNB" opened="2012" closed="2199"/>
+	       <route destination1="FBM" destination2="KWZ" opened="2015" closed="2199"/>
+	        <route destination1="FIH" destination2="KWZ" opened="2015" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

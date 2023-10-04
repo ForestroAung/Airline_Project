@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="1time Airline" iata="T6" color="Maroon" area="371" CEO="Sipo Twala" mentality="Moderate" market="Regional" preferedairport="JNB">
+  <narrative narrative="1time Airline was a South African airline around from February 25th,2004 to November 2nd,2012. It was based at Johannesburg (JNB) with focus cities at Cape Town and Durban. At its end besides those three cities it was flying to East London,George,and Port Elizabeth domestic wise, and Zanzibar,Tanzania Livingstone,Zambia and Victoria Falls,Zimbabwe international wise. It had four MD-83's, four MD-82's,four MD-87's, three DC-9-30's,a DC-9-10,and a 737-200 Adv. at the end. The name is a South African slang term, one time means for real."/>
+</profile>
+  <info real="True" from="2004" to="2013" />
+  <prefereds aircrafts="MD-83 (DC-9-83),MD-82 (DC-9-82),MD-87 (DC-9-87),Douglas DC-9-30"></prefereds> 
+  <focusairports>
+                 <focusairport airport="CPT"></focusairport> 
+		 <focusairport airport="DUR"></focusairport> 
+     </focusairports>
+       	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2008)-->
+	     	         <airliners>
+	    <airliner type="MD-87 (DC-9-87)" early="1" late="4"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="4"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="4"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="3" late="3"></airliner>
+	     </airliners>
+	                	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-10" early="1" late="1"></airliner>
+	     </airliners>
+	                	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="JNB" destination2="CPT"   />
+	          <route destination1="JNB" destination2="DUR"  />
+                  <route destination1="JNB" destination2="PLZ"  />
+		  <route destination1="JNB" destination2="GRJ"  />
+		  <route destination1="JNB" destination2="ELS"  />
+		  <route destination1="JNB" destination2="VFA"  />
+		  <route destination1="JNB" destination2="LVI"  />
+		  <route destination1="JNB" destination2="ZNZ"  />
+		  <route destination1="DUR" destination2="CPT"  />
+		  <route destination1="CPT" destination2="PLZ"  />
+		  <route destination1="CPT" destination2="GRJ"  />
+		 		        </routes>
+
+
+
+
+</airline>

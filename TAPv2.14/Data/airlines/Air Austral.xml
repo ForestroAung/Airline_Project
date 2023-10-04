@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Air Austral" iata="UU" area="465" color="darkcyan" CEO="Marie-Joseph Malé" mentality="Aggressive" market="Global" preferedairport="RUN" >
+<narrative narrative="Air Austral is a French airline operating from the French island of Réunion east of Madagascar. The company having routes to mainland France, Africa and a few destinations in Asia."> </narrative>
+<info real="true" from="1975" to="2199" > </info>
+</profile>
+
+<logos>
+
+	<logo from="1975" to="2014" path="UU (1975 - 2014)" />
+
+	<logo from="2014" to="2199" path="UU (2014 -)" />
+
+</logos>
+<airliners>
+	
+     	<!--the airliners the airline would start with which isn't on a route early (2008) late (2020)-->
+     	 <airliner type="ATR-72-500" early="3" late="2"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (1994) late (2011)-->
+     	 <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2010) late (2030)-->
+     	 <airliner type="Boeing 737-800" early="0" late="2"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2003) late (2013)-->
+     	 <airliner type="Boeing 777-200ER" early="3" late="0"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2011) late (2031)-->
+     	 <airliner type="Boeing 777-200LR" early="0" late="1"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2009) late (2029)-->
+     	 <airliner type="Boeing 777-300ER" early="0" late="3"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (1990) late (2011)-->
+     	 <airliner type="Boeing 737-500" early="1" late="0"></airliner>
+     	 
+</airliners>
+
+<routes>
+	<route destination1="RUN" destination2="CDG" />
+	<route destination1="RUN" destination2="TNR" />
+	<route destination1="RUN" destination2="BKK" />
+	<route destination1="RUN" destination2="MAA" />
+	<route destination1="RUN" destination2="ZSE" />
+	<route destination1="ZSE" destination2="MRU" />
+	<route destination1="ZSE" destination2="RRG" />
+	<route destination1="RUN" destination2="MRU" />
+	<route destination1="RUN" destination2="MAA" />
+	<route destination1="RUN" destination2="JNB" />
+	<route destination1="RUN" destination2="HAH" />
+	<route destination1="RUN" destination2="DZA" />
+
+
+</routes>
+
+</airline>

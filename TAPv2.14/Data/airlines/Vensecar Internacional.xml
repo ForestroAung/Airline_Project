@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Vensecar Internacional" iata="V4" logo="V42" color="Red" area="426" CEO="Jose Henrique D'Apollo" mentality="Safe" market="Global" preferedairport="CCS" routefocus="Cargo">
+  <narrative narrative="Vensecar Internacional is a cargo airline based at Caracas,Venezuela. It started in 1996. It is a franchise for DHL and their planes are painted in DHL yellow. At March 2015 its fleet consists of
+  three 727-200's,two 737-400's and an ATR 42-300. It flies to Miami,FL,USA Bogota,Colombia Panama City,Panama Santo Domingo,Dominican Republic Aruba Curacao
+  Barbados and Trinidad and Tobago."/>
+   </profile>
+    <info real="True" from="1996" to="2199" />
+       <prefereds aircrafts="Boeing 727-200 Adv.,ATR 42-300,ATR 42-600,Boeing 737-400"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="3" late="1"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="3" late="3"></airliner>
+	     </airliners>
+
+
+
+
+	       <routes>
+       	<route destination1="CCS" destination2="MIA"/>
+		<route destination1="CCS" destination2="BOG" />
+		<route destination1="CCS" destination2="PTY" />
+		<route destination1="CCS" destination2="SDQ" />
+		<route destination1="CCS" destination2="AUA" />
+		<route destination1="CCS" destination2="CUR" />
+		<route destination1="CCS" destination2="BGI" />
+		<route destination1="CCS" destination2="POS"/>	
+              </routes>
+</airline>

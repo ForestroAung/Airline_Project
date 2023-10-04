@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Panavia" iata="6Z"  color="BlueViolet" area="410" CEO="Julian Travieso" mentality="Safe" market="Global" preferedairport="PTY" routefocus="Cargo">
+  <narrative narrative="Panavia was a cargo airline that operated from Panama City,Panama from 1994 to 2006. At 2005 its destinations were Mexico City,Mexico Bogota,Colombia and San Jose,Costa Rica. At the end it had a 727-100 and a 727-200."/>
+   </profile>
+    <info real="True" from="1994" to="2006" />
+       <prefereds aircrafts="Boeing 727-100C,Boeing 727-200,Boeing 727-200 Adv."></prefereds>
+      	     	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-100C" early="1" late="1"></airliner>
+	     </airliners>
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+
+	       <routes>
+	    	<route destination1="PTY" destination2="MEX" opened="1994" closed="2199" />
+	        <route destination1="PTY" destination2="BOG"  opened="1994" closed="2199"   />
+		<route destination1="PTY" destination2="SJO" opened="1994" closed="2199"    />
+              </routes>
+</airline>

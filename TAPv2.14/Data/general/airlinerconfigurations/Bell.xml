@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Bell-->
+<configuration type="Bell 427" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="73" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 412" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="75" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 212" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="80" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 214ST" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="84" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 206" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="74" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 407" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="73" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 206 LongRanger" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="74" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Bell 429 GlobalRanger" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="85" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="85" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

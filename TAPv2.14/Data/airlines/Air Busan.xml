@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Air Busan" iata="BX" color="Purple" area="219" CEO="TaeKeun Han" mentality="Moderate" market="Regional" preferedairport="PUS">
+    <narrative narrative="Air Busan is based at its namesake city of Busan,South Korea at Gimhae Airport. A subisidiary of Asiana Airlines, it is growing and competing against Korean Air and has overtaken Korean Air on the amount of people who ride on certain routes out of and into Busan, for example the Busan-Jeju route fills 77% of its seats,      more than Korean Air. The airline started operations in October 2008 with three 737-500's. At March 2015 the fleet was made of six A321-200's the first of which it got in 2011,four 737-400's which it started getting in 2009,three A320-200's which it started getting in 2012 and still has one of its 737-500's.     It was serving 17 destinations from Busan. Regular scheduled ones include  the domestic ones of Seoul-Gimpo and Jeju. International ones are Tokyo-Narita,Osaka-Kansai and Fukuoka in Japan. Taipei-Taoyuan and Kaohsiung in Taiwan. Qingdao,Xian, and Yanji in China.     And the Special Admin parts of China at Hong Kong and Macau. Also Da Nang in Vietnam. Cebu in the Philippines. And Siem Reap in Cambodia. Seasonal charters are offered to Tokyo-Haneda. And starting in June 2015 seasonal charters     will be offered to Hohhot,China. A route to Guam, the US island territory, starts in July 2015 scheduled wise as well."/>
+  </profile>
+    <info real="True" from="2008" to="2199"/>
+           <prefereds aircrafts="Airbus A321-200,Boeing 737-400,Airbus A320-200,Airbus A321neo,Airbus A320neo"/>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="1" late="6"/>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="4"/>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="3"/>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="3" late="1"/>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="PUS" destination2="GMP"/>	
+	    <route destination1="PUS" destination2="CJU"/>	
+	    <route destination1="PUS" destination2="NRT"/>	
+	    <route destination1="PUS" destination2="KIX"/>
+	    <route destination1="PUS" destination2="HKG"/>	
+	    <route destination1="PUS" destination2="FUK"/>	
+	    <route destination1="PUS" destination2="TPE"/>
+	    <route destination1="PUS" destination2="KHH"/>	
+	    <route destination1="PUS" destination2="YNJ"/>
+	    <route destination1="PUS" destination2="MFM"/>
+	    <route destination1="PUS" destination2="TAO"/>
+	    <route destination1="PUS" destination2="XIY"/>
+	    <route destination1="PUS" destination2="CEB"/>
+	    <route destination1="PUS" destination2="DAD"/>
+	    <route destination1="PUS" destination2="REP"/>
+	    <route destination1="PUS" destination2="GUM" opened="2015" closed="2199"/>
+            <route destination1="PUS" destination2="HND" season="Summer" type="Charter"/>
+	    <route destination1="PUS" destination2="HET" opened="2015" closed="2199" season="Summer" type="Charter"/>
+                   </routes>
+</airline>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--SE 160-->
+<configuration type="SE 161 Languedoc" economy="0" premium="0" first="-1" business="0" exitrows="0,1330" emergencyrows="-1" toiletrows="1330" kitchenrows="1330">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="88.6" width="48"></seat>
+</seats>
+</configuration>
+
+<!--SE 160-->
+<configuration type="SE 2010 Armagnac" economy="0" premium="0" first="-1" business="0" exitrows="0,2135" emergencyrows="-1" toiletrows="2135" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="79" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pskovavia" iata="PSW" color="BlueViolet" area="177" CEO="Mikhail Rylov" mentality="Safe" market="Domestic" preferedairport="PKV" routefocus="Mixed" schedule="Business">
+  <narrative narrative="Pskovavia is based out of Pskov,Russia in the far west 20km from the Estonian border and close to Latvia also. It as of 2015 was the only airline operating on a regular basis from there. It flies to Moscow Domodedovo
+  three times a week and St. Petersburg from Pskov for passengers. It also does cargo charters. It also has 6 other routes from St. Petersburg to Bryansk,Petrozavodsk,Kursk,Apatity,Vologda and Vladimir. Its fleet at July 2012 was three An-26's for cargo and an An-24 for passengers.
+  It was part of Aeroflot from its founding in 1944 until the fall of the USSR when many other divisions of Aeroflot broke off also." />
+</profile>
+   <info real="True" from="1944" to="2199"></info>
+   <prefereds aircrafts="Antonov An-26,Antonov An-24"></prefereds>
+<focusairports>
+                 <focusairport airport="LED"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1960) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1969) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="3"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="PKV" destination2="DME" opened="1964" closed="2199"  routefocus="Passenger"/>
+                <route destination1="PKV" destination2="VKO" opened="1944" closed="1964"  routefocus="Passenger"/>
+		<route destination1="PKV" destination2="LED" opened="1944" closed="2199"  routefocus="Passenger"/>
+       	        <route destination1="LED" destination2="PES" opened="1960" closed="2199" routefocus="Passenger"/>
+	        <route destination1="LED" destination2="URS" opened="1965" closed="2199" routefocus="Passenger"/>
+	        <route destination1="LED" destination2="KVK" opened="1970" closed="2199"  routefocus="Passenger"/>
+	        <route destination1="LED" destination2="BZK" opened="1975" closed="2199"  routefocus="Passenger"/>
+	        <route destination1="LED" destination2="VGD" opened="1980" closed="2199"  routefocus="Passenger"/>
+        </routes>
+  
+
+
+</airline>

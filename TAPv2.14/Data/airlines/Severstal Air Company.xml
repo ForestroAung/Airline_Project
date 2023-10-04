@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Severstal Air Company" iata="D2" color="MediumBlue" area="177" CEO="Alexey Mordashov" mentality="Moderate" market="Regional" preferedairport="CEE"  schedule="Business">
+  <narrative narrative="Severstal Air Company is based at Cherepovets Airport and is part of the largest steel company in Russia, Severstal. From Cherepovets as of 2015 it was flying to Moscow Vnukovo,Moscow Domodedovo,St. Petersburg,Murmansk,Kaliningrad,Ukhta,Yekaterinburg and Veliky Ustyug domestic regular scheduled wise,and internationally to Helsinki,Finland. Seasonally the domestic ones are Anapa,Sochi,and Gelendzhik and international Simferopol,Ukraine and Burgas,Bulgaria. From St. Petersburg it also serves Ukhta,Veliky Ustyug and Vorkuta. At February 2015 its fleet was four Bombardier CRJ200's with two more on order,three Yak-40's,a Bombardier Challenger 600 and Challenger 300 and an Antonov An-2." />
+</profile>
+   <info real="True" from="1994" to="2199"></info>
+   <prefereds aircrafts="Bombardier CRJ200,Yak-40,Antonov An-2,Challenger 600,Challenger 300"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2016)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="3" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-40" early="3" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-2" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Challenger 600" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	         <airliners>
+	    <airliner type="Challenger 300" early="0" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="CEE" destination2="VKO" opened="1994" closed="2199"  />
+                <route destination1="CEE" destination2="DME" opened="1994" closed="2199"  />
+	        <route destination1="CEE" destination2="LED" opened="1994" closed="2199"  />
+		<route destination1="CEE" destination2="SVX" opened="1994" closed="2199"  />
+                <route destination1="CEE" destination2="MMK" opened="1998" closed="2199"  />
+                <route destination1="CEE" destination2="KGD" opened="1998" closed="2199"  />
+                <route destination1="CEE" destination2="HEL" opened="2002" closed="2199"  />
+                <route destination1="CEE" destination2="UCT" opened="2002" closed="2199"  />
+        	   <route destination1="CEE" destination2="VUS" opened="1994" closed="2199"  />
+               <route destination1="LED" destination2="UCT" opened="2004" closed="2199"  />
+	        <route destination1="CEE" destination2="AER" opened="2005" closed="2199" season="Summer"  />
+                <route destination1="CEE" destination2="SIP" opened="2005" closed="2199" season="Summer"  />
+                <route destination1="CEE" destination2="AAQ" opened="2005" closed="2199" season="Summer"  />
+                <route destination1="CEE" destination2="GDZ" opened="2005" closed="2199" season="Summer"  />
+                <route destination1="CEE" destination2="BOJ" opened="2006" closed="2199" season="Summer"  />
+                <route destination1="LED" destination2="VKT" opened="2009" closed="2199"  />
+	   <route destination1="LED" destination2="VUS" opened="2011" closed="2199"  />
+
+        </routes>
+  
+
+
+</airline>

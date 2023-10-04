@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="China Eastern Airlines" iata="MU" color="Blue" area="209" CEO="Liu Shaoyang" mentality="Aggressive" market="Global" preferedairport="SHA">
+    <narrative narrative="China Eastern is a major Chinese airline in operation out of Shanghai since 1988. They operate a fleet of 300 aircraft to 110 domestic and international locations. Their fleet is a broad mix of Boeing, Airbus, Bombardier, and Embraer." />
+  </profile>
+    <logos>
+
+      <logo from="1988" to="2013" path="MU1988-2013"></logo>
+      <logo from="2014" to="2188" path="MU2014-"></logo>
+
+    </logos>
+
+  <info real="True" from="1988" to="2199"/>
+      <prefereds aircrafts="Airbus A300-600,Airbus A319-100,Airbus A320-200,Airbus A321-200,Airbus A330-200,Airbus A330-300,Boeing 737-300,Boeing 737-700,Boeing 737-800,Boeing 777-300ER,BAe 146-200,Comac C919,Embraer ERJ145 LR,Fokker 100,MD-82 (DC-9-82)"></prefereds>
+        <focusairports>
+        <focusairport airport="PVG"></focusairport>
+        <focusairport airport="XIY"></focusairport>
+        <focusairport airport="KMG"></focusairport>
+        <focusairport airport="PEK"></focusairport>
+        <focusairport airport="TAO"></focusairport>
+        <focusairport airport="WUH"></focusairport>
+        <focusairport airport="TYN"></focusairport>
+        <focusairport airport="NKG"></focusairport>
+        <focusairport airport="CTU"></focusairport>
+        <focusairport airport="KHN"></focusairport>
+        <focusairport airport="NGB"></focusairport>
+        <focusairport airport="HFE"></focusairport>
+        <focusairport airport="KHN"></focusairport>
+        <focusairport airport="NGB"></focusairport>
+        <focusairport airport="HFE"></focusairport>
+        <focusairport airport="HGH"></focusairport>
+        <focusairport airport="CZX"></focusairport>
+        <focusairport airport="SJW"></focusairport>
+     </focusairports>
+
+
+         <airliners>
+		<airliner type="Antonov An-24" early="4" late="0"></airliner>
+	                <airliner type="Airbus A300-600" early="0" late="10"></airliner>
+	                <airliner type="Airbus A310-200" early="5" late="6"></airliner>
+    	                <airliner type="Airbus A310-300" early="0" late="2"></airliner>
+	                <airliner type="Airbus A319-100" early="0" late="35"></airliner>
+		<airliner type="Airbus A320-200" early="0" late="193"></airliner>
+		<airliner type="Airbus A321-200" early="0" late="77"></airliner>
+		<airliner type="Airbus A330-200" early="0" late="30"></airliner>
+		<airliner type="Airbus A330-300" early="0" late="25"></airliner>
+		<airliner type="Airbus A340-300" early="0" late="5"></airliner>
+		<airliner type="Airbus A340-600" early="5" late="5"></airliner>
+		<airliner type="Airbus A350-900" early="0" late="32"></airliner>
+		<airliner type="Boeing 707-320B" early="5" late="0"></airliner>
+		<airliner type="Boeing 737-200" early="0" late="1"></airliner>
+		<airliner type="Boeing 737-300" early="0" late="26"></airliner>
+		<airliner type="Boeing 737-700" early="0" late="47"></airliner>
+		<airliner type="Boeing 737-800" early="0" late="101"></airliner>
+		<airliner type="Boeing 737 MAX 8" early="0" late="9"></airliner>
+		<airliner type="Boeing 767-300ER" early="0" late="3"></airliner>
+		<airliner type="Boeing 777-300ER" early="0" late="20"></airliner>
+		<airliner type="Bombardier CRJ200" early="1" late="0"></airliner>
+		<airliner type="BAe 146-200" early="0" late="13"></airliner>
+		<airliner type="BEA Trident 2E" early="4" late="0"></airliner>
+		<airliner type="Comac C919" early="0" late="20"></airliner>
+		<airliner type="Embraer ERJ145 LR" early="0" late="10"></airliner>
+		<airliner type="Fokker 100" early="0" late="10"></airliner>
+		<airliner type="MD-11" early="0" late="6"></airliner>
+		<airliner type="MD-82 (DC-9-82)" early="6" late="15"></airliner>
+		<airliner type="MD-83 (DC-9-83)" early="0" late="1"></airliner>
+		<airliner type="MD-90-30" early="0" late="9"></airliner>
+		<airliner type="Short 360" early="4" late="0"></airliner>
+	  </airliners>
+<routes> 
+     <route destination1="CAN" destination2="CEB"  opened="2018" closed="2199"  airliner="Boeing 737-800"  />
+     <route destination1="CAN" destination2="YIH"  opened="2015" closed="2199"  airliner="Boeing 737-800"  />
+     <route destination1="CGQ" destination2="SHA" destination3="SIN"  opened="2015" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="CTU" destination2="NKG" destination3="FUK"  opened="2015" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="CTU" destination2="WDS"  opened="2018" closed="2199"  airliner="Boeing 737-800"  />
+     <route destination1="CTU" destination2="YUS"  opened="2014" closed="2199"  airliner="Airbus A319-100"  />
+     <route destination1="DLC" destination2="KIX"  opened="2017" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="HGH" destination2="JJN" destination3="SIN"  opened="2017" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="KMG" destination2="CDG"  opened="2014" closed="2199"  airliner="Boeing 777-300ER"  />
+     <route destination1="KMG" destination2="JIQ" destination3="PEK"  opened="2012" closed="2199"  airliner="Boeing 737-300"  />
+     <route destination1="KMG" destination2="JNG" destination3="PEK"  opened="2012" closed="2199"  airliner="Boeing 737-700"  />
+     <route destination1="KMG" destination2="NLH"  opened="2015" closed="2199"  airliner="Boeing 737-700"  />
+     <route destination1="NGB" destination2="FSZ"  opened="2015" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="PEK" destination2="KIX" airliner="Airbus A321-200"  />
+     <route destination1="PEK" destination2="NKG" destination3="SYD"  opened="2012" closed="2199"  airliner="Airbus A330-200"   />
+     <route destination1="PEK" destination2="TAO" destination3="FUK" airliner="Airbus A321-200"   />
+     <route destination1="PVG" destination2="AKL"  opened="2014" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="AMS"  opened="2016" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="ARN"  opened="2018" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="BNE"  opened="2016" closed="2199"  airliner="Airbus A330-300"  />
+     <route destination1="PVG" destination2="CDG"  opened="1998" closed="2199"  airliner="Airbus A340-300"  />
+     <route destination1="PVG" destination2="CMB"  opened="2015" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="FRA"  opened="2006" closed="2199"  airliner="Airbus A340-600"  />
+     <route destination1="PVG" destination2="HNL"  opened="2015" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="LAX"  opened="1991" closed="2199"  airliner="MD-11"  />
+     <route destination1="PVG" destination2="MFM"  opened="2007" closed="2199"  airliner="Airbus A321-200" />
+     <route destination1="PVG" destination2="ORD"  opened="2016" closed="2199"  airliner="Boeing 777-300ER"  />
+     <route destination1="PVG" destination2="PRG"  opened="2016" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="PVG" destination2="TNA" destination3="LHW"  opened="2018" closed="2199"  airliner="Airbus A320-200"   />
+     <route destination1="SHA" destination2="FUK"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="HAK"  opened="1988" closed="2199"  airliner="MD-82 (DC-9-82)" />
+     <route destination1="SHA" destination2="HGH" destination3="CSX"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="HGH" destination3="NKG"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="HND"  opened="1988" closed="2199"  airliner="Airbus A310-200" />
+     <route destination1="SHA" destination2="HRB"  opened="1988" closed="2199"  airliner="MD-82 (DC-9-82)" />
+     <route destination1="SHA" destination2="ITM"  opened="1988" closed="1994" />
+     <route destination1="SHA" destination2="LHW"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="LYG"  opened="1988" closed="2199"  airliner="Antonov An-24"  />
+     <route destination1="SHA" destination2="LYG" destination3="PEK"  opened="1988" closed="2199"  airliner="Short 360"  />
+     <route destination1="SHA" destination2="MFM"  opened="2007" closed="2199"  airliner="Airbus A321-200" />
+     <route destination1="SHA" destination2="NGS"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="NKG" destination3="CGO"  opened="1988" closed="2199" />
+     <route destination1="SHA" destination2="TAO" opened="1988" closed="2199"    airliner="BEA Trident 2E"  />
+     <route destination1="SHA" destination2="TYN"  opened="1988" closed="2199"  airliner="BAe 146-200" />
+     <route destination1="SHA" destination2="URC"  opened="1988" closed="2199"  airliner="Boeing 707-320B" />
+     <route destination1="SHA" destination2="XIY" destination3="RKZ"  opened="2017" closed="2199"  airliner="Airbus A319-100"   />
+     <route destination1="SHA" destination2="XMN"  opened="1988" closed="2199"  airliner="BAe 146-200" />
+     <route destination1="SHA" destination2="YNT"  opened="1988" closed="2199"  airliner="Short 360" />
+     <route destination1="TAO" destination2="SFO"  opened="2016" closed="2199"  airliner="Airbus A330-300"  />
+     <route destination1="TAO" destination2="YIH" destination3="KMG"  opened="2015" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="TNA" destination2="CKG"  opened="2018" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="TNA" destination2="ICN"  opened="2018" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="TNA" destination2="LHW"  opened="2018" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="TSN" destination2="DLU"  opened="2015" closed="2199"  airliner="Boeing 737-300" />
+     <route destination1="XIY" destination2="LED"  opened="2018" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="XIY" destination2="NNG" destination3="HAK"  opened="2018" closed="2199"  airliner="Airbus A320-200"   />
+     <route destination1="XIY" destination2="OKA"  opened="2017" closed="2199"  airliner="Airbus A320-200"  />
+     <route destination1="XIY" destination2="PRG"  opened="2017" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="XIY" destination2="TNA"  opened="2018" closed="2199"  airliner="Airbus A330-200"  />
+     <route destination1="XIY" destination2="XNN" destination3="YUS"  opened="2009" closed="2199"  airliner="Airbus A319-100"   />
+                   </routes>	  
+     </airline>

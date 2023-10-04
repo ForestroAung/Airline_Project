@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Short-->
+<configuration type="Short 360" economy="-1" premium="0" first="0" business="0" exitrows="865" emergencyrows="0" toiletrows="865" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Short 330" economy="-1" premium="0" first="0" business="0" exitrows="720" emergencyrows="0" toiletrows="720" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Short SC.7 Skyvan" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="505" kitchenrows="505">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.1" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Short C-Class-->
+<configuration type="Short S.21 Maia" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="450" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Short S.23 Empire" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="516" kitchenrows="172">
+<seats>
+<seat class="First_Class" type="Standard" pitch="86" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Short S.25 Sandringham" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-264,264" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="88" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Short Scion-->
+<configuration type="Short S.16 Scion I" economy="0" premium="0" first="-1" business="0" exitrows="160" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Short S.16 Scion II" economy="0" premium="0" first="-1" business="0" exitrows="160" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Short S.22 Scion Senior" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="480">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aircalin" iata="SB" color="Orange" area="458" CEO="Bernard Delqdrière" mentality="Moderate" market="Regional" preferedairport="NOU">
+  <narrative narrative="Société Aircalin, also known as Air Calédonie International, is a French airline and is the international airline of New Caledonia. It also operates domestic services in Wallis and Futuna. Including Wallis and Futuna, it operates scheduled services to twelve destinations in Oceania and Asia, including Japan. Its main base is La Tontouta International Airport.It is headquartered in Nouméa."/>
+</profile>
+  <info real="True" from="1983" to="2199" />
+
+  </airline>

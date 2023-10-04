@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="RAF-Avia" iata="MTL" color="MediumBlue" area="172" CEO="Olegs Chuvikins" mentality="Safe" market="Regional" preferedairport="RIX" routefocus="Cargo">
+  <narrative narrative="RAF-Avia is a cargo airline based at Riga,Latvia. It started in 1991 flying parts and supplies for the Riga Autobus Factory which is where the acronym RAF comes from. In 1994 it began flying for
+  other commercial groups besides the auto factory. It flies for TNT,DHL, and other freight companies. It also does transport for the military and United Nations passenger charters. At June 2015 it was flying from Riga to 19 places in Europe. These would be Aalborg,Denmark Amsterdam,Netherlands Ankara,Turkey Copenhagen,Denmark
+  Birmingham,England Coventry,England East Midlands,England Helsinki,Finland Innsbruck,Austria Istanbul,Turkey Kiev,Ukraine Larnaca,Cyprus Leipzig,Germany Lisbon,Portugal Malmo,Sweden Moscow Vnukovo,Russia
+  Ostrava,Czech Republic Prague,Czech Republic and Simferopol,Ukraine. Its fleet at January 2013 was six Antonov 26's and two Saab 340's."/>
+</profile>
+  <info real="True" from="1991" to="2199" />
+  <prefereds aircrafts="Antonov An-26,Saab 340B"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="0" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="2" late="6"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="RIX" destination2="AMS"  />
+                <route destination1="RIX" destination2="LEJ"  />	
+		<route destination1="RIX" destination2="EMA"  />
+		<route destination1="RIX" destination2="HEL"  />
+		<route destination1="RIX" destination2="CPH"  />
+		<route destination1="RIX" destination2="VKO"  />
+		<route destination1="RIX" destination2="IST"  />
+		<route destination1="RIX" destination2="MMX"  />
+		<route destination1="RIX" destination2="AAL"  />
+		<route destination1="RIX" destination2="BHX"  />
+		<route destination1="RIX" destination2="LCA"  />
+		<route destination1="RIX" destination2="KBP"  />
+		<route destination1="RIX" destination2="ESB"  />
+		<route destination1="RIX" destination2="PRG" />
+		<route destination1="RIX" destination2="SIP"  />
+		<route destination1="RIX" destination2="LIS"  />
+		<route destination1="RIX" destination2="OSR"  />
+		<route destination1="RIX" destination2="CVT"  />
+		<route destination1="RIX" destination2="INN"  />
+	        </routes>
+
+
+
+
+</airline>

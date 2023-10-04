@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Meridiana" iata="IG" color="Red" area="121" CEO="Roberto Scarmella" mentality="Aggressive" market="Global" preferedairport="OLB">
+    <narrative narrative="Merdiana was founded by Aga Khan Prince Karim al-Hussayni in 1963 as Alisarda, to promote tourism to the Italian island of Sardinia." /></profile>
+  <info real="True" from="1963" to="2199" />
+<names>
+<name value="Meridiana" from="1963.1.1 00:00:00"></name>
+<name value="AirItaly" from="2018.2.19 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1963" to="2017" path="IG"></logo>
+      <logo from="2018" to="2199" path="IG2018"></logo>
+    </logos>
+<airliners>
+<airliner type="Boeing 767-300ER" early="1" late="2"></airliner>
+<airliner type="Boeing 737-700" early="0" late="1"></airliner>
+<airliner type="Boeing 737-800" early="0" late="7"></airliner>
+<airliner type="Boeing 737 MAX 8" early="0" late="20"></airliner>
+<airliner type="Boeing 787-8" early="0" late="30"></airliner>
+<airliner type="Airbus A330-200" early="0" late="5"></airliner>
+	     </airliners>
+<routes>
+       		<route destination1="MXP" destination2="ACC"/>
+
+       		<route destination1="MXP" destination2="BKK" opened="2018" closed="2199"/>
+       		<route destination1="OLB" destination2="BLQ"/>
+
+       		<route destination1="MXP" destination2="CAI"/>
+       		<route destination1="MXP" destination2="CTA" opened="2018" closed="2199"/>
+
+       		<route destination1="MXP" destination2="DSS"/>
+       		<route destination1="MXP" destination2="FOR" opened="1985" closed="2018"/>
+
+       		<route destination1="MXP" destination2="FUE" opened="1985" closed="2018"/>
+       		<route destination1="MXP" destination2="LRM" opened="1985" closed="2018"/>
+
+       		<route destination1="MXP" destination2="LOS"/>
+       		<route destination1="OLB" destination2="SUF" opened="2018" closed="2199"/>
+
+       		<route destination1="OLB" destination2="LGW" opened="2018" closed="2199"/>
+       		<route destination1="OLB" destination2="RMF" opened="1985" closed="2018"/>
+
+       		<route destination1="MXP" destination2="MIA" opened="2018" closed="2199"/>
+       		<route destination1="OLB" destination2="LIN"/>
+
+       		<route destination1="OLB" destination2="MXP"/>
+       		<route destination1="OLB" destination2="BGY"/>
+
+       		<route destination1="OLB" destination2="MBA"/>
+       		<route destination1="OLB" destination2="DME"/>
+
+       		<route destination1="OLB" destination2="NAP"/>
+       		<route destination1="MXP" destination2="JFK" opened="2018" closed="2199"/>
+
+       		<route destination1="MXP" destination2="PMO" opened="2018" closed="2199"/>
+       		<route destination1="OLB" destination2="FCO"/>
+
+       		<route destination1="MXP" destination2="ZNZ"/>
+       		<route destination1="OLB" destination2="VRN"/>
+
+<route destination1="MXP" destination2="SSH" opened="1985" closed="2018"/>
+<route destination1="MXP" destination2="SID" opened="1985" closed="2018"/>
+
+<route destination1="MXP" destination2="RUC" opened="1985" closed="2018"/>
+<route destination1="MXP" destination2="MRU" opened="1985" closed="2018"/>
+
+
+       		<route destination1="OLB" destination2="VCE"/>
+       		<route destination1="OLB" destination2="TRN"/>
+       	</routes>
+</airline>

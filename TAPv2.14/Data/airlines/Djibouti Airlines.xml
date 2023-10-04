@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Djibouti Airlines" iata="DJB" color="Navy" area="351" CEO="Moussa Rayaleh Waberi" mentality="Safe" market="Global"  preferedairport="JIB">
+  <narrative narrative="Djibouti Airlines flew from February 5th,1996 to July 30th,2009. Its base was its namesake of Djibouti, which the main city and country share the same name. It was 97.3% owned by its founder and CEO Moussa Rayaleh Waberi and had 46 employees at March 2007. Its first routes on the first day were to
+  Dire Dawa,Ethiopia and Hargeisa,Somalia with Let 410 planes. Other places it served were Addis Ababa,Ethiopia Boosaaso,Somalia Dubai,UAE Sharjah,UAE and Aden,Yemen. Plane types it had at the end were all Russian built. They were Antonov 12's and 24's and Ilyushin IL-18's and IL-76's. The Antonov 26 was
+  also a plane it used at one point." />
+</profile>
+   <info real="True" from="1996" to="2010"></info>
+  <prefereds aircrafts="Let L-410,Antonov An-12 Passenger,Antonov An-24,Antonov An-26,Il-76,Il-18E,Il-18D,Il-18V"></prefereds>
+	         	      <routes>  
+      <route destination1="JIB" destination2="DIR" opened="1996" closed="2199"/>
+      <route destination1="JIB" destination2="HGA" opened="1996" closed="2199"/>
+	    <route destination1="JIB" destination2="ADD"/>
+	    <route destination1="JIB" destination2="BSA"/>
+	     <route destination1="JIB" destination2="DXB"/>
+	     <route destination1="JIB" destination2="SHJ"/>
+	     <route destination1="JIB" destination2="ADE"/>
+                   </routes>
+
+</airline>

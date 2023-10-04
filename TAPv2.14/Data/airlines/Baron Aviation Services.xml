@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Baron Aviation Services" iata="BVN" color="Blue" area="402" CEO="Jonathan Smith" mentality="Moderate" market="Domestic" preferedairport="MEM" routefocus="Cargo">
+  <narrative narrative="Baron Aviation Services is a cargo airline that flies express cargo for FedEx. It flies from Memphis to Chattanooga,TN Huntsville,AL Columbus,GA and Monroe,LA. From Omaha,NE it flies to Scottsbluff,NE Kearney,NE and Grand Island,NE. From Wichita,KS it flies to Garden City,KS. From Austin,TX it goes to Fort Worth Alliance,TX and San Angelo,TX. From Fort Wporth Alliance to Midland/Odessa,TX. From Lubbock,TX to Roswell,NM Midland/Odessa,TX and Abilene,TX. From Houston Bush to College Station,TX and from San Antonio,TX to Del Rio,TX. It uses 31 Cessna 208's as of 2012. It was founded in 1973. Its main base and HQ is Vichy,Missouri at Rolla National Airport,but this airport gets no service." />
+</profile>
+   <info real="True" from="1973" to="2199"></info>
+   <prefereds aircrafts="Cessna 208B Super Cargomaster"></prefereds>
+  <focusairports>
+                 <focusairport airport="OMA"></focusairport>
+		 <focusairport airport="AUS"></focusairport>
+		 <focusairport airport="LBB"></focusairport>
+		 <focusairport airport="AFW"></focusairport>
+		 <focusairport airport="ICT"></focusairport>
+		 <focusairport airport="IAH"></focusairport>
+		 <focusairport airport="SAT"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 208B Super Cargomaster" early="5" late="31"></airliner>
+	     </airliners>
+
+
+
+<routes>
+                <route destination1="MEM" destination2="HSV" />
+                <route destination1="MEM" destination2="CHA"  />  
+	        <route destination1="MEM" destination2="CSG" />
+	        <route destination1="MEM" destination2="MLU" />
+                <route destination1="OMA" destination2="LBF"  />  
+	        <route destination1="OMA" destination2="GRI" />
+                <route destination1="OMA" destination2="EAR" />
+                <route destination1="ICT" destination2="GCK"  />  
+	        <route destination1="AUS" destination2="SJT" />
+		<route destination1="AUS" destination2="AFW" />
+		<route destination1="AFW" destination2="MAF" />
+	        <route destination1="LBB" destination2="ABI" />
+	        <route destination1="LBB" destination2="ROW" />
+		<route destination1="LBB" destination2="MAF" />
+		<route destination1="IAH" destination2="CLL" />
+	          <route destination1="SAT" destination2="DRT" />
+
+        </routes>
+  
+
+
+</airline>

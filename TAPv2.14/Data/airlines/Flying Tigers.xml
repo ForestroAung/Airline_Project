@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Flying Tigers" iata="FT" color="Blue" area="402" CEO="Robert William Prescott" mentality="Safe" market="Global" preferedairport="LAX" routefocus="Cargo" >
+  <narrative narrative="Flying Tigers was the first scheduled cargo airline in the United States. It mainly connected Asia and the USA."/>
+</profile>
+  <info real="True" from="1945" to="1989" />
+  
+</airline>

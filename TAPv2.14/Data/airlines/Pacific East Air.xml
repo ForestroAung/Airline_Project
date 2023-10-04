@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pacific East Air" iata="PCE" color="Brown" area="402" CEO="John Jacob Heimerschmidt" mentality="Safe" market="Domestic" preferedairport="LAX">
+  <narrative narrative="Pacific East Air only lasted from 1983 to August 1984. Its base was Los Angeles. It flew from there to Honolulu,Hawaii Maui,Hawaii and Chicago,Illinois. It flew from San Francisco to Honolulu 
+  and also had the very long route from New York City to Honolulu as well. The JFK-HNL route saw many people yet it lost money. The airline went under when bad management decisions,overbooking and failure to book passengers
+  on other flights after cancellations ked to a CAB investigation and unfavorable passenger reviews which led to the operating license being revoked. It used moslt DC-8's, of the 61,62 and 71 type and also at least one DC-10."/>
+</profile>
+  <info real="True" from="1983" to="1985" />
+  <prefereds aircrafts="Douglas DC-8-61,Douglas DC-8-63,MD DC-10-30"></prefereds>
+               <routes>
+	          <route destination1="LAX" destination2="HNL"/>
+	       	  <route destination1="SFO" destination2="HNL"/>
+		  <route destination1="LAX" destination2="ORD"/>
+		  <route destination1="LAX" destination2="OGG"/>
+		  <route destination1="JFK" destination2="HNL"/>
+	 		        </routes>
+
+
+
+
+</airline>

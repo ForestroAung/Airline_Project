@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AZALJet" iata="AZJ" color="MediumTurquoise" area="181" CEO="Jahangir Askerov" mentality="Moderate" market="Global" preferedairport="GYD"> 
+  <narrative narrative="AZALJet is a subsidiary of Azerbaijan Airlines that began service on March 28th,2016, after it had been founded only a short time before on March 15th.
+  Its base is Baku, the main city of the country, like its parent. Its routes from Baku at the airline start are to as follows: In Turkey it serves both Istanbul airports, which are Ataturk and Sabiha
+  Gokcen,and Ankara,Antalya, and seasonally to Dalaman,Bodum,Izmir and Gazipasa : For Russia it goes to Moscow Domodedovo,Moscow Vnukovo,St. Petersburg,Kazan,and Mineralnye Vody. : In Ukraine
+  it goes to Kiev Boryspil and Lviv. Other destinations it serves are Dubai,UAE Tehran,Iran Tbilisi,Georgia Aktau,Kazakhstan and Minsk,Belarus. It uses four or more Embraer 190's of its parent, but it is unclear
+  how many to be exact. At last count its parent owned four of them." />
+</profile>
+   <info real="True" from="2016" to="2017"></info>
+   <prefereds aircrafts="Embraer E-190,Embraer E-190E2,Embraer E-195,Embraer E-195E2"></prefereds>
+       
+  <routes>
+    <route destination1="GYD" destination2="IST" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="DME" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="DXB" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="TBS" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="ESB" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="VKO" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="LED" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="AYT" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="IKA" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="KBP" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="KZN" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="MRV" opened="2016" closed="2199"/>
+     <route destination1="GYD" destination2="SCO" opened="2016" closed="2199"/>
+     <route destination1="GYD" destination2="LWO" opened="2016" closed="2199"/>
+     <route destination1="GYD" destination2="SAW" opened="2016" closed="2199"/>
+    <route destination1="GYD" destination2="MSQ" opened="2016" closed="2199"/>
+     <route destination1="GYD" destination2="DLM" opened="2016" closed="2199" season="Summer"/>
+     <route destination1="GYD" destination2="BJV" opened="2015" closed="2016" season="Summer"/>
+     <route destination1="GYD" destination2="ADB" opened="2015" closed="2016" season="Summer"/>
+     <route destination1="GYD" destination2="GZP" opened="2015" closed="2016" season="Summer"/>
+     </routes>
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Embraer E-190" early="4" late="4"></airliner>
+	     </airliners>
+
+
+
+</airline>

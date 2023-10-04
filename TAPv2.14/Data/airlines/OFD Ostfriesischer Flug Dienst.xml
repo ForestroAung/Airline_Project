@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="OFD Ostfriesischer Flug Dienst" iata="OL" color="DarkRed" area="108" CEO="Michael Schaecher" mentality="Moderate"  market="Global " preferedairport="EME">
+  </profile>
+  <info real="True" from="1958" to="2199" />
+  <prefereds aircrafts="Cessna 172"></prefereds>
+  <focusairports>
+        <focusairport airport="EME"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Cessna 172" early="1" late="0"></airliner>
+    </airliners>
+  </startdata>
+
+</airline>

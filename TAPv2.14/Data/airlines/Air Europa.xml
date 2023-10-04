@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Europa" iata="UX" color="Red" area="117" CEO="Juan Josidalgo" mentality="Aggressive" market="Global" preferedairport="MAD">
+    <narrative narrative="Air Europa are Spain's third largest airline after Iberia and Vueling and are based at Madrid. As of 2014 they serve 44 destinations globally. They have 47 planes. This includes 12 A330's ,20 737-800s, and 11 Embraer 195LR's. They have 30 737-800's on order and 20 787-9's on order. " /></profile>
+  <info real="True" from="1986" to="2199" />
+  <prefereds aircraft="Airbus A330-200,Airbus A330-300,Boeing 737-800,Boeing 787-8,Boeing 787-9,Embrear E195,ATR 72-200,ATR 72-500,Embrear ERJ145 LR "
+>
+</prefereds>
+  	<focusairports>
+  		<focusairport airport="MAD"></focusairport>
+  		<focusairport airport="BCN"></focusairport>
+  		<focusairport airport="TFS"></focusairport>
+  	</focusairports>
+  	<routes>
+  		<route destination1="MAD" destination2="ACE"/>
+  		<route destination1="MAD" destination2="ALC"/>
+  		<route destination1="MAD" destination2="BRU"/>
+  		<route destination1="MAD" destination2="LCG"/>
+  		<route destination1="MAD" destination2="AMS"/>
+  		<route destination1="MAD" destination2="BCN"/>
+  		<route destination1="MAD" destination2="TFS"/>
+  		<route destination1="MAD" destination2="EZE"/>
+  		<route destination1="MAD" destination2="JFK"/>
+  		<route destination1="MAD" destination2="BIO"/>
+  		<route destination1="MAD" destination2="CPH"/>
+  		<route destination1="MAD" destination2="PMI"/>
+  		<route destination1="MAD" destination2="SPC"/>
+  		<route destination1="MAD" destination2="CPH"/>
+  		<route destination1="MAD" destination2="ORY"/>
+  		<route destination1="MAD" destination2="MXP"/>
+  		<route destination1="MAD" destination2="TLV"/>
+  		<route destination1="MAD" destination2="GRU"/>
+  		<route destination1="MAD" destination2="LGW"/>
+  		<route destination1="MAD" destination2="FCO"/>
+  		<route destination1="MAD" destination2="LPA"/>
+  		<route destination1="MAD" destination2="VGO"/>
+  		<route destination1="MAD" destination2="MUC"/>
+  		<route destination1="MAD" destination2="IBZ"/>
+  		<route destination1="MAD" destination2="FRA"/>
+
+  		<route destination1="BCN" destination2="MAH"/>
+  		<route destination1="BCN" destination2="PMI"/>
+  		<route destination1="BCN" destination2="TFN"/>
+  		<route destination1="TFS" destination2="ALC"/>
+  		<route destination1="TFS" destination2="ORY"/>
+  		<route destination1="TFS" destination2="SCQ"/>
+  	</routes>
+  	<!--the airliners the airline would start with which isn't on a route earyl (2006) late (2026)-->
+	  	<airliners>
+  			<airliner type="Airbus A330-200" early="3" late="12"></airliner>
+  		</airliners>
+    	<!--the airliners the airline would start with which isn't on a route earyl (2013) late (2033)-->
+	  	<airliners>
+  			<airliner type="Airbus A330-300" early="1" late="2"></airliner>
+		</airliners>
+  		<!--the airliners the airline would start with which isn't on a route earyl (2013) late (2033)-->
+	  	<airliners>
+  			<airliner type="ATR 72-500" early="2" late="4"></airliner>
+  		</airliners>
+  		<!--the airliners the airline would start with which isn't on a route earyl (1999) late (2034)-->
+	  	<airliners>
+  			<airliner type="Boeing 737-800" early="6" late="20"></airliner>
+  		</airliners>
+  		<!--the airliners the airline would start with which isn't on a route earyl (2008) late (2028)-->
+	  	<airliners>
+  			<airliner type="Embrear E195" early="1" late="11"></airliner>
+  		</airliners>
+</airline>

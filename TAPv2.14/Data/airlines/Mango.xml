@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mango" iata="JE" color="Black" area="371" CEO="Nico Bezuidenhout" mentality="Safe" market="Regional"
+           preferedairport="JNB">
+            <narrative narrative="Mango Airlines SOC Ltd, known as Mango, is a state-owned South African low-cost airline, founded in 2006 as a subsidiary of South African Airways, that operates domestic scheduled budget services. Mango's main base is OR Tambo International Airport near Johannesburg. "/>
+
+  </profile>
+  <info real="True" from="2006" to="2199" />
+</airline>

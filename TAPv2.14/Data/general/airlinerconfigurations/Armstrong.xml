@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Armstrong-->
+<!--AW-->
+<configuration type="AW27 Ensign" economy="0" premium="0" first="-1" business="0" exitrows="381,1400" emergencyrows="-1" toiletrows="381,1400" kitchenrows="381">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="127.2" width="54"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dana Air" iata="9J" color="DeepPink" area="339" CEO="Sheik Abdulmohsen Al-Athunayan" mentality="Safe" market="Domestic" preferedairport="LOS">
+  <narrative narrative="Dana Air is a domestic Nigerian airline based at Lagos. At March 2014 it was going to Abuja,Port Harcourt and Uyo from Lagos. From Abuja it was also going to Port Harcourt and Uyo.
+  The airline was founded in 2008 and started with two MD-83's. At February 2015 it now has five MD-83's,an MD-82 and a 737-500. It plans on getting some 737-800's probably by leasing them soon to replace the MD series.
+  " />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-500,MD-83 (DC-9-83),Boeing 737-800,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+    <focusairports>
+                 <focusairport airport="ABV"></focusairport>
+	     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="2" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="1" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="LOS" destination2="ABV" opened="2008" closed="2199" />
+	        <route destination1="LOS" destination2="PHC" opened="2009" closed="2199" />
+	        <route destination1="LOS" destination2="QUO" opened="2010" closed="2199" />
+	        <route destination1="ABV" destination2="PHC" opened="2009" closed="2199" />
+	        <route destination1="ABV" destination2="QUO" opened="2011" closed="2199" />
+              </routes>
+  
+
+
+</airline>

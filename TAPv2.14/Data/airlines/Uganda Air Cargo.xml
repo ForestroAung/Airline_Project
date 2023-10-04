@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Uganda Air Cargo" iata="UCC" color="Red" area="357" CEO="Fabius Byaruhanga"
+           mentality="Moderate" market="Regional" preferedairport="EBB">
+    <narrative
+      narrative="Uganda Air Cargo is an airline based in Kampala, Uganda. It operates scheduled and charter flights for both passengers and cargo.">
+    </narrative>
+  </profile>
+  <info real="True" from="1994" to="2199" />
+</airline>

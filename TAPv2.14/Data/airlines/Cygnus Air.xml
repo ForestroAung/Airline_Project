@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cygnus Air" iata="RGN" color="Blue" area="117" CEO="Guillermo Sanchez" mentality="Safe" market="Regional" preferedairport="MAD" routefocus="Cargo">
+  <narrative narrative="Cygnus Air is a cargo airline based at Madrid Barajas Airport in Spain. As of June 2015 it was flying from MAD to Frankfurt,Germany and domestic routes to the Canary Islands at Gran Canaria
+  and Tenerife North. It was operating with two 757-200's which it has had since 2006 and 2007. Previously it had two DC-8-62F's starting in 2000 and it got another DC-8 in 2002. The last DC-8 was phased out in 2011.
+  The airline was founded in 1994 as a passenger airline but went full cargo in November 1998. It used the Saab 340 for the passenger flights. Its name was Regional Lineas Aereas to start out and was part of a business airline
+  called Gestair. It became Cygnus Air after switching to cargo. Then in 2007 it became Gestair Cargo. But at June 2013 it changed back to Cygnus Air after Gestair sold the cargo operation."/>
+</profile>
+  <info real="True" from="1998" to="2199" />
+  <prefereds aircrafts="Boeing 757-200PF,Douglas DC-8-62F"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2014)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	         <airliners>
+	    <airliner type="Douglas DC-8-62F" early="3" late="0"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="MAD" destination2="FRA"  />
+                <route destination1="MAD" destination2="LPA"  />	
+	        <route destination1="MAD" destination2="TFN"  />
+	        </routes>
+
+
+
+
+</airline>

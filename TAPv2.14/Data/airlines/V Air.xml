@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="V Air" iata="VAX"  color="BlueViolet" area="217" CEO="Eleni Lung" mentality="Safe" market="Regional"  preferedairport="TPE"> <narrative narrative="V Air is a subsidiary of Transasia Airways. It is based at Taipei Taoyuan in Taiwan and started operations on December 17th,2014. Its routes as of the start were Taipei-Bangkok Don Mueang and Taipei-Chiang Mai both in Thailand. Future destinations include Hong Kong, and in Japan Tokyo Narita,Nagoya Centrair,Fukuoka,Busan in South Korea, and Kuala Lumpur in Malaysia. It also serves Siem Reap,Cambodia with charters. Its fleet as of the start was two A321's owned and one leased A320." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Airbus A321-200,Airbus A321neo,Airbus A320neo"></prefereds>
+
+  
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="2"></airliner>
+	     </airliners>
+
+
+   <routes>
+		<route destination1="TPE" destination2="DMK" opened="2014" closed="2199" />
+		<route destination1="TPE" destination2="CNX"  opened="2014" closed="2199" />
+		<route destination1="TPE" destination2="HKG" opened="2015" closed="2199" />
+		<route destination1="TPE" destination2="FUK" opened="2015" closed="2199" />
+		<route destination1="TPE" destination2="NRT" opened="2015" closed="2199" />
+		<route destination1="TPE" destination2="NGO" opened="2016" closed="2199" />
+		<route destination1="TPE" destination2="PUS" opened="2016" closed="2199" />
+	        <route destination1="TPE" destination2="KUL" opened="2016" closed="2199" />
+
+	        </routes>
+
+</airline>

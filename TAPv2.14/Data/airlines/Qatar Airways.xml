@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Qatar Airways" iata="QR" color="Purple" area="310" CEO="Akbar Al Baker" mentality="Aggressive"
+           market="Global " preferedairport="DOH">
+            <narrative narrative="Qatar Airways is the state-owned flag carrier of Qatar. Headquartered in the Qatar Airways Tower in Doha, the airline operates a hub-and-spoke network, linking over 125 international destinations across Africa, Central Asia, Europe, Far East, South Asia, Middle East, North America, South America and Oceania from its base at Hamad International Airport, using a fleet of more than 100 aircraft." />
+  </profile>
+  <info real="True" from="1994" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200,Airbus A321-200,Airbus A330-200,Airbus A330-300,Airbus A340-600,Airbus A350-900,Airbus A380-800,Boeing 777-200LR,Boeing 777-300ER,Boeing 787-8">
+  </prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="20" late="15"></airliner>
+      <airliner type="Airbus A321-200" early="8" late="0"></airliner>
+      <airliner type="Airbus A330-200" early="8" late="8"></airliner>
+      <airliner type="Airbus A330-300" early="10" late="3"></airliner>
+      <airliner type="Airbus A340-600" early="2" late="2"></airliner>
+      <airliner type="Airbus A350-900" early="0" late="6"></airliner>
+      <airliner type="Airbus A380-800" early="0" late="9"></airliner>
+      <airliner type="Boeing 777-200LR" early="5" late="4"></airliner>
+      <airliner type="Boeing 777-300ER" early="14" late="14"></airliner>
+      <airliner type="Boeing 787-8" early="0" late="25"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="DOH" destination2="AUH"/>
+      <route destination1="DOH" destination2="ABH"/>
+      <route destination1="DOH" destination2="ADD"/>
+      <route destination1="DOH" destination2="ADL"/>
+      <route destination1="DOH" destination2="AMD"/>
+      <route destination1="DOH" destination2="HBE"/>
+      <route destination1="DOH" destination2="ALG"/>
+      <route destination1="DOH" destination2="ADJ"/>
+      <route destination1="DOH" destination2="ATQ"/>
+      <route destination1="DOH" destination2="AMS"/>
+      <route destination1="DOH" destination2="ESB" destination3="BEG" airliner="Airbus A330-300"/>
+      <route destination1="DOH" destination2="ASM"/>
+      <route destination1="DOH" destination2="ATH"/>
+      <route destination1="DOH" destination2="ATL"/>
+      <route destination1="DOH" destination2="SDA"/>
+      <route destination1="DOH" destination2="BAH" airliner="Airbus A340-600"/>
+      <route destination1="DOH" destination2="GYD" destination3="TBS"/>
+      <route destination1="DOH" destination2="BLR"/>
+      <route destination1="DOH" destination2="BKK" airliner="Airbus A380-800"/>
+      <route destination1="DOH" destination2="BKK" destination3="HAN"/>
+      <route destination1="DOH" destination2="BCN"/>
+      <route destination1="DOH" destination2="BSR"/>
+      <route destination1="DOH" destination2="PEK"/>
+      <route destination1="DOH" destination2="BEY"/>
+      <route destination1="DOH" destination2="TXL"/>
+      <route destination1="DOH" destination2="BHX"/>
+      <route destination1="DOH" destination2="BOS"/>
+      <route destination1="DOH" destination2="BRU"/>\
+      <route destination1="DOH" destination2="OTP" destination3="ZAG" airliner="Airbus A330-300"/>
+      <route destination1="DOH" destination2="BUD"/>
+      <route destination1="DOH" destination2="AEP"/>
+      <route destination1="DOH" destination2="GRU" destination3="ELQ" airliner="Boeing 777-200LR"/>
+      <route destination1="DOH" destination2="CAI"/>
+      <route destination1="DOH" destination2="CPT"/>
+      <route destination1="DOH" destination2="CMN"/>
+      <route destination1="DOH" destination2="CTU"/>
+      <route destination1="DOH" destination2="MAA"/>
+      <route destination1="DOH" destination2="ORD"/>
+      <route destination1="DOH" destination2="CKG"/>
+      <route destination1="DOH" destination2="CRK"/>
+      <route destination1="DOH" destination2="CMB"/>
+      <route destination1="DOH" destination2="CPH"/>
+      <route destination1="DOH" destination2="DFW"/>
+      <route destination1="DOH" destination2="DMM"/>
+      <route destination1="DOH" destination2="DAR" destination3="JRO" airliner="Airbus A321-200"/>
+      <route destination1="DOH" destination2="DEL"/>
+      <route destination1="DOH" destination2="DPS"/>
+      <route destination1="DOH" destination2="DAK"/>
+      <route destination1="DOH" destination2="JIB"/>
+      <route destination1="DOH" destination2="DWC" airliner="Airbus A380-800"/>
+      <route destination1="DOH" destination2="DXB"/>
+      <route destination1="DOH" destination2="DUR"/>
+      <route destination1="DOH" destination2="EDI"/>
+      <route destination1="DOH" destination2="EBB"/>
+      <route destination1="DOH" destination2="EBL"/>
+      <route destination1="DOH" destination2="LYP"/>
+      <route destination1="DOH" destination2="FRA"/>
+      <route destination1="DOH" destination2="GVA"/>
+      <route destination1="DOH" destination2="CAN"/>
+      <route destination1="DOH" destination2="HGH"/>
+      <route destination1="DOH" destination2="HAN"/>
+      <route destination1="DOH" destination2="SGN" destination3="PNH"/>
+      <route destination1="DOH" destination2="HKG"/>
+      <route destination1="DOH" destination2="HOF"/>
+      <route destination1="DOH" destination2="IAH"/>
+      <route destination1="DOH" destination2="HYD"/>
+      <route destination1="DOH" destination2="HYD"/>
+      <route destination1="DOH" destination2="ISB"/>
+      <route destination1="DOH" destination2="IST"/>
+      <route destination1="DOH" destination2="SAW"/>
+      <route destination1="DOH" destination2="CGK"/>
+      <route destination1="DOH" destination2="JED"/>
+      <route destination1="DOH" destination2="JNB"/>
+      <route destination1="DOH" destination2="KHI"/>
+      <route destination1="DOH" destination2="KTM"/>
+      <route destination1="DOH" destination2="KRT"/>
+      <route destination1="DOH" destination2="KGL"/>
+      <route destination1="DOH" destination2="COK"/>
+      <route destination1="DOH" destination2="CCU"/>
+      <route destination1="DOH" destination2="CCJ"/>
+      <route destination1="DOH" destination2="KUL" destination3="HKT"/>
+      <route destination1="DOH" destination2="KWI"/>
+      <route destination1="DOH" destination2="LOS"/>
+      <route destination1="DOH" destination2="LHE"/>
+      <route destination1="DOH" destination2="LGA"/>
+      <route destination1="DOH" destination2="LHR" airliner="Airbus A380-800"/>
+      <route destination1="DOH" destination2="LAX"/>
+      <route destination1="DOH" destination2="LXR"/>
+      <route destination1="DOH" destination2="MED"/>
+      <route destination1="DOH" destination2="MAD"/>
+      <route destination1="DOH" destination2="MLE"/>
+      <route destination1="DOH" destination2="MAN"/>
+      <route destination1="DOH" destination2="MNL"/>
+      <route destination1="DOH" destination2="MPM"/>
+      <route destination1="DOH" destination2="MHD"/>
+      <route destination1="DOH" destination2="MEL"/>
+      <route destination1="DOH" destination2="MIA"/>
+      <route destination1="DOH" destination2="MXP"/>
+      <route destination1="DOH" destination2="YUL"/>
+      <route destination1="DOH" destination2="DME"/>
+      <route destination1="DOH" destination2="MUX"/>
+      <route destination1="DOH" destination2="BOM"/>
+      <route destination1="DOH" destination2="MUN"/>
+      <route destination1="DOH" destination2="MCT"/>
+      <route destination1="DOH" destination2="NBO"/>
+      <route destination1="DOH" destination2="NJF"/>
+      <route destination1="DOH" destination2="JFK"/>
+      <route destination1="DOH" destination2="NAG"/>
+      <route destination1="DOH" destination2="KIX"/>
+      <route destination1="DOH" destination2="OSL"/>
+      <route destination1="DOH" destination2="CDG" airliner="Airbus A380-800"/>
+      <route destination1="DOH" destination2="PER"/>
+      <route destination1="DOH" destination2="PEW"/>
+      <route destination1="DOH" destination2="PHL"/>
+      <route destination1="DOH" destination2="RKT"/>
+      <route destination1="DOH" destination2="RUH"/>
+      <route destination1="DOH" destination2="FCO"/>
+      <route destination1="DOH" destination2="SLL"/>
+      <route destination1="DOH" destination2="ICN"/>
+      <route destination1="DOH" destination2="PVG"/>
+      <route destination1="DOH" destination2="SHJ"/>
+      <route destination1="DOH" destination2="SYZ"/>
+      <route destination1="DOH" destination2="SKT"/>
+      <route destination1="DOH" destination2="SIN"/>
+      <route destination1="DOH" destination2="SOF"/>
+      <route destination1="DOH" destination2="ARN"/>
+      <route destination1="DOH" destination2="ISY"/>
+      <route destination1="DOH" destination2="SYD"/>
+      <route destination1="DOH" destination2="TIF"/>
+      <route destination1="DOH" destination2="TBS"/>
+      <route destination1="DOH" destination2="IKA"/>
+      <route destination1="DOH" destination2="TRV"/>
+      <route destination1="DOH" destination2="HND"/>
+      <route destination1="DOH" destination2="NRT"/>
+      <route destination1="DOH" destination2="TUN"/>
+      <route destination1="DOH" destination2="VCE"/>
+      <route destination1="DOH" destination2="VIE"/>
+      <route destination1="DOH" destination2="WAW"/>
+      <route destination1="DOH" destination2="IAD"/>
+      <route destination1="DOH" destination2="RGN"/>
+      <route destination1="DOH" destination2="ZNZ"/>
+      <route destination1="DOH" destination2="ZRH"/>
+    </routes>
+  </startdata>
+</airline>

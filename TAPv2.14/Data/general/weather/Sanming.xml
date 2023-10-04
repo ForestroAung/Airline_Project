@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Sanming">
+  <months>
+    <month month="1" precipitation="74">
+      <temp min="7" max="15" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="2" precipitation="108">
+      <temp min="8" max="16" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="3" precipitation="181">
+      <temp min="11" max="20" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="4" precipitation="195">
+      <temp min="16" max="25" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="5" precipitation="265">
+      <temp min="19" max="28" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="6" precipitation="295">
+      <temp min="23" max="31" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="7" precipitation="116">
+      <temp min="25" max="35" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="8" precipitation="143">
+      <temp min="25" max="34" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="9" precipitation="75">
+      <temp min="22" max="31" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="10" precipitation="75">
+      <temp min="17" max="27" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="11" precipitation="43">
+      <temp min="12" max="22" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="12" precipitation="45">
+      <temp min="8" max="17" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+  </months>
+</weather>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Afghan Jet International Airlines" iata="HN" logo="HN2"  color="Red" area="207" CEO="Seyed Salman Sadad" mentality="Moderate" market="Domestic" preferedairport="KBL"> <narrative narrative="Afghan Jet International Airlines is a domestic Afghanistan airline that commenced operations on April 12,2014. Its base is Kabul and it serves 5 other domestic airports at Kandahar,Herat,Bost,Chaghcharan and Tarin Kowt all from Kabul. It has two CRJ200's and a Boeing 737-300." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Bombardier CRJ200,Boeing 737-300,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+
+
+<!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="2" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+	     <routes>
+		<route destination1="KBL" destination2="KDH" opened="2014" closed="2199" />
+		<route destination1="KBL" destination2="HEA"  opened="2014" closed="2199" />
+		<route destination1="KBL" destination2="BST" opened="2014" closed="2199" />
+		<route destination1="KBL" destination2="CCN" opened="2014" closed="2199" />
+		<route destination1="KBL" destination2="TII" opened="2014" closed="2199" />
+	        </routes>
+</airline>

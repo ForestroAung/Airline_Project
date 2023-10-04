@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="East African Airways" iata="EC"  color="Blue" area="356" CEO="Unknown" mentality="Moderate" market="Regional" preferedairport="NBO" > 
+  <narrative narrative="East African Airways was an airline jointly run by Kenya, Tanzania and Uganda. The corporation dissolved in 1977 amid detoriated relations among the three countries." />
+</profile>
+   <info real="True" from="1946" to="1977"></info>
+  <focusairports>
+	<focusairport airport="NBO"></focusairport>
+	<focusairport airport="DAR"></focusairport>
+	<focusairport airport="EBB"></focusairport>
+</focusairports>
+
+</airline>

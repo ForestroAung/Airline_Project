@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="TEA Basel" iata="DS" color="Blue" area="119" CEO="George P. Gutelman" mentality="Moderate" market="Regional" preferedairport="ZRH" schedule="Charter">
+  <narrative narrative="TEA Basel or TEA Switzerland was a subsidiary of Trans European Airways that operated Charter flights from Zürich airport to European holiday destinations. After its parents liquidation, it became independent. Easyjet bought the airline in 1999 to form Easyjet Switzerland."/>
+   <logos>
+	<logo from="1988" to="1993" path="DS1988"/>
+	<logo from="1994" to="1999" path="DS1994"/>
+</logos>
+   <names>
+	<name value="TEA Basel" from="01.01.1988 00:00:00"/>
+	<name value="TEA Switzerland" from="01.01.1994 00:00:00"/>
+</names>
+   </profile>
+    <info real="True" from="1988" to="1999"/>
+       <prefereds aircrafts="Boeing 737-300"></prefereds>
+</airline>

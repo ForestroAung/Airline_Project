@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Avro Lancastrian-->
+<configuration type="Avro York" economy="0" premium="0" first="-1" business="0" exitrows="800" emergencyrows="-1" toiletrows="800,1600" kitchenrows="800">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="100" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Avro Lancastrian" economy="0" premium="0" first="-1" business="0" exitrows="540" emergencyrows="-1" toiletrows="540" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Avro Tudor-->
+<configuration type="Avro Tudor" economy="0" premium="0" first="-1" business="0" exitrows="650" emergencyrows="-1" toiletrows="0,650" kitchenrows="0,650">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="92.8" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

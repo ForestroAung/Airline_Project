@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Interair South Africa" iata="D6"  color="Blue" area="371" CEO="David P. Tokoph" mentality="Safe" market="Regional" onlyfromhome="False"  preferedairport="JNB" schedule="Business"> 
+  <narrative narrative="Interair South Africa is based out of Johannesburg and was founded in 1993. From JNB it flies to Ndola,Zambia Brazzaville,Congo, Reunion Island a overseas teritory of France, Cotonou,Benin and Pointe Noire,Congo. It also flies from Brazzaville to Cotonou and from Pointe Noire to Cotonou. At August 2013 it's fleet was three 737-200's and a 767-200." />
+</profile>
+   <info real="True" from="1993" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-200,Boeing 737-200 Adv.,Boeing 737 MAX 8,Boeing 737 MAX 7,Boeing 767-200"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200" early="1" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-200" early="1" late="1"></airliner>
+	     </airliners>
+
+<routes>
+		<route destination1="JNB" destination2="NLA" opened="1993" closed="2014"/>
+		<route destination1="JNB" destination2="BZV" opened="1995" closed="2199"/>
+	       <route destination1="JNB" destination2="RUN" opened="2010" closed="2199"/>
+	       <route destination1="JNB" destination2="COO" opened="1997" closed="2199"/>
+	       	<route destination1="JNB" destination2="PNR" opened="2000" closed="2199"/>
+	       <route destination1="BZV" destination2="COO" opened="2002" closed="2199"/>
+	        <route destination1="PNR" destination2="COO" opened="2005" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

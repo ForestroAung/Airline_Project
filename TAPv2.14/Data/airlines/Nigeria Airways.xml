@@ -1,0 +1,16 @@
+﻿<airline>
+ <profile name="Nigeria Airways" iata="WT" logo="WT2" color="Green" area="339" CEO="Peter Gana" mentality="Safe" market="Global" preferedairport="LOS">
+ <narrative narrative="Nigeria Airways Ltd., more commonly known as Nigeria Airways, was a Nigerian airline. The company was founded in 1958 after the dissolution of West African Airways Corporation (WAAC). It held the name WAAC Nigeria until 1971, when it was rebranded to the name it had until it ceased operations in 2003. The government of Nigeria owned a majority of the airline (51%) until 1961, when it boosted its participation in the company to 100% and made it the country's flag carrier. At the time of dissolution, the airline's headquarters were at Airways House in Abuja. Operations were concentrated at Murtala Muhammed International Airport and served both domestic and international destinations mainly concentrated in West Africa; the network also had points in Europe, North America and Saudi Arabia. The airline was managed by a number of foreign companies, including British Airways, the Dutch company KLM and South African Airways"/>
+<names>
+    <name value="West African Airways Corporation" from="1.1.1958 00:00:00"/>
+    <name value="Nigeria Airways" from="1.1.1971 00:00:00"> </name>
+    </names>
+ </profile>
+ <info real="True" from="1958" to="2003" />
+ <prefereds aircrafts="Airbus A300B4,Airbus A310-200,BAC One-Eleven 400,Boeing 377 Stratocruiser,Boeing 707-120,Boeing 707-120B,Boeing 707-320,Boeing 727-100,Boeing 727-200,Boeing 737-200,Boeing 737-400,Boeing 747-100,Boeing 747-200,Boeing 747-300,Boeing 767-200ER,Boeing 767-300ER,Bristol Britannia 310,DH 106 Comet 4,Douglas DC-3,Douglas DC-8-32,Douglas DC-8-51,Douglas DC-8-61,DH 104 Dove,Fokker F27,Vickers VC10"></prefereds> 
+ <focusairports>
+<focusairport airport="LOS"></focusairport> 
+<focusairport airport="KAN"></focusairport> 
+<focusairport airport="PHC"></focusairport>
+    </focusairports>
+           </airline>

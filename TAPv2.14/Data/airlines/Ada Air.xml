@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ada Air" iata="ADE" color="MediumBlue" area="136" CEO="Marsel Skendo" mentality="Safe" market="Local" preferedairport="TIA" routefocus="Mixed">
+  <narrative narrative="Ada Air was a mixed passenger and cargo carrier based at Tirana,Albania from 1992 to 2007. It flew passengers on the Tirana-Bari,Italy route and did overnight freight for DHL. It had also operated to Greece,Kosovo and Macedonia before also. Its fleet at the end had been one Embraer 110 Bandeirante. In the past it had a Yak-40 and a leased Fokker 100 from Montenegro Airlines and used Montenegro crews on it also. The Bari route was done its whole life however. It was 50% owned by Marsel Skendo who was the president and 50% by the founder and vice president Julien Roche."/>
+</profile>
+  <info real="True" from="1992" to="2007" />
+  <prefereds aircrafts="EMB 110 Bandeirante,Yak-40"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2006)-->
+	     	         <airliners>
+	    <airliner type="EMB 110 Bandeirante" early="0" late="1"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="1" late="0"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="TIA" destination2="BRI" routefocus="Passenger,Cargo"/>
+	        </routes>
+</airline>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Comair" iata="CAW" color="Navy" area="371" CEO="Erik Venter" mentality="Safe" market="Regional" preferedairport="JNB"> 
+  <narrative narrative="Comair is a South African airline based at Johannesburg and was founded in 1943. It has other bases at Cape Town and Durban. It is part of British Airways starting in 1996 and has been a franchise for them even longer. 
+  They also have a subsidiary of their own,kulula.com, a domestic airline they founded in 2001. It also operates at Port Elizabeth, and internationally from JNB it flies to Harare and Victoria Falls in Zimbabwe,Livingstone in Zambia,
+  Windhoek in Namibia and the island nation of Mauritius. Its planes are painted in the British Airways livery. As of January 2015 it had eleven 737-400's,five 737-300's,and two 737-800's with four more on order.
+  It has eight 737 MAX 8's on order and are expected to be delivered from 2019 to 2022. It also had 737-200's from the early 90's until just a few years ago. They had two ATR 42's from 1995-1998. In the earlier days
+  DC-3's were used. The very first planes used were Cessna 195's,Fairchild F-24's and UC-61K Argus Mk III's. At 1961 it had 2 DC-3's and 50 employee's." />
+</profile>
+   <info real="True" from="1943" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-400,Boeing 737-300,Boeing 737-800,Boeing 737 MAX 8,Boeing 737-200,Boeing 737-200 Adv.,Douglas DC-3,Cessna 195"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="CPT"></focusairport>
+		  <focusairport airport="DUR"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2019) late (2022)-->
+	         <airliners>
+	    <airliner type="Boeing 737 MAX 8" early="2" late="8"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2016)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="1" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="5"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="3" late="11"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200" early="6" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2000)-->
+	         <airliners>
+	    <airliner type="ATR 42-300" early="2" late="0"></airliner>
+	     </airliners>
+ 
+
+<routes>
+                <route destination1="JNB" destination2="CPT" opened="1948" closed="2199"/>
+	        <route destination1="JNB" destination2="DUR" opened="1943" closed="2199"/>
+	        <route destination1="JNB" destination2="PLZ" opened="1952" closed="2199"/>
+	        <route destination1="JNB" destination2="HRE" opened="1957" closed="2199"/>
+	        <route destination1="JNB" destination2="VFA" opened="1967" closed="2199"/>
+		<route destination1="JNB" destination2="WDH" opened="1970" closed="2199"/>
+		<route destination1="JNB" destination2="LVI" opened="1975" closed="2199"/>
+	        <route destination1="JNB" destination2="MRU" opened="1980" closed="2199"/>
+		<route destination1="CPT" destination2="DUR" opened="1955" closed="2199"/>
+		<route destination1="CPT" destination2="PLZ" opened="1956" closed="2199"/>
+		<route destination1="DUR" destination2="PLZ" opened="1956" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

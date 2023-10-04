@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<majordestinations>
+<majordestination airport="BKK">
+<destinations>
+<destination airport="AUH" pax="210"/>
+<destination airport="ADD" pax="129"/>
+<destination airport="ALA" pax="66"/>
+<destination airport="AMM" pax="56"/>
+<destination airport="AMS" pax="222"/>
+<destination airport="ASB" pax="56"/>
+<destination airport="TSE" pax="44"/>
+<destination airport="AKL" pax="189"/>
+<destination airport="IXB" pax="40"/>
+<destination airport="BAH" pax="110"/>
+<destination airport="BWN" pax="89"/>
+<destination airport="BLR" pax="154"/>
+<destination airport="BHY" pax="124"/>
+<destination airport="PEK" pax="710"/>
+<destination airport="BNE" pax="210"/>
+<destination airport="BRU" pax="102"/>
+<destination airport="PUS" pax="129"/>
+<destination airport="CAI" pax="99"/>
+<destination airport="CGQ" pax="33"/>
+<destination airport="CSX" pax="112"/>
+<destination airport="CTU" pax="129"/>
+<destination airport="MAA" pax="109"/>
+<destination airport="CNX" pax="801"/>
+<destination airport="CEI" pax="602"/>
+<destination airport="CGP" pax="65"/>
+<destination airport="CKG" pax="130"/>
+<destination airport="CHC" pax="119"/>
+<destination airport="CGN" pax="99"/>
+<destination airport="CMB" pax="219"/>
+<destination airport="CPH" pax="89"/>
+<destination airport="DAD" pax="149"/>
+<destination airport="DEL" pax="239"/>
+<destination airport="DPS" pax="247"/>
+<destination airport="DAC" pax="137"/>
+<destination airport="DOH" pax="138"/>
+<destination airport="DXB" pax="250"/>
+<destination airport="FRA" pax="89"/>
+<destination airport="FUK" pax="117"/>
+<destination airport="FOC" pax="139"/>
+<destination airport="CAN" pax="144"/>
+<destination airport="KWL" pax="132"/>
+<destination airport="KWE" pax="166"/>
+<destination airport="GAU" pax="84"/>
+<destination airport="HAK" pax="136"/>
+<destination airport="HGH" pax="141"/>
+<destination airport="HAN" pax="179"/>
+<destination airport="HRB" pax="160"/>
+<destination airport="HDY" pax="147"/>
+<destination airport="HEL" pax="127"/>
+<destination airport="SGN" pax="122"/>
+<destination airport="HKG" pax="452"/>
+<destination airport="HYD" pax="172"/>
+<destination airport="IKT" pax="64"/>
+<destination airport="ISB" pax="82"/>
+<destination airport="IST" pax="233"/>
+<destination airport="CGK" pax="417"/>
+<destination airport="CJU" pax="111"/>
+<destination airport="SWA" pax="120"/>
+<destination airport="TNA" pax="130"/>
+<destination airport="KHH" pax="139"/>
+<destination airport="KHI" pax="99"/>
+<destination airport="KTM" pax="122"/>
+<destination airport="KHV" pax="99"/>
+<destination airport="KKC" pax="210"/>
+<destination airport="USM" pax="333"/>
+<destination airport="CCU" pax="111"/>
+<destination airport="KBV" pax="402"/>
+<destination airport="KUL" pax="524"/>
+<destination airport="KMG" pax="134"/>
+<destination airport="KWI" pax="113"/>
+<destination airport="LHE" pax="109"/>
+<destination airport="LPT" pax="199"/>
+<destination airport="LHW" pax="129"/>
+<destination airport="LHR" pax="169"/>
+<destination airport="LPQ" pax="213"/>
+<destination airport="MFM" pax="198"/>
+<destination airport="MLE" pax="149"/>
+<destination airport="MDL" pax="127"/>
+<destination airport="MNL" pax="265"/>
+<destination airport="MEL" pax="155"/>
+<destination airport="MXP" pax="97"/>
+<destination airport="SVO" pax="125"/>
+<destination airport="BOM" pax="200"/>
+<destination airport="MUC" pax="187"/>
+<destination airport="MCT" pax="149"/>
+<destination airport="NGO" pax="124"/>
+<destination airport="NBO" pax="84"/>
+<destination airport="KHN" pax="121"/>
+<destination airport="NNG" pax="117"/>
+<destination airport="NAW" pax="184"/>
+<destination airport="NYT" pax="110"/>
+<destination airport="NGB" pax="112"/>
+<destination airport="KIX" pax="123"/>
+<destination airport="OSL" pax="107"/>
+<destination airport="CDG" pax="111"/>
+<destination airport="PEN" pax="165"/>
+<destination airport="PER" pax="164"/>
+<destination airport="PNH" pax="134"/>
+<destination airport="HKT" pax="423"/>
+<destination airport="FNJ" pax="33"/>
+<destination airport="TAO" pax="124"/>
+<destination airport="JJN" pax="99"/>
+<destination airport="FCO" pax="84"/>
+<destination airport="RUN" pax="60"/>
+<destination airport="CTS" pax="130"/>
+<destination airport="ZVK" pax="39"/>
+<destination airport="ICN" pax="348"/>
+<destination airport="PVG" pax="369"/>
+<destination airport="SHE" pax="132"/>
+<destination airport="SZX" pax="133"/>
+<destination airport="SJW" pax="98"/>
+<destination airport="REP" pax="120"/>
+<destination airport="SIN" pax="620"/>
+<destination airport="ARN" pax="140"/>
+<destination airport="THS" pax="199"/>
+<destination airport="URT" pax="220"/>
+<destination airport="SYD" pax="200"/>
+<destination airport="TPE" pax="201"/>
+<destination airport="TYN" pax="103"/>
+<destination airport="TAS" pax="62"/>
+<destination airport="IKR" pax="68"/>
+<destination airport="TLV" pax="100"/>
+<destination airport="PBH" pax="228"/>
+<destination airport="TSN" pax="123"/>
+<destination airport="HND" pax="130"/>
+<destination airport="NRT" pax="147"/>
+<destination airport="TDX" pax="237"/>
+<destination airport="UBP" pax="281"/>
+<destination airport="UTH" pax="264"/>
+<destination airport="URC" pax="124"/>
+<destination airport="VIE" pax="88"/>
+<destination airport="VTE" pax="111"/>
+<destination airport="WNZ" pax="102"/>
+<destination airport="WUH" pax="130"/>
+<destination airport="WUX" pax="141"/>
+<destination airport="XMN" pax="168"/>
+<destination airport="XIY" pax="164"/>
+<destination airport="XNN" pax="140"/>
+<destination airport="YTY" pax="100"/>
+<destination airport="SVX" pax="64"/>
+<destination airport="INC" pax="77"/>
+<destination airport="ZHA" pax="78"/>
+<destination airport="CGO" pax="84"/>
+<destination airport="ZRH" pax="98"/>
+</destinations>
+</majordestination>
+<majordestination airport="DMK">
+<destinations>
+<destination airport="BFV" pax="99" />
+<destination airport="BLR" pax="123" />
+<destination airport="CAN" pax="111" />
+<destination airport="CEI" pax="152" />
+<destination airport="CGK" pax="102" />
+<destination airport="CGO" pax="78" />
+<destination airport="CJM" pax="102" />
+<destination airport="CKG" pax="113" />
+<destination airport="CNX" pax="312" />
+<destination airport="CSX" pax="103" />
+<destination airport="DPS" pax="211" />
+<destination airport="HAN" pax="139" />
+<destination airport="HDY" pax="201" />
+<destination airport="HFE" pax="99" />
+<destination airport="HGH" pax="89" />
+<destination airport="HKG" pax="169" />
+<destination airport="HKT" pax="234" />
+<destination airport="JHB" pax="139" />
+<destination airport="KBV" pax="222" />
+<destination airport="KHN" pax="119" />
+<destination airport="KIX" pax="122" />
+<destination airport="KKC" pax="174" />
+<destination airport="KMG" pax="101" />
+<destination airport="KNO" pax="103" />
+<destination airport="KUL" pax="301" />
+<destination airport="KWE" pax="115" />
+<destination airport="KWL" pax="98" />
+<destination airport="LOE" pax="111" />
+<destination airport="LPQ" pax="89" />
+<destination airport="LPT" pax="133" />
+<destination airport="MAA" pax="114" />
+<destination airport="MAQ" pax="105" />
+<destination airport="MDL" pax="66" />
+<destination airport="MFM" pax="130" />
+<destination airport="MLE" pax="91" />
+<destination airport="NAK" pax="57" />
+<destination airport="NAW" pax="89" />
+<destination airport="NKG" pax="66" />
+<destination airport="NNG" pax="89" />
+<destination airport="NNT" pax="94" />
+<destination airport="NST" pax="199" />
+<destination airport="PEN" pax="169" />
+<destination airport="PHS" pax="139" />
+<destination airport="PNH" pax="112" />
+<destination airport="PRH" pax="62" />
+<destination airport="REP" pax="77" />
+<destination airport="RGN" pax="80" />
+<destination airport="ROI" pax="76" />
+<destination airport="SGN" pax="105" />
+<destination airport="SIN" pax="315" />
+<destination airport="SNO" pax="128" />
+<destination airport="SUB" pax="123" />
+<destination airport="SZX" pax="112" />
+<destination airport="TAO" pax="103" />
+<destination airport="TPE" pax="133" />
+<destination airport="TSN" pax="105" />
+<destination airport="TST" pax="142" />
+<destination airport="UBP" pax="159" />
+<destination airport="UNN" pax="92" />
+<destination airport="URT" pax="201" />
+<destination airport="UTH" pax="139" />
+<destination airport="WNZ" pax="89" />
+<destination airport="WUH" pax="114" />
+<destination airport="XIY" pax="112" />
+<destination airport="XUZ" pax="74" />
+</destinations>
+</majordestination>
+<majordestination airport="HKT">
+<destinations>
+<destination airport="AUH" pax="102" />
+<destination airport="ARN" pax="66" />
+<destination airport="BKK" pax="423" />
+<destination airport="BLL" pax="41" />
+<destination airport="CAN" pax="103" />
+<destination airport="CGK" pax="201" />
+<destination airport="CGN" pax="41" />
+<destination airport="CGO" pax="62" />
+<destination airport="CKG" pax="85" />
+<destination airport="CNX" pax="210" />
+<destination airport="CPH" pax="30" />
+<destination airport="CSX" pax="51" />
+<destination airport="CTU" pax="69" />
+<destination airport="DMK" pax="234" />
+<destination airport="DOH" pax="102" />
+<destination airport="DPS" pax="106" />
+<destination airport="DXB" pax="102" />
+<destination airport="FBU" pax="84" />
+<destination airport="FRA" pax="81" />
+<destination airport="GOT" pax="64" />
+<destination airport="HDY" pax="132" />
+<destination airport="HEL" pax="51" />
+<destination airport="HGH" pax="99" />
+<destination airport="HKG" pax="184" />
+<destination airport="ICN" pax="210" />
+<destination airport="IKT" pax="45" />
+<destination airport="KHV" pax="30" />
+<destination airport="KMG" pax="91" />
+<destination airport="KUF" pax="55" />
+<destination airport="KUL" pax="164" />
+<destination airport="KZN" pax="53" />
+<destination airport="LGW" pax="69" />
+<destination airport="MAN" pax="51" />
+<destination airport="MEL" pax="102" />
+<destination airport="MNL" pax="39" />
+<destination airport="NGB" pax="62" />
+<destination airport="NNG" pax="69" />
+<destination airport="OVB" pax="30" />
+<destination airport="PEK" pax="168" />
+<destination airport="PEN" pax="99" />
+<destination airport="PER" pax="123" />
+<destination airport="PUS" pax="89" />
+<destination airport="PVG" pax="119" />
+<destination airport="ROV" pax="31" />
+<destination airport="SIN" pax="261" />
+<destination airport="SVX" pax="29" />
+<destination airport="SYD" pax="112" />
+<destination airport="SYX" pax="101" />
+<destination airport="SZX" pax="94" />
+<destination airport="TAO" pax="91" />
+<destination airport="TJM" pax="81" />
+<destination airport="TNA" pax="89" />
+<destination airport="UFA" pax="51" />
+<destination airport="USM" pax="139" />
+<destination airport="UTH" pax="122" />
+<destination airport="UTP" pax="112" />
+<destination airport="UUD" pax="84" />
+<destination airport="VVO" pax="50" />
+<destination airport="WUH" pax="62" />
+<destination airport="XIY" pax="78" />
+<destination airport="XMN" pax="89" />
+<destination airport="ZRH" pax="34" />
+</destinations>
+</majordestination>
+<majordestination airport="CNX">
+<destinations>
+<destination airport="BKK" pax="801"/>
+<destination airport="CAN" pax="113"/>
+<destination airport="CKG" pax="109"/>
+<destination airport="CSX" pax="99"/>
+<destination airport="CTU" pax="95"/>
+<destination airport="DMK" pax="312"/>
+<destination airport="HDY" pax="139"/>
+<destination airport="HGH" pax="90"/>
+<destination airport="HGN" pax="119"/>
+<destination airport="HHQ" pax="89"/>
+<destination airport="HKG" pax="123"/>
+<destination airport="HKT" pax="210"/>
+<destination airport="ICN" pax="139"/>
+<destination airport="KBV" pax="129"/>
+<destination airport="KKC" pax="56"/>
+<destination airport="KMG" pax="62"/>
+<destination airport="KUL" pax="99"/>
+<destination airport="LPQ" pax="102"/>
+<destination airport="MBL" pax="60"/>
+<destination airport="MFM" pax="77"/>
+<destination airport="MWX" pax="62"/>
+<destination airport="NKG" pax="53"/>
+<destination airport="NNT" pax="84"/>
+<destination airport="PEK" pax="125"/>
+<destination airport="PHS" pax="48"/>
+<destination airport="PVG" pax="103"/>
+<destination airport="RGN" pax="44"/>
+<destination airport="SIN" pax="144"/>
+<destination airport="TNA" pax="90"/>
+<destination airport="TPE" pax="119"/>
+<destination airport="TSN" pax="84"/>
+<destination airport="UBP" pax="78"/>
+<destination airport="USM" pax="77"/>
+<destination airport="URT" pax="79" />
+<destination airport="UTP" pax="82"/>
+<destination airport="UTH" pax="101" />
+<destination airport="WUH" pax="90"/>
+</destinations>
+</majordestination>
+<majordestination airport="HDY">
+<destinations>
+<destination airport="CNX" pax="139" />
+<destination airport="DMK" pax="201" />
+<destination airport="HKT" pax="132" />
+<destination airport="KUL" pax="81" />
+<destination airport="SIN" pax="122" />
+<destination airport="UTH" pax="92" />
+<destination airport="UTP" pax="99" />
+<destination airport="BKK" pax="147" />
+</destinations>
+</majordestination>
+<majordestination airport="KBV">
+<destinations>
+<destination airport="BKK" pax="402" />
+<destination airport="CAN" pax="89" />
+<destination airport="CKG" pax="85" />
+<destination airport="CNX" pax="129" />
+<destination airport="CSX" pax="82" />
+<destination airport="DMK" pax="222" />
+<destination airport="HEL" pax="40" />
+<destination airport="HET" pax="89" />
+<destination airport="HFE" pax="87" />
+<destination airport="HKG" pax="169" />
+<destination airport="ICN" pax="172" />
+<destination airport="KUL" pax="120" />
+<destination airport="KWE" pax="77" />
+<destination airport="NKG" pax="65" />
+<destination airport="PEK" pax="102" />
+<destination airport="PEN" pax="89" />
+<destination airport="PVG" pax="101" />
+<destination airport="SIN" pax="164" />
+<destination airport="TNA" pax="65" />
+<destination airport="TSN" pax="62" />
+<destination airport="USM" pax="99" />
+<destination airport="VVO" pax="39" />
+<destination airport="WUH" pax="84" />
+<destination airport="WUX" pax="70" />
+<destination airport="XIY" pax="63" />
+</destinations>
+</majordestination>
+<majordestination airport="USM">
+<destinations>
+<destination airport="BKK" pax="333" />
+<destination airport="CAN" pax="102" />
+<destination airport="CKG" pax="8" />
+<destination airport="CNX" pax="77" />
+<destination airport="HKG" pax="88" />
+<destination airport="HKT" pax="139" />
+<destination airport="KBV" pax="99" />
+<destination airport="KMG" pax="79" />
+<destination airport="KUL" pax="97" />
+<destination airport="PEN" pax="88" />
+<destination airport="SBZ" pax="99" />
+<destination airport="SIN" pax="164" />
+<destination airport="UTP" pax="88" />
+</destinations>
+</majordestination>
+<majordestination airport="UTH">
+<destinations>
+<destination airport="BKK" pax="264" />
+<destination airport="CNX" pax="101" />
+<destination airport="DMK" pax="139" />
+<destination airport="HDY" pax="92" />
+<destination airport="HKT" pax="122" />
+<destination airport="UTP" pax="72" />
+</destinations>
+</majordestination>
+<majordestination airport="CEI">
+<destinations>
+<destination airport="BKK" pax="502" />
+<destination airport="DMK" pax="252" />
+<destination airport="KMG" pax="65" />
+</destinations>
+</majordestination>
+<majordestination airport="URT">
+<destinations>
+<destination airport="WUH" pax="59" />
+<destination airport="KUL" pax="109" />
+<destination airport="BKK" pax="220" />
+<destination airport="CTU" pax="48" />
+<destination airport="DMK" pax="201" />
+<destination airport="CNX" pax="79" />
+</destinations>
+</majordestination>
+<majordestination airport="NST">
+<destinations>
+<destination airport="DMK" pax="199" />
+</destinations>
+</majordestination>
+<majordestination airport="UBP">
+<destinations>
+<destination airport="CNX" pax="78" />
+<destination airport="DMK" pax="159" />
+<destination airport="BKK" pax="281" />
+</destinations>
+</majordestination>
+<majordestination airport="KKC">
+<destinations>
+<destination airport="CNX" pax="56" />
+<destination airport="DMK" pax="174" />
+<destination airport="BKK" pax="210" />
+</destinations>
+</majordestination>
+<majordestination airport="TST">
+<destinations>
+<destination airport="DMK" pax="142" />
+</destinations>
+</majordestination>
+<majordestination airport="PHS">
+<destinations>
+<destination airport="DMK" pax="139" />
+<destination airport="CNS" pax="48" />
+</destinations>
+</majordestination>
+<majordestination airport="SNO">
+<destinations>
+<destination airport="DMK" pax="126" />
+</destinations>
+</majordestination>
+<majordestination airport="LPT">
+<destinations>
+<destination airport="BKK" pax="199" />
+<destination airport="DMK" pax="133" />
+</destinations>
+</majordestination>
+<majordestination airport="NNT">
+<destinations>
+<destination airport="CNX" pax="84" />
+<destination airport="DMK" pax="94" />
+</destinations>
+</majordestination>
+<majordestination airport="NAW">
+<destinations>
+<destination airport="BKK" pax="124" />
+<destination airport="DMK" pax="89" />
+</destinations>
+</majordestination>
+<majordestination airport="UTP">
+<destinations>
+<destination airport="KUL" pax="120" />
+<destination airport="USM" pax="88" />
+<destination airport="HKT" pax="112" />
+<destination airport="PVG" pax="102" />
+<destination airport="CNX" pax="82" />
+<destination airport="HDY" pax="99" />
+<destination airport="MFM" pax="68" />
+<destination airport="HKG" pax="88" />
+<destination airport="NKG" pax="66" />
+<destination airport="KHN" pax="65" />
+<destination airport="SIN" pax="89" />
+<destination airport="UTH" pax="72" />
+</destinations>
+</majordestination>
+<majordestination airport="MAQ">
+<destinations>
+<destination airport="DMK" pax="105" />
+</destinations>
+</majordestination>
+<majordestination airport="TDX">
+<destinations>
+<destination airport="BKK" pax="237" />
+</destinations>
+</majordestination>
+<majordestination airport="ROI">
+<destinations>
+<destination airport="DMK" pax="76" />
+</destinations>
+</majordestination>
+<majordestination airport="UNN">
+<destinations>
+<destination airport="DMK" pax="92" />
+</destinations>
+</majordestination>
+<majordestination airport="LOE">
+<destinations>
+<destination airport="DMK" pax="111" />
+</destinations>
+</majordestination>
+<majordestination airport="CJM">
+<destinations>
+<destination airport="DMK" pax="102" />
+</destinations>
+</majordestination>
+<majordestination airport="THS">
+<destinations>
+<destination airport="BKK" pax="199" />
+</destinations>
+</majordestination>
+<majordestination airport="HGN">
+<destinations>
+<destination airport="CNX" pax="119" />
+</destinations>
+</majordestination>
+<majordestination airport="PRH">
+<destinations>
+<destination airport="DMK" pax="62" />
+</destinations>
+</majordestination>
+<majordestination airport="BFV">
+<destinations>
+<destination airport="DMK" pax="99" />
+</destinations>
+</majordestination>
+<majordestination airport="HHQ">
+<destinations>
+<destination airport="CNX" pax="99" />
+</destinations>
+</majordestination>
+<majordestination airport="PYY">
+<destinations>
+<destination airport="CNX" pax="139" />
+</destinations>
+</majordestination>
+<majordestination airport="NAK">
+<destinations>
+<destination airport="DMK" pax="57" />
+</destinations>
+</majordestination>
+</majordestinations>

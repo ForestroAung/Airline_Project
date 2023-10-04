@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="TUR European Airways" iata="YI" logo="YI2" color="Blue" area="143" CEO="George P. Gutelman" mentality="Moderate" market="Regional" preferedairport="AYT" schedule="Charter">
+  <narrative narrative="TUR European Airways was a subsidiary of Trans European Airways that operated flights from Antalya Airport in Turkey to mediterranean destinations. After the bankruptcy of TEA, TUR European airways became independent until its own bankruptcy in 1994."/>
+   </profile>
+<info real="True" from="1988" to="1994"/>
+<prefereds aircrafts="Boeing 727-200,Boeing 737-200"></prefereds>
+</airline>

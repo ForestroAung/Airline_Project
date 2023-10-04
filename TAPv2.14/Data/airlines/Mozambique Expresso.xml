@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mozambique Expresso" iata="MXE" logo="TM" color="Chocolate" area="369" CEO="Antonio Neves" mentality="Safe" market="Regional"  preferedairport="MPM">
+  <narrative narrative="Mozambique Expresso is a subsidiary of LAM Mozambique Airlines and is based at its parents hub of Maputo,Mozambique. It started in 1995.  It goes to everyplace its parent does, meaning if LAM thinks a route needs more service Expresso will be assigned to increase planes on that route.
+  It is listed as serving the domestic airports of Beira and Tete from Maputo. It goes to Johannesburg,South Africa as evidenced by a photo, which shows the combo Mozambique Expresso and LAM livery. The tail is painted in LAM's logo and on the side of the plane is Expresso's abbreviation of MEX. Its fleet as of September 2015
+  is three Embraer 145's,three Dash 8 400's and two Embraer 120's. In the past it also had two Jetstream 41's and two C212 Aviocars." />
+</profile>
+   <info real="True" from="1995" to="2199"></info>
+  <prefereds aircrafts="Embraer ERJ145 LR,Bombardier Dash 8-400,Bombardier Dash 8-400NextGen,EMB 120 Brasilia,BAe Jetstream 41,CASA C212 Aviocar"></prefereds>
+  <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2016)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="2" late="0"></airliner>
+	     </airliners>
+	       <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2016)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="1" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2016)-->
+	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="0" late="2"></airliner>
+	     </airliners>	 
+	             <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2016)-->
+	         <airliners>
+	    <airliner type="CASA C212 Aviocar" early="2" late="0"></airliner>
+	     </airliners>
+	     	             <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2016)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="0" late="3"></airliner>
+	     </airliners>	    
+	         	      <routes>  
+	     <route destination1="MPM" destination2="BEW"/>
+	     <route destination1="MPM" destination2="TET"/>
+	     <route destination1="MPM" destination2="JNB"/>
+	     <route destination1="MPM" destination2="NBO"/>
+	     <route destination1="MPM" destination2="HRE"/>
+	     <route destination1="MPM" destination2="DAR"/>
+	     <route destination1="MPM" destination2="POL"/>
+	     <route destination1="MPM" destination2="APL"/>
+	     <route destination1="MPM" destination2="INH"/>
+                   </routes>
+
+</airline>

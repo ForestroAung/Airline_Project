@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aerolineas Mas" iata="N3"  color="SkyBlue" area="415" CEO="Angelino Ramires" mentality="Safe" market="Local" preferedairport="JBQ">
+  <narrative narrative="Aerolineas Mas is based at La Isabela Intl. Airport, Santo Domingo's smaller airport. The airline started in 2005 and was based at Herrera Intl. Airport until February 23,2006 when La Isabela replaced it as Santo Domingos second airport. Initially a charter airline it now does 5 routes from JBQ including to its second hub at Santiago do los Caballeros. From JBQ it also goes to Punta Cana domestic wise,and Port-au-Prince,Haiti and Aruba and Curacao. There are charters to six other domestic airports from JBQ. From Santiago it also goes to Punta Cana and Port-au-Prince."/>
+ <airports>
+<airport  preferedairport="HEX" date="1.01.2005 00:00:00"></airport>
+<airport   preferedairport="JBQ" date="2.23.2006 00:00:00"></airport>
+</airports>
+   </profile>
+    <info real="True" from="2005" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31,Cessna 206"></prefereds>
+             <focusairports>
+                 <focusairport airport="STI"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 206" early="1" late="1"></airliner>
+	     </airliners>
+
+	       <routes>
+	       	<route destination1="JBQ" destination2="STI"  />
+		<route destination1="JBQ" destination2="PUJ" />
+		<route destination1="JBQ" destination2="PAP"  />
+		<route destination1="JBQ" destination2="AUA"   />
+		<route destination1="JBQ" destination2="CUR"   />
+		<route destination1="STI" destination2="PUJ" />
+		<route destination1="STI" destination2="PAP"  />
+		<route destination1="JBQ" destination2="LRM" type="Charter"  />
+		<route destination1="JBQ" destination2="EPS" type="Charter"  />
+		<route destination1="JBQ" destination2="COZ" type="Charter"  />
+		<route destination1="JBQ" destination2="CBJ" type="Charter"  />
+		<route destination1="JBQ" destination2="BRX" type="Charter"  />
+              </routes>
+</airline>

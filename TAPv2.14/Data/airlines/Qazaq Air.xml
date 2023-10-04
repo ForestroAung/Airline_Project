@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Qazaq Air" iata="ZXZ" color="Yellow" area="200" CEO="Anonymous" mentality="Moderate" market="Domestic" preferedairport="ALA"> 
+  <narrative narrative="Qazaq Air is based at Almaty,Kazakhstan which started flying in August 2015. It has focus cities at Astana and Shymkent as well. It flies domestic routes only so far.
+  The Almaty-Astana route is served 10 times a week,Almaty-Shymkent 6 times,Almaty-Kyzylorda 2 times,Almaty-Semey 2 times,Almaty-Pavlodar 2 times,Almaty-Kostanay once,Shymkent-Aktobe 4 times,
+  Shymkent-Pavlodar 2 times,Astana-Taldykorgan 3 times,and Aktobe-Atyrau 4 times. Aktobe-Kostanay only ran for a month but may be restarted. Almaty-Taldykorgan ceased in March 2016. It served between 900-1000
+  people in its first five days in operation. It started with 3 Bombardier Dash 8-400 Next Gen's and was planning on getting 2 more in 2016." />
+</profile>
+   <info real="True" from="2015" to="2199"></info>
+   <prefereds aircrafts="Bombardier Dash 8-400NextGen"></prefereds>
+  <focusairports>
+        <focusairport airport="TSE"></focusairport>
+        <focusairport airport="CIT"></focusairport>
+        <focusairport airport="AKX"></focusairport>
+     </focusairports>
+     <routes>
+          <route destination1="ALA" destination2="TSE"/>
+          <route destination1="ALA" destination2="CIT"/>
+          <route destination1="CIT" destination2="AKX"/>
+          <route destination1="AKX" destination2="GUW"/>
+          <route destination1="TSE" destination2="TDK"/>
+           <route destination1="ALA" destination2="KZO"/>
+            <route destination1="ALA" destination2="PWQ"/>
+           <route destination1="ALA" destination2="PLX"/>
+            <route destination1="CIT" destination2="PWQ"/>
+            <route destination1="ALA" destination2="KSN"/>
+      </routes>
+    
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400NextGen" early="3" late="5"></airliner>
+	     </airliners>
+
+
+</airline>

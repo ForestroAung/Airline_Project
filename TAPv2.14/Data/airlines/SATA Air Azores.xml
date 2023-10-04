@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SATA Air Azores" iata="SP" logo="S4" color="Cyan" area="118" CEO="Antonio Gomes de Menezes" mentality="Safe" market="Regional" preferedairport="PDL">
+  <narrative narrative="SATA Air Azores is an airline based at Ponta Delgada in the Azores Island chain of Portugal in the Atlantic Ocean. It has a subsidiary, SATA International, which does flights to European cities and the mainland and North America using AIrbus jets like the A320 and A310. It has had this airline since 1994 and under its current name since 1998. It was OceanAir from 1990 until it became the sole owner. SATA Azores does its flights between nine Azores airports and also goes to the other Portuguese islands of Funchal and Porto Santo and to Gran Canaria of Spain in the Canary Islands. Its other Azores bases are Terceira and Horta. 7 routes are offered from PDL,and 7 from TER,4 from HOR. It had 17 total inter island Azores routes as of March 2015. It also operates from Funchal to
+  Porto Santo and Gran Canaria. The airline started in flying form in 1947. At February 2014 its fleet was four Bombardier Dash 8-400NextGen's,and two 200's. It has used BAe ATP's in the past and Dornier 228's and 328's. In the late 40's it had three DH Doves and in 1964 it got a DC-3. In 1972 it started using Hawker 748's,in 1976 the air force started to let it use two DC-6's, and 1990 the ATP." />
+   </profile>
+    <info real="True" from="1947" to="2199" />
+       <prefereds aircrafts="Bombardier Dash 8-400NextGen,Bombardier Dash 8-200,BAe ATP,Bombardier Dash 8-400,Dornier 228-212,Dornier 328-110,HS.748,Douglas DC-3,DH 104 Dove,Douglas DC-6"></prefereds>
+              <focusairports>
+                 <focusairport airport="TER"></focusairport>
+	         <focusairport airport="HOR"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400NextGen" early="4" late="4"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="2" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2013)-->
+	     	         <airliners>
+	    <airliner type="BAe ATP" early="3" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1948) late (1949)-->
+	     	         <airliners>
+	    <airliner type="DH 104 Dove" early="2" late="3"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1964) late (1974)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1972) late (1991)-->
+	     	         <airliners>
+	    <airliner type="HS.748" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1992)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-6" early="2" late="0"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="PDL" destination2="TER" />
+	        <route destination1="PDL" destination2="HOR" opened="1971" closed="2199"/>
+		<route destination1="PDL" destination2="FLW"  />
+		<route destination1="PDL" destination2="CVU" />
+		<route destination1="PDL" destination2="PIX"  />
+		<route destination1="PDL" destination2="SMA"/>
+		<route destination1="PDL" destination2="SJZ" />
+		<route destination1="TER" destination2="FLW" />
+		<route destination1="TER" destination2="SMA"  />
+		<route destination1="TER" destination2="CVU" />
+		<route destination1="TER" destination2="FLW" />
+		<route destination1="TER" destination2="HOR" opened="1971" closed="2199" />
+		<route destination1="TER" destination2="SJZ" />
+		<route destination1="FLW" destination2="CVU"  />
+		<route destination1="FLW" destination2="HOR"  opened="1971" closed="2199" />
+		<route destination1="CVU" destination2="HOR"  opened="1971" closed="2199" />
+	        <route destination1="FNC" destination2="PDL" />
+		<route destination1="FNC" destination2="FAO" />
+		<route destination1="FNC" destination2="LPA" />
+	
+		              </routes>
+</airline>

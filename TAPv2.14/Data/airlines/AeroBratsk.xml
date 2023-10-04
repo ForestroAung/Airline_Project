@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AeroBratsk" iata="BRP" color="Purple" area="177" CEO="Sergey Ivanovich Sumbayev" mentality="Safe" market="Domestic" preferedairport="BTK">
+  <narrative narrative="AeroBratsk is based at Bratsk,Russia in the Irkutsk Oblast in southeast Siberia. It has been a subsidiary of VIM Airlines of Moscow since the end of 2004. It was the Bratsk
+  division of Aeroflot since 1967, and then became its own airline after the collapse of the Soviet Union. At July 2015 it was only doing the route between Bratsk and Lensk. In 2009 it was also serving Irkutsk and two Moscow
+  airports, Domodedovo and Vnukovo. At 2010 its fleet had five Yak-40's."/>
+</profile>
+  <info real="True" from="1991" to="2199" />
+  <prefereds aircrafts="Yak-40"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="5" late="5"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="BTK" destination2="ULK" />
+        </routes>
+</airline>

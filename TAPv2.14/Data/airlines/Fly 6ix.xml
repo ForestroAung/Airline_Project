@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fly 6ix" iata="FIX" color="Green" area="332" CEO="Ernest Koroma" mentality="Safe" market="Local" preferedairport="FNA">
+  <narrative narrative="Fly 6ix was an airline based at Freetown,Sierra Leone in West Africa that only operated in 2011. It flew to Conakry,Guinea Banjul,Gambia and Monrovia,Liberia's Spriggs Payne Airport. It used an Embraer 135. The president had named it the flag carrier of Sierra Leone."/>
+</profile>
+  <info real="True" from="2011" to="2012" />
+  <prefereds aircrafts="Embraer ERJ135 ER"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="1" late="1"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="FNA" destination2="CKY" />
+	       	  <route destination1="FNA" destination2="BJL" />
+		  <route destination1="FNA" destination2="MLW" />
+			 		        </routes>
+
+
+
+
+</airline>

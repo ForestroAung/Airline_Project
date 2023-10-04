@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aklak Air" iata="6L" color="Snow" area="400" CEO="Wallace Dobchuk" mentality="Safe" market="Local" preferedairport="YEV">
+  <narrative narrative="Aklak Air is based at Inuvik in the north of the Northwest Territories of Canada. It started in 1978. In 1994 it started a joint venture with Calgary,Alberta based Kenn Borek Air that lets Aklak Air use Kenn Borek's planes when needed. In fact as of July 2015 all Aklak service is operated by Kenn Borek. The destinations are Paulatuk,Sachs Harbour,Tuktoyaktuk,Ulukhaktok and seasonal to Fort McPherson and depending on demand to Aklavik. All destinations are in north Northwest Territories including the arctic islands. At 2008 it had one DHC-6 Twin Otter 300 of its own. Some of the Kenn Borek planes are Beechcraft Model 99's and King Air's. It is not owned by Keen Borek Air, it is owned by Inuvialuit Joint Venture Company."/>
+</profile>
+  <info real="True" from="1978" to="2199" />
+  <prefereds aircrafts="DHC-6-400 Twin Otter,DHC-6-300 Twin Otter,DHC-6-100 Twin Otter,Beechcraft King Air B200,Beechcraft 99,Beechcraft King Air 90"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1978) late (2015)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="1" late="1"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="YEV" destination2="YSY" />
+			  <route destination1="YEV" destination2="YUB" />
+			  <route destination1="YEV" destination2="YHI" />
+			  <route destination1="YEV" destination2="YPC" />
+			  <route destination1="YEV" destination2="ZFM" season="Summer" />
+	        </routes>
+</airline>

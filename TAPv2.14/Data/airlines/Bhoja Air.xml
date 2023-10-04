@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bhoja Air" iata="BHO" color="MediumBlue" area="221" CEO="Farouk Omar Bhoja" mentality="Safe" market="Regional" preferedairport="KHI">
+  <narrative narrative="Bhoja Air was an airline based at Karachi,Pakistan from November 1993 until 2000. It made a brief relaunch from March 6th,2012 until April 22,2012. On November 7th,1993 it started routes to Lahore and Quetta with a dry leased 737-200 Adv. It used that until sometime in 1995. It was the first private Pakistan airline to use a Western made plane. On January 24,1998 it started an international route from KHI to Dubai,UAE. Soon it was serving Dubai from many major Pakistan cities. It ceased operations in 2000 but is license remained valid. It came back to life on March 6th,2012 but one of its 737-200 Adv.'s crashed near Islamabad on April 20th,2012 killing 127, the second worst crash in Pakistan history. It had another 737-200 Adv. and a 737-400 at this time doing flights from Karachi to Islamabad,Lahore,Faisalabad and Multan. It ceased two days after the crash after they were banned due to a Pakistani law stating you must have at least three planes to operate. Plans to get another aircraft never came true and it sold the last one in July 2012 after a short revival. In its 1993-2000 run it also used Yak-42's."/>
+</profile>
+  <info real="True" from="1993" to="2000" />
+  <prefereds aircrafts="Boeing 737-200 Adv.,Yak-42D,Yak-42"></prefereds>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1996)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="KHI" destination2="LHE"   />
+		<route destination1="KHI" destination2="UET" />
+		<route destination1="KHI" destination2="ISB" />
+		<route destination1="KHI" destination2="MUX"  />
+		<route destination1="KHI" destination2="LYP"   />
+                <route destination1="KHI" destination2="DXB" opened="1998" closed="2199"  />
+		<route destination1="ISB" destination2="DXB" opened="1998" closed="2199" />
+		<route destination1="LHE" destination2="DXB" opened="1998" closed="2199"  />
+		<route destination1="MUX" destination2="DXB" opened="1998" closed="2199"  />
+	        </routes>
+
+
+
+
+</airline>

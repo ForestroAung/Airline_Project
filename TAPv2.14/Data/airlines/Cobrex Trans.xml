@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cobrex Trans" iata="CB" color="Red" area="148" CEO="Constantin Apavaloaie" mentality="Moderate" market="Global" preferedairport="SCV" businessmodel="LCC"> 
+  <narrative narrative="Cobrex Trans, an Romanian air operator founded in 1994, has a vast tradition in the aeronautical industry in Romania, being oriented towards the safety of passengers and the comfort of its passengers. It starting operating its own flights in 2018" />
+</profile>
+   <info real="True" from="1994" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-300"></prefereds>
+  <routes>
+    <route destination1="OTP" destination2="SCV" opened="2018" closed="2199"/>
+    <route destination1="SCV" destination2="MAD" opened="2018" closed="2199"/>
+    <route destination1="SCV" destination2="VRN" opened="2018" closed="2199"/>
+  </routes>
+	<airliners>
+	    <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+	</airliners>
+</airline>

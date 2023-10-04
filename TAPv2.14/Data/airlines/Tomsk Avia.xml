@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Tomsk Avia" iata="TSK" color="Blue" area="177" CEO="Roman Titov" mentality="Safe" market="Domestic" preferedairport="TOF" routefocus="All">
+  <narrative narrative="Tomsk Avia is based at Tomsk,Russia. It was fouded in 1992 after having been the Tomsk division of Aerflot since 1932. It does passengers and cargo and also has helicopters. At 2012 it had six Antonov 24's,two Antonov 26's,a Cessna 208B,and thirteen Mi-8 helicopters. It serves about 8 domestic destinations. Four from Tomsk,three from Strezhevoy,four from Novosibirsk,two from Nizhnevartovsk,two from Surgut,two from Krasnoyarsk and one each from Tyumen,Kemerovo,Abakan and Novokuznetsk." />
+</profile>
+   <info real="True" from="1992" to="2199"></info>
+   <prefereds aircrafts="Antonov An-24,Antonov An-26,Cessna 208B,Mi-8P,Mi-8P ER"></prefereds>
+ 
+<focusairports>
+                 <focusairport airport="OVB"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="3" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 208B" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-8P" early="5" late="13"></airliner>
+	     </airliners>
+	
+
+
+<routes>
+                <route destination1="TOF" destination2="KJA" routefocus="Passenger"/>
+		<route destination1="TOF" destination2="SGC" routefocus="Passenger"/>
+		<route destination1="TOF" destination2="NJC" routefocus="Passenger"/>
+	        <route destination1="TOF" destination2="SWT" routefocus="Passenger"/>
+                <route destination1="SWT" destination2="OVB"  routefocus="Passenger"/>  
+	        <route destination1="SWT" destination2="TJM" routefocus="Passenger"/>
+	        <route destination1="OVB" destination2="NJC" routefocus="Passenger"/>
+                <route destination1="OVB" destination2="ABA"  routefocus="Passenger"/>  
+	        <route destination1="OVB" destination2="NOZ" routefocus="Passenger"/>
+                <route destination1="KJA" destination2="KEJ" routefocus="Passenger"/>
+
+
+        </routes>
+  
+
+
+</airline>

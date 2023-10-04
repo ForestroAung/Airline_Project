@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Azal Avia Cargo" iata="AHC" color="MediumTurquoise" area="181" CEO="Jahangir Askerov" mentality="Safe" market="Global" preferedairport="GYD" routefocus="Cargo"> 
+  <narrative narrative="Azal Avia Cargo is a cargo carrier that is a subsidiary of Azerbaijan Airlines that started in 1996. Its base is Baku. It flies domestic service and most commonly goes to
+  other countries in the former Soviet Union. Its fleet as of 2007 was two Antonov An-12's,one An-26B,and one Illyushin II-76TD. It had an An-32 at August 2006 that was gone by March 2007." />
+</profile>
+   <info real="True" from="1996" to="2199"></info>
+   <prefereds aircrafts="Antonov An-12 Cargo,Il-76TD,Antonov An-26,Antonov An-32"></prefereds>
+       
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Il-76TD" early="1" late="1"></airliner>
+	     </airliners>
+	           	     	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Cargo" early="2" late="2"></airliner>
+	     </airliners>
+	            	     	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="1"></airliner>
+	     </airliners>
+	            	     	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-32" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+</airline>

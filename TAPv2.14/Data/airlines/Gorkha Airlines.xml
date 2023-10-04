@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gorkha Airlines" iata="G1" color="Red" area="228" CEO="Sushil Koirala" mentality="Safe" market="Domestic" preferedairport="KTM">
+  <narrative narrative="Gorkha Airlines is a domestic carrier in Nepal that has been around since 1996. As of June 2010 from Kathmandu it was flying to Bhairahawa,Bharatpur,Janakpur,Lukla,Pokhara,Simara,and Tumlingtar. It was also going from Pokhara to Jomsom and between Tumlingtar and Biratnagar. At March 2007 it had two Dornier 228-212's. It had started with two Mil-17 helicopters but switched to fixed wing when it started scheduled service. It had at least one Dornier in 2000 or earlier."/>
+</profile>
+  <info real="True" from="1996" to="2199" />
+  <prefereds aircrafts="Dornier 228-212"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="0" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="KTM" destination2="PKR" />
+	       	  <route destination1="KTM" destination2="LUA" />
+		  <route destination1="KTM" destination2="SIF" />
+		  <route destination1="KTM" destination2="BWA" />
+	          <route destination1="KTM" destination2="BHR" />
+		  <route destination1="KTM" destination2="JKR" />
+		  <route destination1="KTM" destination2="TMI" />
+		  <route destination1="PKR" destination2="JMO" />
+		  <route destination1="TMI" destination2="BIR" />
+			 		        </routes>
+
+
+
+
+</airline>

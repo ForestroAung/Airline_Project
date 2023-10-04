@@ -1,0 +1,11 @@
+﻿<airline>
+ <profile name="West Africa Airways Corporation" iata="WT" logo="WT3" color="Green" area="339" CEO="Peter Gana" mentality="Safe" market="Regional" preferedairport="LOS">
+ <narrative narrative="West African Airways Corporation, or WAAC for short, was an airline that operated from 1946 to 1958, jointly owned by the governments of Britain's four west African colonies, namely The Gambia, the Gold Coast (now Ghana), Nigeria, and Sierra Leone. The carrier was headquartered at the Airways House in Ikeja, Nigeria, and operated from its hub in Lagos Airport. It was dissolved on 30 September 1958, after all the shareholder countries but Nigeria set up their own national airlines following their independence. As the sole remaining major stockholder of the airline, the government of Nigeria continued to operate it as WAAC Nigeria, which was eventually renamed Nigeria Airways and became the flag carrier of the country. "/>
+ </profile>
+ <info real="True" from="1947" to="1958" />
+ <prefereds aircrafts="DH 104 Dove,DH 114 Heron,Douglas DC-3"></prefereds> 
+ <focusairports>
+<focusairport airport="LOS"></focusairport> 
+<focusairport airport="ACC"></focusairport>
+</focusairports>
+</airline>

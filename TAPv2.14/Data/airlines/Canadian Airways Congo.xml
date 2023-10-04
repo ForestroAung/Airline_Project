@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Canadian Airways Congo" iata="CAC" logo="CAC2" color="Tomato" area="347" CEO="Unknown" mentality="Safe" market="Domestic" preferedairport="BZV" >
+  <narrative narrative="Canadian Airways Congo is a domestic carrier of the Republic of Congo and is based at Brazzaville. It was founded in 2004. From Brazzaville it flies to Impfondo,Pointe-Noire,and Ouesso. It has an MD-81 as of around June 2016 that it got in 2012. It has used a 727 in the past as well.
+  It has nothing of note to do with Canada or a Canadian company."/>
+</profile>
+  <info real="True" from="2004" to="2199" />
+  <prefereds aircrafts="MD-81 (DC-9-81),Boeing 727-200 Adv."></prefereds>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+	         <airliners>
+	    <airliner type="MD-81 (DC-9-81)" early="1" late="1"></airliner>
+	     </airliners>
+	       <routes>
+    <route destination1="BZV" destination2="PNR"   />
+		<route destination1="BZV" destination2="OUE" />
+		<route destination1="BZV" destination2="ION"  />
+	        </routes>
+
+</airline>

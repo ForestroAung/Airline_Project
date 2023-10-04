@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eritrean Airlines" iata="B8" color="Yellow" area="350" CEO="Isaias Afewerki" mentality="Safe" market="Global" preferedairport="ASM">
+  <narrative narrative="Eritrean Airlines is the flag carrier of Eritrea,a country in East Africa which lays on the Red Sea and is bordered by Sudan,Ethiopia and Djibouti. At March 2015 it was going to Cairo,Egypt 
+  Kartoum,Sudan and Dubai,UAE. It has a 767-200ER which it has had since 2004 and an A320. In the past it has served Frankfurt,Germany Rome,Italy Amsterdam,Netherlands Milan,Italy Nairobi,Kenya Lagos,Nigeria Karachi and Lahore in Pakistam,
+  Jeddah,Saudia Arabia, Djibouti, and Johannesburg and Cape Town,South Africa. And also one other domestic airport at Massawa. Starting in December 2012 it can no longer serve any European destinations after being put on the EU blacklist. The airline began operations in 2003. It is fully owned by the government." />
+</profile>
+   <info real="True" from="2003" to="2199"></info>
+   <prefereds aircrafts="Airbus A320-200,Boeing 767-200ER,Airbus A320neo,Airbus A319neo"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-200ER" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300" early="1" late="0"></airliner>
+	     </airliners>
+<routes>
+	        <route destination1="ASM" destination2="CAI" opened="2004" closed="2199" />
+	        <route destination1="ASM" destination2="KRT" opened="2003" closed="2199" />
+                <route destination1="ASM" destination2="DXB" opened="2005" closed="2199" />
+		 <route destination1="ASM" destination2="JED" opened="2003" closed="2199" />
+		 <route destination1="ASM" destination2="AMS" opened="2004" closed="2012" />
+	        <route destination1="ASM" destination2="FRA" opened="2003" closed="2012" />
+                <route destination1="ASM" destination2="FCO" opened="2003" closed="2012" />
+		 <route destination1="ASM" destination2="MXP" opened="2003" closed="2012" />
+		  <route destination1="ASM" destination2="JIB" opened="2005" closed="2013" />
+		   <route destination1="ASM" destination2="KHI" opened="2011" closed="2013" />
+		  <route destination1="ASM" destination2="LHE" opened="2011" closed="2014" />
+              </routes>
+  
+
+
+</airline>

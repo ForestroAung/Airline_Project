@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--PZL 44-->
+<configuration type="PZL 44 Wicher" economy="0" premium="0" first="-1" business="0" exitrows="525" emergencyrows="0" toiletrows="525" kitchenrows="525">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+
+<!--PZL 4-->
+<configuration type="PZL 4" economy="0" premium="0" first="-1" business="0" exitrows="365" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+
+<!--PZL 27-->
+<configuration type="PZL 27" economy="0" premium="0" first="-1" business="0" exitrows="222" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Katekavia" iata="ZF" color="Orange" area="177" CEO="Andrei Martirosov" mentality="Safe" market="Domestic" preferedairport="KJA">
+  <narrative narrative="Katekavia is a subsidiary of UTair Aviation that is based at both Krasnoyarsk,Russia airports. Its international Yemelyanovo Airport and domestic Cheremshanka Airport. It flies to Surgut,Igarka and Tomsk from the large airport and to 2 very very small airports in the same Krai as Krasnoyarsk from the small one. The airline was founed in 1995. It as of April 2014 had twelve Antonov 24's,three Tupolev Tu-134A's and two Antonov 26's. It started getting the Tu-134A's in 2010. The two airports in Krasnoyarsk are only 3km (2 miles) from each other and have the same runway headings. It actually only began using the larger airport in 2014 when service commenced from there." />
+</profile>
+   <info real="True" from="1995" to="2199"></info>
+   <prefereds aircrafts="Antonov An-24,Antonov An-26,Tupolev Tu-134A"></prefereds>
+ <focusairports>
+                <focusairport airport="KJC"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="3" late="12"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="3" late="3"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="KJA" destination2="TOF"   opened="2014" closed="2199"/>
+                <route destination1="KJA" destination2="SGC"   opened="2014" closed="2199" />  
+	        <route destination1="KJA" destination2="IAA"    opened="2014" closed="2199"/>
+
+        </routes>
+  
+
+
+</airline>

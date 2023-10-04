@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Vistara" iata="VTI" color="Purple" area="224" CEO="Phee Tiek Yeoh" mentality="Moderate" market="Domestic" preferedairport="DEL">
+    <narrative narrative="Vistara is an airline based at Delhi,India that began operations on January 9,2015. At May 2015 it was flying from Delhi to Ahmedabad,Bagdogra,Goa,Guwahati,Hyderabad,Lucknow,Mumbai and Pune. Bangalore is starting in June. From Mumbai it also flies to Ahmedabad and will do Bangalore on the to Mumbai starting in June also. It also flies between Guwahati and Bagdogra. Its initial fleet is six A320-200's with seven more expected by the end of 2016. It also has seven A320neo's on order and are expected to be delivered by the end of 2018. The airline is a joint venture between India conglomerate Tata Sons and Singapore Airlines. Tata owns 51% and Singapore 49%. Tata had an airline in the 1930's called Tata Airlines that went on to become Air India. In its first month it had an 89% on time performance in Delhi's foggiest month, a good number for Delhi in January. Its name comes from the Sanskrit word Vistaar meaning limitless expanse. In its 148 seat config it has 16 business class seats and 36 premimum economy seats. It is the first domestic Indian carrier to offer Premium Economy. It carried 100,000 passengers by the end of March 2015. And at May 2015 was doing 211 flights a week." />
+  </profile>
+    <info real="True" from="2015" to="2199" />
+           <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="6" late="13"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2018)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320neo" early="1" late="7"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DEL" destination2="BOM"    />	
+	    <route destination1="DEL" destination2="HYD"    />	
+	    <route destination1="DEL" destination2="AMD"    />	
+	    <route destination1="DEL" destination2="LKO"    />	
+            <route destination1="DEL" destination2="PNQ"      />
+            <route destination1="DEL" destination2="GOI"      />
+            <route destination1="DEL" destination2="GAU"      />
+            <route destination1="DEL" destination2="IXB"      />
+            <route destination1="DEL" destination2="BLR"      />	
+            <route destination1="BOM" destination2="AMD"      />	
+            <route destination1="BOM" destination2="BLR"      />	
+            <route destination1="GAU" destination2="IXB"      />					
+                   </routes>
+</airline>

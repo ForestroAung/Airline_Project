@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Vologda Aviation Enterprise" iata="VGV" color="Maroon" area="177" CEO="Artyom Krupin" mentality="Safe" market="Local" preferedairport="VGD" routefocus="Mixed_Passenger" schedule="Business">
+  <narrative narrative="Vologda Aviation Enterprise is based at Vologda,Russia and was founded in 1931 as part of Aeroflot. It became independant in 1991 as many other divisions of Aeroflot did around then. In early 2015 it was going to Moscow Vnukovo three times a week,St. Petersburg twice and flying twice a week between Cherepovets and Veliky Ustyug. At July 2012 it had eight Yak-40's,three Mil Mi-2 helicopters and a Mil Mi-8 helicopter. In the mid 90's it had fort Antonov 2's,six Antonov 28's,fourteen Mi-2's and some Yak-40's. They have had An-2's since 1953 and Yak-40's since 1969 and started using helicopters in 1958. In 1937
+  it carried 3055 passengers,40 tons of cargo and 94 tons of cargo using Po-2's, a 2 seater. In 1948 it had 20 of them." />
+</profile>
+   <info real="True" from="1931" to="2199"></info>
+   <prefereds aircrafts="Yak-40,Antonov An-2,Yak-6,Antonov An-28,Mi-2,Mi-8P,Po-2,Yak-12"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1953) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-2" early="1" late="26"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-28" early="6" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-2" early="14" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-8P" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1969) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-40" early="1" late="8"></airliner>
+	     </airliners>
+	     	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1955) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-12" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1937) late (1948)-->
+	         <airliners>
+	    <airliner type="Po-2" early="3" late="20"></airliner>
+	     </airliners>
+	          	     	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1937) late (1948)-->
+	         <airliners>
+	    <airliner type="Yak-6" early="3" late="0"></airliner>
+	     </airliners>
+
+
+
+
+<routes>
+                <route destination1="VGD" destination2="VKO" opened="1937" closed="2199" />
+	        <route destination1="VGD" destination2="LED" opened="1937" closed="2199" />
+	        <route destination1="CEE" destination2="VUS" opened="1937" closed="2199" />
+              </routes>
+  
+
+
+</airline>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--CRAIC C929-->
+<configuration type="CRAIC C929-500" economy="-1" premium="0" first="2" business="3" exitrows="0,2850" emergencyrows="820,1571" toiletrows="0,820,2850" kitchenrows="0,2850">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="150" width="65.8"></seat>
+<seat class="First_Class" type="Open_Suites" pitch="185" width="106.7"></seat>
+</seats>
+</configuration>
+<configuration type="CRAIC C929-600" economy="-1" premium="0" first="2" business="4" exitrows="0,3250" emergencyrows="970,1806" toiletrows="0,970,3250" kitchenrows="0,1806,3250">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50.8"></seat>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="150" width="65.8"></seat>
+<seat class="First_Class" type="Open_Suites" pitch="185" width="106.7"></seat>
+</seats>
+</configuration>
+<configuration type="CRAIC C929-700" economy="-1" premium="0" first="3" business="5" exitrows="0,1305,3250" emergencyrows="555,2302" toiletrows="0,1305,2302,3250" kitchenrows="0,1305,3250">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.7" width="50.8"></seat>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="150" width="65.8"></seat>
+<seat class="First_Class" type="Open_Suites" pitch="185" width="106.7"></seat>
+</seats>
+</configuration>
+</configurations>

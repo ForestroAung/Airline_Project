@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Contractors" iata="AG" color="LightSkyBlue" area="101" CEO="John Rawl" mentality="Moderate" market="Regional"  preferedairport="DUB" routefocus="Mixed"> 
+  <narrative narrative="ASL Airlines, formerly Air Contractors, is a freight and passenger airline. It operates schedules freight services throughout Europe on behalf of major integrators such as FedEx Feeder and DHL Express; and operates unscheduled passenger air charter flights." />
+<logos>
+	<logo from="1998" to="2014" path="AG1998"/>
+	<logo from="2015" to="2199" path="AG2008"/>
+</logos>
+<names>
+	<name value="Air Contractors" from="02.01.1998 00:00:00"/>
+	<name value="ASL Airlines Ireland" from="02.01.2015 00:00:00"/>
+</names>
+  </profile>
+  
+   <info real="True" from="1998" to="2199"></info>
+   
+   <focusairports>
+	<focusairport airport="DUB"></focusairport>
+	<focusairport airport="SNN"></focusairport>
+	<focusairport airport="CDG"></focusairport>
+</focusairports>
+</airline>

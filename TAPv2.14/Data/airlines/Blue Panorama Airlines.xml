@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Blue Panorama" iata="BV" logo="BV2" color="BlueViolet" area="122" CEO="Giancarlo Zeni" mentality="Moderate" market="Global" preferedairport="FCO" businessmodel="LCC">
+  <narrative narrative="Blue Panorama is an airline based at Rome,Italy with other bases at Milan Malpensa and Tirana,Albania. It was founded in 1998 and as of May 2014 serves 
+  14 domestic airports,10 in Greece,5 in Cuba,3 in Spain,and one each in Albania,Croatia,Dominican Republic,Jamaica,Mexico,Russia and Turkey. It operates both scheduled and charters and runs a low cost brand called  Blu-Express.
+  18 of its destinations are seasonal,including all the ones in Greece and Spain. As of late 2014 it had three 767-300ER's and a 737-500 and two Piaggio 180s. Previous planes operated include 737-400's and 757-200's."/>
+</profile>
+  <info real="True" from="1998" to="2199" />
+  <prefereds aircrafts="Boeing 767-300ER,Boeing 737-300,Boeing 737-400,Boeing 737-800"></prefereds>
+     <focusairports>
+	 <focusairport airport="MXP"></focusairport>
+	 <focusairport airport="TIA"></focusairport>
+     </focusairports>
+	  <airliners>
+	   <airliner type="Boeing 767-300ER" early="1" late="3"></airliner>
+	  </airliners>
+	  <airliners>
+	   <airliner type="Boeing 737-400" early="1" late="2"></airliner>
+	  </airliners>
+	  <airliners>
+	   <airliner type="Boeing 737-800" early="1" late="4"></airliner>
+	  </airliners>
+	  <airliners>
+	   <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	  </airliners>
+	    <routes>
+        <route destination1="FCO" destination2="TIA"/>
+		<route destination1="FCO" destination2="HAV"/>
+		<route destination1="FCO" destination2="PVK"/>
+		<route destination1="FCO" destination2="CFU"/>
+		<route destination1="FCO" destination2="HER"/>
+		<route destination1="FCO" destination2="EFL"/>
+		<route destination1="FCO" destination2="KGS"/>
+		<route destination1="FCO" destination2="JMK"/>
+		<route destination1="FCO" destination2="RHO"/>
+		<route destination1="FCO" destination2="JTR"/>
+		<route destination1="FCO" destination2="JSI"/>
+		<route destination1="FCO" destination2="ZTH"/>
+		<route destination1="FCO" destination2="MXP"/>
+		<route destination1="FCO" destination2="PNL"/>
+		<route destination1="FCO" destination2="REG"/>
+		<route destination1="FCO" destination2="VRN"/>
+		<route destination1="FCO" destination2="CUN"/>
+		<route destination1="TIA" destination2="AOI"/>
+		<route destination1="TIA" destination2="BRI"/>
+		<route destination1="TIA" destination2="BLQ"/>
+		<route destination1="TIA" destination2="FLR"/>
+		<route destination1="TIA" destination2="FLR"/>
+		<route destination1="TIA" destination2="GOA"/>
+		<route destination1="TIA" destination2="BGY"/>
+		<route destination1="TIA" destination2="MXP"/>
+		<route destination1="TIA" destination2="PSA"/>
+		<route destination1="TIA" destination2="RMI"/>
+		<route destination1="TIA" destination2="FCO"/>
+		<route destination1="TIA" destination2="TSF"/>
+		<route destination1="TIA" destination2="TRN"/>
+		<route destination1="TIA" destination2="VCE"/>
+		<route destination1="TIA" destination2="VRN"/>
+		<route destination1="VRN" destination2="LMP"/>
+		<route destination1="VRN" destination2="FCO"/>
+		<route destination1="VRN" destination2="MBA"/>
+		<route destination1="LIN" destination2="REG"/>
+		<route destination1="MXP" destination2="CYO"/>
+		<route destination1="MXP" destination2="HAV"/>
+		<route destination1="MXP" destination2="HOG"/>
+		<route destination1="MXP" destination2="LRM"/>
+		<route destination1="MXP" destination2="CUN"/>
+		<route destination1="MXP" destination2="ZNZ"/>
+		<route destination1="BGY" destination2="PVK"/>
+		<route destination1="BGY" destination2="JMK"/>
+		<route destination1="BGY" destination2="RHO"/>
+		<route destination1="BGY" destination2="JTR"/>
+		<route destination1="BGY" destination2="JSI"/>
+		<route destination1="BGY" destination2="ZTH"/>
+		<route destination1="BGY" destination2="LMP"/>
+		<route destination1="BGY" destination2="PNL"/>
+		<route destination1="BLQ" destination2="PVK"/>
+		<route destination1="BLQ" destination2="EFL"/>
+		<route destination1="BLQ" destination2="KGS"/>
+		<route destination1="BLQ" destination2="JMK"/>
+		<route destination1="BLQ" destination2="RHO"/>
+		<route destination1="BLQ" destination2="JTR"/>
+		<route destination1="BLQ" destination2="JSI"/>
+		<route destination1="BLQ" destination2="ZTH"/>
+		<route destination1="BLQ" destination2="LMP"/>
+       </routes>
+</airline>

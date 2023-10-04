@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="K-Mile Air" iata="KMI" logo="TSE" color="Goldenrod" area="234" CEO="Ong Ka Seong" mentality="Safe" market="Regional" preferedairport="BKK" routefocus="Cargo">
+  <narrative narrative="K-Mile Air is a cargo airline that is a subsidiary of Kuala Lumpur,Malaysia based Transmile Air Services, K-Mile is based at Bangkok,Thailand. It started in May 2006 and as of May 2015 had a 737-400. It flies from BKK to Singapore and Jakarta,Indonesia and Hochiminh,Vietnam (Saigon). In March 2014  Farnair Switzerland acquired 45% of its shares." />
+ </profile>
+    <info real="True" from="2006" to="2199" />
+       <prefereds aircrafts="Boeing 737-400"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="BKK" destination2="SIN"  />	
+	    <route destination1="BKK" destination2="CGK"  />	
+            <route destination1="BKK" destination2="SGN" />	
+              </routes>
+</airline>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Air Odisha" iata="ODI" color="Maroon" area="224" CEO="Radhakanta Pani" mentality="Moderate" market="Local" preferedairport="BBI" routefocus="Mixed" schedule="Charter">
+    <narrative narrative="Air Odisha is a charter airline based at Bhubaneswar,India which is the capital of the state of Odisha which is its main area of service. At May 2015 it offered charters to five other places in Odisha at Angul,Jeypore,Jharsuguda,Rourkela and Sambalpur and to the cities of Raipur and Ranchi in other nearby states. Many of the airports it serves are used by the large steel industry of India, which is a main part of the Odisha economy. The airline is owned by the Government of Odisha and began on November 2,2012. It uses many plane types, like the Learjet 40, Cessna CitationJet II, Beechcraft King Air 200,King Air 90,Piper Seneca,Pilatus 12,Cessna 208 and Cessna 172. It also has Bell 407 and Robinson 44 helicopters. Aside from charters in many sectors of the Indian economy they do ambulance service also." />
+  </profile>
+    <info real="True" from="2012" to="2199" />
+           <prefereds aircrafts="Beechcraft King Air B200,Cessna 208B,Beechcraft King Air 90,Learjet 40,Cessna CitationJet CJ2,Cessna 172 Skyhawk,PA-34 Seneca,Bell 407,Robinson R44"></prefereds>
+    	      <routes>  
+	    <route destination1="BBI" destination2="RRK"    />	
+	    <route destination1="BBI" destination2="PYB"    />	
+	    <route destination1="BBI" destination2="JHA"    />	
+	    <route destination1="BBI" destination2="VEH"    />	
+            <route destination1="BBI" destination2="VEA"      />
+            <route destination1="BBI" destination2="IXR"      />
+            <route destination1="BBI" destination2="RPR"      />			
+                   </routes>
+</airline>

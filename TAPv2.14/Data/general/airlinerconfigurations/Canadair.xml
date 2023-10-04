@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Canadair CL-44J-->
+<configuration type="Canadair CL-44J" economy="-1" premium="0" first="8" business="0" exitrows="0,2400" emergencyrows="979,1202,1277" toiletrows="0,2400" kitchenrows="0,2400">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.7" width="47.5"></seat>
+<seat class="First_Class" type="Recliner" pitch="85" width="57"></seat>
+</seats>
+</configuration>
+<configuration type="Canadair CL-44D4-8" economy="-1" premium="0" first="5" business="0" exitrows="0,2005" emergencyrows="876,952" toiletrows="0,2005" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.2" width="47.5"></seat>
+<seat class="First_Class" type="Recliner" pitch="85" width="57"></seat>
+</seats>
+</configuration>
+
+<!--Canadair North Star-->
+<configuration type="Canadair North Star" economy="0" premium="0" first="-1" business="0" exitrows="823" emergencyrows="-1" toiletrows="1280" kitchenrows="823">
+<seats>
+<seat class="First_Class" type="Standard" pitch="91.4" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

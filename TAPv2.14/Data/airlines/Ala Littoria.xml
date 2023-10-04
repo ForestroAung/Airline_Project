@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Ala Littoria" iata="I2" color="Green" area="121" CEO="Andrea Ragnetti" mentality="Aggressive" market="Global" preferedairport="CIA">
+    <narrative narrative="Ala Littoria was the Italian national airline that operated during the fascist regime in the 1930s and 1940s."/>
+  </profile>
+<info real="True" from="1934" to="1945"></info>
+<prefereds aircrafts="Savoia-Marchetti S.66,Dornier Do J,Savoia-Marchetti S.71,Savoia-Marchetti S.73"/>
+</airline>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="US Airways" iata="US" color="Azure" area="402" CEO="Doug Parker" mentality="Aggressive" market="Global" >
+            <narrative narrative="US Airways traces its history to All American Aviation Inc, a company founded by du Pont family brothers Richard C. du Pont, Alexis Felix du Pont, Jr. and CEO Steven Gardner. Headquartered in Pittsburgh, the airline served the Ohio River valley in 1939. In 1949 the company was renamed All American Airways as it switched from airmail to passenger service. " />
+<airports>
+<airport  preferedairport="AGC" date="1.1.1937 00:00:00" ></airport>
+<airport   preferedairport="PIT" date="6.1.1952 00:00:00" ></airport>
+<airport  preferedairport="CLT" date="11.01.2004 00:00:00"></airport>
+</airports>  
+<logos>
+<logo from="1937" to="1979" path="Allegheny"></logo>
+<logo from="1979" to="1997" path="USAir"></logo>
+<logo from="1997" to="2015" path="US"></logo>
+</logos>
+<names>
+<name value="All American Aviation" from="1.1.1937 00:00:00"></name>
+<name value="Allegheny Airlines" from="1.1.1952 00:00:00"></name>
+<name value="USAir" from="1.1.1979 00:00:00"></name>
+<name value="US Airways" from="1.1.1997 00:00:00"></name>
+</names>
+   </profile>
+  <info real="True" from="1937" to="2015"></info>
+</airline>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="BH Air" iata="8H" color="MediumBlue" area="147" CEO="Yanko Ivanov" mentality="Safe" market="Regional" preferedairport="SOF" >
+<narrative
+narrative="Bulgarian airline based in Sofia. Not to be confused with now defunct BH Arilines. BH Air provides charter flights to tour operators in the European countries. The airline's main base is Sofia with two secondary ones at Bourgas Airport and at Varna Airport. Its fleet includes various models of Airbus airplanes " />
+</profile>
+<info real="True" from="2001" to="2199" />
+<prefereds aircrafts="Airbus A320-200, Airbus A330-200"></prefereds>
+
+
+
+</airline>

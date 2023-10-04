@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lotus Air" iata="TAS" color="Green" area="323" CEO="Adnan Al-Falah" mentality="Safe" market="Global" preferedairport="CAI" schedule="Charter">
+  <narrative narrative="Lotus Air was a charter airline based in Cairo,Egypt from 1998 to 2011. It also had hubs at Sharm el-Shiekh,Hurghada and Luxor. It flew mainly to Europe. It also did ad hoc flights,ACMI,damp leases,technical services,ground handling and crew training. It was the first airline in Egypt to receive EASA standards in maintenance certification and the IATA Operational Safety Audit. It used mostly A320's from the start to the end, which it had a few of at the end. The only other planes it used were an A319 for a few years and an A321 for a few months."/>
+</profile>
+  <info real="True" from="1998" to="2011" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+<focusairports>
+                 <focusairport airport="SSH"></focusairport> 
+		 <focusairport airport="HRG"></focusairport> 
+		 <focusairport airport="LXR"></focusairport> 
+     </focusairports>
+  
+  	      <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="4"></airliner>
+	     </airliners>
+	       	      <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Airbus A319-100" early="1" late="0"></airliner>
+	     </airliners>
+
+
+</airline>

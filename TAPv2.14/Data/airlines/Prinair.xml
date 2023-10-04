@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Prinair" iata="PQ" logo="PQ2"  color="Orange" area="402" CEO="Cesar Toledo" mentality="Moderate" market="Regional" preferedairport="PSE" routefocus="Mixed">
+  <narrative narrative="Prinair was around from oprations start in 1966 until June 1st,1985.Its operating base was Ponce,Puerto Rico while San Juan SJU was its main hub. Its name used during the first year was Ponce Airlines as the English translation. Prinair was adopted in 1967 and stands for Puerto Rico International Air Lines. Besides Ponce from San Juan it also served the Puerto Rican towns of Aguadilla and Mayaguez and the islands of Vieques and Culebra. It served the US Virgin Islands of St. Thomas and St. Croix which is still domestic. Internationally it served the British Virgin Islands,three cities in the Dominican Republic (Santo Domingo),Puerto Plata and Santiago,Antigua,Guadeloupe,Martinique,St. Kitts,Turks and Caicos,and Saint Martin. It also did cargo to the Miami,Florida area at Opa Locka Airport. At the start it used Aero Commander 500/600's. It would go on to use 28 DH Heron's and 4 Convair 580's and 7 CASA 212 Aviocar's. In the early 80's it introduced the Convairs. It was a main launch customer for the CASA CN-235, the right side of the prototype was in fact painted in Prinair livery, however the airline ceased before the plane was finished."/>
+   </profile>
+    <info real="True" from="1966" to="1986" />
+       <prefereds aircrafts="DH 114 Heron,Convair 440,Convair 240,CASA C212 Aviocar,Aero Commander 500/600"></prefereds>
+              <focusairports>
+                 <focusairport airport="SJU"></focusairport>
+	              </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1966) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Aero Commander 500/600" early="8" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1974) late (1985)-->
+	     	         <airliners>
+	    <airliner type="CASA C212 Aviocar" early="7" late="0"></airliner>
+	     </airliners>
+	              <!--the airliners the airline would start with which isn't on a route earyl (1970) late (1985)-->
+	     	         <airliners>
+	    <airliner type="DH 114 Heron" early="28" late="20"></airliner>
+	     </airliners>
+	                   <!--the airliners the airline would start with which isn't on a route earyl (1980) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Convair 440" early="4" late="4"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="PSE" destination2="SJU" opened="1966" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="STT" opened="1967" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="STX" opened="1967" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="BQN" opened="1968" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="VQS" opened="1968" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="CPX" opened="1969" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="MAZ" opened="1969" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="EIS" opened="1967" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="PLS" opened="1970" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="SDQ" opened="1970" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="STI" opened="1971" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="ANU" opened="1971" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="SKB" opened="1972" closed="2199"  routefocus="Passenger"/>
+		<route destination1="SJU" destination2="POP" opened="1972" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="BGI" opened="1973" closed="2199" routefocus="Passenger"/>
+		<route destination1="SJU" destination2="SXM" opened="1973" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="FDF" opened="1974" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="PTP" opened="1974" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="GDT" opened="1975" closed="2199" routefocus="Passenger" />
+		<route destination1="SJU" destination2="MIA" opened="1975" closed="2199" routefocus="Cargo" />
+		              </routes>
+</airline>

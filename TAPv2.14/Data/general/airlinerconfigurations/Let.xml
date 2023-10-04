@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Let L-->
+<configuration type="Let L-610" economy="-1" premium="0" first="0" business="0" exitrows="518" emergencyrows="0" toiletrows="-1" kitchenrows="740">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Let L-410" economy="-1" premium="0" first="0" business="0" exitrows="520" emergencyrows="0" toiletrows="-1" kitchenrows="520">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

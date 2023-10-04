@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Daily Air" iata="DA" color="Magenta" area="217" CEO="Qing Zhang" mentality="Safe" market="Domestic" preferedairport="KHH" routefocus="Mixed_Passenger">
+  <narrative narrative="Daily Air is a domestic Taiwan carrier that does flights to outlying islands from the main island. It began in 1992 with Bell 412 helicopters. In 2005 it began using fixed with Dornier 228's, and it also has two BK 117 helicopters as of March 2007. Its bases are Kaohsiung,Taipeu Songshan and a focus city at Taitung. At early 2015 it was going from Kaohsiung to the islands of Qimei and Wang-an in the Penghu Islands chain off the north coast of Taiwan's mainland. It was going from Qimei to the island of Penghu itself at Magong also. From Taitung it was serving the islands of Lyudao and Orchid Island, off the southeast coast of the mainland." />
+ </profile>
+    <info real="True" from="1992" to="2199" />
+       <prefereds aircrafts="Dornier 228-212,BK 117,Bell 412"></prefereds>
+       <focusairports>
+                 <focusairport airport="TTT"></focusairport> 
+		 <focusairport airport="TSA"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="2" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	     	         <airliners>
+	    <airliner type="BK 117" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Bell 412" early="2" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="KHH" destination2="CMJ"    />	
+	    <route destination1="CMJ" destination2="MZG"    />	
+	    <route destination1="KHH" destination2="WOT"    />	
+	    <route destination1="TTT" destination2="GNI"    />
+	    <route destination1="TTT" destination2="KYD"    />	
+                   </routes>
+</airline>

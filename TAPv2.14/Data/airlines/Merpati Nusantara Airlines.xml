@@ -1,0 +1,21 @@
+﻿<airline>
+  <profile name="Merpati Nusantara Airlines" iata="MZ" color="Gold" area="246" CEO="Asep Ekanugraha" mentality="Moderate" market="Regional" preferedairport="DPS">
+    <narrative
+      narrative="Merpati Nusantara Airlines was an airline based in Jakarta, Indonesia. It operated domestic flights as well as international flights to East Timor and Malaysia. Merpati means 'dove' in Indonesian and Nusantara is a Javanese word found in 'The Book of Kings', referring to the Indonesian Achipelago. The airline ceased operations in 2014." />
+  </profile>
+  <info real="True" from="1962" to="2014"></info>
+  <startdata>
+  <focusairports>
+	<focusairport airport="DPS"></focusairport>
+	<focusairport airport="SUB"></focusairport>
+	<focusairport airport="CGK"></focusairport>
+</focusairports>
+    <airliners>
+      <airliner type="Boeing 737-300" early="3" late="3"></airliner>
+      <airliner type="Boeing 737-400" early="1" late="2"></airliner>
+      <airliner type="Boeing 737-500" early="0" late="1"></airliner>
+      <airliner type="Xian MA60" early="10" late="14"></airliner>
+      <airliner type="DHC-6-300 Twin Otter" early="5" late="5"></airliner>
+    </airliners>
+  </startdata>
+</airline>

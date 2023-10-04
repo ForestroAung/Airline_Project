@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="LJ Air" iata="SNG" color="Maroon" area="209" CEO="Liang Fuhua" mentality="Safe" market="Domestic" preferedairport="HRB">
+  <narrative narrative="LJ Air is a domestic Chinese airline that commenced service on February 10,2017. Its base irs Harbin in eastern most area of China. It's only destination
+  so far from Harbin is to Hefei which is a 1,713 kilometer flight. Its initial fleet consist of two Airbus A321's, LJ is short for Longjiang, which is partly named for the province Harbin is the capital of
+,Heilongjiang." />
+ </profile>
+    <info real="True" from="2017" to="2199" />
+          <prefereds aircrafts="Airbus A321-200,Airbus A321neo"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="6"></airliner>
+	     </airliners>
+	     <routes>      
+	    <route destination1="HRB" destination2="HFE"  opened="2017" closed="2199"/>
+	                       </routes>
+</airline>

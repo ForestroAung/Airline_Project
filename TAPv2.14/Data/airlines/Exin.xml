@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Exin" iata="EXN" color="SlateBlue" area="157" CEO="Maciej Dziudzik" mentality="Safe" market="Regional" preferedairport="KTW" onlyfromhome="False" routefocus="Cargo">
+  <narrative narrative="Exin is a cargo airline based at Katowice,Poland. It began in 1991. At 2011 it had four Antonov An-26's. It operates for DHL on most of its flights. At April 2015 it was doing Katowice to Leipzig/Halle,Germany and the same route from Gdansk, and between Helsinki,Finland and Talinn,Estonia and from Bordeaux,France to Leipzig and Vitoria,Spain and the domestic route of Nice,France to Marseille,France. This makes it an airline that doesn't just fly from and to home. " />
+   </profile>
+    <info real="True" from="1991" to="2199" />
+       <prefereds aircrafts="Antonov An-26,Antonov An-12 Cargo"></prefereds>
+
+     <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="4" late="4"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="KTW" destination2="LEJ"  />
+	         <route destination1="GDN" destination2="LEJ"  />
+		 <route destination1="NCE" destination2="MRS"  />
+	         <route destination1="TLL" destination2="HEL"  />
+		 <route destination1="BOD" destination2="LEJ"  />
+		 <route destination1="BOD" destination2="VIT"  />
+              </routes>
+</airline>

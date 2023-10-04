@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Comac ARJ21-->
+<configuration type="Comac ARJ21-700" economy="-1" premium="0" first="0" business="2" exitrows="0,1096" emergencyrows="-1" toiletrows="0,1250" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86" width="58.7"></seat>
+</seats>
+</configuration>
+<configuration type="Comac ARJ21-900" economy="-1" premium="0" first="0" business="3" exitrows="0,1322" emergencyrows="-1" toiletrows="0,1550" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86" width="58.7"></seat>
+</seats>
+</configuration>
+
+<!--Comac C919-->
+<configuration type="Comac C919" economy="-1" premium="4" first="0" business="0" exitrows="0,2020" emergencyrows="837" toiletrows="0,2020" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.9" width="49"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" blocked="True" pitch="80" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Shanghai-->
+<configuration type="Shanghai Y-10" economy="-1" premium="0" first="0" business="4" exitrows="0,2400" emergencyrows="440" toiletrows="0,2400" kitchenrows="0,2400">
+<seats>
+<seat class="Economy_Class" type="Recliner" pitch="86" width="51.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="110" width="60"></seat>
+</seats>
+</configuration>
+
+</configurations>

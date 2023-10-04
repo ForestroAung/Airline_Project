@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Yak-6-->
+<configuration type="Yak-6" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Yak-10-->
+<configuration type="Yak-12" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Yak-40-->
+<configuration type="Yak-40" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="518" toiletrows="592" kitchenrows="0,592">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="46"></seat>
+</seats>
+</configuration>
+<configuration type="Yak-42" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="0,1425" kitchenrows="0,1425">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.3" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Yak-42D" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="0,1425" kitchenrows="0,1425">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.3" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

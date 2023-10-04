@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pride Air" iata="PDE" color="Gold" area="402" CEO="Paul Eckel" mentality="Moderate" market="Domestic" preferedairport="MSY">
+  <narrative narrative="Pride Air was based at New Orleans,LA and only flew from August 1,1985 to November 15,1985. From New Orleans it flew direct to Denver,CO Fort Lauderdale,FL Jacksonville,FL Las Vegas,NV Los Angeles,CA
+  Miami,FL Orlando,FL Sacramento,CA Salt Lake City,UT San Diego,CA San Francisco,CA San Jose,CA Sarasota,FL Tampa,FL and West Palm Beach,FL. It had six Boeing 727-200's and three 727-100's. It was managed by several people
+  who had tried to acquire Continental Airlines and many investors were former pilots of that airline that left after its first bankruptcy. It chose New Orleans because no one dominant airline controlled it. Kansas City,MO
+  was looked at but Eastern was building a focus there. Continental would end up being too much competition for them and yieled low passenger loads."/>
+</profile>
+  <info real="True" from="1985" to="1986" />
+  <prefereds aircrafts="Boeing 727-200,Boeing 727-100"></prefereds>
+                 <!--the airliners the airline would start with which isn't on a route earyl (1985) late (1986)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200" early="6" late="6"></airliner>
+	     </airliners>  
+	                      <!--the airliners the airline would start with which isn't on a route earyl (1985) late (1986)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-100" early="3" late="3"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="MSY" destination2="MIA"/>
+	       	  <route destination1="MSY" destination2="FLL"/>
+		  <route destination1="MSY" destination2="LAX"/>
+		  <route destination1="MSY" destination2="DEN"/>
+		  <route destination1="MSY" destination2="MCO"/>
+		  <route destination1="MSY" destination2="TPA"/>
+		  <route destination1="MSY" destination2="SFO"/>
+		  <route destination1="MSY" destination2="LAS"/>
+		  <route destination1="MSY" destination2="SAN"/>
+		  <route destination1="MSY" destination2="SLC"/>
+	 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Uganda" iata="U7" color="Brown" area="357" CEO="Cornwell Muleya"
+           mentality="Safe" market="Regional" preferedairport="EBB">
+    <narrative
+      narrative="Air Uganda was a privately owned airline in Uganda from 2007 to 2014. It was widely recognized as the national carrier since the collapse of Uganda Airlines in 2001.">
+    </narrative>
+  </profile>
+  <info real="True" from="2007" to="2014" />
+</airline>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="UPS Airlines" iata="5X" logo="5X" color="Brown" area="402" CEO="Brendan Canavan" mentality="Aggressive" market="Global" onlyfromhome="False" preferedairport="SDF" routefocus="Cargo">
+  <narrative narrative="UPS is an American cargo company, one of the largest in the world, whose main base is Louisville,Kentucky. The UPS facilities at Louisville Airport are named the Worldport. Its other major bases are Rockford,IL Philadelphia,PA Onatario,CA in the Los Angeles area, Dallas/Ft. Worth,TX Columbia,SC
+    Miami,FL and outside the US its most major hub is Colgne/Bonn,Germany along with the Chinese cities of Shenzhen,Shanghai Pudong and Hong Kong. Hamilton,ON is the hub for Canadian operations.
+  Their current fleet has 237 planes. 52 A300-600RF's, 75 757-200PF's, 59 767-300F's, 38 MD-11F's, and 13 747-400F's. In they past they also operated eight 727-100's, a few 747-200's,about 6 747-100's and over 50 DC-8-71's, a conversion that gave a DC 8-60 series better engines. 
+  They were officially founded in 1988 but trace their roots all the way back to the 20's, it was in 1988 that UPS Airlines was founded and began it's own fleet not having to rely on other carriers or commerical flights to carry their packages around the world. Although they did begin buying planes before their founding, such as the DC-8's,
+ most all of which were used passengers planes converted to freighters. Their home Louisville processed 2,885,978 metric tonnes of cargo in 2013. At March 2015 it was serving 727 destinations. 381 domestic and 346 international." />
+   </profile>
+    <info real="True" from="1988" to="2199" />
+       <prefereds aircrafts="Airbus A300-600F,Boeing 727-100C,Boeing 747-200F,Boeing 747-400F,Boeing 757-200PF,Boeing 767-300F,Douglas DC-8-62F,MD-11F,Boeing 747-100"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1999)-->
+       <focusairports>
+                 <focusairport airport="RFD"></focusairport>
+	         <focusairport airport="PHL"></focusairport>
+		 <focusairport airport="DFW"></focusairport>
+		 <focusairport airport="CAE"></focusairport>
+		 <focusairport airport="ONT"></focusairport>
+		 <focusairport airport="CGN"></focusairport>
+	         <focusairport airport="MIA"></focusairport>
+		 <focusairport airport="YHM"></focusairport>
+		 <focusairport airport="SZX"></focusairport>
+		 <focusairport airport="PVG"></focusairport>
+		 <focusairport airport="HKG"></focusairport>
+		 <focusairport airport="ANC"></focusairport>
+     </focusairports>
+	     	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="15" late="75"></airliner>
+	      <airliner type="Airbus A300-600F" early="7" late="53"></airliner>
+	     <airliner type="Boeing 747-400F" early="3" late="13"></airliner>
+	     <airliner type="Boeing 767-300F" early="5" late="59"></airliner>
+	     <airliner type="MD-11F" early="3" late="38"></airliner>
+	     <airliner type="Boeing 747-100" early="6" late="0"></airliner>
+	     <airliner type="Boeing 747-200F" early="2" late="0"></airliner>
+	     <airliner type="Boeing 727-100C" early="8" late="0"></airliner>
+	      <airliner type="Douglas DC-8-62F" early="38" late="0"></airliner>
+	      </airliners>
+	     <routes>
+	     
+
+                <route destination1="SDF" destination2="PHL" />
+	        <route destination1="SDF" destination2="DFW" />
+		<route destination1="SDF" destination2="MIA" />
+		<route destination1="SDF" destination2="ONT" />
+		<route destination1="SDF" destination2="RFD" />
+		<route destination1="SDF" destination2="CAE" />
+                <route destination1="SDF" destination2="JFK" />
+	        <route destination1="SDF" destination2="EWR" />
+		<route destination1="SDF" destination2="ORD" />
+		<route destination1="SDF" destination2="MSP" />
+		<route destination1="SDF" destination2="BFI" />
+		<route destination1="SDF" destination2="LAX" />
+		<route destination1="SDF" destination2="DEN" />
+		<route destination1="SDF" destination2="DTW" />
+		<route destination1="SDF" destination2="ANC" />
+		<route destination1="SDF" destination2="ATL" />
+		<route destination1="SDF" destination2="IAD" />
+		<route destination1="SDF" destination2="DSM" />
+		<route destination1="SDF" destination2="IAH" />
+		<route destination1="SDF" destination2="CLE" />
+		<route destination1="SDF" destination2="PIT" />
+		<route destination1="SDF" destination2="SLC" />
+		<route destination1="SDF" destination2="MEM" />
+		<route destination1="SDF" destination2="MHR" />
+		<route destination1="SDF" destination2="PHX" />
+		<route destination1="SDF" destination2="PDX" />
+		<route destination1="SDF" destination2="OAK" />
+		<route destination1="SDF" destination2="SAN" />
+		<route destination1="SDF" destination2="YHM" />
+		<route destination1="SDF" destination2="YYZ" />
+		<route destination1="SDF" destination2="BWI" />
+		<route destination1="SDF" destination2="OKC" />
+		<route destination1="SDF" destination2="FLL" />
+		<route destination1="SDF" destination2="CLT" />
+		<route destination1="SDF" destination2="YVR" />
+		<route destination1="SDF" destination2="BOS" />
+		<route destination1="SDF" destination2="STL" />
+		<route destination1="SDF" destination2="MCI" />
+		<route destination1="SDF" destination2="OMA" />
+		<route destination1="SDF" destination2="RDU" />
+		<route destination1="SDF" destination2="ABQ" />
+		<route destination1="SDF" destination2="SAT" />
+		<route destination1="SDF" destination2="SJC" />
+		<route destination1="SDF" destination2="HNL" />
+		<route destination1="SDF" destination2="SJU" />
+		<route destination1="SDF" destination2="MCO" />
+		<route destination1="SDF" destination2="JAX" />
+		<route destination1="SDF" destination2="AUS" />
+		<route destination1="SDF" destination2="BUF" />
+		<route destination1="SDF" destination2="BHM" />
+		<route destination1="SDF" destination2="BDL" />
+		<route destination1="SDF" destination2="SNA" />
+		<route destination1="SDF" destination2="RIC" />
+		<route destination1="SDF" destination2="GSO" />
+		<route destination1="SDF" destination2="BUR" />
+		<route destination1="SDF" destination2="GEG" />
+		<route destination1="SDF" destination2="GSP" />
+		<route destination1="SDF" destination2="TYS" />
+		<route destination1="SDF" destination2="LIT" />
+		<route destination1="SDF" destination2="MDT" />
+		<route destination1="SDF" destination2="PBI" />
+		<route destination1="SDF" destination2="MKE" />
+		<route destination1="SDF" destination2="MHT" />
+		<route destination1="SDF" destination2="LGB" />
+		<route destination1="SDF" destination2="LCK" />
+		<route destination1="SDF" destination2="TUL" />
+		<route destination1="SDF" destination2="LAS" />
+		<route destination1="SDF" destination2="YMX" />
+		<route destination1="SDF" destination2="PIE" />
+		<route destination1="SDF" destination2="MSY" />
+		<route destination1="SDF" destination2="SYR" />
+		<route destination1="SDF" destination2="MFE" />
+		<route destination1="SDF" destination2="PIA" />
+		<route destination1="SDF" destination2="LAN" />
+		<route destination1="SDF" destination2="JAN" />
+		<route destination1="SDF" destination2="BIL" />
+		<route destination1="SDF" destination2="CID" />
+		<route destination1="SDF" destination2="ALB" />
+		<route destination1="SDF" destination2="ABY" />
+		<route destination1="SDF" destination2="RSW" />
+		<route destination1="SDF" destination2="FWA" />
+		<route destination1="SDF" destination2="LFT" />
+		<route destination1="SDF" destination2="SWF" />
+		<route destination1="SDF" destination2="FSD" />
+		<route destination1="SDF" destination2="SGF" />
+		<route destination1="SDF" destination2="MEX" />
+		<route destination1="SDF" destination2="CGN" />
+		<route destination1="SDF" destination2="BOG" />
+		<route destination1="SDF" destination2="HKG" opened="2001" closed="2199" />
+	        <route destination1="RFD" destination2="PHL" />
+	        <route destination1="RFD" destination2="DFW" />
+		<route destination1="RFD" destination2="ONT" />
+		<route destination1="RFD" destination2="JFK" />
+		<route destination1="RFD" destination2="EWR" />
+		<route destination1="RFD" destination2="BFI" />
+		<route destination1="RFD" destination2="MSP" />
+		<route destination1="RFD" destination2="DTW" />
+		<route destination1="RFD" destination2="BWI" />
+		<route destination1="RFD" destination2="ANC" />
+		<route destination1="RFD" destination2="IAH" />
+		<route destination1="RFD" destination2="DSM" />
+		<route destination1="RFD" destination2="BDL" />
+		<route destination1="RFD" destination2="PIA" />
+		<route destination1="PHL" destination2="JFK" />
+		<route destination1="PHL" destination2="ORD" />
+		<route destination1="PHL" destination2="CAE" />
+		<route destination1="PHL" destination2="MIA" />
+		<route destination1="PHL" destination2="BOS" />
+		<route destination1="PHL" destination2="DTW" />
+		<route destination1="PHL" destination2="PIT" />
+		<route destination1="PHL" destination2="MSP" />
+		<route destination1="PHL" destination2="ATL" />
+		<route destination1="PHL" destination2="OAK" />
+		<route destination1="PHL" destination2="SJC" />
+		<route destination1="PHL" destination2="MDT" />
+		<route destination1="PHL" destination2="RDU" />
+		<route destination1="PHL" destination2="RIC" />
+		<route destination1="PHL" destination2="BDL" />
+		<route destination1="PHL" destination2="DSM" />
+		<route destination1="PHL" destination2="BUF" />
+		<route destination1="PHL" destination2="MHT" />
+		<route destination1="PHL" destination2="ALB" />
+		<route destination1="PHL" destination2="ABY" />
+		<route destination1="PHL" destination2="PIE" />
+                <route destination1="PHL" destination2="CGN" />		
+		<route destination1="PHL" destination2="STN" />
+		<route destination1="PHL" destination2="EMA" />
+		<route destination1="CAE" destination2="ATL" />
+		<route destination1="CAE" destination2="DFW" />
+		<route destination1="CAE" destination2="MIA" />
+                <route destination1="CAE" destination2="MCO" />		
+		<route destination1="CAE" destination2="ONT" />
+		<route destination1="CAE" destination2="OAK" />
+		<route destination1="CAE" destination2="SMF" />
+		<route destination1="CAE" destination2="PIE" />
+		<route destination1="CGN" destination2="STN" />
+		<route destination1="CGN" destination2="EMA" />
+		<route destination1="CGN" destination2="CDG" />
+                <route destination1="CGN" destination2="DXB" />		
+		<route destination1="CGN" destination2="MAD" />
+		<route destination1="CGN" destination2="CIA" />
+		<route destination1="CGN" destination2="VKO" />
+		<route destination1="CGN" destination2="OSL" />
+		<route destination1="CGN" destination2="ARN" />
+		<route destination1="CGN" destination2="WAW" />
+		<route destination1="CGN" destination2="VIE" />
+		<route destination1="CGN" destination2="HEL" />
+		<route destination1="CGN" destination2="BCN" />
+		<route destination1="CGN" destination2="BUD" />
+		<route destination1="CGN" destination2="VCE" />
+		<route destination1="CGN" destination2="VLC" />
+		<route destination1="CGN" destination2="TLV" />
+		<route destination1="CGN" destination2="AOI" />
+		<route destination1="CGN" destination2="SZX" opened="2001" closed="2199" />
+		<route destination1="CGN" destination2="PVG" opened="2001" closed="2199" />
+		<route destination1="CGN" destination2="HKG" opened="2001" closed="2199" />
+		<route destination1="CGN" destination2="SIN" opened="2001" closed="2199" />
+		<route destination1="CGN" destination2="BOM" />
+		<route destination1="CGN" destination2="TPE" opened="2001" closed="2199"/>
+		<route destination1="CGN" destination2="ALA" opened="2001" closed="2199"/>
+		<route destination1="CGN" destination2="MMX" />
+		<route destination1="SZX" destination2="ANC" opened="2001" closed="2199"/>
+		<route destination1="SZX" destination2="DXB" opened="2001" closed="2199"/>
+	        <route destination1="SZX" destination2="SIN" opened="2001" closed="2199"/>
+		<route destination1="SZX" destination2="ICN" opened="2001" closed="2199"/>
+	        <route destination1="SZX" destination2="KIX" opened="2001" closed="2199"/>
+		<route destination1="SZX" destination2="BOM" opened="2001" closed="2199"/>
+	        <route destination1="SZX" destination2="KUL" opened="2001" closed="2199"/>
+		<route destination1="SZX" destination2="BKK" opened="2006" closed="2199"/>
+                <route destination1="HKG" destination2="ANC" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="DXB" opened="2001" closed="2199"/>
+	        <route destination1="HKG" destination2="ONT" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="SIN" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="ICN" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="TPE" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="KIX" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="BOM" opened="2001" closed="2199"/>
+	        <route destination1="HKG" destination2="CTS" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="CRK" opened="2001" closed="2199"/>
+                <route destination1="HKG" destination2="SYD" opened="2001" closed="2199"/>
+		<route destination1="HKG" destination2="HNL" opened="2001" closed="2199"/>
+                <route destination1="HKG" destination2="ILM" opened="2001" closed="2199"/>
+	        <route destination1="PVG" destination2="NRT" opened="2001" closed="2199"/>
+		<route destination1="PVG" destination2="ICN" opened="2001" closed="2199"/>
+		<route destination1="PVG" destination2="KIX" opened="2001" closed="2199"/>
+		<route destination1="PVG" destination2="WAW" opened="2001" closed="2199"/>
+	        <route destination1="NRT" destination2="CRK" opened="2001" closed="2199"/>
+		<route destination1="NRT" destination2="ONT" opened="2001" closed="2199"/>
+
+
+		
+
+		
+
+              </routes>
+	     
+</airline>

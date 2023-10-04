@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Changuinola">
+  <months>
+    <month month="1" precipitation="319">
+      <temp min="22" max="27" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="201">
+      <temp min="22" max="27" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="193">
+      <temp min="22" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="287">
+      <temp min="23" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="282">
+      <temp min="24" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="276">
+      <temp min="24" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="408">
+      <temp min="23" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="289">
+      <temp min="23" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="163">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="198">
+      <temp min="24" max="28" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="367">
+      <temp min="23" max="27" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="402">
+      <temp min="22" max="27" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+  </months>
+</weather>

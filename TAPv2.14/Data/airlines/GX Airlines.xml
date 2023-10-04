@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="GX Airlines" iata="CBG" color="Tomato" area="209" CEO="Wu Chongyang" mentality="Moderate" market="Regional" preferedairport="NNG">
+    <narrative narrative="GX Airlines, which is short for Guangxi Beibu Gulf Airlines, is a Chinese airline based at Nanning in the Guangxi Province in Southeast China. It is a subsidiary of Tianjin Airlines which owns 70% of it. The Guangxi Beibu Gulf Investment Group owns the rest. It commenced operations on February 13th,2015
+    between Nanning and Haikou. It has added 17 routes since at the time this is being typed in January 2016. All of them are domestic at this time, but it plans on adding the Special Regions of Hong Kong and Macau and Taiwan and other regional cities in neiboring countries soon. It uses ten Embraer 190's as
+    of December 2015 which are leased from the parent."/>  </profile>
+  <info real="True" from="2015" to="2199"/>
+  <prefereds aircrafts="Embraer E-190,Embraer E-190E2,Embraer E-195E2"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+  <airliners>
+    <airliner type="Embraer E-190" early="10" late="30"/>
+  </airliners>
+  <routes>
+    <route destination1="NNG" destination2="HAK" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="TSN" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="CSX" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="CGO" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="XIY" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="TAO" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="HET" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="KHN" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="HFE" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="LYI" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="JNG" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="NNY" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="YIH" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="BFJ" opened="2015" closed="2199"/>
+    <route destination1="NNG" destination2="HKG" opened="2016" closed="2199"/>
+    <route destination1="NNG" destination2="MFM" opened="2016" closed="2199"/>
+    <route destination1="NNG" destination2="TPE" opened="2017" closed="2199"/>
+  </routes>
+</airline>

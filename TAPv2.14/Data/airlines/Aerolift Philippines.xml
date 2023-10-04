@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aerolift Philippines" iata="LFT" color="Green" area="240" CEO="Ben Solis" mentality="Moderate" market="Domestic" preferedairport="MNL">
+  <narrative narrative="Aerolift Philippines was around from 1982 to 1996. It was a domestic airline. Its hubs were Manila and Cebu. It was the main pioneer of the feeder airline type in the Philippines from Manila. It flew to Kalibo,Dipolog,Tagbilaran,San Jose,Ormoc and Surigao regularly. It also flew to Caticlan,Busuanga,Bagabag,Catarman,Basco,El Nido and Cuyo. It was the first airline to introduce service to Caticlan and Busuanga. It used Beechcraft 1900C's most of its life, having 2 or 3 at the end. In 1989 the government had named it the second flag carrier after Philippine Airlines. Its competition with the PA prompted PA to use bigger planes than it had been at Dipolog,Kalibo and Tagbilaran, the Fokker 50 was what it started seding those places."/>
+</profile>
+  <info real="True" from="1982" to="1996" />
+  <prefereds aircrafts="Beechcraft 1900C,DHC-6-100 Twin Otter"></prefereds>
+            <focusairports>
+                 <focusairport airport="CEB"></focusairport> 
+     </focusairports>
+               <routes>
+	                  <route destination1="MNL" destination2="CEB" />
+	                  <route destination1="MNL" destination2="KLO" />
+			  <route destination1="MNL" destination2="DPL" />
+			  <route destination1="MNL" destination2="TAG" />
+			  <route destination1="MNL" destination2="SJI" />
+	      	          <route destination1="MNL" destination2="SUG" />
+			  <route destination1="MNL" destination2="OMC" />
+			  <route destination1="MNL" destination2="MPH" />
+			  <route destination1="MNL" destination2="USU" />
+			  <route destination1="MNL" destination2="CRM" />
+			  <route destination1="MNL" destination2="BSO" />
+        </routes>
+</airline>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Thomson Airways" iata="BY" color="Red" area="102" CEO="John Murphy" mentality="Aggressive" market="Global " preferedairport="LGW">
+    <narrative narrative="Thomson Airways Limited is the world's largest charter airline, offering scheduled and charter flights from the United Kingdom and the Republic of Ireland to destinations in Europe, Africa, Asia and North America. "/>
+  
+	  <info real="True" from="2008" to="2199"/>
+   </profile>
+	<prefereds aircrafts="Boeing 737 MAX 9,Boeing 757-200,Boeing 737-800,Boeing 787-8">
+	</prefereds>
+  <focusairports>
+		<focusairport airport="MAN"/>
+		<focusairport airport="BFS"/>
+		<focusairport airport="BHX"/>
+    <focusairport airport="BOH"/>
+		<focusairport airport="EDI"/>
+		<focusairport airport="EXT"/>
+    <focusairport airport="LBA"/>
+	</focusairports>
+		<startdata>
+	<airliners>
+      <airliner type="Boeing 737-800" early="18" late="25"/>
+      <airliner type="Boeing 737 MAX 8" early="3" late="9"/>
+      <airliner type="Boeing 737 MAX 9" early="1" late="6"/>
+      <airliner type="Boeing 757-200" early="6" late="14"/>
+      <airliner type="Boeing 787-8" early="2" late="6"/>
+	</airliners>
+</startdata>
+</airline>

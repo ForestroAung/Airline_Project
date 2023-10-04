@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Niue Airlines" iata="FN" logo="FN2" color="MediumTurquoise" area="452" CEO="Robert Rex" mentality="Safe" market="Regional" preferedairport="IUE">
+  <narrative narrative="Niue Airlines was around from 1990 to late 1992. It was the flag carrier of the tiny Pacific island nation of Niue, which is a self governing state in free association with New Zealand, and is only home to about 1,200 people as of 2014. The airline used a chartered Air Nauru 737 and carried mail as well. Its route was to Auckland,New Zealand with a stopover in Tonga. If not enough demand for either passenger or mail was met the flight was not normally done. Near the end of the airlines life it used a King Air made by Beechcraft and flew to Pago Pago,American Samoa. It failed when it could not afford to pay its fuel bills. The route from Niue to Auckland is the only route offered from Niue at 2015 and Air New Zealand does it. Niue Airlines itself was mostly owned by New Zealand investors as well, but there was local investment also."/>
+</profile>
+  <info real="True" from="1990" to="1993" />
+  <prefereds aircrafts="Boeing 737-300,Beechcraft King Air B200"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="1" late="1"></airliner>
+	     </airliners>
+
+               <routes>
+	       	          <route destination1="IUE" destination2="TBU" destination3="AKL" />
+		        </routes>
+</airline>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Tikal Jets Airlines" iata="TKC" color="Gold" area="404" CEO="Fernando Rodriguez" mentality="Safe" market="Regional" preferedairport="GUA">
+  <narrative narrative="Tikal Jets Airlines was around from 1992 until August 31,2006. Its base was La Aurora Airport in Guatemala City with a focus city at Mundo Maya Airport in Flores. It flew international
+  routes to Mexico City and Cancun,Mexico Havana,Cuba Managua,Nicaragua and San Pedro Sula,Honduras. Its final fleet consisted of two DC-9-50's,a DC-9-30,two BAC One Eleven 400's, and three Let 410's.
+  The DC-9's had been in use since 2003. It was named after the Tikal ruins,an ancient Mayan city found in the rainforest of Guatemala, which is about 64km or 40 miles from its focus city of Flores."/>
+</profile>
+  <info real="True" from="1992" to="2007" />
+  <prefereds aircrafts="Douglas DC-9-30,MD DC-9-50,BAC One-Eleven 400,Let L-410"></prefereds>
+    <focusairports>
+		 <focusairport airport="FRS"></focusairport>
+					      </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="2" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	         <airliners>
+	    <airliner type="MD DC-9-50" early="2" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2006)-->
+	         <airliners>
+	    <airliner type="BAC One-Eleven 400" early="2" late="2"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2006)-->
+	         <airliners>
+	    <airliner type="Let L-410" early="0" late="2"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="GUA" destination2="FRS"   />
+		<route destination1="GUA" destination2="MEX" />
+		<route destination1="GUA" destination2="MGA" />
+		<route destination1="GUA" destination2="SAP" />
+		<route destination1="GUA" destination2="HAV" />
+		<route destination1="GUA" destination2="CUN" />
+	        </routes>
+
+</airline>

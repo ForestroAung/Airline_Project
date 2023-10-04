@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Royal Wings" iata="RYW"  color="Gold" area="301" CEO=" Hussain Dabbas" mentality="Safe" market="Global" preferedairport="AMM" schedule="Charter">
+    <narrative narrative="Royal Wings is a subsidiary of Royal Jordanian that  does charters. It is based at Amman's two airports, Queen Alia and Amman Civil. It began in 1996 as both a schedule and charter airline with two Bombardier Dash 8's. In 2005 it switched to focusing on charters only. At June 2013 it was using 
+    one A320-200.It was offering charters to Alexandria,Egypt Algiers,Algeria Antalya,Turkey Ankara,Turkey Aqaba,Jordan Al Arish,Egypt Rhodes,Greece  Sharm el Sheikh,Egypt and Warsaw,Poland."/>
+  </profile>
+  <info real="True" from="1996" to="2199"/>
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo,Bombardier Dash 8-400"/>
+          <focusairports>
+	 <focusairport airport="ADJ"></focusairport>
+     </focusairports>
+           <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2013)-->
+  <airliners>
+    <airliner type="Bombardier Dash 8-400" early="1" late="0"/>
+  </airliners>
+               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2013)-->
+  <airliners>
+    <airliner type="Airbus A320-200" early="0" late="1"/>
+  </airliners>
+  <routes>
+    <route destination1="AMM" destination2="ALG"/>
+    <route destination1="AMM" destination2="HBE"/>
+    <route destination1="AMM" destination2="AYT"/>
+    <route destination1="AMM" destination2="AQJ" />
+    <route destination1="AMM" destination2="RHO" />
+    <route destination1="AMM" destination2="WAW" />
+    <route destination1="AMM" destination2="SSH" />
+    <route destination1="AMM" destination2="ESB" />
+    <route destination1="AMM" destination2="AAC" />
+  </routes>
+</airline>

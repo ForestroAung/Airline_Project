@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dagestan Airlines" iata="DAG" color="Yellow" area="177" CEO="Ramazan Abdulatipov" mentality="Safe" market="Global" preferedairport="MCX">
+  <narrative narrative="Dagestan Airlines was around from 1994 to December 19,2011. It was based at Makhachkala,Russia which is the main city of the Republic of Dagestan in the North Caucasus region. Uytash Airport
+  is the name of its main airport. It used the name South East Airlines in its last two years. It had been a part of Aeroflot and broke off in 1994. From 1994 to 1996 it used the name Makhachkala Air Enterprise.
+  At December 2010 it was going to Moscow Vnukovo,Moscow Domodedovo and St. Petersburg domestic wise and international to Istanbul,Turkey and Sharjah,United Arab Emirates. Its final fleet was three Tu-154M's,
+  two Tu-134's,one Tu-154B,one Antonov 24 and some Mil-8 helicopters."/>
+</profile>
+  <info real="True" from="1994" to="2012" />
+  <prefereds aircrafts="Tupolev Tu-154M,Tupolev Tu-134B,Tupolev Tu-154B"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="3" late="3"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-154B" early="1" late="1"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134B" early="2" late="2"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="MCX" destination2="VKO" />
+		  <route destination1="MCX" destination2="DME" />
+		  <route destination1="MCX" destination2="LED" />
+        </routes>
+</airline>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Linus Airways" iata="LIN" color="YellowGreen" area="246" CEO="Julius Indra" mentality="Safe" market="Domestic" preferedairport="CGK">
+  <narrative narrative="Linus Airways was a short lived domestic Indonesian airline based at Jakarta Soekarno-Hatta International Airport. It started in 2008 and ceased April 27th,2009. It served Medan,Semarang,Batam,Pekanbaru,Palembang and Bandung. It used two BAe 146-200's. A reason it ceased is because it no longer had any planes at the end. Its name is short for Lintasan Nusantara which means The Bridge Across the Archipelago."/>
+</profile>
+  <info real="True" from="2008" to="2009" />
+  <prefereds aircrafts="BAe 146-200"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="2" late="2"></airliner>
+	     </airliners>
+               <routes>
+		          <route destination1="CGK" destination2="SRG" />
+			  <route destination1="CGK" destination2="BTH" />
+			  <route destination1="CGK" destination2="PKU" />
+			  <route destination1="CGK" destination2="MES" />
+			  <route destination1="CGK" destination2="PLM" />
+        </routes>
+</airline>

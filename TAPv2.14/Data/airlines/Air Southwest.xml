@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Southwest" iata="SZ" logo="ASW" color="Purple" area="102" CEO="Peter Davies"
+           mentality="Safe" market="Regional" preferedairport="BRS">
+    <narrative
+      narrative="Air Southwest was a British airline founded by Sutton Harbour Holdings in 2003.  It operated regional scheduled passenger services in the South West of England. Its main base was Plymouth City Airport, with hubs at Newquay Cornwall Airport and Bristol Airport. The airline employed 145 people and was headed by managing director Peter Davies and Deputy chief executive Mike Coombes." />
+  </profile>
+  <info real="True" from="2003" to="2011"></info>
+  <prefereds aircrafts="Bombardier Dash 8-300"></prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="Bombardier Dash 8-300" early="2" late="3"></airliner>
+    </airliners>
+  </startdata>
+</airline>

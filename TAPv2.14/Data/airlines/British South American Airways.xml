@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<airline>
+
+  <profile name="British South American Airways" iata="BSAA" LOGO="BSAA" color="Blue" area="102" CEO="Don Bennett"
+           mentality="Safe"
+ market="Global" preferedairport="LHR">
+
+  <narrative narrative="British South American Airways (BSAA) was a state-run airline in the United Kingdom in the late 1940s responsible for services to the Caribbean and South America. Originally named British Latin American Air Lines it was renamed before services started in 1946." />
+
+  </profile>
+     <info real="True" from="1946" to="1950"></info>
+    <focusairports>
+      <focusairport airport="BDA"></focusairport>
+      <focusairport airport="LHR"></focusairport>
+      <focusairport airport="LIS"></focusairport>
+      <focusairport airport="MVD"></focusairport>
+      <focusairport airport="NAS"></focusairport>
+      <focusairport airport="NAT"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Avro Lancastrian,Avro York"></prefereds>
+                <airliners>
+     <airliner type="Avro Lancastrian" early="8" late="16"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Avro York" early="19" late="15"></airliner>
+      </airliners>
+<routes> 
+     <route destination1="BAQ" destination2="LIM"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="BDA" destination2="SMA"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="BDA" destination2="KIN"  opened="1947" closed="1950"   />
+     <route destination1="CGH" destination2="GIG"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="KIN" destination2="BAQ"  opened="1947" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="LHR" destination2="SMA"  opened="1946" closed="1950"   />
+     <route destination1="LHR" destination2="LIS"  opened="1946" closed="1950"   />
+     <route destination1="LIM" destination2="SCL"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="LIS" destination2="DKR"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="MVD" destination2="CGH"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="MVD" destination2="EZE"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="MVD" destination2="GIG"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="NAS" destination2="KIN"  opened="1949" closed="1950"   />
+     <route destination1="NAS" destination2="MIA"  opened="1949" closed="1950"   />
+     <route destination1="NAS" destination2="MEX"  opened="1949" closed="1950"   />
+     <route destination1="NAT" destination2="CGH"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="NAT" destination2="DKR"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="NAT" destination2="GIG"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+     <route destination1="SCL" destination2="EZE"  opened="1946" closed="1950"    airliner="Avro Lancastrian"  />
+                   </routes>
+</airline>

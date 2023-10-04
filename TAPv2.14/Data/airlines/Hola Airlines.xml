@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Hola Airlines" iata="H5"  color="DarkOliveGreen" area="117" CEO="Mario Hidalgo" mentality="Safe" market="Regional" preferedairport="PMI" schedule="Charter">
+  <narrative narrative="Hola Airlines was a charter airline around from May 15,2002 until February 15,2010. Its main base was Palma de Mallorca with another at Madrid. It operated within Europe mostly. It had a subsidiary
+  from April 2006 to 2009,Gadair European Airlines, which provided ACMI leases for services globally. Hola Airlines fleet was made of three 737-300's at the start,two in 2002 and another in 2003. A few other 737-300's were leased in 2007 and 2008.
+  In 2007 it got a 737-400 and in 2009 another. In 2003 it got a 757-200 and had it untl August 2006 when it leased another one for a year. At the end in 2010 it had the two 737-400's."/>
+   </profile>
+    <info real="True" from="2002" to="2010" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-300,Boeing 757-200"></prefereds>
+	<focusairports>
+			       <focusairport airport="MAD"></focusairport>
+		     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="0"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="2"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+	     </airliners>
+
+</airline>

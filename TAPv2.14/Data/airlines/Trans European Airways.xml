@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Trans European Airways" iata="HE" logo="HE2" color="Blue" area="112" CEO="George P. Gutelman" mentality="Moderate" market="Regional" preferedairport="BRU" schedule="Charter">
+  <narrative narrative="Trans European Airways was a leisure airline that operated Charter flights from Brussels Airport to European holiday destinations."/>
+   </profile>
+    <info real="True" from="1970" to="1991"/>
+       <prefereds aircrafts="Airbus A300B2,Airbus A300B4,Boeing 720 (707-020),Boeing 707-320,Boeing 737-200,Boeing 737-300,Lockheed L-049 Constellation"></prefereds>
+</airline>

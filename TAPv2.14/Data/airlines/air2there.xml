@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="air2there" iata="ATT" color="Orange" area="252" CEO="Warwick Wild" mentality="Safe" market="Domestic" preferedairport="PPQ">
+  <narrative narrative="air2there is a domestic New Zealand carrier based at Kapiti Coast Airport at Paraparaumu. It flies from there to Nelson and Blenheim and between Nelson and Blenheim as well. It started in 2004. 
+  At around the end of 2014 its fleet had two Piper PA-31's, a Beechcraft King Air 200 and a Cessna 208 Grand Caravan. The King Air was acquired in 2013 and is used for air ambulance service. It served Wellington from
+  2005 to 2014. Masterton,Palmerston North and Wanganui were started in February 2005 as well but these ended by the end of the year."/>
+</profile>
+  <info real="True" from="2004" to="2199" />
+  <prefereds aircrafts="PA-31 Navajo,Cessna 208B,Beechcraft King Air B200"></prefereds>
+            	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="1"></airliner>
+	     </airliners>  
+            	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="PA-31 Navajo" early="2" late="2"></airliner>
+	     </airliners> 
+            	      <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="1" late="1"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="PPQ" destination2="NSN"   />
+                  <route destination1="PPQ" destination2="BHE"   />
+		  <route destination1="NSN" destination2="BHE"  />
+		  <route destination1="PPQ" destination2="WLG"  opened="2005" closed="2014"  />
+		 		        </routes>
+
+
+
+
+</airline>

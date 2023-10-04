@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fly Tiwi" iata="FLT" color="Wheat" area="251" CEO="John Hardy" mentality="Moderate" market="Local" preferedairport="DRW">
+  <narrative narrative="Fly Tiwi is based at Darwin in Australia's Northern Territory and was founded in 2008. It is a branch of Hardy Aviation. Its name comes from one of the main places it serves, the Tiwi Islands off the coast of the Northern Territory. The islands it serves are 2 airports on Melville Island,Bathurst Island,
+  Croker Island,and South Goulburn Island. From Darwin it goes to the mainland airports at Gapuwiyak (Lake Evella),Tennant Creek and Ramingining as well. Tennant Creek is its longest route at 874 km to the inland town, the rest are on the islands or along the coast. Most of its longer routes are done 3 times a week. Melville Island and Bathurst are served several times a day." />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+   <prefereds aircrafts="Cessna 441 Conquest II,Cessna 404 Titan,Cessna 402C,Cessna 206,Fairchild Swearingen Metroliner,Cessna 210 Centurion,Beechcraft Baron 58"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Cessna 441 Conquest II" early="5" late="5"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Cessna 404 Titan" early="5" late="5"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Cessna 402C" early="4" late="4"></airliner>
+	     </airliners>
+	   		       	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="3" late="3"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Cessna 206" early="3" late="3"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Cessna 210 Centurion" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	         <airliners>
+	    <airliner type="Beechcraft Baron 58" early="1" late="1"></airliner>
+	     </airliners>
+	
+	
+
+
+<routes>
+    <route destination1="DRW" destination2="BRT" />
+    <route destination1="DRW" destination2="SNB" />
+		<route destination1="DRW" destination2="GBL" />
+		<route destination1="DRW" destination2="CKI" />
+		<route destination1="DRW" destination2="RAM" />
+		<route destination1="DRW" destination2="LEL" />
+		<route destination1="DRW" destination2="GPN" />
+		<route destination1="DRW" destination2="TCA" />
+        </routes>
+  
+
+
+</airline>

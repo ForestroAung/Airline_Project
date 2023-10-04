@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Grumman Mallard-->
+<configuration type="Grumman Mallard" economy="0" premium="0" first="-1" business="0" exitrows="685" emergencyrows="-1" toiletrows="685" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="114" width="52"></seat>
+</seats>
+</configuration>
+
+<!--Grumman Widgeon-->
+<configuration type="Grumman Widgeon" economy="0" premium="0" first="-1" business="0" exitrows="150" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Gulfstream-->
+<configuration type="Gulfstream I" economy="0" premium="0" first="-1" business="0" exitrows="680" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="85" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream II" economy="0" premium="0" first="-1" business="0" exitrows="680" emergencyrows="-1" toiletrows="580" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="82.8" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

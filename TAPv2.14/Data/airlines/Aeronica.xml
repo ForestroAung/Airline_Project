@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeronica" iata="ANI" color="Sienna" area="408" CEO="Gabino Ramirez" mentality="Safe" market="Regional" preferedairport="MGA">
+  <narrative narrative="Aeronica was an airline from Nicaragua from 1981 to 1992. It was based at Managua. Its name is short for Aerolineas Nicaraguenses. It started the same year the other Nicaragua carrier LANICA ceased and
+  took over for LANICA. Aeronica flew to San Jose,Costa Rica San Salvador,El Salvador Guatelmala City,Guatemala Panama City,Panama and Miami,FL,USA. It did not fly to Miami from May 1985 to March 1990 however due to the US
+  embargo against Nicaragua. This also made it so Aeronica had to buy Soviet planes like the Tu-154M during this time because they could not buy parts to fix their American planes. In 1992 TACA bought 49% but it did not help and the airline shut down
+  and its license revoked. TACA founded NICA as a replacement in 1994 but that ceased in 2004. Some of the plane Aeronica used were Boeing 727-200's,Boeing 720's,Tupolev Tu-154M's,Antonov 26's,Antonov 32's,
+  Douglas DC-6's,Fokker F27's,and CASA Aviocars."/>
+</profile>
+  <info real="True" from="1981" to="1992" />
+  <prefereds aircrafts="Boeing 727-200,Boeing 727-200 Adv.,Tupolev Tu-154M,Boeing 720B (707-020B),Antonov An-26,Antonov An-32,Douglas DC-6,Douglas DC-6B,CASA C212 Aviocar,Fokker F27"></prefereds>
+  
+               <routes>
+	          <route destination1="MGA" destination2="GUA"   />
+                  <route destination1="MGA" destination2="SAL"   />
+		  <route destination1="MGA" destination2="SJO"   />
+		  <route destination1="MGA" destination2="PTY"   />
+		  <route destination1="MGA" destination2="MEX"   />
+		  <route destination1="MGA" destination2="MIA"   />
+		 		        </routes>
+
+
+
+
+</airline>

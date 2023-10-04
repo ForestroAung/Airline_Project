@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Airbus A220-->
+<configuration type="Airbus A220-100" economy="-1" premium="0" first="0" business="4" exitrows="0,1926" emergencyrows="710" toiletrows="0,1926" kitchenrows="0,1926">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.2" width="47"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="81.3" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A220-300" economy="-1" premium="0" first="0" business="6" exitrows="0,2330" emergencyrows="912" toiletrows="0,2330" kitchenrows="0,2330">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86.4" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Airbus A300-->
+<configuration type="Airbus A300B2" economy="-1" premium="0" first="5" business="0" exitrows="0,432,2920" emergencyrows="2006" toiletrows="0,432,2920" kitchenrows="0,432,2920">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat><!--248Y-->
+<seat class="First_Class" type="Recliner" pitch="86.4" width="60"></seat><!--35F-->
+</seats>
+</configuration>
+<configuration type="Airbus A300B4" economy="-1" premium="0" first="5" business="0" exitrows="0,432,2920" emergencyrows="2006" toiletrows="0,432,2920" kitchenrows="0,432,2920">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat><!--248Y-->
+<seat class="First_Class" type="Recliner" pitch="86.4" width="60"></seat><!--35F-->
+</seats>
+</configuration>
+<configuration type="Airbus A300-600" economy="-1" premium="0" first="5" business="0" exitrows="0,432,2920" emergencyrows="2006" toiletrows="0,432,2920" kitchenrows="0,432,2920">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80" width="47.5"></seat><!--248Y-->
+<seat class="First_Class" type="Recliner" pitch="88" width="60"></seat><!--35F-->
+</seats>
+</configuration>
+<configuration type="Airbus A300-600R" economy="-1" premium="0" first="5" business="0" exitrows="0,432,2920" emergencyrows="2006" toiletrows="0,432,2920" kitchenrows="0,432,2920">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80" width="47.5"></seat><!--248Y-->
+<seat class="First_Class" type="Recliner" pitch="88" width="60"></seat><!--35F-->
+</seats>
+</configuration>
+
+<!--Airbus A310-->
+<configuration type="Airbus A310-200" economy="-1" premium="0" first="0" business="2" exitrows="0,2400" emergencyrows="889" toiletrows="0,889,2400" kitchenrows="0,2400">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="47.5"></seat><!--252Y-->
+<seat class="First_Class" type="Recliner" pitch="86.4" width="60"></seat><!--14F-->
+</seats>
+</configuration>
+<configuration type="Airbus A310-300" economy="-1" premium="0" first="0" business="3" exitrows="0,2400" emergencyrows="889" toiletrows="0,889,2400" kitchenrows="0,2400">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.2" width="47.5"></seat><!--243Y-->
+<seat class="Business_Class" type="Recliner" pitch="86.4" width="60"></seat><!--21F-->
+</seats>
+</configuration>
+
+<!--Airbus A320-->
+<configuration type="Airbus A318-100" economy="-1" premium="0" first="0" business="3" exitrows="0,1702" emergencyrows="339" toiletrows="0,1702" kitchenrows="0,1702">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A319-100" economy="-1" premium="0" first="0" business="3" exitrows="0,1830" emergencyrows="702" toiletrows="0,1830" kitchenrows="0,1830">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A320-100" economy="-1" premium="0" first="0" business="6" exitrows="0,2295" emergencyrows="780,859" toiletrows="0,2295" kitchenrows="0,2295">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A320-200" economy="-1" premium="0" first="0" business="6" exitrows="0,2295" emergencyrows="780,860" toiletrows="0,2295" kitchenrows="0,2295">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A321-100" economy="-1" premium="0" first="0" business="8" exitrows="0,2840" emergencyrows="700,1800" toiletrows="0,2840" kitchenrows="0,2840">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A321-200" economy="-1" premium="0" first="0" business="8" exitrows="0,2840" emergencyrows="700,1800" toiletrows="0,2840" kitchenrows="0,2840">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Airbus A320neo-->
+<configuration type="Airbus A319neo" economy="-1" premium="0" first="0" business="3" exitrows="0,1920" emergencyrows="772" toiletrows="0,1920" kitchenrows="0,1920">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="52"></seat>
+</seats>
+</configuration>
+<configuration type="Airbus A320neo" economy="-1" premium="0" first="0" business="7" exitrows="0,2350" emergencyrows="850,930" toiletrows="0,2350" kitchenrows="0,2350">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.4" width="50.8"></seat><!--138Y-->
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="52"></seat><!--28J-->
+</seats>
+</configuration>
+<configuration type="Airbus A321neo" economy="-1" premium="0" first="0" business="8" exitrows="0,2845" emergencyrows="700,1800" toiletrows="0,2845" kitchenrows="0,2845">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.4" width="50.8"></seat><!--168Y-->
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="52"></seat><!--32J-->
+</seats>
+</configuration>
+<configuration type="Airbus A321neoLR" economy="-1" premium="0" first="0" business="8" exitrows="0,2845" emergencyrows="700,1800" toiletrows="0,2845" kitchenrows="0,2845">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.4" width="50.8"></seat><!--168Y-->
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="52"></seat><!--32J-->
+</seats>
+</configuration>
+<configuration type="Airbus A321neoXLR" economy="-1" premium="0" first="2" business="8" exitrows="0,2845" emergencyrows="700,1800" toiletrows="0,2845" kitchenrows="0,2845">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.4" width="50.8"></seat><!--138Y-->
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="52"></seat><!--48J-->
+<seat class="First_Class" type="Flat Bed" pitch="185" width="78.9"></seat><!--8F-->
+</seats>
+</configuration>
+
+<!--Airbus A330-->
+<configuration type="Airbus A330-200" economy="-1" premium="3" first="0" business="7" exitrows="0,760,3450" emergencyrows="2460" toiletrows="760,2460" kitchenrows="760,3450">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="50.8"></seat><!--216Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--21W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="152.4" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Airbus A330-300" economy="-1" premium="4" first="0" business="7" exitrows="0,775,3620" emergencyrows="2560" toiletrows="775,2560" kitchenrows="0,775,3620">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.7" width="50.8"></seat><!--224Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="154.9" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Airbus A330-800neo" economy="-1" premium="3" first="0" business="8" exitrows="0,760,3450" emergencyrows="2460" toiletrows="760,2460" kitchenrows="760,3450">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.1" width="50.8"></seat><!--200Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--21W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="153.9" width="70"></seat><!--48J-->
+</seats>
+</configuration>
+<configuration type="Airbus A330-900neo" economy="-1" premium="4" first="0" business="7" exitrows="0,775,3700" emergencyrows="2560" toiletrows="775,2560" kitchenrows="0,775,3700">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.8" width="50.8"></seat><!--224Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="154.9" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+
+<!--Airbus A340-->
+<configuration type="Airbus A340-200" economy="-1" premium="4" first="0" business="7" exitrows="0,1085,3500" emergencyrows="2608" toiletrows="0,1085,2608" kitchenrows="0,1085,3500">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78" width="50.8"></seat><!--208Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="154.9" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Airbus A340-300" economy="-1" premium="4" first="0" business="7" exitrows="0,775,3855" emergencyrows="2608" toiletrows="0,775,2608" kitchenrows="0,775,3855">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.8"></seat><!--240Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="154.9" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Airbus A340-500" economy="-1" premium="4" first="0" business="9" exitrows="0,875,4150" emergencyrows="2717" toiletrows="0,875,2717" kitchenrows="0,875,4150">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.6" width="50.8"></seat><!--224Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="100" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Flat Bed" pitch="175" width="70"></seat><!--54J-->
+</seats>
+</configuration>
+<configuration type="Airbus A340-600" economy="-1" premium="4" first="0" business="7" exitrows="0,1225,5400" emergencyrows="1225,2032,3370" toiletrows="0,1225,3370" kitchenrows="0,1225,3370,5400">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="50.8"></seat><!--296Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="98" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="156" width="70"></seat><!--42J-->
+</seats>
+</configuration>
+
+<!--Airbus A350-->
+<configuration type="Airbus A350-900" economy="-1" premium="3" first="0" business="8" exitrows="0,915,3890" emergencyrows="3033" toiletrows="0,915,3033" kitchenrows="0,915,3890">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.8"></seat><!--243Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--21W-->
+<seat class="Business_Class" type="Flat Bed" pitch="182" width="76.8"></seat><!--48J-->
+</seats>
+</configuration>
+<configuration type="Airbus A350-900ULR" economy="0" premium="-1" first="0" business="16" exitrows="0,915,3890" emergencyrows="3033" toiletrows="0,915,3033" kitchenrows="0,915,3890">
+<seats>
+<seat class="Premium_Economy_Class" type="Recliner" pitch="88.9" width="60"></seat><!--77W-->
+<seat class="Business_Class" type="Flat Bed" pitch="182" width="76.8"></seat><!--96J-->
+</seats>
+</configuration>
+<configuration type="Airbus A350-1000" economy="-1" premium="4" first="0" business="10" exitrows="0,1800,4320" emergencyrows="3320" toiletrows="0,1800,3320" kitchenrows="0,1800,4320">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79" width="50.8"></seat><!--243Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--28W-->
+<seat class="Business_Class" type="Flat Bed" pitch="180" width="76.8"></seat><!--60J-->
+</seats>
+</configuration>
+
+<!--Airbus A380-->
+<configuration type="Airbus A380-800" economy="-1" premium="8" first="4" business="18" exitrows="-3985,-823,0,810,4085" emergencyrows="-3166,2344,3535" toiletrows="-3985,-823,-1,0,2344,4085" kitchenrows="-3985,-823,-1,810,3535,4085">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.8" width="50.8"></seat><!--420Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--64W-->
+<seat class="Business_Class" type="Flat Bed" pitch="175.6" width="73.3"></seat><!--108J-->
+<seat class="First_Class" type="Open Suites" pitch="205.7" width="110"></seat><!--16F-->
+</seats>
+</configuration>
+
+<!--Airbus AS332 Super-->
+<configuration type="AS332 Super Puma" economy="-1" premium="0" first="0" business="0" exitrows="150" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Airbus EC130-->
+<configuration type="EC130" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="EC135" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="147" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Airbus EC225 Super Puma-->
+<configuration type="EC225 Super Puma" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77" width="50"></seat>
+</seats>
+</configuration>
+ </configurations>

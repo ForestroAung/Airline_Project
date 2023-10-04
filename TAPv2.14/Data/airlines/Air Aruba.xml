@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Aruba" iata="FQ"  color="MediumBlue" area="422" CEO="Tawa Irausquin" mentality="Moderate" market="Global" preferedairport="AUA">
+  <narrative narrative="Air Aruba was the flag carrier of the island nation belonging to the Kingdom of the Netherlands from 1988 to late 2000. It began in 1986 as a ground handling agent and two years  later 
+  started flying to the other Netherlands Antilles islands of Curcao and Bonaire and Caracas,Venezuela. It used three Japanese NAMC YS-11's for this. In 1990 it got a 757-200 and began flying to Miami,FL,USA
+  and started flying to places like Santo Domingo,Dominican Republic Newark,NJ,USA Sao Paulo,Brazil Saint Marteen Maracaibo,Venezuela and Las Piedras,Venezuela over the few years after founding. In 1991 or 1990
+  it began leasing a 767-200 from Air Holland to fly to Amsterdam and Cologne,Germany. By 1995 it had stopped using the 757 type and by 1995 the 767 type of which it also had a 767-300 for a short time. It had a 737-300 for a short time
+  from 1990 to 1992 also. Eventually it replaced the NAMC's with two Embraer 120 Brasilia's. In 1992 it got two MD-82's which it had until the end. It also got an MD-83 but stopped using it a few years later.
+  In 1993 it got a Douglas DC-9-30 which it used until the end and in 1998 it got three MD-90's which it used until the end. Other places it served were Orlando,FL,USA Tampa,FL,USA Houston,TX,USA Baltimore,MD,USA
+  Philadelphia,PA,USA Manaus,Brazil Barranquilla,Bogota,Cali and Medellin in Colombia and in Venezuela aside from places already mentioned it served Barcelona,Coro,Isla Margarita,and Valencia also. It also had one leased 727-100
+  at one time. In 1998 Venezuelan airline Aserca bought a majority of the airline to help it through bankruptcy. But in 2000 it would do the same and this time cease operations. Ascera is still flying as of 2015 itself."/>
+   </profile>
+    <info real="True" from="1988" to="2001" />
+       <prefereds aircrafts="NAMC YS-11,MD-83 (DC-9-83),MD-90-30,MD-88 (DC-9-88),Douglas DC-9-30,Boeing 757-200,Boeing 767-200,EMB 120 Brasilia,Boeing 727-100"></prefereds>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2000)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2000)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2000)-->
+	     	         <airliners>
+	    <airliner type="MD-90-30" early="3" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1990) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1990) late (1995)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (1994)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-200" early="1" late="0"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1992) late (1994)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300" early="1" late="0"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1995)-->
+	     	         <airliners>
+	    <airliner type="NAMC YS-11" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2000)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="1"></airliner>
+	     </airliners>
+	     
+	     
+	     
+
+	       <routes>
+	       	<route destination1="AUA" destination2="CUR"  opened="1988" closed="2199" />
+		<route destination1="AUA" destination2="BON" opened="1988" closed="2199" />
+		<route destination1="AUA" destination2="CCS" opened="1988" closed="2199"  />
+		<route destination1="AUA" destination2="SDQ" opened="1989" closed="2199"  />
+		<route destination1="AUA" destination2="SXM" opened="1989" closed="2199"  />
+		<route destination1="AUA" destination2="MIA" opened="1990" closed="2199"  />
+		<route destination1="AUA" destination2="MAR" opened="1990" closed="2199"  />
+		<route destination1="AUA" destination2="AMS" opened="1990" closed="2199"  />
+		<route destination1="AUA" destination2="CGN" opened="1990" closed="2199"  />
+		<route destination1="AUA" destination2="EWR" opened="1991" closed="2199"  />
+		<route destination1="AUA" destination2="LSP" opened="1991" closed="2199"  />
+		<route destination1="AUA" destination2="GRU" opened="1992" closed="2199"  />
+		<route destination1="AUA" destination2="BOG" opened="1992" closed="2199"  />
+		<route destination1="AUA" destination2="BLA" opened="1993" closed="2199"  />
+		<route destination1="AUA" destination2="PMV" opened="1993" closed="2199"  />
+		<route destination1="AUA" destination2="CZE" opened="1993" closed="2199"  />
+		<route destination1="AUA" destination2="VLN" opened="1993" closed="2199"  />
+		<route destination1="AUA" destination2="BAQ" opened="1994" closed="2199"  />
+		<route destination1="AUA" destination2="CLO" opened="1994" closed="2199"  />
+		<route destination1="AUA" destination2="MDE" opened="1994" closed="2199"  />
+		<route destination1="AUA" destination2="MCO" opened="1994" closed="2199"  />
+		<route destination1="AUA" destination2="TPA" opened="1995" closed="2199"  />
+		<route destination1="AUA" destination2="IAH" opened="1995" closed="2199"  />
+		<route destination1="AUA" destination2="PHL" opened="1998" closed="2199"  />
+		<route destination1="AUA" destination2="MAO" opened="1996" closed="2199"  />
+		<route destination1="AUA" destination2="BWI" opened="1997" closed="2199"  />
+
+		
+              </routes>
+</airline>

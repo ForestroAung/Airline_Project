@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Siam" iata="VG" color="DeepSkyBlue" area="234" CEO="Prince Varanand" mentality="Safe" market="Global" preferedairport="DMK" routefocus="Mixed">
+  <narrative narrative="Air Siam was an airline based at Bangkok,Thailand from 1970 to sometime in 1976. It had been founded on September 15,1965 by Prince Varanand. In 1970 it started cargo operations with a DC-4 to Hong Kong. In March 1971 it wet leased a DC-8-63 from Overseas National Airways and started passenger service to Tokyo,Japan and Honolulu,Hawaii,USA and Los Angeles,California,USA. It suspended these services in January 1972. In May it started the Hong Kong route again with a BAC One Eleven 400 and in December 1972 a Boeing 707-120. In 1973 it got a 747-100 which is would have until near the end. In April 1974 it ordered an Airbus A300B2 and A300B4. It got the A300B2 in October,being only the second airline using this plane on scheduled service so far. In 1974 it got a DC-10-30 which it wanted to use to restart the Los Angeles route. The rights were however never granted for it to operate on any of the routes it had planned using the A300's for and the DC-10 and the A300 was returned to the lessor. The DC-10 was kept until the end. Air Siam was the only long haul operator from Thailand outside of Thai International. The government thought of doing a merger between the two but this never happened. A new government took office in 1976 and by the start of 1977 they were closed so Thailand would have only one long haul carrier. It also had a 747-200B in its last year or so." />
+ </profile>
+    <info real="True" from="1970" to="1977" />
+       <prefereds aircrafts="MD DC-10-30,Airbus A300B2,Airbus A300B4,Boeing 747-100,Boeing 747-200B,Boeing 707-120,Douglas DC-8-63"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (1971) late (1972)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-8-63" early="1" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1970) late (1971)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-4-1009" early="1" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1972) late (1974)-->
+	     	         <airliners>
+	    <airliner type="BAC One-Eleven 400" early="1" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1973) late (1976)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-100" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1974) late (1976)-->
+	     	         <airliners>
+	    <airliner type="MD DC-10-30" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (1977)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-200B" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1974) late (1976)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300B2" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1973) late (1977)-->
+	     	         <airliners>
+	    <airliner type="Boeing 707-120" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+	      <routes>  
+	    <route destination1="DMK" destination2="HKG"  opened="1970" closed="2199" routefocus="Passenger"   />	
+	    <route destination1="DMK" destination2="HND"  opened="1971" closed="2199" routefocus="Passenger"  />	
+	    <route destination1="DMK" destination2="HNL" opened="1971" closed="1972" routefocus="Passenger"  />
+	    <route destination1="DMK" destination2="LAX" opened="1971" closed="1972" routefocus="Passenger"  />
+                   </routes>
+</airline>

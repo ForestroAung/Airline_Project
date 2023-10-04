@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="KLM Royal Dutch Airlines" iata="KL" color="Cyan" area="111" CEO="PF Hartman" mentality="Aggressive" market="Global "
+           preferedairport="AMS">
+    <narrative
+      narrative="Koninklijke Luchtvaart Maatschappij N.V. (Royal Aviation Company), known by its initials KLM, is the flag carrier airline of the Netherlands. KLM's headquarters is in Amstelveen near its hub at Amsterdam Airport Schiphol. KLM operates worldwide scheduled passenger and cargo services to more than 90 destinations. It is the oldest airline in the world still operating under its original name. As of 31 March 2010 it had 31,787 employees." />
+  </profile>
+ 
+    <airliners>
+      
+       <!--the airliners the airline would start with which isn't on a route early (2005) late (2016)-->
+      <airliner type="Airbus A330-200" early="0" late="11"></airliner>
+      
+       <!--the airliners the airline would start with which isn't on a route early (2008) late (2020)-->
+      <airliner type="Airbus A330-300" early="0" late="3"></airliner>
+    
+     <!--the airliners the airline would start with which isn't on a route early (2008) late (2030)-->
+      <airliner type="Boeing 737-700" early="0" late="18"></airliner>
+     
+      <!--the airliners the airline would start with which isn't on a route early (1999) late (2030)-->
+      <airliner type="Boeing 737-800" early="0" late="23"></airliner>
+      
+       <!--the airliners the airline would start with which isn't on a route early (2001) late (2030)-->
+      <airliner type="Boeing 737-900" early="0" late="5"></airliner>
+      
+       <!--the airliners the airline would start with which isn't on a route early (1989) late (2017)-->
+      <airliner type="Boeing 747-400" early="0" late="6"></airliner>
+     
+      <!--the airliners the airline would start with which isn't on a route early (1989) late (2017)-->
+      <airliner type="Boeing 747-400M" early="0" late="16"></airliner>
+      
+       <!--the airliners the airline would start with which isn't on a route early (2003) late (2033)-->
+      <airliner type="Boeing 777-200ER" early="0" late="15"></airliner>
+      
+       <!--the airliners the airline would start with which isn't on a route early (2008) late (2038)-->
+      <airliner type="Boeing 777-300ER" early="0" late="7"></airliner>
+      
+      <!--the airliners the airline would start with which isn't on a route early (1938) late (1948)-->
+      <airliner type="Lockheed Model 14 Super Electra" early="6" late="0"></airliner>
+      
+      <!--the airliners the airline would start with which isn't on a route early (1936) late (1964)-->
+      <airliner type="Douglas DC-3" early="23" late="0"></airliner>
+      
+      <!--the airliners the airline would start with which isn't on a route early (1945) late (1959)-->
+      <airliner type="C-54 Skymaster" early="37" late="0"></airliner>
+      
+      <!--the airliners the airline would start with which isn't on a route early (1946) late (1950)-->
+      <airliner type="L-049 Constellation" early="6" late="0"></airliner>
+      
+      <!--the airliners the airline would start with which isn't on a route early (1947) late (1964)-->
+      <airliner type="L-749 Constellation" early="19" late="0"></airliner>
+      
+     <!--the airliners the airline would start with which isn't on a route early (1948) late (1964)-->
+      <airliner type="Convair 240" early="14" late="0"></airliner>
+       
+      
+<!--the airliners the airline would start with which isn't on a route early (1948) late (1963)-->
+      <airliner type="Douglas DC-6" early="10" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1948) late (1963)-->
+      <airliner type="Douglas DC-6B" early="7" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1953) late (1966)-->
+      <airliner type="L-1049 Super Constellation" early="22" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1953) late (1966)-->
+      <airliner type="Douglas DC-7C" early="15" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1957) late (1966)-->
+      <airliner type="Vickers Viscount 800" early="9" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1959) late (1969)-->
+      <airliner type="Lockheed L-188A" early="12" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1960) late (1972)-->
+      <airliner type="Douglas DC-8-32" early="7" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1961) late (1977)-->
+      <airliner type="Douglas DC-8-51" early="14" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1967) late (1985)-->
+      <airliner type="Douglas DC-8-63" early="11" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1966) late (1989)-->
+      <airliner type="Douglas DC-9-10" early="6" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1967) late (1989)-->
+      <airliner type="Douglas DC-9-30" early="19" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1972) late (2003)-->
+      <airliner type="Boeing 747-200B" early="17" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1983) late (2004)-->
+      <airliner type="Boeing 747-300" early="3" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1972) late (1995)-->
+      <airliner type="MD DC-10-30" early="5" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1983) late (1997)-->
+      <airliner type="Airbus A310-200" early="10" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1986) late (2011)-->
+      <airliner type="Boeing 737-300" early="16" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1989) late (2011)-->
+      <airliner type="Boeing 737-400" early="11" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1989) late (1998)-->
+      <airliner type="Fokker 100" early="6" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1993) late (2014)-->
+      <airliner type="MD-11" early="10" late="0"></airliner>
+    
+    <!--the airliners the airline would start with which isn't on a route early (1995) late (2007)-->
+      <airliner type="Boeing 767-300ER" early="12" late="0"></airliner>
+    
+    </airliners>
+   <routes>
+  	<route destination1="AMS" destination2="LHR" opened="1920" closed="2199"></route>
+  	<route destination1="AMS" destination2="JKT" opened="1929" closed="1985"></route>
+  	<route destination1="AMS" destination2="CGK" opened="1985" closed="2199"></route>
+  	<route destination1="AMS" destination2="BCN" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="CDG" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="CIA" opened="1946" closed="1960"></route>
+  	<route destination1="AMS" destination2="FCO" opened="1961" closed="2199"></route>
+  	<route destination1="AMS" destination2="CPH" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="MAD" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="FRA" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="MAN" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="MUC" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="ZRH" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="ARN" opened="1960" closed="2199"></route>
+  	<route destination1="AMS" destination2="LIS" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="GVA" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="IST" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="OSL" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="EDI" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="LIN" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="VIE" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="DXB" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="JFK" opened="1948" closed="2199"></route>
+  	<route destination1="AMS" destination2="ATL" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="BKK" opened="1960" closed="2199"></route>
+  	<route destination1="AMS" destination2="NBO" opened="1960" closed="2199"></route>
+  	<route destination1="AMS" destination2="CUR" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="YYZ" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="HKG" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="SZB" opened="1946" closed="1998"></route>
+  	<route destination1="AMS" destination2="KUL" opened="1998" closed="2199"></route>
+  	<route destination1="AMS" destination2="TLV" opened="1950" closed="2199"></route>
+  	<route destination1="AMS" destination2="IAH" opened="1969" closed="2199"></route>
+  	<route destination1="AMS" destination2="PEK" opened="1960" closed="2199"></route>
+  	<route destination1="AMS" destination2="SIN" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="SHA" opened="1946" closed="1999"></route>
+  	<route destination1="AMS" destination2="PVG" opened="1999" closed="2199"></route>
+  	<route destination1="AMS" destination2="AUH" opened="1982" closed="2199"></route>
+  	<route destination1="AMS" destination2="IAD" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="LAX" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="BON" opened="1946" closed="2199"></route>
+
+  	<route destination1="AMS" destination2="AUA" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="SXM" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="PBM" opened="1946" closed="2199"></route>
+
+  	<route destination1="AMS" destination2="CPT" opened="1946" closed="2199"></route>
+  	<route destination1="AMS" destination2="ATH" opened="1946" closed="2199"></route>
+  </routes>
+
+ <random_routes>
+
+ 	<routes origin="AMS" destinations="18" minimumsize="Small">
+
+ 	<countries>
+          <country value="102"></country>
+          <country value="103"></country>
+          <country value="105"></country>
+          <country value="105"></country>
+          <country value="110"></country>
+          <country value="117"></country>
+          <country value="120"></country>
+          <country value="123"></country>
+          <country value="130"></country>
+          <country value="135"></country>
+          <country value="137"></country>
+          <country value="139"></country>
+          <country value="140"></country>
+          <country value="141"></country>
+          <country value="147"></country>
+          <country value="150"></country>
+          <country value="154"></country>
+          <country value="159"></country>
+          <country value="161"></country>
+          <country value="163"></country>
+          <country value="164"></country>
+          <country value="166"></country>
+          <country value="167"></country>
+          <country value="168"></country>
+          <country value="169"></country>
+          <country value="185"></country>
+          <country value="231"></country>
+          <country value="254"></country>
+        </countries>
+
+ 	</routes>
+
+ </random_routes>
+  <info real="True" from="1919" to="2199" />
+</airline>

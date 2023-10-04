@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AirAsia X" iata="D7" color="Black" area="242" CEO="Tony Fernandes" mentality="Safe" market="Global"
+           preferedairport="KUL" businessmodel="LCC">
+    <narrative narrative="Air Asia X s a long-haul, budget airline based in Malaysia. It commenced operations on 2 November 2007 with its first service flew from Kuala Lumpur International Airport, Malaysia, to Gold Coast Airport in Australia. AirAsia X flies to destinations within Asia and Oceania." />
+  </profile>
+  <info real="True" from="2007" to="2199" />
+  <prefereds aircrafts="Airbus A330-300"></prefereds>
+  
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-300" early="10" late="20"></airliner>
+    </airliners>  
+    <routes>
+      <route destination1="KUL" destination2="AUH" opened="2012" closed="2013"/>
+      <route destination1="KUL" destination2="ADL" opened="2011" closed="2013"/>
+      <route destination1="KUL" destination2="PEK"/>
+      <route destination1="KUL" destination2="PUS"/>
+      <route destination1="KUL" destination2="CTU"/>
+      <route destination1="KUL" destination2="CKG"/>
+      <route destination1="KUL" destination2="CHC" opened="2011" closed="2013"/>
+      <route destination1="KUL" destination2="CMB"/>
+      <route destination1="KUL" destination2="DEL" opened="2012" closed="2013"/>
+      <route destination1="KUL" destination2="OOL"/>
+      <route destination1="KUL" destination2="HGH"/>
+      <route destination1="KUL" destination2="JED"/>
+      <route destination1="KUL" destination2="KTM"/>
+      <route destination1="KUL" destination2="STN" opened="2011" closed="2012"/>
+      <route destination1="KUL" destination2="LGW" opened="2011" closed="2013"/>
+      <route destination1="KUL" destination2="MLE" opened="2011" closed="2013"/>
+      <route destination1="KUL" destination2="BOM" opened="2011" closed="2013"/>
+      <route destination1="KUL" destination2="NGO"/>
+      <route destination1="KUL" destination2="KIX"/>
+      <route destination1="KUL" destination2="ORY" opened="2011" closed="2012"/>
+      <route destination1="KUL" destination2="PER"/>
+      <route destination1="KUL" destination2="ICN"/>
+      <route destination1="KUL" destination2="PVG"/>
+      <route destination1="KUL" destination2="SYD"/>
+      <route destination1="KUL" destination2="TPE"/>
+      <route destination1="KUL" destination2="IKA"/>
+      <route destination1="KUL" destination2="TSN"/>
+      <route destination1="KUL" destination2="HND"/>
+      <route destination1="KUL" destination2="NRT"/>
+      <route destination1="KUL" destination2="XIY"/>
+    </routes>
+  </startdata>  
+</airline>

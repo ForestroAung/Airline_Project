@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Africa West" iata="FK" color="Orange" area="337" CEO="John Jacobson" mentality="Safe" market="Global" onlyfromhome="False" preferedairport="LFW" routefocus="Cargo">
+  <narrative narrative="Africa West is a cargo airline based at Lome,Togo. It has another hub at Liege,Belgium, Niamey,Niger Bamako,Mali and Cotonou,Benin. At March 2015 it was flying to all these places from Lome
+  in additon to Bangui,Central African Republic and Brazzaville,Republic of the Congo. From Liege it flies to Niamey,Bamako and Cotonou besides Lome. And the same for the other hubs,they are all conneceted having regular flights between them.
+ It has bases all over West Africa too,such as Douala,Cameroon Monrovia,Liberia Malabo,Equitorial Guinea Ouagadougou,Burkina Faso Brazzaville and Poine Noire,Republic of the Congo, Freetown,Sierra Leone, Conakry,Guinea and
+ Libreville,Gabon. The airline was founded in 1997. It has a DC-9-30 as of January 2012 and also does charters. It had a 757 from at the start also. " />
+</profile>
+   <info real="True" from="1997" to="2199"></info>
+   <focusairports>
+                 <focusairport airport="LGG"></focusairport>
+		 <focusairport airport="NIM"></focusairport>
+		  <focusairport airport="BKO"></focusairport>
+		  <focusairport airport="COO"></focusairport>
+		   <focusairport airport="BZV"></focusairport>
+		 <focusairport airport="DLA"></focusairport>
+		  <focusairport airport="MLW"></focusairport>
+		  <focusairport airport="SSG"></focusairport>
+		   <focusairport airport="OUA"></focusairport>
+		 <focusairport airport="PNR"></focusairport>
+		  <focusairport airport="FNA"></focusairport>
+		  <focusairport airport="CKY"></focusairport>
+		   <focusairport airport="LBV"></focusairport>
+     </focusairports>
+  <prefereds aircrafts="Douglas DC-9-30,Boeing 757-200PF"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+<routes>
+	        <route destination1="LFW" destination2="LGG" opened="1997" closed="2199" />
+	        <route destination1="LFW" destination2="NIM"  opened="1997" closed="2199"  />
+	        <route destination1="LFW" destination2="BKO" opened="1997" closed="2199" />
+	        <route destination1="LFW" destination2="COO"  opened="1997" closed="2199"  />
+		<route destination1="LFW" destination2="BGF"  opened="1997" closed="2199"  />
+	        <route destination1="LGG" destination2="NIM" opened="1997" closed="2199" />
+	        <route destination1="LGG" destination2="BKO"  opened="1997" closed="2199"  />
+		<route destination1="LGG" destination2="COO"  opened="1997" closed="2199"  />
+                <route destination1="NIM" destination2="BKO" opened="1997" closed="2199" />
+	        <route destination1="NIM" destination2="COO"  opened="1997" closed="2199"  />
+		<route destination1="BKO" destination2="COO"  opened="1997" closed="2199"  />
+		<route destination1="LFW" destination2="BZV" opened="1997" closed="2199" />
+              </routes>
+  
+
+
+</airline>

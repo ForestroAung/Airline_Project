@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="New Central Airservice" iata="CUK" color="Blue" area="220" CEO="Hiroshi Nagahama" mentality="Safe" market="Local" preferedairport="CHP"> 
+  <narrative narrative="New Central Airservice is a Japanese airline based at Chofu Airport in Chofu, which is a city that makes up part of the Tokyo Metropolis, and lies about 20 kilometers
+  to the west of downtown Tokyo. It was founded on December 15th,1978 and as of 2016 is serving 4 routes from Chofu. All these routes are to islands in the Izu Islands chain that spread south of Tokyo and Tokyo Bay.
+  These islands are Izu Oshima,Miyakeshima,Niijima and Kozushima. From Chofu these range from between exactly 100 kilometers to 177 kilometers away. At August 2014 it had  four Dornier 228-212's. It also used to use two BN Islanders." />
+</profile>
+   <info real="True" from="1978" to="2199"></info>
+   <prefereds aircrafts="Dornier 228-212,BN-2A Islander"></prefereds>
+<routes>
+          <route destination1="CHP" destination2="MYE"/>
+          <route destination1="CHP" destination2="OIM"/>
+          <route destination1="CHP" destination2="NII"/>
+          <route destination1="CHP" destination2="JAZ"/>
+	        
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1978) late (2016)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="0"></airliner>
+	     </airliners>
+	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="0" late="4"></airliner>
+	     </airliners>
+
+
+</airline>

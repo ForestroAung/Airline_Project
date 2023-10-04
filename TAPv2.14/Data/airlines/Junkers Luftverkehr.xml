@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Junkers Luftverkehr" iata="JLV" color="MediumBlue" area="108" CEO="Johannes Viehweger" mentality="Safe" market="Regional" preferedairport="JHT" >
+  <narrative 
+  narrative="The initials of Germany’s commercial air traffic after WW I were laid during the National Convent at Weimar, which started in March 1919. Shortly before the beginning of the Weimar Convent Hugo Junkers decided to start an airtransport service between Weimar and Dessau. 
+  On March 3rd, 1919 he put a request for an airline approval to the Reichsluftamt and already in March 17th, 1919 the RLM Approval No. 5 for a commercial airline service between Dessau and Weimar was still issued for Junkers-Fokker Werke A.G. 
+  In April 1919 the Departement of Air Traffic (Abt. Luftverkehr) was founded at Junkers Flugzeugwerke. This departement was responsible for the complete organisation of Junkers air traffic. Merged in 1926 with the 'Deutsche Aero Lloyd' and becomes the first 'Deutsche Luft Hansa'."/>
+   </profile>
+  <info real="True" from="1921" to="1926" />
+  <startdata>
+ <prefereds aircrafts="F.13,Fokker F.V"></prefereds>
+<focusairports>
+        <focusairport airport="THF"></focusairport>
+</focusairports>
+<routes>
+		<route destination1="JHT" destination2="HAJ" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="HAM" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="GDN" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="DRS" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="BRE" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="AOC" opened="1921" closed="1926"></route>
+		<route destination1="JHT" destination2="FRA" opened="1921" closed="1926"></route>
+		<route destination1="AOC" destination2="CGN" opened="1921" closed="1926"></route>
+		<route destination1="AOC" destination2="NUE" destination3="MUC" opened="1922" closed="1926"></route>
+		<route destination1="MUC" destination2="VIE" destination3="BUD" opened="1922" closed="1926"></route>
+		<route destination1="AMS" destination2="HAM" destination3="CPH" opened="1922" closed="1926"></route>
+		</routes>
+</startdata>
+  </airline>

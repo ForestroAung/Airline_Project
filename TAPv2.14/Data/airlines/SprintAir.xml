@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SprintAir" iata="SRN" color="DeepPink" area="157" CEO="Jan Szczepkowski" mentality="Moderate" market="Local" preferedairport="WAW" routefocus="Mixed">
+  <narrative narrative="SprintAir is based at Warsaw Chopin and does cargo and passenger operations. It serves 8 domestic airports besides Warsaw in its cargo operations, and internationally Kaunas,Lithuania Riga,Latvia
+  and Kiev Zhuliany,Ukraine. Its passenger route is Warsaw to Zielona Gora. On March 31st,2015 it began a wet lease agreement with LOT and will operate some passenger domestic service to places like Krakow,
+  Katowice,Poznan,Gdansk and Rzeszow and sometimes internationally to places like Budapest,Hungary. Wroclaw and Bydgoszcz are also part of the cargo service. SprintAir was founded in 2008 in the ashes of Direct Fly which
+  did domestic passenger service using two Saab 340's and lasted from April 2006 to May 2007. Its two Saabs became part of SprintAir. SprintAir began with four Saab 340's. At June 2013 it had 15 of those, seven for cargo,three for
+  passengers and five that can quickly convert between the two. It also had a Let 410 for cargo and two Diamond DA20 trainers. During the summer of 2011 it leased an A320 from Portugal based White Airways to fly holiday charters to
+  the Mediterranean. This was the only time this has been done so far." />
+   </profile>
+    <info real="True" from="2008" to="2199" />
+       <prefereds aircrafts="Saab 340B"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="4" late="15"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="1" late="1"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="WAW" destination2="IEG" routefocus="Passenger"  />
+	         <route destination1="WAW" destination2="KUN" routefocus="Cargo"  />
+	         <route destination1="WAW" destination2="RIX" routefocus="Cargo"  />
+		 <route destination1="WAW" destination2="IEV" routefocus="Cargo"  />
+		 <route destination1="WAW" destination2="KRK" routefocus="Passenger,Cargo"  />
+		 <route destination1="WAW" destination2="KTW" routefocus="Passenger,Cargo"  />
+		 <route destination1="WAW" destination2="POZ" routefocus="Passenger,Cargo"  />
+		 <route destination1="WAW" destination2="GDN" routefocus="Passenger,Cargo"  />
+		 <route destination1="WAW" destination2="RZE" routefocus="Passenger,Cargo"  />
+		 <route destination1="WAW" destination2="BUD" routefocus="Passenger"  />
+              </routes>
+</airline>

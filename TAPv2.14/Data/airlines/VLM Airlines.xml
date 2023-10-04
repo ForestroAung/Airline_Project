@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="VLM Airlines" iata="VO" color="Blue" area="112" CEO="Karl Rickard" mentality="Moderate" market="Regional" preferedairport="ANR">
+  <narrative narrative="VLM Airlines started operations in May 1993 with a scheduled service between Antwerp International Airport and London City Airport. 'VLM' is an abbreviation of Vlaamse Luchttransport Maatschappij, 'Flemish Air Transport Company'. Its original hub was Antwerp; this was switched to London City, and after a management buy-out late in 2014, it was again based at Antwerp Airport." />
+ </profile>
+    <info real="True" from="1992" to="2018" />
+    <focusairports>
+      <focusairport airport="WAT"></focusairport>
+            <focusairport airport="LCY"></focusairport>
+            <focusairport airport="MBX"></focusairport>
+            <focusairport airport="ZRH"></focusairport>
+            <focusairport airport="ANR"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Airbus A320-200,Fokker 50"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2026)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="1" late="3"></airliner>
+	     </airliners>
+</airline>

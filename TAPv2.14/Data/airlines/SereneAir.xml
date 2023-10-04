@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SereneAir" iata="SEP" color="Turquoise" area="221" CEO="Sohail Gul Khan" mentality="Moderate" market="Domestic" preferedairport="KHI">
+  <narrative narrative="SereneAir is a domestic Pakistan airline that began service in January 2017. It is the fourth domestic airline of Pakistan. Its base is Karachi with corporate headquarters in Islamabad. It goes from Karachi to Islamabad,Lahore,Faisalabad,Quetta and Peshawar as well as between Lahore and Quetta in its initial year so far.
+  It had three 737-800's as of August 2017. It is privately owned." />
+ </profile>
+    <info real="True" from="2017" to="2199" />
+          <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="3" late="3"></airliner>
+	     </airliners>
+	     	     <routes>      
+	    <route destination1="KHI" destination2="ISB"  opened="2017" closed="2199"/>
+	    <route destination1="KHI" destination2="LHE"  opened="2017" closed="2199"/>
+	    <route destination1="KHI" destination2="LYP"  opened="2017" closed="2199"/>
+	    <route destination1="KHI" destination2="UET"  opened="2017" closed="2199"/>
+	    <route destination1="KHI" destination2="PEW"  opened="2017" closed="2199"/>
+	    <route destination1="LHE" destination2="UET"  opened="2017" closed="2199"/>
+	                       </routes>
+</airline>

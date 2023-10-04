@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Velvet Sky" iata="VEL" color="Purple" area="371" CEO="Dhevan Pillay" mentality="Safe" market="Domestic" preferedairport="DUR">
+  <narrative narrative="Velvet Sky was a short lived South African airline based at Durban from March 22,2011 to February 27,2012. It flew domestic to Johhannesburg,Cape Town,Port Elizabeth and
+  Polokwane. Its fleet used three 737-300's which held 148 people and a DC-9-30 for 110 people. Its model was a low cost airline."/>
+</profile>
+  <info real="True" from="2011" to="2012" />
+  <prefereds aircrafts="Boeing 737-300"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="3"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="1"></airliner>
+	     </airliners>
+	     
+              <routes>
+                <route destination1="DUR" destination2="JNB"   />
+		<route destination1="DUR" destination2="CPT" />
+		<route destination1="DUR" destination2="PLZ" />
+		<route destination1="DUR" destination2="MQP" />
+			        </routes>
+
+</airline>

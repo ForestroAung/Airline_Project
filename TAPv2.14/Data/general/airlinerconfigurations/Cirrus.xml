@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Cirrus SR20-->
+<configuration type="Cirrus SR20" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cirrus SR22" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cirrus SR22T" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Vision SF50-->
+<configuration type="Vision SF50" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pegasus Airlines" iata="PC" color="Black" area="143" CEO="Ali Sabanci" mentality="Safe" market="Global" preferedairport="SAW" businessmodel="LCC">
+  <narrative narrative="Pegasus Airlines is a low-cost airline headquartered in the Kurtköy area of Pendik, Istanbul, Turkey. Formerly a charter airline in partnership with Aer Lingus, Pegasus is now completely controlled by Esas Holding." />
+  </profile>
+  <prefereds aircrafts="Boeing 737-300,Boeing 737-400,Airbus A320-200,Airbus A320neo,Boeing 737-800"></prefereds>
+  <info real="True" from="1990" to="2199"/>
+  <focusairports>
+   <focusairport airport="ADA"></focusairport>
+   <focusairport airport="AYT"></focusairport>
+   <focusairport airport="ECN"></focusairport>
+   <focusairport airport="ESB"></focusairport>
+   <focusairport airport="ADB"></focusairport>
+  </focusairports>
+    <airliners>
+	 <airliner type="Boeing 737-300" early="5" late="10"></airliner>
+	 <airliner type="Boeing 737-400" early="7" late="15"></airliner>
+     <airliner type="Airbus A320-200" early="0" late="12"></airliner>
+	 <airliner type="Airbus A320neo" early="0" late="12"></airliner>
+	 <airliner type="Boeing 737-800" early="0" late="50"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="SAW" destination2="TIA"/>
+	  <route destination1="SAW" destination2="VIE"/>
+	  <route destination1="SAW" destination2="BAH"/>
+	  <route destination1="SAW" destination2="CRL"/>
+	  <route destination1="SAW" destination2="SJJ"/>
+	  <route destination1="SAW" destination2="PRG"/>
+	  <route destination1="SAW" destination2="CPH"/>
+	  <route destination1="SAW" destination2="HRG"/>
+	  <route destination1="SAW" destination2="SSH"/>
+	  <route destination1="SAW" destination2="BSL"/>
+	  <route destination1="SAW" destination2="LYS"/>
+	  <route destination1="SAW" destination2="MRS"/>
+	  <route destination1="SAW" destination2="ORY"/>
+	  <route destination1="SAW" destination2="TBS"/>
+	  <route destination1="SAW" destination2="SXF"/>
+	  <route destination1="SAW" destination2="CGN"/>
+	  <route destination1="SAW" destination2="DUS"/>
+	  <route destination1="SAW" destination2="FRA"/>
+	  <route destination1="SAW" destination2="HAM"/>
+	  <route destination1="SAW" destination2="MUC"/>
+	  <route destination1="SAW" destination2="STR"/>
+	  <route destination1="SAW" destination2="ATH"/>
+	  <route destination1="SAW" destination2="BUD"/>
+	  <route destination1="SAW" destination2="IKA"/>
+	  <route destination1="SAW" destination2="BGW"/>
+	  <route destination1="SAW" destination2="TLV"/>
+	  <route destination1="SAW" destination2="BLQ"/>
+	  <route destination1="SAW" destination2="BGY"/>
+	  <route destination1="SAW" destination2="FCO"/>
+	  <route destination1="SAW" destination2="ALA"/>
+	  <route destination1="SAW" destination2="PRN"/>
+	  <route destination1="SAW" destination2="KWI"/>
+	  <route destination1="SAW" destination2="FRU"/>
+	  <route destination1="SAW" destination2="BEY"/>
+	  <route destination1="SAW" destination2="SKP"/>
+	  <route destination1="SAW" destination2="AMS"/>
+	  <route destination1="SAW" destination2="OSL"/>
+	  <route destination1="SAW" destination2="DOH"/>
+	  <route destination1="SAW" destination2="OTP"/>
+	  <route destination1="SAW" destination2="GRV"/>
+	  <route destination1="SAW" destination2="KRR"/>
+	  <route destination1="SAW" destination2="MRV"/>
+	  <route destination1="SAW" destination2="DME"/>
+	  <route destination1="SAW" destination2="BEG"/>
+	  <route destination1="SAW" destination2="BCN"/>
+	  <route destination1="SAW" destination2="MAD"/>
+	  <route destination1="SAW" destination2="ARN"/>
+	  <route destination1="SAW" destination2="GVA"/>
+	  <route destination1="SAW" destination2="ZRH"/>
+	  <route destination1="SAW" destination2="ADA"/>
+	  <route destination1="SAW" destination2="ESB"/>
+	  <route destination1="SAW" destination2="HTY"/>
+	  <route destination1="SAW" destination2="AYT"/>
+	  <route destination1="SAW" destination2="BAL"/>
+	  <route destination1="SAW" destination2="BGG"/>
+	  <route destination1="SAW" destination2="BJV"/>
+	  <route destination1="SAW" destination2="DLM"/>
+	  <route destination1="SAW" destination2="DNZ"/>
+	  <route destination1="SAW" destination2="DIY"/>
+	  <route destination1="SAW" destination2="EDO"/>
+	  <route destination1="SAW" destination2="EZS"/>
+	  <route destination1="SAW" destination2="ERC"/>
+	  <route destination1="SAW" destination2="ERZ"/>
+	  <route destination1="SAW" destination2="GZP"/>
+	  <route destination1="SAW" destination2="ADB"/>
+	  <route destination1="SAW" destination2="KCM"/>
+	  <route destination1="SAW" destination2="KSY"/>
+	  <route destination1="SAW" destination2="KFS"/>
+	  <route destination1="SAW" destination2="ASR"/>
+	  <route destination1="SAW" destination2="MLX"/>
+	  <route destination1="SAW" destination2="MQM"/>
+	  <route destination1="SAW" destination2="MZH"/>
+	  <route destination1="SAW" destination2="MSR"/>
+	  <route destination1="SAW" destination2="GZT"/>
+	  <route destination1="SAW" destination2="OGU"/>
+	  <route destination1="SAW" destination2="SZF"/>
+	  <route destination1="SAW" destination2="GNY"/>
+	  <route destination1="SAW" destination2="NOP"/>
+	  <route destination1="SAW" destination2="VAS"/>
+	  <route destination1="SAW" destination2="TZX"/>
+	  <route destination1="SAW" destination2="ECN"/>
+	  <route destination1="SAW" destination2="USQ"/>
+	  <route destination1="SAW" destination2="VAN"/>
+	  <route destination1="SAW" destination2="HRK"/>
+	  <route destination1="SAW" destination2="LWO"/>
+	  <route destination1="SAW" destination2="OZH"/>
+	  <route destination1="SAW" destination2="AUH"/>
+	  <route destination1="SAW" destination2="DXB"/>
+	  <route destination1="SAW" destination2="STN"/>
+	  <route destination1="ESB" destination2="VIE"/>
+	  <route destination1="ESB" destination2="CGN"/>
+	  <route destination1="ESB" destination2="DUS"/>
+	  <route destination1="ESB" destination2="FRA"/>
+	  <route destination1="ESB" destination2="STR"/>
+	  <route destination1="ESB" destination2="AMM"/>
+	  <route destination1="ESB" destination2="ADA"/>
+	  <route destination1="ESB" destination2="ADF"/>
+	  <route destination1="ESB" destination2="AYT"/>
+	  <route destination1="ESB" destination2="BJV"/>
+	  <route destination1="ESB" destination2="DIY"/>
+	  <route destination1="ESB" destination2="EDO"/>
+	  <route destination1="ESB" destination2="EZS"/>
+	  <route destination1="ESB" destination2="ERZ"/>
+	  <route destination1="ESB" destination2="ADB"/>
+	  <route destination1="ESB" destination2="GZT"/>
+	  <route destination1="ESB" destination2="GNY"/>
+	  <route destination1="ESB" destination2="TEQ"/>
+	  <route destination1="ESB" destination2="TZX"/>
+	  <route destination1="ESB" destination2="ECN"/>
+	  <route destination1="ESB" destination2="VAN"/>
+	  <route destination1="ESB" destination2="IEV"/>
+	  <route destination1="ESB" destination2="ODS"/>
+	  <route destination1="ADB" destination2="DUS"/>
+	  <route destination1="ADB" destination2="ADA"/>
+	  <route destination1="ADB" destination2="AJI"/>
+	  <route destination1="ADB" destination2="HTY"/>
+	  <route destination1="ADB" destination2="BAL"/>
+	  <route destination1="ADB" destination2="EZS"/>
+	  <route destination1="ADB" destination2="IST"/>
+	  <route destination1="ADB" destination2="ASR"/>
+	  <route destination1="ADB" destination2="MQM"/>
+	  <route destination1="ADB" destination2="MSR"/>
+	  <route destination1="ADB" destination2="SZF"/>
+	  <route destination1="ADB" destination2="GNY"/>
+	  <route destination1="ADB" destination2="VAS"/>
+	  <route destination1="ADB" destination2="TZX"/>
+	  <route destination1="ADB" destination2="ECN"/>
+	  <route destination1="ADB" destination2="STN"/>
+	  <route destination1="AYT" destination2="CPH"/>
+	  <route destination1="AYT" destination2="HAM"/>
+	  <route destination1="AYT" destination2="TLV"/>
+	  <route destination1="AYT" destination2="AMM"/>
+	  <route destination1="AYT" destination2="ARN"/>
+	  <route destination1="AYT" destination2="ADA"/>
+	  <route destination1="AYT" destination2="DIY"/>
+	  <route destination1="AYT" destination2="EZS"/>
+	  <route destination1="AYT" destination2="ASR"/>
+	  <route destination1="AYT" destination2="MLX"/>
+	  <route destination1="AYT" destination2="TZX"/>
+	  <route destination1="AYT" destination2="ECN"/>
+	  <route destination1="ASR" destination2="DUS"/>
+	  <route destination1="TZX" destination2="DUS"/>
+	  <route destination1="GZT" destination2="SXF"/>
+	  <route destination1="GZT" destination2="ECN"/>
+	  <route destination1="ADA" destination2="DUS"/>
+	  <route destination1="ADA" destination2="BJV"/>
+	  <route destination1="ADA" destination2="TZX"/>
+	  <route destination1="ADA" destination2="ECN"/>
+	  <route destination1="ADA" destination2="VAN"/>
+     </routes>
+</airline> 
+
+

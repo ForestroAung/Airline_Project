@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Panama Internacional" iata="OP"  color="Red" area="410" CEO="Ruben Palaez" mentality="Safe" market="Global" preferedairport="PTY">
+  <narrative narrative="Air Panama Internacional was around from 1968 to January 1990. Air Panama is the name now used by Turismo Aereo since 2005. Air Panama Internacional was based at Panama City and flew to Bogota,Colombia Guayaquil,Ecuador Guatemala City,Guatemala Mexico City,Mexico Lima,Peru Miami and New York City,USA and Caracas,Venezuela. It used 707's,720's,727's,757's,DC-8's,DC-9's and DC-10's. At the end it has a single 727. It was founded in 1968 and was 67% owned by the government and 33% of Iberia Airlines of Spain. In 1978 the government took full control."/>
+   </profile>
+    <info real="True" from="1968" to="1990" />
+       <prefereds aircrafts="Boeing 707-120B,Boeing 707-320B,Boeing 720B (707-020B),Boeing 727-100,Boeing 727-200,Boeing 727-200 Adv.,Boeing 757-200,Douglas DC-8-32,Douglas DC-8-51,Douglas DC-8-61,Douglas DC-8-63,Douglas DC-9-10,Douglas DC-9-15,Douglas DC-9-30,MD DC-9-20,MD DC-9-50,MD DC-10-10,MD DC-10-15"></prefereds>
+      	     	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="3"></airliner>
+	     </airliners>
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1973) late (1989)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="0" late="1"></airliner>
+	     </airliners>
+	     
+
+	       <routes>
+	       	<route destination1="PTY" destination2="BOG" />
+		<route destination1="PTY" destination2="GUA" />
+		<route destination1="PTY" destination2="MEX" />
+		<route destination1="PTY" destination2="MIA" />
+		<route destination1="PTY" destination2="LIM" />
+		<route destination1="PTY" destination2="JFK" />
+		<route destination1="PTY" destination2="GYE" />
+		<route destination1="PTY" destination2="CCS" />
+
+              </routes>
+</airline>

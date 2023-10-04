@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="California Central Airlines" iata="CLC" color="Blue" area="402" CEO="William Smith" mentality="Safe" market="Local" preferedairport="BUR">
+  <narrative narrative="California Central Airlines started operations in 1949 and shut down by 1954. I was based at Burbank. It flew to San Francisco,Oakland,
+  San Diego,Los Angeles,and Inyokern. Its routing was Oakland-San Francisco-Burbank-Los Angeles-San Diego on its main commuter route. Its fleet in 1953
+  was five Martin 202's,a DC-3 and a Lockheed Constellation."/>
+</profile>
+  <info real="True" from="1949" to="1954" />
+  <prefereds aircrafts="Martin 2-0-2"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1949) late (1953)-->
+	         <airliners>
+	    <airliner type="Martin 2-0-2" early="5" late="5"></airliner>
+	     </airliners>
+		    <!--the airliners the airline would start with which isn't on a route earyl (1949) late (1953)-->
+	         <airliners>
+	    <airliner type="Douglas DC-3" early="1" late="1"></airliner>
+	     </airliners>
+		 		    <!--the airliners the airline would start with which isn't on a route earyl (1949) late (1953)-->
+	         <airliners>
+	    <airliner type="L-049 Constellation" early="1" late="1"></airliner>
+	     </airliners>
+		 
+              <routes>
+	    <route destination1="BUR" destination2="SFO"   />
+		<route destination1="BUR" destination2="OAK"   />
+        <route destination1="BUR" destination2="SAN"   />
+		<route destination1="LAX" destination2="SAN" />
+		<route destination1="LAX" destination2="SFO" />
+		<route destination1="LAX" destination2="OAK" />
+		<route destination1="LAX" destination2="IYK" />
+	        </routes>
+
+
+
+
+</airline>

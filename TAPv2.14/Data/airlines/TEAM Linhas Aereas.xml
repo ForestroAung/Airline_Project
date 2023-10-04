@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="TEAM Linhas Aereas" iata="TIM" color="Green" area="431" CEO="Mario Cesar Soares Moreira" mentality="Safe" market="Local" preferedairport="SDU">
+  <narrative narrative="TEAM Linhas Aereas was around from 2001 to April 2012. It was based at Rio de Janeiro Santos Dumont Airport. It flew from there to Macae,Campos dos Goytacazes and Vitoria of Espirito Santo state. MEA is 157km's,CAW is 234km's and VIX is 418km's from SDU making them a local airline. At the end it had three Let 410's. It used the 410 its whole life."/>
+</profile>
+  <info real="True" from="2001" to="2012" />
+  <prefereds aircrafts="Let L-410"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="3"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="SDU" destination2="VIX"/>
+	       	  <route destination1="SDU" destination2="MEA"/>
+		  <route destination1="SDU" destination2="CAW"/>
+
+		 		        </routes>
+
+
+
+
+</airline>

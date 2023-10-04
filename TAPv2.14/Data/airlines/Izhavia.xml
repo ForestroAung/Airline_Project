@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Izhavia" iata="I8" color="Red" area="177" CEO="Mikhail Semyonovich Khatomkin" mentality="Safe" market="Domestic" preferedairport="IJK">
+  <narrative narrative="Izhavia is based at Izhevsk,Russia. At November 2014 it was serving Moscow Domodedovo,St. Petersburg and Yekaterinburg from home. Also from Yakaterinburg to Nizhnekamsk and Beloyarsky. It has
+  11 domestic airports that have been terminated as destinations and Yervan,Armenia and Baku,Azerbaijan and Dushanbe,Tajikistan. The latest two to be terminated were the seasonal ones to Sochi and Anapa. Its fleet at February 2013
+  was six Yak-42D's,one Yak-42,four Tupolev Tu-134A's,four Antonov 26's and three Antonov 24's. The airline was founded in 1992 after taking over Aeroflots Izhevsk division called Izhevsk Air Enterprise." />
+</profile>
+   <info real="True" from="1992" to="2199"></info>
+   <prefereds aircrafts="Yak-42D,Antonov An-26,Tupolev Tu-134A,Antonov An-24,Yak-42"></prefereds>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-42D" early="3" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-42" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="2" late="4"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="2" late="4"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="3"></airliner>
+	     </airliners>
+	
+<routes>
+     		<route destination1="IJK" destination2="DME" opened="1992" closed="2199"  />
+		<route destination1="IJK" destination2="LED" opened="1992" closed="2199"  />
+		<route destination1="IJK" destination2="SVX" opened="1992" closed="2199"  />
+		<route destination1="SVX" destination2="NBC" opened="1992" closed="2199"  />
+		<route destination1="SVX" destination2="EYK" opened="1992" closed="2199"  />
+		<route destination1="IJK" destination2="PEE" opened="1992" closed="2014"  />
+		<route destination1="IJK" destination2="UFA" opened="1992" closed="2014"  />
+		<route destination1="IJK" destination2="CEK" opened="1992" closed="2014"  />
+		<route destination1="IJK" destination2="NJC" opened="1992" closed="2014"  />
+		<route destination1="IJK" destination2="AER" opened="1992" closed="2014" season="Summer"/>
+		<route destination1="IJK" destination2="AAQ" opened="1992" closed="2014" season="Summer"/>
+		<route destination1="SVX" destination2="AAQ" opened="1992" closed="2014" season="Summer"/>
+
+        </routes>
+ 
+
+
+</airline>

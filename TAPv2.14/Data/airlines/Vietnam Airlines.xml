@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="Vietnam Airlines" iata="VN" color="Aqua" area="237" CEO="Pham Viet Thanh" mentality="Safe"
+market="Global" preferedairport="HAN">
+<narrative narrative="Vietnam Airlines is the flag carrier of Vietnam. Founded in 1956 under the name Vietnam Civil Aviation, the airline was established as a state-owned enterprise in April 1989. Vietnam Airlines is headquartered in Long Bien District, Hanoi."></narrative>
+
+</profile>
+<info real="True" from="1956" to="2199" />
+<prefereds aircrafts="ATR 72-500,Airbus A321-200,Airbus A330-200,Boeing 777-300ER,Airbus A350-900,Boeing 787-9">
+</prefereds>
+<focusairports>
+<focusairport airport="SGN"></focusairport>
+<focusairport airport="DAD"></focusairport>
+</focusairports>
+<startdata>
+<airliners>
+<airliner type="ATR 72-500" early="8" late="8"></airliner>
+<airliner type="Airbus A321-200" early="20" late="26"></airliner>
+<airliner type="Airbus A330-200" early="5" late="5"></airliner>
+<airliner type="Boeing 777-300ER" early="2" late="5"></airliner>
+<airliner type="Airbus A350-900" early="0" late="3"></airliner>
+<airliner type="Boeing 787-9" early="0" late="3"></airliner>
+</airliners>
+<routes>
+<route destination1="SGN" destination2="BNW"/>
+<route destination1="SGN" destination2="DLI"/>
+<route destination1="SGN" destination2="DAD"/>
+<route destination1="SGN" destination2="VDH"/>
+<route destination1="SGN" destination2="HPH"/>
+<route destination1="SGN" destination2="HAN"/>
+<route destination1="SGN" destination2="HUI"/>
+<route destination1="SGN" destination2="NHA"/>
+<route destination1="SGN" destination2="PQC"/>
+<route destination1="SGN" destination2="PXU"/>
+<route destination1="SGN" destination2="UIH"/>
+<route destination1="SGN" destination2="VKG"/>
+<route destination1="SGN" destination2="THD"/>
+<route destination1="SGN" destination2="VII"/>
+<route destination1="SGN" destination2="BKK"/>
+<route destination1="SGN" destination2="PUS"/>
+<route destination1="SGN" destination2="DPS"/>
+<route destination1="SGN" destination2="FRA"/>
+<route destination1="SGN" destination2="FUK"/>
+<route destination1="SGN" destination2="FOC"/>
+<route destination1="SGN" destination2="CAN"/>
+<route destination1="SGN" destination2="HKG"/>
+<route destination1="SGN" destination2="CGK"/>
+<route destination1="SGN" destination2="KHH"/>
+<route destination1="SGN" destination2="KUL"/>
+<route destination1="SGN" destination2="LHR"/>
+<route destination1="SGN" destination2="DME"/>
+<route destination1="SGN" destination2="MEL"/>
+<route destination1="SGN" destination2="NGO"/>
+<route destination1="SGN" destination2="KIX"/>
+<route destination1="SGN" destination2="CDG"/>
+<route destination1="SGN" destination2="PNH"/>
+<route destination1="SGN" destination2="ICN"/>
+<route destination1="SGN" destination2="PVG"/>
+<route destination1="SGN" destination2="REP"/>
+<route destination1="SGN" destination2="SIN"/>
+<route destination1="SGN" destination2="SYD"/>
+<route destination1="SGN" destination2="TPE"/>
+<route destination1="SGN" destination2="NRT"/>
+<route destination1="SGN" destination2="VTE"/>
+<route destination1="SGN" destination2="RGN"/>
+<route destination1="HAN" destination2="BMV"/>
+<route destination1="HAN" destination2="VCA"/>
+<route destination1="HAN" destination2="DLI"/>
+<route destination1="HAN" destination2="DAD"/>
+<route destination1="HAN" destination2="DIN"/>
+<route destination1="HAN" destination2="VDH"/>
+<route destination1="HAN" destination2="HUI"/>
+<route destination1="HAN" destination2="NHA"/>
+<route destination1="HAN" destination2="PQC"/>
+<route destination1="HAN" destination2="PXU"/>
+<route destination1="HAN" destination2="ULH"/>
+<route destination1="HAN" destination2="TMK"/>
+<route destination1="HAN" destination2="TBB"/>
+<route destination1="HAN" destination2="VII"/>
+<route destination1="HAN" destination2="BKK"/>
+<route destination1="HAN" destination2="PEK"/>
+<route destination1="HAN" destination2="PUS"/>
+<route destination1="HAN" destination2="FRA"/>
+<route destination1="HAN" destination2="FUK"/>
+<route destination1="HAN" destination2="CAN"/>
+<route destination1="HAN" destination2="KWL"/>
+<route destination1="HAN" destination2="HKG"/>
+<route destination1="HAN" destination2="KHH"/>
+<route destination1="HAN" destination2="KUL"/>
+<route destination1="HAN" destination2="LHR"/>
+<route destination1="HAN" destination2="LPQ"/>
+<route destination1="HAN" destination2="DME"/>
+<route destination1="HAN" destination2="NGO"/>
+<route destination1="HAN" destination2="KIX"/>
+<route destination1="HAN" destination2="CDG"/>
+<route destination1="HAN" destination2="SYX"/>
+<route destination1="HAN" destination2="ICN"/>
+<route destination1="HAN" destination2="PVG"/>
+<route destination1="HAN" destination2="REP"/>
+<route destination1="HAN" destination2="SIN"/>
+<route destination1="HAN" destination2="TPE"/>
+<route destination1="HAN" destination2="HND"/>
+<route destination1="HAN" destination2="NRT"/>
+<route destination1="HAN" destination2="VIE"/>
+<route destination1="HAN" destination2="RGN"/>
+<route destination1="DAD" destination2="BMW"/>
+<route destination1="DAD" destination2="DLI"/>
+<route destination1="DAD" destination2="HPH"/>
+<route destination1="DAD" destination2="NHA"/>
+<route destination1="DAD" destination2="PQC"/>
+<route destination1="DAD" destination2="VII"/>
+<route destination1="DAD" destination2="CTU"/>
+<route destination1="DAD" destination2="CKG"/>
+<route destination1="DAD" destination2="HAK"/>
+<route destination1="DAD" destination2="HGH"/>
+<route destination1="DAD" destination2="NKG"/>
+<route destination1="DAD" destination2="ICN"/>
+<route destination1="DAD" destination2="REP"/>
+<route destination1="DAD" destination2="NRT"/>
+<route destination1="DAD" destination2="WNZ"/>
+<route destination1="DAD" destination2="WUH"/>
+</routes>
+</startdata>
+</airline>

@@ -1,0 +1,174 @@
+﻿<airline>
+<profile name="Emirates" iata="EK" color="LightPink" area="315" CEO="Tim Clark" mentality="Aggressive" market="Global" preferedairport="DXB">
+  <narrative narrative="Emirates is the largest airline in the Middle East, operating out of Dubai since 1985. They currently fly to 129 destinations around the world on a fleet of A330, A340, A380, and 777s. " />
+</profile>
+    <info real="True" from="1985" to="2199" />
+  
+<startdata>
+  
+  <prefereds aircrafts="Airbus A300-600 ,Airbus A310-300, Airbus A330-200, Airbus A340-300, Airbus A340-500, Airbus A380-800, Boeing 777-200, Boeing 777-200LR, Boeing 777-300, Boeing 777-300ER, Boeing 777-8X, Boeing 777-9X"></prefereds>
+  
+        <airliners>
+	       
+	         <airliner type="Airbus A300B4" early="1" late="0"></airliner>
+	        <airliner type="Airbus A300-600" early="0" late="6"></airliner>
+		 <airliner type="Airbus A310-300" early="2" late="11"></airliner>
+		 <airliner type="Airbus A319-100" early="0" late="1"></airliner>
+	      <airliner type="Airbus A330-200" early="0" late="21"></airliner>
+	      <airliner type="Airbus A340-300" early="0" late="4"></airliner>
+	     <airliner type="Airbus A340-500" early="9" late="9"></airliner>
+	      <airliner type="Airbus A380-800" early="15" late="140"></airliner>
+	         <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+            <airliner type="Boeing 777-200" early="3" late="3"></airliner>
+	     <airliner type="Boeing 777-200ER" early="6" late="0"></airliner>
+	    <airliner type="Boeing 777-200LR" early="3" late="10"></airliner>
+	    <airliner type="Boeing 777-300" early="12" late="12"></airliner>
+	     <airliner type="Boeing 777-300ER" early="23" late="174"></airliner>
+	      <airliner type="Boeing 777-8X" early="10" late="35"></airliner>
+	       <airliner type="Boeing 777-9X" early="20" late="165"></airliner>
+	 
+	  </airliners>
+	<routes>
+		<route destination1="DXB" destination2="ABJ"/>
+		<route destination1="DXB" destination2="ABV"/>
+		<route destination1="DXB" destination2="ACC"/>
+		<route destination1="DXB" destination2="ADD"/>
+		<route destination1="DXB" destination2="ADL"/>
+		<route destination1="DXB" destination2="AMD"/>
+		<route destination1="DXB" destination2="ALG"/>
+		<route destination1="DXB" destination2="ADJ"/>
+		<route destination1="DXB" destination2="AMS"/>
+		<route destination1="DXB" destination2="ATH"/>
+		<route destination1="DXB" destination2="AKL"/>
+		<route destination1="DXB" destination2="SDA"/>
+		<route destination1="DXB" destination2="BAH"/>
+		<route destination1="DXB" destination2="BLR"/>
+		<route destination1="DXB" destination2="BKK" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="BCN"/>
+		<route destination1="DXB" destination2="BSR"/>
+		<route destination1="DXB" destination2="PEK" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="BEY"/>
+		<route destination1="DXB" destination2="BHY"/>
+		<route destination1="DXB" destination2="BLQ"/>
+		<route destination1="DXB" destination2="BOS" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="BNE"/>
+		<route destination1="DXB" destination2="BRU"/>
+		<route destination1="DXB" destination2="BUD"/>
+		<route destination1="DXB" destination2="GRU" destination3="AEP"/>
+		<route destination1="DXB" destination2="CAI"/>
+		<route destination1="DXB" destination2="CPT"/>
+		<route destination1="DXB" destination2="CMN"/>
+		<route destination1="DXB" destination2="MAA"/>
+		<route destination1="DXB" destination2="ORD"/>
+		<route destination1="DXB" destination2="CHC"/>
+		<route destination1="DXB" destination2="CMB"/>
+		<route destination1="DXB" destination2="CPH"/>
+		<route destination1="DXB" destination2="DKR"/>
+		<route destination1="DXB" destination2="DFW" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="DMM"/>
+		<route destination1="DXB" destination2="DAR"/>
+		<route destination1="DXB" destination2="DEL"/>
+		<route destination1="DXB" destination2="DPS"/>
+		<route destination1="DXB" destination2="DAK"/>
+		<route destination1="DXB" destination2="DOH"/>
+		<route destination1="DXB" destination2="DUB"/>
+		<route destination1="DXB" destination2="DUR"/>
+		<route destination1="DXB" destination2="DUS" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="EBB"/>
+		<route destination1="DXB" destination2="EBL"/>
+		<route destination1="DXB" destination2="FRA"/>
+		<route destination1="DXB" destination2="GVA"/>
+		<route destination1="DXB" destination2="GLA"/>
+		<route destination1="DXB" destination2="CAN"/>
+		<route destination1="DXB" destination2="HAM"/>
+		<route destination1="DXB" destination2="HRE"/>
+		<route destination1="DXB" destination2="SGN"/>
+		<route destination1="DXB" destination2="HKG"/>
+		<route destination1="DXB" destination2="IAH"/>
+		<route destination1="DXB" destination2="HYD"/>
+		<route destination1="DXB" destination2="ISB"/>
+		<route destination1="DXB" destination2="IST"/>
+		<route destination1="DXB" destination2="SAW"/>
+		<route destination1="DXB" destination2="CGK"/>
+		<route destination1="DXB" destination2="JED" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="JNB"/>
+		<route destination1="DXB" destination2="KBL"/>
+		<route destination1="DXB" destination2="KHI"/>
+		<route destination1="DXB" destination2="KRT"/>
+		<route destination1="DXB" destination2="COK"/>
+		<route destination1="DXB" destination2="CCU"/>
+		<route destination1="DXB" destination2="CCJ"/>
+		<route destination1="DXB" destination2="KUL"/>
+		<route destination1="DXB" destination2="KWI"/>
+		<route destination1="DXB" destination2="LOS"/>
+		<route destination1="DXB" destination2="LHE"/>
+		<route destination1="DXB" destination2="LCA"/>
+		<route destination1="DXB" destination2="LIS"/>
+		<route destination1="DXB" destination2="LGW"/>
+		<route destination1="DXB" destination2="LHR"/>
+		<route destination1="DXB" destination2="LAX" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="LAD"/>
+		<route destination1="DXB" destination2="LUN"/>
+		<route destination1="DXB" destination2="LYS"/>
+		<route destination1="DXB" destination2="MAD" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="SEZ"/>
+		<route destination1="DXB" destination2="MLE"/>
+		<route destination1="DXB" destination2="MLA"/>
+		<route destination1="DXB" destination2="MNL"/>
+		<route destination1="DXB" destination2="MAN"/>
+		<route destination1="DXB" destination2="MHD"/>
+		<route destination1="DXB" destination2="MRU"/>
+		<route destination1="DXB" destination2="MED"/>
+		<route destination1="DXB" destination2="MEL"/>
+		<route destination1="DXB" destination2="MXP"/>
+		<route destination1="DXB" destination2="DME"/>
+		<route destination1="DXB" destination2="MUX"/>
+		<route destination1="DXB" destination2="BOM" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="MUN"/>
+		<route destination1="DXB" destination2="MCT"/>
+		<route destination1="DXB" destination2="NBO"/>
+		<route destination1="DXB" destination2="JFK" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="NCL"/>
+		<route destination1="DXB" destination2="NCE"/>
+		<route destination1="DXB" destination2="MCO"/>
+		<route destination1="DXB" destination2="KIX"/>
+		<route destination1="DXB" destination2="OSL"/>
+		<route destination1="DXB" destination2="PFN"/>
+		<route destination1="DXB" destination2="CDG" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="PER"/>
+		<route destination1="DXB" destination2="PEW"/>
+		<route destination1="DXB" destination2="HKT"/>
+		<route destination1="DXB" destination2="PRG"/>
+		<route destination1="DXB" destination2="GIG"/>
+		<route destination1="DXB" destination2="RUH"/>
+		<route destination1="DXB" destination2="FCO" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="PIE"/>
+		<route destination1="DXB" destination2="SFO" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="SEA"/>
+		<route destination1="DXB" destination2="ICN" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="PVG" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="SKT"/>
+		<route destination1="DXB" destination2="SIN" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="ARN"/>
+		<route destination1="DXB" destination2="SYD" airliner="Airbus A380-800"/>
+		<route destination1="DXB" destination2="TPE"/>
+		<route destination1="DXB" destination2="IKA"/>
+		<route destination1="DXB" destination2="TRV"/>
+		<route destination1="DXB" destination2="NRT"/>
+		<route destination1="DXB" destination2="HND"/>
+		<route destination1="DXB" destination2="YYZ"/>
+		<route destination1="DXB" destination2="TUN"/>
+		<route destination1="DXB" destination2="VCE"/>
+		<route destination1="DXB" destination2="VIE"/>
+		<route destination1="DXB" destination2="WAW"/>
+		<route destination1="DXB" destination2="IAD"/>
+		<route destination1="DXB" destination2="ZRH"/>
+	</routes>
+	  
+	  
+	  
+</startdata>
+  
+
+
+</airline>

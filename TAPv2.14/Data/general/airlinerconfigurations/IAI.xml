@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--IAI Astra-->
+<configuration type="IAI Astra" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="370" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="92.5" width="55"></seat>
+</seats>
+</configuration>
+
+<!--IAI Westwind-->
+<configuration type="IAI Westwind" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="360" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="90" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

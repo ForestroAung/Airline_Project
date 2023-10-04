@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Drukair-Royal Bhutan Airlines" iata="KB" color="Orange" area="229" CEO="Tandin Jamso" mentality="Safe"
+           market="Regional" preferedairport="PBH">
+    <narrative
+      narrative="Drukair Corporation Limited,or Drukair-Royal Bhutan Airlines is the national flag carrier of Bhutan and serves destinations in South and South East Asia through its hub in Paro Airport. It was founded in 1981 and started operation February 11,1983. It's first destination was Calcutta/Kolkata,India and it used a Dornier 228-200. By the end of 1983 it had flown 2,854 passengers on that route,only the first four weeks were done as a three times a week flight, it switched to daily. In 1986 flights to Dhaka,Bangladesh started and by this time another Dornier had been acquired. 1987 saw them carry 8,700 passengers. In 1988 it hired its first seven flight attendants and recieved itf irst BAe 146 jet. In November it also began a route to Delhi,India. January 1989 Bangkok,Thailand began and April 1989 Kathmandu,Nepal began. Over 1989 it carried 12,732 passengers on a 50-60% load factor,more than the goal of 40%. In 1990 Paro Airport saw improvements with a runway lenghthen to about 2000 meters from 1400 and strenghthened for heavier planes. A hanger for the planes was also built In July 2003 it ordered two Airbus A319's which was the biggest purchase ever in the whole country of Bhutan for anything. On November 11,2003 it started flights to Gaya,India. A holy site for Buddhists is located near that city where Buddha reached enlightenment, 30-40,000 Bhutanese pilgrimage to there every year. The first A319 was delivered in April 2004 and started service October 31st,the second was delivered in December. March 2008 flights to Mumbai/Bombay,India started. June 2009 Bagdogra,India began. Sometime in 2011 or 2012 Singapore began along with in December 2011 the domestic airports at Jakar and Trashigang which had just been opened. Guwahati,India is also served. Yangon,Myanmar began in 1997 but is no longer offered. August 31,2012 saw a third A319 delivered. It also has an ATR 42-500 which it got in 2011 used.">
+    </narrative>
+  </profile>
+  <info real="True" from="1983" to="2199" />
+   <prefereds aircrafts="Airbus A319-100,Airbus A319neo,ATR 42-500,BAe 146-200,Dornier 228-212,ATR 42-600"></prefereds>
+ <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A319-100" early="2" late="4"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-500" early="1" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1983) late (1986)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="1" late="2"></airliner>
+	     </airliners>
+  <routes>
+                <route destination1="PBH" destination2="DEL" opened="1988" closed="2199" />
+	        <route destination1="PBH" destination2="KTM" opened="1989" closed="2199"/>
+		<route destination1="PBH" destination2="BOM" opened="2008" closed="2199" />
+		<route destination1="PBH" destination2="GAY" opened="2003" closed="2199" />
+		<route destination1="PBH" destination2="IXB"  opened="2009" closed="2199"/>
+		<route destination1="PBH" destination2="CCU" opened="1983" closed="2199"/>
+		<route destination1="PBH" destination2="DAC" opened="1986" closed="2199"/>
+		<route destination1="PBH" destination2="GAU" opened="2008" closed="2199" />
+		<route destination1="PBH" destination2="BUT"  opened="2012" closed="2199"/>
+		<route destination1="PBH" destination2="YON" opened="2012" closed="2199"/>
+		<route destination1="PBH" destination2="SIN" opened="2012" closed="2199" />
+		<route destination1="PBH" destination2="BKK" opened="2006" closed="2199" />
+		<route destination1="PBH" destination2="DMK"  opened="1989" closed="2006" />
+		<route destination1="PBH" destination2="RGN" opened="1997" closed="2007" />
+		              </routes>
+</airline>

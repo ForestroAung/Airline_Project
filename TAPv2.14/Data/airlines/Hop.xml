@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hop!" iata="A5" color="Red" area="113" CEO="Alexandre de Juniac" mentality="Moderate"
+           market="Regional" preferedairport="LYS">
+    <narrative
+      narrative="Hop! is a subsidiary of Air France created in 2012 to better compete with low cost airlines on regional flights." />
+  </profile>
+
+<info real="True" from="2013" to="2199"></info>
+<startdata>
+
+<focusairports>
+        <focusairport airport="LYS"></focusairport>
+        <focusairport airport="ORY"></focusairport>
+		</focusairports>
+
+</startdata>
+
+</airline>

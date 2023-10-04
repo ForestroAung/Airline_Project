@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Maersk Air UK" iata="VB" logo="DM"  color="Cyan" area="102" CEO="Finn Rassmussen" mentality="Moderate" market="Regional" preferedairport="BHX">
+    <narrative narrative="Maersk Air UK was a subsidiary of Denmark based Maersk Air from 1993 to 2003 based at Birmingham. Maersk itself would be bought by Sterling Airlines  another Danish carrier in 2005 and merged with them. Maersk Air UK was a franchise of British Airways and used the BA livery. The roots of Maersk Air UK were Birmingham European Airways which was formed in 1983. BEA and Brymon European Airways merged in October 1992, a London City Airport based carrier that Maersk and British Airways had stakes in its parent company Plimsoll Line. It wasn't found to be a good fir for the two merging airlines and in May 1993 BA took over Brymon's operations and Maresk the Birmingham operations, spliting the company. The fleet at this time was four BAC One Eleven 400's and two 500's and three BAe Jetstream 31's. Routes were to Copenhagen,Stuttgart,Milan,Amsterdam,Cork and Dublin in Ireland and domestic wise to Belfast,Newcastle and Glasgow. All these were done out of the hub. In 1996 Cork and Dublin and Glasgow were dropped while Lyon,France and Rome were started. In 1998 it got rid of the BAC's and in 1996 it got rid of the Jetstream 31's. It had a Jetstream 41 from 1996-1999. But the BAC replacement was six 737-500's which it used until 2002. In 1999 it got ten CRJ200's and in 2002 five CRJ700's. In 1999 Venice,Stockholm and Geneva were started. In 2001 Newcastle,Rome and Brussels were stopped, Brussels had only been started the previous year. Frankfurt and Zurich were also only served a year and Marseilles even less. Berlin was served from 2000 to the end and from 2001 on Hamburg and Hanover. 2002 on Bordeaux,Nice,Toulouse and Gothenburg. After losing money Maresk had given up on its UK venture and put it up for sale. No one was interested and it ended up in a management buyout. Duo Airways came out as the new airline and that only lasted in operation from November 2003 to May 1,2004." />
+</profile> 
+   <info real="True" from="1993" to="2003"></info>
+   <prefereds aircrafts="Boeing 737-500,Bombardier CRJ200,Bombardier CRJ700,BAe Jetstream 41,BAe Jetstream 31,BAC One-Eleven 400,BAC One-Eleven 500"></prefereds>
+<startdata>
+        <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2000)-->
+	         <airliners>
+	    <airliner type="BAC One-Eleven 400" early="4" late="0"></airliner>
+	     </airliners>
+        <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2000)-->
+	         <airliners>
+	    <airliner type="BAC One-Eleven 500" early="2" late="0"></airliner>
+	     </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1998)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="3" late="0"></airliner>
+	     </airliners>
+   	  <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2001)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="1" late="0"></airliner>
+	     </airliners>
+	          	     	             	  <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2003)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="6" late="0"></airliner>
+	     </airliners>
+	           	     	     	             	  <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2003)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="10" late="0"></airliner>
+	     </airliners>
+	     	        	  <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2003)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="5" late="0"></airliner>
+	     </airliners>
+
+
+	     <routes>
+		<route destination1="BHX" destination2="CPH" opened="1993" closed="2003" />
+		<route destination1="BHX" destination2="NCL"  opened="1993" closed="2001" />
+		<route destination1="BHX" destination2="AMS" opened="1993" closed="2003" />
+		<route destination1="BHX" destination2="BFS" opened="1993" closed="2003" />
+		<route destination1="BHX" destination2="STR" opened="1993" closed="2003" />
+		<route destination1="BHX" destination2="MXP" opened="1993" closed="2003" />
+		<route destination1="BHX" destination2="DUB" opened="1993" closed="1996" />
+		<route destination1="BHX" destination2="ORK" opened="1993" closed="1996" />
+		<route destination1="BHX" destination2="GLA" opened="1993" closed="1996" />
+	        <route destination1="BHX" destination2="LYS" opened="1996" closed="2003" />
+	        <route destination1="BHX" destination2="GVA" opened="1999" closed="2003" />
+	        <route destination1="BHX" destination2="ARN" opened="1999" closed="2003" />
+	        <route destination1="BHX" destination2="VCE" opened="1999" closed="2003" />
+	        <route destination1="BHX" destination2="FCO" opened="1999" closed="2001" />
+	        <route destination1="BHX" destination2="TXL" opened="2000" closed="2003" />
+		 <route destination1="BHX" destination2="BRU" opened="2000" closed="2001" />
+		 <route destination1="BHX" destination2="ZRH" opened="2000" closed="2001" />
+	      <route destination1="BHX" destination2="HAM" opened="2000" closed="2001" />
+	       <route destination1="BHX" destination2="HAJ" opened="2000" closed="2001" />
+	        <route destination1="BHX" destination2="BOD" opened="2002" closed="2003" />
+	       <route destination1="BHX" destination2="MRS" opened="2001" closed="2002" />
+               <route destination1="BHX" destination2="GOT" opened="2002" closed="2003" />
+	       <route destination1="BHX" destination2="NCE" opened="2002" closed="2003" />
+	        <route destination1="BHX" destination2="TLS" opened="2002" closed="2003" />
+	        </routes>
+
+
+
+
+
+
+
+
+
+
+
+  </startdata>
+</airline>

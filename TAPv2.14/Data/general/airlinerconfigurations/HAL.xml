@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--HAL Dhruv-->
+<configuration type="HAL Dhruv" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

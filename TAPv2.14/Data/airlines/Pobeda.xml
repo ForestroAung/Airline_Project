@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pobeda" iata="DP" color="Cyan" area="177" CEO="Andrey Kalmykov" mentality="Moderate" market="Domestic" preferedairport="VKO">
+  <narrative narrative="Pobeda is a subsidiary of Aeroflot that is a low cost model airline. It started operations in December 2014 and is Aeroflot's second attempt at a low cost airline after Dobrolet failed after being around from October 2013-August 2014. It was based at Moscow Sheremetyevo while Pobeda is based at Moscow Vnukovo. Its fleet at the start is eight 737-800's with four on order, and there is a Sukhoi Superjet 100 on order too. At February 2015 it was flying to 10 domestic destinations with 2 more set to start later in the month. All flights are to and from Vnukovo as of this time." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8,Sukhoi 100-95LR"></prefereds>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2017)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="8" late="12"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	         <airliners>
+	    <airliner type="Sukhoi 100-95LR" early="0" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="VKO" destination2="AER" opened="2014" closed="2199"/>
+                <route destination1="VKO" destination2="SVX" opened="2014" closed="2199" />  
+	        <route destination1="VKO" destination2="PEE" opened="2014" closed="2199"/>
+	        <route destination1="VKO" destination2="SGC" opened="2014" closed="2199"/>
+                <route destination1="VKO" destination2="EGO" opened="2014" closed="2199" />  
+	        <route destination1="VKO" destination2="TJM" opened="2014" closed="2199"/>
+                <route destination1="VKO" destination2="VOG" opened="2014" closed="2199"/>
+                <route destination1="VKO" destination2="NJC" opened="2014" closed="2199" />  
+	        <route destination1="VKO" destination2="MCX" opened="2014" closed="2199"/>
+	        <route destination1="VKO" destination2="OGZ" opened="2014" closed="2199"/>
+	        <route destination1="VKO" destination2="ARH" opened="2015" closed="2199"/>
+		<route destination1="VKO" destination2="UFA" opened="2015" closed="2199"/>
+
+        </routes>
+  
+
+
+</airline>

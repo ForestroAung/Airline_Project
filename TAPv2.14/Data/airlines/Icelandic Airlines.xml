@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Icelandic Airlines" iata="LL" logo="LL2" color="LightBlue" area="100" CEO="Alfred Eliasson" mentality="Aggressive" market="Global" preferedairport="RKV">
+  <narrative narrative="Icelandic Airlines, also known as Loftleiðit, was an Icelandic Airline based in Reykjavik, who served low-cost trans-Atlantic flights from 1944 until 1979, when it merged with Flugfélag Íslands to form Icelandair."/>
+</profile>
+  <info real="True" from="1944" to="1979" />
+  <prefereds aircrafts="Douglas DC-3,Douglas DC-4-1009"></prefereds>
+</airline>

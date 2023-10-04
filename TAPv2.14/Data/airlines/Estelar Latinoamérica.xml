@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Estelar Latinoamérica" iata="ES" logo="ES2" color="Turquoise" area="426" CEO="Unknown" mentality="Safe" market="Global" preferedairport="CCS">
+    <narrative narrative="The airline was founded in 2009. Its first flights were to Porlamar and within months it commenced a route to and from Maracaibo." />
+</profile>
+  <info real="True" from="2009" to="2199" />
+    <focusairports>
+      <focusairport airport="CCS"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-300,Airbus A340-300"></prefereds>
+                <airliners>
+     <airliner type="Airbus A340-300" early="0" late="1"></airliner>
+     <airliner type="Boeing 737-200 Adv." early="4" late="3"></airliner>
+     <airliner type="Boeing 737-300" early="3" late="3"></airliner>
+      </airliners>
+<routes> 
+     <route destination1="CCS" destination2="CUM" />
+     <route destination1="CCS" destination2="EZE" />
+     <route destination1="CCS" destination2="MAD"  opened="2017" closed="2199"    airliner="Airbus A340-300"  />
+     <route destination1="CCS" destination2="MAR"  opened="2009" closed="2199" />
+     <route destination1="CCS" destination2="MIA" />
+     <route destination1="CCS" destination2="PMV"  opened="2009" closed="2199" />
+     <route destination1="CCS" destination2="PTY" />
+     <route destination1="CCS" destination2="SCL" />
+     <route destination1="CCS" destination2="STD" />
+                   </routes>
+</airline>

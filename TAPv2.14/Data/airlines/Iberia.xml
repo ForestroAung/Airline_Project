@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Iberia" iata="IB" color="Orangered" area="117" CEO="Antonio Vazquez" mentality="Aggressive"
+           market="Global" preferedairport="MAD">
+    <narrative
+      narrative="Iberia Las Aas de Espana, S.A., commonly known as Iberia, is the flag carrier airline of Spain. Based in Madrid, it operates an international network of services from its main bases of Madrid-Barajas Airport and Barcelona El Prat Airport." />
+  </profile>
+     <info real="True" from="1927" to="2199"></info>
+  <startdata>
+<prefereds aircrafts="Airbus A319-100,Airbus A320-200,Airbus A320neo,Airbus A321-200,Airbus A321neo,Airbus A330-200,Airbus A330-300,Airbus A340-600,Airbus A350-900"></prefereds>
+<focusairports>
+        <focusairport airport="MAD"></focusairport>
+        <focusairport airport="BCN"></focusairport></focusairports>
+
+    <airliners>
+      <airliner type="Airbus A320-200" early="0" late="27"></airliner>
+<airliner type="Airbus A320neo" early="0" late="27"></airliner>
+<airliner type="Airbus A321neo" early="0" late="5"></airliner>
+      <airliner type="Airbus A319-100" early="0" late="19"></airliner>
+      <airliner type="Airbus A321-200" early="0" late="19"></airliner>
+<airliner type="Airbus A330-200" early="0" late="12">
+</airliner>
+<airliner type="Airbus A330-300" early="0" late="8">
+</airliner>
+      <airliner type="Airbus A340-600" early="0" late="17"></airliner>
+      <airliner type="Airbus A350-900" early="0" late="17"></airliner>
+    </airliners>
+<routes>
+		<route destination1="MAD" destination2="LCG"/>
+		<route destination1="MAD" destination2="ACC"/>
+		<route destination1="MAD" destination2="ALG"/>
+		<route destination1="MAD" destination2="ATH"/>
+		<route destination1="MAD" destination2="BIO"/>
+		<route destination1="MAD" destination2="BOG"/>
+		<route destination1="MAD" destination2="BRU"/>
+		<route destination1="MAD" destination2="EZE"/>
+		<route destination1="MAD" destination2="AMS"/>
+		<route destination1="MAD" destination2="CLO"/>
+		<route destination1="MAD" destination2="CCS"/>
+		<route destination1="MAD" destination2="CMN"/>
+		<route destination1="MAD" destination2="ORD"/>
+		<route destination1="MAD" destination2="DKR"/>
+		<route destination1="MAD" destination2="DUS"/>
+		<route destination1="MAD" destination2="FRA"/>
+		<route destination1="MAD" destination2="GVA"/>
+		<route destination1="MAD" destination2="LPA"/>
+		<route destination1="MAD" destination2="GUA"/>
+		<route destination1="MAD" destination2="GYE"/>
+		<route destination1="MAD" destination2="HAM"/>
+		<route destination1="MAD" destination2="HAV"/>
+		<route destination1="MAD" destination2="IST"/>
+		<route destination1="MAD" destination2="JNB"/>
+		<route destination1="MAD" destination2="SPC"/>
+		<route destination1="MAD" destination2="LOS"/>
+		<route destination1="MAD" destination2="LIM"/>
+		<route destination1="MAD" destination2="LIS"/>
+		<route destination1="MAD" destination2="LHR"/>
+		<route destination1="MAD" destination2="LAD"/>
+		<route destination1="MAD" destination2="SSG"/>
+		<route destination1="MAD" destination2="REK"/>
+		<route destination1="MAD" destination2="MED"/>
+		<route destination1="MAD" destination2="MEX"/>
+		<route destination1="MAD" destination2="MIA"/>
+		<route destination1="MAD" destination2="LIN"/>
+		<route destination1="MAD" destination2="MXP"/>
+		<route destination1="MAD" destination2="MVD"/>
+		<route destination1="MAD" destination2="DME"/>
+		<route destination1="MAD" destination2="MUC"/>
+		<route destination1="MAD" destination2="JFK"/>
+		<route destination1="MAD" destination2="ORN"/>
+		<route destination1="MAD" destination2="OVD"/>
+		<route destination1="MAD" destination2="PTY"/>
+		<route destination1="MAD" destination2="ORY"/>
+		<route destination1="MAD" destination2="CDG"/>
+		<route destination1="MAD" destination2="PRG"/>
+		<route destination1="MAD" destination2="UIO"/>
+		<route destination1="MAD" destination2="GIG"/>
+		<route destination1="MAD" destination2="FCO"/>
+		<route destination1="MAD" destination2="SJO"/>
+		<route destination1="MAD" destination2="SAL"/>
+		<route destination1="MAD" destination2="SDR"/>
+		<route destination1="MAD" destination2="SCL"/>
+		<route destination1="MAD" destination2="SCQ"/>
+		<route destination1="MAD" destination2="SDQ"/>
+		<route destination1="MAD" destination2="GRU"/>
+		<route destination1="MAD" destination2="TLV"/>
+		<route destination1="MAD" destination2="TFN"/>
+		<route destination1="MAD" destination2="TFS"/>
+		<route destination1="MAD" destination2="VCE"/>
+		<route destination1="MAD" destination2="VIE"/>
+		<route destination1="MAD" destination2="ZRH"/>
+		<route destination1="MAD" destination2="BOS"/>
+		<route destination1="MAD" destination2="LAX"/>
+		<route destination1="MAD" destination2="RDU"/>
+		<route destination1="MAD" destination2="BCN"/>
+		</routes>
+  </startdata>
+</airline>

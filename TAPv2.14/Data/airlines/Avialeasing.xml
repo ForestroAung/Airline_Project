@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Avialeasing" iata="TWN" color="DimGray" area="201" CEO="Igor Smirnov" mentality="Safe" market="Global" preferedairport="TAS" routefocus="Cargo"> 
+  <narrative narrative="Avialeasing Aviation Company is a cargo airline based at Tashkent,Uzbekistan. It was the first private airline in the country. It began in 1992 It is a joint USA-Uzbekistan effort and opened up a company called the SRX Group in the Miami,Florida area in 1993. Its fleet at 2012 included at least one
+  Il-76TD and at least one An-26. It also owns 2 An-12's which are leased to SRX Group and are painted in SRX livery. Avialeasing focuses on Asia and Europe destinations. There is a picture of an SRX plane in Cambridge Bay,Canada which is in arctic Canada so it serves the North America and Caribbean area.
+   SRX Transcontinental owns 61% of the airline and  Igor Smirnov 39%. Its regular routes from Tashkent in 2005 were to Almaty,Kazakhstan Bishkek,Kyrgyzstan and Kabul,Afghanistan." />
+</profile>
+   <info real="True" from="1992" to="2199"></info>
+   <prefereds aircrafts="Antonov An-12 Cargo,Il-76TD,Antonov An-26"></prefereds>
+     <routes>
+    <route destination1="TAS" destination2="ALA"/>
+    <route destination1="TAS" destination2="FRU"/>
+    <route destination1="TAS" destination2="KBL"/>
+     </routes>
+       
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Il-76TD" early="1" late="1"></airliner>
+	     </airliners>
+	           	     	          <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Cargo" early="2" late="2"></airliner>
+	     </airliners>
+	            	     	          <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

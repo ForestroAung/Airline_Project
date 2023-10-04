@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Epic-->
+<configuration type="Epic E1000" economy="0" premium="-1" first="0" business="0" exitrows="80" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Epic LT" economy="-1" premium="0" first="0" business="0" exitrows="77" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="77" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

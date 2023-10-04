@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Rarotonga" iata="GZ" color="DarkBlue" area="447" CEO="Ewan Smith" mentality="Moderate" market="Regional" preferedairport="RAR">
+  <narrative narrative="Air Rarotonga is an airline based in Rarotonga, Cook Islands and is ‘the airline of the Cook Islands’. It operates inter-island scheduled services throughout the Cook Islands."/>
+</profile>
+  <info real="True" from="1978" to="2199" />
+  <prefereds aircrafts="Cessna 172 Skyhawk,EMB 110 Bandeirante"></prefereds> 
+  </airline>

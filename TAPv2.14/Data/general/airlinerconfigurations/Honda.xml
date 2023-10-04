@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Honda-->
+<!--HondaJet-->
+<configuration type="HondaJet HA-420" economy="0" premium="-1" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="225" kitchenrows="0">
+<seats>
+<seat class="Premium_Economy_Class" type="Recliner" pitch="112.5" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

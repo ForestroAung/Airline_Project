@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Citilink" iata="QG" logo="QG3" color="Black" area="246" CEO="Arif Wibowo" mentality="Safe" market="Global"
+           preferedairport="SUB" businessmodel="LCC">
+            <narrative narrative="Citilink is a low-cost airline headquartered in Jakarta, Indonesia. It was established in 2001 as a low-cost subsidiary of Garuda Indonesia, set up to operate shuttle services between Indonesian cities. Since July 30, 2012."></narrative>
+
+  </profile>
+  <info real="True" from="2001" to="2199" />
+</airline>

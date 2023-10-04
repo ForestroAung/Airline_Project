@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Komiaaviatrans" iata="KMA" color="MediumBlue" area="177" CEO="Anatoliy Lagounov" mentality="Safe" market="Domestic" preferedairport="SCW">
+  <narrative narrative="Komiaaviatrans is based at Syktyvkar of the Komi Republic in north east Russia. It has focus cities at Ukhta and Usinsk also in the Komi Republic. It started in 1998. From Syktyvkar as of July 2015
+  it was going to Inta,Koslan,Moscow Domodedovo,Pechora,Troitsko,Ukhta,Usinsk,Ust-Tsilma,Vorkuta,Vuktyl and seasonal to Anapa,Krasnodar,Mineralnye Vody and Sochi. Others from Ukhta were Moscow Domodedovo and
+  Usinsk and others from Usinsk were St. Petersburg and Ufa. Other routes being served were Moscow Domodedovo-Saratov,St. Petersburg-Samara,St. Petersburg-Astrakhan,St. Petersburg-Kaluga,Sochi-Kaluga, and Arkhangelsk-Kotlas. There may be a few others 
+  but thats most of them. Its fleet at May 2015 was four Embraer ERJ 145's which it started getting in late 2014, and it has two more on order. It also had four Let 410's. The 145's hold 50 people and the 410's hold 15."/>
+</profile>
+  <info real="True" from="1998" to="2199" />
+  <prefereds aircrafts="Embraer ERJ145 LR,Let L-410"></prefereds>
+            <focusairports>
+		 <focusairport airport="UCT"></focusairport>
+	         <focusairport airport="USK"></focusairport>
+		</focusairports>
+          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="2" late="6"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="4" late="4"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="SCW" destination2="DME" />
+		  <route destination1="SCW" destination2="UCT" />
+		  <route destination1="SCW" destination2="USK" />
+	          <route destination1="SCW" destination2="VKT" />
+	       	  <route destination1="SCW" destination2="UTS" />
+		   <route destination1="SCW" destination2="SVX" />
+		   <route destination1="SCW" destination2="KSZ" />
+		  <route destination1="SCW" destination2="INA" />
+	          <route destination1="SCW" destination2="PEX" />
+		  <route destination1="SCW" destination2="VUK" />
+	          <route destination1="UCT" destination2="DME" />
+	          <route destination1="UCT" destination2="USK" />
+	          <route destination1="USK" destination2="LED" />
+		  <route destination1="USK" destination2="UFA" />
+		  <route destination1="DME" destination2="RTW" />
+		  <route destination1="LED" destination2="ASF" />
+	          <route destination1="RTW" destination2="LED" />
+		  <route destination1="LED" destination2="KLF" />
+		  <route destination1="ASF" destination2="AER" />
+	          <route destination1="ARH" destination2="KSZ" />
+		  <route destination1="SCW" destination2="AER" season="Summer"/>
+		  <route destination1="SCW" destination2="AAQ" season="Summer"/>
+		  <route destination1="SCW" destination2="KRR" season="Summer"/>
+	          <route destination1="SCW" destination2="MRV" season="Summer"/>
+		  <route destination1="KLF" destination2="AER" season="Summer"/>
+			 		        </routes>
+
+
+
+
+</airline>

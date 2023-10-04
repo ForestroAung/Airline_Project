@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Divi Divi Air" iata="DI"  color="Green" area="423" CEO="Germaine N.F. Richie-Durand" mentality="Safe" market="Local" preferedairport="CUR">
+  <narrative narrative="Divi Divi Air is based at Curacao, a Caribbean island off the coast of Venezuela which is part of the Kingdom of the Netherlands. Its only route as of 2015 still is to another
+  of the ABC Islands of the Netherlands, Bonaire. This is only a 20-22 minute flight. It does ten of these a day. The airline commenced in 2002. It also does charters to the other island Aruba, and to the Venezuelan airports at Las Piedras
+  and Valencia. It is named for the Divi-divi tree which can be seen in its logo. Its fleet is two BN-2A Islanders,two Dornier 228's,a Cessna 402 and a Cessna 172 SKyhawk. The 172 has been in since 2009 and is used for pilot training,sightseeing and
+  mail carrying. The 402 is mostly for charters."/>
+   </profile>
+    <info real="True" from="2002" to="2199" />
+       <prefereds aircrafts="BN-2A Islander,Dornier 228-212,Cessna 402C,Cessna 402"></prefereds>
+ <focusairports>
+                 <focusairport airport="BON"></focusairport>
+     </focusairports>
+  
+    <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 402C" early="1" late="1"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="1" late="1"></airliner>
+	     </airliners>
+	     
+	     
+
+	       <routes>
+	       	<route destination1="CUR" destination2="BON"  opened="2002" closed="2199" />	
+	        <route destination1="CUR" destination2="AUA"  opened="2002" closed="2199" type="Charter" />
+                <route destination1="BON" destination2="AUA"  opened="2002" closed="2199" type="Charter" />	
+                <route destination1="CUR" destination2="LSP"  opened="2002" closed="2199" type="Charter" />	
+                <route destination1="CUR" destination2="VLN"  opened="2002" closed="2199" type="Charter" />
+                <route destination1="BON" destination2="VLN"  opened="2002" closed="2199" type="Charter" />	
+                <route destination1="BON" destination2="LSP"  opened="2002" closed="2199" type="Charter" />			
+              </routes>
+</airline>

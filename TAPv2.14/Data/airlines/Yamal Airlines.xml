@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Yamal Airlines" iata="YC" color="SkyBlue" area="177" CEO="Vasilii Kryuk" mentality="Moderate" market="Global" preferedairport="TJM">
+  <narrative narrative="Yamal Airlines has its main hub at Tyumen,Russia and is based at Salekhard,Russia where it has a secondary hub. It also has a hub at Moscow Domodedovo and a seasonal focus city at Anapa. Ufa and Yekaterinburg are also heavily served.It has 19 routes,5 seasonal from Tyumen. 8 from Salekhard. 8 from Moscow Domodedovo, three seasonal. 9 from Yekaterinburg, one seasonal.12 from Ufa,2 seasonal.And 7 from Anapa,all seasonal.Overall it serves about 22 or so domestic destinations,a few in Ukraine,Yeravan in Armenia,Ganja and Lankaran in Azerbaijan,and Tivat and Podgorica in Montenegro. At January 2015 its fleet had nine Bombardier CRJ200's,seven A320's,two A321's,three 737-400's,a 737-500, and have on order ten Sukhoi 100's. It had six 737-500's in 2008. It was founded in 1997." />
+</profile>
+   <info real="True" from="1997" to="2199"></info>
+   <prefereds aircrafts="Bombardier CRJ200,Boeing 737-500,Boeing 737-400,Airbus A320-200,Airbus A320neo,Airbus A321neo,Sukhoi 100-95LR,Sukhoi 100-75LR,Sukhoi 100-95,Sukhoi 100-75,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+ 
+<focusairports>
+                 <focusairport airport="SLY"></focusairport>
+		 <focusairport airport="DME"></focusairport>
+		 <focusairport airport="UFA"></focusairport>
+		 <focusairport airport="SVX"></focusairport>
+		 <focusairport airport="AAQ"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="4" late="9"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2018)-->
+	         <airliners>
+	    <airliner type="Sukhoi 100-95LR" early="0" late="10"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="5" late="1"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="7" late="7"></airliner>
+	     </airliners>
+	     	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="2"></airliner>
+	     </airliners>
+
+
+
+
+<routes>
+                <route destination1="TJM" destination2="DME" />
+	        <route destination1="TJM" destination2="SLY" />
+                <route destination1="TJM" destination2="LED"  />  
+	        <route destination1="TJM" destination2="OVB" />
+	        <route destination1="TJM" destination2="SVX" />
+                <route destination1="TJM" destination2="KRR"  />  
+	        <route destination1="TJM" destination2="OMS" />
+                <route destination1="TJM" destination2="NUX" />
+                <route destination1="TJM" destination2="NOJ"  />  
+	        <route destination1="TJM" destination2="NYM" />
+	        <route destination1="TJM" destination2="NYA" />
+	        <route destination1="TJM" destination2="EVN" />
+		<route destination1="TJM" destination2="DYU" />
+		<route destination1="TJM" destination2="KVD" />
+	        <route destination1="TJM" destination2="AAQ"  season="Summer"/>
+	        <route destination1="TJM" destination2="AER"  season="Summer"/>
+	        <route destination1="TJM" destination2="GDZ"  season="Summer"/>
+	        <route destination1="TJM" destination2="SIP"  season="Summer"/>
+                <route destination1="TJM" destination2="TGD"  season="Summer"/>
+	        <route destination1="SLY" destination2="DME" />
+	        <route destination1="SLY" destination2="LED" />
+	        <route destination1="SLY" destination2="UFA" />
+		<route destination1="SLY" destination2="OMS" />
+		<route destination1="SLY" destination2="NUX" />
+	        <route destination1="SLY" destination2="NOJ" />
+		<route destination1="SLY" destination2="NYM" />
+		<route destination1="DME" destination2="KJA" />
+		<route destination1="DME" destination2="UFA" />
+		<route destination1="DME" destination2="NUX" />
+		<route destination1="DME" destination2="BAX" />
+		<route destination1="DME" destination2="NOJ" />
+		<route destination1="DME" destination2="NYM" />
+	        <route destination1="DME" destination2="AAQ"  season="Summer"/>
+                <route destination1="DME" destination2="SIP"  season="Summer"/>
+		 <route destination1="DME" destination2="TIV"  season="Summer"/>
+		<route destination1="NUX" destination2="UFA" />
+		<route destination1="UFA" destination2="KRR" />
+		<route destination1="UFA" destination2="NJC" />
+		<route destination1="UFA" destination2="NUX" />
+		<route destination1="UFA" destination2="NOJ" />
+		<route destination1="UFA" destination2="NYM" />
+		<route destination1="UFA" destination2="OVB" />
+		<route destination1="UFA" destination2="EVN" />
+	        <route destination1="UFA" destination2="AAQ"  season="Summer"/>
+                <route destination1="UFA" destination2="AER"  season="Summer"/>
+	          <route destination1="LED" destination2="AAQ"  season="Summer"/>
+		   <route destination1="LED" destination2="TIV"  season="Summer"/>
+		  <route destination1="NJC" destination2="SVX" />
+		  <route destination1="NJC" destination2="KUF" />
+		  <route destination1="NJC" destination2="AAQ"  season="Summer"/>
+		   <route destination1="SVX" destination2="KJA" />
+		   <route destination1="SVX" destination2="OVB" />
+		      <route destination1="SVX" destination2="NOJ" />
+		      <route destination1="SVX" destination2="NYM" />
+		      <route destination1="SVX" destination2="NYA" />
+		      <route destination1="SVX" destination2="KGP" />
+		        <route destination1="SVX" destination2="AAQ"  season="Summer"/>
+		  <route destination1="PEE" destination2="AAQ"  season="Summer"/>
+		<route destination1="SGC" destination2="SIP"  season="Summer"/>
+
+        </routes>
+  
+
+
+</airline>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="GB Airways" iata="GT" color="Red" area="102" CEO="Joseph Gaggero" mentality="Moderate" market="Global" preferedairport="LGW">
+  <narrative narrative="GB Airways was a UK airline; prior to its dissolution it was headquartered in 'The Beehive' a former terminal building, at City Place Gatwick, London Gatwick Airport in Crawley, West Sussex, England. It operated scheduled services as a British Airways franchise to 30 destinations in Europe and North Africa from Gatwick and as well as Heathrow and Manchester. The company ceased operations on 30 March 2008 following its purchase by EasyJet in January 2008." />
+</profile>
+   <info real="True" from="1931" to="2008"></info>
+    <focusairports>
+                 <focusairport airport="LHR"></focusairport>
+                 <focusairport airport="MAN"></focusairport>
+		     </focusairports>
+   <prefereds aircrafts="Airbus A320-200,Airbus A321-200"></prefereds>
+	     
+</airline>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="China Xinjiang Airlines" iata="XO" color="Blue" area="209" CEO="Zhan Kim" mentality="Moderate" market="Regional" preferedairport="URC">
+  <narrative narrative="China Xinjiang Airlines was a Chinese airline owned by CAAC. It had its headquarters on the property of Diwopu International Airport in Urumqi. In 2003, the airline was acquired by China Southern Airlines."/>
+</profile>
+  <info real="True" from="1985" to="2003" />
+      <focusairports>
+      <focusairport airport="CZX"></focusairport>
+     </focusairports>
+  <prefereds aircrafts="ATR-72,Boeing 737-700,Boeing 757-200,Ilyushin Il-86,Tupolev Tu-154"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Ilyushin Il-86" early="1" late="5"></airliner>
+	    <airliner type="ATR-72" early="1" late="3"></airliner>
+	     <airliner type="Boeing 737-700" early="1" late="3"></airliner>
+	     <airliner type="Tupolev Tu-154" early="4" late="1"></airliner>
+	     </airliners>
+</airline>

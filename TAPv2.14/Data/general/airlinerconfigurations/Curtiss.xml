@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Curtiss-->
+<!--Curtiss Commando C-46-->
+<configuration type="Commando C-46" economy="0" premium="0" first="-1" business="0" exitrows="750" emergencyrows="-1" toiletrows="750" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="93.7" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Aeromarine 75-->
+<configuration type="Aeromarine 75" economy="0" premium="0" first="-1" business="0" exitrows="360" emergencyrows="-1" toiletrows="360,630" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

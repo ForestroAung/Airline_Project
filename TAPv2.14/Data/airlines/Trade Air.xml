@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Trade Air" iata="C3" logo="C3" color="Orange" area="126" CEO="Mihajlo Cvijin" mentality="Moderate" market="Domestic" preferedairport="ZAG">
+  <narrative narrative="Trade Air was established in April 1994 and started operations on 22 May 1995. It is a private company fully owned by Mihajlo Cvijin. In April 1999, the airline started to operate their first Let L-410 Turbolet aircraft, with two more aircraft of the same type added to their fleet during the summer of 2000." />
+ </profile>
+    <info real="True" from="1995" to="2199" />
+    <focusairports>
+      <focusairport airport="DBV"></focusairport>
+</focusairports>
+       <prefereds aircrafts="Fokker 100"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="0" late="2"></airliner>
+	    <airliner type="Let L-410" early="2" late="0"></airliner>
+	     </airliners>
+
+<routes>      
+	    <route destination1="ZAG" destination2="DBV"   />	
+	    <route destination1="ZAG" destination2="PUL" />	
+	      <route destination1="ZAG" destination2="OSI"/>
+                  </routes>
+</airline>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Pineapple Air" iata="PNP"  color="Gold" area="412" CEO="Michael Carey" mentality="Moderate" market="Domestic" preferedairport="NAS">
+  <narrative narrative="Pineapple Air is a domestic Bahama's airline based at Nassau. It started in 2000 with a Beechcraft 99. At March 2015 it has two Beechcraft 1900D's,two Beechcraft 1900C's,and an
+  Embraer 110 Bandeirante. It was flying from NAS to Governor's Harbour,Rocksound,North Eleuthra,San Salvador and Acklins Island at this time also."/>
+   </profile>
+    <info real="True" from="2000" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D,Beechcraft 1900C,EMB 110 Bandeirante"></prefereds>
+    
+    <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beehcraft 1900D" early="0" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 99" early="1" late="0"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="0" late="2"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="EMB 110 Bandeirante" early="0" late="1"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+	    	<route destination1="NAS" destination2="GHB"  opened="2000" closed="2199"  />
+	        <route destination1="NAS" destination2="ELH"  opened="2001" closed="2199"  />
+		<route destination1="NAS" destination2="RSD"  opened="2002" closed="2199"  />
+		<route destination1="NAS" destination2="ZSA"  opened="2003" closed="2199"  />
+		<route destination1="NAS" destination2="AXP"  opened="2004" closed="2199"  />
+
+              </routes>
+</airline>

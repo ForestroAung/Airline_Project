@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Braathens Regional" iata="BRX"  color="Blue" area="105" CEO="Erik Thun" mentality="Moderate" market="Local" preferedairport="BMA">
+  <narrative narrative="Braathens Regional of Sweden started out as Golden Air in 1976. In 2012 Golden Air was bought by Braathens Aviation,but it was never a subsidiay of the defunct Braathens airline. The head office of it is in
+  Trollhattan as was Golden Air, while the hubs are at Stockholm Bromma and Angelholm/Helsingborg, although it operates more routes out of Visby on the island of Gotland than Angelholm. January 1,2013 saw the official airline renaming. It was serving around 8 routes from Stockholm Bromma all to domestic destinations, and 8 from Gotland, but 6 of those are seasonal. One is done from Stockholm Arlanda while a few from Angelholm. The brand most
+  of its flights are under is Sverigeflyg. Sverigeflyg consists of seven brands itself.  Blekingeflyg, Flysmaland, Braathens Regional, Gotlandsflyg, Kalmarflyg, Kullaflyg, and Sundsvallsflyg. But Braathens operates them all. All the Gotland flights are under the Gotlandsflyg name. Vaxjo under Flysmaland. Sundsvall under Sundsvallsflyg. Kullaflyg is mostly Angelholm. Kalmarflyg for Kalmar. Blekingeflyg for Ronneby. And Braathens Regional's name itself is used for Trolhattan. At December 2013 its fleet was five ATR 72-500's and eleven Saab 2000's and one Saab 340."/>
+      <names>
+<name value="Golden Air" from="1.1.1976 00:00:00"></name>
+<name value="Braathens Regional" from="1.1.2013 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1976" to="2013" path="BRX1976-2013"></logo>
+    </logos>
+   </profile> 
+    <info real="True" from="1976" to="2199" />
+       <prefereds aircrafts="Saab 2000,Saab 340B,ATR 72-500,ATR 72-600"></prefereds>
+       <focusairports>
+			       <focusairport airport="VBY"></focusairport>
+			       <focusairport airport="AGH"></focusairport>
+     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2014)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="2" late="5"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="1"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Saab 2000" early="1" late="11"></airliner>
+	     </airliners>
+    <routes>
+	        <route destination1="BMA" destination2="THN" opened="1976" closed="2199"  />
+		<route destination1="BMA" destination2="AGH"  />
+		<route destination1="BMA" destination2="VXO"  />
+		<route destination1="BMA" destination2="HAD"  />
+	       	<route destination1="BMA" destination2="RNB"   />
+		<route destination1="BMA" destination2="KLR"  />
+		<route destination1="BMA" destination2="MXX"  />
+		<route destination1="BMA" destination2="SDL"  />
+		<route destination1="VBY" destination2="RNB" season="Summer"   />
+                <route destination1="VBY" destination2="GOT"  />
+	       	<route destination1="VBY" destination2="MMX"    />
+		<route destination1="VBY" destination2="AGH" season="Summer"   />
+	        <route destination1="VBY" destination2="SDL" season="Summer"   />
+	        <route destination1="VBY" destination2="HEL" season="Summer"   />
+		<route destination1="VBY" destination2="UME" season="Summer"   />
+		<route destination1="VBY" destination2="NRK" season="Summer"   />
+		<route destination1="ARN" destination2="VXO"  />
+		<route destination1="AGH" destination2="MXX"  />
+              </routes>
+</airline>

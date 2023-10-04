@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="TAE Greek National Airlines" iata="GK" color="Blue" area="139" CEO="Talal Abu Reyal" mentality="Safe" market="Regional" preferedairport="ATH">
+  <narrative narrative="TAE Greek National Airlines was formed in 1951 by the Greek government to form the national airline of Greece. The airline operated without competition on domestic routes in Greece and served a small number of European and Middle Eastern cities. The airline was sold in 1957 and renamed Olympic Airways."/>
+</profile>
+  <info real="True" from="1951" to="1957" />
+  <prefereds aircrafts="Douglas DC-3,Douglas DC-4"></prefereds>
+  </airline>

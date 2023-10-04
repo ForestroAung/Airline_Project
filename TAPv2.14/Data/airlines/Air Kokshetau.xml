@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Kokshetau" iata="KRT" color="LimeGreen" area="200" CEO="Yuriy Gryaznov" mentality="Safe" market="Domestic" preferedairport="KOV"> 
+  <narrative narrative="Air Kokshetau was an airline based at Kokshetau,Kazakhstan that operated from 2002 to 2008. It flew to the largest city of the country which is 1237km/769mi to the southwest
+  and to Petropavl which is 163km/101mi to the northwest of Kokshetau. It had 5 Yak-40's and 2 IL-62M's, and starting in 2004 it had an A310-300 that it got from Air Kazakhstan upon that airlines closure.
+  It employed 238 people at March 2007." />
+</profile>
+   <info real="True" from="2002" to="2008"></info>
+   <prefereds aircrafts="Yak-40,Il-62M"></prefereds>
+       
+  <routes>
+    <route destination1="KOV" destination2="ALA"/>
+    <route destination1="KOV" destination2="PPK"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Il-62M" early="2" late="2"></airliner>
+	     </airliners>
+	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="5" late="5"></airliner>
+	     </airliners>
+	     	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-300" early="1" late="1"></airliner>
+	     </airliners>
+
+
+
+</airline>

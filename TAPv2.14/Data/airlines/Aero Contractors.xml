@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aero Contrators" iata="AJ" color="Orange" area="339" CEO="Hugh Fraser" mentality="Moderate" market="Regional" preferedairport="LOS">
+  <narrative narrative="Aero Contractors is an airline based at Lagos,Nigeria. It flies to 10 domestic airports besides Lagos and to Accra,Ghana from Lagos. It serves 10 routes from Lagos as of March 2015 and
+  from Abuja it serves 6,and also one from Kano besides Lagos and Abuja. It was founded in 1959. At February 2015 its fleet had seven 737-400's,six 737-500's,two Dash 8-400's, a Dash 8-300 and a Dash 8-200.
+  It had a Dash 8-100 from 1995 until 2009. It also had 8 other Dash 8-300's for various amounts of time between 1999 and 2015 and some 737-300's for short times." />
+</profile>
+   <info real="True" from="1959" to="2199"></info>
+   <focusairports>
+                 <focusairport airport="ABV"></focusairport>
+     </focusairports>
+  <prefereds aircrafts="Boeing 737-400,Boeing 737-500,Bombardier Dash 8-400,Bombardier Dash 8-300,Bombardier Dash 8-200,Boeing 737 MAX 8,Boeing 737 MAX 7,Bombardier Dash 8-100,Boeing 737-300"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="7"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="4" late="6"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="1" late="0"></airliner>
+	     </airliners>
+	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="3" late="1"></airliner>
+	     </airliners>
+	     	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	         	     	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="1" late="1"></airliner>
+	     </airliners>
+
+
+
+
+
+
+
+
+
+<routes>
+	        <route destination1="LOS" destination2="ABV"  />
+	        <route destination1="LOS" destination2="PHC"  />
+		<route destination1="LOS" destination2="KAN"  />
+	        <route destination1="LOS" destination2="CBQ"  />
+	        <route destination1="LOS" destination2="QUO"  />
+	        <route destination1="LOS" destination2="ENU"  />
+		<route destination1="LOS" destination2="QOW"  />
+	        <route destination1="LOS" destination2="ABB"  />
+	        <route destination1="LOS" destination2="BNI"  />
+	        <route destination1="LOS" destination2="ACC"  />
+	        <route destination1="ABV" destination2="PHC"  />
+		<route destination1="ABV" destination2="ABB"  />
+	        <route destination1="ABV" destination2="QOW"  />
+	        <route destination1="ABV" destination2="QUO"  />
+	        <route destination1="ABV" destination2="SKO"  />
+		 <route destination1="KAN" destination2="ABB"  />
+              </routes>
+  
+
+
+</airline>

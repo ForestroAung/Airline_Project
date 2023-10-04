@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="RyanAir UK" iata="FR1" logo="FR" color="Sienna" area="102" CEO="Michael O'Leary" mentality="Aggressive" onlyfromhome="False" market="Regional" preferedairport="STN" businessmodel="LCC">
+    <narrative
+      narrative="Ryanair UK is a subsidiary of Ryanair to be able to keep operating flights in the United Kingdom after Brexit takes place." />
+  </profile>
+   <info real="True" from="2019" to="2199"></info>
+<airliners>
+      <airliner type="Boeing 737-800" early="0" late="1"></airliner>
+</airliners>
+	
+</airline>

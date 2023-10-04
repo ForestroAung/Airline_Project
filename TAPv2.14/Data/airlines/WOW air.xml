@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="WOW air" iata="X9" color="Purple" area="100" CEO="Skúli Mogensen" mentality="Safe" market="Global"
+           preferedairport="KEF" businessmodel="LCC">
+               <narrative narrative="WOW air is an Icelandic low-cost carrier that was founded in November 2011 and describes itself as 'the airline with the biggest smile and lowest prices'" />
+  </profile>
+  <info real="True" from="2011" to="2019" />
+</airline>

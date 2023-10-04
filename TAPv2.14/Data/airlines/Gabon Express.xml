@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gabon Express" iata="GBE" color="Red" area="346" CEO="Benoit Jordan" mentality="Safe" market="Domestic" preferedairport="LBV">
+  <narrative narrative="Gabon Express was around from October 1998 to June 2004. It was based at Libreville,Gabon. It flew to the domestic airports at Port Gentil,Bitam,Franceville,Gamba,and Oyem. It used Hawker 748's and Sud Caravelle's. It was the last airline to use the Caravelle in passenger scheduled operations in the world."/>
+</profile>
+  <info real="True" from="1998" to="2005" />
+  <prefereds aircrafts="HS.748,Sud Aviation Caravelle 10B,Sud Aviation Caravelle I"></prefereds> 
+
+               <routes>
+	          <route destination1="LBV" destination2="PNR"    />
+        </routes>
+
+
+
+
+</airline>

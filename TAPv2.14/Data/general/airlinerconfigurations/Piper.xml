@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--PA-23-->
+<configuration type="PA-23 Aztec" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="48"></seat>
+</seats>
+</configuration>
+
+<!--PA-24-->
+<configuration type="PA-24 Comanche" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="48"></seat>
+</seats>
+</configuration>
+
+<!--PA-28-->
+<configuration type="PA-28 Cherokee" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="PA-44 Seminole" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="PA-32 Cherokee Six" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+
+<!--PA-31-->
+<configuration type="PA-31 Navajo" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.7" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="PA-31T Cheyenne" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="50"></seat>
+</seats>
+</configuration>
+
+<!--PA-34-->
+<configuration type="PA-34 Seneca" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--PA-42-->
+<configuration type="PA-42 Cheyenne" economy="-1" premium="0" first="0" business="0" exitrows="360" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+
+<!--PA-46-->
+<configuration type="PA-46 Malibu" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+
+<!--PA-60-->
+<configuration type="PA-60 Aerostar" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.6" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

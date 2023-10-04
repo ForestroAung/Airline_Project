@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Seagle Air" iata="CGL" color="Green" area="153" CEO="Peter Hanak" mentality="Safe" market="Global" preferedairport="BTS" routefocus="Mixed" schedule="Charter">
+  <narrative narrative="Seagle Air was a charter airline that did both passengers and cargo. Its base was Bratislava,Slovakia with another at Prague,Czech Republic. The corpoorate HQ was at Trencin,Slovakia. It started in 1995 as a private flying school and later added cargo and mail flights. 
+  In 2006 it began VIP transport then charters. In 2007 it took over many employees and offices from bankrupted Slovak Airlines. On New Years Eve 2008 it had a debt of 230,000 euros it owed on social insurance to
+  its employees. It went up to 330,000 by April. It payed them off by the end of June 2009. However on October 23,2009 it ceased due to finance problems. The flight school portion still operates however. Its final fleet was
+  four leased 737-300's and two leased A320-200's. The flight school that is still around uses five Diamond DA20's,a DA40 Diamond Star and a DA 42 Twin Star."/>
+</profile>
+  <info real="True" from="1995" to="2010" />
+  <prefereds aircrafts="Boeing 737-300,Airbus A320-200"></prefereds>
+<focusairports>
+                 <focusairport airport="PRG"></focusairport> 
+     </focusairports>
+  
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="4"></airliner>
+	     </airliners>
+	       	      <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+
+
+</airline>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Guyana Airways" iata="GY" color="Green" area="427" CEO="Ramashree Singh" mentality="Moderate"
+           market="Regional" preferedairport="GEO">
+    <narrative
+      narrative="Guyana Airways was the national airline of Guyana from 1939 to 2001. During this period, it operated services to destinations throughout the Caribbean, the U.S. and Canada. It was declared insolvent in 2001." />
+  </profile>
+  <info real="True" from="1939" to="2001" />
+</airline>

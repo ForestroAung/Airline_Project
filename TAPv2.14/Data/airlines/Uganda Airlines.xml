@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Uganda Airlines" iata="QU" logo="QU2" color="Red" area="357" CEO="Government"
+           mentality="Safe" market="Global" preferedairport="EBB">
+    <narrative
+      narrative="Uganda Airlines was the flag carrier of Uganda. The airline was established in May 1976 and started operations in 1977.">
+    </narrative>
+  </profile>
+  <info real="True" from="1977" to="2001" />
+</airline>

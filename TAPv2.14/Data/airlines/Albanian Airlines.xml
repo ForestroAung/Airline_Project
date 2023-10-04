@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Albanian Airlines" iata="LBC" color="Red" area="136" CEO="Yahia Farwati" mentality="Safe" market="Regional" preferedairport="TIA">
+  <narrative narrative="Albanian Airlines was around from May 1991 to November 2011. It started as Arberia Airlines and was used by communist politicians in Albania. A year later it was renamed to Albanian Airlines.
+  It did not open to the public however until June 20th,1995. It was a joint venture between state owned Albatransport and Austrian airline Tyrolean Airways. It used a single Dash 8-100 to start. Tyrolean backed out
+  in 1997 and took its Dash 8 also. After that it was privatised and sold to Kuwait based M.A. Kharafi and Sons Group. It leased an A320 for Egyptian airline Shorouk Air. By 2001 it had four Tupolev 134's and flew
+  from Tirana to Rome and Bologna,Italy Frankfurt,Germany Istanbul,Turkey Zurich,Switzerland and Pristina in the disputed region of Kosovo. In July 2001 it started replacing the Russian planes with British made BAe 146's.
+  It expanded more into Germany and Belgium as a result. In August 2008 it was sold to the Advanced Construction Group, the president of it buying 100% of its capital from the Kuwait company. Then in August 2009
+  it was sold again to Turkish Even Group, which itself had been bought by Evsen Group. 7% was retained by Advanced Construction. In March 2012 this was reversed in court and the airline was returned 100% to Advanced Construction.
+  However the airline had already ceased. At the end the fleet had four BAe 146's, one 100 type, one 200 type and two 300 type. Other planes it had used over time were two leased 737-300's from 2009 into 2010,a DC-9-30 near the end,
+  an MD-82 from 2008 to 2009 and Fokker 100 planes."/>
+</profile>
+  <info real="True" from="1995" to="2012" />
+  <prefereds aircrafts="BAe 146-200,Avro RJ 85"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2010)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="1" late="2"></airliner>
+	     </airliners>
+	       	      <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ 85" early="1" late="2"></airliner>
+	     </airliners>
+	     	       	      <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2010)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="0"></airliner>
+	     </airliners>
+	     	       	      <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+	     </airliners>
+	     	       	      <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="0"></airliner>
+	     </airliners>
+	     	       	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	       	      <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="1" late="0"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="TIA" destination2="FCO"    />
+		  <route destination1="TIA" destination2="IST"    />
+		  <route destination1="TIA" destination2="FRA"    />
+		  <route destination1="TIA" destination2="ZRH"    />
+		  <route destination1="TIA" destination2="BLQ"    />
+		  <route destination1="TIA" destination2="PRN"    />
+		  <route destination1="TIA" destination2="BRU" opened="2001" closed="2199"  />
+                  <route destination1="TIA" destination2="MUC" opened="2001" closed="2199"  />
+		        </routes>
+
+
+
+
+</airline>

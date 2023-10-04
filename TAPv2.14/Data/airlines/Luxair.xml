@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Luxair" iata="LG" color="SkyBlue" area="110" CEO="Adrien Ney" mentality="Moderate" market="Global" preferedairport="LUX">
+    <narrative narrative=" Luxair is the flag carrier of the Grand Duchy of Luxembourg. They serve 23 all year round destinations and 42 seasonal destinations. Besides Luxembourg Findel Airport it also has a focus city at Saarbrucken Airport nearby in Germany 80 kilometers from LUX. They also do charters. At March 2012 it was serving 5 year round in Spain and 6 seasonal,2 year round in Italy and and 8 seasonal,4 seasonal in Greece,2 year round in Portugal and 2 seasonal,3 seasonal in Egypt,3 seasonal in Morocco,2 seasonal in Turkey,3 year round in France and 2 seasonal,5 year round in Germany,2 year round in Tunisia,2 seasonal in Cyprus,2 seasonal in Bulgaria,2 seasonal in Cape Verde,one year round in Denmark,the UK,Ireland,Switzerland,Sweden and Austria,and one seasonal in Algeria,Croatia,Malta and Romania. From Saarbrucken besides the short LUX hop it does domestic Berlin-Tegel and Hamburg. They have 18 planes as of February 2015, 6 ERJ 145's, 7 Dash 8 Q400's, 3 737-800's, and 2 737-700's. They have one 737-800 on order with options for 2 more,and three Dash 8-400NextGen's with 7 more on options. Past planes include four 737-500's,two 737-400's,four Fokker 50's,four Embraer Brasilia's,a few 737-200's,two Embraer ERJ 135's,one Airbus A300B4,and in the 80's and 90's it leased a Boeing 747SP for about seven years. It leased a 767-300 for one year in 1999. Older planes it had include a Vickers Viscount, three Fokker F27's,and three Lockheed L-1649 Starliners used to go to Johannesburg from LUX in an agreement with Trek Airways which were painted in Luxair colors and registered to them,this was from 1964-69. Its very first route was Paris which started in 1962 using the F27. In 1970 a Sud Caravelle was their first jet which replaced the Viscount which crashed in 1969. In 2009 it was awarded the most on time airline operating at London City based on the Civil Aviation Authority statistics." /></profile>
+  <info real="True" from="1961" to="2199" />
+   <prefereds aircrafts="Bombardier Dash 8-400,Embraer ERJ145 LR,Boeing 737-800,Boeing 737 MAX 8,Boeing 737-700,Boeing 737 MAX 7,Boeing 737-500,Boeing 737-400,Fokker 50,Boeing 737-200 Adv.,Boeing 737-200,Bombardier Dash 8-400NextGen,EMB 120 Brasilia,Fokker F27,Vickers Viscount 800,Sud Aviation Caravelle 10B"></prefereds>
+  <focusairports>
+                 <focusairport airport="SCN"></focusairport>
+     </focusairports>
+ <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="3" late="7"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400NextGen" early="1" late="7"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="1" late="3"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="3" late="2"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="5" late="6"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="2" late="0"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="4" late="0"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1987) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747SP" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="4" late="0"></airliner>
+	     </airliners>
+	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="0"></airliner>
+	     </airliners>
+	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1977) late (1995)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="0"></airliner>
+	     </airliners>
+	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1984) late (1989)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300B4" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1970) late (1985)-->
+	     	         <airliners>
+	    <airliner type="Sud Aviation Caravelle 10B" early="1" late="0"></airliner>
+	     </airliners>
+	         	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1967)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="1" late="3"></airliner>
+	     </airliners>
+	              	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1964) late (1969)-->
+	     	         <airliners>
+	    <airliner type="L-1649 Starliner" early="3" late="3"></airliner>
+	     </airliners>
+	     	              	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1964) late (1970)-->
+	     	         <airliners>
+	    <airliner type="Vickers Viscount 800" early="1" late="0"></airliner>
+	     </airliners>
+	     
+
+<routes>
+                <route destination1="LUX" destination2="SCN" />
+	        <route destination1="LUX" destination2="MUC" />
+		<route destination1="LUX" destination2="TXL" />
+		<route destination1="LUX" destination2="BER" />
+		<route destination1="LUX" destination2="HAM" />
+		<route destination1="LUX" destination2="FRA" />
+		<route destination1="LUX" destination2="LCY" />
+		<route destination1="LUX" destination2="CDG" opened="1962" closed="2199" />
+		<route destination1="LUX" destination2="VIE" />
+		<route destination1="LUX" destination2="GVA" />
+		<route destination1="LUX" destination2="FCO" />
+		<route destination1="LUX" destination2="MXP" />
+		<route destination1="LUX" destination2="MAD" />
+		<route destination1="LUX" destination2="BCN" />
+		<route destination1="LUX" destination2="CPH" />
+		<route destination1="LUX" destination2="NCE" />
+		<route destination1="LUX" destination2="LIS" />
+		<route destination1="LUX" destination2="DUB" />
+		<route destination1="LUX" destination2="PMI" />
+		<route destination1="LUX" destination2="AGP" />
+		<route destination1="LUX" destination2="TFS" />
+		<route destination1="LUX" destination2="OPO" />
+		<route destination1="LUX" destination2="AJA" season="Summer" />
+		<route destination1="LUX" destination2="NBE" />
+		<route destination1="LUX" destination2="DJE" />
+		<route destination1="LUX" destination2="ARN" />
+		<route destination1="LUX" destination2="FLR" />
+		<route destination1="LUX" destination2="MIR" />
+		<route destination1="SCN" destination2="HAM" />
+		<route destination1="SCN" destination2="TXL" />
+		<route destination1="SCN" destination2="BER" />
+		<route destination1="LUX" destination2="JNB" opened="1964" closed="1969"/>
+		<route destination1="LUX" destination2="MLA" season="Summer" />
+		<route destination1="LUX" destination2="IBZ" season="Summer" />
+		<route destination1="LUX" destination2="FAO" season="Summer" />
+		<route destination1="LUX" destination2="LPA" season="Summer" />
+		<route destination1="LUX" destination2="VCE" season="Summer" />
+		<route destination1="LUX" destination2="NAP" season="Summer" />
+		<route destination1="LUX" destination2="ACE" season="Summer" />
+		<route destination1="LUX" destination2="PMO" season="Summer" />
+		<route destination1="LUX" destination2="CTA" season="Summer" />
+		<route destination1="LUX" destination2="AYT" season="Summer" />
+		<route destination1="LUX" destination2="FUE" season="Summer" />
+		<route destination1="LUX" destination2="FNC" season="Summer" />
+		<route destination1="LUX" destination2="HER" season="Summer" />
+		<route destination1="LUX" destination2="RHO" season="Summer" />
+		<route destination1="LUX" destination2="SSH" season="Summer" />
+		<route destination1="LUX" destination2="DBV" season="Summer" />
+		<route destination1="LUX" destination2="LCA" season="Summer" />
+		<route destination1="LUX" destination2="CFU" season="Summer" />
+		<route destination1="LUX" destination2="KGS" season="Summer" />
+		<route destination1="LUX" destination2="BOJ" season="Summer" />
+		<route destination1="LUX" destination2="PFO" season="Summer" />
+		<route destination1="LUX" destination2="RAK" />
+		<route destination1="LUX" destination2="BJV" season="Summer" />
+		<route destination1="LUX" destination2="HRG" season="Summer" />
+		<route destination1="LUX" destination2="CAG" season="Summer" />
+		<route destination1="LUX" destination2="CHQ" season="Summer" />
+		<route destination1="LUX" destination2="BRI" season="Summer" />
+		<route destination1="LUX" destination2="VAR" season="Summer" />
+		<route destination1="LUX" destination2="AGA" season="Summer" />
+		<route destination1="LUX" destination2="SUF" season="Summer" />
+		<route destination1="LUX" destination2="XRY" season="Summer" />
+		<route destination1="LUX" destination2="RMF" season="Summer" />
+		<route destination1="LUX" destination2="RMI" season="Summer" />
+		<route destination1="LUX" destination2="OLB" season="Summer" />
+		<route destination1="LUX" destination2="BIA" season="Summer" />
+		<route destination1="LUX" destination2="ADB" season="Summer" />
+		<route destination1="LUX" destination2="ALG" season="Summer" />
+		<route destination1="LUX" destination2="CND" season="Summer" />
+		<route destination1="LUX" destination2="OZZ" season="Summer" />
+		<route destination1="LUX" destination2="BVC" season="Summer" />
+		<route destination1="LUX" destination2="SID" season="Summer" />
+              </routes>
+</airline>

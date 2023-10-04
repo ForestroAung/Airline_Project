@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="DLT Luftverkehrsgesellschaft" iata="CL" color="Indigo" area="108" CEO="Stephan Klar" mentality="Aggressive"
+           market="Regional" preferedairport="MUC">
+    <narrative narrative="Lufthansa CityLine GmbH is a German airline with its headquarters on the grounds of Munich Airport. It is a wholly owned subsidiary of Lufthansa and maintains hubs at Frankfurt Airport and Munich Airport, from where it operates a dense domestic and European network as a member of Lufthansa Regional. Since October 2015, it also operates some long-haul routes on behalf of its parent company." />
+  <names>
+	<name value="Ostfriesische Lufttransport" from="01.01.1958 00:00:00"/>
+	<name value="DLT Luftverkehrsgesellschaft" from="10.01.1974 00:00:00"/>
+</names>
+  </profile>
+  <info real="True" from="1958" to="2199" />
+  <logos>
+<logo from="1958" to="1992" path="CL1958-1992"></logo>
+</logos>
+       <prefereds aircrafts="Embraer E-195,Embraer E-190,Bombardier Dash 8-100,Bombardier Dash 8-300,Bombardier CRJ700,Bombardier CRJ900,Bombardier CRJ200,Bombardier CRJ100,ATR 42-300,ATR 42-500,Avro RJ 85,Boeing 737-200 Adv.,Fokker F27,Fokker 50,HS.748,Short 330"></prefereds>
+       	<focusairports>
+       		<focusairport airport="FRA"></focusairport>
+       		<focusairport airport="MUC"></focusairport>
+       	</focusairports>
+       	<routes>
+       		<route destination1="FRA" destination2="AAL"/>
+       		<route destination1="FRA" destination2="AMS"/>
+       		<route destination1="FRA" destination2="BSL"/>
+       		<route destination1="FRA" destination2="BEG"/>
+       		<route destination1="FRA" destination2="BLL"/>
+       		<route destination1="FRA" destination2="BLQ"/>
+       		<route destination1="FRA" destination2="BRU"/>
+       		<route destination1="FRA" destination2="OTP"/>
+       		<route destination1="FRA" destination2="BZG"/>
+       		<route destination1="FRA" destination2="FLR"/>
+       		<route destination1="FRA" destination2="FDH"/>
+       		<route destination1="FRA" destination2="GDN"/>
+       		<route destination1="FRA" destination2="GRZ"/>
+       		<route destination1="FRA" destination2="KTW"/>
+       		<route destination1="FRA" destination2="LEJ"/>
+       		<route destination1="FRA" destination2="LNZ"/>
+       		<route destination1="FRA" destination2="LCY"/>
+       		<route destination1="FRA" destination2="MSQ"/>
+       		<route destination1="FRA" destination2="POZ"/>
+       		<route destination1="FRA" destination2="RZE"/>
+       		<route destination1="FRA" destination2="GWT"/>
+       		<route destination1="MUC" destination2="AMS"/>
+       		<route destination1="MUC" destination2="BSL"/>
+       		<route destination1="MUC" destination2="BEG"/>
+       		<route destination1="MUC" destination2="BIO"/>
+       		<route destination1="MUC" destination2="BHX"/>
+       		<route destination1="MUC" destination2="BRE"/>
+       		<route destination1="MUC" destination2="BRU"/>
+       		<route destination1="MUC" destination2="OTP"/>
+       		<route destination1="MUC" destination2="BUD"/>
+       		<route destination1="MUC" destination2="KIV"/>
+       		<route destination1="MUC" destination2="CLJ"/>
+       		<route destination1="MUC" destination2="CGN"/>
+       		<route destination1="MUC" destination2="DRS"/>
+       		<route destination1="MUC" destination2="GDN"/>
+       		<route destination1="MUC" destination2="GVA"/>
+       		<route destination1="MUC" destination2="GOT"/>
+       		<route destination1="MUC" destination2="GRZ"/>
+       		<route destination1="MUC" destination2="KRK"/>
+       		<route destination1="MUC" destination2="LEJ"/>
+       		<route destination1="MUC" destination2="LUX"/>
+       		<route destination1="MUC" destination2="LYS"/>
+       		<route destination1="MUC" destination2="LWO"/>
+       		<route destination1="MUC" destination2="MRS"/>
+       		<route destination1="MUC" destination2="MXP"/>
+       		<route destination1="MUC" destination2="FMO"/>
+       		<route destination1="MUC" destination2="NCE"/>
+       		<route destination1="MUC" destination2="NUE"/>
+       		<route destination1="MUC" destination2="PAD"/>
+       		<route destination1="MUC" destination2="CDG"/>
+       		<route destination1="MUC" destination2="PSA"/>
+       		<route destination1="MUC" destination2="PRG"/>
+       		<route destination1="MUC" destination2="FCO"/>
+       		<route destination1="MUC" destination2="RLG"/>
+       		<route destination1="MUC" destination2="POZ"/>
+       		<route destination1="MUC" destination2="SJJ"/>
+       		<route destination1="MUC" destination2="SBZ"/>
+       		<route destination1="MUC" destination2="SOF"/>
+       		<route destination1="MUC" destination2="SPU"/>
+       		<route destination1="MUC" destination2="STR"/>
+       		<route destination1="MUC" destination2="GWT"/>
+       		<route destination1="MUC" destination2="TSR"/>
+       		<route destination1="MUC" destination2="TIA"/>
+       		<route destination1="MUC" destination2="TRS"/>
+       		<route destination1="MUC" destination2="TLS"/>
+       		<route destination1="MUC" destination2="TRN"/>
+       		<route destination1="MUC" destination2="VIE"/>
+       		<route destination1="MUC" destination2="WAW"/>
+       		<route destination1="MUC" destination2="WRO"/>
+       		<route destination1="MUC" destination2="ZAG"/>
+       		<route destination1="MUC" destination2="ZRH"/>
+       	</routes>
+       	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (2002)-->
+	  	<airliners>
+  			<airliner type="ATR 42-300" early="7" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (2013)-->
+	  	<airliners>
+  			<airliner type=",Avro RJ 85" early="18" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (2013)-->
+	  	<airliners>
+  			<airliner type="Bombardier CRJ100" early="8" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (2013)-->
+	  	<airliners>
+  			<airliner type="Bombardier CRJ200" early="39" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	  	<airliners>
+  			<airliner type="Bombardier CRJ700" early="5" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (2008) late (2023)-->
+	  	<airliners>
+  			<airliner type="Bombardier CRJ900" early="1" late="19"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (1997)-->
+	  	<airliners>
+  			<airliner type="Bombardier Dash 8-100" early="2" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (1997)-->
+	  	<airliners>
+  			<airliner type="Bombardier Dash 8-300" early="1" late="0"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (2009) late (2024)-->
+	  	<airliners>
+  			<airliner type="Embrear E-190" early="1" late="9"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (2009) late (2024)-->
+	  	<airliners>
+  			<airliner type="Embrear E-195" early="24" late="10"></airliner>
+  		</airliners>
+  	<!--the airliners the airline would start with which isn't on a route earyl (1992) late (1997)-->
+	  	<airliners>
+  			<airliner type="Fokker F50" early="35" late="0"></airliner>
+  		</airliners>
+		  	<!--the airliners the airline would start with which isn't on a route earyl (1993) late (2020)-->
+	  	<airliners>
+  			<airliner type="Airbus A340-300" early="31" late="18"></airliner>
+  		</airliners>
+</airline>

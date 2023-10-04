@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Volaris" iata="Y4" color="Black" area="403" CEO="Enrique Beltranena" mentality="Safe"
+           market="Global" preferedairport="MEX">
+              <narrative narrative="Volaris is a Mexican low-cost airline based in Santa Fe, Álvaro Obregón, Mexico City, and its operational base is located at the General Abelardo L. Rodríguez International Airport (TIJ) in Tijuana." />
+  </profile>
+  <info real="True" from="2005" to="2199" />
+</airline>

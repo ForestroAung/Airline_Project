@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Ibertrans Aerea" iata="IBT"  color="Navy" area="117" CEO="Marcio Torres" mentality="Safe" market="Regional" preferedairport="MAD" routefocus="Mixed" schedule="Charter">
+  <narrative narrative="Ibertrans Aerea is a charter airline that does passengers and cargo and is based at Madrid. It was founded in 1991. At March 2007 its fleet had two Embraer 120 Brasilia's and two Fairchild Merlin IV's."/>
+   </profile> 
+    <info real="True" from="1991" to="2199" />
+       <prefereds aircrafts="EMB 120 Brasilia,Fairchild Swearingen Merlin IV C"></prefereds>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2007)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="2" late="2"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Fairchild Swearingen Merlin IV C" early="2" late="2"></airliner>
+	     </airliners>
+	
+</airline>

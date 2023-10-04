@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lufthansa Italia" iata="LHI" color="Silver" area="122" CEO="Michael Kraus" mentality="Moderate" market="Regional" preferedairport="MXP">
+  <narrative narrative="Lufthansa Italia was an Italian subsidiary of German airline Lufthansa that operated from February 2,2009 to October 29,2011. Its base was Milan Malpensa. It flew domestic routes to Catania,Naples,Olbia,Palermo year round and seasonally to Cagliari. International routes were to Prauge,Czech Republic Paris CDG,France Warsaw,Poland Lisbon,Portugal Barcelona,Spain Madrid,Spain Palma de Mallorca,Spain Stockholm,Sweden and London Heathrow,UK year round. Seasonal ones were Casablanca,Morocco and Ibiza,Spain. It operated ten A319's. They were paineted in their own livery that said Lufthansa Italia. 5 of them had been transferred from other LH subsidiary Germanwings and 5 were from the Lufthansa base at Munich."/>
+</profile>
+  <info real="True" from="2009" to="2012" />
+  <prefereds aircrafts="Airbus A319-100"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2011)-->
+	         <airliners>
+	    <airliner type="A319-100" early="10" late="10"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="MXP" destination2="PMO"  />
+		<route destination1="MXP" destination2="CTA"  />
+		<route destination1="MXP" destination2="CAG" season="Summer"  />
+		<route destination1="MXP" destination2="OLB"  />
+		<route destination1="MXP" destination2="NAP"  />
+		<route destination1="MXP" destination2="BRI"  />
+		<route destination1="MXP" destination2="CDG"  />
+		<route destination1="MXP" destination2="BCN"  />
+		<route destination1="MXP" destination2="MAD"  />
+		<route destination1="MXP" destination2="LHR"  />
+		<route destination1="MXP" destination2="PMI"  />
+		<route destination1="MXP" destination2="PRG"  />
+		<route destination1="MXP" destination2="ARN"  />
+		<route destination1="MXP" destination2="LIS"  />
+		<route destination1="MXP" destination2="WAW"  />
+		<route destination1="MXP" destination2="IBZ"  season="Summer" />
+	        </routes>
+
+
+
+
+</airline>

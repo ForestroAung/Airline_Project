@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bassaka Air" iata="BSX" color="SlateBlue" area="236" CEO="Loon Weng Cheun" mentality="Safe" market="Regional" preferedairport="PNH">
+  <narrative narrative="Bassaka Air is based at Phnom Penh,Cambodia and started in late 2014. At mid 2015 it was going domestic to Siem Reap and international to Macau,China in a scheduled fashion. From PNH and REP it also was offering charters to Changsha,China and Yangon,Myanmar. It uses two A320-200's. It domestic route is done twice a day."/>
+</profile>
+  <info real="True" from="2014" to="2199" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="PNH" destination2="REP" />
+			  <route destination1="PNH" destination2="MFM" />
+			  <route destination1="PNH" destination2="CSX" type="Charter" />
+			  <route destination1="PNH" destination2="RGN" type="Charter" />
+			  <route destination1="REP" destination2="CSX" type="Charter" />
+			  <route destination1="REP" destination2="RGN" type="Charter" />
+        </routes>
+</airline>

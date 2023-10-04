@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fairline" iata="FAE" color="Black" area="120" CEO="Georg Pommer" mentality="Safe" market="Local" preferedairport="GRZ">
+  <narrative narrative="Fairline was around from January 2004 to June 2004. It was based at Graz,Austria. It flew six times a week to Milan Malpensa,Italy, four to Rome Ciampino,Italy, three to Florence,Italy, once to
+  Berlin Tegel,Germany and once to Stuttgart,Germany. It also flew from Linz once a week to Berlin Tegel and Stuttgart. It used a Saab 340."/>
+</profile>
+  <info real="True" from="2004" to="2005" />
+  <prefereds aircrafts="Saab 340B"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="GRZ" destination2="TXL"    />
+		  <route destination1="GRZ" destination2="STR" />
+		  <route destination1="GRZ" destination2="MUC" />
+		  <route destination1="GRZ" destination2="FRA" />
+		  <route destination1="GRZ" destination2="DUS" />
+		        </routes>
+
+
+
+
+</airline>

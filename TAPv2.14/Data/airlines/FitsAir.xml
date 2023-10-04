@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="FitsAir" iata="8D" color="Purple" area="230" CEO="Omar Kayaam" mentality="Safe" market="Regional" preferedairport="RML" routefocus="Mixed">
+  <narrative narrative="FitsAir, officially FITS Aviation Limited, is based at Colombo,Sri Lanka's two airports, Ratmalana Airport and Bandaranaike International Airport, and also does cargo operations out of Dubai,United Arab Emirates.
+  It does passenger service in Sri Lanka and some cargo also. It used to be called ExpoAir and Expo Aviation. It started operations in 1998 with two Antonov 8's and soon replaced those with An-12's. In 2001 domestic
+  service to Jaffna started and it had an Il-18 and an An-26. In 2002 it leased 3 Fokker 27's and another Il-18. In 2006 it got a DC-8-60 freighter. In 2012 it got a new Cessna 208. And in 2014 it got an MD-82 for cargo and
+  lan on getting another. From Ratmalana it does two scheduled services to Jaffna and Trincomalee, which includes a cargo one to Jaffna. It offers an additional 10 airports for charters. From Bandaraike it does cargo service
+  to the Maldives at Male and Gan and to India at Bangalore and Trivandrum and Pakistan at Lahore as of early 2015. From Dubai DXB it does cargo to 15 destinations. Many of these are military airports. Some of the civilian ones which are also joint military are Baghdad,Iraq Erbil,Iraq Herat,Afghanistan Kabul,Afghanistan 
+  Kandahar,Afghanistan Tarin Kowt,Afghanistan and Sulaymaniyah,Iraq and its home Colombo,Sri Lanka. It goes to military bases at Abu Dhabi,UAE Bagram,Afghanistan Balad,Iraq Jalalabad,Afghanistan Lashkar Gah,Afghanistan
+  and Thumrait,Oman. It used to serve two in Bangladesh, Cairo,Egypt Jakarta,Indonesia Kuala Lumpur,Malaysia Beirut,Lebanon two others in Pakistan Manila,Philippines Jeddah,Saudi Arabia Singapore and another in the UAE and six others in India.
+  " />
+ </profile>
+    <info real="True" from="1998" to="2199" />
+       <prefereds aircrafts="Cessna 208B,Fokker F27,MD-82 (DC-9-82),Douglas DC-8-62F,Il-18E,Antonov An-26"></prefereds>
+       <focusairports>
+                 <focusairport airport="CMB"></focusairport> 
+ 		 <focusairport airport="DXB"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-8-62F" early="1" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="0"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="3" late="1"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Il-18E" early="1" late="0"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="1"></airliner>
+	     </airliners>
+	     	          	          <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Cargo" early="2" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="RML" destination2="JAF"   routefocus="Passenger,Cargo"   />	
+	    <route destination1="RML" destination2="TRR"   routefocus="Passenger"  />	
+	    <route destination1="RML" destination2="ADP"  routefocus="Passenger" type="Charter"  />	
+	    <route destination1="RML" destination2="ACJ"  routefocus="Passenger"  type="Charter" />	
+            <route destination1="RML" destination2="BTC"  routefocus="Passenger"  type="Charter"  />	
+	    <route destination1="RML" destination2="HRI" opened="2013" closed="2199"  routefocus="Passenger"  type="Charter" />		
+	    <route destination1="RML" destination2="KTY"  routefocus="Passenger"  type="Charter"  />
+            <route destination1="RML" destination2="KCT"  routefocus="Passenger"  type="Charter"   />	
+	    <route destination1="RML" destination2="GIU"  routefocus="Passenger"   type="Charter"  />	
+            <route destination1="RML" destination2="VVV"  routefocus="Passenger"  type="Charter"   />	
+	    <route destination1="RML" destination2="WRZ"  routefocus="Passenger"  type="Charter"   />
+	    <route destination1="CMB" destination2="MLE"  routefocus="Cargo" opened="2005" closed="2199"   />
+	    <route destination1="CMB" destination2="GAN"  routefocus="Cargo"  opened="2005" closed="2199"   />
+	    <route destination1="CMB" destination2="LHE"  routefocus="Cargo"  opened="2005" closed="2199"   />
+            <route destination1="CMB" destination2="BLR"  routefocus="Cargo"  opened="2008" closed="2199"   />
+	    <route destination1="CMB" destination2="TRV"  routefocus="Cargo"  opened="2005" closed="2199"   />
+	    <route destination1="DXB" destination2="KDH"  routefocus="Cargo"    />
+	    <route destination1="DXB" destination2="KBL"  routefocus="Cargo"    />
+	    <route destination1="DXB" destination2="EBL"  routefocus="Cargo"    />
+	    <route destination1="DXB" destination2="TII"  routefocus="Cargo"    />
+	    <route destination1="DXB" destination2="HEA"  routefocus="Cargo"   />
+	    <route destination1="DXB" destination2="BGW"  routefocus="Cargo"   />
+	     <route destination1="DXB" destination2="ISU"  routefocus="Cargo"   />
+                   </routes>
+</airline>

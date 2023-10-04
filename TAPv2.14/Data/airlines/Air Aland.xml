@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Aland" iata="2Q"  color="CadetBlue" area="106" CEO="Kaapo Nurmi" mentality="Safe" market="Local" preferedairport="MHQ"> 
+  <narrative narrative="Air Aland was the main airline of the Aland Islands of Finland from 2005 to its demise on July 1,2012. Its base was Mariehamn. It flew 123km to Stockholm Arlanda,Sweden and the 282km domestic
+  route to Helsinki Vaanta. Its flights were actually handled through other operators such as Sweden based NextJet. Its fleet was two Saab 340's. NextJet did take over its routes." />
+</profile>
+   <info real="True" from="2005" to="2013"></info>
+   <prefereds aircrafts="Saab 340B"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2012)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="2" late="2"></airliner>
+	     </airliners>
+<routes>
+		<route destination1="MHQ" destination2="HEL" opened="2005" closed="2199"/>
+		<route destination1="MHQ" destination2="ARN" opened="2005" closed="2199" />
+	
+        </routes>
+
+
+
+
+
+</airline>

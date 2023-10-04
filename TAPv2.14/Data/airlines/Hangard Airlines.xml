@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hangard Airlines" iata="HGD" color="SaddleBrown" area="208" CEO="Anonymous" mentality="Safe" market="Domestic" preferedairport="ULN" schedule="Charter"> 
+  <narrative narrative="Hangard Airlines was a Mongolian charter airline around from 1993 to 2001. It flew charters from Ulan Bator to pretty much every other airport in Mongolia. It used one
+  Antonov An-24. It was owned by a travel agency also named Hangard." />
+</profile>
+   <info real="True" from="1993" to="2001"></info>
+   <prefereds aircrafts="Antonov An-24"></prefereds>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

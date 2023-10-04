@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="South African Airways Cargo" iata="SAA" logo="SA" color="Blue" area="371" CEO="Nico Bezuidenhout" mentality="Safe" market="Global"  preferedairport="JNB" routefocus="Cargo"> 
+  <narrative narrative="South African Airways Cargo is the cargo division of Soouth African Airways. At January 2015 it has two 737-300's and one 737-200. The 200 will be replaced by another 300 soon." />
+</profile>
+   <info real="True" from="1934" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-200,Boeing 737-200 Adv.,Boeing 737-300,Boeing 737 MAX 8"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="0" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="3" late="0"></airliner>
+	     </airliners>
+
+
+
+</airline>

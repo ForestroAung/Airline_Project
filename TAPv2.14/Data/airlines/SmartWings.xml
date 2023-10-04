@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="SmartWings" iata="TVS" color="Black" area="155" CEO="A. Xhelo" mentality="Safe" market="Global"
+           preferedairport="PRG">
+              <narrative narrative="Smart Wings is a low-cost brand of Travel Service Airlines with its head office on the property of Václav Havel Airport Prague in Ruzyně, 6th district, Prague, Czech Republic. It operates services to several European destinations utilizing aircraft of its parent company." />
+  </profile>
+  <info real="True" from="2004" to="2199" />
+</airline>

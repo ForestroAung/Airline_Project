@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Dornier 328JET-->
+<configuration type="Fairchild-Dornier 328JET" economy="-1" premium="0" first="0" business="0" exitrows="795" emergencyrows="0" toiletrows="795" kitchenrows="795">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.2" width="48"></seat>
+</seats>
+</configuration>
+
+<!--F27-->
+<configuration type="Fairchild FH-227" economy="-1" premium="0" first="0" business="0" exitrows="1030" emergencyrows="-1" toiletrows="1030" kitchenrows="1030">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.5" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Fairchild F-27" economy="-1" premium="0" first="0" business="0" exitrows="740" emergencyrows="-1" toiletrows="740" kitchenrows="740">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Fairchild 91-->
+<configuration type="Fairchild 91" economy="0" premium="0" first="-1" business="0" exitrows="320" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Fairchild Swearingen-->
+<configuration type="Fairchild Swearingen Merlin" economy="0" premium="0" first="-1" business="0" exitrows="320" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Fairchild Swearingen Merlin IV C" economy="0" premium="0" first="-1" business="0" exitrows="320" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Fairchild Swearingen Metroliner" economy="0" premium="0" first="-1" business="0" exitrows="286" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

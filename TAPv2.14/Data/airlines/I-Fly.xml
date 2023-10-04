@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="I-Fly" iata="I4" color="MediumBlue" area="177" CEO="Peter Morozov" mentality="Moderate" market="Global" preferedairport="VKO"  schedule="Charter">
+  <narrative narrative="I-Fly is a charter airline based at Moscow Vnukovo. It was founded in 2009 and all of its flights since then and now in early 2015 are operated for Russian tour company TEZ Tour. It caters to the usual holiday spots. From VKO it goes to Sharm el Shiekh and Hurghada in Egypt,Barcelona and Tenerife South in Spain,Antalya and Istanbul in Turkey,Verona and Rimini in Italy,Burgas in Bulgaria,Dubai in the UAE,Salzburg in Austria,Bangkok and Phuket in Thailand and Colombo in Sri Lanka. From Novosibirsk it goes to Antalya,Larnaca in Cyprus,Herakilon in Greece,Bangkok and Phuket and U-Tapao in Thailand and Rimini. From Krasnoyarsk it does Antalya,Heraklion and Bangkok. From Irkutsk it does Antalya and Bangkok. And from Chelyabinsk it does Barcelona. At January 2015 it had five 757-200's and two A330's with one more on order." />
+</profile>
+   <info real="True" from="2009" to="2199"></info>
+   <prefereds aircrafts="Boeing 757-200,Airbus A330-300,Airbus A330-300HGW,Airbus A330-900neo,Airbus A330-800neo"></prefereds>
+<focusairports>
+                 <focusairport airport="OVB"></focusairport>
+	        <focusairport airport="KJA"></focusairport>
+               <focusairport airport="IKT"></focusairport>
+	        <focusairport airport="CEK"></focusairport>
+     </focusairports>
+ <startdata>
+   <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200" early="3" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A330-300" early="1" late="3"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="VKO" destination2="SSH" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="HRG" opened="2009" closed="2199"  />
+	        <route destination1="VKO" destination2="AYT" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="IST" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="BCN" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="TFS" opened="2009" closed="2199"  />
+	        <route destination1="VKO" destination2="DXB" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="BOJ" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="VRN" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="RMI" opened="2009" closed="2199"  />
+                <route destination1="VKO" destination2="SZG" opened="2010" closed="2199"  />
+                <route destination1="VKO" destination2="HKT" opened="2010" closed="2199"  />
+	        <route destination1="VKO" destination2="BKK" opened="2010" closed="2199"  />
+                <route destination1="VKO" destination2="CMB" opened="2012" closed="2199"  />
+                <route destination1="OVB" destination2="AYT" opened="2010" closed="2199"  />
+                <route destination1="OVB" destination2="LCA" opened="2010" closed="2199"  />
+	        <route destination1="OVB" destination2="HER" opened="2010" closed="2199"  />
+                <route destination1="OVB" destination2="RMI" opened="2010" closed="2199"  />
+	        <route destination1="OVB" destination2="BKK" opened="2011" closed="2199"  />
+                <route destination1="OVB" destination2="HKT" opened="2011" closed="2199"  />
+	        <route destination1="OVB" destination2="UTP" opened="2011" closed="2199"  />
+	        <route destination1="KJA" destination2="AYT" opened="2012" closed="2199"  />
+                <route destination1="KJA" destination2="HER" opened="2012" closed="2199"  />
+	        <route destination1="KJA" destination2="BKK" opened="2012" closed="2199"  />
+                <route destination1="IKT" destination2="AYT" opened="2013" closed="2199"  />
+	        <route destination1="IKT" destination2="BKK" opened="2013" closed="2199"  />
+                <route destination1="CEK" destination2="BCN" opened="2013" closed="2199"  />
+        </routes>
+  
+</startdata>
+
+</airline>

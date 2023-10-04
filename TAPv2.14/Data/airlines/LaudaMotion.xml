@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lauda Motion" iata="OE" color="Red" area="120" CEO="Andrea Czvitkovits" mentality="Aggressive" market="Regional" preferedairport="VIE">
+    <narrative
+      narrative="Lauda Motion operating as Laudamotion is an Austrian airline based in Vienna. The airline is owned by ex Formula 1 driver Niki Lauda. In 2018, the airline acquired Niki, an airline that previously had ties to Niki Lauda." />
+  <names>
+	<name value="Lauda Motion" from="01.01.2018 00:00:00"/>
+	<name value="Lauda" from="01.01.2019 00:00:00"/>
+</names>
+  </profile>
+  <info real="True" from="2018" to="2199"/>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="1" late="0"></airliner>
+    </airliners>
+	    <routes>   
+		 <route destination1="VIE" destination2="ZRH"/>
+		 <route destination1="VIE" destination2="GRZ"/>
+		 <route destination1="VIE" destination2="INN"/>
+		 <route destination1="VIE" destination2="PFO"/>
+		 <route destination1="VIE" destination2="LNZ"/>
+		 <route destination1="VIE" destination2="SZG"/>
+		 <route destination1="VIE" destination2="HAJ"/>
+		 <route destination1="VIE" destination2="CHQ"/>
+		 <route destination1="VIE" destination2="CFU"/>
+		 <route destination1="VIE" destination2="HER"/>
+		 <route destination1="VIE" destination2="KLX"/>
+		 <route destination1="VIE" destination2="RHO"/>
+		 <route destination1="VIE" destination2="JTR"/>
+		 <route destination1="VIE" destination2="BDS"/>
+		 <route destination1="VIE" destination2="SUF"/>
+		 <route destination1="VIE" destination2="OLB"/>
+		 <route destination1="VIE" destination2="PSA"/>
+		 <route destination1="VIE" destination2="BSL"/>
+		 <route destination1="VIE" destination2="FUE"/>
+		 <route destination1="VIE" destination2="IBZ"/>
+		 <route destination1="VIE" destination2="ACE"/>
+		 <route destination1="VIE" destination2="AGP"/>
+		 <route destination1="VIE" destination2="TXL"/>
+		 <route destination1="VIE" destination2="CGN"/>
+		 <route destination1="VIE" destination2="DUS"/>
+		 <route destination1="VIE" destination2="FRA"/>
+		 <route destination1="VIE" destination2="STR"/>
+		</routes>   
+  </startdata>
+</airline>

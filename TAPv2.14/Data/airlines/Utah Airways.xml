@@ -1,0 +1,23 @@
+﻿<airline>
+  <profile name="Utah Airways" iata="UTH" color="Orange" area="402" CEO="David Story" mentality="Safe" market="Local" preferedairport="OGD">
+    <narrative narrative="Utah Airways is a small charter and tour airline based at Ogden,Utah. It does scheduled service between Salt Lake City and Wendover and provides service from Ogden to the national parks of Utah. It has also operated out of Moab.It has two Piper Navajo PA-31's as of January 2016. It commenced service
+    on January 5th,2015. Its two founders are David Story and Bret Kobe." />
+  </profile>
+  <info real="True" from="2015" to="2199" />
+  <prefereds aircrafts="PA-31 Navajo"></prefereds>
+     	              <focusairports>
+	 <focusairport airport="SLC"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="PA-31 Navajo" early="2" late="2"></airliner>
+	     </airliners>
+	  <routes>
+	  		<route destination1="SLC" destination2="ENV" opened="2015" closed="2199"/>
+		
+		
+	  </routes>
+	  
+
+ </airline>
+

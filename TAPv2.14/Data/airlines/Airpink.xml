@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Airpink" iata="PNK" color="HotPink" area="133" CEO="Zeljko Mitrovic" mentality="Safe" market="Global" preferedairport="BEG" schedule="Charter">
+  <narrative narrative="Airpink is a private business jet charter airline based at Belgrade,Serbia. It uses as of about May 2015 three Cessna Citation 560XL's,two Cessna Citation Bravo's, and a Cessna CitationJet CJ2. It offers around 35 to 40
+  destinations from Belgrade around Europe and a few in North Africa along with the island of Cyprus and Israel in Asia. It was founded in 2004." />
+ </profile>
+    <info real="True" from="2004" to="2199" />
+       <prefereds aircrafts="Cessna 560XL,Cessna Citation Bravo,Cessna CitationJet CJ2,Cessna Citation II"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 560XL" early="3" late="3"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ2" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation Bravo" early="2" late="2"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="BEG" destination2="LHR"    />	
+	    <route destination1="BEG" destination2="FCO"    />	
+	    <route destination1="BEG" destination2="ZAG"    />	
+	    <route destination1="BEG" destination2="VIE"    />
+	    <route destination1="BEG" destination2="CDG"    />	
+	    <route destination1="BEG" destination2="SVO"    />
+	    <route destination1="BEG" destination2="BUD"    />	
+	    <route destination1="BEG" destination2="OTP"    />	
+	    <route destination1="BEG" destination2="SOF"    />	
+	    <route destination1="BEG" destination2="ATH"    />
+	    <route destination1="BEG" destination2="SJJ"    />	
+	    <route destination1="BEG" destination2="PRG"    />
+	    <route destination1="BEG" destination2="WAW"    />	
+	    <route destination1="BEG" destination2="TIA"    />	
+	    <route destination1="BEG" destination2="TGD"    />	
+	    <route destination1="BEG" destination2="BTS"    />
+	    <route destination1="BEG" destination2="BRU"    />	
+	    <route destination1="BEG" destination2="MAD"    />
+	    <route destination1="BEG" destination2="MLA"    />	
+	    <route destination1="BEG" destination2="CAI"    />	
+	    <route destination1="BEG" destination2="ZRH"    />	
+	    <route destination1="BEG" destination2="ESB"    />
+	    <route destination1="BEG" destination2="CPH"    />	
+	    <route destination1="BEG" destination2="ARN"    />
+	    <route destination1="BEG" destination2="KBP"    />	
+	    <route destination1="BEG" destination2="TLV"    />	
+	    <route destination1="BEG" destination2="LJU"    />	
+	    <route destination1="BEG" destination2="SKS"    />
+	    <route destination1="BEG" destination2="TUN"    />	
+	    <route destination1="BEG" destination2="ALG"    />
+	    <route destination1="BEG" destination2="LCA"    />
+	    <route destination1="BEG" destination2="PFO"    />
+	    <route destination1="BEG" destination2="TIP"    />
+	    <route destination1="BEG" destination2="SXF"    />
+	    <route destination1="BEG" destination2="BER"    />
+	    
+                   </routes>
+</airline>

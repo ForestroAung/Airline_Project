@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Reeve Aleutian Airways" iata="RVV"  color="Red" area="402" CEO="Robert Reeve" mentality="Moderate" market="Domestic"  preferedairport="ANC"> 
+  <narrative narrative="Reeve Aleutian Airways was around from March 24,1947 to December 5,2000. It was based at Anchorage and served mostly the Aleutuian Islands and the Alaskan Peninsula in addition to Seattle. It had many planes over the years. It had seven DC-3
+  s fropm 1947 until the last one was sold in 1975. It had three DC-4's from 1957 to 1967. It had five C-46 Commando's from 1957 to 1981. It had two DC-6B's from 1962 to 1978 and one DC-6 from 1963 to 1980. The Lockheed L-188 was its main workhorse from 1968 when it had six until the end
+  when it still had one. The Japanese NAMC YS-11 was bought new and they had four from 1972. The only jet used was two 727-100's from 1983 to the end which were able to quickly change from passenger config to cargo config. A Helio Courier was used from 1965 to 1975. It had some amphibian planes 
+  like three Grumman Goose's until 1977 also. Over its life it served 29 or so scheduled places, all but one being in Alaska. It also did charters to many more places. Usual places served besides ANC and SEA were King Salmon,Kodiak Island,Unalaska,Cold Bay,King Cove,Sand Point,Adak Island,Port Heiden and Saint Paul Island to name some.
+  " />
+</profile>
+   <info real="True" from="1947" to="2001"></info>
+   <prefereds aircrafts="Lockheed L-188A,NAMC YS-11,Douglas DC-3,Douglas DC-4-1009,Douglas DC-6,Douglas DC-6B,Boeing 727-100,Commando C-46"></prefereds>
+   
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1957) late (1983)-->
+	         <airliners>
+	    <airliner type="Commando C-46" early="5" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1947) late (1977)-->
+	         <airliners>
+	    <airliner type="Douglas DC-3" early="7" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1957) late (1967)-->
+	         <airliners>
+	    <airliner type="Douglas DC-4-1009" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1963) late (1982)-->
+	         <airliners>
+	    <airliner type="Douglas DC-6" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1962) late (1980)-->
+	         <airliners>
+	    <airliner type="Douglas DC-6B" early="2" late="0"></airliner>
+	     </airliners>
+	          	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1972) late (2000)-->
+	         <airliners>
+	    <airliner type="NAMC YS-11" early="4" late="0"></airliner>
+	     </airliners>
+	          	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1968) late (2000)-->
+	         <airliners>
+	    <airliner type="Lockheed L-188A" early="6" late="1"></airliner>
+	     </airliners>
+	          	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1983) late (2000)-->
+	         <airliners>
+	    <airliner type="Boeing 727-100" early="2" late="1"></airliner>
+	     </airliners>
+	          	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1965) late (1977)-->
+	         <airliners>
+	    <airliner type="Helio Courier" early="1" late="0"></airliner>
+	     </airliners>
+<routes>
+                <route destination1="ANC" destination2="AKN" opened="1947" closed="2199"/>
+                <route destination1="ANC" destination2="ADQ" opened="1947" closed="2199"/>
+                <route destination1="ANC" destination2="DUT" opened="1947" closed="2199"/>
+		<route destination1="ANC" destination2="CDB" opened="1947" closed="2199"/>
+		<route destination1="CDB" destination2="KVC" opened="1947" closed="2199"/>
+	       <route destination1="ANC" destination2="SDP" opened="1947" closed="2199"/>
+	       <route destination1="ANC" destination2="ADK" opened="1970" closed="2199"/>
+	       <route destination1="ANC" destination2="SEA" opened="1947" closed="2199"/>
+	        <route destination1="ANC" destination2="SNP" opened="1975" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

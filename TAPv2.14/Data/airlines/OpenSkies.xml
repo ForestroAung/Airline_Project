@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="OpenSkies" iata="BOS"  color="Blue" area="113" CEO="Patrick Malval" mentality="Safe" market="Global" preferedairport="ORY">
+  <narrative narrative="OpenSkies is a British Airways subsidiary based at Paris Orly,France. It serves New York JFK and Newark in the USA from Orly as of March 2015. It has three 757-200's. It started in 2008 with the JFK route.
+  It also used to serve Amsterdam and Frankfurt. Only a month or less after its first flight on June 19,2008 it bought French airline L'Avion for 54 million pounds.  On April 4,2009 the two airlines merged and OpenSkies started serving Newark, which had been L'Avions only route, ORY-EWR. It also had just been around since 2006 and used two 757's." />
+   </profile>
+    <info real="True" from="2008" to="2199" />
+       <prefereds aircrafts="Boeing 757-200"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="2" late="3"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="ORY" destination2="JFK" opened="2008" closed="2199"/>
+	        <route destination1="ORY" destination2="EWR" opened="2009" closed="2199"/>
+		              </routes>
+</airline>

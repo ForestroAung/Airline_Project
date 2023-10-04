@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="East Horizon Airlines" iata="EHA"  color="Red" area="207" CEO="Seyed Salman Sadad" mentality="Moderate" market="Domestic" preferedairport="KBL" > <narrative narrative="East Horizon Airlines is a domestic airline in Afghanistan that as of May 2014 served 11 airports including the hubs at Kabul and Herat. It started operations in December 2013. It has an MD-82,Xian MA60 and Antonov An-24." />
+</profile>
+   <info real="True" from="2013" to="2199"></info>
+   <prefereds aircrafts="MD-82 (DC-9-82),Xian MA60,Antonov An-24"></prefereds>
+  <focusairports>
+                 <focusairport airport="HEA"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Xian MA60" early="1" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="1"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+   <routes>
+		<route destination1="KBL" destination2="HEA" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="UND"  opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="ZAJ" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="CCN" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="KHT" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="FBD" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="BIN" opened="2013" closed="2199" />
+	        <route destination1="HEA" destination2="MMZ" opened="2014" closed="2199" />
+		<route destination1="HEA" destination2="CCN" opened="2014" closed="2199" />
+	        <route destination1="HEA" destination2="FAH" opened="2014" closed="2199" />
+		<route destination1="HEA" destination2="ZAJ" opened="2014" closed="2199" />
+	        </routes>
+
+</airline>

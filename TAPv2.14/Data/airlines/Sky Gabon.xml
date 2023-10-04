@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sky Gabon" iata="GV" logo="GV2" color="Yellow" area="346" CEO="Jason Jackson" mentality="Safe" market="Local"  preferedairport="LBV" routefocus="Cargo">
+  <narrative narrative="Sky Gabon is a cargo airline based at Libreville,Gabon. From there it goes to Douala,Cameroon Pointe-Noire,Republic of the Congo Malabo,Equatorial Guinea and the domestic airport at
+  Port-Gentil. These destinations range from 645 kilometers away from the hub at Pointe Noire to the nearest at 149km, the dometic one. This makes it a local airline. It had a leased Fokker F27 at 2013. The airline
+  began in 2006." />
+</profile>
+   <info real="True" from="2006" to="2199"></info>
+  <prefereds aircrafts="Fokker F27"></prefereds>
+
+
+
+
+
+<routes>
+	        <route destination1="LBV" destination2="DLA" opened="2006" closed="2199" />
+	        <route destination1="LBV" destination2="PNR"  opened="2006" closed="2199"  />
+	        <route destination1="LBV" destination2="POG" opened="2006" closed="2199" />
+	        <route destination1="LBV" destination2="SSG"  opened="2006" closed="2199"  />
+              </routes>
+  
+
+
+</airline>

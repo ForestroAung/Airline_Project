@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeromexico Travel" iata="ATE" color="LightBlue" area="403" CEO="Andres Conesa Labastida" mentality="Safe" market="Regional" preferedairport="CUN" schedule="Charter">
+  <narrative narrative="Aeromexico Travel was a charter subsidiary of Aeromexico that operated from June 2008 until August 2011. Its base was Cancun with focus cities at Mexico City and Monterrey. It flew seasonal charters to both domestic airports and others in North America. Some routes it did were from Mexico City to Cancun, and from Mexico City and Monterrey to domestic holiday resort cities at Puerti Vallarta,Huatulco,Mazatlan,Merida, and Cozumel. One of its US flights was Cancun to Minneapolis in the winter and early spring. The airline used three MD-83's. After August 2011 it was folded back into the main Aeromexico brand and charters were discontinued in favor of focus on regularly scheduled flights."/>
+</profile>
+  <info real="True" from="2008" to="2012" />
+  <prefereds aircrafts="MD-83 (DC-9-83)"></prefereds>
+           <focusairports>
+		 <focusairport airport="MEX"></focusairport>
+		 <focusairport airport="MTY"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="3" late="3"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="CUN" destination2="MEX"  />
+                <route destination1="CUN" destination2="MSP" season="Winter"  />	
+		<route destination1="MEX" destination2="PVR"  />
+		<route destination1="MEX" destination2="CZM"  />
+		<route destination1="MEX" destination2="MZT"  />
+		<route destination1="MEX" destination2="MID"  />
+		<route destination1="MEX" destination2="HUX"  />
+		<route destination1="MTY" destination2="PVR"  />
+		<route destination1="MTY" destination2="CZM"  />
+		<route destination1="MTY" destination2="MZT"  />
+		<route destination1="MTY" destination2="MID"  />
+		<route destination1="MTY" destination2="HUX"  />
+		<route destination1="CUN" destination2="MKE" season="Winter"  />
+		<route destination1="CUN" destination2="DFW" season="Winter" />
+		<route destination1="CUN" destination2="IAH" season="Winter"  />
+		<route destination1="CUN" destination2="LAX" season="Winter"  />
+	        </routes>
+
+
+
+
+</airline>

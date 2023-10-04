@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sun Air of Scandinavia" iata="EZ" color="Black" area="107" CEO="Niels Sundberg" mentality="Safe" market="Regional" onlyfromhome="False" preferedairport="BLL">
+  <narrative narrative="Sun Air of Scandinavia is based at Billund,Denmark with another base at Aarhus. It has been a franchise of British Airways since 1996 operating all their flights on BA's behalf and have their planes
+  painted in the BA livery. At February 2015 from Billund it flies to Oslo and Bergen,Norway, Manchester and London City Airport in the UK, Brussels,Belgium and Munich and Dusseldorf,Germany. From Aarhus to Aalborg,Oslo,Stockholm-Bromma,and Gothenburg,Sweden.
+  Aalborg to Oslo is another one. Hamburg,Germany to London City. And from Gothenburg,Sweden it also goes to Manchster and will start Birmingham and Cambridge,England in March 2015 from there. At February 2015
+  it has eleven Dornier 328JET's,two Dornier 328-110's, the turboprop version of the 328JET,and one BAe Jetstream 31. It has used two BAe Jetstream 41's and three BAe ATP's in the past. The airline was founded in 1978
+  and was an air taxi and charter company and grew into a regional airline by 1987. It still does offer charters." />
+</profile>
+   <info real="True" from="1978" to="2199"></info>
+   <prefereds aircrafts="Fairchild-Dornier 328JET,Dornier 328-110,BAe Jetstream 31,BAe ATP"></prefereds>
+ <focusairports>
+                 <focusairport airport="AAR"></focusairport>
+		 <focusairport airport="GOT"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	         <airliners>
+	    <airliner type="Fairchild-Dornier 328JET" early="2" late="11"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	         <airliners>
+	    <airliner type="Dornier 328-110" early="6" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2009)-->
+	         <airliners>
+	    <airliner type="BAe ATP" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2007)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="2" late="0"></airliner>
+	     </airliners>
+	
+<routes>
+	        <route destination1="BLL" destination2="OSL" opened="1978" closed="2199"  />
+		<route destination1="BLL" destination2="BGO" opened="1978" closed="2199"  />
+     		<route destination1="BLL" destination2="MAN" opened="1987" closed="2199"  />
+		<route destination1="BLL" destination2="LCY" opened="1987" closed="2199"  />
+	        <route destination1="BLL" destination2="BRU" opened="1987" closed="2199"  />
+		<route destination1="BLL" destination2="MUC" opened="1987" closed="2199"  />
+		<route destination1="BLL" destination2="DUS" opened="1987" closed="2199"  />
+		<route destination1="AAR" destination2="OSL" opened="1978" closed="2199"  />
+		<route destination1="AAR" destination2="BMA" opened="1978" closed="2199"  />
+		<route destination1="AAR" destination2="GOT" opened="1978" closed="2199"  />
+		<route destination1="AAR" destination2="AAL" opened="1978" closed="2199"  />
+		<route destination1="AAL" destination2="OSL" opened="1978" closed="2199"  />
+		<route destination1="HAM" destination2="LCY" opened="1996" closed="2199"  />
+	        <route destination1="GOT" destination2="MAN" opened="1996" closed="2199"  />
+	        <route destination1="GOT" destination2="BHX" opened="2015" closed="2199"  />
+		<route destination1="GOT" destination2="CBG" opened="2015" closed="2199"  />
+        </routes>
+ 
+
+
+</airline>

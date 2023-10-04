@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SALSA d'Haiti" iata="SLC"  color="Red" area="414" CEO="Arienthiran Prakash" mentality="Safe" market="Local" preferedairport="PAP">
+  <narrative narrative="SALSA d' Haiti is based at Port-au-Prince,Haiti. It started in 2008 and as of March 2015 is flying one route to Cap Haitien, which is around 128km away. In 2011 it had plans to expand to four other
+  domestic airports and start intnertional flights to Santo Domingo,Dominican Republic and Kingston,Jamaica but this has not yet happened as of March 2015. It uses one Jetstream 31 but was planning on getting two more at least.
+  It also had a Beechcraft 99 from 2008 to 2011 and a Saab 340 from 2008 to 2010. SALSA stands for Services Aeriens Latinosamericains, S.A."/>
+   </profile>
+    <info real="True" from="2008" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31,Beechcraft 99,Saab 340B"></prefereds>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2018)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="1" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 99" early="1" late="0"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="0"></airliner>
+	     </airliners>
+
+
+	       <routes>
+	        <route destination1="PAP" destination2="CAP" opened="2008" closed="2199"  />
+	        <route destination1="PAP" destination2="PAX"  opened="2016" closed="2199"  />
+	       	<route destination1="PAP" destination2="JAK"  opened="2017" closed="2199" />
+		<route destination1="PAP" destination2="CYA"  opened="2018" closed="2199"  />
+		<route destination1="PAP" destination2="JEE"  opened="2019" closed="2199" />
+		<route destination1="PAP" destination2="SDQ"  opened="2019" closed="2199" />
+		<route destination1="PAP" destination2="KIN"  opened="2020" closed="2199"  />
+
+              </routes>
+</airline>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sterling Airlines" iata="NB"  color="Maroon" area="107" CEO="Reza Taleghani" mentality="Moderate" market="Global" preferedairport="CPH" businessmodel="LCC">
+    <narrative narrative="Sterling Airlines was a Danish airline based at Copenhagen from 1962 until October 29,2008 when it declared bankruptcy. It was founded as Sterling Airways and was a charter airline most of its life. It took the name Sterling European Airlines in 1994 and in 2005 Sterling Airlines. It started scheduled service in 2000 with routes to Malaga and Alicante,Spain. By the end of 2002 it had 21 scheduled routes. And in 2003 11 more. It served 1.3 millions passengers in 2003, a 40% increase from 2002. It treated Stockholm-Arlanda,Malmo,Gothenburg in Sweden as focus cities and Oslo Gardermoen in Norway as one as well as Billund in Denmark. Its first planes in 1963 were two DC-6B's. The next year it got more and in 1965 it got its firsy Sud Aviation Caravelle 10. In 1987 it had 19 planes and 1300 employees. In 1993 it went bankrupt and it started back up with the new Sterling European name in 1994. In 1996 the Norweigan shipping company Fred Olsen bought it. In 2005 its parent,now Fons Eignarhaldsfelag, an Icelandic investment company, bought Maersk Air, another Danish airline owned by the shipping company Maersk. It merged Maersk Air with Sterling and it became Sterling Airlines. It also made them the fourth largest low fare airline in Europe. After ceasing operations in October 2008 Cimber Air also of Denmark bought the landing slots,website and name of Sterling but no planes. Cimber Air adopted the name Cimber Sterling afterwards until 2012 when it too went bankrupt. That airline was refounded as part of SAS following that and is now just called Cimber A/S. Sterlings fleet at the end was five 737-500's,ten 737-800's,and ten 737-700's. It also used at least one Aerospatiale Corvette business jet in the 70s and 80s. It had two 737-300's from 1998 to about 2002 also. Destinations it served at the end include six in Spain,six in Italy,four in France,three in Denmark,three in Sweden,three in the UK,two in Norway,two in Portugal,two in Greece,two in Bulgaria,and one each in Austria,Belgium,Croatia,Czech Republic,Germany,Hungary,Poland,Switzerland,Sri Lanka,and the United Arab Emirates. It also served Cairo,Egypt at one point and more in Germany and Amsterdam." />
+<names>
+<name value="Sterling Airways" from="1.1.1962 00:00:00"></name>
+<name value="Sterling European Airlines" from="1.1.1994 00:00:00"></name>
+<name value="Sterling Airlines" from="30.6.2005 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1962" to="2000" path="NB1962-2000"></logo>
+    </logos>
+</profile>
+   <info real="True" from="1962" to="2009"></info>
+   <prefereds aircrafts="Boeing 737-700,Boeing 737-800,Boeing 737-500,Douglas DC-6B,Sud Aviation Caravelle 10B,Aerospatiale Corvette"></prefereds>
+<startdata>
+  <focusairports>
+                 <focusairport airport="ARN"></focusairport>
+	         <focusairport airport="OSL"></focusairport>
+	         <focusairport airport="BLL"></focusairport>
+	         <focusairport airport="GOT"></focusairport>
+	 	 <focusairport airport="MMX"></focusairport>
+     </focusairports>
+
+        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="5" late="5"></airliner>
+	     </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="4" late="10"></airliner>
+	     </airliners>
+   	  <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="1" late="10"></airliner>
+	     </airliners>
+	     	        	  <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2002)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+	     </airliners>
+	        	  <!--the airliners the airline would start with which isn't on a route earyl (1962) late (1963)-->
+	         <airliners>
+	    <airliner type="Douglas DC-6B" early="2" late="4"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="CPH" destination2="AGP" opened="2000" closed="2199"/>
+		<route destination1="CPH" destination2="ALC" opened="2000" closed="2199"/>
+		<route destination1="CPH" destination2="OSL" opened="2002" closed="2199"/>
+		<route destination1="CPH" destination2="ARN" opened="2002" closed="2199"/>
+	        <route destination1="CPH" destination2="LGW" />
+		<route destination1="CPH" destination2="GOT" />
+	        <route destination1="CPH" destination2="MAD" />
+		<route destination1="CPH" destination2="FCO" />
+		<route destination1="CPH" destination2="BCN" />
+		<route destination1="CPH" destination2="TFS" />
+	        <route destination1="CPH" destination2="ATH" />
+		<route destination1="CPH" destination2="HER" />
+		<route destination1="CPH" destination2="MXP" />
+		<route destination1="CPH" destination2="VCE" />
+		<route destination1="CPH" destination2="NCE" />
+		<route destination1="CPH" destination2="CDG" />
+	        <route destination1="CPH" destination2="LIS" />
+		<route destination1="CPH" destination2="FAO" />
+		<route destination1="CPH" destination2="ACE" />
+		<route destination1="CPH" destination2="LPA" />
+	        <route destination1="CPH" destination2="FRA" />
+		<route destination1="CPH" destination2="MUC" />
+	        <route destination1="CPH" destination2="GVA" />
+		<route destination1="CPH" destination2="BLQ" />
+		<route destination1="CPH" destination2="PRG" />
+		<route destination1="CPH" destination2="BUD" />
+	        <route destination1="CPH" destination2="SZG" />
+		<route destination1="CPH" destination2="CAI" />
+	        <route destination1="CPH" destination2="MAH" />
+		<route destination1="CPH" destination2="FLR" />
+                <route destination1="CPH" destination2="AMS" />
+		<route destination1="CPH" destination2="MPL" />
+		<route destination1="CPH" destination2="BGO" />
+		<route destination1="CPH" destination2="NAP" />
+	        <route destination1="CPH" destination2="PMI" />
+		<route destination1="CPH" destination2="KRK" />
+	        <route destination1="CPH" destination2="FNC" />
+		<route destination1="CPH" destination2="DXB" />
+	        <route destination1="CPH" destination2="EMA" />
+		<route destination1="CPH" destination2="BRU" />
+                <route destination1="CPH" destination2="SPU" />
+		<route destination1="CPH" destination2="TXL" />
+	        <route destination1="CPH" destination2="CHQ" />
+		<route destination1="CPH" destination2="BOJ" />
+	        <route destination1="CPH" destination2="VAR" />
+		<route destination1="CPH" destination2="BIQ" />
+		<route destination1="CPH" destination2="CMB" />
+			              </routes>
+	     
+
+
+  </startdata>
+</airline>

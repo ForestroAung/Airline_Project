@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SkyBahamas" iata="Q7"  color="SkyBlue" area="412" CEO="Randy Butler" mentality="Moderate" market="Local" preferedairport="NAS">
+  <narrative narrative="SkyBahamas is based at Nassau,Bahama's. It started in 2006 and as of March 2015 was serving six domestic destinations and Ft. Lauderdale,FL from Nassau. It has four Saab 340's and a Beechcraft 1900D. It offers charters to other Caribbean destinations also."/>
+   </profile>
+    <info real="True" from="2006" to="2199" />
+       <prefereds aircrafts="Saab 340B,Beechcraft 1900D"></prefereds>
+      	     	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="4" late="4"></airliner>
+	     </airliners>
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="1" late="1"></airliner>
+	     </airliners>
+
+	       <routes>
+	    	<route destination1="NAS" destination2="FPO"  />
+	        <route destination1="NAS" destination2="FLL"   />
+		<route destination1="NAS" destination2="GGT"   />
+		<route destination1="NAS" destination2="MHH" />
+		<route destination1="NAS" destination2="ATC"  />
+		<route destination1="NAS" destination2="ZSA"  />
+		<route destination1="NAS" destination2="TBI"  />
+
+              </routes>
+</airline>

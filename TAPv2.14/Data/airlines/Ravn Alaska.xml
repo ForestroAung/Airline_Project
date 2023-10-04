@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ravn Alaska" iata="7H" color="Maroon" area="402" CEO="Bob Hajdukovich" mentality="Moderate"
+           market="Regional" preferedairport="ANC" routefocus="Mixed">
+    <narrative
+      narrative="Ravn Alaska (formerly Era Alaska) is an air marketing brand operated by Corvus Airlines a FAR Part 121 airline headquartered in Anchorage, Alaska, United States. It operates a network of services from Anchorage as part of an Alaska Airlines Partnership. Its primary hub is Anchorage Airport.
+    
+     Era Alaska was formed when three airlines, Frontier Flying Service, Era Aviation, and Hageland Aviation began operating under the former Frontier Alaska / Era Alaska brand names. The three airlines now serve as the largest air carrier in the state of Alaska by connecting more cities and passengers, utilizing the largest airplane fleet in Alaska. The airline group also acquired Arctic Circle Air Service, a local cargo airline, in 2010.
+    
+     In 2014, the partnership was re-branded as Ravn Alaska, with the brand Ravn Alaska operated by Era Aviation which was renamed Corvus Airlines and the brand Ravn Connect operated by Hageland Aviation (scheduled passenger flights) and Frontier Flying Service (cargo and on-demand charters).
+    
+     Era Alaska was featured on Discovery Channel's series, Flying Wild Alaska.
+    
+     The Ravn Alaska fleet includes the following aircraft (as of December 2013): 8 Beechcraft 1900C (one for cargo), 3 Beechcraft 1900D, 6 de Havilland DHC-8-100, 20 Cessna 207 Stationair, 19 Cessna 208 Caravan, 1 Cessna 180 Skywagon, 8 Piper PA-31 Chieftain, 4 Reims-Cessna F406 Caravan II, and 2 Short 330 Sherpa (cargo).">
+    </narrative>
+  </profile>
+  <info real="True" from="2008" to="2199"></info>
+</airline>

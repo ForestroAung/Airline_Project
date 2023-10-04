@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="RyanAir Sun" iata="RR" logo="RR" color="Yellow" area="157" CEO="Michael O'Leary" mentality="Aggressive" onlyfromhome="False" market="Regional" preferedairport="WAW" businessmodel="LCC" schedule="Charter" ismajor="False">
+    <narrative
+      narrative="Ryanair Sun is a Polish charter airline headquartered in Warsaw and a subsidiary of Ryanair."/>
+	<names>
+	<name value="RyanAir Sun" from="01.01.2018 00:00:00"/>
+	<name value="Buzz" from="20.09.2019 00:00:00"/>
+	</names>
+  </profile>
+   <info real="True" from="2018" to="2199"></info>
+   <focusairports>
+		<focusairport airport="WAW"/>
+		<focusairport airport="KTW"/>
+		<focusairport airport="POZ"/>
+		<focusairport airport="WRO"/>
+  </focusairports>
+<airliners>
+      <airliner type="Boeing 737-800" early="0" late="5"></airliner>
+</airliners>
+</airline>

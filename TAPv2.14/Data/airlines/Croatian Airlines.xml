@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Croatia Airlines" iata="OU" color="Red" area="126" CEO="Krešimir Kučko" mentality="Moderate" market="Regional" preferedairport="ZAG">
+    <narrative
+      narrative="Croatia Airlines is the government-owned national airline and flag carrier of the Republic of Croatia. Based in Buzin, Zagreb, the airline is a member of Star Alliance and operates domestic and international services. Its main base is Zagreb Airport, with focus cities being Dubrovnik, Split, and Zadar." />
+  </profile>
+  <prefereds aircrafts="Airbus A319-100,Airbus A320-200,Bombardier Dash 8 Q400"></prefereds>
+  <info real="True" from="1989" to="2199"></info>
+    <airliners>
+     <airliner type="Airbus A319-100" early="1" late="4"></airliner>
+	 <airliner type="Airbus A320-200" early="0" late="2"></airliner>
+	 <airliner type="Bombardier Dash 8 Q400" early="2" late="6"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="ZAG" destination2="VIE"/>
+	  <route destination1="ZAG" destination2="BRU"/>
+	  <route destination1="ZAG" destination2="SJJ"/>
+	  <route destination1="ZAG" destination2="DBV"/>
+	  <route destination1="ZAG" destination2="SPU"/>
+	  <route destination1="ZAG" destination2="ZAD"/>
+	  <route destination1="ZAG" destination2="CPH"/>
+	  <route destination1="ZAG" destination2="CDG"/>
+	  <route destination1="ZAG" destination2="FRA"/>
+	  <route destination1="ZAG" destination2="MUC"/>
+	  <route destination1="ZAG" destination2="SKP"/>
+	  <route destination1="ZAG" destination2="AMS"/>
+	  <route destination1="ZAG" destination2="ZRH"/>
+	  <route destination1="ZAG" destination2="LHR"/>
+	  <route destination1="SPU" destination2="FRA"/>
+	  <route destination1="SPU" destination2="MUC"/>
+	  <route destination1="SPU" destination2="FCO"/>
+	  <route destination1="ZAD" destination2="PUY"/>
+     </routes>
+</airline>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--C212 Aviocar-->
+<configuration type="C212 Aviocar" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="437" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.8" width="49"></seat>
+</seats>
+</configuration>
+
+<!--CN235-->
+<configuration type="CN235" economy="-1" premium="0" first="0" business="0" exitrows="875" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.9" width="48"></seat>
+</seats>
+</configuration>
+
+<!--N219-->
+<configuration type="N219" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.5" width="46.6"></seat>
+</seats>
+</configuration>
+
+<!--RAI R-80-->
+<configuration type="RAI R-80" economy="-1" premium="0" first="0" business="0" exitrows="0,1660" emergencyrows="-1" toiletrows="1660" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.4" width="46.5"></seat>
+</seats>
+</configuration>
+</configurations>

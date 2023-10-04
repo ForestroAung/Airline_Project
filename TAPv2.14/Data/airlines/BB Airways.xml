@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="BB Airways" iata="BBW" color="MidnightBlue" area="228" CEO="Shisheer Bhatta" mentality="Safe" market="Regional" preferedairport="KTM">
+  <narrative narrative="BB Airways is based at Kathmandu,Nepal and has been flying since September 2012. It goes to seven international destinations using a 757-200. Seven times a week to Delhi,India. Five times a week to Doha,Qatar. Four times a week to Kuala Lumpur,Malaysia. Three times a week to Hong Kong and Singapore and Bangkok,Thailand. And twice a week to Tokyo,Japan."/>
+</profile>
+  <info real="True" from="2012" to="2199" />
+  <prefereds aircrafts="Boeing 757-200"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="KTM" destination2="KUL" />
+		  <route destination1="KTM" destination2="HKG" />
+	          <route destination1="KTM" destination2="DEL" />
+	       	  <route destination1="KTM" destination2="DOH" />
+		  <route destination1="KTM" destination2="BKK" />
+		  <route destination1="KTM" destination2="SIN" />
+	          <route destination1="KTM" destination2="NRT" />
+			 		        </routes>
+
+
+
+
+</airline>

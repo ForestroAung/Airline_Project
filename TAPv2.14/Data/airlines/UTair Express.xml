@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="UTair Express" iata="UR" color="MediumBlue" area="177" CEO="Andrei Martirosov" mentality="Moderate" market="Regional" preferedairport="SCW">
+  <narrative narrative="UTair Express is a subsidiary of UTair Aviation and is based at Syktyvkar,Russia. It was formed in 2006 after the reorganization of Komiinteravia who UTair has bought 70% of 2 years before. That airline started in 1996-1997. At April 2014 it was serving about 30 domestic destinations and one international to Vilnius,Lithuania from Moscow Vnukovo.It had 15 ATR 72-500's with one on order and 13 An-24's at this time also. It also may get 5 of its parents Sukhoi 100's that are on order." />
+</profile>
+   <info real="True" from="2006" to="2199"></info>
+   <prefereds aircrafts="ATR 72-500,ATR 72-600,Antonov An-24,Sukhoi 100-75LR,Sukhoi 100-95LR,Sukhoi 100-75,Sukhoi 100-95"></prefereds>
+<focusairports>
+                <focusairport airport="USK"></focusairport>
+                 <focusairport airport="TJM"></focusairport>
+	        <focusairport airport="VKO"></focusairport>
+	        <focusairport airport="EYK"></focusairport>
+		  <focusairport airport="HMA"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-500" early="15" late="16"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="13" late="13"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="SCW" destination2="VKT"   />
+                <route destination1="SCW" destination2="USK"   />  
+	        <route destination1="SCW" destination2="NNM"   />
+                <route destination1="SCW" destination2="UCT"   />
+                <route destination1="SCW" destination2="UTS"   />
+                <route destination1="USK" destination2="KRR"   />
+	        <route destination1="USK" destination2="UFA"   />
+	        <route destination1="USK" destination2="PEE"   />  
+                <route destination1="USK" destination2="KUF"   />
+                <route destination1="USK" destination2="NNM"   />
+                <route destination1="USK" destination2="UCT"   />
+                <route destination1="TJM" destination2="HMA"    />
+                <route destination1="TJM" destination2="LED"    />
+                <route destination1="TJM" destination2="SGC"    />
+                <route destination1="TJM" destination2="UFA"   />
+                <route destination1="TJM" destination2="NJC"    />
+                <route destination1="TJM" destination2="OVS"   />
+	        <route destination1="TJM" destination2="EYK"   />
+                <route destination1="VKO" destination2="GOJ"   />
+	        <route destination1="VKO" destination2="KZN"   />
+                <route destination1="VKO" destination2="VOZ"   />
+	        <route destination1="VKO" destination2="URS"   />
+	        <route destination1="VKO" destination2="KVX"   />
+                <route destination1="VKO" destination2="ULV"   />
+                <route destination1="VKO" destination2="TBW"   />
+	        <route destination1="VKO" destination2="VNO"   />
+                <route destination1="HMA" destination2="SGC"   />
+	        <route destination1="SGC" destination2="EYK"   />
+                <route destination1="HMA" destination2="NJC"   />
+	        <route destination1="EYK" destination2="SVX"   />
+
+
+
+        </routes>
+  
+
+
+</airline>

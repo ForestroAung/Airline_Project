@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Mountain Air Cargo" iata="C2" color="Brown" area="402" CEO="John Jacob" mentality="Moderate" market="Regional" preferedairport="ISO" routefocus="Cargo">
+  <narrative narrative="Mountain Air Cargo is based at Denver,North Carolina with a  maintenance base at Kinston,NC. It does all of its flying on behalf of FedEx. At March 2015 the routes it were doing include 4
+  from Columbus Rickenbacker,Ohio. 6 from Indianapolis,IN. 4 from Cedar Rapids,IA.1 from Cleveland,OH to Erie,PA. Erie also gets IND. 4 from Memphis,TN the FedEx hub. 8 from San Juan,Puerto Rico to Antigua,Pointe-a-Pitre,
+  Ponce,PR St.Croix and St.Thomas in the U.S. Virgin Islands, St.Kitts and Tortola in the British Virgin Islands. Minneapolis to Duluth,MN. 3 from Greensboro,NC. Columbia,SC to Myrtle Beach,SC. 3 from Newark,NJ. 2 from Baltimore,MD.
+  Grand Forks,ND to Minot,ND. And from Aguadilla,Puerto Rico to Port of Spain,Trinidad and Tobago, Provindenciales,Turks and Caicos, Santiago de los Cabalerros,Dominican Republic and Santo Domingo there to.
+  At March 2011 it's fleet had 39 Cessna 208B's,6 ATR 72-210's,3 ATR 72-200's,8 ATR 42-300's and 1 Shorts 360.All the Cessna's and ATR's were leased from Fedex. It also has a Beehcraft King Air 90 that is only used
+  for corporate purposes and not cargo. It used to also do South American operations but Fedex now does it with their own jets. The airline started in 1974. It was also once the largest operator of the Fokker F27 in the world at one time." />
+   </profile>
+    <info real="True" from="1974" to="2199" />
+       <prefereds aircrafts="Cessna 208B Super Cargomaster,ATR 72-210,ATR 72-200,ATR 42-300,ATR 72-600,Fokker F27"></prefereds>
+       <focusairports>
+                 <focusairport airport="LCK"></focusairport>
+	         <focusairport airport="IND"></focusairport>
+		 <focusairport airport="MEM"></focusairport>
+		 <focusairport airport="SJU"></focusairport>
+		 <focusairport airport="EWR"></focusairport>
+		 <focusairport airport="BQN"></focusairport>
+     </focusairports>
+          <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B Super Cargomaster" early="0" late="39"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2011)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-210" early="0" late="6"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2011)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="0" late="3"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2011)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="0" late="10"></airliner>
+	     </airliners>	
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Short 360" early="0" late="1"></airliner>
+	     </airliners>	      	        
+	     <routes>
+	     
+
+                <route destination1="LCK" destination2="DEN" />
+	        <route destination1="LCK" destination2="CID" />
+		<route destination1="LCK" destination2="PKB" />
+		<route destination1="LCK" destination2="IND" />
+		<route destination1="IND" destination2="SDF" />
+		<route destination1="IND" destination2="SBN" />
+		<route destination1="IND" destination2="CID" />
+		<route destination1="IND" destination2="ERI" />
+		<route destination1="IND" destination2="PKB" />
+		<route destination1="CID" destination2="GFK" />
+                <route destination1="CID" destination2="FSD" />
+	        <route destination1="CLE" destination2="ERI" />
+		<route destination1="MEM" destination2="TUL" />
+		<route destination1="MEM" destination2="HSV" />
+		<route destination1="MEM" destination2="TLH" />
+		<route destination1="MEM" destination2="CRW" />
+		<route destination1="SJU" destination2="PSE" />
+		<route destination1="SJU" destination2="STT" />
+		<route destination1="SJU" destination2="STX" />
+		<route destination1="SJU" destination2="ANU" />
+		<route destination1="SJU" destination2="PTP" />
+		<route destination1="SJU" destination2="SKB" />
+		<route destination1="SJU" destination2="SXM" />
+		<route destination1="SJU" destination2="EIS" />
+		<route destination1="MSP" destination2="DLH" />
+		<route destination1="GSO" destination2="RDU" />
+		<route destination1="GSO" destination2="EWN" />
+		<route destination1="GSO" destination2="ILM" />
+		<route destination1="CAE" destination2="MYR" />
+		<route destination1="EWR" destination2="BUF" />
+		<route destination1="EWR" destination2="IAD" />
+		<route destination1="EWR" destination2="BWI" />
+		<route destination1="BWI" destination2="SBY" />
+		<route destination1="BQN" destination2="SDU" />
+		<route destination1="BQN" destination2="POS" />
+		<route destination1="BQN" destination2="STI" />
+		<route destination1="BQN" destination2="PLS" />
+		<route destination1="GFK" destination2="MOT" />
+
+              </routes>
+	     
+</airline>

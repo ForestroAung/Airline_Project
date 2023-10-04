@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="LASER Airlines" iata="QL"  color="LimeGreen" area="426" CEO="Nacio Arechavalata" mentality="Moderate" market="Local" preferedairport="CCS">
+  <narrative narrative="LASER Airlines is based at Caracas,Venezuela. It has a focus city at Porlamar on Isla Margarita also. It started operations in 1994 and its named stands for La Aa de Servicio Ejecutivo Regional. At March 2015 it serves 5 other domestic airports
+  and flies from Caracas to Santo Domingo,Dominican Republic and Aruba, while seasonally it goes to Punta Cana,Dominican Republic. 8 routes are served from CCS. Porlamar serves 3 domestic routes. Port of Spain Trinidad and Tobago used to be served also. At October 2014 its
+  fleet had five MD-81's,four MD-82's,four DC-9-30's and a DC-9-10. Its average fleet age was around 31 years old.  "/>
+   </profile>
+    <info real="True" from="1994" to="2199" />
+       <prefereds aircrafts="MD-82 (DC-9-82),MD-81 (DC-9-81),Douglas DC-9-30,Douglas DC-9-10"></prefereds>
+	      <focusairports>
+		 <focusairport airport="PMV"></focusairport>
+     </focusairports>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="2" late="4"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-10" early="1" late="1"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2011)-->
+	     	         <airliners>
+	    <airliner type="MD-81 (DC-9-81)" early="2" late="5"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2013)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="4"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+       	 	<route destination1="CCS" destination2="PMV" />
+		<route destination1="CCS" destination2="MAR"  />
+		<route destination1="CCS" destination2="BLA"  />
+		<route destination1="CCS" destination2="SDQ"  />
+		<route destination1="CCS" destination2="STD"  />
+		<route destination1="CCS" destination2="VIG"  />
+		<route destination1="CCS" destination2="AUA"  />
+		<route destination1="CCS" destination2="PUJ" season="Summer" />
+		<route destination1="PMV" destination2="VLN"  />
+		<route destination1="PMV" destination2="VIG"  />
+		
+              </routes>
+</airline>

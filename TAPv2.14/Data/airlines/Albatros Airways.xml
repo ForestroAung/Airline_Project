@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Albatros Airways" iata="4H" logo="4H2" color="Red" area="136" CEO="Albens Vokopola" mentality="Safe" market="Regional" preferedairport="TIA">
+  <narrative narrative="Albatros Airways was around from November 3rd,2004 to September 1st,2006. It flew our of Tirana,Albania to the Italian airports at Bari,Milan Bergamo,Pescara,Pisa,Rimini,Venice and Verona.
+  It used a single leased Fokker 100 from Montenegro Airlines."/>
+</profile>
+  <info real="True" from="2004" to="2007" />
+  <prefereds aircrafts="Fokker 100"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="TIA" destination2="BGY"    />
+		  <route destination1="TIA" destination2="BRI"    />
+		  <route destination1="TIA" destination2="VCE"    />
+		  <route destination1="TIA" destination2="PSA"    />
+		  <route destination1="TIA" destination2="PSR"    />
+		  <route destination1="TIA" destination2="VRN"    />
+		  <route destination1="TIA" destination2="RMI"   />
+		        </routes>
+
+
+
+
+</airline>

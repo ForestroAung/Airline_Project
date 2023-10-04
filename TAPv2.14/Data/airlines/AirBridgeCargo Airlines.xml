@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AirBridgeCargo Airlines" iata="RU" color="SteelBlue" area="177" CEO="Denis Ilyin" mentality="Moderate" market="Global" onlyfromhome="False" preferedairport="SVO" routefocus="Cargo">
+  <narrative narrative="AirBridgeCargo Airlines is the largest cargo airline in Russia. Its parent is the Volga-Dnepr Group which also has the cargo airlines Volga-Dnepr Airlines and ATRAN. AirBridge is based at Moscow Sheremetyevo and Moscow Domodedovo.
+It has another base at Moscow Vnukovo. Forgeign hubs include Hong Kong,Amsterdam,Frankfurt,Shanghai Pudong,and Chengdu,China. It also has many flights from the domestic airports of Krasnoyarsk,Novosibirsk and Yekaterinburg.
+SVO has about 16 routes served from it,DME 17,HKG 10,FRA 4,AMS 8,PVG 5,Zhengzhou CGO in China 5, CGOKJA 6,CTU 6,OVB 2,SVX 5,PEK 3 (Beijing) and LED 2 (St. Petersburg). Other places it goes to are Almaty and Atyrau,Kazakhstan, Zaragoza,Spain is served on 2 routes,
+Seoul-Incheon on 2 routes,Tokyo Narita on 2 routes,Clark Airport near Manila,Frankfurt Hahn,Milan Mapensa on 2 routes,Paris CDG on 2 routes,Khabarovsk in Russia,Sochi in Russia,Maastricht in Netherlands,and Munich which started in 2014. As of February 2015 its fleet had six 747-8F's,five 747-400ERF's and three 747-400F's. From 2004 to about 2013 it had 747-200F's also." />
+</profile>
+   <info real="True" from="2004" to="2199"></info>
+   <prefereds aircrafts="Boeing 747-8F,Boeing 747-400ERF,Boeing 747-400F,Boeing 747-200F"></prefereds>
+  
+<focusairports>
+                 <focusairport airport="DME"></focusairport>
+		 <focusairport airport="HKG"></focusairport>
+		 <focusairport airport="KJA"></focusairport>
+		 <focusairport airport="OVB"></focusairport>
+		 <focusairport airport="AMS"></focusairport>
+		  <focusairport airport="SVX"></focusairport>
+		 <focusairport airport="VKO"></focusairport>
+		 <focusairport airport="FRA"></focusairport>
+		  <focusairport airport="CGO"></focusairport>
+		  <focusairport airport="PVG"></focusairport>
+		   <focusairport airport="CTU"></focusairport>
+		   <focusairport airport="LED"></focusairport>
+		   <focusairport airport="PEK"></focusairport>
+		   <focusairport airport="ZAZ"></focusairport>
+		   <focusairport airport="ICN"></focusairport>
+		   <focusairport airport="NRT"></focusairport>
+		   <focusairport airport="CTU"></focusairport>
+		   <focusairport airport="LGG"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2014)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200F" early="2" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-400F" early="1" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-400ERF" early="3" late="5"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-8F" early="3" late="6"></airliner>
+	     </airliners>
+
+<routes>
+       	        <route destination1="SVO" destination2="AMS"/>
+	        <route destination1="SVO" destination2="HHN"/>
+	        <route destination1="SVO" destination2="FRA"/>
+	        <route destination1="SVO" destination2="HKG" />
+	        <route destination1="SVO" destination2="PVG" />
+	        <route destination1="SVO" destination2="PEK"/>
+	        <route destination1="SVO" destination2="MXP"/>
+	        <route destination1="SVO" destination2="CDG"/>
+		<route destination1="SVO" destination2="HEL"/>
+	        <route destination1="SVO" destination2="GUW"/>
+	        <route destination1="SVO" destination2="ICN"/>
+	        <route destination1="SVO" destination2="NRT"/>
+	        <route destination1="SVO" destination2="CTU"/>
+	        <route destination1="SVO" destination2="CGO"/>
+	        <route destination1="SVO" destination2="ZAZ"/>
+		<route destination1="DME" destination2="AMS"/>
+	        <route destination1="DME" destination2="FRA"/>
+	        <route destination1="DME" destination2="MST" />
+		<route destination1="DME" destination2="LED"/>
+	        <route destination1="DME" destination2="KJA"/>
+	        <route destination1="DME" destination2="SVX" />
+		<route destination1="DME" destination2="HKG"/>
+	        <route destination1="DME" destination2="PVG"/>
+	        <route destination1="DME" destination2="KJA" destination3="ORD" />
+	        <route destination1="DME" destination2="PEK"/>
+	        <route destination1="DME" destination2="MXP"/>
+	        <route destination1="DME" destination2="CDG"/>
+	        <route destination1="DME" destination2="ICN"/>
+	        <route destination1="DME" destination2="NRT"/>
+	        <route destination1="DME" destination2="CTU"/>
+	        <route destination1="DME" destination2="CGO"/>
+	        <route destination1="DME" destination2="ZAZ"/>
+	        <route destination1="VKO" destination2="HKG"/>
+		<route destination1="HKG" destination2="AMS"/>
+	        <route destination1="HKG" destination2="FRA"/>
+	        <route destination1="HKG" destination2="LED"/>
+	        <route destination1="HKG" destination2="KJA"/>
+	        <route destination1="HKG" destination2="SVX"/>
+	        <route destination1="HKG" destination2="ALA"/>
+	        <route destination1="HKG" destination2="CRK"/>
+	        <route destination1="OVB" destination2="AMS"/>
+	        <route destination1="OVB" destination2="CTU"/>
+	        <route destination1="KJA" destination2="AMS"/>
+	        <route destination1="KJA" destination2="PVG"/>
+	        <route destination1="KJA" destination2="CGO"/>
+	        <route destination1="AMS" destination2="CGO"/>
+	        <route destination1="AMS" destination2="CTU"/>
+	        <route destination1="AMS" destination2="KHV"/>
+		 <route destination1="FRA" destination2="SVX"/>
+                 <route destination1="SVX" destination2="PVG"/>
+		 <route destination1="SVX" destination2="CTU"/>
+		  <route destination1="PVG" destination2="AER"/>
+		   <route destination1="CTU" destination2="CGO"/>
+		   <route destination1="SVO" destination2="MUC" opened="2014" closed="2199"/>
+		   <route destination1="LED" destination2="PEK"/>
+
+        </routes>
+ 
+</airline>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lina Congo" iata="GCB" color="Turquoise" area="347" CEO="Unknown" mentality="Safe" market="Regional"  preferedairport="PNR">
+  <narrative narrative="Lina Congo was an airline of Republic of Congo from 1961 to 2002. It's bases were Pointe Noire and Brazzaville. In its first 4 years it was called Air Congo, but it changed names to avoid confusion with another Air Congo which served its neighbor country of Zaire, now called the Democratic Republic of Congo.
+  At the start is used DC-3's and DC-4's and flew primary routes between its bases and to Moanda in Gabon. At around 1965 it was 66% owned by the government, the rest by provate investors. In the early 70s its fleet comprised of two DC-3's,a DC-4 and a Fokker F27 and was serving 6 dmestic airports besides its hubs and the same one in Gabon it started with.
+  By the late 70s its fleet expanded with the addition of another Fokker F27,a Nord 262,two Antonov 24's,two Twin Otter 300's and a leased DC-6. It had however retired one of the DC-3's and the DC-4. In the 80s it had its first 737-200 from 1982-1989. And it would have a few more in its life. Including two near the end.
+  It also still had two Twin Otters at the end. It wad closed due to it being a strain on government resources and for not doing well financially." />
+</profile>
+   <info real="True" from="1961" to="2002"></info>
+  <prefereds aircrafts="Douglas DC-3,Douglas DC-4-1009,Boeing 737-200 Adv.,Fokker F27,DHC-6-300 Twin Otter,Antonov An-24,Aerospatiale N 262"></prefereds>
+          <focusairports>
+	 <focusairport airport="BZV"></focusairport>
+     </focusairports>
+
+ <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1974)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="2" late="2"></airliner>
+	     </airliners>
+	     
+ <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="2"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1974)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-4-1009" early="1" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1978)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="0" late="2"></airliner>
+	     </airliners>
+	          	      <!--the airliners the airline would start with which isn't on a route earyl (1978) late (2001)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="2" late="2"></airliner>
+	     </airliners>
+	     	          	      <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1978)-->
+	     	         <airliners>
+	    <airliner type="Aerospatiale N 262" early="0" late="1"></airliner>
+	     </airliners>
+	       	          	      <!--the airliners the airline would start with which isn't on a route earyl (1961) late (1978)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="0" late="2"></airliner>
+	     </airliners>
+
+
+
+<routes>
+	        <route destination1="PNR" destination2="BZV" />
+	        <route destination1="BZV" destination2="OUE" />
+          <route destination1="BZV" destination2="ION" />
+              </routes>
+  
+
+
+</airline>

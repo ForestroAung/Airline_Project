@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Harlequin Air" iata="HLQ" color="Maroon" area="220" CEO="Katsuhiro Ogami" mentality="Safe" market="Domestic" preferedairport="FUK"> 
+  <narrative narrative="Harlequin Air was a subsidiary of Japan Airlines that operated from 1997 to 2005 when it was absorbed into its parent. Its base was Fukuoka where it operated domestic
+  flights to Nagoya's Centrair Airport and Sapporo's New Chitose Airport. It also did international charters. It operated at least two planes which were painted in its own livery, a DC-10-30 and an MD-81. It also used its parents
+  planes painted in the Japan Airlines livery when needed." />
+</profile>
+   <info real="True" from="1997" to="2006"></info>
+   <prefereds aircrafts="MD DC-10-30,MD-81 (DC-9-81)"></prefereds>
+<routes>
+          <route destination1="FUK" destination2="NGO"/>
+          <route destination1="FUK" destination2="CTS"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2005)-->
+	     	         <airliners>
+	    <airliner type="MD DC-10-30" early="1" late="1"></airliner>
+	     </airliners>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2005)-->
+	     	         <airliners>
+	    <airliner type="MD-81 (DC-9-81)" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

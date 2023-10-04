@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Service Gabon" iata="AGB" color="Red" area="346" CEO="Unknown" mentality="Moderate" market="Regional"  preferedairport="LBV">
+  <narrative narrative="Air Service Gabon was around from 1965 until about August 2010. Its base was Libreville,Gabon. Near the end it was serving 7 domestic cities besides the base, all of these were from Libreville except the Port-Gentil to Gamba route. International destinations were Sao Tome, the cities of Brazzaville and Pointe-Noire in the Republic of Congo,
+  Bata and Malabo in Equatorial Guinea,and the Camroon cities of Douala,Yaounde,Garoua,Maroua and Ngaoundere. The only Cameroon route from Gabon was Libreville-Douala, all the other Cameroon cities were served from Douala and there wa salso a route connecting Maroua with Ngaoundere. It also operated a domestic Equatorial Guinea route between Bata and Malabo.
+  Its fleet near the end was four Dash 8-100's, a Dash 8-300 and a CRJ100. It had three Bombardier 1900D's from 1998 to 2007. It had the Dash 8 300 since 1999, and two the the Dash 8 100's since 2002, and the CRJ since 2007." />
+</profile>
+   <info real="True" from="1965" to="2011"></info>
+  <prefereds aircrafts="Bombardier Dash 8-100,Beechcraft 1900D,Bombardier Dash 8-300,Bombardier CRJ100"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="2" late="4"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="3" late="0"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ100" early="1" late="1"></airliner>
+	     </airliners>
+	         	      <routes>  
+      <route destination1="LBV" destination2="POG"/>
+      <route destination1="LBV" destination2="OYE"/>
+	    <route destination1="LBV" destination2="MVB"/>
+	    <route destination1="LBV" destination2="KOU"/>
+	    <route destination1="LBV" destination2="MKU"/>
+	    <route destination1="LBV" destination2="MJL"/>
+	    <route destination1="POG" destination2="GAX"/>
+      <route destination1="LBV" destination2="TMS"/>
+      <route destination1="LBV" destination2="BZV"/>
+      <route destination1="LBV" destination2="PNR"/>
+	    <route destination1="LBV" destination2="BSG"/>
+      <route destination1="LBV" destination2="SSG"/>
+      <route destination1="SSG" destination2="BSG"/>
+       <route destination1="LBV" destination2="DLA"/>
+      <route destination1="DLA" destination2="NSI"/>
+       <route destination1="DLA" destination2="SSG"/>
+      <route destination1="DLA" destination2="NGE"/>
+       <route destination1="DLA" destination2="MVR"/>
+        <route destination1="DLA" destination2="GOU"/>
+        <route destination1="MVR" destination2="NGE"/>
+                   </routes>
+
+</airline>

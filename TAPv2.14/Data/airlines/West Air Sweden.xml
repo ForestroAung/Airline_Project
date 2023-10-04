@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="West Air Sweden" iata="PT" logo="PT" color="DarkRed" area="105" CEO="Gustaf Thureborn" mentality="Moderate" onlyfromhome="True"
+           market="Regional" preferedairport="MMX">
+    <narrative
+      narrative="West Air Sweden operating as West Atlantic is a cargo airline based in Gothenburg, Sweden. It operates scheduled and ad hoc freight charter services for FedEx, DHL, TNT and UPS. It is also contracted to operate mail flights 6 nights a week on behalf of the Swedish post office. " />
+  </profile>
+   <info real="True" from="1955" to="2199"></info>
+   	<prefereds aircrafts="BAe ATP Freighter">
+	</prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="BAe ATP Freighter" early="0" late="10"></airliner>
+    </airliners>
+  </startdata>
+</airline>

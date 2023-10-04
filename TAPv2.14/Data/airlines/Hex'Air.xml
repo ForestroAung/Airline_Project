@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Hex'Air" iata="UD"  color="Yellow" area="115" CEO="Frantz Yvelin" mentality="Safe" market="Local" preferedairport="LPY">
+  <narrative narrative="Hex'Air is based at Le Puy-en-Velay in the south central part of France. It is the only airline operating there. Its only route at March 2015 was to Paris Orly. It used to serve Castres to Lyon with a stopover in Rodez
+  but this was suspened in January 2014. At July 2008 it had two Beechcraft 1900D's and a leased Embraer ERJ 135. In 2006 it also had an ERJ 145. Both jets were used for charters. The airline began in 1991." />
+   </profile>
+    <info real="True" from="1991" to="2017" />
+       <prefereds aircrafts="Beechcraft 1900D,Embraer ERJ135 ER,Embraer ERJ145 LR"></prefereds>
+  
+     <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="LPY" destination2="ORY" opened="1991" closed="2199"/>
+	        <route destination1="DCM" destination2="RDZ" destination3="LYS" opened="1991" closed="2014"/>
+              </routes>
+</airline>

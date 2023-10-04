@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="ES-Air" iata="JO" logo="JO2" color="Blue" area="107" CEO="Anders Steenstrup" mentality="Moderate"
+           market="Domestic" preferedairport="EBJ">
+    <narrative
+      narrative="ES-Air was created in 2014 by local business men in Esbjerg, with the goal of creating a route from Esbjerg to Copenhagen." />
+  </profile>
+    <info real="True" from="2015" to="2199"></info>
+  <startdata>
+    <routes>
+      <route destination1="EBJ" destination2="CPH" opened="2015" closed="2199"></route>
+    </routes>
+    
+  </startdata>
+</airline>

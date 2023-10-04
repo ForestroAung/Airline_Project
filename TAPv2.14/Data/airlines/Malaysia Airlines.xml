@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Malaysia Airlines" iata="MH" color="CadetBlue" area="242" CEO="Tan Sri Md Nor Yusof"
+           mentality="Safe" market="Global" preferedairport="KUL">
+             <narrative
+      narrative="Malaysia Airlines is a major airline operating flights from Kuala Lumpur International Airport. In 1947, the airline began as Malayan Airways, being renamed Malaysian Airways after Malaysia gained independence." />
+  </profile>
+  <info real="True" from="1972" to="2199"></info>
+  <prefereds aircrafts="Airbus A330-300,Airbus A380-800,Boeing 737-800,Boeing 777-200ER">
+  </prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-300" early="8" late="7"></airliner>
+      <airliner type="Airbus A380-00" early="3" late="3"></airliner>
+      <airliner type="Boeing 737-800" early="20" late="30"></airliner>
+      <airliner type="Boeing 777-200ER" early="3" late="3"></airliner>
+     </airliners>
+    <routes>
+      <route destination1="KUL" destination2="IPH"/>
+      <route destination1="KUL" destination2="BLR"/>
+      <route destination1="KUL" destination2="BKK"/>
+      <route destination1="KUL" destination2="BWN"/>
+      <route destination1="KUL" destination2="BTU"/>
+      <route destination1="KUL" destination2="MAA"/>
+      <route destination1="KUL" destination2="CMB"/>
+      <route destination1="KUL" destination2="DRW"/>
+      <route destination1="KUL" destination2="CAN"/>
+      <route destination1="KUL" destination2="HAN"/>
+      <route destination1="KUL" destination2="SGN"/>
+      <route destination1="KUL" destination2="HYD"/>
+      <route destination1="KUL" destination2="CGK"/>
+      <route destination1="KUL" destination2="JHB"/>
+      <route destination1="KUL" destination2="KTM"/>
+      <route destination1="KUL" destination2="KBR"/>
+      <route destination1="KUL" destination2="BKI"/>
+      <route destination1="KUL" destination2="TGG"/>
+      <route destination1="KUL" destination2="KUA"/>
+      <route destination1="KUL" destination2="KCH"/>
+      <route destination1="KUL" destination2="LBU"/>
+      <route destination1="KUL" destination2="LCK"/>
+      <route destination1="KUL" destination2="MNL"/>
+      <route destination1="KUL" destination2="KNO"/>
+      <route destination1="KUL" destination2="MYY"/>
+      <route destination1="KUL" destination2="PEN"/>
+      <route destination1="KUL" destination2="PNH"/>
+      <route destination1="KUL" destination2="ADL"/>
+      <route destination1="KUL" destination2="AMS"/>
+      <route destination1="KUL" destination2="AKL"/>
+      <route destination1="KUL" destination2="PEK"/>
+      <route destination1="KUL" destination2="DEL"/>
+      <route destination1="KUL" destination2="DPS"/>
+      <route destination1="KUL" destination2="DAK"/>
+      <route destination1="KUL" destination2="DXB"/>
+      <route destination1="KUL" destination2="HKG"/>
+      <route destination1="KUL" destination2="JED"/>
+      <route destination1="KUL" destination2="KTM"/>
+      <route destination1="KUL" destination2="LHR"/>
+      <route destination1="KUL" destination2="MEL"/>
+      <route destination1="KUL" destination2="BOM"/>
+      <route destination1="KUL" destination2="KIX"/>
+      <route destination1="KUL" destination2="CDG"/>
+      <route destination1="KUL" destination2="PER"/>
+      <route destination1="KUL" destination2="ICN"/>
+      <route destination1="KUL" destination2="PVG"/>
+      <route destination1="KUL" destination2="SYD"/>
+      <route destination1="KUL" destination2="NRT"/>
+      <route destination1="BKI" destination2="KCH"/>
+      <route destination1="BKI" destination2="LBU"/>
+      <route destination1="BKI" destination2="PER"/>
+      <route destination1="BKI" destination2="SDK"/>
+      <route destination1="BKI" destination2="PVG"/>
+      <route destination1="BKI" destination2="TPE"/>
+      <route destination1="BKI" destination2="TWU"/>
+      <route destination1="BKI" destination2="NRT"/>
+      <route destination1="MYY" destination2="KCH"/>
+      <route destination1="BKI" destination2="SIN"/>
+    </routes>
+  </startdata>
+</airline>

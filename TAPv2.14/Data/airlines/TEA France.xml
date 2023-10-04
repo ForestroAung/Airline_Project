@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="TEA France" iata="TF" logo="HE2" color="Blue" area="113" CEO="George P. Gutelman" mentality="Moderate" market="Regional" preferedairport="LIL" schedule="Charter">
+  <narrative narrative="TEA France was a subsidiary of Trans European Airways that operated Charter flights from Lille Lesquin to European holiday destinations."/>
+   </profile>
+    <info real="True" from="1989" to="1991"/>
+       <prefereds aircrafts="Boeing 737-200,Airbus A310-200"></prefereds>
+</airline>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Enter Air" iata="E4"  color="LightBlue" area="157" CEO="Greg Polaniecki" mentality="Safe" market="Regional" preferedairport="WAW">
+  <narrative narrative="Enter Air Sp. z o.o. is a charter airline with its head office in Warsaw, Poland, and main base at Warsaw Chopin and Katowice-Pyrzowice. It operates holiday and charter flights out of Polish and other European airports."/>
+   </profile>
+    <info real="True" from="2010" to="2199" />
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+             <focusairports>
+                               <focusairport airport="SDQ"></focusairport>
+				 <focusairport airport="KTW"></focusairport>
+				 <focusairport airport="POZ"></focusairport>
+				 <focusairport airport="WRO"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="10"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737 MAX 8" early="1" late="6"></airliner>
+	</airliners>
+</airline>

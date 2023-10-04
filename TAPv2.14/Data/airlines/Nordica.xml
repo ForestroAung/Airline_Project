@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Nordica" iata="EST" color="MediumBlue" area="173" CEO="Jaan Tamm" mentality="Moderate" market="Regional" preferedairport="TLL"> 
+  <narrative narrative="Nordica is the flag carrier of Estonia and began flying  November 8th,2015 when it took over as flag carrier from now defunct Estonian Air. Its based at the main city of Tallinn. To start most of the first year Adria Airways of Slovenia operated most of its flights while it builds its own fleet. And starting in November 2016 it started using
+  LOT Polish Airlines commercial platform,ticketing system and flight codes. At May 2016 Nordica had four Bombardier CRJ900's and two CRJ700's of its own. From Tallinn it served as of November 2016 Stockholm,Sweden Oslo,Norway Amsterdam,Netherlands Warsaw,Poland Vilnius,Lithuania Vienna,Austria Brussels,Belgium Trondheim,Norway Munich,Germany and Kiev,Ukraine. Kaunas,Lithuania is slated to start in the summer of 2017. Seasonal from Tallinn included
+  Berlin-Tegel,Germany Nice,France Odessa,Ukraine Paris,France Split,Croatia and Rijeka,Croatia. Hamburg is slated to start in May 2017 for seasonal. It also offers three seasonal charters to Bergamo,Italy Geneva,Switzerland and Salzburg,Austria. It also flies routes outside of Estonia between Copenhagen,Denmark to Orebro,Sweden and Copenhagen to
+  Groningen,Netherlands." />
+</profile>
+   <info real="True" from="2015" to="2199"></info>
+   <prefereds aircrafts="Bombardier CRJ900,Bombardier CRJ700"></prefereds>
+     <focusairports>
+        <focusairport airport="CPH"></focusairport>
+     </focusairports>
+       
+  <routes>
+    <route destination1="TLL" destination2="ARN"/>
+    <route destination1="TLL" destination2="OSL"/>
+    <route destination1="TLL" destination2="AMS"/>
+    <route destination1="TLL" destination2="WAW"/>
+    <route destination1="TLL" destination2="VNO"/>
+    <route destination1="TLL" destination2="VIE"/>
+    <route destination1="TLL" destination2="BRU"/>
+    <route destination1="TLL" destination2="TRD"/>
+    <route destination1="TLL" destination2="MUC"/>
+    <route destination1="TLL" destination2="KBP"/>
+    <route destination1="CPH" destination2="ORB"/>
+    <route destination1="CPH" destination2="GRQ"/>
+    <route destination1="TLL" destination2="KUN" opened="2017" closed="2199"/>
+    <route destination1="TLL" destination2="CDG" season="Summer"/>
+    <route destination1="TLL" destination2="NCE" season="Summer"/>
+    <route destination1="TLL" destination2="SPU" season="Summer"/>
+    <route destination1="TLL" destination2="RJK" season="Summer"/>
+    <route destination1="TLL" destination2="ODS" season="Summer"/>
+    <route destination1="TLL" destination2="HAM" opened="2017" closed="2199" season="Summer"/>
+    <route destination1="TLL" destination2="CDG" season="Summer"/>
+    <route destination1="TLL" destination2="GVA" type="Charter" season="Summer"/>
+    <route destination1="TLL" destination2="SZG" type="Charter" season="Summer"/>
+    <route destination1="TLL" destination2="BGY" type="Charter" season="Summer"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ900" early="4" late="4"></airliner>
+	     </airliners>
+	              	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ700" early="2" late="2"></airliner>
+	     </airliners>
+
+</airline>

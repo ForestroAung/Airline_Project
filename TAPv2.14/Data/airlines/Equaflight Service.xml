@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Equaflight Service" iata="EKA" color="Orange" area="347" CEO="Bob Smith" mentality="Safe" market="Local"  preferedairport="PNR" routefocus="Mixed" schedule="Business">
+  <narrative narrative="Equaflight Service is an airline based at Pointe Noire,Republic of the Congo. It started in 1996. It does passengers and cargo. It was a charter only airline until 2010 when it opened scheduled service between Pointe Noire and the countries largest city Brazzaville and also to Port-Gentil,Gabon. It also does on demand business charters to Luanda,Angola under the name Equajet. It also has the subsidiary Afric Aviation which is based at Port Gentil,Gabon and began in 2011. It operates the route Port Gentil-Libreville. At August 2014 it had two leased Embraer 135's and an ATR 42-300 and at least one Dornier 228,and Embraer 120 Brasilia and Beechcraft 1900C." />
+</profile>
+   <info real="True" from="1996" to="2199"></info>
+  <prefereds aircrafts="Embraer ERJ135 ER,ATR 42-300,EMB 120 Brasilia,ATR 72-600,Dornier 228-212,Beechcraft 1900C"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="1" late="2"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="2" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="1" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="0" late="1"></airliner>
+	     </airliners> 
+
+
+
+<routes>
+                <route destination1="PNR" destination2="BZV" opened="2010" closed="2199"  routefocus="Passenger,Cargo" />
+	        <route destination1="PNR" destination2="POG" opened="2010" closed="2199" routefocus="Passenger,Cargo" />
+	        <route destination1="PNR" destination2="LAD"  opened="1996" closed="2199" type="Charter"  routefocus="Passenger,Cargo"/>
+              </routes>
+  
+
+
+</airline>

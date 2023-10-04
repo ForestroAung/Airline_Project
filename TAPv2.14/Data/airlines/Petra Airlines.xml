@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Petra Airlines" iata="9P" color="Orange" area="301" CEO="Riad Khashman" mentality="Safe" market="Global" preferedairport="AMM">
+  <narrative narrative="Petra Airlines was an airline based in Amman,Jordan at Queen Alia Airport with another hub at Amman Civil Airport and Aqaba,Jordan. It was founded in 2005 but did not start flying until 2010. It used a single A320. The owner also ran Air Rum from 2002 to 2008. The airline ceased as Petra Airlines
+  in January 2015 when Air Arabia bought 49% of it, while the Rum Group still owns 51%. It is now Air Arabia Jordan. Some of the places it served were Antalya,Bodrum,and Dalaman in Turkey,Jeddah and Medina in Saudi Arabia, while in Egypt it served Hurghada and Sharm-el-Shiekh. The new airline is serving some of the same places but mostly new ones.
+  These are Dammam,Jeddah and Riyadh,Saudi Arabia , Erbil,Iraq  Kuwait and Sharm-el-Shiekh,Egypt. Riad Khashman is still the CEO and it still uses A320's. "/>
+</profile>
+  <info real="True" from="2010" to="2015" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+     <focusairports>
+	<focusairport airport="ADJ"></focusairport>
+	<focusairport airport="AQJ"></focusairport>
+     </focusairports>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>  
+ <routes>
+    <route destination1="AMM" destination2="JED"/>
+    <route destination1="AMM" destination2="MED"/>
+    <route destination1="AMM" destination2="AYT"/>
+    <route destination1="AMM" destination2="DLM" />
+    <route destination1="AMM" destination2="BJV" />
+    <route destination1="AMM" destination2="SSH" />
+    <route destination1="AMM" destination2="HRG" />
+  </routes>
+</airline>

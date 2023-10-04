@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Vanilla Air" iata="VNL" color="SkyBlue" area="220" CEO="Tomonori Ishii" mentality="Safe" market="Regional" preferedairport="NRT" businessmodel="LCC">
+  <narrative narrative="Vanilla Air is a Japanese airline that is a subsidiary of All Nippon Airlines, and is based at Tokyo Narita. It started as an AirAsia project called AirAsia Japan, but AirAsia dropped this investment in June 2013 and was to become wholly owned by All Nippon. It was rebranded as Vanilla Air in November 2013. It commenced on December 20,2013 with flights to the island of Okinawa in Japan and Taipei,Taiwan. It used two ANA A320's to start and now has eight as of March 2015. Besides Okinawa and Taipei it also serves Amami Island, Japan Sapporo,Japan Hong Kong and Kaohsiung,Taiwan. It used to serve Seoul-Incheon,South Korea. It does want to expand to the US territories of Guam and Saipan and to Indonesia in the future."/>
+</profile>
+  <info real="True" from="2013" to="2199" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="8"></airliner>
+	     </airliners>
+
+               <routes>
+	       	          <route destination1="NRT" destination2="TPE" />
+			  <route destination1="NRT" destination2="OKA" />
+	                  <route destination1="NRT" destination2="CTS" />
+			  <route destination1="NRT" destination2="HKG" />
+			  <route destination1="NRT" destination2="KHH" />
+			  <route destination1="NRT" destination2="ASJ" />
+		        </routes>
+</airline>

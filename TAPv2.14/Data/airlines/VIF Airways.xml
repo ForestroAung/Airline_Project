@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="VIF Airways" iata="VIF" color="DarkGreen" area="224" CEO="Syed Ainuddin Arif" mentality="Safe" market="Domestic" preferedairport="HYD">
+    <narrative narrative="VIF Airways was around from 1993 to 1996 and was based at Hyderabad,India. It used a single Dornier 328 turboprop its entire life. From Hyderbad it flew to Mumbai,Visakhapatnam,Tirupati,Kolkata,Ahmedabad,Pune,Rajahmundry, and Bhubaneshwar. The shortest route being Rajahmundry at 361 km's     and the longest being Kolkata at 1,200 km's."/>
+  </profile>
+    <info real="True" from="1993" to="1996"/>
+           <prefereds aircrafts="Dornier 328-110"/>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1995)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-110" early="1" late="1"/>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="HYD" destination2="BOM"/>	
+	    <route destination1="HYD" destination2="VTZ"/>
+	    <route destination1="HYD" destination2="TIR"/>
+	    <route destination1="HYD" destination2="CCU"/>
+	    <route destination1="HYD" destination2="AMD"/>
+	    <route destination1="HYD" destination2="PNQ"/>
+	    <route destination1="HYD" destination2="RJA"/>
+	    <route destination1="HYD" destination2="BBI"/>
+                   </routes>
+</airline>

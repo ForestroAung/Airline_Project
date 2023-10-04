@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Elysian Airlines" iata="GIE" color="Crimson" area="341" CEO="Julius Oben" mentality="Moderate" market="Regional"  preferedairport="NSI" routefocus="Mixed">
+  <narrative narrative="Elysian Airlines is a mostly cargo airline based at Yaounde,Cameroon with another hub at Conakry,Guinea. It does passenger charters as well,but it suspended doing scheduled passenger flights in 2010. It was founded in 2006. It serves 4 other domestic airports, Abidjan in Ivory Coast,
+  Banjul in Gambia,six in Guinea,4 in Liberia including significant operations at Monrovias Spriggs Payne Airport,Dakar in Senegal,and 5 in Sierra Leone. At November 2009 it had 4 BAe 146's and one A330 Cargo plane." />
+</profile>
+   <info real="True" from="2006" to="2199"></info>
+  <prefereds aircrafts="BAe 146-200,Airbus A330-200F"></prefereds>
+	     	              <focusairports>
+	 <focusairport airport="CKY"></focusairport>
+     </focusairports>
+ <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A330-200F" early="1" late="1"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2016)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="4" late="4"></airliner>
+	     </airliners>
+
+<routes>
+          <route destination1="NSI" destination2="CKY" />
+          <route destination1="NSI" destination2="MLW" />
+          <route destination1="NSI" destination2="DKR" />
+	        <route destination1="NSI" destination2="ABJ" />
+          <route destination1="NSI" destination2="FNA" />
+          <route destination1="NSI" destination2="DLA" />
+              </routes>
+  
+
+
+</airline>

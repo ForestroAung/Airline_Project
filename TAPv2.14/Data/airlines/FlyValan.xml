@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+
+<profile name="FlyValan" iata="F6" color="Brown" area="148" CEO="Eugene Zagrebelny" mentality="Moderate" market="Global" preferedairport="GOA" businessmodel="LCC"> 
+  <narrative narrative="FlyValan is an LCC airline registered in Romania that decided to start is commercial operations on Genoa Cristoforo Colombo Airport (Italy) " />
+</profile>
+<info real="True" from="2017" to="2199"></info>
+<prefereds aircrafts="ATR 72"></prefereds>
+<routes>
+   <route destination1="GOA" destination2="TRS" opened="2018" closed="2199"/>
+   <route destination1="GOA" destination2="GVA" opened="2018" closed="2199"/>
+   <route destination1="GOA" destination2="ZRH" opened="2018" closed="2199"/>
+<route destination1="GOA" destination2="BRU" opened="2018" closed="2199"/>
+</routes>
+<airliners>
+    <airliner type="ATR 72" early="1" late="0"></airliner>
+</airliners>
+
+</airline>

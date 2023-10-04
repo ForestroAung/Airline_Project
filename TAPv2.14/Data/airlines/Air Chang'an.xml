@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Chang'an" iata="CGN" color="Maroon" area="209" CEO="Chen Feng" mentality="Safe" market="Domestic" preferedairport="XIY">
+  <narrative narrative="Air Chang'an is a subsidiary of Hainan Airline and is based at Xi'an,China. As of July 2016 its routes from its hub were to Guiyang,Guilin,Haikou and Zhuhai. It was using three 737-800's. The airline commenced operations on January 5,1993 on the Xi'an-Yulin route. It used three domestic built Xian Y-7
+  planes. It was owned and operated by the Shaanxi Province Government. On August 30,2000 Hainan Airlines purchased the airline. They renamed it Chang'an Airlines. On July 1st,2002 it got its first 737-400, which was the first Boeing to ever be operated by a Shaanxi based airline. In October 2002 it was merged into Hainan Airlines
+  and lost its identity, using the Hainan logo and IATA code. However in December 2015 Hainan Airlines talked to Shaanxi's government and they agreed to bring back Chang'an as its own brand and independant airline. It was given back its original Air Chang'an name and its own livery. It got its  air operator's certificate in April 2016
+  and began flying again under its own brand on May 9,2016.  During some of its time using the Hainan name only it used four A319's from 2005 to 2010, two 737-700s from 2004 to 2007, and three Dash 8 400's from 2000 to 2007. It is still owned by Hainan 83.3% despite being more independant now. " />
+ </profile>
+    <info real="True" from="1993" to="2199" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-800,Airbus A319-100,Boeing 737 MAX 8,Xian Y-7"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="3" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A319-100" early="4" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="0"></airliner>
+	     </airliners>
+	         	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="3" late="3"></airliner>
+	     </airliners>
+	           	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2001)-->
+	     	         <airliners>
+	    <airliner type="Xian Y-7" early="3" late="0"></airliner>
+	     </airliners>
+<routes>      
+        <route destination1="XIY" destination2="UYN" opened="1993" closed="2003"/>
+        <route destination1="XIY" destination2="KWE"/>
+	      <route destination1="XIY" destination2="HAK"/>
+	      <route destination1="XIY" destination2="KWL"/>
+	      <route destination1="XIY" destination2="ZUH"/>
+                   </routes>
+</airline>

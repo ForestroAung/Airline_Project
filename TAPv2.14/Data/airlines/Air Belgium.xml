@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Belgium" iata="ABB"  color="Firebrick" area="112" CEO="Theun Schneiders" mentality="Safe" market="Global" preferedairport="BRU" schedule="Charter">
+  <narrative narrative="Air Belgium was a charter airline based at Brussels,Belgium from 1979 to October 2000. It had another base at Ostend. It operated to many Mediterranean destinations. In 1990 it started going to places like
+  Ft. Lauderdale,Florida,USA and Mexico. In November 1991 Palma de Mallorca started. And soon after other Spanish destinatons at Alicante,Malaga and the Canary Islands at Las Palmas and Tenerife, and in Portugal it went to Faro and the island of Funchal. It used 737-200's in the early 80's and 737-300's for the late 80's and into the 90's. A 737-400 was owned from 1988 until the end. A 757-200 was used in the early 90's. And in its last two years it also had two A320's. In May 1979 it was formed when tour operator Sun International and charter airline Abelag Aviation and Herfurth combined. It started using the Air Belgium name in 1980."/>
+   </profile>
+    <info real="True" from="1979" to="2001" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-200 Adv.,Boeing 737-300,Airbus A320-200,Boeing 757-200"></prefereds>
+        <focusairports>
+			       <focusairport airport="OST"></focusairport>
+     </focusairports>
+	      	     	         <!--the airliners the airline would start with which isn't on a route earyl (1979) late (1986)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="0"></airliner>
+	     </airliners>
+
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+	     </airliners>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1988) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	     </airliners>
+	         	     	         <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+	     </airliners>
+	           	     	         <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+	       <routes>
+	       	<route destination1="BRU" destination2="FLL" opened="1990" closed="2199" />
+		<route destination1="BRU" destination2="CUN" opened="1990" closed="2199" />
+		<route destination1="BRU" destination2="PMI" opened="1991" closed="2199" />
+		<route destination1="BRU" destination2="LPA" opened="1991" closed="2199" />
+		<route destination1="BRU" destination2="ALC" opened="1991" closed="2199" />
+		<route destination1="BRU" destination2="AGP" opened="1992" closed="2199" />
+		<route destination1="BRU" destination2="FAO" opened="1992" closed="2199" />
+		<route destination1="BRU" destination2="TFS" opened="1992" closed="2199" />
+		<route destination1="BRU" destination2="FNC" opened="1992" closed="2199" />
+	
+              </routes>
+</airline>

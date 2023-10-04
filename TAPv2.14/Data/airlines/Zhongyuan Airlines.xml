@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Zhongyuan Airlines" iata="Z2" logo="Z22" color="Teal" area="209" CEO="Chang Sung" mentality="Moderate" market="Domestic" preferedairport="CGO">
+  <narrative narrative="Zhongyuan Airlines was around from 1986 to August 4,2000 when China Southern Airlines bought it and merged it. Its base was Zhengzhou. In 2000 it was serving 15 or so domestic airports besides its hub. It had five 737-300's and two Xian Y-7's, which is the
+  Chinese version of the Russian Antonov 24." />
+ </profile>
+    <info real="True" from="1986" to="2001" />
+       <prefereds aircrafts="Boeing 737-300,Antonov An-24"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1999)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="5"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="2" late="2"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="CGO" destination2="PEK"    />	
+	    <route destination1="CGO" destination2="SHA"    />	
+            <route destination1="CGO" destination2="CAN"    />	
+	    <route destination1="CGO" destination2="SZX"     />	
+	    <route destination1="CGO" destination2="XMN"     />	
+	    <route destination1="CGO" destination2="WUH"      />	
+	    <route destination1="CGO" destination2="TAO"     />	
+	    <route destination1="CGO" destination2="NKG"     />	
+	     <route destination1="CGO" destination2="SHE"     />	
+	    <route destination1="CGO" destination2="CSX"     />
+            <route destination1="CGO" destination2="HRB"     />
+            <route destination1="CGO" destination2="HAK"     />
+            <route destination1="CGO" destination2="HYN"     />	
+            <route destination1="CGO" destination2="ZHA"     />	
+            <route destination1="CGO" destination2="KMG"     />				
+                   </routes>
+</airline>

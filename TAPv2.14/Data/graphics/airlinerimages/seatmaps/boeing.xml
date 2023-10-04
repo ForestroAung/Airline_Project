@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airliners>
+<airliner type="Boeing 767-300,Boeing 767-300ER">
+  <groups rows="50">
+   <group seats="2" type="Seat"/>
+   <group seats="1" type="Empty"/>
+   <group seats="3" type="Seat"></group>
+   <group seats="1" type="Empty"/>
+   <group seats="2" type="Seat"></group>
+  </groups>
+</airliner>
+</airliners>

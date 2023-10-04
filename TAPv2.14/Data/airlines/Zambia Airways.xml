@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Zambia Airways" iata="QZ" logo="QZ2" color="PaleGreen" area="365" CEO="Bernard Chiwala" mentality="Safe" market="Global"  preferedairport="LUN" routefocus="Mixed">
+  <narrative narrative="Zambia Airways was around from 1964 to 1995, its based was Lusaka,Zambia. It was part of Central African Airways the first three or so years, which broke into three airlines in 1967,the other two being Air Rhodesia and Air Malawi. It has no relation to Zambian Airways which was around from 1948 to 2009 and was the countries flag carrier. In this airlines history it served 10 domestic airports and international it served Gaborone,Botswana Nairobi,Kenya Monrovia,Liberia Port Louis,Mauritius Johannesburg,South Africa Manzini,Swaziland Dar es Salaam,Tanzania and outside of Africa: Bombay/Mumbai,India Frankfurt,Germany London Heathrow,England Amsterdam,Netherlands Rome,Italy Belgrade,Yugoslavia Larnaca,Cyprus and New York City,USA. At 1970 its fleet was three DC-3's,two BAC One Eleven 200's,two DH Beavers,and a DC-8. Starting in 1984 it had a DC-10-30 and had one up until the mid 90's. There were many DC-8's it had at various lengths of times and they used those until the 90's also. The 737-200 was a common plane for them to have from the mid 70s to the mid 90s also. Two ATR 42-300's were used from 1988 to the end of 1994. A 757 freighter was used from 1990 to 1993. Up to 9 seperate 707's were owned at various times. Two HS.748's were owned at one point around 1967 until the ATR's replaced them in the late 80's. The airline as mentioned also did cargo." />
+</profile>
+   <info real="True" from="1964" to="1995"></info>
+  <prefereds aircrafts="Boeing 737-200,Boeing 737-200 Adv.,MD DC-10-30,Boeing 707-320,Boeing 707-320C,Boeing 707-320B,Douglas DC-8-40,ATR 42-300,Boeing 757-200PF,Douglas DC-3,BAC One-Eleven 200,DHC-2 Beaver,HS.748"></prefereds>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1984) late (1998)-->
+	     	         <airliners>
+	    <airliner type="MD DC-10-30" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1975) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1969) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-8-40" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1996)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="2" late="0"></airliner>
+	     </airliners>
+	       	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1970) late (1978)-->
+	     	         <airliners>
+	    <airliner type="BAC One-Eleven 200" early="2" late="0"></airliner>
+	     </airliners>
+	     	       	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1970) late (1990)-->
+	     	         <airliners>
+	    <airliner type="DHC-2 Beaver" early="2" late="0"></airliner>
+	     </airliners>
+	            	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1964) late (1990)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="3" late="0"></airliner>
+	     </airliners>
+	                 	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1967) late (1990)-->
+	     	         <airliners>
+	    <airliner type="HS.748" early="2" late="0"></airliner>
+	     </airliners>
+	                      	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1990) late (1995)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="1" late="0"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="LUN" destination2="NLA" />
+	        <route destination1="LUN" destination2="MFU" />
+		<route destination1="LUN" destination2="LVI" />
+	        <route destination1="LUN" destination2="SLI" />
+	        <route destination1="LUN" destination2="CIP" />
+		<route destination1="LUN" destination2="JNB" />
+	        <route destination1="LUN" destination2="DAR" />
+		<route destination1="LUN" destination2="NBO" />
+	        <route destination1="LUN" destination2="GBE" />
+		<route destination1="LUN" destination2="ROB" />
+	        <route destination1="LUN" destination2="MRU" />
+	        <route destination1="LUN" destination2="MTS" />
+		<route destination1="LUN" destination2="LHR" />
+	        <route destination1="LUN" destination2="FRA" />
+		<route destination1="LUN" destination2="AMS" />
+		<route destination1="LUN" destination2="FCO" />
+	        <route destination1="LUN" destination2="BOM" />
+		<route destination1="LUN" destination2="BEG" />
+	        <route destination1="LUN" destination2="LCA" />
+
+              </routes>
+  
+
+
+</airline>

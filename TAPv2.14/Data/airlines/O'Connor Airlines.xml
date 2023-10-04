@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="O'Connor Airlines" iata="OCM" color="MidnightBlue" area="251" CEO="McGrath Nicol" mentality="Safe" market="Local" preferedairport="MGB">
+  <narrative narrative="O'Connor Airlines was around from 1973 until December 14,2007. It was based at Mount Gambier,South Australia. It began as a one plane flight school in 1973. It developed into a freight and apssenger service
+  over the years following flying to 18 places around its home state. But it lost its freight contract sometime in the 80s and relaunched itself as a passenger service from Mount Gambier. It began flights to Melbourne and
+  Adelaide right away. Around 1990 it began going to Whyalla from Adelaide. In 1998 it bought a route from QanatasLink to serve a route to Mildura,Victoria from Melbourne. In 2006 after the Airlines of South Australia ceased
+  it took over its Adelaide to Port Augusta route. In November 2007 the airline went into voluntary administration with debts of 4-5 million Ausitralian dollars. High maintenance and competition were the main blames. It ceased
+  on December 14,2007 after not finding a buyer. Many assets were bought by Mount Gambier businessman Adrian de Bruin including the Air Operators Certificate. At the end O'Connor had two BAe Jetstream 32's."/>
+</profile>
+  <info real="True" from="1973" to="2008" />
+  <prefereds aircrafts="BAe Jetstream 31"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1973) late (2007)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="1" late="2"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="MGB" destination2="MEL"  />
+		<route destination1="MGB" destination2="ADL"  />
+		<route destination1="ADL" destination2="WYA" opened="1990" closed="2199"  />
+		<route destination1="MEL" destination2="MQL" opened="1998" closed="2199"  />
+		<route destination1="ADL" destination2="PUG" opened="2006" closed="2199"   />
+	        </routes>
+
+
+
+
+</airline>

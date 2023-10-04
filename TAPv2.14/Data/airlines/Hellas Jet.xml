@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hellas Jet" iata="HJ" color="Cyan" area="139" CEO="Petros Stathis" mentality="Safe" market="Regional" preferedairport="ATH" schedule="Charter">
+  <narrative narrative="Hellas Jet was an airline that did charters and scheduled flights from Athens,Herklion and Rhodes in Greece. Its first day of operations was June 24,2003. It ceased by 2010. Scheduled flights
+  included two a day from Athens to Paris and Brussels, and one daily to London Heathrow and Zurich. Later on Zurich stopped due to low passenger turnout and was replaced with London Gatwick. Paris and Brussels were also
+  tweaked to make room for two weekly flights to Manchester. However all scheduled flights stopped on May 10th,2005. Charter operations were focused on Herklion on the islands of Crete and at the island of Rhodes. Common destinations from those places were to
+  Moscow and St. Petersburg,Russia Amsterdam,Netherlands Dusseldorf,Germany and Paris,France. It operated some flights for Trans Aer from Dublin,Ireland to Spain also. It had three A320's to start and wnet through more in its life but
+  ended up having three near the end also. It also had a leased MD-83 from 2007 until near the end also. It had been part owned by Cyprus Airways as well until August 2006 when it sold its shares to a company called
+  Air Miles."/>
+</profile>
+  <info real="True" from="2003" to="2010" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+          <focusairports>
+		 <focusairport airport="HER"></focusairport>
+		 <focusairport airport="RHO"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2009)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="ATH" destination2="CDG" opened="2003" closed="2005" type="Regular"  />
+                <route destination1="ATH" destination2="BRU" opened="2003" closed="2005" type="Regular"   />	
+		<route destination1="ATH" destination2="LHR" opened="2003" closed="2005" type="Regular"   />
+		<route destination1="ATH" destination2="ZRH" opened="2003" closed="2004" type="Regular"   />
+		<route destination1="ATH" destination2="MAN" opened="2004" closed="2005" type="Regular"   />
+		<route destination1="ATH" destination2="LGW" opened="2004" closed="2005" type="Regular"   />
+		<route destination1="HER" destination2="DUS"  />
+		<route destination1="HER" destination2="DME"  />
+		<route destination1="HER" destination2="LED"  />
+		<route destination1="HER" destination2="CDG"  />
+		<route destination1="HER" destination2="AMS"  />
+		<route destination1="RHO" destination2="DUS"  />
+		<route destination1="RHO" destination2="DME"  />
+		<route destination1="RHO" destination2="LED"  />
+		<route destination1="RHO" destination2="CDG"  />
+		<route destination1="RHO" destination2="AMS"  />
+	        </routes>
+
+
+
+
+</airline>

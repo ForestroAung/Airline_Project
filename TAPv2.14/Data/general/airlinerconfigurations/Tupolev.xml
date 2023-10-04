@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Tupolev Tu-104-->
+<configuration type="Tupolev Tu-104" economy="0" premium="0" first="-1" business="0" exitrows="0,750" emergencyrows="-1" toiletrows="750" kitchenrows="0,750">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-104A" economy="0" premium="0" first="4" business="0" exitrows="0,1095" emergencyrows="-1" toiletrows="0,1095" kitchenrows="391,1095">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.2" width="48"></seat>
+<seat class="First_Class" type="Recliner" pitch="97.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-104B" economy="-1" premium="0" first="0" business="0" exitrows="0,1440" emergencyrows="-1" toiletrows="0,1440" kitchenrows="0,1440">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.7" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-114 Rossiya" economy="-1" premium="0" first="6" business="0" exitrows="0" emergencyrows="-1" toiletrows="2635" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="48"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-124" economy="-1" premium="0" first="0" business="0" exitrows="0,1010" emergencyrows="-1" toiletrows="1010" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.6" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-134" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="1370" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.1" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-134A" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="1515" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.7" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-134B" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="1440" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.7" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Tupolev 144-->
+<configuration type="Tupolev Tu-144" economy="-1" premium="0" first="9" business="0" exitrows="0,868" emergencyrows="-1" toiletrows="0,868,2130" kitchenrows="0,2130">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+<seat class="First_Class" type="Recliner" pitch="96.4" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Tupolev 154-->
+<configuration type="Tupolev Tu-154" economy="-1" premium="0" first="0" business="0" exitrows="0,707,2045" emergencyrows="-1" toiletrows="0,2045" kitchenrows="707">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.6" width="45"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-154B" economy="-1" premium="0" first="0" business="0" exitrows="0,731,1975" emergencyrows="1755" toiletrows="0,1975" kitchenrows="731,1975">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.1" width="45"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-154M" economy="-1" premium="0" first="0" business="0" exitrows="0,707,2045" emergencyrows="-1" toiletrows="0,2045" kitchenrows="707">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.6" width="45"></seat>
+</seats>
+</configuration>
+
+<!--Tupolev 204-->
+<configuration type="Tupolev Tu-204-100" economy="-1" premium="0" first="0" business="0" exitrows="0,2605" emergencyrows="595,2010" toiletrows="0,2605" kitchenrows="0,2605">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.4" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-204-120" economy="-1" premium="0" first="0" business="0" exitrows="0,2605" emergencyrows="595,2010" toiletrows="0,2605" kitchenrows="0,2605">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.4" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-204SM" economy="-1" premium="0" first="0" business="0" exitrows="0,2685" emergencyrows="595,2010" toiletrows="0,2685" kitchenrows="0,2685">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.5" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-204-300" economy="-1" premium="0" first="0" business="2" exitrows="0,2115" emergencyrows="240,1462" toiletrows="0,240,1462" kitchenrows="0,2115">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.5" width="50.8"></seat>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="120" width="67"></seat>
+</seats>
+</configuration>
+<configuration type="Tupolev Tu-214" economy="-1" premium="0" first="0" business="4" exitrows="0,2850" emergencyrows="638,1744" toiletrows="0,1744,2850" kitchenrows="0,2850">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79" width="50.8"></seat>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="120" width="67"></seat>
+</seats>
+</configuration>
+</configurations>

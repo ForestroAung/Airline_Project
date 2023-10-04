@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mexicargo" iata="MXC" color="Green" area="403" CEO="Marco Mediola" mentality="Safe" market="Regional" preferedairport="MEX" routefocus="Cargo">
+  <narrative narrative="Mexicargo was a Mexican cargo airline in operation from February 1996 to sometime in 2000. It had been founded in August 1991 but didn't get off the ground until 1996. At 1997 it was serving Mexico City,Guadalajara,Hermosillo,La Paz,and Tijuana domestic wise and in the US it was serving Miami,FL and
+  San Antonio,TX. It began with a 727-200F. It had at least two others of the type in its life, and also had a leased DC-9-15 the first year and at least two 707-320C's 
+  over its life."/>
+</profile>
+  <info real="True" from="1996" to="2001" />
+  <prefereds aircrafts="Boeing 727-200 Adv.,Boeing 707-320C"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1996) late (1997)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-15" early="1" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2000)-->
+	         <airliners>
+	    <airliner type="Boeing 707-320C" early="0" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2000)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="3"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="MEX" destination2="GDL"  />
+                <route destination1="MEX" destination2="HMO" />	
+		<route destination1="MEX" destination2="TIJ"  />
+		<route destination1="MEX" destination2="LAP"  />
+		<route destination1="MEX" destination2="MIA"  />
+		<route destination1="MEX" destination2="SAT"  />
+			        </routes>
+
+
+
+
+</airline>

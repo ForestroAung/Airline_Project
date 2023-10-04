@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Halcyonair" iata="HCV" color="MediumSeaGreen" area="378" CEO="Unknown" mentality="Moderate" market="Domestic"  preferedairport="SID">
+  <narrative narrative="Halcyonair was a domestic airline for Cape Verde, the island country in the Atlantic Ocean off the coast of Africa. Its base was the island of Sal. It went to the other domestic airports at Boa Vista,Fogo,Maio,Santiago,Sao Felipe,Sao Nicolau,and Sao Vicente. At June 2013 it had one ATR 42-300.
+  This is also the plane type it had at the start in 2006,although not the same exact plane. It also had an ATR 42-500 from 2010 to 2012. It went out of business in 2013." />
+</profile>
+   <info real="True" from="2006" to="2014"></info>
+  <prefereds aircrafts="ATR 42-300"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2013)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2013)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-500" early="1" late="0"></airliner>
+	     </airliners>
+<routes>
+          <route destination1="SID" destination2="BVC" />
+          <route destination1="SID" destination2="RAI" />
+          <route destination1="SID" destination2="VXE" />
+          <route destination1="SID" destination2="MMO" />
+          <route destination1="SID" destination2="SNE" />
+          <route destination1="SID" destination2="SFL" />
+              </routes>
+  
+
+
+</airline>

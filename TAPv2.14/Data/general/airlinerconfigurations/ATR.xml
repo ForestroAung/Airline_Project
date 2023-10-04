@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Embraer ATR 42-->
+<configuration type="ATR 42-300" economy="-1" premium="0" first="0" business="0" exitrows="0,855" emergencyrows="-1" toiletrows="855" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 42-500" economy="-1" premium="0" first="0" business="0" exitrows="0,855" emergencyrows="-1" toiletrows="855" kitchenrows="855">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 42-600" economy="-1" premium="0" first="0" business="0" exitrows="0,855" emergencyrows="-1" toiletrows="855" kitchenrows="855">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 42-600S" economy="-1" premium="0" first="0" business="0" exitrows="0,855" emergencyrows="-1" toiletrows="855" kitchenrows="855">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Embraer ATR 72-->
+<configuration type="ATR 72-200" economy="-1" premium="0" first="0" business="0" exitrows="0,1280" emergencyrows="-1" toiletrows="1280" kitchenrows="1280">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 72-210" economy="-1" premium="0" first="0" business="0" exitrows="0,1280" emergencyrows="-1" toiletrows="1280" kitchenrows="1280">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 72-500" economy="-1" premium="0" first="0" business="0" exitrows="0,1355" emergencyrows="-1" toiletrows="1355" kitchenrows="1355">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="ATR 72-600" economy="-1" premium="0" first="0" business="0" exitrows="0,1355" emergencyrows="-1" toiletrows="1355" kitchenrows="1355">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.2" width="47"></seat>
+</seats>
+</configuration>
+</configurations>

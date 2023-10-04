@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bifrost Airlines" iata="B5" color="DarkRed" area="402" CEO="Loki Smith"
+           mentality="Aggressive" market="Regional" preferedairport="CLE">
+           <narrative narrative="Founded in 1947, in Cleveland, Ohio, Bifrost has grown into a renowned full service airline with the motto: Your Bridge to the world "></narrative>
+  </profile>
+  <info real="False" from="1947" to="2199"></info>
+</airline>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Taban Air" iata="HH" color="Orange" area="205" CEO="Asghar Abdollahpour" mentality="Moderate" market="Global" preferedairport="MHD">
+  <narrative narrative="Taban Air is an airline based at Mashhad,Iran with other hubs at Isfahan and Tehran Mehrabad and Tehran Imam. Out of Mashhad it serves 5 domestic destinations,out of Isfahan it serves 6 other domestic and Dubai,UAE and Najaf,Iraq. From Tehran Mehrabad it serves 3 domestic besides the other hubs. And from Tehran Imam only international are done, to Istanbul,Ankara and Izmir in Turkey,Najaf in Iraq,Moscow Domodedovo in Russia,Dushanbe in Tajikistan and seasonally St. Petersburg,Russia and Kiev,Ukraine. It started operations in 2006. At February 2015 it had five MD-88's and an A310-300. It used to have five Tupolev Tu-154M's." />
+</profile>
+   <info real="True" from="2006" to="2199"></info>
+   <prefereds aircrafts="MD-88 (DC-9-88),Airbus A310-300,Tupolev Tu-154M"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="IFN"></focusairport>
+		 <focusairport airport="THR"></focusairport>
+		 <focusairport airport="IKA"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2016)-->
+	         <airliners>
+	    <airliner type="MD-88 (DC-9-88)" early="5" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A310-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2012)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="5" late="0"></airliner>
+	     </airliners>
+
+
+
+<routes>
+                <route destination1="MHD" destination2="IFN" opened="2006" closed="2199"  />
+		<route destination1="MHD" destination2="THR" opened="2006" closed="2199"  />
+                <route destination1="MHD" destination2="KIH" opened="2006" closed="2199"  />
+		<route destination1="MHD" destination2="AWZ" opened="2006" closed="2199"  />
+                <route destination1="MHD" destination2="RAS" opened="2006" closed="2199"  />
+                <route destination1="IFN" destination2="THR" opened="2006" closed="2199"  />
+                <route destination1="IFN" destination2="KIH" opened="2006" closed="2199"  />
+		<route destination1="IFN" destination2="PGU" opened="2006" closed="2199"  />
+                <route destination1="IFN" destination2="GSM" opened="2006" closed="2199"  />
+                <route destination1="IFN" destination2="AWZ" opened="2006" closed="2199"  />
+                <route destination1="IFN" destination2="KSH" opened="2007" closed="2199"  />
+		<route destination1="IFN" destination2="DXB" opened="2007" closed="2199"  />
+                <route destination1="IFN" destination2="NJF" opened="2007" closed="2199"  />
+		<route destination1="THR" destination2="KIH" opened="2007" closed="2199"  />
+		<route destination1="THR" destination2="AWZ" opened="2007" closed="2199"  />
+		<route destination1="THR" destination2="KHD" opened="2007" closed="2199"  />
+	        <route destination1="IKA" destination2="DME" opened="2007" closed="2199"  />
+                <route destination1="IKA" destination2="NJF" opened="2007" closed="2199"  />
+		 <route destination1="IKA" destination2="IST" opened="2007" closed="2199"  />
+		<route destination1="IKA" destination2="ESB" opened="2007" closed="2199"  />
+                <route destination1="IKA" destination2="ADB" opened="2008" closed="2199"  />
+		<route destination1="IKA" destination2="DYU" opened="2008" closed="2199"  />
+		<route destination1="IKA" destination2="LED" opened="2008" closed="2199"  season="Summer" />
+		<route destination1="IKA" destination2="KBP" opened="2008" closed="2199"  season="Summer" />
+
+
+        </routes>
+  
+
+
+</airline>

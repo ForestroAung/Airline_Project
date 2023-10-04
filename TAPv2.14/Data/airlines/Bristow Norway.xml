@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Bristow Norway" iata="BHL" color="RoyalBlue" area="104" CEO="Rene de Jong" mentality="Moderate" market="Regional" preferedairport="SVG"  routefocus="Helicopter">
+  <narrative narrative="Bristow Norway is a helicopter airline that caters mostly to the offshore oil rigs in the North Sea. Its hub is Stavanger,Norway with other bases at Bergen,Bronnoysund, and Hammerfest. The Bergen base opened in 1999,the Bronnoysund in 2002 and Hammerfest in 2004. The company has contract for crew flights with Statoil, Marathon Oil, BP, Talisman Energy, and ConocoPhillips. It also has an All Weather Search and Rescue helicopter based at Hammerfest, one of its EC225 Super Pumas. At 2014/2015 it had fifteen Sikorsky S-92's and two Airbus Helicopters EC225 Super Puma's. The company started operations from the Norwegian oil capital Stavanger in 1993. The company was a joint venture between the Ugland shipping family (51%) and the Aberdeen based Bristow Group (49%), who operate helicopters to oil installations on the British sector of the North Sea. Bristow Group is partially owned by the American Offshore Logistics, and in total the three companies operate 420 helicopters. In March 2005, the company bought the helicopter operator Lufttransport and its Swedish subsidiary with the same name from Norwegian Air Shuttle. Lufttransport was previously a subsidiary of the main competitor CHC Helikopter Service. In October 2008, Bristow Group announced the acquisition of the 51% share of Norsk Helikopter which it did not already own, in return for the divestment of Lufttransport to Knut Axel Ugland Holding. The company was renamed Bristow Norway AS in April 2009 and the company is in the process of rebranding its fleet with the Bristow logo.  Lufttransport does mostly air ambulance service for the governments of Norway and Sweden." />
+   </profile>
+    <info real="True" from="1993" to="2199" />
+       <prefereds aircrafts="Sikorsky S-92,EC225 Super Puma"></prefereds>
+          <focusairports>
+		 <focusairport airport="BGO"></focusairport>
+		 <focusairport airport="BNN"></focusairport>
+		 <focusairport airport="HFT"></focusairport>
+		      </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Sikorsky S-92" early="0" late="15"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="EC225 Super Puma" early="0" late="2"></airliner>
+	     </airliners>
+</airline>

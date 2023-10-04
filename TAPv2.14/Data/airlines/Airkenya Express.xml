@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airkenya Express" iata="P2" color="Blue" area="356" CEO="Dino Bisleti" mentality="Moderate" market="Regional" preferedairport="WIL">
+  <narrative narrative="Airkenya Express was formed and started operations in 1987 from the merger of Air Kenya and Sunbird Aviation. The two companies had over 20 years of general aviation experience in East Africa. Air Kenya Aviation became Air Kenya Express in January 2007. The airline is wholly owned by a Kenyan-controlled consortium and has 165 employees. It carried 100,000 passengers in 2014, as against 120,000 in 2013."/>
+</profile>
+  <info real="True" from="1997" to="2199" />
+  <focusairports>
+      <focusairport airport="JRO"></focusairport>
+     <focusairport airport="JJM"></focusairport>
+     <focusairport airport="NYK"></focusairport>
+     <focusairport airport="UAS"></focusairport></focusairports>
+  <prefereds aircrafts="DHC-6-300 Twin Otter,DHC-7-100"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="1" late="3"></airliner>
+	    <airliner type="DHC-7-100" early="1" late="2"></airliner>
+	     </airliners>
+</airline>

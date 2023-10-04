@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Indochina Airlines" iata="AXC" color="Black" area="238" CEO="Ha Hung Dung" mentality="Safe" market="Domestic" preferedairport="SGN">
+  <narrative narrative="Indochina Airlines was a short lived Vietnamese domestic carrier that lasted from November 25,2008 until exactly a year later on November 25,2009. Its base was Ho Chi Minh City aka Saigon. From there it flew to Hanoi and Da Nang.It used two leased 737-800's. The airline was founded with the name Air Speed Up. Its founder Hu Hung Dung is a popular musician in Vietnam."/>
+</profile>
+  <info real="True" from="2008" to="2010" />
+  <prefereds aircrafts="Boeing 737-800"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="2"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="SGN" destination2="HAN"   />
+		<route destination1="SGN" destination2="DAD" />
+	        </routes>
+
+
+
+
+</airline>

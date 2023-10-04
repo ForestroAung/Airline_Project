@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<country id="100">
+<relations>
+<relation id="100" business="30" holiday="30" from="1900" to="2199"></relation>
+</relations>
+</country>

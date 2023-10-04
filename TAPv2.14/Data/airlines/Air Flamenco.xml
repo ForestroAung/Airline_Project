@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Flamenco" iata="WAF"  color="HotPink" area="402" CEO="Antonio Rodriguez" mentality="Safe" market="Local" preferedairport="CPX">
+  <narrative narrative="Air Flamenco is an airline based at four Puerto Rican airports. Its headquarters are at the island of Culebra which is one of the bases and its original homebase. Another one is at Ceiba on the main island
+  which opened in 2008 replacing the old airport at Fajardo not far away. Another base is at the island of Vieques and another at San Juan's smaller airport Fernando Luis Ribas Dominicci Airport. It also has flights at the larger Luis Munoz Marin Airport on the Culebra and Viques routes. It was founded in 1976 and flew a Piper Cherokee between Culebra and Vieques both of which lay off the south coast of the main island and is a 28km (17 mile) flight. 6 months after starting it got its first Britten Norman Islander. It had six planes after five years. Today it has ten Islanders and a Shorts 360. It has flights on 5 routes or so scheduled wise but also offers charters to other places on a regular basis, such as San Juan Fernando to the U.S Virgin Islands at St. Thomas and St. Croix,the Domincan Republic,the British Virgins,St. Marteen and several other Puerto Rican airports not on its normal schedule." />
+   </profile>
+    <info real="True" from="1976" to="2199" />
+       <prefereds aircrafts="BN-2A Islander"></prefereds>
+              <focusairports>
+                 <focusairport airport="VQS"></focusairport>
+	         <focusairport airport="SIG"></focusairport>
+		 <focusairport airport="FAJ"></focusairport>
+		 <focusairport airport="NRR"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1976) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="1" late="10"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Short 360" early="0" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1976) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-28 Cherokee" early="1" late="0"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="CPX" destination2="SJU" opened="1976" closed="2199"/>
+		 <route destination1="CPX" destination2="VQS" opened="1976" closed="2000"/>
+		<route destination1="CPX" destination2="FAJ" opened="1977" closed="2008" />
+		<route destination1="CPX" destination2="NRR" opened="2008" closed="2199" />
+		<route destination1="VQS" destination2="SIG"  opened="1977" closed="2199"/>
+		<route destination1="VQS" destination2="FAJ" opened="1978" closed="2008"/>
+		<route destination1="VQS" destination2="NRR" opened="2008" closed="2199"/>
+		<route destination1="SIG" destination2="STT" opened="1979" closed="2199" type="Charter"/>
+		<route destination1="SIG" destination2="STX"  opened="1980" closed="2199" type="Charter"/>
+		<route destination1="SJU" destination2="VQS" opened="1981" closed="2199"/>
+		              </routes>
+</airline>

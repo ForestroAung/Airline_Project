@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Western" iata="XP" logo="XP2" color="Red" area="402" CEO="Jerry Welch" mentality="Safe" market="Domestic" preferedairport="BLI">
+  <narrative narrative="Western was only around from January 18,2007 from February 7,2007. It was based at Bellingham,Washington and flew to Ontario,CA San Diego,CA and Phoenix at Mesa Airport,AZ. Bellingham lays about 90 miles/145km north Seattle and 55 miles/90km from
+  Vancouver,BC,Canada. It used one 737-400 on wet lease from Xtra Airways. It had planned serving Reno,Nevada also before operations start but this destination never was served. The airline suspended operations because
+  it owed outstanding debts to Xtra Airways and the fuel vendor at Bellingham. It also had a problem getting credit card payments due to problems getting a merchant ID number but PayPal was to help fix this, hwoever the airline never
+  started again before any help with this problem could take effect."/>
+</profile>
+  <info real="True" from="2007" to="2008" />
+  <prefereds aircrafts="Boeing 737-400"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	     </airliners>
+
+              <routes>
+	        <route destination1="BLI" destination2="AZA" />
+	        <route destination1="BLI" destination2="LAX" />
+	        <route destination1="BLI" destination2="SAN" />
+	        </routes>
+
+</airline>

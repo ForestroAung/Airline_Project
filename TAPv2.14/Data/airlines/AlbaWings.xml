@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="AlbaWings" iata="2B" logo="2B" color="MediumBlue" area="136" CEO="Gentian Kole" mentality="Safe" market="Regional" preferedairport="TIA" >
+<narrative
+narrative="Albawings is an albanian airline founded in February 2015 by two entrepreneurs. Its fleet contains of two leased Boeings 737. All of the destinations served from Tirana airport are in Italy. " />
+</profile>
+<info real="True" from="2016" to="2199" />
+<prefereds aircrafts="Boeing 737-400, Boeing 737-500"></prefereds>
+    <airliners>
+     <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	 <airliner type="Boeing 737-500" early="1" late="1"></airliner>
+    </airliners>
+<routes>
+<route destination1="TIA" destination2="FLR" />
+<route destination1="TIA" destination2="PEG" />
+<route destination1="TIA" destination2="RMI" />
+<route destination1="TIA" destination2="TSF" />
+<route destination1="TIA" destination2="CUF" />
+</routes>
+</airline>

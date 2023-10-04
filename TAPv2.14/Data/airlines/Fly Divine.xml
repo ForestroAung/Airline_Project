@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Fly Divine" iata="FLD" color="Red" area="224" CEO="Dinesh Gupta" mentality="Safe" market="Local" preferedairport="IDR">
+  <narrative narrative="Fly Divine is a domestic carrier in India and is based at Indore. It began service in May 2017 and goes from Indore to Bhopal,Jabalpur,Satna and Datia. It is the only airline serving Satna and Datia. It picked up the service left behind by Ventura AirConnect left the state of  Madhya Pradesh which dropped service in 2014.
+  It uses only one Cessna 208 to start its life. Its routes are short within the same state of India, Bhopal is 106 miles and Jabalpur is 273 and Satna 345." />
+ </profile>
+    <info real="True" from="2017" to="2199" />
+          <prefereds aircrafts="Cessna 208B"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="1"></airliner>
+	     </airliners>
+	     	     <routes>      
+	    <route destination1="IDR" destination2="BHO"  opened="2017" closed="2199"/>
+	    <route destination1="IDR" destination2="JLR"  opened="2017" closed="2199"/>
+	     <route destination1="IDR" destination2="TNI"  opened="2017" closed="2199"/>
+	                       </routes>
+</airline>

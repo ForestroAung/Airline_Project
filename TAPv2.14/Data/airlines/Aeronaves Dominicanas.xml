@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aeronaves Dominicanas" iata="ADO"  color="SlateBlue" area="415" CEO="Osvaldo Romero" mentality="Safe" market="Regional" preferedairport="EPS" schedule="Charter">
+  <narrative narrative="Aeronaves Dominicanas is a charter airline based at Samana El Catey. It has bases at Punta Cana,Santiago,La Romana,Puerto Plata and Barahona also. From each base it flies to the other bases in addition to Santo Domingo Las Americas and the neighbor country of Haiti's Port-au-Prince and Cap-Haitien. It has two Let-410's,two GA8 Airvan's and three Cessna 172 Skyhawk's as of March 2015. The airline started in 1980."/>
+   </profile>
+    <info real="True" from="1980" to="2199" />
+       <prefereds aircrafts="Let L-410,GA8 Airvan,Cessna 172 Skyhawk"></prefereds>
+             <focusairports>
+			       <focusairport airport="PUJ"></focusairport>
+			        <focusairport airport="STI"></focusairport>
+				<focusairport airport="LRM"></focusairport>
+				<focusairport airport="BRX"></focusairport>
+				<focusairport airport="POP"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1980) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="3" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="GA8 Airvan" early="0" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1980) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="0" late="2"></airliner>
+	     </airliners>
+
+
+	       <routes>
+	       	<route destination1="PUJ" destination2="SDQ"  />
+		<route destination1="PUJ" destination2="STI"  />
+		<route destination1="PUJ" destination2="LRM"  />
+		<route destination1="PUJ" destination2="BRX"  />
+		<route destination1="PUJ" destination2="EPS"  />
+		<route destination1="PUJ" destination2="PAP"  />
+		<route destination1="PUJ" destination2="CAP"  />
+		<route destination1="STI" destination2="EPS"  />
+		<route destination1="STI" destination2="SDQ" />
+		<route destination1="STI" destination2="BRX"  />
+		<route destination1="STI" destination2="LRM"  />
+		<route destination1="STI" destination2="PAP"   />
+		<route destination1="STI" destination2="CAP"   />
+		<route destination1="POP" destination2="SDQ"   />
+		<route destination1="POP" destination2="PAP"   />
+		<route destination1="POP" destination2="CAP"   />
+		<route destination1="POP" destination2="EPS"   />
+		<route destination1="LRM" destination2="SDQ"   />
+		<route destination1="LRM" destination2="POP"   />
+		<route destination1="LRM" destination2="BRX"   />
+		<route destination1="LRM" destination2="PAP"   />
+		<route destination1="LRM" destination2="CAP"  />
+		<route destination1="BRX" destination2="SDQ"  />
+		<route destination1="BRX" destination2="PAP"  />
+		<route destination1="BRX" destination2="CAP"  />
+		 <route destination1="BRX" destination2="EPS"  />
+		<route destination1="EPS" destination2="SDQ"  />
+
+              </routes>
+</airline>

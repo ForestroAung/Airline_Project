@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Corendon Airlines" iata="XC" logo="XC2" color="Tomato" area="143" CEO="Atilay Uslu" mentality="Safe" market="Global"
+           preferedairport="AYT" businessmodel="LCC">
+          <narrative narrative="Corendon Airlines is an Airline founded by the Dutch travel agency Corendon. This travel agency is founded by the Turkish Dutch entrepreneur Atilay Uslu and is today one of the biggest travel agencies in the Netherlands and Belgium. With two airlines, 10 hotels in Cyprus, Turkey, The Netherlands and Spain. ">
+          </narrative>
+      </profile>
+      <info real="True" from="2005" to="2199" />
+      <prefereds aircraft="Airbus A320-200,Boeing 737-300,Boeing 737-800">
+      </prefereds>
+  <startdata>
+    <airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2025)-->
+      <airliner type="Boeing 737-800" early="9" late="9"></airliner>
+      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2020)-->
+      <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+      <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2029)-->
+      <airliner type="Airbus A320-200" early="1" late="3"></airliner>
+      </airliners>
+      <routes>
+      	<route destination1="AYT" destination2="AMS"/>
+      	<route destination1="AYT" destination2="EIN"/>
+      	<route destination1="AYT" destination2="DUS"/>
+      	<route destination1="AYT" destination2="TXL"/>
+      	<route destination1="AYT" destination2="MAN"/>
+      	<route destination1="AYT" destination2="FMO"/>
+      	<route destination1="AYT" destination2="ERF"/>
+      	<route destination1="AYT" destination2="HAM"/>
+      	<route destination1="AYT" destination2="DTM"/>
+      	<route destination1="AYT" destination2="DRS"/>
+      	<route destination1="AYT" destination2="HAJ"/>
+      	<route destination1="AYT" destination2="FRA"/>
+      	<route destination1="AYT" destination2="LEJ"/>
+      	<route destination1="AYT" destination2="MUC"/>
+      </routes>
+  </startdata>
+  
+</airline>

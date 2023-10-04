@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Livonia" iata="LIV" color="Orange" area="173" CEO="Janek Valdma" mentality="Safe" market="Domestic" preferedairport="EPU"> 
+  <narrative narrative="Air Livonia was a domestic Estonian airline based at Parnu. It began in 2006 and its unclear when it ceased, but it may have been around 2013.From Parnu is flew to the domestic destinations of Kuressaare which is on the largest island in Estonia called Saaremaa and a 117km flight, and to the smaller
+  islands of Kihnu and Ruhnu which are a 41km and 100km flight. The airline used Antonov An-28 and Antonov An-2 planes. The name of Livonia comes from a historic region and kingdom that Parnu was once a main city of that existed in serval forms from the 1200s to the 1900s when its land became part of the countries of Estonia and Latvia." />
+</profile>
+   <info real="True" from="2006" to="2014"></info>
+   <prefereds aircrafts="Antonov An-28,Antonov An-2"></prefereds>
+  <routes>
+    <route destination1="EPU" destination2="URE"/>
+    <route destination1="EPU" destination2="NNZ"/>
+    <route destination1="EPU" destination2="NNW"/>
+  </routes>
+  </airline>

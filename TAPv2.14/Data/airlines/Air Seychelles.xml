@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+	<profile name="Air Seychelles" iata="HM" color="Lime" area="377" CEO="Manoj Papa" mentality="Safe" market="Global" preferedairport="SEZ">
+	<narrative narrative="Air Seychelles is the flag carrier of the Seychelles. It is operating inter-island services and international flights." />
+	</profile>
+	
+ <info real="True" from="1977" to="2199"></info>
+<logos>
+	
+	<logo from="1977" to="2011" path="HM (1977 - 2011)"></logo>
+	
+	<logo from="1977" to="2199" path="HM (2011-)"></logo>
+	
+</logos>
+	<airliners>	
+		 <!--the airliners the airline would start with which isn't on a route early (2015) late (2025)-->
+      		 <airliner type="Airbus A320-200" early="0" late="2"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (2012) late (2022)-->
+      		 <airliner type="Airbus A330-200" early="0" late="2"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (2001) late (2005)-->
+      		 <airliner type="Boeing 737-700" early="1" late="0"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (1993) late (1996)-->
+      		 <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (1989) late (2009)-->
+      		 <airliner type="Boeing 767-200ER" early="1" late="3"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (1989) late (2012)-->
+      		 <airliner type="Boeing 767-300ER" early="1" late="3"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (1985) late (1988)-->
+      		 <airliner type="Airbus A300B4" early="1" late="0"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (1980) late (2020)-->
+      		 <airliner type="DHC-6-300 Twin Otter" early="0" late="3"></airliner>
+      
+		 
+      
+		 <!--the airliners the airline would start with which isn't on a route early (2014) late (2034)-->
+      		 <airliner type="DHC-6-400 Twin Otter" early="0" late="4"></airliner> 
+	</airliners>
+	
+	<routes>
+		<route destination1="SEZ" destination2="PRI" opened="1977" closed="2199"/>
+		<route destination1="SEZ" destination2="MRU" opened="1977" closed="2199"/>
+		<route destination1="SEZ" destination2="CDG" opened="1984" closed="2199"/>
+		<route destination1="SEZ" destination2="LGW" opened="1983" closed="2003"/>
+		<route destination1="SEZ" destination2="LHR" opened="2003" closed="2012"/>
+		<route destination1="SEZ" destination2="LGW" opened="2009" closed="2010"/>
+		<route destination1="SEZ" destination2="AUH" opened="1977" closed="2199"/>
+	</routes>
+	
+	<info real="true" from="1977" to="2199" />
+	
+</airline>

@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Delta Air Lines" iata="DL" color="MediumBlue" area="402" CEO="Richard Anderson"
+           mentality="Aggressive" market="Global" preferedairport="ATL">
+    <narrative
+      narrative="Delta Air Lines is a major US airline operating out of Atlanta. Their flights serve every continent except Antarctica. The fleet is over 700 in size,
+consisting largely of Boeing 757s, MD-88s, Boeing 767, Airbus A320, and Boeing 737s." />
+  </profile>
+     <info real="True" from="1924" to="2199"></info>
+     <focusairports>
+        <focusairport airport="AMS"></focusairport>
+        <focusairport airport="BOS"></focusairport>
+        <focusairport airport="CDG"></focusairport>
+        <focusairport airport="CVG"></focusairport>
+        <focusairport airport="DTW"></focusairport>
+        <focusairport airport="JFK"></focusairport>
+        <focusairport airport="ATL"></focusairport>
+        <focusairport airport="LGA"></focusairport>
+        <focusairport airport="LAX"></focusairport>
+        <focusairport airport="MSP"></focusairport>
+        <focusairport airport="NRT"></focusairport>
+        <focusairport airport="SLC"></focusairport>
+        <focusairport airport="SEA"></focusairport>
+        <focusairport airport="RDU"></focusairport>
+     </focusairports>
+  <startdata>
+    <routes>
+      <route destination1="ATL" destination2="DTW" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="MSP" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="MSP" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="MCO" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="LGA" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="FLL" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="TPA" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="CLT" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="PHL" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="DCA" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="CUN" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="MEX" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="MBJ" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="YYZ" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="NAS" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="FRA" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="PUJ" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="NRT" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="FCO" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="JNB" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="DXB" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="BOS" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="SEA" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="SLC" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="ATL" destination2="EWR" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="ATL" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="CLT" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="MCO" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="PHL" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="MSP" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="DCA" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="DTW" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="YYZ" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="CUN" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="PUJ" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="MCO" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="LGA" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="CLT" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="NRT" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="FRA" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="NGO" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="YYZ" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="PVG" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="YUL" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="CUN" opened="1960" closed="2199"></route>
+      <route destination1="DTW" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="CVG" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="SFO" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="MCO" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="SJU" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="BOS" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="FLL" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="MIA" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="CLT" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="STI" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="FRA" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="SDQ" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="MAD" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="TLV" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="FCO" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="GRU" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="DCA" opened="1960" closed="2199"></route>
+      <route destination1="JFK" destination2="SLC" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="LGA" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="MIA" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="FLL" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="CLT" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="MCO" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="DTW" opened="1960" closed="2199"></route>
+      <route destination1="LGA" destination2="BOS" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="ATL" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="BOS" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="NRT" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="SYD" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="MEX" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="GDL" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="SFO" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="HNL" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="ATL" opened="1960" closed="2199"></route>
+      <route destination1="LAX" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="SEA" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="MDW" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="SFO" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YYZ" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="CUN" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="NRT" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YWG" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YVR" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YYC" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YEG" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YXE" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YUL" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="PVR" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="YQR" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="LGA" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="EWR" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="ATL" opened="1960" closed="2199"></route>
+      <route destination1="MSP" destination2="SLC" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="DEN" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="ATL" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="SEA" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="DFW" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="PDX" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="SAN" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="JFK" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="CDG" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="YVR" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="YYC" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="SJD" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="CUN" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="PVR" opened="1960" closed="2199"></route>
+      <route destination1="SLC" destination2="GDL" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="NRT" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="YVR" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="AMS" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="ICN" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="LHR" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="PEK" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="YYC" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="LAX" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="SFO" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="ANC" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="PDX" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="PHX" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="LAS" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="ORD" opened="1960" closed="2199"></route>
+      <route destination1="SEA" destination2="SAN" opened="1960" closed="2199"></route>
+      <route destination1="AMS" destination2="EWR" opened="1960" closed="2199"></route>
+       <route destination1="AMS" destination2="PDX" opened="1960" closed="2199"></route>
+        <route destination1="CDG" destination2="EWR" opened="1960" closed="2199"></route>
+         <route destination1="EWR" destination2="LHR" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="BKK" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="GUM" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="ROR" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="HNL" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="MNL" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="SIN" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="PDX" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="SPN" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="PVG" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="ICN" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="TPE" opened="1960" closed="2199"></route>
+          <route destination1="NRT" destination2="YVR" opened="1960" closed="2199"></route>
+    </routes>
+    <!--some random routes from an origin-->
+    <random_routes>
+      <routes origin="ATL" destinations="24" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="BOS" destinations="4" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="CVG" destinations="6" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="JFK" destinations="10" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="LGA" destinations="8" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="DTW" destinations="12" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="LAX" destinations="6" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="MSP" destinations="12" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="SLC" destinations="12" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <random_routes>
+      <routes origin="SEA" destinations="6" minimumsize="Smallest">
+        <countries>
+          <country value="122"></country>
+          <country value="130"></country>
+        </countries>
+      </routes>
+    </random_routes>
+    <!--the airliners the airline would start with which isn't on a route early (2008) late (2016)-->
+    <airliners>
+      <airliner type="Boeing 747-400" early="0" late="16"></airliner>
+    </airliners>
+        <!--the airliners the airline would start with which isn't on a route early (2008) late (2025)-->
+    <airliners>
+      <airliner type="Airbus A319-100" early="0" late="57"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2008) late (2025)-->
+    <airliners>
+      <airliner type="Airbus A320-200" early="0" late="69"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2016) late (2036)-->
+    <airliners>
+      <airliner type="Airbus A321-200neo" early="0" late="45"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2008) late (2029)-->
+    <airliners>
+      <airliner type="Airbus A330-200" early="0" late="11"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2013) late (2033)-->
+    <airliners>
+      <airliner type="Airbus A330-300HGW" early="0" late="31"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2014) late (2024)-->
+    <airliners>
+      <airliner type="Boeing 717-200" early="0" late="91"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2008) late (2028)-->
+    <airliners>
+      <airliner type="Boeing 737-700" early="0" late="10"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1998) late (2030)-->
+    <airliners>
+      <airliner type="Boeing 737-800" early="0" late="73"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1985) late (2020)-->
+    <airliners>
+      <airliner type="Boeing 757-200" early="0" late="120"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2008) late (2022)-->
+    <airliners>
+      <airliner type="Boeing 757-300" early="0" late="16"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1982) late (2006)-->
+    <airliners>
+      <airliner type="Boeing 767-200" early="15" late="0"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1987) late (2019)-->
+    <airliners>
+      <airliner type="Boeing 767-300" early="0" late="16"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1990) late (2020)-->
+    <airliners>
+      <airliner type="Boeing 767-300ER" early="0" late="58"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2000) late (2030)-->
+    <airliners>
+      <airliner type="Boeing 767-400ER" early="0" late="21"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2013) late (2033)-->
+    <airliners>
+      <airliner type="Boeing 737-900ER" early="0" late="54"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1999) late (2029)-->
+    <airliners>
+      <airliner type="Boeing 777-200ER" early="0" late="10"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (2009) late (2039)-->
+    <airliners>
+      <airliner type="Boeing 777-200LR" early="0" late="8"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1987) late (2017)-->
+    <airliners>
+      <airliner type="MD-88 (DC-9-88)" early="0" late="116"></airliner>
+    </airliners>
+    <!--the airliners the airline would start with which isn't on a route early (1995) late (2025)-->
+    <airliners>
+      <airliner type="MD-90-30" early="0" late="65"></airliner>
+    </airliners>
+  </startdata>
+</airline>

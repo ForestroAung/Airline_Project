@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="British Mediterranean Airways" iata="LAJ" color="Blue" area="102" CEO="Lord Hesketh" mentality="Safe" market="Global" preferedairport="LHR">
+  <narrative narrative="British Mediterranean Airways was in operation from October 28,1994 to October 27,2008. It did flights as a franchise of British Airways until it was bought for 30 million pounds in February 2007
+  by British Midland International. It was then merged into BMI at the end of October 2007. It began in 1994  as a limited company lead by investors, the main one being Lord Hesketh. Its first route was with an A320 from London
+  Heathrow to Beirut,Lebanon. The next year Damascus,Syria and Amman,Jordan were added. It also began charters to Bishkek,Kyrgyzstan. In March 1997 it reached an agreement with British Airways to be a franchise for it
+  and BA stopped its Beirut,Damascus,and Amman flights. BMA would now use BA flight codes and use the full BA livery and interiors and uniforms. It soon took over more routes from mainline BA, such as 
+  Baku,Azerbaijian Tehran,Iran Addis Ababa,Ethiopia and Almaty,Kazakhstan. In 2004 it carried 277,000 people on 6 aircraft to 18 destinations in 17 countries. Another flight it had at this time was Tashkent,Uzbekistan.
+  In March 2007 it was doing a domestic one to Cardiff,Wales,UK so it would not lose one of its Heathrow slots which required it to be in use 80% in 6 months. At the end it was totally integrated into British Midlands fleet using their livery
+  and flight codes. Other routes BMED had done for BA were Yerevan,Armenia Ashgabat,Turkmenistan Alexandria,Egypt Tbilisi,Georgia Ekaterinburg,Russia Dakar,Senegal Freetown,Sierra Leone Khartoum,Sudan
+  Aleppo,Syria and Ankara,Turkey. At the time of its merger with BMI it had five A321-200's with five on order and three A320-200's, all went to BMI."/>
+</profile>
+  <info real="True" from="1994" to="2008" />
+  <prefereds aircrafts="Airbus A321-200,Airbus A320-200"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="5"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="3"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="LHR" destination2="BEY" opened="1994" closed="2199" />
+		  <route destination1="LHR" destination2="AMM" opened="1995" closed="2199" />
+		  <route destination1="LHR" destination2="ALA"   opened="1997" closed="2199"/>
+		  <route destination1="LHR" destination2="GYD"  opened="1997" closed="2199" />
+		  <route destination1="LHR" destination2="IKA" opened="1997" closed="2199" />
+		  <route destination1="LHR" destination2="ADD"  opened="1997" closed="2199" />
+		  <route destination1="LHR" destination2="ASB"  opened="1999" closed="2199" />
+		  <route destination1="LHR" destination2="FNA"  opened="2000" closed="2199" />
+	          <route destination1="LHR" destination2="TAS"  opened="2003" closed="2199" />
+		  <route destination1="LHR" destination2="CWL"  opened="2007" closed="2199" />
+        </routes>
+</airline>

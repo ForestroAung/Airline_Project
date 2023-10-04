@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ruili Airlines" iata="RLH" color="Red" area="209" CEO="Gao Jinsong" mentality="Safe" market="Domestic" preferedairport="KMG">
+  <narrative narrative="Ruili Airlines started service on May 18th,2014 between its hub at Kunming and Mangshi. As of July 2015 it was now also going domestic to Beihai,Chengdu,Hohhot,Nanchang,Nanning,Taiyuan,Wenzhou and Xi'an. It started with two 737-700's and a leased 737-800 and now has four 700's at May 2015. It is also still leasing the 800. It has orders for seven more 700's and six of the new 737 MAX series. It wants to have 60 aircraft of the 737 MAX type by 2020."/>
+</profile>
+  <info real="True" from="2014" to="2199" />
+  <prefereds aircrafts="Boeing 737-700,Boeing 737-800,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="4"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="0" late="1"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="KMG" destination2="LUM" />
+			  <route destination1="KMG" destination2="CTU" />
+			  <route destination1="KMG" destination2="XIY" />
+			  <route destination1="KMG" destination2="NNG" />
+			  <route destination1="KMG" destination2="BHY" />
+			  <route destination1="KMG" destination2="KHN" />
+			  <route destination1="KMG" destination2="TYN" />
+			  <route destination1="KMG" destination2="WNZ" />
+			  <route destination1="KMG" destination2="HET" />
+        </routes>
+</airline>

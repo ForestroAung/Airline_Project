@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Helios Airways" iata="ZU" logo="ZU2" color="Blue" area="146" CEO="Bryan Field" mentality="Aggressive" market="Regional"
+           preferedairport="LCA">
+    <narrative
+      narrative="Helios Airways was a low-cost Cypriot airline operating scheduled and charter flights between Cyprus and many European and African destinations.
+It had its corporate headquarters on the grounds of Larnaca International Airport in Larnaca. Its main base was Larnaca International Airport. Flights ceased on
+6 November 2006 because the company's aircraft were detained and its bank accounts frozen by the Government of Cyprus." />
+ 	</profile>
+  <info real="True" from="1998" to="2006" />
+ <prefereds aircrafts="Boeing 737-300,Boeing 737-400,Boeing 737-800"></prefereds>
+</airline>

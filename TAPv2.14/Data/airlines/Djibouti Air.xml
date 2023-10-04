@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Djibouti Air" iata="DJI" color="LightGreen" area="351" CEO="Shabab Attarzadeh" mentality="Safe" market="Global"  preferedairport="JIB">
+  <narrative narrative="Djibouti Air was only in operation from March 3,2011 to February 2012. Its only route was from Djibouti to Dubai,UAE. That is about a 2,000km flight. Its only plane was a 737-200 Adv. which had 2 classes. The bird in its logo is a Djibouti francolin, which can only be found in a small portion of the already small country of Djibouti, and it is
+  very endangered." />
+</profile>
+   <info real="True" from="2011" to="2012"></info>
+  <prefereds aircrafts="Boeing 737-200 Adv."></prefereds>
+  <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2010)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+	         	      <routes>  
+	     <route destination1="JIB" destination2="DXB"/>
+                   </routes>
+
+</airline>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="London European Airways" iata="UQ" logo="UQ2" color="MediumBlue" area="102" CEO="Unknown" mentality="Safe" market="Regional" preferedairport="LTN">
+  <narrative narrative="London European Airways was an airline operating flights between London Luton and Belgium and the Netherlands. It was taken over in 1986 by Ryanair to form Ryanair Europe."/>
+<logos>
+	<logo from="1984" to="1985" path="UQ1984"/>
+	<logo from="1986" to="1991" path="UQ1986"/>
+</logos>
+  </profile>
+  <info real="True" from="1984" to="1991"/>
+  <prefereds aircrafts="BAC One-Eleven 400,BAC One-Eleven 500,Short 330,Vickers Viscount 800"></prefereds> 
+  
+               <routes>
+	          <route destination1="LTN" destination2="BRU"/>
+	          <route destination1="LTN" destination2="AMS"/>
+              <route destination1="LTN" destination2="RTM"/>
+		        </routes>
+</airline>

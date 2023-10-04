@@ -1,0 +1,34 @@
+﻿<airline>
+  <profile name="Rio Airways" iata="RIO" logo="RIO2" color="OrangeRed" area="402" CEO="Ted Connell" mentality="Moderate" market="Local" preferedairport="GRK">
+    <narrative narrative="Rio Airways was around from 1967 to 1987. Its flight base was Dallas/Ft. Worth Airport and before that opened in 1974 it was Dallas Love Field. Its corporate base was Killeen Municipal Airport. In 1983 or so its schedule shows flight from Dallas to Killeen,Texarkana,Waco,College Station,Wichita Falls,and
+    San Angelo. A flight between College Station and Houston Intercontinental was also done. Flights outside Texas were Hot Springs,Arkansas to Dallas and Memphis and Texarkana. And Memphis to Greenville,Mississippi. College Station service began in 1979 after it bought Davis Airlines. It also at one time served Fort Worth Meacham,Abilene,and Lawton,Oklahoma.  A 1970 schedule shows it served McAllen,Brownsville,Austin,San Antonio,Corpus Christi,Laredo,Houston and Killeen.
+    The plane types it used at the start were Piper Cherokee Six's and Beechcraft 18's. Then the Beechcraft 99 until 1977, then DH Twin Otters,Fairchild Metroliners,DH Dash 7's,and Beechcraft 1900C's. A year before it ceased the owmers. the Connell family, sold it to investors from Houston headed by Hugh Seaborn who used to own Metro Airlines. For a short time
+    it operated for Delta Connection. It also flew some routes for TranStar Airlines, such as Houston-Killeen, for a brief time."/>
+  </profile>
+  <airports>
+<airport  preferedairport="DAL" date="1.01.1967 00:00:00"></airport>
+<airport   preferedairport="DFW" date="1.13.1974 00:00:00"></airport>
+</airports>
+    <info real="True" from="1967" to="1987"/>
+           <prefereds aircrafts="Beechcraft 99,Beechcraft 1900C,DHC-6-300 Twin Otter,DHC-7-100,Fairchild Swearingen Metroliner,Beechcraft Model 18,PA-32 Cherokee Six"/>
+	   	   	     	              <focusairports>
+	 <focusairport airport="IAH"></focusairport>
+     </focusairports>
+	     	         	      <routes>  
+	     <route destination1="DFW" destination2="GRK"/>
+	     <route destination1="DFW" destination2="TXK"/>
+	     <route destination1="DFW" destination2="ACT"/>
+	     <route destination1="DFW" destination2="CLL"  opened="1979" closed="2199"/>
+	     <route destination1="DFW" destination2="SPS"/>
+	     <route destination1="DFW" destination2="SJT"/>
+       <route destination1="IAH" destination2="CLL" opened="1979" closed="2199"/>
+	     <route destination1="IAH" destination2="CRP"/>
+	     <route destination1="IAH" destination2="AUS"/>
+	     <route destination1="IAH" destination2="SAT"/>
+	     <route destination1="IAH" destination2="LRD"/>
+	     <route destination1="IAH" destination2="BRO"/>
+	     <route destination1="IAH" destination2="MFE"/>
+	     <route destination1="MEM" destination2="HOT"/>
+	     <route destination1="MEM" destination2="GLH"/>
+                   </routes>
+</airline>

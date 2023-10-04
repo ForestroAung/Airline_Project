@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Neptune Air" iata="NEP" color="SkyBlue" area="242" CEO="Sheikh Salleh Abod" mentality="Safe" market="Regional" preferedairport="KUL" routefocus="Cargo">
+  <narrative narrative="Neptune Air is a cargo airline based at Kuala Lumpur,Malaysia. The air division has been around since May 2009 but it has been around since 1970 doing door to door service from Malaysia and Singapore to Indonesia. It was given its Air Operator Certificate in May 2009. It began with a 737-200 acquired from Tri-MG Intra Asia Airlines. It does flights for Pos Malaysia from its hub to cities like Kuching,Miri and Kota Kinabalu in East Malaysia. At around May 2015 the planes it owned itself were two 737-300's and a 727-200. Other partners outside of Tri-MG include Neptune Capital,Airmark Aviation,Pacific East Asia Airlines and Thai Global Airlines." />
+ </profile>
+    <info real="True" from="2009" to="2199" />
+       <prefereds aircrafts="Boeing 737-200C,Boeing 737-300,Boeing 727-200 Adv."></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200C" early="1" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="0" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="0" late="1"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="KUL" destination2="KCH"  />	
+	    <route destination1="KUL" destination2="MYY"  />	
+            <route destination1="KUL" destination2="BKI" />	
+	    <route destination1="KUL" destination2="SIN" />	
+            <route destination1="KUL" destination2="CGK"  />
+
+              </routes>
+</airline>

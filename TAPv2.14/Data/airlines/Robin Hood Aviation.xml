@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Robin Hood Aviation" iata="RHA" color="Maroon" area="120" CEO="Helmut Rieder" mentality="Safe" market="Local" preferedairport="GRZ">
+  <narrative narrative="Robin Hood Aviation was based at Graz,Austria and flew from May 2007 to August 23,2011. Its first route was Graz to Zurich,Switzerland. In October 2008 Graz to Stuttgart,Germany opened.
+  In the summer of 2009 it did Klagenfurt,Germany to Zurich,Swizterland. It also did Linz,Austria to Zurich.Its fleet at the end was two Saab 340's. It also did charters."/>
+</profile>
+  <info real="True" from="2007" to="2012" />
+  <prefereds aircrafts="Saab 340B"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="GRZ" destination2="ZRH"    />
+		  <route destination1="GRZ" destination2="STR" opened="2008" closed="2199"   />
+		        </routes>
+
+
+
+
+</airline>

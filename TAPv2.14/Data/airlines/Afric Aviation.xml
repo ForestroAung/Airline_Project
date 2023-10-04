@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Afric Aviation" iata="L8" color="Black" area="346" CEO="Bob Smith" mentality="Safe" market="Domestic"  preferedairport="POG" schedule="Business">
+  <narrative narrative="Afric Aviation is a subsidiary of Equaflight Service and is based at Port Genil, Gabon. Its parent is based at Pointe Noire, Congo. Afric focuses on the Port Gentil-Libreville domestic route and goes to two other domestic airports. At March 2015 it has one ATR 72-210 and one ATR 42-300. It used to have an Embraer 120 Brasilia. 2011 is when this subsidiary was opened."/>
+</profile>
+   <info real="True" from="2011" to="2199"></info>
+  <prefereds aircrafts="ATR 72-500,ATR 72-600,ATR 72-200,ATR 72-210,EMB 120 Brasilia,ATR 42-500,ATR 42-600,ATR 42-300"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-210" early="1" late="1"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="1" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="POG" destination2="LBV" opened="2011" closed="2199"   />
+              </routes>
+  
+
+
+</airline>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="SBA Airlines" iata="S3"  color="Red" area="426" CEO="Francisco Gonzalez" mentality="Safe" market="Global" preferedairport="CCS">
+  <narrative narrative="SBA Airlines,or Santa Barbara Airlines,is based at Caracas,Venezuela. It started operations in 1996. It changed names in 2008 from Santa Barbara Airlines to SBA Airlines. As of September 2014
+  it is serving Miami,FL,USA and Panama City,Panama from Caracas. In the past it has served New York City,Lima in Peru,Madrid in Spain,Tenerife in the Spanish Canary Islands,Funchal a Portuguese island,Curacao,Barranquilla in Colombia
+  and Santiago de Compostela in Spain. Its fleet at October 2014 was two 767-300ER's,three 757-200's and two MD-83's."/>
+  <names>
+<name value="Santa Barbara Airlines" from="1.1.1996 00:00:00"></name>
+<name value="SBA Airlines" from="1.1.2008 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1996" to="2008" path="S31996-2008"></logo>
+    </logos>
+ </profile>
+    <info real="True" from="1996" to="2018" />
+       <prefereds aircrafts="Boeing 767-300ER,Boeing 757-200,MD-83 (DC-9-83),Douglas DC-9-30,MD-82 (DC-9-82)"></prefereds>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2011)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="1" late="0"></airliner>
+	     </airliners>
+
+
+	       <routes>
+	       	<route destination1="CCS" destination2="MIA"  />
+		<route destination1="CCS" destination2="PTY"  />
+		<route destination1="CCS" destination2="LIM"  />
+		<route destination1="CCS" destination2="JFK"  />
+		<route destination1="CCS" destination2="MAD"  />
+		<route destination1="CCS" destination2="TFS"  />
+		<route destination1="CCS" destination2="FNC"  />	
+		<route destination1="CCS" destination2="CUR"  />
+		<route destination1="CCS" destination2="BAQ"  />	
+		<route destination1="CCS" destination2="SCQ"  />	
+              </routes>
+</airline>

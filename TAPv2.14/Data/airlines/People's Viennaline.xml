@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="People's Viennaline" iata="PEV" color="Silver" area="119" CEO="Tobias Farner" mentality="Safe" market="Local" preferedairport="ACH" >
+  <narrative narrative="People's Viennaline is an airline based out of St. Gallen-Altenrhein Airport on the Switzerland side of Lake Constance. As its name says its main link and as of 2015 still its only scheduled flight is to Vienna in Austria which it is doing 3 times a day. It started operations in 2011
+  and uses one Embraer 170. It also offers seasonal charters to Cagliari on the island of Sardinia in Italy and Elba Island also in Italy." />
+</profile>
+   <info real="True" from="2011" to="2199"></info>
+   <prefereds aircrafts="Embraer E-170,Embraer E-175E2"></prefereds>
+ <focusairports>
+                 <focusairport airport="VIE"></focusairport>
+     </focusairports>
+
+   <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer E-170" early="1" late="1"></airliner>
+	     </airliners>
+
+
+
+<routes>
+     		<route destination1="ACH" destination2="VIE" opened="2011" closed="2199"  />
+
+        </routes>
+  
+
+
+</airline>

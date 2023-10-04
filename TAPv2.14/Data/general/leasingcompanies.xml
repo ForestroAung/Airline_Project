@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+<company name="Air Lease Corporation" logo="airlease" discount="6" monthly="1200" manufacturers="None" country="122">
+<aircrafts>
+<aircraft type="Embraer E-175" amount="6"></aircraft>
+<aircraft type="Embraer E-190" amount="7"></aircraft>
+<aircraft type="Airbus A319-100" amount="9"></aircraft>
+<aircraft type="Airbus A320-200" amount="8"></aircraft>
+<aircraft type="Airbus A321-200" amount="12"></aircraft>
+<aircraft type="Airbus A320neo" amount="8"></aircraft>
+<aircraft type="Airbus A321neo" amount="12"></aircraft>
+<aircraft type="Airbus A321neoXLR" amount="4"></aircraft>
+<aircraft type="Airbus A330-200" amount="5"></aircraft>
+<aircraft type="Airbus A330-300" amount="5"></aircraft>
+<aircraft type="Airbus A330-900neo" amount="2"></aircraft>
+<aircraft type="Airbus A350-900" amount="3"></aircraft>
+<aircraft type="Airbus A350-1000" amount="3"></aircraft>
+<aircraft type="Boeing 737-700" amount="7"></aircraft>
+<aircraft type="Boeing 737-800" amount="25"></aircraft>
+<aircraft type="Boeing 737 MAX 8" amount="10"></aircraft>
+<aircraft type="Boeing 737 MAX 9" amount="6"></aircraft>
+<aircraft type="Boeing 777-300ER" amount="5"></aircraft>
+<aircraft type="Boeing 787-9" amount="2"></aircraft>
+<aircraft type="Boeing 787-10" amount="3"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Boeing,Embraer"></manufacturer>
+</manufacturers>
+</company>
+<company name="Lease Corporation International" logo="lci" discount="10" monthly="1400" manufacturers="None" country="137">
+<aircrafts>
+<aircraft type="Airbus A320-200" amount="4"></aircraft>
+<aircraft type="Airbus A330-300" amount="4"></aircraft>
+<aircraft type="Boeing 737-900" amount="4"></aircraft>
+<aircraft type="Boeing 747-400F" amount="5"></aircraft>
+<aircraft type="Boeing 777F" amount="5"></aircraft>
+<aircraft type="Bombardier CS-100" amount="5"></aircraft>
+<aircraft type="Bombardier CS-300" amount="5"></aircraft>
+<aircraft type="Airbus A220-100" amount="6"></aircraft>
+<aircraft type="Airbus A220-300" amount="6"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Bombardier"></manufacturer>
+</manufacturers>
+</company>
+<company name="International Lease Finance Corporation" logo="ilfc" discount="5" monthly="1100" manufacturers="None" country="122">
+<aircrafts>
+<aircraft type="Airbus A320-100" amount="2"></aircraft>
+<aircraft type="Douglas DC-8-61" amount="6"></aircraft>
+<aircraft type="Douglas DC-8-62" amount="5"></aircraft>
+<aircraft type="Douglas DC-8-62F" amount="2"></aircraft>
+<aircraft type="Douglas DC-8-63" amount="8"></aircraft>
+<aircraft type="Douglas DC-9-10" amount="8"></aircraft>
+<aircraft type="Douglas DC-9-15" amount="2"></aircraft>
+<aircraft type="Douglas DC-9-30" amount="14"></aircraft>
+<aircraft type="MD DC-8-71" amount="5"></aircraft>
+<aircraft type="MD DC-8-72" amount="3"></aircraft>
+<aircraft type="MD DC-8-73" amount="4"></aircraft>
+<aircraft type="MD DC-9-40" amount="3"></aircraft>
+<aircraft type="MD DC-9-50" amount="6"></aircraft>
+<aircraft type="MD-81 (DC-9-81)" amount="8"></aircraft>
+<aircraft type="MD-82 (DC-9-82)" amount="14"></aircraft>
+<aircraft type="MD-83 (DC-9-83)" amount="8"></aircraft>
+<aircraft type="MD-87 (DC-9-87)" amount="5"></aircraft>
+<aircraft type="MD-88 (DC-9-88)" amount="4"></aircraft>
+<aircraft type="MD DC-10-10" amount="6"></aircraft>
+<aircraft type="MD DC-10-15" amount="1"></aircraft>
+<aircraft type="MD DC-10-30" amount="14"></aircraft>
+<aircraft type="MD DC-10-30F" amount="2"></aircraft>
+<aircraft type="MD DC-10-40" amount="3"></aircraft>
+<aircraft type="Lockheed L-1011-1" amount="8"></aircraft>
+<aircraft type="Lockheed L-1011-100" amount="3"></aircraft>
+<aircraft type="Lockheed L-1011-200" amount="2"></aircraft>
+<aircraft type="Lockheed L-1011-500" amount="2"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Douglas,MD"></manufacturer>
+</manufacturers>
+</company>
+<company name="Aercap" logo="aercap" discount="5" monthly="1100" manufacturers="None" country="179">
+<aircrafts>
+<aircraft type="Airbus A319-100" amount="9"></aircraft>
+<aircraft type="Airbus A320-200" amount="19"></aircraft>
+<aircraft type="Airbus A321-200" amount="7"></aircraft>
+<aircraft type="Airbus A320neo" amount="14"></aircraft>
+<aircraft type="Airbus A321neo" amount="13"></aircraft>
+<aircraft type="Airbus A321neoLR" amount="2"></aircraft>
+<aircraft type="Airbus A300-600" amount="4"></aircraft>
+<aircraft type="Airbus A310-300" amount="4"></aircraft>
+<aircraft type="Airbus A330-200" amount="7"></aircraft>
+<aircraft type="Airbus A330-300" amount="5"></aircraft>
+<aircraft type="Airbus A330-800neo" amount="3"></aircraft>
+<aircraft type="Airbus A330-900neo" amount="4"></aircraft>
+<aircraft type="Airbus A340-300" amount="2"></aircraft>
+<aircraft type="Airbus A350-900" amount="2"></aircraft>
+<aircraft type="Airbus A350-1000" amount="2"></aircraft>
+<aircraft type="Boeing 717-200" amount="2"></aircraft>
+<aircraft type="Boeing 737-500" amount="5"></aircraft>
+<aircraft type="Boeing 737-800" amount="26"></aircraft>
+<aircraft type="Boeing 737-900" amount="4"></aircraft>
+<aircraft type="Boeing 737 MAX 7" amount="5"></aircraft>
+<aircraft type="Boeing 737 MAX 8" amount="8"></aircraft>
+<aircraft type="Boeing 747-400" amount="4"></aircraft>
+<aircraft type="Boeing 757-200" amount="2"></aircraft>
+<aircraft type="Boeing 757-300" amount="4"></aircraft>
+<aircraft type="Boeing 767-200" amount="4"></aircraft>
+<aircraft type="Boeing 777-200" amount="3"></aircraft>
+<aircraft type="Boeing 777-300" amount="4"></aircraft>
+<aircraft type="Boeing 777-8X" amount="2"></aircraft>
+<aircraft type="Boeing 777-9X" amount="3"></aircraft>
+<aircraft type="Boeing 787-8" amount="3"></aircraft>
+<aircraft type="Boeing 787-9" amount="6"></aircraft>
+<aircraft type="Embraer E-190E2" amount="2"></aircraft>
+<aircraft type="Embraer E-195E2" amount="3"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Airbus,Boeing"></manufacturer>
+</manufacturers>
+</company>
+<company name="GE Capital Aviation Services" logo="gecas" monthly="1125" discount="5" manufacturers="None" country="122">
+<aircrafts>
+<aircraft type="Embraer ERJ135 ER" amount="10"></aircraft>
+<aircraft type="Embraer ERJ140 ER" amount="7"></aircraft>
+<aircraft type="Embraer ERJ145 LR" amount="9"></aircraft>
+<aircraft type="Embraer E-170" amount="6"></aircraft>
+<aircraft type="Embraer E-175" amount="12"></aircraft>
+<aircraft type="Embraer E-190" amount="10"></aircraft>
+<aircraft type="Embraer E-190E2" amount="4"></aircraft>
+<aircraft type="Embraer E-195" amount="10"></aircraft>
+<aircraft type="Embraer E-195E2" amount="4"></aircraft>
+<aircraft type="ATR 72-500" amount="15"></aircraft>
+<aircraft type="ATR 72-600" amount="15"></aircraft>
+<aircraft type="Bombardier Dash 8-400" amount="6"></aircraft>
+<aircraft type="Bombardier CRJ200" amount="17"></aircraft>
+<aircraft type="Bombardier CRJ700" amount="8"></aircraft>
+<aircraft type="Bombardier CRJ900" amount="8"></aircraft>
+<aircraft type="Airbus A300B2" amount="2"></aircraft>
+<aircraft type="Airbus A300B4" amount="4"></aircraft>
+<aircraft type="Airbus A300-600" amount="6"></aircraft>
+<aircraft type="Airbus A300-600R" amount="2"></aircraft>
+<aircraft type="Airbus A300-600F" amount="2"></aircraft>
+<aircraft type="Airbus A310-200" amount="3"></aircraft>
+<aircraft type="Airbus A310-300" amount="4"></aircraft>
+<aircraft type="Airbus A318-100" amount="5"></aircraft>
+<aircraft type="Airbus A319-100" amount="5"></aircraft>
+<aircraft type="Airbus A320-100" amount="4"></aircraft>
+<aircraft type="Airbus A320-200" amount="12"></aircraft>
+<aircraft type="Airbus A320neo" amount="10"></aircraft>
+<aircraft type="Airbus A321-100" amount="4"></aircraft>
+<aircraft type="Airbus A321-200" amount="14"></aircraft>
+<aircraft type="Airbus A321neo" amount="10"></aircraft>
+<aircraft type="Airbus A330-200" amount="4"></aircraft>
+<aircraft type="Airbus A330-300" amount="6"></aircraft>
+<aircraft type="Airbus A350-900" amount="5"></aircraft>
+<aircraft type="Airbus A350-1000" amount="5"></aircraft>
+<aircraft type="Boeing 717-100" amount="8"></aircraft>
+<aircraft type="Boeing 727-100" amount="6"></aircraft>
+<aircraft type="Boeing 727-200" amount="8"></aircraft>
+<aircraft type="Boeing 727-200 Adv." amount="12"></aircraft>
+<aircraft type="Boeing 737-100" amount="8"></aircraft>
+<aircraft type="Boeing 737-200" amount="16"></aircraft>
+<aircraft type="Boeing 737-200 Adv." amount="4"></aircraft>
+<aircraft type="Boeing 737-200C" amount="2"></aircraft>
+<aircraft type="Boeing 737-300" amount="12"></aircraft>
+<aircraft type="Boeing 737-400" amount="5"></aircraft>
+<aircraft type="Boeing 737-500" amount="4"></aircraft>
+<aircraft type="Boeing 737-600" amount="3"></aircraft>
+<aircraft type="Boeing 737-700" amount="4"></aircraft>
+<aircraft type="Boeing 737-800" amount="24"></aircraft>
+<aircraft type="Boeing 737-900ER" amount="6"></aircraft>
+<aircraft type="Boeing 737 MAX 8" amount="4"></aircraft>
+<aircraft type="Boeing 747-100" amount="2"></aircraft>
+<aircraft type="Boeing 747-200" amount="4"></aircraft>
+<aircraft type="Boeing 747-200B" amount="2"></aircraft>
+<aircraft type="Boeing 747-400" amount="6"></aircraft>
+<aircraft type="Boeing 747-400F" amount="2"></aircraft>
+<aircraft type="Boeing 757-200" amount="6"></aircraft>
+<aircraft type="Boeing 767-200" amount="4"></aircraft>
+<aircraft type="Boeing 767-300" amount="4"></aircraft>
+<aircraft type="Boeing 767-300ER" amount="9"></aircraft>
+<aircraft type="Boeing 767-300F" amount="3"></aircraft>
+<aircraft type="Boeing 777-200" amount="2"></aircraft>
+<aircraft type="Boeing 777-200ER" amount="8"></aircraft>
+<aircraft type="Boeing 777-200LR" amount="2"></aircraft>
+<aircraft type="Boeing 777-300" amount="2"></aircraft>
+<aircraft type="Boeing 777-300ER" amount="10"></aircraft>
+<aircraft type="Boeing 777F" amount="4"></aircraft>
+<aircraft type="Boeing 787-8" amount="8"></aircraft>
+<aircraft type="Boeing 787-9" amount="8"></aircraft>
+<aircraft type="MD-11F" amount="4"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Boeing,Airbus"></manufacturer>
+</manufacturers>
+</company>
+<company name="FLY Leasing" logo="flyleasing" discount="7" monthly="1300" manufacturers="None" country="137">
+<aircrafts>
+<aircraft type="Airbus A319-100" amount="5"></aircraft>
+<aircraft type="Airbus A320-200" amount="10"></aircraft>
+<aircraft type="Airbus A321-100" amount="5"></aircraft>
+<aircraft type="Airbus A330-300" amount="5"></aircraft>
+<aircraft type="Airbus A340-300" amount="5"></aircraft>
+<aircraft type="Boeing 757-200" amount="2"></aircraft>
+<aircraft type="Boeing 777-300" amount="2"></aircraft>
+<aircraft type="Boeing 787-8" amount="1"></aircraft>
+</aircrafts>
+</company>
+<company name="Sberbank of Russia" logo="sberbank" discount="8" monthly="1400" manufacturers="None" country="149">
+<aircrafts>
+<aircraft type="Antonov An-32" amount="6"></aircraft>
+<aircraft type="Antonov An-74" amount="7"></aircraft>
+<aircraft type="Antonov An-124" amount="4"></aircraft>
+<aircraft type="Antonov An-140" amount="5"></aircraft>
+<aircraft type="Antonov An-148 100A" amount="8"></aircraft>
+<aircraft type="Antonov An-148 100B" amount="5"></aircraft>
+<aircraft type="Antonov An-148 100E" amount="5"></aircraft>
+<aircraft type="Antonov An-158" amount="3"></aircraft>
+<aircraft type="Sukhoi 100-75" amount="10"></aircraft>
+<aircraft type="Sukhoi 100-75LR" amount="6"></aircraft>
+<aircraft type="Sukhoi 100-95" amount="10"></aircraft>
+<aircraft type="Sukhoi 100-95LR" amount="4"></aircraft>
+<aircraft type="Tupolev Tu-154M" amount="12"></aircraft>
+<aircraft type="Tupolev Tu-204-100" amount="4"></aircraft>
+<aircraft type="Tupolev Tu-204-120" amount="4"></aircraft>
+<aircraft type="Tupolev Tu-204SM" amount="7"></aircraft>
+<aircraft type="Tupolev Tu-204-300" amount="6"></aircraft>
+<aircraft type="Tupolev Tu-214" amount="8"></aircraft>
+<aircraft type="Yak-42D" amount="8"></aircraft>
+<aircraft type="Il-62M" amount="10"></aircraft>
+<aircraft type="Il-86" amount="6"></aircraft>
+<aircraft type="Il-96-300" amount="3"></aircraft>
+<aircraft type="Il-114" amount="3"></aircraft>
+<aircraft type="MC-21-200" amount="10"></aircraft>
+<aircraft type="MC-21-300" amount="10"></aircraft>
+<aircraft type="MC-21-400" amount="5"></aircraft>
+<aircraft type="Boeing 747-400" amount="1"></aircraft>
+<aircraft type="Boeing 737-800" amount="2"></aircraft>
+</aircrafts>
+</company>
+<company name="Brown Aviation Lease" logo="brown" discount="4" monthly="900" manufacturers="None" country="122">
+<aircrafts>
+<aircraft type="PA-42 Cheyenne" amount="2"></aircraft>
+<aircraft type="PA-31 Navajo" amount="1"></aircraft>
+<aircraft type="Cessna Citation VII" amount="1"></aircraft>
+<aircraft type="Cessna CitationJet CJ3" amount="2"></aircraft>
+<aircraft type="Cessna 441 Conquest II" amount="2"></aircraft>
+<aircraft type="Cirrus Vision SF50" amount="2"></aircraft>
+<aircraft type="Cirrus SR20" amount="2"></aircraft></aircrafts>
+</company>
+<company name="BBAM Aircraft Leasing" logo="bbam" monthly="1300" discount="7" manufacturers="None" country="122">
+<aircrafts>
+<aircraft type="Airbus A318-100" amount="5"></aircraft>
+<aircraft type="Airbus A319-100" amount="5"></aircraft>
+<aircraft type="Airbus A320-200" amount="20"></aircraft>
+<aircraft type="Airbus A320neo" amount="6"></aircraft>
+<aircraft type="Airbus A321-100" amount="5"></aircraft>
+<aircraft type="Airbus A321-200" amount="8"></aircraft>
+<aircraft type="Airbus A321neo" amount="5"></aircraft>
+<aircraft type="Airbus A330-200" amount="4"></aircraft>
+<aircraft type="Airbus A330-300" amount="6"></aircraft>
+<aircraft type="Airbus A340-200" amount="4"></aircraft>
+<aircraft type="Airbus A340-300" amount="4"></aircraft>
+<aircraft type="Airbus A340-500" amount="4"></aircraft>
+<aircraft type="Airbus A340-600" amount="4"></aircraft>
+<aircraft type="Airbus A350-900" amount="4"></aircraft>
+<aircraft type="Airbus A380-800" amount="3"></aircraft>
+<aircraft type="Boeing 737-200C" amount="6"></aircraft>
+<aircraft type="Boeing 737-300" amount="12"></aircraft>
+<aircraft type="Boeing 737-400" amount="8"></aircraft>
+<aircraft type="Boeing 737-500" amount="8"></aircraft>
+<aircraft type="Boeing 737-600" amount="4"></aircraft>
+<aircraft type="Boeing 737-800" amount="14"></aircraft>
+<aircraft type="Boeing 737-900ER" amount="4"></aircraft>
+<aircraft type="Boeing 737 MAX 8" amount="4"></aircraft>
+<aircraft type="Boeing 747-400" amount="2"></aircraft>
+<aircraft type="Boeing 747-400F" amount="3"></aircraft>
+<aircraft type="Boeing 757-200" amount="8"></aircraft>
+<aircraft type="Boeing 767-200" amount="8"></aircraft>
+<aircraft type="Boeing 767-300ER" amount="4"></aircraft>
+<aircraft type="Boeing 767-300F" amount="2"></aircraft>
+<aircraft type="Boeing 777-200" amount="8"></aircraft>
+<aircraft type="Boeing 777-200LR" amount="2"></aircraft>
+<aircraft type="Boeing 777F" amount="2"></aircraft>
+<aircraft type="Boeing 777-300" amount="12"></aircraft>
+<aircraft type="Boeing 777-300ER" amount="14"></aircraft>
+<aircraft type="Boeing 787-8" amount="12"></aircraft>
+<aircraft type="Boeing 787-9" amount="4"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Boeing,Airbus"></manufacturer>
+</manufacturers>
+</company>
+<company name="Falko" logo="falko" monthly="1000" discount="5" manufacturers="Embraer,Bombardier" country="130">
+<aircrafts>
+<aircraft type="ATR72-500 " amount="13"></aircraft>
+<aircraft type="Avro RJ100 Avroliner" amount="4"></aircraft>
+<aircraft type="Avro RJ85" amount="10"></aircraft>
+<aircraft type="Bombardier Dash 8-400" amount="6"></aircraft>
+<aircraft type="Bombardier Dash 8-400NextGen" amount="4"></aircraft>
+<aircraft type="Bombardier CRJ900" amount="11"></aircraft>
+<aircraft type="Bombardier CRJ900LR" amount="3"></aircraft>
+<aircraft type="Embraer E-170" amount="12"></aircraft>
+<aircraft type="Embraer E-190" amount="10"></aircraft>
+<aircraft type="Embraer E-195" amount="6"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Embraer,Bombardier"></manufacturer>
+</manufacturers>
+</company>
+<company name="Hi Fly" logo="hifly" discount="10" monthly="1500" manufacturers="None" country="150">
+<aircrafts>
+<aircraft type="Airbus A319-100" amount="3"></aircraft>
+<aircraft type="Airbus A321-200" amount="1"></aircraft>
+<aircraft type="Airbus A330-200" amount="5"></aircraft>
+<aircraft type="Airbus A330-300" amount="1"></aircraft>
+<aircraft type="Airbus A330-900neo" amount="2"></aircraft>
+<aircraft type="Airbus A340-300" amount="6"></aircraft>
+<aircraft type="Airbus A340-500" amount="1"></aircraft>
+<aircraft type="Airbus A380-800" amount="1"></aircraft>
+</aircrafts>
+<manufacturers>
+<manufacturer manufacturer="Airbus"></manufacturer>
+</manufacturers>
+</company>
+</companies>

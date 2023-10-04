@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FARNAIR Hungary" iata="FAH" color="LightSkyBlue" area="129" CEO="John Rawl" mentality="Moderate" market="Regional"  preferedairport="BUD" routefocus="Mixed"> 
+  <narrative narrative="ASL Airlines Hungary, formerly FARNAIR Hungary, was a subsidiary of ASL Airlines Ireland. It operated Feeder flights to the main hubs of ASL Airlines." />
+
+<names>
+	<name value="NAWA Air Transport" from="02.01.1990 00:00:00"/>
+	<name value="Farner Air Transport Hungary" from="02.01.1993 00:00:00"/>
+	<name value="FARNAIR Hungary" from="02.01.1997 00:00:00"/>
+	<name value="ASL Airlines Hungary" from="02.01.2015 00:00:00"/>
+</names>
+  </profile>
+  
+   <info real="True" from="1990" to="2199"></info>
+</airline>

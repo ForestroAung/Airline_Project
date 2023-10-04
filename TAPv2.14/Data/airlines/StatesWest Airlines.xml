@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="StatesWest Airlines" iata="SWJ" color="Orange" area="402" CEO="Rudy Miller" mentality="Moderate" market="Local" preferedairport="PHX">
+  <narrative narrative="StatesWest Airlines was around from operations start in 1987 until 1993. It was based at Phoenix,Arizona. It flew to the California airports at San Diego and a bunch of Los Angeles area ones which included LAX,Burbank,Ontario
+  and Orange County at Santa Ana. It also flew a short time to Scottsdale,AZ and also flew in Arizona to Tuscon,Bullhead City,Prescott,Lake Havasu City and Sierra Vista. Las Vegas,NV was also served for a time as was
+Albuquerque,New Mexico. It used Short 360's and BAe Jetstream 31's in its first years. By 1989 it replaced them with Beechcraft 1900C's. In 1990 it entered an agreement with US Airways to start flying under the
+US Airways Express brand. It stopped using its own name at this point. It provided feeder service to US Airways in California which US Airways former subsidiary Pacific Southwest Airlines used to handle. They also
+started using Beechcraft King Air's at this time as well and used at least one Dash 8-100. In 1993 StatesWest shut down and USAir reduced its California operations as well. "/>
+</profile>
+  <info real="True" from="1987" to="1993" />
+  <prefereds aircrafts="Beechcraft 1900C,BAe Jetstream 31,Short 360"></prefereds> 
+              <routes>
+	          <route destination1="PHX" destination2="SAN"   />
+	          <route destination1="PHX" destination2="BUR"  />
+                  <route destination1="PHX" destination2="ONT"  />
+		  <route destination1="PHX" destination2="SNA"  />
+		  <route destination1="PHX" destination2="LAX"  />
+		  <route destination1="PHX" destination2="TUS"  />
+		  <route destination1="PHX" destination2="ABQ"  />
+		  <route destination1="PHX" destination2="LAS"  />
+		        </routes>
+
+
+
+
+</airline>

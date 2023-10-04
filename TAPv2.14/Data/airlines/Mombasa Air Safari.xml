@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Mombasa Air Safari" iata="RRV"  color="DarkBlue" area="356" CEO="John Cleave" mentality="Safe" market="Local" preferedairport="MBA">
+  <narrative narrative="Mombasa Air Safari is based at Mombasa,Kenya on its coast in the south of the country. It serves six domestic airports from Mombasa,3 also along the coast and 3 in the inland of the south. Ukunda/Diani Beach
+  is only a 29km flight from MBA. Its other outes are Amboseli(302km),Lamu (246km),Masai Mara Game Reserve (587km),Malindi (105km) and Keekorok (554km). Its fleet is seven Cessna 208B's and two Let 410's. It was founded in 1985. Its roots
+  date back to 1970 when Aussie Walker started Rapid Air. In 1974 John Cleave bought it and made it Mombasa Air Services, a charter company.In 1982 the company and its subsidiaries were sold to CMC Aviation of Nairobi. It was changed to
+  Cooper Skybird. In 1986 it changed hands again and was named Prestige Air. But in 1985 the Cleave family bought backthe MAS rights and name and started Mombasa Air Safari." />
+   </profile>
+    <info real="True" from="1985" to="2199" />
+       <prefereds aircrafts="Cessna 208B,Let L-410"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (1985) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="0" late="7"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1985) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	         <route destination1="MBA" destination2="UKA" opened="1985" closed="2199"/>
+	         <route destination1="MBA" destination2="LAU" opened="1985" closed="2199"/>
+		 <route destination1="MBA" destination2="MYD" opened="1985" closed="2199"/>
+		 <route destination1="MBA" destination2="MRE" opened="1990" closed="2199"/>
+		 <route destination1="MBA" destination2="ASV" opened="1990" closed="2199" />
+		              </routes>
+</airline>

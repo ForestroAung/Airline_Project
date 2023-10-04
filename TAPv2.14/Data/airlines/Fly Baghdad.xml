@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fly Baghdad" iata="FBA" color="Red" area="304" CEO="Asif Bousaid" mentality="Safe" market="Global" preferedairport="BGW">
+  <narrative narrative="Fly Baghdad is an airline based at Baghdad,Iraq that started service in February 2017 and had been founded in July 2014. Its routes from Baghdad at December 2017 are to the domestic cities of Erbil and Sulaymaniyah and international to Amman,Jordan and Istanbul,Turkey's Sabia Gokcen Airport. At August 2017
+  its fleet consisted of one 737-700 with two on order and one Bombardier CRJ200ER. " />
+</profile>
+   <info real="True" from="2017" to="2199"></info>
+       <prefereds aircrafts="Boeing 737-700,Bombardier CRJ200,Boeing 737 MAX 7"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2019)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="1" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2020)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="1" late="1"></airliner>
+	     </airliners>
+<routes>
+    <route destination1="BGW" destination2="EBL" />
+    <route destination1="BGW" destination2="ISU" />
+    <route destination1="BGW" destination2="AMM" />
+    <route destination1="BGW" destination2="SAW" />
+        </routes>
+</airline>

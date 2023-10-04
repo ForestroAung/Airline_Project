@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Servicios Aereos Profesionales" iata="5S"  color="SlateBlue" area="415" CEO="Jose Miguel Patin" mentality="Moderate" market="Global" preferedairport="JBQ" schedule="Charter">
+  <narrative narrative="Servicios Aereos Profesionales, or SAP, is based at La Isabela Intl. Airport, Santo Domingo's smaller airport. The airline started in 1981 and was based at Herrera Intl. Airport until February 23,2006 when La Isabela replaced it as Santo Domingos second airport. Other hubs are at Punta Cana,Puerto Plata,Santo Domingo Las Americas,Santiago and La Romana. It is a charter airline and as of 2015 was offering around 23 charter destinations from JBQ, including a few domestic,all over the Caribbean and a few in South America like some in Venezuela and Bogota,Colombia. About ten from Punta Cana were offered. Its fleet at 2006 was seven BAe Jetstream 31's,two Cessna 208B's,two Beechcraft 1900C's,a Twin Otter 100,a Short 360,two Cessna 172's,a Learjet 35 and a Learjet 55."/>
+ <airports>
+<airport  preferedairport="HEX" date="1.01.1981 00:00:00"></airport>
+<airport   preferedairport="JBQ" date="2.23.2006 00:00:00"></airport>
+</airports>
+   </profile>
+    <info real="True" from="1981" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31,Cessna 208B,Beechcraft 1900C,Short 360,DHC-6-100 Twin Otter,DHC-6-400 Twin Otter,Learjet 35,Learjet 55,Learjet 36,Learjet 25"></prefereds>
+             <focusairports>
+             				<focusairport airport="AZS"></focusairport>
+                               <focusairport airport="PUJ"></focusairport>
+			       <focusairport airport="POP"></focusairport>
+			       <focusairport airport="SDQ"></focusairport>
+			        <focusairport airport="STI"></focusairport>
+				<focusairport airport="LRM"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2006)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="1" late="7"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="0" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="0" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2006)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="1" late="1"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Short 360" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Learjet 35" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Learjet 55" early="0" late="1"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+	       	       	<route destination1="AZS" destination2="PMV"  />
+		<route destination1="AZS" destination2="PUJ" />
+		<route destination1="AZS" destination2="POP"  />
+		<route destination1="AZS" destination2="SDQ" />
+	       	<route destination1="PUJ" destination2="SDQ"  />
+		<route destination1="PUJ" destination2="AUA" />
+		<route destination1="PUJ" destination2="CUR"  />
+		<route destination1="PUJ" destination2="PTP" />
+		<route destination1="PUJ" destination2="ANU"  />
+		<route destination1="PUJ" destination2="POS"  />
+		<route destination1="PUJ" destination2="SXM"  />
+		<route destination1="PUJ" destination2="BGI" />
+		<route destination1="PUJ" destination2="HOG"  />
+		<route destination1="PUJ" destination2="VRA"  />
+		<route destination1="JBQ" destination2="ANU"   />
+		<route destination1="JBQ" destination2="AUA"   />
+		<route destination1="JBQ" destination2="BGI"   />
+		<route destination1="JBQ" destination2="BOG"   />
+		<route destination1="JBQ" destination2="CCS"   />
+		<route destination1="JBQ" destination2="CUN"   />
+		<route destination1="JBQ" destination2="CCC"   />
+		<route destination1="JBQ" destination2="CUR"   />
+		<route destination1="JBQ" destination2="GCM"   />
+		<route destination1="JBQ" destination2="HAV"  />
+		<route destination1="JBQ" destination2="PMV"  />
+		<route destination1="JBQ" destination2="MIA"  />
+		<route destination1="JBQ" destination2="FDF"  />
+		<route destination1="JBQ" destination2="MBJ"  />
+		<route destination1="JBQ" destination2="PUJ"  />
+		<route destination1="JBQ" destination2="STI"   />
+		<route destination1="JBQ" destination2="SCU"   />
+		<route destination1="JBQ" destination2="SJU"  />
+		<route destination1="JBQ" destination2="SXM"  />
+		<route destination1="JBQ" destination2="EIS"  />
+		<route destination1="JBQ" destination2="VRA"  />
+		<route destination1="POP" destination2="STX"  />
+		<route destination1="LRM" destination2="SDQ"  />
+		<route destination1="LRM" destination2="VRA"  />
+
+              </routes>
+</airline>

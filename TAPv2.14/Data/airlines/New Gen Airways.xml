@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="New Gen Airways" iata="E3" color="SlateBlue" area="234" CEO="Jarurnpong Sornprasit" mentality="Moderate" market="Regional" preferedairport="DMK">
+  <narrative narrative="New Gen Airways is an airline based at Bangkok's older Don Mueang airport and it began in 2014. It had been founded in 2012 as Sabaidee Airways. As of May 2015 it is flying three and sometimes four times a week to many Chinese destinations. From Bangkok it goes to Quanzhou,Guilin,Nanning,Hefei,Wenzhou,Guiyang,and Nanchang. From Krabi,Thailand it goes to Nanning,Kunming,Guiyang and Changsha. It also does charters. It had four 737-400's around May 2015. It uses 168 seat all economy configuration on all of its planes." />
+ </profile>
+    <info real="True" from="2014" to="2199" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+       <focusairports>
+                 <focusairport airport="KBV"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="4" late="4"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="DMK" destination2="KWE"  />	
+	    <route destination1="DMK" destination2="NNG"  />	
+            <route destination1="DMK" destination2="KHN" />
+            <route destination1="DMK" destination2="KWL" />	
+	    <route destination1="DMK" destination2="WNZ" />
+	    <route destination1="DMK" destination2="JJN" />
+	    <route destination1="DMK" destination2="HFE" />
+	    <route destination1="KBV" destination2="CSX" />
+	    <route destination1="KBV" destination2="KMG" />
+	    <route destination1="KBV" destination2="KWE" />
+	    <route destination1="KBV" destination2="NNG" />
+              </routes>
+</airline>

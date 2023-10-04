@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="CarpatAir" iata="V3" color="Azure" area="148" CEO="Nicolae Petrov" mentality="Moderate" market="Regional" onlyfromhome="False"
+           preferedairport="OTP">
+            <narrative narrative="Low-cost carrier operated from 1999. It operates scheduled service between 2 cites in 2015."></narrative>
+  </profile>
+  <info real="True" from="1999" to="2099" />
+</airline>

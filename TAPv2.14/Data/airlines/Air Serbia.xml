@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Serbia" iata="JU" color="DarkBlue" country="104" CEO="Dane Kondic" mentality="Moderate"
+           market="Regional" preferedairport="BEG">
+    <narrative
+      narrative="Originally founded in 1927 as Aeroput, Air Serbia (stylized as AirSERBIA) is the flag carrier and largest airline of Serbia. The airline was formerly known as Jat Airways until it was renamed in 2013. Air Serbia commenced operations under its new name on 26 October 2013." />
+	  </profile>
+  <info real="True" from="2013" to="2199"></info>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 737-300" early="10" late="4"></airliner>
+      <airliner type="Airbus A320-200" early="0" late="2"></airliner>
+      <airliner type="Airbus A319-100" early="0" late="8"></airliner>
+	  <airliner type="Airbus A330-200" early="0" late="1"></airliner>
+      <airliner type="ATR 72-210" early="4" late="4"></airliner>
+      <airliner type="ATR 72-500" early="0" late="3"></airliner>
+    </airliners>
+  </startdata>
+     <routes>
+      <route destination1="BEG" destination2="TIA"/>
+	  <route destination1="BEG" destination2="VIE"/>
+	  <route destination1="BEG" destination2="BRU"/>
+	  <route destination1="BEG" destination2="BNX"/>
+	  <route destination1="BEG" destination2="SJJ"/>
+	  <route destination1="BEG" destination2="SOF"/>
+	  <route destination1="BEG" destination2="ZAG"/>
+	  <route destination1="BEG" destination2="LCA"/>
+	  <route destination1="BEG" destination2="PRG"/>
+	  <route destination1="BEG" destination2="CPH"/>
+	  <route destination1="BEG" destination2="CDG"/>
+	  <route destination1="BEG" destination2="TXL"/>
+	  <route destination1="BEG" destination2="DUS"/>
+	  <route destination1="BEG" destination2="FRA"/>
+	  <route destination1="BEG" destination2="STR"/>
+	  <route destination1="BEG" destination2="ATH"/>
+	  <route destination1="BEG" destination2="SKG"/>
+	  <route destination1="BEG" destination2="TLV"/>
+	  <route destination1="BEG" destination2="MXP"/>
+	  <route destination1="BEG" destination2="FCO"/>
+	  <route destination1="BEG" destination2="VCE"/>
+	  <route destination1="BEG" destination2="BEY"/>
+	  <route destination1="BEG" destination2="SKP"/>
+	  <route destination1="BEG" destination2="TGD"/>
+	  <route destination1="BEG" destination2="TIV"/>
+	  <route destination1="BEG" destination2="AMS"/>
+	  <route destination1="BEG" destination2="OTP"/>
+	  <route destination1="BEG" destination2="SVO"/>
+	  <route destination1="BEG" destination2="LJU"/>
+	  <route destination1="BEG" destination2="ARN"/>
+	  <route destination1="BEG" destination2="ZRH"/>
+	  <route destination1="BEG" destination2="LHR"/>
+	  <route destination1="BEG" destination2="JFK"/>
+     </routes>
+</airline>

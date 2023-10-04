@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Carib Aviation" iata="3Q" color="Orange" area="416" CEO="Brucke Kaufman" mentality="Moderate" market="Domestic" preferedairport="ANU">
+  <narrative narrative="Carib Aviation provided charter and scheduled flights through the Caribbean from its main base in Antigua. Carib Aviation also operated the DOMINICA AIR TAXI service between Antigua, Saint Lucia and Canefield Airport, as well as a local feeder for LIAT. " />
+ </profile>
+    <info real="True" from="1972" to="2008" />
+    <focusairports>
+      <focusairport airport="PTP"></focusairport>
+     </focusairports>
+            <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="1" late="1"></airliner>
+	     </airliners>
+	    
+</airline>

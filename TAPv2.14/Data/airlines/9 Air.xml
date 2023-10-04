@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="9 Air" iata="AQ" logo="AQ3" color="Orange" area="214" CEO="Wang Junjin" mentality="Moderate" market="Domestic" preferedairport="CAN">
+  <narrative narrative="9 Air is an airline that is a subsidiary of Juneyao Airlines and is based at Guangzhou,China. Operations started January 15,2015 on the Guangzhou-Wenzhou-Harbin route. It had three 737-800's at the start, while at July 2016 it has seven. There are orders for 29 more 737-800's, and 50 of the new 737 MAX 8. Since the start it has also
+  expanded its routes substantially. From Guangzhou besides its initial route it was also now serving Nanjing,Changchun,Haikou,Urumqi,Hailar,and Manzhouli. Nanjing has turned into a hub, and besides Guangzhou routes into and out of Nanjing include Harbin,Changchun,Haikou,Guiyang,Nanning and Hailar.
+  Harbin-Haikou is also done,and Chongqing-Hailar,and Changchun-Manzhouli." />
+ </profile>
+    <info real="True" from="2015" to="2199" />
+    <focusairports>
+      <focusairport airport="NKG"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+           <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+                <airliners>
+     <airliner type="Boeing 737-800" early="3" late="29"></airliner>
+      </airliners>
+                 <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2026)-->
+                <airliners>
+     <airliner type="Boeing 737 MAX 8" early="0" late="50"></airliner>
+      </airliners>
+<routes>     
+     <route destination1="CAN" destination2="ZHA"  opened="2015" closed="2199"   /> 
+     <route destination1="CAN" destination2="WNZ"  opened="2015" closed="2199"   /> 
+     <route destination1="WNZ" destination2="HRB"  opened="2015" closed="2199"   /> 
+     <route destination1="CAN" destination2="NNG"  opened="2015" closed="2199"   />
+     <route destination1="CAN" destination2="NKG"  opened="2015" closed="2199"   />
+     <route destination1="CAN" destination2="URC"  opened="2015" closed="2199"   />
+     <route destination1="CKG" destination2="TSN"  opened="2015" closed="2199"   />
+            <route destination1="NKG" destination2="CGQ"  opened="2015" closed="2199"   />
+     <route destination1="KWE" destination2="WUX"  opened="2016" closed="2199"   />
+     <route destination1="URC" destination2="YIN"  opened="2016" closed="2199"   />
+       <route destination1="CAN" destination2="CGQ"/>
+       <route destination1="CAN" destination2="HAK"/>
+       <route destination1="CAN" destination2="TSN"/>
+       <route destination1="CAN" destination2="KHN"/>
+       <route destination1="CAN" destination2="WUX"/>
+       <route destination1="CAN" destination2="KWE"/>
+              <route destination1="CAN" destination2="XIY"/>
+       <route destination1="CAN" destination2="HLD"/>
+       <route destination1="NKG" destination2="HRB"/>
+        <route destination1="NKG" destination2="HAK"/>
+        <route destination1="NKG" destination2="KWE"/>
+        <route destination1="NKG" destination2="HRB"/>
+        <route destination1="NKG" destination2="NNG"/>
+        <route destination1="NKG" destination2="HLD"/>
+        <route destination1="KWE" destination2="SYX"/>
+        <route destination1="KWE" destination2="XIY"/>
+        <route destination1="KWE" destination2="HFE"/>
+        <route destination1="KWE" destination2="TSN"/>
+        <route destination1="KWE" destination2="KHN"/>
+        <route destination1="KWE" destination2="WNZ"/>
+        <route destination1="KWE" destination2="HAK"/>
+        <route destination1="HRB" destination2="HAK"/>
+        <route destination1="KHN" destination2="TYN"/>
+        <route destination1="CGK" destination2="HLD"/>
+        <route destination1="CGQ" destination2="NZH"/>
+        <route destination1="WUX" destination2="SHE"/>
+        <route destination1="WUX" destination2="DLC"/>
+        <route destination1="CAN" destination2="NZH"/>
+        <route destination1="CKG" destination2="TYN"/>
+        <route destination1="CGO" destination2="SHE"/>
+        <route destination1="WNZ" destination2="DLC"/>
+        <route destination1="CSX" destination2="HET"/>
+        <route destination1="CSX" destination2="WGN"/>
+        <route destination1="WGN" destination2="HAK"/>
+                   </routes>
+</airline>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Itek Air" iata="IKA" color="Blue" area="203" CEO="Vladimir Kouropatenko" mentality="Safe" market="Global" preferedairport="FRU">
+  <narrative narrative="Itek Air was an airline based in Bishkek,Kyrgyzstan from 1999 until 2010. At October 2008 it was operating international to Moscow Domodedovo and Novosibirsk,Russia and Urumqi,China and domestic to Osh. At the end it had about four 737-200's."/>
+</profile>
+  <info real="True" from="1999" to="2010" />
+  <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-200"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2009)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="4"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="FRU" destination2="OVB"   />
+		<route destination1="FRU" destination2="DME" />
+		<route destination1="FRU" destination2="URC"  />
+		<route destination1="FRU" destination2="OSS"   />
+	        </routes>
+
+
+
+
+</airline>

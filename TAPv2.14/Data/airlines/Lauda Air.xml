@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lauda Air" iata="AUA" color="Red" area="120" CEO="Jaan Albrecht" mentality="Moderate" market="Global" preferedairport="VIE" schedule="Charter">
+  <narrative narrative="Lauda Air was around from 1985 until April 2013 when it was merged into its parent Austrian Airlines who had acquired it in 2000. It bases were Vienna,Innsbruck and to lesser extents Graz and Linz. It was founded in 1979 by Niki Lauda, the champion
+  Formula One race car driver, but didn't begin operations until 1985. Its first two years it was a charter airline only,much likes its last 12-13 as part of Austrian. However from 1987 to December 2000 it was a scheduled airline. In 1989 intercontinental routes were started, from
+  Vienna to Sydney and Melbourne in Australia, both via Bankok as a stopover. The stopover was changed to Kuala Lumpur,Malaysia a few years later. It also did Hong Kong via Bangkok. It also started daily flights to Dubai,UAE Cuba and Miami with a stopover in Munich. It used 767-300's for the long haul flights starting in 1991 and
+  later in 1997 it also got 2 777-200's. It lost a 767-300 in Bangkok on May 26,1991 when the engines thurst reversers deployed about 15 minutes after takeoff which the pilots were not expecting and it was not a scenario they were trained to recover from, lift on the whole left side was disrupted and the plane went into a dive
+and all 223 souls on board perished. Lauda himself was very invloved in the investigation afterwards. In December 2000 Austrian bought it and made it the charter division of the airline. Around this time it started using 737-800's, from about 2000 to 2012, and it had six at the most. It had a 737-400 from 
+1993 to about 2005-6.From 1985 to 1988 it had a 737-200. From 2005 to 2008-9 it had two Airbus A320's. From 1997 to the late 2000's it had six Bombardier CRJ100's. And from around 2000 to 2008 it had a 737-600. It also had the 300 series for very short one or two year spans also. At the start ot used leased 
+BAC One Eleven 500's from TAROM of Romania besides the 737-200. As a charter airline for Austrian it went to on an all year basis to 3 in Spain,3 in Egypt and one in Turkey. On a seasonal basis it went to 3 others in Spain,2 others in Turkey,17 in Greece,2 in Italy,2 in Portugal,
+and Dublin,Ireland and Keflavik/Reykjavik,Iceland. As per the last published schedule. The merge in Austrian happened on July 1,2012 and the brand name was retired March 31,2013. Austrian's charter and summer schedule is now called Austrian myHoliday." />
+</profile>
+   <info real="True" from="1985" to="2013"></info>
+   <prefereds aircrafts="Boeing 737-800,Bombardier CRJ100,Boeing 767-300ER,Boeing 777-200,Boeing 737-400"></prefereds>
+ <focusairports>
+                 <focusairport airport="INN"></focusairport>
+		 <focusairport airport="GRZ"></focusairport>
+		 <focusairport airport="LNZ"></focusairport>
+     </focusairports>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2008)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ100" early="6" late="0"></airliner>
+	     </airliners>
+	   <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 777-200" early="2" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="6" late="0"></airliner>
+	     </airliners>
+	         	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2010)-->
+	         <airliners>
+	    <airliner type="Boeing 737-600" early="1" late="0"></airliner>
+	     </airliners>
+	     	         	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="0"></airliner>
+	     </airliners>
+	     	         	        <!--the airliners the airline would start with which isn't on a route earyl (1985) late (1990)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1985) late (1991)-->
+	         <airliners>
+	    <airliner type="BAC One-Eleven 500" early="3" late="0"></airliner>
+	     </airliners>
+	
+	
+
+
+<routes>
+                <route destination1="VIE" destination2="DMK" destination3="SYD" opened="1989" closed="1995" type="Regular"/>
+		<route destination1="VIE" destination2="DMK" destination3="MEL" opened="1989" closed="1995" type="Regular"/>
+		<route destination1="VIE" destination2="DMK" destination3="HKG" opened="1989" closed="2000" type="Regular"/>
+	        <route destination1="VIE" destination2="KUL" destination3="SYD" opened="1989" closed="1995" type="Regular"/>
+		<route destination1="VIE" destination2="KUL" destination3="MEL" opened="1989" closed="1995" type="Regular"/>
+		<route destination1="VIE" destination2="DXB" opened="1991" closed="2000" type="Regular"/>
+		<route destination1="VIE" destination2="HAV" opened="1992" closed="2000" type="Regular"/>
+		<route destination1="VIE" destination2="MUC" destination3="MIA" opened="1993" closed="2000" type="Regular"/>
+		<route destination1="VIE" destination2="TFS" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="LPA" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="FUE" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="AYT" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="SSH" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="HRG" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="LXR" opened="2000" closed="2199" type="Charter"/>
+		<route destination1="VIE" destination2="RHO" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="SKG" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="HER" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="CFU" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="KGS" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="JSI" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="ZTH" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="CHQ" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="MJT" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="EFL" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="JMK" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="KVA" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="AOK" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="PVK" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="VOL" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="JTR" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="SMI" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="BCN" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="AGP" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="ACE" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="DLM" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="BJV" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="DUB" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="CTA" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="NAP" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="FAO" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="FNC" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		<route destination1="VIE" destination2="KEF" opened="2000" closed="2199" type="Charter" season="Summer"/>
+		
+
+        </routes>
+  
+
+
+</airline>

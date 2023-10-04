@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eurodirect" iata="9R" color="MidnightBlue" area="102" CEO="Andrew Shaw" mentality="Safe" market="Local" preferedairport="BOH">
+  <narrative narrative="Eurodirect was only around from 1994 to February 26th,1995. It was based at Bournemouth,England,UK and flew short hops domestic wise and close by in Europe to places like Amsterdam,Glasgow and London Gatwick. It used
+  five BAe ATP's."/>
+</profile>
+  <info real="True" from="1994" to="1995" />
+  <prefereds aircrafts="BAe ATP"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1995)-->
+	     	         <airliners>
+	    <airliner type="BAe ATP" early="5" late="5"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="BOH" destination2="AMS" />
+		  <route destination1="BOH" destination2="GLA" />
+		  <route destination1="BOH" destination2="MAN" />
+		  <route destination1="BOH" destination2="DUB" />
+		  <route destination1="BOH" destination2="JER" />
+        </routes>
+</airline>

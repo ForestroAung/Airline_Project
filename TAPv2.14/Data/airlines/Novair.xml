@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Novair" iata="N9"  color="Gold" area="105" CEO="Anders Fred" mentality="Moderate" market="Global" preferedairport="ARN" schedule="Charter"> 
+  <narrative narrative="Novair is a charter airline based at Stockholm Arlanda in Sweden. It has another large base at Oslo,Norway and Gothenburg,Sweden with smaller focus cities at Copenhagen and Billund,Denmark. It started in 1997. Many of its flights are for a company called Apollo. The main focus in the summer is Mediterranean destinations and in the winter everywhere else. The 2015 offerings from Stockholm were Burgas,Bulgaria Chania,Greece
+ Bali,Indonesia Fuertevenrura,Canary Islands of Spain Goa,India Gran Canaria,Canary Islands of Spain Kefalonia,Greece Larnaca,Cyprus Lombok,Indonesia Preveza,Greece Rhodes,Greece Santorini,Greece Sharm el-Shiekh,Egypt and Zakynthos,Greece. Oslo had the same offerings except for Lombok and Bali. Its fleet at December 2014 was three A321's and an A330-200. It also had three A321neo's on order. It has used 737-800's before having had three of those from about 1998 to 2004 or 2005. A few A320's were used for short times in the late 90's. It also had two Lockheed L-1011 Tristar's from 1997 through July 2000. It is owned by Swiss tourism company Kuoni Travel." />
+</profile>
+   <info real="True" from="1997" to="2199"></info>
+   <prefereds aircrafts="Airbus A321-200,Airbus A330-200,Airbus A321neo"></prefereds>
+   <focusairports>
+			       <focusairport airport="OSL"></focusairport>
+			       <focusairport airport="GOT"></focusairport>
+			       <focusairport airport="CPH"></focusairport>
+			       <focusairport airport="BLL"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A330-200" early="2" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="3" late="0"></airliner>
+	     </airliners>
+	          	        <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2019)-->
+	         <airliners>
+	    <airliner type="A321neo" early="1" late="3"></airliner>
+	     </airliners>
+	          	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2001)-->
+	         <airliners>
+	    <airliner type="Lockeed L-1011-500" early="2" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="ARN" destination2="FUE" season="Winter" />
+		<route destination1="ARN" destination2="LPA" season="Winter"/>
+	        <route destination1="ARN" destination2="RHO" season="Summer"/>
+	        <route destination1="ARN" destination2="LCA" season="Summer"/>
+		<route destination1="ARN" destination2="CHQ" season="Summer"/>
+		<route destination1="ARN" destination2="BOJ" season="Winter"/>
+		<route destination1="ARN" destination2="SSH" season="Winter"/>
+		<route destination1="ARN" destination2="EFL" season="Summer"/>
+		<route destination1="ARN" destination2="ZTH" season="Summer"/>
+		<route destination1="ARN" destination2="LOP" season="Winter"/>
+		<route destination1="ARN" destination2="PVK" season="Summer"/>
+		<route destination1="ARN" destination2="JTR" season="Summer"/>
+		<route destination1="ARN" destination2="DPS" season="Winter"/>
+		<route destination1="ARN" destination2="GOI" season="Winter"/>
+		<route destination1="OSL" destination2="FUE" season="Winter" />
+		<route destination1="OSL" destination2="LPA" season="Winter"/>
+	        <route destination1="OSL" destination2="RHO" season="Summer"/>
+	        <route destination1="OSL" destination2="LCA" season="Summer"/>
+		<route destination1="OSL" destination2="CHQ" season="Summer"/>
+		<route destination1="OSL" destination2="BOJ" season="Winter"/>
+		<route destination1="OSL" destination2="SSH" season="Winter"/>
+		<route destination1="OSL" destination2="EFL" season="Summer"/>
+		<route destination1="OSL" destination2="ZTH" season="Summer"/>
+		<route destination1="OSL" destination2="PVK" season="Summer"/>
+		<route destination1="OSL" destination2="JTR" season="Summer"/>
+		<route destination1="OSL" destination2="GOI" season="Winter"/>
+        </routes>
+</airline>

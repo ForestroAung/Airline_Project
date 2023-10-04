@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ladeco" iata="LCO" color="Yellow" area="435" CEO="Pierre Rodriguez" mentality="Moderate" market="Global" preferedairport="SCL" >
+    <narrative narrative="Ladeco was an airline that operated from 1958 until 1994 when LAN Chile bought 99% of it and merged them into LAN. Its base was Santiago,Chile. Its name is an acronym for Linea Aerea Del Cobre, which means Airline of Copper, the main export of Chile. It served about 16 domestic airports besides the base. International wise it went to 8 in Argentina,3 in Brazil,3 in the USA,2 in Mexico,2 in Dominican Republic,and one each in Canada,Colombia,Panama,Ecuador,Guatemala,Jamaica,Costa Rica,Cuba,Paraguay and Uruguay. Its fleet over time had 20 737-200's,7 727's,4 BAC-111 200's,4 707-320B's,6 DC-6B's,2 757-200's,2 DC-8's,one A300,two 737-300's,and two Fokker 27's and in the 60's numerous DC-3's." />
+  </profile>
+     <info real="True" from="1958" to="1995"></info>
+     <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 727-100,Boeing 757-200,BAC One-Eleven 200,Boeing 707-320B,Douglas DC-6B,Douglas DC-3"></prefereds>
+        	           <focusairports>
+		 <focusairport airport="CJC"></focusairport>
+		 <focusairport airport="ANF"></focusairport>
+		      </focusairports>
+      <routes>  
+	    <route destination1="SCL" destination2="ANF"  />
+            <route destination1="SCL" destination2="CJC"  />	
+            <route destination1="SCL" destination2="LSC"  />	
+            <route destination1="SCL" destination2="ARI"  />		
+            <route destination1="SCL" destination2="CCP"  />	
+            <route destination1="SCL" destination2="IQQ"  />		
+            <route destination1="SCL" destination2="BBA"  />	 
+            <route destination1="SCL" destination2="PMC"  />	
+            <route destination1="SCL" destination2="PUQ"  />	   
+	    <route destination1="SCL" destination2="ZOS"  />	
+	    <route destination1="SCL" destination2="ZAL"  />	
+	    <route destination1="SCL" destination2="ESR"  />	
+	    <route destination1="SCL" destination2="EZE"  />	
+	    <route destination1="SCL" destination2="MDZ"  />	
+	    <route destination1="SCL" destination2="GRU"  />	
+	    <route destination1="SCL" destination2="GIG"  />	
+	    <route destination1="SCL" destination2="BOG"  />
+	    <route destination1="SCL" destination2="GYE"  />	
+            <route destination1="SCL" destination2="PTY"  />	
+            <route destination1="SCL" destination2="MVD"  />		
+	    <route destination1="SCL" destination2="ASU"  />	
+	    <route destination1="SCL" destination2="SSA"  />	
+	    <route destination1="SCL" destination2="GUA"  />	
+	    <route destination1="SCL" destination2="SJO"  />	
+	    <route destination1="SCL" destination2="MEX"  />	
+	    <route destination1="SCL" destination2="MIA"  />	
+	    <route destination1="SCL" destination2="JFK"  />	
+	    <route destination1="SCL" destination2="CUN"  />	
+	    <route destination1="SCL" destination2="SDQ"  />	
+	    <route destination1="SCL" destination2="PUJ"  />
+            <route destination1="SCL" destination2="MBJ"  />
+            <route destination1="SCL" destination2="HAV"  />
+                   </routes>
+</airline>

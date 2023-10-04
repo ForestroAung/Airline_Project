@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Arabia Jordan" iata="9P" logo="G9" color="Red" area="301" CEO="Riad Khashman" mentality="Safe" market="Global" preferedairport="AMM">
+  <narrative narrative="Air Arabia Jordan started flying in May 2015 and is based at Amman,Jordan at Queen Alia Airport. It is 49% owned by Air Arabia which is based at Sharjah,UAE. Air Arabia Jordan used to be Petra Airlines and was pretty similiar to the new airline. It served some of the same places and used the same
+  plane type that they do no, the A320. It even has the same CEO and IATA and ICAO codes. And its majority owner, the 51%, is still Rum Aviation, the owner of 100% of Petra Airlines. Petra did hwoever also call Amman's other airport, Cilvil Aiport, a base, while this version focuses on Queen Alia.
+  The routes its offering at the start are Sharm-el-Sheikh,Egypt Erbil,Iraq Kuwait and the Saudi Arabian cities of Dammam,Jeddah and Riyadh. It was also using two A320's both of which were Petra's, but it will soon have Air Arabia owned planes."/>
+</profile>
+  <info real="True" from="2015" to="2199" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>  
+ <routes>
+    <route destination1="AMM" destination2="JED"/>
+    <route destination1="AMM" destination2="SSH"/>
+    <route destination1="AMM" destination2="RUH"/>
+    <route destination1="AMM" destination2="KWI" />
+    <route destination1="AMM" destination2="DMM" />
+    <route destination1="AMM" destination2="EBL" />
+  </routes>
+</airline>

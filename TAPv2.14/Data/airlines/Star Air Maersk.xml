@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Star Air (Maersk)" iata="SRR"  color="Cyan" area="108" CEO="Soren Graversen" mentality="Moderate" market="Regional" preferedairport="CGN" routefocus="Cargo">
+    <narrative narrative="Star Air is part of the Maersk shipping conglomerate which is a Danish company, however the cargo airline is based at Cologne/Bonn,Germany. It does most of its flights for UPS from the Cologne base.
+    It also flies in the UK. The airline started in 1987 with three Fokker 27's. It had four by 1990 and did stuff for airlines like TNT,FedEx and its eventual partner UPS. In 1991 it was made a subsidiary of the passnger operations
+    at Maersk Air. Star Air itself did some leasing to passenger flights on a wet lease basis. In 1993 Star Air won the UPS contract of UPS to help them expand into Europe after the competitor Sterling fell into difficult times causing UPS to choose Star Air instead. It began leasing three 727-200 Adv's and soon four, and was given the routes from Cologne to Zaragoza,Spain Rome and Milan,Italy and Porto,Portugal. By 1996 the Fokkers were retired. It would have seven 727-200 Adv's until they were retired in 2004 and a 727-100C which was acquired in 1996 and retired in 2006. It leased four 757's in 2001/2002 and used those until about 2006. Maersk Air was sold to STerling in 2005 so Star Air was again a direct subsidiary of Maersk. In 2005 it started leasing eleven 767-200's which it is still using at 2015. It also has a Challenger 600 business jet for corporate use which Maersk Air used to have. In 2007 it made a profit of 58 million Danish krones, up from 7 million in 2004. Total revenue in 2007 was 653 million. In 2013 the airline had a revenue of DKK 813 million and a net profit of DKK 69 million. It employed 119 pilots, 41 mechanics and 36 administrative staff. A 767-300 was used from March 2014 through the middle of January 2015 also. At 2015 its main routes from Cologne were to East Midlands,UK Dublin,Ireland Paris,France Munich,Germany Bergamo,Italy Lyon,France Marseille,France Porto,Portugal and Edinburgh,Scotland,UK. From East Midlands it also does domestic service to Edinburgh and Belfast. It also at least does the Belfast route from London Stansted as well." />
+</profile> 
+   <info real="True" from="1987" to="2199"></info>
+   <prefereds>="Boeing 767-200,Fokker F27,Boeing 727-200 Adv."></prefereds>
+<startdata>
+  <focusairports>
+                 <focusairport airport="EMA"></focusairport>
+	     </focusairports>
+        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-200" early="11" late="11"></airliner>
+	     </airliners>
+        <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="4" late="0"></airliner>
+	     </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (1987) late (1991)-->
+	         <airliners>
+	    <airliner type="Fokker F27" early="3" late="5"></airliner>
+	     </airliners>
+   	  <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2004)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="7" late="0"></airliner>
+	     </airliners>
+	     	        	  <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 727-100C" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	        	  <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300F" early="1" late="0"></airliner>
+	     </airliners>
+
+	     <routes>
+		<route destination1="CGN" destination2="DUB" />
+		<route destination1="CGN" destination2="EMA"  />
+	        <route destination1="CGN" destination2="CDG"  />
+		<route destination1="CGN" destination2="MUC"  />
+		<route destination1="CGN" destination2="BGY"  />
+		<route destination1="CGN" destination2="LYS"  />
+	        <route destination1="CGN" destination2="OPO"  />
+		<route destination1="CGN" destination2="MRS"  />
+		<route destination1="CGN" destination2="FCO"  />
+	        <route destination1="CGN" destination2="ZAZ"  />
+		<route destination1="EMA" destination2="EDI"    />
+		<route destination1="EMA" destination2="BFS" />
+		<route destination1="CGN" destination2="EDI"  />
+		<route destination1="STN" destination2="BFS" />
+
+
+	        </routes>
+
+
+
+
+
+
+
+
+
+
+
+  </startdata>
+</airline>

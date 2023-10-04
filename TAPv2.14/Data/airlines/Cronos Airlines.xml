@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cronos Airlines" iata="CRA" color="Teal" area="344" CEO="Andreas Kaiafas" mentality="Safe" market="Regional"  preferedairport="SSG">
+  <narrative narrative="Cronos Airlines is based at Malabo,Equatorial Guinea on Bioko Island. It started in 2002. As of March 2015 it flies to the domestic airport of Bata on the mainland of Africa,Cotonou in Benin,Douala in Cameroon and Port Harcourt in Nigeria. There are plans to open routes to Lagos,Nigeria Niamey,Niger and
+  Yaounde,Cameroon in the near future. Its fleet at February 2015 was two BAe 146's and are expecting an Embraer ERJ135 to be delivered soon. In 2013 and 2014 it had two A320's,but not at the same time, which were leased." />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+  <prefereds aircrafts="BAe 146-200,Airbus A320neo,Embraer ERJ135 ER"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="1" late="2"></airliner>
+	     </airliners>
+	     
+ <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="0"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="1" late="1"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="SSG" destination2="BSG" opened="2002" closed="2199" />
+	        <route destination1="SSG" destination2="COO" opened="2002" closed="2199" />
+	        <route destination1="SSG" destination2="DLA"  opened="2002" closed="2199"  />
+	        <route destination1="SSG" destination2="PHC" opened="2002" closed="2199" />
+	        <route destination1="SSG" destination2="LOS"  opened="2015" closed="2199"  />
+                 <route destination1="SSG" destination2="NIM"  opened="2016" closed="2199"  />
+	        <route destination1="SSG" destination2="NSI" opened="2016" closed="2199" />
+              </routes>
+  
+
+
+</airline>

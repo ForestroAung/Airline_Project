@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Atlantis European Airways" iata="TD" logo="TD" color="MediumBlue" area="179" CEO="Rolland Margaryan" mentality="Safe" market="Regional" preferedairport="EVN" >
+    <narrative
+      narrative="Atlantis European Airways is an airline based in Yerevan. It has fleet of one aircraft which operates under a code-sharing agreement with Czech Airlines and Austrian Airlines." />
+  </profile>
+  <info real="True" from="2004" to="2199" />
+  <prefereds aircrafts="Airbus A320-100"></prefereds>
+
+</airline>

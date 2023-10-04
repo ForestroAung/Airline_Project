@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aeroperlas" iata="WL"  color="Blue" area="410" CEO="Lorenzo Cabrera" mentality="Moderate" market="Local" preferedairport="PAC">
+  <narrative narrative="Aeroperlas was a Panama based airline that was around from June 1970 to March 6th,2012. It's main base was the smaller Panama City airport of Albrook Marcos A Gelabert Airport, with another hub at Enrique Malek Airport in David. It also operated from the larger Panama City airport of Tocumen in its later years. It operated to 12 domestic airports besides the hubs and was the third largest airline in Panama. It also served San Jose,Costa Rica starting in 1996. 
+  It's name is short for Aerolneas Islas de las Perlas. From 1976 to 1987 the government owned it. In the late 90's Apair owned 80% of it who also own the airline American Eagle,and the AMR Corporation owned 20%. In 2004 it became an affiliate member of Grupo TACA and operated under the name TACA Regional on some of its routes. Its fleet at September 2010 was three ATR 42's and two Cessna 208's. It also used Twin Otters throughout most of its life."/>
+   </profile>
+    <info real="True" from="1970" to="2012" />
+       <prefereds aircrafts="ATR 42-300,Cessna 208B,DHC-6-100 Twin Otter,DHC-6-300 Twin Otter"></prefereds>
+                    <focusairports>
+			       <focusairport airport="DAV"></focusairport>
+			       <focusairport airport="PTY"></focusairport>
+     </focusairports>
+      	     	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="3"></airliner>
+	     </airliners>
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="0" late="2"></airliner>
+	     </airliners>
+	     
+
+	       <routes>
+	       	<route destination1="PTY" destination2="SJO"  opened="1996" closed="2199"  />
+
+              </routes>
+</airline>

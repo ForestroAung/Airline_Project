@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<airline>
+
+  <profile name="Hong Kong Express Airways" iata="UO" color="DarkRed" area="215" CEO="Yang Jian Hong"
+           mentality="Moderate" market="Regional" preferedairport="HKG">
+
+    <narrative
+      narrative="Hong Kong Express Airways is a Hong Kong-based low-cost airline that provides scheduled air service to 8 destinations in Asia, including China, Japan, Malaysia, Taiwan and Thailand. The airline main hub at Hong Kong International Airport, using a fleet that consists exclusively of Airbus A320s." />
+
+  </profile>
+
+  <info real="True" from="2004" to="2199"></info>
+
+       <prefereds aircrafts="Airbus A320-200,Airbus A320neo,Airbus A321-200,Embraer E-170,Boeing 737-800"></prefereds>
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="0" late="8"></airliner>
+	     </airliners>
+	     	         <airliners>
+	    <airliner type="Airbus A320neo" early="0" late="7"></airliner>
+	     </airliners>
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="0" late="12"></airliner>
+	     </airliners>
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="8" late="0"></airliner>
+	     </airliners>
+	     	         <airliners>
+	    <airliner type="Embraer E-170" early="4" late="0"></airliner>
+	     </airliners>
+        <focusairports>
+			       <focusairport airport="HKG"></focusairport>
+     </focusairports>
+	       <routes>
+	       	<route destination1="HKG" destination2="CAN" opened="2005" closed="2013" airliner="Embraer E-170"/>
+	       	<route destination1="HKG" destination2="CEI"/>
+	       	<route destination1="HKG" destination2="CJU"/>
+	       	<route destination1="HKG" destination2="CKG" opened="2006" closed="2013" airliner="Boeing 737-800"/>
+	       	<route destination1="HKG" destination2="CNX" opened="2006" closed="2199" airliner="Airbus A320-200"/>
+	       	<route destination1="HKG" destination2="CXR"/>
+	       	<route destination1="HKG" destination2="DAD"/>
+	       	<route destination1="HKG" destination2="DYG"/>
+	       	<route destination1="HKG" destination2="FUK" opened="2013" closed="2199" airliner="Airbus A320-200"/>
+	       	<route destination1="HKG" destination2="HGH" opened="2005" closed="2013" airliner="Embraer E-170"/>
+	       	<route destination1="HKG" destination2="HIJ"/>
+	       	<route destination1="HKG" destination2="HKT"/>
+	       	<route destination1="HKG" destination2="HND" opened="2013" closed="2199" airliner="Airbus A321-200"/>
+	       	<route destination1="HKG" destination2="HUN"/>
+	       	<route destination1="HKG" destination2="ICN" opened="2013" closed="2199" airliner="Airbus A321-200"/>
+	       	<route destination1="HKG" destination2="ISG"/>
+	       	<route destination1="HKG" destination2="KIX" opened="2013" closed="2199" airliner="Airbus A321-200"/>
+	       	<route destination1="HKG" destination2="KMG" opened="2006" closed="2199" airliner="Airbus A320-200"/>
+	       	<route destination1="HKG" destination2="KMJ"/>
+	       	<route destination1="HKG" destination2="KOJ"/>
+	       	<route destination1="HKG" destination2="NGB" opened="2005" closed="2199" airliner="Embraer E-170"/>
+	       	<route destination1="HKG" destination2="NRT" opened="2013" closed="2199" airliner="Airbus A321-200"/>
+	       	<route destination1="HKG" destination2="PUS" opened="2013" closed="2199" airliner="Airbus A320-200"/>
+	       	<route destination1="HKG" destination2="RMQ" opened="2005" closed="2013" airliner="Embraer E-170"/>
+	       	<route destination1="HKG" destination2="SEP" opened="2005" closed="2199" airliner="Airbus A320-200"/>
+	       	<route destination1="HKG" destination2="SHA" opened="2006" closed="2013" airliner="Boeing 737-800"/>
+	       	<route destination1="HKG" destination2="SPN"/>
+	       	<route destination1="HKG" destination2="TAK"/>
+              </routes>
+</airline>

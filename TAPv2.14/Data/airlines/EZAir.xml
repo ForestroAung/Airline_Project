@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="EZAir" iata="EZR"  color="MediumBlue" area="423" CEO="Rene Winkel" mentality="Safe" market="Local" preferedairport="CUR">
+  <narrative narrative="EZAir is based at Curacao, a Caribbean island off the coast of Venezuela which is part of the Kingdom of the Netherlands. Its only route as of 2015 still is to another
+  of the ABC Islands of the Netherlands, Bonaire. This is only a 20-22 minute flight. It does five of these a day. The airline commenced in 2000. It also does charters to the other island Aruba, and to the Colmbian airports at Bogota,Medellin,Cali,Barranquilla and Bucaramanga.
+ Its fleet is two BN-2A Islanders and a Learjet 35. It uses the Learjet for Dedicated Air Ambulance primary transfers to Bogota,Colombia and Medellin,Colombia and plans on doing so in the US also. Former planes include two Piper Seneca's,a Piper PA-31 and a Cessna 182 Skylane."/>
+   </profile>
+    <info real="True" from="2000" to="2199" />
+       <prefereds aircrafts="BN-2A Islander,PA-34 Seneca,PA-31T Cheyenne,Learjet 35"></prefereds>
+ <focusairports>
+                 <focusairport airport="BON"></focusairport>
+     </focusairports>
+  
+    <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-34 Seneca" early="2" late="0"></airliner>
+	     </airliners>
+	              <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-31T Cheyenne" early="1" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 182 Skylane" early="1" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Learjet 35" early="0" late="1"></airliner>
+	     </airliners>
+	     
+	     
+
+	       <routes>
+	       	<route destination1="CUR" destination2="BON"  opened="2000" closed="2199" />	
+	        <route destination1="CUR" destination2="AUA"  opened="2000" closed="2199" type="Charter" />
+                <route destination1="BON" destination2="AUA"  opened="2000" closed="2199" type="Charter" />	
+                <route destination1="CUR" destination2="BAQ"  opened="2000" closed="2199" type="Charter" />	
+                <route destination1="CUR" destination2="MDE"  opened="2000" closed="2199" type="Charter" />
+                <route destination1="CUR" destination2="BGA"  opened="2000" closed="2199" type="Charter" />	
+                <route destination1="BON" destination2="BAQ"  opened="2000" closed="2199" type="Charter" />		
+                <route destination1="BON" destination2="BGA"  opened="2000" closed="2199" type="Charter" />		
+              </routes>
+</airline>

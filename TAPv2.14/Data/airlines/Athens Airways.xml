@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Athens Airways" iata="ATW" color="SteelBlue" area="139" CEO="Sakis Andrianopoulos" mentality="Moderate" market="Domestic" preferedairport="ATH">
+  <narrative narrative="Athens Airways was around from operations start at January 31,2009 until September 2011. Its base was Athens with focus cities at Alexandroupolis,Mytilene and Thessaloniki. It served 13 other domestic
+  airports besides those also. It had four Embraer ERJ 145's at the start and a Dash 8-300. It got another ERJ 145 in 2010."/>
+</profile>
+  <info real="True" from="2009" to="2011" />
+  <prefereds aircrafts="Embraer ERJ145 LR"></prefereds>
+          <focusairports>
+		 <focusairport airport="AXD"></focusairport>
+		 <focusairport airport="MJT"></focusairport>
+		 <focusairport airport="SKG"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2010)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="4" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2010)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="1" late="1"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="ATH" destination2="AXD"  />
+		<route destination1="ATH" destination2="SKG"  />
+                <route destination1="ATH" destination2="MJT"  />
+		<route destination1="ATH" destination2="JTR"  />
+		<route destination1="ATH" destination2="HER"  />
+		<route destination1="ATH" destination2="RHO"  />
+		<route destination1="ATH" destination2="JSI"  />
+		<route destination1="ATH" destination2="AOK"  />
+		<route destination1="ATH" destination2="EFL"  />
+		<route destination1="ATH" destination2="ZTH"  />
+		<route destination1="ATH" destination2="CHQ"  />
+		<route destination1="ATH" destination2="JIK"  />
+		<route destination1="ATH" destination2="KVA"  />
+		<route destination1="ATH" destination2="JMK"  />
+		<route destination1="ATH" destination2="KIT"  />
+	        </routes>
+
+
+
+
+</airline>

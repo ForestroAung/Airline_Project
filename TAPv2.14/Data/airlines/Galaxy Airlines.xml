@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Galaxy Airlines" iata="GXY" color="Blue" area="220" CEO="Teruo Wakasa" mentality="Safe" market="Domestic" preferedairport="HND" routefocus="Cargo">
+  <narrative narrative="Galaxy Airlines was a cargo airline that did domestic service in Japan from Tokyo Haneda. It was in operation from October 31st,2006 until October 2008. Its first two routes were from HND to Naha on the island of Okinawa and to New Kitakyushu on Kyushu, which it had one A300-600 at the start. In December 2006 it got another one and began flights in April 2007 to Osaka Kansai and New Chitose near Sapporo. In March 2007 it had 122 employees. It was owned 90% by Sawada Express, a large transportation company and 10% by Japan Airlines."/>
+</profile>
+  <info real="True" from="2006" to="2009" />
+  <prefereds aircrafts="Airbus A300-600F"></prefereds>
+ <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	         <airliners>
+	    <airliner type="Airbus A300-600F" early="2" late="2"></airliner>
+	     </airliners>
+
+ <routes>
+                <route destination1="HND" destination2="OKA" opened="2006" closed="2199" />
+ 	        <route destination1="HND" destination2="KKJ"   opened="2006" closed="2199"  />
+	     	<route destination1="HND" destination2="KIX"    opened="2007" closed="2199"  />	
+	        <route destination1="HND" destination2="CTS"   opened="2007" closed="2199"   />			
+	        </routes>
+
+
+
+
+</airline>

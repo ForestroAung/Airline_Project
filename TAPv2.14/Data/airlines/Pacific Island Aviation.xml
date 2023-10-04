@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Pacific Island Aviation" iata="PAV" color="Green" area="402" CEO="Robert Christian" mentality="Safe" market="Local" preferedairport="SPN">
+  <narrative narrative="Pacific Island Aviation started in 1988 as a helicopter airline. It started commuter airline service in March 1992. Its base was Saipan,Northern Mariana Islands, a US Territory near Guam. It flew from Saipan
+  to Guam,Rota and Tinian. Rota and Tinian are part of the same territory while Guam is another US Trritory in the same chain of islands. In December 1992 it started codesharing with Continental Micronesia. In February 1995
+  it switched to codesharing with Northwest Airlines. In February 1998 it started using the name Northwest Airlink. After operations ceased in February 2005 it tried to start up again as a Texas airline out of Dallas flying to 
+  Beaumont,TX and Lake Charles,LA. It was going to use the name Tri-Star Airways. The airline had three Short 360's at the end. It used the Cessna 310 type in its early years as well."/>
+</profile>
+  <info real="True" from="1992" to="2005" />
+  <prefereds aircrafts="Short 360,Cessna 310"></prefereds> 
+  <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Short 360" early="1" late="3"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="SPN" destination2="GUM"   />
+	          <route destination1="SPN" destination2="ROP"  />
+                  <route destination1="SPN" destination2="TIQ"  />
+		        </routes>
+
+
+
+
+</airline>

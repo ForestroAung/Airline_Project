@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="XL Airways France" iata="SE" color="Blue" area="113" CEO="Cédric Pastour" mentality="Moderate" market="Global" preferedairport="CDG">
+    <narrative narrative="XL Airways France, formerly Star Airlines, is a French airline with its head offices on the grounds of Paris-Charles de Gaulle Airport. It operates scheduled flights mainly to long-haul destinations in Africa, the Middle East, the United States and the Caribbean as well as charter flights to medium-haul destinations in the Mediterranean, mostly out of Charles de Gaulle Airport." /></profile>
+  <logos>
+    <logo from="1995" to="2005" path="SE1995"/>
+    <logo from="2006" to="2019" path="JN2006"/>
+  </logos>
+  <names>
+    <name value="Star Europe" from="01.01.1995 00:00:00"/>
+    <name value="Star Airlines" from="01.10.1997 00:00:00"/>
+    <name value="XL Airways France" from="01.11.2006 00:00:00"/>
+  </names>
+  <info real="True" from="1995" to="2019" />
+   <prefereds aircrafts="Airbus A330-200,Airbus A330-300,Boeing 737-800"></prefereds>
+         <airliners>
+	    <airliner type="Airbus A330-300" early="3" late="3"></airliner>
+	    <airliner type="Boeing 737-800" early="2" late="2"></airliner>
+	      <airliner type="Airbus A330-200," early="2" late="2"></airliner>
+	     </airliners>
+</airline>

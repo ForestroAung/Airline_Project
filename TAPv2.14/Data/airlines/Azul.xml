@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Azul" iata="AD" color="Black" area="431" CEO="Pedro Janot" mentality="Safe" market="Global"
+           preferedairport="VCP" businessmodel="LCC">
+           <narrative
+      narrative="is a Brazilian flag carrier and low cost carrier based in Barueri. The company's business model is to stimulate demand by providing frequent and affordable air service to underserved markets throughout Brazil. The company was named Azul ('Blue' in Portuguese) after a naming contest in 2008, where 'Samba' was the other popular name. It was established on May 5, 2008 by Brazilian-born David Neeleman." />
+  </profile>
+  <info real="True" from="2008" to="2199" />
+</airline>

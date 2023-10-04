@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="UTair Cargo" iata="TUM" color="MediumBlue" area="177" CEO="Andrei Martirosov" mentality="Moderate" market="Global" preferedairport="TJM" routefocus="Cargo">
+  <narrative narrative="UTair Cargo is a cargo division of UTair Aviation based at Tyumen,Russia. It was formed in 1997 and has eleven Antonov 2's and six Antonov 74's. It carries mail for DHL,aerial surveys,and does forest fire observation and paratrooper transport also. Some of the places it goes to are Afghanistan,Azerbaijan,Tajikistan,Kazakhstan,Ukraine,Turkey,Egypt,Sudan,Bahrain,Germany,Belgium,Finland,Hungary,Switzerland and Poland. It started going to North Pole stations in 2012." />
+</profile>
+   <info real="True" from="1997" to="2199"></info>
+   <prefereds aircrafts="Antonov An-2,Antonov An-74"></prefereds>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-2" early="6" late="11"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-74" early="3" late="6"></airliner>
+	     </airliners>
+
+
+
+
+
+</airline>

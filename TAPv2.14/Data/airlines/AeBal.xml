@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="AeBal" iata="QO"  color="Sienna" area="117" CEO="Antonio Mata" mentality="Moderate" market="Domestic" preferedairport="MAD">
+  <narrative narrative="AeBal, or its full name of Aerolas de Baleares and known as Quantum Air for its last few months, was a domestic Spanish carrier based at Madrid with bases and focus cities at Barcelona,Palma de Mallorca
+  and Bilbao. It was in operation from July 5,2000 to January 26,2010. It was a subsidiary of Spanair from the start until January 2009 when it was sold to Proturin, a Spanish investment company. They turned it into Quantam Air 
+  which lasted only until January 2010. Overall it was owned 51% by Spanair and 49% by Spanair's parent SAS. Spanair itself ceased in January 2012. From Madrid it served Palma de Mallorca,and four in the Canary Islands at Tenerife North,
+  Gran Canaria,Fuerteventura and Lanzarote. The same were served from Barcelona and from Bilbao only Fuerteventura was not served. It also served from Madrid, Jerez and A Coruna. And from Barcelona it did A Coruna,Ibiza,and Asturias.
+  Its initial fleet was three Boeing 717-200's, in 2001 it got another and in 2007 it got another, still having all 5 at the end of its Spanair life, all left following the sell off, Blue1 acquired them."/>
+   </profile>
+    <info real="True" from="2000" to="2010" />
+       <prefereds aircrafts="Boeing 717-200"></prefereds>
+	<focusairports>
+			       <focusairport airport="PMI"></focusairport>
+			       <focusairport airport="BCN"></focusairport>
+			        <focusairport airport="BIO"></focusairport>
+		     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 717-200" early="3" late="5"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="MAD" destination2="PMI"  />
+		<route destination1="BCN" destination2="PMI"  />
+		<route destination1="BIO" destination2="PMI"  />
+		<route destination1="MAD" destination2="TFN"  />
+		<route destination1="MAD" destination2="LPA"  />
+		<route destination1="MAD" destination2="FUE"  />
+		<route destination1="MAD" destination2="ACE"  />
+	        <route destination1="BCN" destination2="TFN"  />
+		<route destination1="BCN" destination2="LPA"  />
+		<route destination1="BCN" destination2="FUE"  />
+		<route destination1="BCN" destination2="ACE"  />
+		<route destination1="BIO" destination2="TFN"  />
+		<route destination1="BIO" destination2="LPA"  />
+		<route destination1="BIO" destination2="ACE"  />
+	        <route destination1="MAD" destination2="XRY"  />
+	       	<route destination1="MAD" destination2="LCG"    />
+		<route destination1="BCN" destination2="OVD"    />
+		<route destination1="BCN" destination2="IBZ"     />
+		<route destination1="BCN" destination2="LCG"     />
+	
+              </routes>
+</airline>

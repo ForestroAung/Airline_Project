@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Germania" iata="ST" color="LimeGreen" area="109" CEO="Karsten Balke" mentality="Moderate"  market="Global" preferedairport="SXF">
+    <narrative
+      narrative="Germania, legally Germania Fluggesellschaft mbH, is a privately owned German airline with its headquarters in Berlin.[1] Germania operates scheduled and charter flights to destinations in Europe, North Africa and the Middle East from several German bases. It carried 2.5 million passengers in 2009 and had around 850 employees as of summer 2014.[2]" />
+  </profile>
+  <info real="True" from="1986" to="2019" />
+  <prefereds aircrafts="Boeing 737-700,Airbus A319-100,Airbus A321-200,Boeing 737-300,Fokker 100,Fokker F27,Boeing 727-100, Airbus A320neo"></prefereds>
+  <focusairports>
+        <focusairport airport="BRE"/>
+        <focusairport airport="BEY"/>
+		<focusairport airport="DRS"/>
+		<focusairport airport="DUS"/>
+		<focusairport airport="HAM"/>
+		<focusairport airport="FMO"/>
+		<focusairport airport="ERF"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 737-700" early="2" late="8"></airliner>
+      <airliner type="Airbus A321-100" early="2" late="8"></airliner>
+	  <airliner type="Airbus A319-100" early="2" late="8"></airliner>
+    </airliners>
+  </startdata>
+  <logos>
+<logo from="1958" to="1992" path="ST1978-2009"></logo>
+</logos>
+
+</airline>

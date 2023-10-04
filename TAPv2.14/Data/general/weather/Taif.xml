@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<weather type="town" value="Ta’if">
+  <months>
+    <month month="1" precipitation="4">
+      <temp min="8" max="23"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="2" precipitation="0">
+      <temp min="10" max="25"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="3" precipitation="2">
+      <temp min="12" max="27"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="4" precipitation="3">
+      <temp min="15" max="30"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="5" precipitation="13">
+      <temp min="19" max="34"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="6" precipitation="0">
+      <temp min="22" max="36"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="7" precipitation="0">
+      <temp min="23" max="35"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="8" precipitation="1">
+      <temp min="23" max="36"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="9" precipitation="8">
+      <temp min="21" max="35"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="10" precipitation="5">
+      <temp min="16" max="31"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="11" precipitation="3">
+      <temp min="12" max="27"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+    <month month="12" precipitation="0">
+      <temp min="10" max="24"/>
+      <wind min="Calm" max="Near_Gale"/>
+    </month>
+  </months>
+</weather>

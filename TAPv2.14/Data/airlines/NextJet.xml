@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="NextJet" iata="2N"  color="Gray" area="105" CEO="Magnus Ivarsson" mentality="Moderate" market="Regional" preferedairport="ARN"> 
+  <narrative narrative="NextJet is based at Stockholm Arlanda in Sweden. It began in 2002. As of April 2015 it was going to ten domestic destinations from Arlanda. From Stockholm Bromma is was going to Ostersund/Are. International destinations from ARN are Kokkola,Mariehamn in the Aland Islands,and Pori which are all in Finland. It does a domestic Finland route from Turku to Mariehamn as well. Mariehamn is considered one of its bases. Oslo and Sandefjord in Norway were being served in 2014 as well but not as of April 2015. Its fleet at February 2014 was twelve Saab 340's and five BAe ATP's. In July 2012 it took over the routes Air Aland did from its Mariehamn hub." />
+</profile>
+   <info real="True" from="2002" to="2199"></info>
+   <prefereds aircrafts="Saab 340B,BAe ATP"></prefereds>
+   <focusairports>
+			       <focusairport airport="BMA"></focusairport>
+			       <focusairport airport="MHQ"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2014)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="6" late="12"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2014)-->
+	         <airliners>
+	    <airliner type="BAe ATP" early="2" late="6"></airliner>
+	     </airliners>
+<routes>
+                <route destination1="ARN" destination2="AJR" />
+		<route destination1="ARN" destination2="GEV"/>
+	        <route destination1="ARN" destination2="HAD"/>
+	        <route destination1="ARN" destination2="HMV"/>
+		<route destination1="ARN" destination2="KRF"/>
+		<route destination1="ARN" destination2="LYC"/>
+		<route destination1="ARN" destination2="EVG"/>
+		<route destination1="ARN" destination2="VXO"/>
+		<route destination1="ARN" destination2="VHM"/>
+		<route destination1="ARN" destination2="VBY"/>
+		<route destination1="ARN" destination2="KOK"/>
+		<route destination1="ARN" destination2="MHQ" opened="2012" closed="2199"/>
+		<route destination1="ARN" destination2="POR"/>
+		<route destination1="TKU" destination2="MHQ" opened="2012" closed="2199" />
+		<route destination1="BMA" destination2="OSD" />
+		<route destination1="ARN" destination2="JKG"/>
+	        <route destination1="ARN" destination2="TRF"/>
+		
+        </routes>
+
+
+
+
+
+</airline>

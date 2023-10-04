@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Direct Fly" iata="SXP" color="Orange" area="157" CEO="Jan Szczepkowski" mentality="Safe" market="Local" preferedairport="WAW">
+  <narrative narrative="Direct Fly was a short lived Polish airline that started operations on April 12,2006 and ended on May 7,2007. Its base was Warsaw Chopin with other bases at Wroclaw,Gdansk and Krakow.
+  It did domestic service besides its first two months. After two months in operation is cancelled international operations to Copenhagen,Denmark Berlin,Germany Kiev,Ukraine and Lviv,Ukraine. It used two Saab 340's.
+  In its ashes SprintAir was formed in May 2008. SprintAir does a passenger route between Warsaw and Zielona Gora and does cargo to 9 domestic airports and 3 international as of 2013. It also had 18 planes at June 2013. Fifteen Saab 340's,a Let 410 and two Diamond Katana's." />
+   </profile>
+    <info real="True" from="2006" to="2008" />
+       <prefereds aircrafts="Saab 340B"></prefereds>
+             <focusairports>
+		 <focusairport airport="GDN"></focusairport>
+		 <focusairport airport="WRO"></focusairport>
+		  <focusairport airport="KRK"></focusairport>
+		      </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="2"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="WAW" destination2="GDN"  />
+	         <route destination1="WAW" destination2="KRK"  />
+	         <route destination1="WAW" destination2="WRO"  />
+              </routes>
+</airline>

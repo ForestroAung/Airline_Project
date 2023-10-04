@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Polonia" iata="4P" color="SandyBrown" area="157" CEO="Ewa Kolowiecka" mentality="Moderate" market="Global" preferedairport="WAW">
+  <narrative narrative="Air Polonia was a short lived airline based at Warsaw Chopin,Poland from December 8,2003 to December 5,2004. It served as a low cost carrier. It had bases at Gdansk,Poznan,Katowice and Wroclaw also.
+  It served London Stansted from many of these bases,and also served six airports in Spain,two others in Poland,two in Germany,two in France,two in Sweden both Stockholm area airports,and one each in Belgium,Egypt,Greece,Italy,Portugal,Tunisia and also Manchester,UK. It used two 737-400's and a 737-300.
+  Latvia,Malta," />
+   </profile>
+    <info real="True" from="2003" to="2005" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-300"></prefereds>
+             <focusairports>
+		 <focusairport airport="KTW"></focusairport>
+		 <focusairport airport="WRO"></focusairport>
+		  <focusairport airport="POZ"></focusairport>
+	         <focusairport airport="GDN"></focusairport>
+		      </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="WAW" destination2="STN"  />
+	         <route destination1="GDN" destination2="STN"  />
+	         <route destination1="KTW" destination2="STN"  />
+		 <route destination1="POZ" destination2="STN"  />
+		 <route destination1="WAW" destination2="HHN"  />
+		 <route destination1="WAW" destination2="WRO"  />
+		 <route destination1="WAW" destination2="POZ"  />
+		 <route destination1="WAW" destination2="GDN"  />
+		 <route destination1="WAW" destination2="ATH"  />
+		 <route destination1="WAW" destination2="MAD"  />
+	         <route destination1="WRO" destination2="BRU"  />
+		 <route destination1="POZ" destination2="BRU"  />
+		 <route destination1="WAW" destination2="CGN"  />
+		 <route destination1="WAW" destination2="CDG"  />
+		 <route destination1="POZ" destination2="CDG"  />
+		 <route destination1="WRO" destination2="CDG"  />
+	         <route destination1="KTW" destination2="CDG"  />
+		 <route destination1="WAW" destination2="MLA"  />
+		  <route destination1="WAW" destination2="AGP"  />
+		  <route destination1="WAW" destination2="TFS"  />
+		 <route destination1="WAW" destination2="PMI"  />
+		  <route destination1="WAW" destination2="FAO"  />
+		  <route destination1="WAW" destination2="CIA"  />
+		   <route destination1="WAW" destination2="RIX"  />
+		    <route destination1="WAW" destination2="SVQ"  />
+		   <route destination1="WAW" destination2="BVA"  />
+		    <route destination1="WAW" destination2="ARN"  />
+		     <route destination1="WAW" destination2="NYO"  />
+		      <route destination1="WAW" destination2="SSH"  />
+		       <route destination1="WAW" destination2="MIR"  />
+		        <route destination1="WAW" destination2="MAN"  />
+		<route destination1="WAW" destination2="SZZ"  />
+              </routes>
+</airline>

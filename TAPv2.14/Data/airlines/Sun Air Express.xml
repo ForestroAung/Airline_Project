@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sun Air Express" iata="FDY" color="Yellow" area="402" CEO="David Hackett" mentality="Safe" market="Domestic" preferedairport="PIT">
+  <narrative narrative="Sun Air Express focuses on doing Essential Air Service on government awarded contracts. It coporate HQ is Dania Beach,FL in the Miami area. Its main focus city at July 2015 is Pittsburgh,PA.
+  Fom PIT it goes to Altoona,PA Bradford,PA Franklin,PA Lancaster,PA and Jamestown,NY. It started doing Washington Dulles to Hagerstown,MD and to Lancaster,PA in  October 2014. Its first two years in business from 2012 to
+  September or October 2014 it did Houston Bush to Victoria,TX under an EAS contract and when that expired it started doing the IAD service. Its first years it used the IATA code and reservation system of Pacific Wings. It changed to
+  to Mokulele Airlines. It had planned on going between Atlanta and Macon,GA in December 2012 but they pulled out of the deal. It uses nine PA-31 Navajos's of its own and three leased  Cessna 208B's from Mokulele Airlines."/>
+</profile>
+  <info real="True" from="2012" to="2199" />
+  <prefereds aircrafts="PA-31 Navajo,Cessna 208B"></prefereds>
+        	      <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-31 Navajo" early="9" late="9"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="3" late="3"></airliner>
+	     </airliners>
+	     
+               <routes>
+	          <route destination1="IAH" destination2="VCT" opened="2012" closed="2014"   />
+	          <route destination1="PIT" destination2="AOO"   />
+		  <route destination1="PIT" destination2="BFD"   />
+		  <route destination1="PIT" destination2="JHW"   />
+		  <route destination1="PIT" destination2="LNS"   />
+		  <route destination1="PIT" destination2="FKL"   />
+		  <route destination1="IAD" destination2="LNS"  opened="2014" closed="2199"  />
+                  <route destination1="IAD" destination2="HGR"  opened="2014" closed="2199"  />
+		 		        </routes>
+
+
+
+
+</airline>

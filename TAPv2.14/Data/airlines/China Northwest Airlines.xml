@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="China Northwest Airlines" iata="WH" logo="WH2" color="Blue" area="209" CEO="Zhan Zexi" mentality="Moderate" market="Regional" preferedairport="XIY">
+  <narrative narrative="When CAAC broke itself up into six major airline corporations, China Northwest was one of them. The airline was based in Xian. It operated mostly domestic routes but also a handful of international flights to Japan. After the acquisition the airline was renamed China Eastern Xi Bei."/>
+</profile>
+  <info real="True" from="1989" to="2002" />
+  <prefereds aircrafts="Airbus A300-600,Airbus A310-200,Airbus A320-100"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600" early="1" late="5"></airliner>
+	    <airliner type="Airbus A310-200" early="1" late="3"></airliner>
+	     <airliner type="Airbus A320-100" early="3" late="15"></airliner>
+	     </airliners>
+</airline>

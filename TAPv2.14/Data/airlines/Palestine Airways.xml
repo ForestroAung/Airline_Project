@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Palestine Airways" iata="PAA" color="Grey" area="300" CEO="Pinhas Rutenberg" mentality="Safe" market="Regional" preferedairport="HFA">
+  <narrative narrative=""/>
+</profile>
+  <info real="True" from="1937" to="1940" />
+</airline>

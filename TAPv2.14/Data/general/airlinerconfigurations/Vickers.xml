@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Vickers Vimy-->
+<configuration type="Vickers Vimy" economy="0" premium="0" first="-1" business="0" exitrows="220" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="73" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Vickers VC1-->
+<configuration type="Vickers VC1 Viking" economy="0" premium="0" first="-1" business="0" exitrows="855" emergencyrows="-1" toiletrows="855" kitchenrows="855">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="95" width="51"></seat>
+</seats>
+</configuration>
+
+<!--Vickers VC10-->
+<configuration type="Vickers VC10" economy="0" premium="0" first="-1" business="0" exitrows="0,554,1900" emergencyrows="870,1028" toiletrows="0,1900" kitchenrows="0,1900">
+<seats>
+<seat class="First_Class" type="Standard" pitch="79.1" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Vickers Super VC10" economy="0" premium="0" first="-1" business="0" exitrows="0,2485" emergencyrows="870,1028" toiletrows="0,2485" kitchenrows="0,2485">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.6" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Vickers Vanguard-->
+<configuration type="Vickers Vanguard" economy="0" premium="0" first="-1" business="0" exitrows="0,1415" emergencyrows="-1" toiletrows="471,1730" kitchenrows="0,1415">
+<seats>
+<seat class="First_Class" type="Standard" pitch="78.6" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Vickers Viscount-->
+<configuration type="Vickers Viscount 700" economy="0" premium="0" first="-1" business="0" exitrows="0,790" emergencyrows="237,395,632" toiletrows="0" kitchenrows="790">
+<seats>
+<seat class="First_Class" type="Standard" pitch="79" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Vickers Viscount 800" economy="0" premium="0" first="-1" business="0" exitrows="0,880" emergencyrows="240,400,640" toiletrows="0" kitchenrows="880">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Vickers Viscount 810" economy="0" premium="0" first="-1" business="0" exitrows="0,1150" emergencyrows="904" toiletrows="164" kitchenrows="1150">
+<seats>
+<seat class="First_Class" type="Standard" pitch="82.1" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Buta Airways" iata="J2" color="MediumTurquoise" area="181" CEO="Jahangir Askerov" mentality="Moderate" market="Global" preferedairport="GYD" businessmodel="LCC"> 
+  <narrative narrative="Buta Airways is an Azerbaijani low-cost virtual carrier, headquartered in Baku, with its primary operational base at Heydar Aliyev International Airport. It is a fully owned subsidiary of Azerbaijan Airlines." />
+</profile>
+   <info real="True" from="2017" to="2199"></info>
+   <prefereds aircrafts="Embraer E-190,Embraer E-190E2,Embraer E-195,Embraer E-195E2"></prefereds>
+       
+  <routes>
+    <route destination1="GYD" destination2="KVD" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="IEV" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="SOF" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="TBS" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="VKO" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="LED" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="AYT" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="IKA" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="KZN" opened="2017" closed="2199"/>
+    <route destination1="GYD" destination2="MRV" opened="2017" closed="2199"/>
+     <route destination1="GYD" destination2="SAW" opened="2017" closed="2199"/>
+     <route destination1="GYD" destination2="GZP" opened="2018" closed="2199" season="Summer"/>
+     </routes>
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Embraer E-190" early="6" late="0"></airliner>
+	     </airliners>
+
+
+
+</airline>

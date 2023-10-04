@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hellenic Imperial Airways" iata="HT" color="Gold" area="139" CEO="Talal Abu Reyal" mentality="Safe" market="Global" preferedairport="ATH" schedule="Charter">
+  <narrative narrative="Hellenic Imperial Airways was an airline based at Athens,Greece that operated from 2006 until 2012. It did both charters and scheduled service. Scheduled service began on May 20,2009 from Athens to Birmingham,England
+  Jeddah,Saudi Arabia and Casablanca,Morocco. On June 8th,2010 service to Johannesburg,South Africa started. On June 24th,2011 service to New York City,USA began. It began with a 747-200B and had four by the end of 2008. It had plans to serve London Gatwick
+  and Kuwait but these plans never happened."/>
+</profile>
+  <info real="True" from="2006" to="2012" />
+  <prefereds aircrafts="Boeing 747-200B"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200B" early="1" late="4"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="ATH" destination2="BHX" opened="2009" closed="2199" type="Regular"  />
+                <route destination1="ATH" destination2="JED" opened="2009" closed="2199" type="Regular"   />	
+		<route destination1="ATH" destination2="CMN" opened="2009" closed="2199" type="Regular"   />
+		<route destination1="ATH" destination2="JNB" opened="2010" closed="2199" type="Regular"   />
+		<route destination1="ATH" destination2="JFK" opened="2011" closed="2199" type="Regular"   />
+	        </routes>
+
+
+
+
+</airline>

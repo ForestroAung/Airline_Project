@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Alyemda" iata="DY" logo="DY2" color="Crimson" area="313" CEO="Government" mentality="Moderate" market="Regional" preferedairport="ADE">
+    <narrative narrative="Alyemda was the national airline of South Yemen. It operated flights through Africa and Middle East." />
+	<names>
+	<name value="Alyemda" from="01.02.1971 00:00:00"/>
+	<name value="Alyemen Airlines" from="01.02.1995 00:00:00"/>
+</names>
+  </profile>
+  <info real="True" from="1971" to="1996" />
+</airline>

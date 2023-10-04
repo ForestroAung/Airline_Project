@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Star Aviation" iata="SAV" color="MediumBlue" area="319" CEO="Naseer Nejem" mentality="Safe" market="Domestic" preferedairport="HME" routefocus="Mixed">
+  <narrative narrative="Star Aviation is an Alergian carrier focused on the Oil and Gas Industry of the country. Its base is Hassi Messaoud, with a secondary hub at Algiers. It began in 2001. Its fleet around 2015
+  was two Beechcraft 1900's,two DH Twin Otter's,a Pilatus PC-6 Turbo Porter,a Cessna 560XL business jet and a Cessna CitationJet CJ2 business jet." />
+   </profile>
+    <info real="True" from="2001" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D,Beechcraft 1900C,DHC-6-100 Twin Otter,Pilatus PC-6 Turbo-Porter,Cessna 560XL,Cessna CitationJet CJ2"></prefereds>
+<focusairports>
+                 <focusairport airport="ALG"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Pilatus PC-6 Turbo-Porter" early="1" late="1"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="2" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ2" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 560XL" early="0" late="1"></airliner>
+	     </airliners>
+</airline>

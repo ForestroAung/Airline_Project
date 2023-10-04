@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Trans-Colorado Airlines" iata="TCE" color="Orange" area="402" CEO="William Mueller" mentality="Safe" market="Local" preferedairport="DEN">
+    <narrative narrative="Trans-Colorado Airlines was based at Denver Stapleton from August 25,1980 to July 1988. Its first day of operations was December 23,1980 from its original Gunnison,CO base to Denver. It started wit one Swearingen Metroliner II. In May 1981 the second route from DEN to Montrose,CO began and they got a Metroliner III. In February 1982 it got another Metro III and soon started service to Cortez,CO. In June 1983 it started to Durango,CO and in December to Albuquerque,NM. In May 1983 it got another Metroliner. Service to Colorado Springs started in 1984. In 1985 it had six Metroliners, five of them the III type. In July 1986 it became a Continental Express carrier, which was helpful to the airlines load factors, going from 36.6% at the start of 1986 to 55.6% in the last half. In May 1987 it started doing flights for Rocky Mountain Airways which had been bought by Continental. It provided them with crews and planes for $400 an hour in the last part of 1987. After financial problems it moved HQ to Houston,TX to do flights for another Continental subsidiart, Britt Airways, which it did until it ceased in July 1988. It had also served Rock Springs,WY and Riverton,WY starting in 1985." />
+  </profile>
+     <info real="True" from="1980" to="1989"></info>
+     <prefereds aircrafts="Fairchild Swearingen Metroliner"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (1980) late (1985)-->
+    <airliners>
+      <airliner type="Fairchild Swearingen Metroliner" early="1" late="6"></airliner>
+    </airliners>
+      <routes>  
+	    <route destination1="DEN" destination2="GUC" opened="1980" closed="2199"   />	
+	    <route destination1="DEN" destination2="MTJ" opened="1981" closed="2199"    />	
+	    <route destination1="DEN" destination2="CEZ" opened="1981" closed="2199"       />
+	    <route destination1="DEN" destination2="DUR" opened="1983" closed="2199"       />
+	    <route destination1="DEN" destination2="ABQ" opened="1983" closed="2199"       />
+            <route destination1="DEN" destination2="COS" opened="1984" closed="2199"       />	
+	    <route destination1="DEN" destination2="RKS" opened="1985" closed="2199"       />
+	    <route destination1="DEN" destination2="RIW" opened="1985" closed="2199"       />
+                   </routes>
+</airline>

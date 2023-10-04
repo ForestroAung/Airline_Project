@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Zimbabwe flyafrica.com" iata="Z7"  color="Red" area="367" CEO="Chaka Karase" mentality="Safe" market="Regional"  preferedairport="HRE"> 
+  <narrative narrative="Zimbabwe flyafrica.com is a low cost airline founded in 2014 that is based at Harare,Zimbabwe. It flies from Harare and Victoria Falls and starting in 2015 from Bulawayo, to Johannesburg in South Africa and also to Windhoek,Namibia from Johannesburg and Capetown with a new Namibia flyafrica.com subsidiary. At January 2015 its fleet was five 737-500's." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-500,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="5" late="5"></airliner>
+	     </airliners>
+
+<routes>
+		<route destination1="VFA" destination2="JNB" opened="2014" closed="2014"/>
+		<route destination1="HRE" destination2="JNB" opened="2014" closed="2199"/>
+	       <route destination1="BUQ" destination2="JNB" opened="2015" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

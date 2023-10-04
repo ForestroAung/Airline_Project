@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Jagson Airlines" iata="JGN" color="MidnightBlue" area="224" CEO="Jagdish Gupta" mentality="Safe" market="Local" preferedairport="DEL" routefocus="Mixed_Passenger">
+    <narrative narrative="Jagson Airlines is based at Delhi,India and began in November 1991 doing charters with two Dornier 228-200's. At December 2012 the fleet consisted of three Dornier 228's,two Mil-172 helicopters which is a version of the Mi-8,and one Avro RJ 85. At early 2015 from Delhi it is flying to Chandigarh,Dharamsala,Kullu and Pantnagar." />
+  </profile>
+    <info real="True" from="1991" to="2199" />
+           <prefereds aircrafts="Dornier 228-212,Avro RJ 85,Mi-8P"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="2" late="3"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ 85" early="0" late="1"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Mi-8P" early="0" late="2"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DEL" destination2="IXC"    />	
+	    <route destination1="DEL" destination2="KUU"    />	
+	    <route destination1="DEL" destination2="DHM"    />	
+	    <route destination1="DEL" destination2="SLV"    />	
+            <route destination1="DEL" destination2="PGH"      />	
+                   </routes>
+</airline>

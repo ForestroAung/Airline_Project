@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Wasaya Airways" iata="WSG"  color="Yellow" area="400" CEO="Michael Rodyniuk" mentality="Moderate" market="Local" preferedairport="YQT" routefocus="Mixed"> 
+  <narrative narrative="Wasaya Airways is a Canadian airline based at Thunder Bay,Ontario and Sioux Lookout,Ontario. It also has bases at Pickle Lake,ON and Red Lake,ON. It serves
+exclusivly airports in the province of Ontario, 25 of them scheduled and nine of them less frequent. In addition, the scheduled flights are also entirly within the area of western Ontario. Its longest scheduled route is no more than about 533 miles to Fort Severn on
+the shores of the Hudson Bay. Every other route is less than 400 miles.Most  of the 25 airports it serves are service for remote Native communities of the many First Nations tribes which are all over Canada, with its focus being on the ones in western Ontario in 
+a region which is dotted by many lakes. Each airport serves the main town of each of these reservations. One of the examples is Poplar Hill, ON. Poplar Hill is also the name of the reservation, Poplar Hill First Nation.Its fleet at August 2016
+consists of eight Beechcraft 1900D's,five Cessna 208B's,four Pilatus PC-12's and three HS 748's.The 748s are for freight only. The airline started in 1989 and used floatplanes at the start,it grew into a charter carrier and then into
+the scheuled one it is today, although it still does charters too. Its name Wasaya is of the Oji-Cree language and is translated into English as 'It Is Bright'." />
+</profile>
+   <info real="True" from="1989" to="2199"></info>
+   <prefereds aircrafts="Beechcraft 1900D,Cessna 208B,Pilatus PC-12,HS.748"></prefereds>
+<focusairports>
+    <focusairport airport="YXL"></focusairport>
+     </focusairports>
+
+<routes>
+          <route destination1="YQT" destination2="YXL" />
+	        <route destination1="YXL" destination2="YRL" />
+	        <route destination1="YQT" destination2="YPL"/>
+	        <route destination1="YXL" destination2="YPL"/>
+	        <route destination1="YQT" destination2="XKS"/>
+	        <route destination1="YQT" destination2="YTL"/>
+          <route destination1="YXL" destination2="YVZ"/>
+           <route destination1="YXL" destination2="ZRJ"/>
+           <route destination1="YXL" destination2="YHP"/>
+           <route destination1="YXL" destination2="XBE"/>
+           <route destination1="YQT" destination2="KIF"/>
+           <route destination1="YQT" destination2="YAX"/>
+           <route destination1="YQT" destination2="YER"/>
+           <route destination1="YQT" destination2="SUR"/>
+           <route destination1="YXL" destination2="KEW"/>
+           <route destination1="YXL" destination2="MSA"/>
+           <route destination1="YQT" destination2="WNN"/>
+           <route destination1="YXL" destination2="YNO"/>
+           <route destination1="YXL" destination2="YAC"/>
+           <route destination1="YQT" destination2="YFH"/>
+           <route destination1="YXL" destination2="YPM"/>
+           <route destination1="YQT" destination2="YLH"/>
+           <route destination1="YQT" destination2="YWP"/>
+            <route destination1="YXL" destination2="ZPB"/>
+            <route destination1="YXL" destination2="ZSJ"/>
+        </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2016)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="0" late="8"></airliner>
+      <airliner type="Cessna 208B" early="0" late="5"></airliner>
+       <airliner type="Pilatus PC-12" early="0" late="4"></airliner>
+      <airliner type="HS.748" early="3" late="3"></airliner>
+	     </airliners>
+
+
+
+</airline>

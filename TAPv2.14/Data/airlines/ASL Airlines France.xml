@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Europe Airpost" iata="5O" color="LightSkyBlue" area="113" CEO="John Rawl" mentality="Moderate" market="Regional" preferedairport="CDG" routefocus="Mixed"> 
+  <narrative narrative="ASL Airlines France, formerly Europe Airport, is a subsidiary of ASL Airlines Ireland." />
+<logos>
+	<logo from="1991" to="2014" path="5O1991"/>
+	<logo from="2015" to="2199" path="5O2008"/>
+</logos>
+<names>
+	<name value="Europe Airpost" from="01.01.1991 00:00:00"/>
+	<name value="ASL Airlines France" from="02.01.2015 00:00:00"/>
+</names>
+  </profile>
+  
+   <info real="True" from="1991" to="2199"></info>
+</airline>

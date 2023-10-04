@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Samoa Airways" iata="OL" logo="OL2" color="SkyBlue" area="449" CEO="Alvin Tuala" mentality="Safe" market="Global" preferedairport="APW">
+  <narrative narrative="Samoa Airways, formerly Polynesian Airlines, is the state-owned flag carrier airline of Samoa. The airline was founded in 1959 as Polynesian Airlines, providing domestic and international flights throughout the South Pacific. International operations were temporarily halted in 2005 and taken over by new airline Polynesian Blue (later Virgin Samoa), before resuming international flights under the new name of Samoa Airways in late 2017."/>
+   </profile>
+    <info real="True" from="2017" to="2199" />
+       <airliners>
+<airliner type="DHC-6-100 Twin Otter" early="3" late="0"></airliner>
+<airliner type="Boeing 737-800" early="1" late="0"></airliner>
+	     </airliners>
+<routes>
+       		<route destination1="APW" destination2="FGI"/>
+       		<route destination1="APW" destination2="SYD"/>
+       		<route destination1="APW" destination2="AKL"/>
+
+<route destination1="APW" destination2="OFU"/>
+       		<route destination1="APW" destination2="PPG"/>
+       		<route destination1="APW" destination2="FTI"/>
+       	</routes>
+</airline>

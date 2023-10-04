@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AirAsia Philippines" iata="PQ" color="Black" area="240" CEO="Marianne Hontiveros" mentality="Safe"
+           market="Global" preferedairport="CRK" businessmodel="LCC">
+              <narrative narrative="AirAsia Inc., operating as AirAsia Philippines is a low-cost airline based at Clark International Airport in Angeles City, Pampanga in the Philippines.[3] The airline is the Philippine affiliate of AirAsia, a low-cost airline based in Malaysia. The airline started as a joint venture between three Filipino investors and AirAsia International Ltd, a subsidiary of AirAsia Berhad. "></narrative>
+   </profile>
+  <info real="True" from="2010" to="2199" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+  
+  <startdata>  
+  <airliners>
+    <airliner type="Airbus A320-200" early="3" late="2"></airliner>
+  </airliners>
+  <routes>
+    <route destination1="MNL" destination2="CEB"/>
+    <route destination1="MNL" destination2="DVO"/>
+    <route destination1="MNL" destination2="KLO"/>
+  </routes>
+  </startdata>
+</airline>

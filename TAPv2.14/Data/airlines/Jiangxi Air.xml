@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Jiangxi Air" iata="CJX" color="Blue" area="209" CEO="Hao Wu" mentality="Safe" market="Regional" preferedairport="KHN" businessmodel="LCC">
+  <narrative narrative="Jiangxi Air is a subsidiary of XiamenAir, which owns 60% of it. It is based at Nanchang which is the main city of the Jiangxi Province of China. It is a low cost model. Services commenced near the end of January 2016. It started with two 737-800's owned by its parent and plans to have at least 20
+  by the tme 2020 rolls around. Destinations it serves at the start are all domestic, besides Nanchang they include Xiamen,Shenzhen,Chongqing,Haikou,Guiyang,Xian,and Urumqi. It plans on serving international destinations by 2020 as well. It also uses the XiamenAir staff for now but will also hire its own people eventually." />
+ </profile>
+    <info real="True" from="2016" to="2199" />
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="20"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="KHN" destination2="XMN"  opened="2016" closed="2199"   />	
+	    <route destination1="KHN" destination2="SZX"   opened="2016" closed="2199"  />	
+	    <route destination1="KHN" destination2="CKG"   opened="2016" closed="2199"  />	
+	    <route destination1="KHN" destination2="HAK"   opened="2016" closed="2199"  />	
+	    <route destination1="KHN" destination2="KWE"   opened="2016" closed="2199"  />	
+	    <route destination1="KHN" destination2="XIY"   opened="2016" closed="2199"  />	
+	    <route destination1="KHN" destination2="URC"   opened="2016" closed="2199"  />	
+                   </routes>
+</airline>

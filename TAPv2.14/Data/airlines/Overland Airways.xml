@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Overland Airways" iata="OJ" logo="OJ2" color="MidnightBlue" area="339" CEO="David Oni Babatunde" mentality="Safe" market="Domestic" preferedairport="LOS">
+  <narrative narrative="Overland Airways is a domestic Nigerian airline based at Lagos with another hub at Abuja. It flies to 6 other domestic airports as of January 2014. Including from each hub to Asaba,Ibadan and Ilorin. From Abuja Akure and Bauchi are also served. At February 2015 the fleet had four ATR 42-300's and three ATR 72-200's and two Beechcraft 1900D's. The airline was founded in 2003." />
+</profile>
+   <info real="True" from="2003" to="2199"></info>
+   <prefereds aircrafts="ATR 72-200,ATR 42-300,ATR 72-600,Beechcraft 1900D,ATR 72-210"></prefereds>
+    <focusairports>
+                 <focusairport airport="ABV"></focusairport>
+	     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="LOS" destination2="ABB" opened="2003" closed="2199" />
+	        <route destination1="LOS" destination2="IBA" opened="2003" closed="2199" />
+	        <route destination1="LOS" destination2="ILR" opened="2007" closed="2199" />
+	        <route destination1="ABV" destination2="ABB" opened="2005" closed="2199" />
+	        <route destination1="ABV" destination2="IBA" opened="2006" closed="2199" />
+	        <route destination1="ABV" destination2="ILR" opened="2008" closed="2199" />
+              </routes>
+  
+
+
+</airline>

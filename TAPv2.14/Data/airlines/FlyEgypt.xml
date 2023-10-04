@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FlyEgypt" iata="FEG"  color="OrangeRed" area="323" CEO="Tarek Talaat Moustafa" mentality="Safe" market="Global" preferedairport="CAI"> 
+  <narrative narrative="FlyEgypt was founded in 2014 and began flying on February 12th,2015. It initially was a charter airline but its transitioned into being a regular scheduled budget airline as well.
+  Its bases is Cairo but it also has a hub in the country of Kuwait. One of its first charter routes it did on a regular basis was Marsa Alam,Egypt to Zurich,Switzerland.
+  Scheduled service in 2016 includes three routes to and from Kuwait at the Egyptian cities of Alexandria,Assiut and Sohag. Its fleet at October 2015 were two
+  737-800's." />
+</profile>
+   <info real="True" from="2015" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+  <focusairports>
+        <focusairport airport="HBE"></focusairport>
+        <focusairport airport="KWI"></focusairport>
+     </focusairports>
+<routes>
+          <route destination1="HBE" destination2="KWI"/>
+	        <route destination1="ATZ" destination2="KWI"/>
+	        <route destination1="HMB" destination2="KWI"/>
+	        <route destination1="RMF" destination2="ZRH" season="Winter"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="2"></airliner>
+	     </airliners>
+
+
+</airline>

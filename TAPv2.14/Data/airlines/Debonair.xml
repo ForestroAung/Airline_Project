@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Debonair" iata="DEB" color="Violet" area="102" CEO="Franco Mancassola" mentality="Safe" market="Regional" preferedairport="LTN">
+  <narrative narrative="Debonair was around from 1996 to October 1st,1999. It was based at London Luton Airport. It started with about five BAe 146-200's in 1996 and served a domestic route to Newcastle and international ones to Barcelona,Spain Nice,France Copenhagen,Denmark Munich,Germany and Monchengladbach,Germany to start. Some time later Newcastle and Copenhagen weere dropped but a few more were added. These were to Rome,Italy Paris Charles de Gaulle,France Madrid,Spain Perugia,Italy and Pontoise,France. It used a business concept of offering budget travel while keeping frills like free drinks and snacks a part of the deal. This turned out not to be a financial success, even after the airline raised 25 million British pounds in July 1997 in the stock market. It would last until October 1st,1999. It also had about five BAe 146-200's at the end. It had leased a few 737-300's in 1999 as well."/>
+</profile>
+  <info real="True" from="1996" to="2000" />
+  <prefereds aircrafts="BAe 146-200"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (1999)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="5" late="5"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="LTN" destination2="BCN"/>
+	       	  <route destination1="LTN" destination2="NCE"/>
+		  <route destination1="LTN" destination2="CPH" opened="1996" closed="1998" />
+		  <route destination1="LTN" destination2="MUC"/>
+		  <route destination1="LTN" destination2="FCO"/>
+		  <route destination1="LTN" destination2="CDG"/>
+		  <route destination1="LTN" destination2="MAD"/>
+		 		        </routes>
+
+
+
+
+</airline>

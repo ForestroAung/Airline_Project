@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dexter Air Taxi" iata="DXT" color="Orange" area="177" CEO="Tom Klein" mentality="Aggressive" market="Domestic" preferedairport="GOJ">
+    <narrative
+      narrative="Dexter Air Taxi is a Russian air taxi airline owned by Sabre Holdings of the USA. It was founded in 2006. In July 2015 most of its routes were out of Nizhny Novgorod. These were Kirov,Izhvesk,Nizhnekamsk,Penza,Perm,Saratov and Ulyanovsk-Baratayevka. Two routes from Kazan were Saratov and Penza. Two routes from Samara were Izhvesk and Penza. There is a route between Perm and Kirov. Two other Kirov routes are Izhvesk and Ufa. It aims to cover all of Russia.
+  It's fleet around 2014 was 20 Cessna Citation Mustang business jets for 5 people,and 18 Pilatus PC-12 turboprops for 9 or so people,and 8 Myasishchev M-101T turboprops for 7 people. Despite the airports most served, its wikipedia page lists Moscow as the hub and Novy Urengoy as a secondary hub even though these don't have scheduled service listed for them. In its plane to cover Russia it also plans on having 250 or more 4 to 6 seaters and 1500 plus departures a day." />
+  </profile>
+   <info real="True" from="2006" to="2199"></info>
+     <prefereds aircrafts="Cessna Citation Mustang,Pilatus PC-12,M-101T"></prefereds>
+          <focusairports>
+                 <focusairport airport="KVX"></focusairport> 
+		 <focusairport airport="IJK"></focusairport> 
+		 <focusairport airport="PEZ"></focusairport> 
+		 <focusairport airport="KZN"></focusairport>
+		 <focusairport airport="RTW"></focusairport>
+		 <focusairport airport="KUF"></focusairport>
+		 <focusairport airport="PEE"></focusairport>
+     </focusairports>
+     	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation Mustang" early="0" late="26"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Pilatus PC-12" early="9" late="18"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="M-101T" early="4" late="14"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="GOJ" destination2="KVX"    />	
+	    <route destination1="GOJ" destination2="IJK"    />	
+	    <route destination1="GOJ" destination2="NBC"    />	
+	    <route destination1="GOJ" destination2="PEZ"    />
+	    <route destination1="GOJ" destination2="PEE"    />	
+	    <route destination1="GOJ" destination2="RTW"    />	
+	    <route destination1="GOJ" destination2="ULV"   />
+	    <route destination1="KZN" destination2="RTW"    />	
+	    <route destination1="KZN" destination2="PEZ"    />
+	    <route destination1="KUF" destination2="IJK"    />
+	    <route destination1="KUF" destination2="PEZ"    />
+	    <route destination1="PEE" destination2="KVX"    />
+	    <route destination1="KVX" destination2="IJK"    />
+	    <route destination1="KVX" destination2="UFA"    />
+                   </routes>
+</airline>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gomelavia" iata="GOM" color="Red" area="169" CEO="Vladislav Mikhailov" mentality="Safe" market="Regional" preferedairport="GME">
+  <narrative narrative="Gomelavia was based at Gomel,Belarus from 1996 to February 2011. At its closure it was serving Minsk,Belarus Moscow,Russia and Kaliningrad,Russia from Gomel. Its fleet in 2007
+  was seven Il-76's,two Antonov 12's, and a Tupolev Tu-134A."/>
+</profile>
+  <info real="True" from="1996" to="2011" />
+  <prefereds aircrafts="Il-76,Antonov An-12 Passenger,Tupolev Tu-134A"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Passenger" early="2" late="2"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Il-76" early="4" late="7"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="1" late="1"></airliner>
+	     </airliners>
+	                    <routes>
+	          <route destination1="GME" destination2="MSQ"/>
+	          <route destination1="GME" destination2="DME"/>
+		  <route destination1="GME" destination2="KGD"/>
+        </routes>
+</airline>

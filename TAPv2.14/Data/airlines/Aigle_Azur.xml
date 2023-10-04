@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Aigle Azur" iata="ZI" color="Darkblue" area="113" CEO="Méziane Idjerouidène" mentality="Safe" market="Global" preferedairport="ORY">
+<narrative narrative="Société Aigle Azur Transport Aériens is an airline with a hub at Orly airport in Paris. It operates domestic flights and flights to Russia and northern Africa. "/></profile>
+<info real="true" from="1946" to="2199" />
+
+	<!--the airliners the airline would start with which isn't on a route earyl (2006) late (2026)-->
+  		<airliners>
+  		<airliner type="Airbus A319-100" early="0" late="3"></airliner>
+		</airliners>
+	<!--the airliners the airline would start with which isn't on a route earyl (2006) late (2026)-->
+  		<airliners>
+  		<airliner type="Airbus A320-200" early="0" late="7"></airliner>
+		</airliners>
+	<!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+  		<airliners>
+  		<airliner type="Airbus A321-200" early="5" late="0"></airliner>
+		</airliners>
+	<!--the airliners the airline would start with which isn't on a route earyl (1994) late (2002)-->
+  		<airliners>
+  		<airliner type="Boeing 737-200" early="2" late="0"></airliner>
+		</airliners>
+	<!--the airliners the airline would start with which isn't on a route earyl (1993) late (2005)-->
+  		<airliners>
+  		<airliner type="Boeing 737-300" early="2" late="0"></airliner>
+		</airliners>
+	<!--the airliners the airline would start with which isn't on a route earyl (2002) late (2006)-->
+  		<airliners>
+  		<airliner type="Boeing 737-400" early="3" late="0"></airliner>
+		</airliners>
+		
+	<focusairports>
+		<focusairport airport="ORY"/>
+		<focusairport airport="LYS"/>
+		<focusairport airport="MRS"/>
+		<focusairport airport="CDG"/>
+	</focusairports>
+	
+	<routes>
+		<route destination1="ORY" destination2="ALG"/>
+		<route destination1="ORY" destination2="LIS"/>
+		<route destination1="ORY" destination2="OPO"/>
+		<route destination1="ORY" destination2="CZL"/>
+		<route destination1="LYS" destination2="ALG"/>
+		<route destination1="LYS" destination2="ORN"/>
+		<route destination1="LYS" destination2="CZL"/>
+		<route destination1="MRS" destination2="ALG"/>
+		<route destination1="MRS" destination2="TLM"/>
+		<route destination1="CDG" destination2="ALG"/>
+	</routes>
+</airline>

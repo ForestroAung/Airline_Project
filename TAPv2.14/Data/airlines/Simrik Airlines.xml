@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Simrik Airlines" iata="RMK" color="Red" area="228" CEO="Unknown" mentality="Safe" market="Domestic" preferedairport="KTM">
+    <narrative narrative="Simrik Airlines was founded in 2009 as a helicopter charter company. The company still operates as such under the name Simrik Air, whereas the fixed-wing operations are promoted under the brand Simrik Airlines. In 2013, Simrik Airlines acquired the ill-fated Guna Airlines for NRs 350 million, after latter ceased trading due to financial difficulties. Simrik Airlines used the Brand of Guna for some more time before renaming and repainting its fleet." /></profile>
+  <info real="True" from="2009" to="2199" />
+  <prefereds aircraft="Beechcraft 1900C,BAe Jetstream 41,Dornier 228-212 ">
+</prefereds>
+   <focusairports>
+    <focusairport airport="KTM"></focusairport>
+    <focusairport airport="PKR"></focusairport>
+   </focusairports>
+   <routes>
+     <route destination1="KTM" destination2="LUA"  opened="2013" closed="2017"   />
+     <route destination1="KTM" destination2="IMK"  opened="2013" closed="2017"   />
+     <route destination1="KTM" destination2="JMO"  opened="2013" closed="2017"   />
+     <route destination1="KTM" destination2="MTN"  opened="2013" closed="2199"   />
+     <route destination1="KTM" destination2="PKR"  opened="2013" closed="2199"   />
+     <route destination1="KTM" destination2="BWA"  opened="2013" closed="2199"   />
+     <route destination1="KTM" destination2="BHR"  opened="2013" closed="2199"   />
+   </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2017)-->
+    <airliners>
+     <airliner type="Dornier 228-212" early="2" late="0"></airliner>
+    </airliners>
+     <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2033)-->
+    <airliners>
+     <airliner type="Beechcraft 1900C" early="2" late="2"></airliner>
+  </airliners>
+   <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2033)-->
+    <airliners>
+     <airliner type="BAe Jetstream 41" early="3" late="3"></airliner>
+    </airliners>
+</airline> 

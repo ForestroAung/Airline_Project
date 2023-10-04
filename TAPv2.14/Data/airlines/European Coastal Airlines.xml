@@ -1,0 +1,32 @@
+<airline>
+ <profile name="European Coastal Airlines" iata="WL" logo="WL2" color="Yellow" area="126" CEO="Klaus-Dieter Martin" mentality="Aggressive" market="Regional" preferedairport="SPU">
+  <narrative narrative="European Coastal Airlines was a Croatian seaplane operator headquartered in Split. Founded in 2000, the company launched scheduled services in August 2014 and served domestic flights within Croatia as well as services to nearby Italy. The airline was grounded in August 2016 when its AOC was temporarily withdrawn by the Croatian Civil Aviation Agency, apparently due to safety concerns. As a result of ongoing legal discussions, the airline suspended all operations and cancelled 130 jobs. In December 2016, the CEO announced that operations would resume in 2017. As of February 2017 company's website and Facebook page hasn't been updated with any new information and no flights were resumed by the end of July. On 2 May 2017 the Commercial Court in Split initiated a pre-bankruptcy procedure at the request of the company filled on 18 April 2017."/>
+ </profile>
+  <prefereds aircrafts=""></prefereds>
+   <info real="True" from="2014" to="2016">
+   </info>
+   <focusairports>
+	<focusairport airport="DHC-6-400 Twin Otter"></focusairport>
+   </focusairports>
+    <startdata>
+    <airliners>
+     <airliner type="DHC-6-400 Twin Otter" early="1" late="4"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="SPU" destination2="ZAD"/>
+	  <route destination1="SPU" destination2="RJK"/>
+	  <route destination1="SPU" destination2="LSZ"/>
+	  <route destination1="SPU" destination2="AOI"/>
+	  <route destination1="SPU" destination2="PSR"/>
+	  <route destination1="ZAD" destination2="RJK"/>
+	  <route destination1="ZAD" destination2="LSZ"/>
+	  <route destination1="ZAD" destination2="AOI"/>
+	  <route destination1="ZAD" destination2="PSR"/>
+	  <route destination1="RJK" destination2="LSZ"/>
+	  <route destination1="RJK" destination2="AOI"/>
+	  <route destination1="RJK" destination2="PSR"/>
+	  <route destination1="LSZ" destination2="AOI"/>
+	  <route destination1="LSZ" destination2="PSR"/>
+     </routes>
+    </startdata>
+</airline>

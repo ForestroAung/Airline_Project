@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Bucharest" iata="B1" color="Red" area="148" CEO="Husan Yapici" mentality="Moderate" market="Regional" preferedairport="OTP">
+            <narrative narrative="Air Bucharest is a charter airline headquartered in Bucharest, Romania. It was established in July 2010 to support the travel agency Kusadasi Travel Agency. Operates only charter flights"></narrative>
+  </profile>
+  <info real="True" from="2010" to="2199" />
+</airline>

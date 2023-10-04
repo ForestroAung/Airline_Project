@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Rum" iata="RUM" color="MediumOrchid" area="301" CEO="Mohammad Abu Sheikh" mentality="Moderate" market="Global" preferedairport="AMM" schedule="Charter">
+  <narrative narrative="Air Rum was a Sierra Leon registered airline that actually made its base at Amman,Jordan. It started in 2002 and lasted until 2008. It was a charter airline flying around the world. A notable incident is when it was flying Gambian football/soccer fans to Peru for the 2005 FIFA U-17 Worls Championships and made an emergency landing
+  in the city they were to play at lying about fuel starvation to let the fans off. It used Lockheed Tristars only, it started in 2002 with one L-1011-1 type and had three by 2006, but then didn't have any bu the start of 2007. The plane it aquried in 2004 was a 200 type and it had this until the end. It was banned from flying to the EU.The owner, RUM Group
+  shut it down to focus on its other Amman based airline which did scheduled and charter, Petra Airlines, which was much more successful. Petra was bought 49% by Air Arabia in December 2014 and turned into Air Arabia Jordan, with RUM owning the other 51% still."/>
+</profile>
+  <info real="True" from="2002" to="2008" />
+  <prefereds aircrafts="Lockheed L-1011-1,Lockheed L-1011-200"></prefereds>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2006)-->
+	         <airliners>
+	    <airliner type="Lockheed L-1011-1" early="1" late="3"></airliner>
+	     </airliners>  
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2007)-->
+	         <airliners>
+	    <airliner type="Lockheed L-1011-200" early="1" late="1"></airliner>
+	     </airliners>  
+</airline>

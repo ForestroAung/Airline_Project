@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Express Algeria" iata="AEA" color="Crimson" area="319" CEO="Chakib Belleili" mentality="Moderate" market="Domestic" preferedairport="HME" routefocus="Mixed">
+  <narrative narrative="Air Express Algeria is a carrier that focuses on the Oil and Gas Industry of Algeria. Its base is Hassi Messaoud,Algeria. It does VIP transport and light cargo and personnel transport and medivac throughout the country.
+  At 2015 its fleet is made of nine Beechcraft 1900D's and six Let 410's. It was founded in 2002." />
+   </profile>
+    <info real="True" from="2002" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D,Let L-410"></prefereds>
+
+     <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="6"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="5" late="9"></airliner>
+	     </airliners>
+</airline>

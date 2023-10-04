@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Azman Air" iata="AZM" color="DarkGreen" area="339" CEO="Abdulmunaf Yunusa Sarina" mentality="Safe" market="Domestic" preferedairport="KAN">
+  <narrative narrative="Azman Air is a domestic Nigerian airline that started operations in 2014. It flies from its hub at Kano to Lagos and Abuja. And from Lagos to Abuja and Abjua to Yola. It has two 737-300's." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-300,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="2"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="KAN" destination2="LOS" opened="2014" closed="2199" />
+	        <route destination1="KAN" destination2="ABV" opened="2014" closed="2199" />
+	        <route destination1="LOS" destination2="ABV" opened="2014" closed="2199" />
+	        <route destination1="ABV" destination2="YOL" opened="2015" closed="2199" />
+              </routes>
+  
+
+
+</airline>

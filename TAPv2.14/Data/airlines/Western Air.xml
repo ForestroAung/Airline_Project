@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Western Air" iata="WT" color="MediumBlue" area="412" CEO="Rex Rolle" mentality="Safe" market="Local" preferedairport="NAS"> 
+  <narrative narrative="Western Air Limited is the larges privately owned airline in the Bahamas. A family owned and run airline, Western Air now operates from their second hub at Grand Bahama International Airport which will serve as its main northern hub 
+opening more direct routes. The new state of the art Western Air terminal will be housing Western Air s terminal, corporate office, and maintenance facility. Their fleet will increase rapidly due to the rising demand in airlift from their locations.." />
+</profile>
+   <info real="True" from="2001" to="2199"></info>
+     <focusairports>
+     <focusairport airport="FPO"></focusairport>
+        <focusairport airport="MHH"></focusairport>
+        <focusairport airport="GGT"></focusairport>
+     </focusairports>
+</airline>

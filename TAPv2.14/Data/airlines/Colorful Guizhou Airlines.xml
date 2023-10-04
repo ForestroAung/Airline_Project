@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Colorful Guizhou Airlines" iata="CGZ" color="Orange" area="209" CEO="Zhai Yan" mentality="Safe" market="Domestic" preferedairport="KWE" businessmodel="LCC">
+    <narrative narrative="Colorful Guizhou Airlines is a low cost carrier based at Guiyang,China in Guizhou Province.It commenced operations on December 31st,2015. It is the first locally owned airline for the province of Guizhou andn is 95% owned by the local Guizhou Industrial Investment Group. The chairman Zhai Yan is also the chariman of that company.        Its name Colorful is a marketing campaign
+    to signify cultural diversity within the province. Its initial route was to Bijie which is also in Guizhou and Tianjin. It uses two Embraer 190's to start and plans on having at least 30 planes by 2020. It has at least 5 more 190's  on  order and an option for ten more. Some destinations it plans on opening in the near future 
+    include Chengdu,Ningbo,Zhuhai and Tongren."/>  </profile>
+  <info real="True" from="2016" to="2199"/>
+  <prefereds aircrafts="Embraer E-190,Embraer E-190E2,Embraer E-195E2"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2020)-->
+  <airliners>
+    <airliner type="Embraer E-190" early="2" late="30"/>
+  </airliners>
+  <routes>
+    <route destination1="KWE" destination2="TSN" opened="2016" closed="2199"/>
+    <route destination1="KWE" destination2="BFJ" opened="2016" closed="2199"/>
+    <route destination1="KWE" destination2="CTU" opened="2017" closed="2199"/>
+    <route destination1="KWE" destination2="NGB" opened="2017" closed="2199"/>
+    <route destination1="KWE" destination2="ZUH" opened="2018" closed="2199"/>
+    <route destination1="KWE" destination2="TEN" opened="2018" closed="2199"/>
+  </routes>
+</airline>

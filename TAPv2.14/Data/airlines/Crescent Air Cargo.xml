@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Crescent Air Cargo" iata="CAC" color="SlateBlue" area="224" CEO="Santosh Lad" mentality="Safe" market="Regional" preferedairport="MAA" routefocus="Cargo">
+    <narrative narrative="Crescent Air Cargo was around from operations started in 2004 until 2006. It had three Fokker 50's. In its short life its base was Chennai,India with routes to Delhi,Bangalore,Mumbai,Hyderabad,
+    Visakhapatnam and international ones to Colombo,Sri Lanka and Male,Maldives." />
+  </profile>
+    <info real="True" from="2004" to="2006" />
+           <prefereds aircrafts="Fokker 50"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="3" late="3"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="MAA" destination2="DEL"    />	
+	    <route destination1="MAA" destination2="BLR"    />	
+	    <route destination1="MAA" destination2="BOM"    />	
+	    <route destination1="MAA" destination2="HYD"    />	
+	    <route destination1="MAA" destination2="VTZ"    />	
+	    <route destination1="MAA" destination2="CMB"    />
+	     <route destination1="MAA" destination2="MLE"    />
+                   </routes>
+</airline>

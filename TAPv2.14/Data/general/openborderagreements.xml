@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<openborderagreements>
+<agreement id="1" name="Union State" from="01.01.1996 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>217</country>
+<country>149</country>
+</countries>
+</agreement>
+<agreement id="2" name="Treaty of Peace and Friendship" from="01.01.1950 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>152</country>
+<country>251</country>
+</countries>
+</agreement>
+<agreement id="3" name="Treaty of Peace and Friendship" from="01.01.1949 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>152</country>
+<country>252</country>
+</countries>
+</agreement>
+<agreement id="4" name="Trans-Tasman Travel Arrangement" from="01.01.1973 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>116</country>
+<country>186</country>
+</countries>
+</agreement>
+<agreement id="5" name="CA4 Border Control Agreement" from="01.01.2006 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>196</country>
+<country>193</country>
+<country>194</country>
+<country>195</country>
+</countries>
+</agreement>
+<agreement id="6" name="Common Travel Area" from="01.01.1923 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>130</country>
+<country>137</country>
+</countries>
+</agreement>
+<agreement id="7" name="Nordic Passport Union" from="01.01.1954 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>110</country>
+<country>121</country>
+<country>139</country>
+<country>167</country>
+<country>168</country>
+</countries>
+</agreement>
+<agreement id="8" name="Andean Community" from="01.01.2007 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>211</country>
+<country>182</country>
+<country>183</country>
+<country>210</country>
+</countries>
+</agreement>
+<agreement id="9" name="Gulf Cooperation Council" from="01.01.1981 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>178</country>
+<country>126</country>
+<country>136</country>
+<country>151</country>
+<country>156</country>
+</countries>
+</agreement>
+<agreement id="9" name="Gulf Cooperation Council" from="01.01.1981 00:00:00" to="06.05.2017 00:00:00" >
+<countries>
+<country>180</country>
+</countries>
+</agreement>
+<agreement id="10" name="East African Community" from="01.01.2000 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>293</country>
+<country>222</country>
+<country>146</country>
+<country>261</country>
+<country>295</country>
+</countries>
+</agreement>
+<agreement id="10" name="East African Community" from="01.01.2016 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>263</country>
+</countries>
+</agreement>
+<agreement id="11" name="CARICOM Single Market and Economy" from="01.01.2009 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>227</country>
+<country>197</country>
+<country>228</country>
+<country>229</country>
+<country>215</country>
+<country>199</country>
+<country>214</country>
+<country>108</country>
+<country>243</country>
+<country>310</country>
+<country>108</country>
+<country>205</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.1995 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>107</country>
+<country>140</country>
+<country>163</country>
+<country>119</country>
+<country>179</country>
+<country>150</country>
+<country>123</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.1997 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>169</country>
+<country>141</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.2000 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>118</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.2001 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>110</country>
+<country>167</country>
+<country>121</country>
+<country>139</country>
+<country>168</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.2007 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>166</country>
+<country>117</country>
+<country>159</country>
+<country>102</country>
+<country>103</country>
+<country>132</country>
+<country>135</country>
+<country>231</country>
+<country>105</country>
+</countries>
+</agreement>
+<agreement id="12" name="Schengen" from="01.01.2008 00:00:00" to="01.01.2199 00:00:00" >
+<countries>
+<country>164</country>
+</countries>
+</agreement>
+</openborderagreements>

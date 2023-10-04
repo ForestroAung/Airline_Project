@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cabo Verde Express" iata="CVE" color="SlateBlue" area="378" CEO="Unknown" mentality="Moderate" market="Domestic"  preferedairport="SID" schedule="Charter">
+  <narrative narrative="Cabo Verde Express is a domestic charter airline for Cape Verde, the island country in the Atlantic Ocean off the coast of Africa. Its base is the island of Sal. It goes to the other domestic airports at Boa Vista,Fogo,Maio,Santiago,Sao Nicolau,and Sao Vicente. At July 2015 it had three Let 410's but was only using one of them.
+  The airline started in 1998. At the start is used a Cessna Caravan." />
+</profile>
+   <info real="True" from="1998" to="2199"></info>
+  <prefereds aircrafts="Let L-410,Cessna 208B"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="0" late="3"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="0"></airliner>
+	     </airliners>
+<routes>
+          <route destination1="SID" destination2="BVC" />
+          <route destination1="SID" destination2="RAI" />
+          <route destination1="SID" destination2="VXE" />
+          <route destination1="SID" destination2="MMO" />
+          <route destination1="SID" destination2="SNE" />
+              </routes>
+  
+
+
+</airline>

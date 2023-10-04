@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="South African Express" iata="XZ" color="Red" area="371" CEO="Tom Johnson" mentality="Moderate" market="Regional" preferedairport="JNB"> 
+  <narrative narrative="South African Express is based at Johannesburg with a secondary hub at Cape Town and focus cities at Durban,Port Elizabeth and East London. It is not owned by South African Airways but it is
+  part of a close knit strategic alliance with them and Airlink, another independant airline. It serves 7 other domestic airports besides those already mentioned,and internationally it serves Gaborone,Botswana Lubumbashi,DRC
+  Windhoek and Walvis Bay in Namibia, Lusaka in Zambia and Harare,Zimbabwe.It was founded in 1994 and started the alliance in 1997. At June 2014 its fleet was 10 Dash 8-400's,9 CRJ200''s,and 4 CRJ700's. Its initial
+  fleet in 1994 was about 12 Dash 8-300's which the last was phased out in 2012." />
+</profile>
+   <info real="True" from="1994" to="2199"></info>
+   <prefereds aircrafts="Bombardier Dash 8-400,Bombardier CRJ200,Bombardier CRJ700,Bombardier Dash 8-300"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="CPT"></focusairport>
+		  <focusairport airport="DUR"></focusairport>
+		    <focusairport airport="PLZ"></focusairport>
+		  <focusairport airport="ELS"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ700" early="1" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="2" late="9"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="2" late="10"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="12" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+       	        <route destination1="JNB" destination2="DUR" opened="1994" closed="2199"/>
+	        <route destination1="JNB" destination2="PLZ" opened="1994" closed="2199"/>
+	        <route destination1="JNB" destination2="ELS" opened="1994" closed="2199"/>
+	        <route destination1="JNB" destination2="BFN" opened="1994" closed="2199"/>
+		<route destination1="JNB" destination2="KIM" opened="1994" closed="2199"/>
+		<route destination1="JNB" destination2="GRJ" opened="1994" closed="2199"/>
+	        <route destination1="JNB" destination2="MQP" opened="1994" closed="2199"/>
+		<route destination1="JNB" destination2="RCB" opened="2000" closed="2199"/>
+		<route destination1="JNB" destination2="HDS" opened="1998" closed="2199"/>
+		<route destination1="JNB" destination2="PZB" opened="1999" closed="2199"/>
+		<route destination1="JNB" destination2="GBE" opened="1997" closed="2199"/>
+	        <route destination1="JNB" destination2="FBM" opened="1997" closed="2199"/>
+	        <route destination1="JNB" destination2="WDH" opened="1998" closed="2199"/>
+		<route destination1="CPT" destination2="DUR" opened="1994" closed="2199"/>
+		<route destination1="CPT" destination2="PLZ" opened="1994" closed="2199"/>
+		<route destination1="CPT" destination2="ELS" opened="1994" closed="2199"/>
+		<route destination1="CPT" destination2="GRJ" opened="2001" closed="2199"/>
+		<route destination1="CPT" destination2="BFN" opened="2002" closed="2199"/>
+		<route destination1="CPT" destination2="HDS" opened="2003" closed="2199"/>
+		<route destination1="CPT" destination2="WVB" opened="2004" closed="2199"/>
+		<route destination1="DUR" destination2="PLZ" opened="1994" closed="2199"/>
+		<route destination1="DUR" destination2="ELS" opened="1994" closed="2199"/>
+		<route destination1="DUR" destination2="HRE" opened="2014" closed="2199"/>
+		<route destination1="DUR" destination2="LUN" opened="2000" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

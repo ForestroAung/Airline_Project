@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Welcome Air" iata="2W" color="DarkViolet" area="120" CEO="Helmut Wurm" mentality="Safe" market="Regional" preferedairport="INN" schedule="Charter">
+  <narrative narrative="Welcome Air is a charter airline based at Innsbruck,Austria. It operates all over Europe. It was founded in 2000. It did do scheduled service before, to Antwerp,Belgium Rijeka,Croatia Nice,France Hanover,Germany Olbia,Italy Rotterdam,Netherlands Kristiansand and Stavanger,Norway and Gothenburg,Sweden and also Graz also in Austria. It did the Innbruck-Linz route for Austrian Airlines but this ended in March 2015 because rail links are better between these two cities now. Its fleet at October 2014 was two Dornier 328-110 turboprops and a Dornier 328JET." />
+</profile>
+   <info real="True" from="2000" to="2017"></info>
+   <prefereds aircrafts="Dornier 328-110,Fairchild-Dornier 328JET"></prefereds>
+
+   <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Fairchild-Dornier 328JET" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Dornier 328-110" early="1" late="2"></airliner>
+	     </airliners>
+
+
+
+</airline>

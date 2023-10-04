@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airstars" iata="AST" color="SkyBlue" area="177" CEO="Marat Vladimirovich Morozov" mentality="Safe" market="Global" preferedairport="DME" routefocus="Cargo">
+  <narrative narrative="Airstars was a cargo airline around from 2000 to 2011 and was based at Moscow,Russia at Domodedovo Airport.It flew throughout Russia and eastern Europe and also went to China, such as the cities
+  of Tianjin and Shijiazhuang. At 2010 its fleet had three Il-76TD's,three Il-62's,three Tu-214's,and an Il-96-300."/>
+</profile>
+  <info real="True" from="2000" to="2011" />
+  <prefereds aircrafts="Il-76TD,Il-62M,Tupolev Tu-204-300,Il-96-300"></prefereds> 
+       	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Il-76TD" early="3" late="3"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Il-62M" early="3" late="3"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Il-96-300" early="0" late="1"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-204-300" early="0" late="3"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="DME" destination2="TSN"   />
+	          <route destination1="DME" destination2="SJW"  />
+		 		        </routes>
+
+
+
+
+</airline>

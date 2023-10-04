@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Iranian Naft Airlines" iata="IRG" color="SteelBlue" area="205" CEO="Ghasemi Gholamreza" mentality="Moderate" market="Local" preferedairport="THR" routefocus="Mixed" schedule="Charter">
+  <narrative narrative="Iranian Naft Airlines is a charter passenger and cargo airline based at Tehran Mehrabad Airport and at Ahwaz Airport. As of about June 2015
+  from Tehran it was offering charters to all domestic destinations at Abadan,Aghajari,Ahwaz,Dezful,Isfahan,Kharg Island,Mahshahr and Yazd. From Ahwaz besides Tehran it was, Asalouyeh,Isfahan,Kharg Island,Kish Island,Lavan Island,Shiraz,Sirri Island and Yazd with an international one to Dubai,UAE. Its fleet at last check was six Fokker 50's,four Fokker 100's and a BN Twin Otter. The airline began in 1992."/>
+</profile>
+  <info real="True" from="1992" to="2199" />
+  <prefereds aircrafts="Fokker 50,Fokker 100"></prefereds>
+          <focusairports>
+		 <focusairport airport="AWZ"></focusairport>
+					      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Fokker 50" early="3" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="Fokker 100" early="2" late="4"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2015)-->
+	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="0" late="1"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="THR" destination2="AWZ"   />
+		<route destination1="THR" destination2="IFN" />
+		<route destination1="THR" destination2="ABD"  />
+		<route destination1="THR" destination2="AZD"   />
+                <route destination1="THR" destination2="DEF"  />
+		<route destination1="THR" destination2="MRX"  />
+		<route destination1="AWZ" destination2="IFN"  />
+		<route destination1="AWZ" destination2="KIH"  />
+		<route destination1="AWZ" destination2="SYZ"  />
+		<route destination1="AWZ" destination2="PGU"  />
+		<route destination1="AWZ" destination2="AZD"  />
+		<route destination1="AWZ" destination2="LVP"  />
+		<route destination1="AWZ" destination2="DXB"  />
+	        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Leasing Cameroon" iata="ALC" color="Gold" area="341" CEO="Unknown" mentality="Safe" market="Regional"  preferedairport="DLA" schedule="Charter">
+  <narrative narrative="Air Leasing Cameroon is a charter airline based at Douala,Cameroon. It offers service to the domestic airports at Garoua,Maroua,and Yaounde as well as N'Djamena,Chad and Malabo,Equatorial Guinea. At March 2011 it had three Fokker F28-4000's." />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+  <prefereds aircrafts="Fokker F28-4000"></prefereds>
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Fokker F28-4000" early="3" late="3"></airliner>
+	     </airliners>
+
+<routes>
+          <route destination1="DLA" destination2="NSI" />
+	        <route destination1="DLA" destination2="GOU" />
+	        <route destination1="DLA" destination2="MVR" />
+          <route destination1="DLA" destination2="NDJ" />
+          <route destination1="DLA" destination2="SSG" />
+              </routes>
+  
+
+
+</airline>

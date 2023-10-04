@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Bombardier Challenger-->
+<configuration type="Challenger 300" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="580" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="145" width="67.8"></seat>
+</seats>
+</configuration>
+<configuration type="Challenger 600" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="620" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="160" width="67.8"></seat>
+</seats>
+</configuration>
+<configuration type="Challenger 800" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,990" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="165" width="67.8"></seat>
+</seats>
+</configuration>
+
+<!--Bombardier Global-->
+<configuration type="Bombardier Global 5000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,1240" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="206" width="60.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Global 6000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,1320" kitchenrows="0,1320">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="220" width="60.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Global 7500" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,1530" kitchenrows="0,1530">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="191" width="60.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Global 8000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0,1665" kitchenrows="0,1665">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="208" width="60.3"></seat>
+</seats>
+</configuration>
+
+<!--Bombardier Dash 8-->
+<configuration type="Bombardier Dash 8-100" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="238" toiletrows="0" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.5"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Dash 8-200" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="238" toiletrows="0" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.5"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Dash 8-300" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="692,1000" toiletrows="0" kitchenrows="1000">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.9" width="50.5"></seat>
+</seats>
+</configuration>
+<!--Bombardier Dash 8 Q-Series-->
+<configuration type="Bombardier Dash 8-Q100" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="238" toiletrows="0" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.5"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Dash 8-Q200" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="238" toiletrows="0" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.4" width="50.5"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Dash 8-Q300" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="692,1000" toiletrows="0" kitchenrows="1000">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.9" width="50.5"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier Dash 8-Q400" economy="-1" premium="0" first="0" business="0" exitrows="0,1460" emergencyrows="-1" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.8" width="50.5"></seat>
+</seats>
+</configuration>
+<!--Bombardier Dash 8 NextGen-->
+<configuration type="Bombardier Dash 8-400NextGen" economy="-1" premium="2" first="0" business="0" exitrows="0,1640" emergencyrows="474" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.6" width="50.5"></seat>
+<seat class="Premium_Economy_Class" type="Standard" pitch="82" width="50.5"></seat>
+</seats>
+</configuration>
+
+<!--Bombardier CS-->
+<configuration type="Bombardier CS-100" economy="-1" premium="0" first="0" business="4" exitrows="0,1926" emergencyrows="710" toiletrows="0,1926" kitchenrows="0,1926">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.2" width="47"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="81.3" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CS-300" economy="-1" premium="0" first="0" business="6" exitrows="0,2330" emergencyrows="912" toiletrows="0,2330" kitchenrows="0,2330">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="47"></seat>
+<seat class="Business_Class" type="Recliner" pitch="86.4" width="47"></seat>
+</seats>
+</configuration>
+
+
+<!--Bombardier CRJ-->
+<configuration type="Bombardier CRJ100" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="525" toiletrows="975" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="56.2"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ200" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="525" toiletrows="975" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="56.2"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ700" economy="-1" premium="0" first="0" business="2" exitrows="0" emergencyrows="936" toiletrows="1460" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.8" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="68.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ705" economy="-1" premium="3" first="0" business="3" exitrows="0" emergencyrows="946" toiletrows="1665" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="51.2"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="88" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="100" width="68.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ900" economy="-1" premium="5" first="0" business="4" exitrows="0" emergencyrows="919,994" toiletrows="0,1670" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="51.2"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="81" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="68.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ900LR" economy="-1" premium="5" first="0" business="4" exitrows="0" emergencyrows="919,994" toiletrows="0,1670" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="51.2"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="81" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="68.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ1000" economy="-1" premium="5" first="0" business="4" exitrows="0" emergencyrows="1180,1260" toiletrows="0,1885" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.4" width="51.2"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="81" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="91" width="68.3"></seat>
+</seats>
+</configuration>
+<configuration type="Bombardier CRJ550" economy="-1" premium="5" first="0" business="3" exitrows="0" emergencyrows="936" toiletrows="1460" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77" width="51.2"></seat>
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="85" width="51.2"></seat>
+<seat class="Business_Class" type="Recliner" pitch="100" width="68.3"></seat>
+</seats>
+</configuration>
+</configurations>

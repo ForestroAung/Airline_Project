@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sky Express" iata="SXR" color="Magenta" area="177" CEO="Marina Vladimirovna Bukalova" mentality="Moderate" market="Domestic" preferedairport="VKO">
+  <narrative narrative="Sky Express was a low cost airline around from operations start at January 29,2007 until its merger into Kuban Airlines on October 29,2011. Its base was Moscow Vnukovo. From VKO it went
+to Sochi,St. Petersburg,Eketerinburg,Kaliningrad,Rostov on Don,Krasnodar,Chelyabinsk,Murmansk,Perm and Tyumen. Charters were done seasonal in the summers of 2009 and 2010 to international destinations. This included two in Finland,
+three in Greece,one in Hungary,one in Montenegro,one in Spain,one in Macedonia,one in Sweden and one in Turkey. Its fleet at the time of the merger was eight 737-500's of which it had 7 at the start in 2007,three 737-300's which
+it had at the start also,and three A319's which it got in the months in 2011 prior to merging. Kuban got the A319's,two of the 737-300's and two of the 737-500's at the merger."/>
+</profile>
+  <info real="True" from="2007" to="2012" />
+  <prefereds aircrafts="Boeing 737-500,Boeing 737-300,Airbus A319-100"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2011)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2011)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="8" late="8"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Airbus A319-100" early="3" late="3"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="VKO" destination2="AER"  />
+		<route destination1="VKO" destination2="LED"  />
+		<route destination1="VKO" destination2="SVX"  />
+		<route destination1="VKO" destination2="KGD"  />
+		<route destination1="VKO" destination2="ROV"  />
+		<route destination1="VKO" destination2="KRR"  />
+                <route destination1="VKO" destination2="CEK"  />
+		<route destination1="VKO" destination2="MMK"  />
+                <route destination1="VKO" destination2="PEE"  />
+		<route destination1="VKO" destination2="TJM"  />
+	        </routes>
+
+
+
+
+</airline>

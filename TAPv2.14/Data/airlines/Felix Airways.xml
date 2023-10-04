@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Felix Airways" iata="FXX" color="DarkOliveGreen" area="313" CEO="Mohammed Al-Arrasha" mentality="Moderate" market="Global"  preferedairport="SAH">
+  <narrative narrative="Felix Airways is an airline based at Sana'a,Yemen. It also has a focus city at the island of Socotra and has many flights out of Aden and Ta'izz. 15 routes are served from home. In total it serves 9 domestic including the bases
+  and three in Saudia Arabia (Jeddah,Dammam,and Abha),two in Somalia (Mogadishu and Hargeisa), Sharjah,UAE and Djibouti. Aden has 8 routes,Socotra 4,and Ta'izz 5. It also does Al Mukalla-Sharjah, the only international route it serves from Yemen besides from Sana'a,Aden,Socotra and Ta'izz.
+  Its fleet is two Bombardier CRJ700's,two CRJ200's and a leased 737-300, it plans to get 9 737's. It started in 2008 with the two CRJ700's and got the CRJ200's early in 2009." />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+   <prefereds aircrafts="Bombardier CRJ700,Bombardier CRJ200,Boeing 737-300,Boeing 737 MAX 7,Boeing 737 MAX 8"></prefereds>
+   <focusairports>
+                 <focusairport airport="SCT"></focusairport>
+		 <focusairport airport="ADE"></focusairport>
+		  <focusairport airport="TAI"></focusairport>
+     </focusairports>
+
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ700" early="2" late="2"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="2" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+	
+	
+<routes>
+	        <route destination1="SAH" destination2="SCT" opened="2008" closed="2199"  />
+		<route destination1="SAH" destination2="ADE" opened="2008" closed="2199"  />
+     		<route destination1="SAH" destination2="TAI" opened="2008" closed="2199"  />
+		<route destination1="SAH" destination2="RIY" opened="2008" closed="2199"  />
+	        <route destination1="SAH" destination2="GXF" opened="2008" closed="2199"  />
+	       <route destination1="SAH" destination2="HOD" opened="2008" closed="2199"  />
+	        <route destination1="SAH" destination2="JED" opened="2008" closed="2199"  />
+	        <route destination1="SAH" destination2="DMM" opened="2008" closed="2199"  />
+	        <route destination1="SAH" destination2="AHB" opened="2008" closed="2199"  />
+	        <route destination1="SAH" destination2="SHJ" opened="2008" closed="2199"  />
+		 <route destination1="SAH" destination2="MGQ" opened="2008" closed="2199"  />
+		 <route destination1="SAH" destination2="HGA" opened="2008" closed="2199"  />
+		  <route destination1="SAH" destination2="JIB" opened="2008" closed="2199"  />
+	           <route destination1="SAH" destination2="AAY" opened="2008" closed="2199"  />
+		   <route destination1="SCT" destination2="SHJ" opened="2008" closed="2199"  />
+		    <route destination1="SCT" destination2="RIY" opened="2008" closed="2199"  />
+		      <route destination1="ADE" destination2="SCT" opened="2008" closed="2199"  />
+		    <route destination1="ADE" destination2="RIY" opened="2008" closed="2199"  />
+		     <route destination1="ADE" destination2="GXF" opened="2008" closed="2199"  />
+		    <route destination1="ADE" destination2="JED" opened="2008" closed="2199"  />
+		     <route destination1="ADE" destination2="SHJ" opened="2008" closed="2199"  />
+		      <route destination1="ADE" destination2="DMM" opened="2008" closed="2199"  />
+		    <route destination1="ADE" destination2="AHB" opened="2008" closed="2199"  />
+		    <route destination1="SAH" destination2="AXK" opened="2008" closed="2199"  />
+		    <route destination1="TAI" destination2="JED" opened="2008" closed="2199"  />
+		    <route destination1="TAI" destination2="DMM" opened="2008" closed="2199"  />
+		    <route destination1="TAI" destination2="JIB" opened="2008" closed="2199"  />
+		    <route destination1="TAI" destination2="HOD" opened="2008" closed="2199"  />
+		    <route destination1="RIY" destination2="SHJ" opened="2008" closed="2199"  />
+
+        </routes>
+ 
+
+
+</airline>

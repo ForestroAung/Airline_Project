@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Cyprus Airways" iata="CY" logo="CY2" color="Gold" area="146" CEO="Vladimir Obyedkov" mentality="Safe" market="Domestic" preferedairport="LCA">
+    <narrative narrative="In July 2016, Charlie Airlines Ltd, won a tender competition for the right to use the national carrier trademark Cyprus Airways for a decade, signing a corresponding agreement with the Ministry of Finance of Cyprus." />
+</profile>
+  <info real="True" from="2016" to="2199" />
+    <focusairports>
+      <focusairport airport="LCA"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Airbus A319-100"></prefereds>
+                <airliners>
+     <airliner type="Airbus A319-100" early="2" late="2"></airliner>
+      </airliners>
+<routes> 
+     <route destination1="LCA" destination2="ATH"  opened="2016" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="BEY"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="LED"  opened="2016" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="MUC"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="PRG"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="STR"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="TLV"  opened="2016" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="VRN"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+     <route destination1="LCA" destination2="ZRH"  opened="2018" closed="2199"    airliner="Airbus A319-100"  />
+                   </routes>
+</airline>

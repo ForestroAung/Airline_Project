@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Irkut MC-21-200-->
+<configuration type="MC-21-200" economy="-1" premium="0" first="0" business="3" exitrows="0,1995" emergencyrows="1222" toiletrows="0,1995" kitchenrows="0,1995">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.3" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="98" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="MC-21-300" economy="-1" premium="0" first="0" business="4" exitrows="0,2560" emergencyrows="392,1708" toiletrows="0,2560" kitchenrows="0,2560">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.4" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="98" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="MC-21-400" economy="-1" premium="0" first="0" business="6" exitrows="0,3060" emergencyrows="588,1708" toiletrows="0,588,3060" kitchenrows="0,3060">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.2" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="98" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

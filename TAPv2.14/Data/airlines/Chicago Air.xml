@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Chicago Air" iata="CHG" color="Blue" area="402" CEO="Neil Meehan" mentality="Moderate" market="Local" preferedairport="ORD">
+  <narrative narrative="Chicago Air was a short lived airline that operated from May to November 1986. It was based at Chicago Midway and flew to the Wisonsin cities of Madison,Green Bay,La Crosee,Eau Claire,and Wausau and 
+  Traverse City in Michigan and in Illinois the cities of Peoria,Springfield and Moline. It used six Fokker 27's. All the routes it served are served at O' Hare but not Midway as of 2015 anymore. It served as a feeder
+  for Midway Airlines. It had plans to get ten Saab 340's and expand to Des Moines,IA Cedar Rapids,IA Waterloo,IA South Bend,IN Fort Wayne,IN Lafayette,IN Evansville,IN Kalamazoo,MI and Grand Rapids,MI. Missouri,Ohio and
+  Minnesota places would have followed."/>
+</profile>
+  <info real="True" from="1986" to="1987" />
+  <prefereds aircrafts="Fokker F27"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (1986) late (1987)-->
+	         <airliners>
+	    <airliner type="Fokker F27" early="6" late="6"></airliner>
+	     </airliners>
+
+              <routes>
+	        <route destination1="ORD" destination2="MSN" />
+	        <route destination1="ORD" destination2="GRB" />
+	        <route destination1="ORD" destination2="LSE" />
+		<route destination1="ORD" destination2="EAU" />
+	        <route destination1="ORD" destination2="CWA" />
+	        <route destination1="ORD" destination2="TVC" />
+	        <route destination1="ORD" destination2="PIA" />
+		<route destination1="ORD" destination2="MLI" />
+	        <route destination1="ORD" destination2="SPI" />
+	        </routes>
+
+</airline>

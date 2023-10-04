@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Lufttransport" iata="L5" color="Red" area="104" CEO="Stig Næsh" mentality="Moderate" market="Domestic" preferedairport="TOS" routefocus="Mixed_Passenger">
+  <narrative narrative="Lufttransport is a Norwegian helicopter and fixed-wing airline that operates primarily air ambulance helicopters and planes for the Norwegian and Swedish governments. In addition the airline offers services including surveillance for the Norwegian Coast Guard, transport of ship pilots and scheduled air transport in the Norwegian territory of Svalbard." />
+ </profile>
+    <info real="True" from="1971" to="2199" />
+       <prefereds aircrafts="Beechcraft King Air B200,AgustaWestland AW139,EC225 Super Puma,Dornier 228-212"></prefereds>
+       <focusairports>
+                 <focusairport airport="BDU"></focusairport> 
+                                 <focusairport airport="BOO"></focusairport> 
+                                                 <focusairport airport="OSL"></focusairport> 
+     </focusairports>
+	    <startdata>
+     <airliners>
+     <airliner type="Beechcraft King Air B200" early="5" late="11"></airliner>
+	 <airliner type="AgustaWestland AW139" early="1" late="6"></airliner>
+    </airliners>
+    </startdata>
+</airline>

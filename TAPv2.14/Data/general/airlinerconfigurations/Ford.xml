@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Ford-->
+<!--Ford-->
+<configuration type="Ford 4-AT-B" economy="0" premium="0" first="-1" business="0" exitrows="432" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="52"></seat>
+</seats>
+</configuration>
+</configurations>

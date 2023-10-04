@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Consolidated-->
+<configuration type="Consolidated Catalina" economy="0" premium="0" first="-1" business="0" exitrows="270" emergencyrows="90" toiletrows="450" kitchenrows="360">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Consolidated Commodore" economy="0" premium="0" first="-1" business="0" exitrows="256" emergencyrows="642" toiletrows="256" kitchenrows="256">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="128.3" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

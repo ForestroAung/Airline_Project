@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Azur Air Germany" iata="ZF" color="DarkBlue" area="108" CEO="Alper Altun" mentality="Aggressive" onlyfromhome="false"
+           market="Global" preferedairport="DUS">
+    <narrative
+      narrative="Azur Air Germany is a Charterairline based at Düsseldorf International." />
+  </profile>
+   <info real="True" from="2016" to="2199"></info>
+    <prefereds aircrafts="Boeing 767-300ER"></prefereds>
+    <focusairports>
+        <focusairport airport="SXF"/>
+		<focusairport airport="MUC"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 767-300ER" early="3" late="9"></airliner>
+    </airliners>
+  </startdata>
+</airline>

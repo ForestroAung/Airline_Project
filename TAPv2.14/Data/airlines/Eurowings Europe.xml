@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eurowings Europe" iata="E2" color="Purple" area="120" CEO="Thorsten Dirks" mentality="Aggressive" onlyfromhome="false"
+           market="Global" preferedairport="VIE" businessmodel="LCC">
+    <narrative
+      narrative="Eurowings Europe is a low-cost airline registered in Austria that is a subsidiary of Lufthansa Group. It began operations in June 2016. As of March 2017, the airline operates from two bases in Austria using five Airbus A320s. It has adopted the corporate identity of its German sister airline, Eurowings." />
+  </profile>
+   <info real="True" from="2015" to="2199"></info>
+    <prefereds aircrafts="Airbus A320-200"></prefereds>
+    <focusairports>
+        <focusairport airport="SZG"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="2" late="8"></airliner>
+    </airliners>
+  </startdata>
+</airline>

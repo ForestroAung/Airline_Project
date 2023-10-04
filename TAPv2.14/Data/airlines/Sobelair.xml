@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Sobelair" iata="Q7" color="Blue" area="112" CEO="Christophe Muller" mentality="Moderate" market="Global" preferedairport="BRU">
+    <narrative narrative="Sobelair was a Belgian airline headquartered in Brussels. It operated flights to Belgian Colony Congo and other African destinations. Later, after Congo was declared indepentent, it operated charter flights for tour operators to the Mediterranean, chartered domestic flights with small airliners." /></profile>
+  <info real="True" from="1946" to="2004" />
+</airline>

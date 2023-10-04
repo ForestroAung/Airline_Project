@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Bashkortostan" iata="ZU" color="MediumBlue" area="177" CEO="Rustem Khamitov" mentality="Safe" market="Global" preferedairport="UFA">
+  <narrative narrative="Air Bashkortostan was around from April 2006 to October 2013. It was a subsidiary of VIM Airlines who owned 74% and the other 26% by the government of Bashkortostan. The 
+  region of Russia which it served from its capital of Ufa. Its main route was to Moscow Domodedovo, the hub of its parent, using 757-200's owned by VIM. Most of its life it had two of them assigned to the fleet.
+  It also did charters,including to other countries in Europe and Asia. It also had a Diamond DA42  twin prop plane used to do aerial imaging."/>
+</profile>
+  <info real="True" from="2006" to="2014" />
+  <prefereds aircrafts="Boeing 757-200"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="2" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="UFA" destination2="DME" />
+        </routes>
+</airline>

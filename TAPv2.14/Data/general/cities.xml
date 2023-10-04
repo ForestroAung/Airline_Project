@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+  <city name="New York City" range="75" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Largest" intlOutGoing="Largest" country="122">
+  <coordinates>
+      <latitude value="40°43'42''N" />
+      <longitude value="73°59'39''W" />
+    </coordinates>
+    </city>
+    <city name="Los Angeles" range="75" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Largest" intlOutGoing="Largest" country="122">
+  <coordinates>
+      <latitude value="34°00'03''N" />
+      <longitude value="118°00'15''W" />
+    </coordinates>
+    </city>
+    <city name="Karachi" range="75" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Large" intlOutGoing="Large" country="202">
+  <coordinates>
+      <latitude value="24°51'36''N" />
+      <longitude value="67°00'36''E" />
+    </coordinates>
+    </city>
+    <city name="Jakarta" range="75" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Large" intlOutGoing="Large" country="162">
+  <coordinates>
+      <latitude value="6°12'12''S" />
+      <longitude value="106°49'49''E" />
+    </coordinates>
+    </city>
+     <city name="Tokyo" range="100" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Very_large" intlOutGoing="Largest" country="171">
+  <coordinates>
+      <latitude value="35°41'41''N" />
+      <longitude value="139°41'41''E" />
+    </coordinates>
+    </city>
+         <city name="Shanghai" range="100" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Large" intlOutGoing="Largest" country="148">
+  <coordinates>
+      <latitude value="31°13'43''N" />
+      <longitude value="121°28'29''E" />
+    </coordinates>
+    </city>
+         <city name="London" range="50" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Largest" intlOutGoing="Largest" country="130">
+  <coordinates>
+      <latitude value="51°30'26''N" />
+      <longitude value="0°07'39''W" />
+    </coordinates>
+    </city>
+       <city name="Moscow" range="50" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Largest" intlOutGoing="Large" country="149">
+  <coordinates>
+      <latitude value="55°45'12''N" />
+      <longitude value="37°37'12''E" />
+    </coordinates>
+    </city>
+    <city name="Berlin" range="50" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Very_large" intlOutGoing="Largest" country="1001">
+  <coordinates>
+      <latitude value="52°30'26''N" />
+      <longitude value="13°8'45''E" />
+    </coordinates>
+    </city>
+            <city name="Beijing" range="100" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Large" intlOutGoing="Largest" country="148">
+  <coordinates>
+      <latitude value="39°55'00''N" />
+      <longitude value="116°23'00''E" />
+    </coordinates>
+    </city>
+                <city name="Istanbul" range="80" domesticInGoing="Largest" domesticOutGoing="Largest" intlInGoing="Large" intlOutGoing="Largest" country="161">
+  <coordinates>
+      <latitude value="41°00'49''N" />
+      <longitude value="28°57'18''E" />
+    </coordinates>
+    </city>
+    </cities>

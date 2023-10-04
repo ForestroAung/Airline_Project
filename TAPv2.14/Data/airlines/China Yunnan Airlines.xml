@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="China Yunnan Airlines" iata="CYH" color="Green" area="209" CEO="Xue Xiaoming" mentality="Moderate" market="Regional" preferedairport="KMG">
+  <narrative narrative="China Yunnan Airlines was around from 1992 to 2003 when it was merged into China Eastern Airlines. It was based at Kunming, which is the main city of the Yunnan province in western China. It was serving 40-50 domestic destinations all over the country at the time of the merger, and a few international ones like Hong Kong,Singapore,Kuala Lumpur and Bangkok. It had four 737-300's to start and had thirteen at the merger. It also had three 767-300ER's,four 737-700's and six Bombardier CRJ200's. All the planes went to China Eastern."/>
+</profile>
+  <info real="True" from="1992" to="2004" />
+  <prefereds aircrafts="Boeing 737-300,Boeing 767-300ER,Bombardier CRJ200,Boeing 737-700"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="4" late="13"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="3" late="3"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="4" late="4"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="6" late="6"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="KMG" destination2="PEK" />
+			  <route destination1="KMG" destination2="CAN" />
+			  <route destination1="KMG" destination2="HKG" />
+			  <route destination1="KMG" destination2="SHA" />
+			  <route destination1="KMG" destination2="CTU" />
+			  <route destination1="KMG" destination2="CKG" />
+			  <route destination1="KMG" destination2="KWE" />
+			  <route destination1="KMG" destination2="NNG" />
+			  <route destination1="KMG" destination2="CSX" />
+			  <route destination1="KMG" destination2="LHW" />
+			  <route destination1="KMG" destination2="KHN" />
+			  <route destination1="KMG" destination2="SZX" />
+			  <route destination1="KMG" destination2="WUH" />
+			  <route destination1="KMG" destination2="CGO" />
+			  <route destination1="KMG" destination2="XIY" />
+			  <route destination1="KMG" destination2="XMN" />
+			  <route destination1="KMG" destination2="HFE" />
+			  <route destination1="KMG" destination2="TAO" />
+			  <route destination1="KMG" destination2="NKG" />
+			  <route destination1="KMG" destination2="TYN" />
+			  <route destination1="KMG" destination2="TSN" />
+			  <route destination1="KMG" destination2="HGH" />
+			  <route destination1="KMG" destination2="YBP" />
+			  <route destination1="KMG" destination2="DLU" />
+			  <route destination1="KMG" destination2="LJG" />
+			  <route destination1="KMG" destination2="LUM" />
+			  <route destination1="KMG" destination2="ZAT" />
+			  <route destination1="KMG" destination2="BSD" />
+			  <route destination1="KMG" destination2="TNA" />
+			  <route destination1="KMG" destination2="KWL" />
+			  <route destination1="KMG" destination2="SJW" />
+			  <route destination1="KMG" destination2="HAK" />
+			  <route destination1="KMG" destination2="FOC" />
+			  <route destination1="KMG" destination2="DLC" />
+			  <route destination1="KMG" destination2="SHE" />
+			  <route destination1="KMG" destination2="HRB" />
+			  <route destination1="KMG" destination2="URC" />
+			  <route destination1="KMG" destination2="ZHA" />
+			  <route destination1="KMG" destination2="NGB" />
+			  <route destination1="KMG" destination2="WNZ" />
+			  <route destination1="KMG" destination2="SWA" />
+			  <route destination1="KMG" destination2="SIN" />
+			  <route destination1="KMG" destination2="DMK" />
+			  <route destination1="KMG" destination2="KUL" />
+        </routes>
+</airline>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="TNT Airways" iata="3V" color="Orange" area="112" CEO="Niky Terzakis" mentality="Moderate" market="Global"  preferedairport="LGG" routefocus="Cargo"> 
+  <narrative narrative="ASL Airlines Belgium, formerly TNT Airways, is a subsidiary of ASL Airlines Ireland." />
+<logos>
+	<logo from="2000" to="2015" path="3V2000"/>
+	<logo from="2016" to="2199" path="3V2016"/>
+</logos>
+<names>
+	<name value="TNT Airways" from="01.01.2000 00:00:00"/>
+	<name value="ASL Airlines Belgium" from="02.01.2016 00:00:00"/>
+</names>
+  </profile>
+   <info real="True" from="2000" to="2199"></info>
+   
+   
+   
+   <prefereds aircrafts="Boeing 777F,Boeing 747-400ERF,Boeing 757-200PF,Boeing 737-400,Boeing 737-300,BAe 146-200,Tupolev Tu-204-120,Airbus A300B4"></prefereds>
+
+  
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="BAe 146-200" early="17" late="11"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (2000) late (2011)-->
+	         <airliners>
+	    <airliner type="Airbus A300B4" early="6" late="0"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="5" late="11"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 777F" early="3" late="3"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-400ERF" early="3" late="4"></airliner>
+	     </airliners>
+	          	     	     <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-204-120" early="0" late="1"></airliner>
+	     </airliners>
+
+
+   <routes>
+		<route destination1="LGG" destination2="VIE" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="CDG"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="AMS"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="STN" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="FCO" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="MAD" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="FRA" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="EMA" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="DUB"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="IST" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="LIS" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="GVA" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="MUC" opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="BCN"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="ATH"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="HEL"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="BUD"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="TLV"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="LCA"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="PRG"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="OTP"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="BSL"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="KTW"  opened="2000" closed="2199" />
+		<route destination1="LGG" destination2="BLL"  opened="2001" closed="2199" />
+		<route destination1="LGG" destination2="BHX"  opened="2001" closed="2199" />
+		<route destination1="LGG" destination2="HAJ"  opened="2001" closed="2199" />
+		<route destination1="LGG" destination2="TLL"  opened="2001" closed="2199" />
+		<route destination1="LGG" destination2="GLA"  opened="2001" closed="2199" />
+		<route destination1="LGG" destination2="BGY"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="BLQ"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="EDI"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="LJU"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="OPO"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="BFS"  opened="2003" closed="2199" />
+		<route destination1="LGG" destination2="TLS"  opened="2003" closed="2199" />
+		<route destination1="LGG" destination2="MMX"  opened="2003" closed="2199" />
+		<route destination1="LGG" destination2="CTA"  opened="2003" closed="2199" />
+		<route destination1="LGG" destination2="SNN"  opened="2003" closed="2199" />
+		<route destination1="LGG" destination2="BOD"  opened="2004" closed="2199" />
+		<route destination1="LGG" destination2="GOT"  opened="2004" closed="2199" />
+		<route destination1="LGG" destination2="NUE"  opened="2004" closed="2199" />
+		<route destination1="LGG" destination2="LYS"  opened="2004" closed="2199" />
+		<route destination1="LGG" destination2="MRS"  opened="2004" closed="2199" />
+		<route destination1="LGG" destination2="TNG"  opened="2005" closed="2199" />
+		<route destination1="LGG" destination2="VIT"  opened="2005" closed="2199" />
+		<route destination1="LGG" destination2="BRQ"  opened="2005" closed="2199" />
+		<route destination1="LGG" destination2="TKU"  opened="2005" closed="2199" />
+		<route destination1="LGG" destination2="ERF"  opened="2005" closed="2199" />
+		<route destination1="LGG" destination2="JKG"  opened="2006" closed="2199" />
+		<route destination1="LGG" destination2="VST"  opened="2006" closed="2199" />
+		<route destination1="LGG" destination2="NWI"  opened="2006" closed="2199" />
+		<route destination1="LGG" destination2="RNS"  opened="2006" closed="2199" />
+		<route destination1="LGG" destination2="ORB"  opened="2006" closed="2199" />
+		<route destination1="LGG" destination2="HKG"  opened="2009" closed="2199" />
+		<route destination1="LGG" destination2="SIN"  opened="2008" closed="2199" />
+		<route destination1="LGG" destination2="DEL"  opened="2009" closed="2199" />
+		<route destination1="LGG" destination2="PVG"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="SZX"  opened="2002" closed="2199" />
+		<route destination1="LGG" destination2="DXB"  opened="2006" closed="2199" />
+		<route destination1="BRU" destination2="HEL"  opened="2007" closed="2199" />
+	        </routes>
+
+</airline>

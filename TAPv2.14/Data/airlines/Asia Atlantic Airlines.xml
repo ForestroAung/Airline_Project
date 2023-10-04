@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Asia Atlantic Airlines" iata="HB" color="MediumBlue" area="234" CEO="Bobby Haque" mentality="Moderate" market="Global" preferedairport="BKK" schedule="Charter">
+  <narrative narrative="Asia Atlantic Airlines is a charter airline based in Bangkok,Thailand that started on August 19,2013. It is a subsidiary of Japanese travel agency H.I.S. Its initial routes were to Tokyo Narita,Osaka Kansai in Japan, Denpensar/Bali,Indonesia, Siem Reap and Phnom Penh,Cambodia. At May 2015 it was no longer serving Phnom Penh. Since 2013 it has started going to Sapporo,Nagoya,and Fukuoka in Japan, Hong Kong, Macau,Shanghai in China,Taipei in Taiwan,Seoul-Incheon in South Korea,Singapore, Kuala Lumpur in Malaysia,Hanoi and Hochiminh in Vietnam and Vientiane in Laos. It started with a 767-300ER and now has another. Phuket and Chiang Mai all offer the same destinations as well. There are plans to go to Europe in the future. There were plans to go to Honolulu,Hawaii,USA and Guam of the USA also but these have not yet happened. Its name was chosen because the Atlantic ocean is not the one Asia lays by,and they thought the Pacific name in Asia was overused, and to represent their desires to serve places beyond Asia." />
+ </profile>
+    <info real="True" from="2013" to="2199" />
+       <prefereds aircrafts="Boeing 767-300ER"></prefereds>
+       <focusairports>
+ 		 <focusairport airport="HKT"></focusairport> 
+		 <focusairport airport="CNX"></focusairport>
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="2"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="BKK" destination2="NRT" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="KIX" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="PNH" opened="2013" closed="2014"   />	
+	    <route destination1="BKK" destination2="REP" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="DPS" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="CTS" opened="2014" closed="2199"   />
+             <route destination1="BKK" destination2="NGO" opened="2014" closed="2199"   />		
+	     <route destination1="BKK" destination2="ICN" opened="2014" closed="2199"   />	
+	     <route destination1="BKK" destination2="FUK" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="HKG" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="MFM" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="PVG" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="KUL" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="SIN" opened="2014" closed="2199"   />
+	     <route destination1="BKK" destination2="SGN" opened="2015" closed="2199"   />
+	     <route destination1="BKK" destination2="HAN" opened="2015" closed="2199"   />
+	      <route destination1="BKK" destination2="TPE" opened="2015" closed="2199"   />
+	      <route destination1="BKK" destination2="VTE" opened="2015" closed="2199"   />
+                   </routes>
+</airline>

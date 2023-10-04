@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Greece" iata="AGJ" color="MediumBlue" area="139" CEO="Kostas Mpantouvas" mentality="Safe" market="Regional" preferedairport="HER">
+  <narrative narrative="Air Greece was a domestic airline based at Heraklion,Greece on the island of Crete. It had focus cities at Athens,Thessaloniki and on the island of Rhodes also. It started in 1994 with two leased ATR 72's. In April 1997 it got another. In 1999 it leased two Fokker 100's as well and started flying to Cologne,Stuttgart and Dusseldorf in Germany. Its domestic service included the hub and focus cities and Santorini,Araxos,Kavala,Mytilene,Ioannina and Chania. In 1999 ferry company Minoan Lines bought 51% of it. In December 1999 its competitor Aegean Airlines bought it and took it over. The next year the original owners of Air Greece tried to launch Cretan Airways but failed."/>
+</profile>
+  <info real="True" from="1994" to="2000" />
+  <prefereds aircrafts="ATR 72-200"></prefereds>
+          <focusairports>
+		 <focusairport airport="ATH"></focusairport>
+		 <focusairport airport="SKG"></focusairport>
+		 <focusairport airport="RHO"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1997)-->
+	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2000)-->
+	         <airliners>
+	    <airliner type="Fokker 100" early="2" late="2"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="HER" destination2="ATH"  />
+		<route destination1="HER" destination2="SKG"  />
+                <route destination1="HER" destination2="RHO"  />
+		<route destination1="HER" destination2="JTR"  />
+		<route destination1="HER" destination2="MJT"  />
+		<route destination1="ATH" destination2="CHQ"  />
+		<route destination1="ATH" destination2="KVA"  />
+		<route destination1="ATH" destination2="IOA"  />
+		<route destination1="ATH" destination2="JTR"  />
+		<route destination1="ATH" destination2="MJT"  />
+		<route destination1="SKG" destination2="CHQ"  />
+		<route destination1="SKG" destination2="MJT"  />
+		<route destination1="ATH" destination2="DUS" opened="1999" closed="2199" />
+		<route destination1="ATH" destination2="STR" opened="1999" closed="2199" />
+	        <route destination1="ATH" destination2="CGN" opened="1999" closed="2199" />
+	        </routes>
+
+
+
+
+</airline>

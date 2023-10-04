@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<stafftypes>
+<staff name="Chief Financial Officer" shortname="CFO" salary="2363" numbers="1" type="Executive"></staff>
+<staff name="Chief Operating Officer" shortname="COO" salary="1926" numbers="1" type="Executive"></staff>
+<staff name="Chief Human Resources Officer" shortname="CHRO" salary="1335" numbers="1" type="Executive"></staff>
+<staff name="Chief Communications Officer" shortname="CCO" salary="652" numbers="1" type="Executive"></staff>
+<staff name="Customer Service Representatives" shortname="CSR" salary="240" numbers="-1" type="CustomerService"></staff>
+<staff name="Customer Service Agents" shortname="CSA" salary="219" numbers="-1" type="CustomerService"></staff>
+<staff name="Ramp Agents" shortname="RA" salary="181" numbers="-1" type="RampAgent"></staff>
+</stafftypes>

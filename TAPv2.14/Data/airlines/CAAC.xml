@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Civil Aviation Administration of China" iata="CA" logo="CA4" color="Red" area="209" CEO="Feng Zhenglin" mentality="Safe" market="Regional" preferedairport="PEK">
+  <narrative narrative="CAAC began operating scheduled domestic flights to cities in China in 1949.In 1962, CAAC began operating international services, initially to other countries in the Communist bloc such as the Soviet Union, Mongolia, North Korea, Burma, Bangladesh, North Vietnam, and Cambodia. By the mid-1980s, CAAC had long-haul service to the United States, Europe, the Middle East, and Australia, mainly using American Boeing aircraft, while continuing to use Soviet aircraft on routes to Eastern Europe.In 1987, CAAC's airline operations split into six separate airlines, each named after the geographic region of the location of their headquarters and main operating areas."/>
+</profile>
+  <info real="True" from="1949" to="1987" />
+  <focusairports>
+      <focusairport airport="SHA"></focusairport>
+     <focusairport airport="CAN"></focusairport>
+     <focusairport airport="CTU"></focusairport>
+     <focusairport airport="CTU"></focusairport>
+          <focusairport airport="SHE"></focusairport></focusairports>
+</airline>

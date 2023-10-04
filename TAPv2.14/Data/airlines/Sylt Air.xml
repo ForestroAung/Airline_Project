@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Sylt Air" iata="7E"  color="MediumTurquoise" area="108" CEO="Ulrich Schreiber" mentality="Safe" market="Local" preferedairport="GWT">
+  <narrative narrative="Sylt Air is an airline based at the island of Sylt in Germany off the west coast of the Jutland Peninsula near the Denmark border. It was founded in 1963 by Ulrich Schreiber.
+  It's only route as of April 2015 was a seasonal one to Hamburg. It's fleet was made of four Cessna 421 Golden Eagle's and two Cessna 207's."/>
+   </profile>
+    <info real="True" from="1963" to="2199" />
+       <prefereds aircrafts="Cessna 421 Golden Eagle,Cessna 207"></prefereds>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1967) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Cessna 421 Golden Eagle" early="1" late="4"></airliner>
+	     </airliners>
+	         	     	         <!--the airliners the airline would start with which isn't on a route earyl (1969) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Cessna 207" early="1" late="2"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="GWT" destination2="HAM" opened="1963" closed="2199" season="Summer"/>	
+              </routes>
+</airline>

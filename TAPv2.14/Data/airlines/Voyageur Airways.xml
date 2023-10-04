@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Voyageur Airways" iata="VC" color="Maroon" area="400" CEO="Scott Tapson" mentality="Moderate"
+           market="Domestic" preferedairport="YYB">
+  <narrative narrative="Voyageur Airways Limited, a Canadian licenced Air Operator and Approved Maintenance Organization, was established in 1968 at its current headquarters of North Bay, Ontario, Canada, and operated as a private corporation until May 2015. Voyageur Airways operates charter, ACMI, and special mission aircraft throughout world. "/>
+</profile>
+  <info real="True" from="1968" to="2199"></info>
+     <prefereds aircrafts="Beechcraft King Air B200,Bombardier CRJ100,Bombardier CRJ200,Bombardier CRJ900,Bombardier Dash 8-100,Bombardier Dash 8-300,DHC-7-100"></prefereds>
+                <airliners>
+     <airliner type="Bombardier CRJ100" early="2" late="0"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Bombardier CRJ200" early="4" late="10"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Bombardier CRJ900" early="1" late="0"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Bombardier Dash 8-100" early="3" late="2"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Bombardier Dash 8-300" early="6" late="5"></airliner>
+      </airliners>
+<routes>
+ <route destination1="YYB" destination2="YMG"  />
+ <route destination1="YYB" destination2="YOW"  />
+ <route destination1="YYB" destination2="YPQ"  />
+ <route destination1="YYB" destination2="YQG"  />
+ <route destination1="YYB" destination2="YSB"  />
+ <route destination1="YYB" destination2="YSP"  />
+ <route destination1="YYB" destination2="YUL"  />
+ <route destination1="YYB" destination2="YUY"  />
+ <route destination1="YYB" destination2="YVO"  />
+ <route destination1="YYB" destination2="YYZ"  />
+                   </routes>
+</airline> 

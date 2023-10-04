@@ -1,0 +1,30 @@
+<airline>
+ <profile name="Mistral Air" iata="M4" logo="M4" color="Blue" area="121" CEO="Bud Spencer" mentality="Safe" market="Regional" preferedairport="PSR">
+  <narrative narrative="Mistral Air is an Italian airline based in Pescara and a subsidiary of Poste italiane. It operates domestic scheduled and international charter passenger as well as cargo services and maintains bases at Pescara International Airport, Leonardo da Vinci-Fiumicino Airport and Bologna Guglielmo Marconi Airport (Both only for Cargo). Mistral Air was established in 1981 by actor and former swimmer Bud Spencer and started operations in 1984."/>
+ </profile>
+  <prefereds aircrafts="ATR 72-200,ATR 72-500,Boeing 737-300,Boeing 737-400"></prefereds>
+   <info real="True" from="1984" to="2199">
+   </info>
+   <focusairports>
+	<focusairport airport="PMO"></focusairport>
+   </focusairports>
+    <startdata>
+    <airliners>
+     <airliner type="ATR 72-200" early="1" late="2"></airliner>
+     <airliner type="ATR 72-500" early="1" late="5"></airliner>
+	 <airliner type="Boeing 737-300" early="0" late="1"></airliner>
+     <airliner type="Boeing 737-400" early="0" late="1"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="PSR" destination2="TIA"/>
+	  <route destination1="PSR" destination2="CAG"/>
+	  <route destination1="PSR" destination2="CTA" destination3="LMP"/>
+	  <route destination1="PSR" destination2="PMO"/>
+	  <route destination1="PMO" destination2="LMP"/>
+	  <route destination1="PMO" destination2="PNL"/>
+	  <route destination1="TPS" destination2="PNL"/>
+	  <route destination1="TIA" destination2="BRI"/>
+	  <route destination1="TIA" destination2="NAP"/>
+     </routes>
+    </startdata>
+</airline>

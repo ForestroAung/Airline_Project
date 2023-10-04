@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Eastern Air Lines" iata="EA" logo="EA" color="Blue" area="402" CEO="Edward Wegel " mentality="Moderate" market="Global" preferedairport="MIA" schedule="Charter">
+    <narrative narrative="Eastern Air Lines is an airline based in Miami, Florida, founded in 2011. The ownership group, Eastern Air Lines Group, purchased the intellectual property, including trademarks, of the original Eastern Air Lines in 2009, and announced in early 2014 that it had filed an application with the United States Department of Transportation for a certificate of public convenience and necessity, which would be followed by certification with the Federal Aviation Administration. " /></profile>
+  <info real="True" from="2015" to="2017" />
+   <prefereds aircrafts="Boeing 737-700,Boeing 737 MAX 8,Boeing 737-800,MRJ 90"></prefereds>
+         <airliners>
+	    <airliner type="Boeing 737-700" early="1" late="0"></airliner>
+	    <airliner type="Boeing 737-800" early="4" late="14"></airliner>
+	      <airliner type="Boeing 737 MAX 8" early="0" late="15"></airliner>
+	      	      <airliner type="MRJ 90" early="0" late="20"></airliner>
+	     </airliners>
+	
+</airline>

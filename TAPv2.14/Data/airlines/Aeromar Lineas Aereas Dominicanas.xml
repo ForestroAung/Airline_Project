@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeromar Líneas Aéreas Dominicanas" iata="BQ" color="MediumBlue" area="415" CEO="Raymundo Polanco Algeria" mentality="Safe" market="Global" preferedairport="SDQ"> 
+  <narrative narrative="Aeromar services began with a single Boeing 727 leased from Falcon Air for routes to Miami and San Juan. They expanded by purchasing a Boeing 747 to a new route to Madrid but the route was suspended 5 months later due to heavy competition with Iberia. In 2002 there was a new service to New York, and starting 2003 the airline began to fly to Aruba, Havana, and Caracas. They leased their Boeing 757 from Icelandair and 767 from Air Atlanta before ceasing operations. They were also the first airline to fly New York – Santiago, Dominican Republic starting in 2002." />
+</profile>
+   <info real="True" from="1998" to="2003"></info>
+     <focusairports>
+        <focusairport airport="STI"></focusairport>
+     </focusairports>
+       
+  <routes>
+    <route destination1="SDQ" destination2="JFK"/>
+    <route destination1="SDQ" destination2="MIA"/>
+    <route destination1="SDQ" destination2="AUA"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-200" early="1" late="1"></airliner>
+	      <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	        <airliner type="Boeing 787-200" early="1" late="4"></airliner>
+	          <airliner type="Boeing 757-200" early="1" late="2"></airliner>
+       <airliner type="Boeing 767-200" early="1" late="2"></airliner>
+	     </airliners>
+
+</airline>

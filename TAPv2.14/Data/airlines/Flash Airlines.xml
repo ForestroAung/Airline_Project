@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Flash Airlines" iata="7K" logo="7K2" color="Yellow" area="323" CEO="Mohamed Abd El Hady" mentality="Moderate" market="Domestic" preferedairport="SSH">
+  <narrative narrative="Flash Airlines was a private charter airline operating out of Cairo, Egypt that was part of the Flash Group tourism company." />
+ </profile>
+    <info real="True" from="1995" to="2004" />
+    <focusairports>
+      <focusairport airport="NKG"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Boeing 737-300,MD-83 (DC-9-83),Airbus A310-200"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-200" early="1" late="2"></airliner>
+	    	    <airliner type="MD-83 (DC-9-83)" early="1" late="2"></airliner>
+	    	    	    <airliner type="Boeing 737-300" early="1" late="2"></airliner>
+	     </airliners>
+</airline>

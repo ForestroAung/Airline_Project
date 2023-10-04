@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kam Air" iata="RQ"  color="Orange" area="207" CEO="Zamari Kamgar" mentality="Safe" market="Global"  preferedairport="KBL" routefocus="Mixed"> 
+  <narrative narrative="Kam Air is an airline based at Kabul,Afghanistan since 2003. At October 2014 it was serving five domestic airports besides Kabul and Delhi,India Dubai,UAE Tehran,Iran and Dushanbe,Tajikistan. It has in the past served such international routes as London Gatwick, Moscow,Vienna,Islamabad,Peshawar,Mashhad,Urumqi in China and Almaty,Kazakhstan. It wants to reopen Urumqi and Moscow and start Istanbul and Ankara in Turkey soon.Other routes that may be opened include Baku,Azerbaijian, Baghdad,Iraq, Najaf,Iraq, and Hangzhou,China. MIts fleet at October 2014 was two MD-87's,two MD-83's,an MD-82,an A320,a 767-200,a 747-200 for cargo,an Antonov 26 for cargo and an Antonov 24." />
+</profile>
+   <info real="True" from="2003" to="2199"></info>
+   <prefereds aircrafts="MD-87 (DC-9-87),MD-83 (DC-9-83),MD-82 (DC-9-82),Boeing 767-200,Airbus A320-200,Antonov An-24,Antonov An-26,Boeing 747-200F,Boeing 737-200 Adv.,Boeing 737 MAX 8,Boeing 727-200 Adv."></prefereds>
+
+  
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-87 (DC-9-87)" early="1" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="1"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="2"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200F" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+
+   <routes>
+		<route destination1="KBL" destination2="HEA" opened="2003" closed="2199" />
+		<route destination1="KBL" destination2="KDH"  opened="2003" closed="2199" />
+		<route destination1="KBL" destination2="BST" opened="2004" closed="2199" />
+		<route destination1="KBL" destination2="MZR" opened="2004" closed="2199" />
+		<route destination1="KBL" destination2="UND" opened="2005" closed="2199" />
+		<route destination1="KBL" destination2="TII" opened="2005" closed="2199" />
+		<route destination1="KBL" destination2="DXB" opened="2006" closed="2199" />
+	        <route destination1="KBL" destination2="DEL" opened="2007" closed="2199" />
+		<route destination1="KBL" destination2="DYU" opened="2008" closed="2199" />
+	        <route destination1="HEA" destination2="MZR" opened="2008" closed="2199" />
+		<route destination1="KDH" destination2="MZR" opened="2009" closed="2199" />
+		<route destination1="KDH" destination2="DXB" opened="2009" closed="2199" />
+	        <route destination1="KDH" destination2="DEL" opened="2010" closed="2199" />
+		<route destination1="MZR" destination2="IKA" opened="2010" closed="2199" />
+	        <route destination1="KBL" destination2="DME" opened="2011" closed="2199" />
+		<route destination1="KBL" destination2="URC" opened="2011" closed="2199" />
+		<route destination1="KBL" destination2="IST" opened="2012" closed="2199" />
+		<route destination1="KBL" destination2="BGW" opened="2012" closed="2199" />
+	        <route destination1="KBL" destination2="NJF" opened="2013" closed="2199" />
+		<route destination1="KBL" destination2="GYD" opened="2013" closed="2199" />
+	        <route destination1="KBL" destination2="ESB" opened="2016" closed="2199" />
+	        <route destination1="KBL" destination2="HGH" opened="2016" closed="2199" />
+
+	        </routes>
+
+</airline>

@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air France" iata="AF" color="LimeGreen" area="115" CEO="Alexandre de Juniac" mentality="Aggressive"
+           market="Global" preferedairport="CDG">
+    <narrative
+      narrative="Air France is the flag airline of France, operating out of Paris since 1933. They fly a fleet of over 250 aircraft to 272 destinations throughout the world. Their fleet consists of a full range of Airbus aircraft in addition to Boeing 777s. " />
+  </profile>
+
+<info real="True" from="1933" to="2199"></info>
+<startdata>
+<prefereds aircrafts="Airbus A318-100,Airbus A319-100,Airbus A320-200,Airbus A320neo,Airbus A321-200,Airbus A330-200,Airbus A340-300,Airbus A350-900,Airbus A380-800,Boeing 747-400,Boeing 777-200,Boeing 777-300ER,Boeing 787-9"></prefereds>
+<focusairports>
+        <focusairport airport="CDG"></focusairport>
+        <focusairport airport="ORY"></focusairport>
+        <focusairport airport="MRS"></focusairport>
+        <focusairport airport="LYS"></focusairport>
+        <focusairport airport="NCE"></focusairport>     </focusairports>
+<airliners>
+	       
+	         <airliner type="Airbus A319-100" early="0" late="30"></airliner>
+	        <airliner type="Airbus A320-200" early="0" late="58"></airliner>
+		<airliner type="Airbus A320neo" early="5" late="33"></airliner>
+		 <airliner type="Airbus A321-200" early="0" late="58"></airliner>
+		 <airliner type="Airbus A330-200" early="0" late="30"></airliner>
+		 <airliner type="Airbus A330-300" early="0" late="23"></airliner>
+		 <airliner type="Airbus A340-300" early="6" late="10"></airliner>
+		  <airliner type="Airbus A350-900" early="2" late="10"></airliner>
+		  <airliner type="BAe 146-200" early="0" late="6"></airliner>
+		    <airliner type="Boeing 747-400" early="4" late="15"></airliner>
+		     <airliner type="Boeing 767-300" early="0" late="4"></airliner>
+		     <airliner type="Boeing 767-300ER" early="0" late="5"></airliner>
+		    <airliner type="Boeing 777-200" early="0" late="10"></airliner>
+		    <airliner type="Boeing 777-300ER" early="0" late="19"></airliner>
+		    <airliner type="Boeing 787-9" early="5" late="15"></airliner>
+		    <airliner type="Comac Airbus A318" early="4" late="20"></airliner>
+
+	  </airliners>
+<routes>
+		<route destination1="CDG" destination2="ABZ"/>
+		<route destination1="CDG" destination2="ABV"/>
+		<route destination1="ORY" destination2="AGF"/>
+		<route destination1="AGF" destination2="AJA"/>
+		<route destination1="CDG" destination2="ALG"/>
+		<route destination1="CDG" destination2="AMM"/>
+		<route destination1="CDG" destination2="AMS"/>
+		<route destination1="MSE" destination2="AMS"/>
+		<route destination1="CFE" destination2="AMS"/>
+		<route destination1="NTE" destination2="AMS"/>
+		<route destination1="RMS" destination2="AMS"/>
+		<route destination1="SXB" destination2="AMS"/>
+		<route destination1="CDG" destination2="TNR"/>
+		<route destination1="CDG" destination2="ANR"/>
+		<route destination1="CDG" destination2="ATH"/>
+		<route destination1="CDG" destination2="ATL"/>
+		<route destination1="ORY" destination2="AUR"/>
+		<route destination1="CDG" destination2="BKO"/>
+		<route destination1="CDG" destination2="BLR"/>
+		<route destination1="CDG" destination2="BKK"/>
+		<route destination1="CDG" destination2="BGF"/>
+		<route destination1="CDG" destination2="BCN"/>
+		<route destination1="CDG" destination2="MLH"/>
+		<route destination1="AJA" destination2="MLH"/>
+		<route destination1="ORY" destination2="MLH"/>
+		<route destination1="BIA" destination2="ORY"/>
+		<route destination1="BIA" destination2="MSE"/>
+		<route destination1="BIA" destination2="NCE"/>
+		<route destination1="BIA" destination2="BOD"/>
+		<route destination1="BIA" destination2="CFE"/>
+		<route destination1="BIA" destination2="LIL"/>
+		<route destination1="BIA" destination2="LYS"/>
+		<route destination1="BIA" destination2="ETZ"/>
+		<route destination1="BIA" destination2="MPL"/>
+		<route destination1="BIA" destination2="TLS"/>
+		<route destination1="CDG" destination2="PEK"/>
+		<route destination1="CDG" destination2="BEY"/>
+		<route destination1="CDG" destination2="TXL"/>
+		<route destination1="ORY" destination2="BIQ"/>
+		<route destination1="MRS" destination2="BIQ"/>
+		<route destination1="CDG" destination2="BIO"/>
+		<route destination1="CDG" destination2="BLL"/>
+		<route destination1="CDG" destination2="BHX"/>
+		<route destination1="ORY" destination2="BHX"/>
+		<route destination1="MRS" destination2="BHX"/>
+		<route destination1="CDG" destination2="BOG"/>
+		<route destination1="CDG" destination2="BLQ"/>
+		<route destination1="CDG" destination2="BOD"/>
+		<route destination1="BOD" destination2="ORY"/>
+		<route destination1="BOD" destination2="FCO"/>
+		<route destination1="BOD" destination2="BRU"/>
+		<route destination1="BOD" destination2="NCE"/>
+		<route destination1="BOD" destination2="AJA"/>
+		<route destination1="BOD" destination2="MRS"/>
+		<route destination1="BOD" destination2="LYS"/>
+		<route destination1="CDG" destination2="BOS"/>
+		<route destination1="CDG" destination2="BSB"/>
+		<route destination1="CDG" destination2="BZV"/>
+		<route destination1="CDG" destination2="BRE"/>
+		<route destination1="CDG" destination2="BES"/>
+		<route destination1="ORY" destination2="BES"/>
+		<route destination1="MRS" destination2="BES"/>
+		<route destination1="CDG" destination2="BRS"/>
+		<route destination1="ORY" destination2="BVE"/>
+		<route destination1="CDG" destination2="BRU"/>
+		<route destination1="MRS" destination2="BRU"/>
+		<route destination1="NCE" destination2="BRU"/>
+		<route destination1="CDG" destination2="OTP"/>
+		<route destination1="CDG" destination2="BUD"/>
+		<route destination1="CDG" destination2="EZE"/>
+		<route destination1="ORY" destination2="CLY"/>
+		<route destination1="CDG" destination2="CUN"/>
+		<route destination1="CDG" destination2="CCS"/>
+		<route destination1="CDG" destination2="CMN"/>
+		<route destination1="CDG" destination2="CPT"/>
+		<route destination1="CDG" destination2="CAY"/>
+		<route destination1="ORY" destination2="DCM"/>
+		<route destination1="CDG" destination2="ORD"/>
+		<route destination1="CDG" destination2="CFE"/>
+		<route destination1="ORY" destination2="CFE"/>
+		<route destination1="CDG" destination2="CKY"/>
+		<route destination1="CDG" destination2="CPH"/>
+		<route destination1="CDG" destination2="COO"/>
+		<route destination1="CDG" destination2="CKR"/>
+		<route destination1="CDG" destination2="DEL"/>
+		<route destination1="CDG" destination2="DTW"/>
+		<route destination1="CDG" destination2="JIB"/>
+		<route destination1="CDG" destination2="DLA"/>
+		<route destination1="CDG" destination2="DEN" destination3="HNL"/>
+		<route destination1="CDG" destination2="DXB"/>
+		<route destination1="CDG" destination2="DUB"/>
+		<route destination1="CDG" destination2="DUS"/>
+		<route destination1="ORY" destination2="DUS"/>
+		<route destination1="MRS" destination2="CDG"/>
+		<route destination1="CDG" destination2="EDI"/>
+		<route destination1="ORY" destination2="EDI"/>
+		<route destination1="ORY" destination2="FSC"/>
+		<route destination1="CDG" destination2="FLR"/>
+		<route destination1="CDG" destination2="FDF"/>
+		<route destination1="CDG" destination2="FRA"/>
+		<route destination1="MRS" destination2="FRA"/>
+		<route destination1="NCE" destination2="FRA"/>
+		<route destination1="CDG" destination2="SIN" destination3="SYD"/>
+		<route destination1="CDG" destination2="GOA"/>
+		<route destination1="LYS" destination2="GOA"/>
+		<route destination1="CDG" destination2="GVA"/>
+		<route destination1="ORY" destination2="GVA"/>
+		<route destination1="MRS" destination2="GVA"/>
+		<route destination1="CDG" destination2="GLA"/>
+		<route destination1="CDG" destination2="GOT"/>
+		<route destination1="CDG" destination2="CAN"/>
+		<route destination1="CDG" destination2="HAM"/>
+		<route destination1="CDG" destination2="HAV"/>
+		<route destination1="CDG" destination2="SGN"/>
+		<route destination1="CDG" destination2="HKG"/>
+		<route destination1="CDG" destination2="IAH"/>
+		<route destination1="CDG" destination2="IST"/>
+		<route destination1="CDG" destination2="CGK"/>
+		<route destination1="CDG" destination2="JNB"/>
+		<route destination1="CDG" destination2="KBP"/>
+		<route destination1="CDG" destination2="FIH"/>
+		<route destination1="CDG" destination2="LOS"/>
+		<route destination1="ORY" destination2="LAI"/>
+		<route destination1="LYS" destination2="LRH"/>
+		<route destination1="AJA" destination2="LRH"/>
+		<route destination1="CDG" destination2="LBV"/>
+		<route destination1="ORY" destination2="LIL"/>
+		<route destination1="CDG" destination2="LIM"/>
+		<route destination1="ORY" destination2="LIG"/>
+		<route destination1="CDG" destination2="LIS"/>
+		<route destination1="ORY" destination2="LIS"/>
+		<route destination1="CDG" destination2="LJU"/>
+		<route destination1="CDG" destination2="LFW"/>
+		<route destination1="CDG" destination2="LCY"/>
+		<route destination1="ORY" destination2="LCY"/>
+		<route destination1="CDG" destination2="LHR"/>
+		<route destination1="ORY" destination2="LRT"/>
+		<route destination1="CDG" destination2="LAX"/>
+		<route destination1="ORY" destination2="LDE"/>
+		<route destination1="CDG" destination2="LAD"/>
+		<route destination1="CDG" destination2="LYS"/>
+		<route destination1="ORY" destination2="LYS"/>
+		<route destination1="LYS" destination2="MXP"/>
+		<route destination1="LYS" destination2="VCE"/>
+		<route destination1="LYS" destination2="LUX"/>
+		<route destination1="LYS" destination2="GOT"/>
+		<route destination1="LYS" destination2="NCE"/>
+		<route destination1="LYS" destination2="MRS"/>
+		<route destination1="LYS" destination2="NAP"/>
+		<route destination1="CDG" destination2="MAD"/>
+		<route destination1="CDG" destination2="SSG"/>
+		<route destination1="CDG" destination2="AGP"/>
+		<route destination1="CDG" destination2="MLA"/>
+		<route destination1="CDG" destination2="MAN"/>
+		<route destination1="CDG" destination2="RAK"/>
+		<route destination1="CDG" destination2="MRS"/>
+		<route destination1="ORY" destination2="MRS"/>
+		<route destination1="MRS" destination2="RAK"/>
+		<route destination1="MRS" destination2="TUN"/>
+		<route destination1="MRS" destination2="ALG"/>
+		<route destination1="MRS" destination2="VCE"/>
+		<route destination1="MRS" destination2="BEY"/>
+		<route destination1="MRS" destination2="AJA"/>
+		<route destination1="MRS" destination2="LYS"/>
+		<route destination1="CDG" destination2="MEX"/>
+		<route destination1="CDG" destination2="MIA"/>
+		<route destination1="CDG" destination2="MXP"/>
+		<route destination1="ORY" destination2="LIN"/>
+		<route destination1="ORY" destination2="MXP"/>
+		<route destination1="CDG" destination2="MSP"/>
+		<route destination1="CDG" destination2="ROB"/>
+		<route destination1="CDG" destination2="MVD"/>
+		<route destination1="CDG" destination2="YUL"/>
+		<route destination1="CDG" destination2="MPL"/>
+		<route destination1="ORY" destination2="MPL"/>
+		<route destination1="CDG" destination2="SVO"/>
+		<route destination1="CDG" destination2="BOM"/>
+		<route destination1="CDG" destination2="MUC"/>
+		<route destination1="MRS" destination2="MUC"/>
+		<route destination1="NCE" destination2="MUC"/>
+		<route destination1="ORY" destination2="MUC"/>
+		<route destination1="CDG" destination2="NDJ"/>
+		<route destination1="CDG" destination2="NTE"/>
+		<route destination1="ORY" destination2="NTE"/>
+		<route destination1="CDG" destination2="NAP"/>
+		<route destination1="CDG" destination2="NCL"/>
+		<route destination1="ORY" destination2="NAP"/>
+		<route destination1="CDG" destination2="JFK"/>
+		<route destination1="ORY" destination2="JFK"/>
+		<route destination1="NCE" destination2="JFK"/>
+		<route destination1="MRS" destination2="JFK"/>
+		<route destination1="CDG" destination2="NIM"/>
+		<route destination1="CDG" destination2="NCE"/>
+		<route destination1="ORY" destination2="NCE"/>
+		<route destination1="NCE" destination2="MXP"/>
+		<route destination1="NCE" destination2="FCO"/>
+		<route destination1="NCE" destination2="LHR"/>
+		<route destination1="CDG" destination2="NKC"/>
+		<route destination1="CDG" destination2="NUE"/>
+		<route destination1="CDG" destination2="KIX"/>
+		<route destination1="CDG" destination2="OSL"/>
+		<route destination1="CDG" destination2="OUA"/>
+		<route destination1="CDG" destination2="PTY"/>
+		<route destination1="CDG" destination2="LAX" destination3="PPT"/>
+		<route destination1="ORY" destination2="PUF"/>
+		<route destination1="ORY" destination2="PGF"/>
+		<route destination1="CDG" destination2="PHL"/>
+		<route destination1="CDG" destination2="SXM"/>
+		<route destination1="CDG" destination2="PTP"/>
+		<route destination1="CDG" destination2="PNR"/>
+		<route destination1="CDG" destination2="PAP"/>
+		<route destination1="CDG" destination2="PHC"/>
+		<route destination1="CDG" destination2="MRU"/>
+		<route destination1="CDG" destination2="PRG"/>
+		<route destination1="CDG" destination2="PUJ"/>
+		<route destination1="CDG" destination2="UIP"/>
+		<route destination1="CDG" destination2="RBA"/>
+		<route destination1="CDG" destination2="RNS"/>
+		<route destination1="CDG" destination2="GIG"/>
+		<route destination1="ORY" destination2="RDZ"/>
+		<route destination1="CDG" destination2="RDU"/>
+		<route destination1="CDG" destination2="RTM"/>
+		<route destination1="ORY" destination2="URO"/>
+		<route destination1="CDG" destination2="RUH"/>
+		<route destination1="CDG" destination2="RUN"/>
+		<route destination1="CDG" destination2="LED"/>
+		<route destination1="CDG" destination2="SFO"/>
+		<route destination1="CDG" destination2="SDQ"/>
+		<route destination1="CDG" destination2="SCL"/>
+		<route destination1="CDG" destination2="GRU"/>
+		<route destination1="CDG" destination2="SEA"/>
+		<route destination1="CDG" destination2="ICN"/>
+		<route destination1="CDG" destination2="SVQ"/>
+		<route destination1="CDG" destination2="PVG"/>
+		<route destination1="CDG" destination2="SIN"/>
+		<route destination1="CDG" destination2="ARN"/>
+		<route destination1="CDG" destination2="SXB"/>
+		<route destination1="ORY" destination2="SXB"/>
+		<route destination1="MRS" destination2="SXB"/>
+		<route destination1="CDG" destination2="SOF"/>
+		<route destination1="CDG" destination2="STR"/>
+		<route destination1="ORY" destination2="LDE"/>
+		<route destination1="CDG" destination2="IKA"/>
+		<route destination1="CDG" destination2="TLV"/>
+		<route destination1="CDG" destination2="NRT"/>
+		<route destination1="CDG" destination2="HND"/>
+		<route destination1="CDG" destination2="YYZ"/>
+		<route destination1="CDG" destination2="TLN"/>
+		<route destination1="CDG" destination2="TLS"/>
+		<route destination1="CDG" destination2="TUN"/>
+		<route destination1="ORY" destination2="TUN"/>
+		<route destination1="ORY" destination2="TLS"/>
+		<route destination1="CDG" destination2="TRN"/>
+		<route destination1="ORY" destination2="TRN"/>
+		<route destination1="CDG" destination2="YVR"/>
+		<route destination1="CDG" destination2="VCE"/>
+		<route destination1="ORY" destination2="VCE"/>
+		<route destination1="CDG" destination2="VIE"/>
+		<route destination1="ORY" destination2="VIE"/>
+		<route destination1="MRS" destination2="VIE"/>
+		<route destination1="CDG" destination2="WAW"/>
+		<route destination1="CDG" destination2="IAD"/>
+		<route destination1="CDG" destination2="WUH"/>
+		<route destination1="CDG" destination2="NSI"/>
+		<route destination1="CDG" destination2="EVN"/>
+		<route destination1="CDG" destination2="ZAG"/>
+		<route destination1="CDG" destination2="ZRH"/>
+		<route destination1="ORY" destination2="ZRH"/>
+	</routes>
+</startdata>
+
+</airline>

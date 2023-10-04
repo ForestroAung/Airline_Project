@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="UTair Aviation" iata="UT" color="MediumBlue" area="177" CEO="Andrei Martirosov" mentality="Aggressive" market="Global" preferedairport="TJM"  routefocus="All">
+  <narrative narrative="UTair Aviation is an airline that dabbles in just about everything and is based at Tyumen,Russia with its head office at Khanty-Mansiysk where there is another base. Other bases are at Surgut,Syktyvkar,Noyabrsk,Moscow Vnukovo and for seasonal charters Moscow Domodedovo. It has about 73 routes from Vnukovo, only 6 of them are seasonal and that doesn't include charters. 17 from Tyumen, 5 seasonal. 11 from Khanty-Mansiysk,one seasonal. 34 for Surgut with 10 being seasonal. 6 for Noyabrsk. And 7 for Syktyvkar, 3 seasonal. It has 5 main subsidiaries, one for cargo,and UTair Express another passenger division,UTair Ukraine,Vostok Airlines and Katekavia. It does helicopters too and has helicopter divions in India,Peru,Slovakia and South Africa besides Russia. It does pilot training and has leasing and financial services branch also. And of course it has maintenance and repair facilities. At January 2015 it had 33 737-500's,12 737-800's with 27 more on order,5 A321's with 12 on order,6 737-400's,3 ATR 42-300's,5 757-200's,7 767-200ER's,2 767-300ER's,8 Bombardier CRJ200's and on order 7 737-900ER's and 24 Sukhoi 100's. This does not include the 15 ATR 72-500's of UTair Express. It used to have at least a few Tu-154M's and at least one Tu-134. At October 2013 it was serving about 77-80 domestic destinations. Internationally one in Belarus,two in Czech Republic,one in Estonia,three in Germany,one in Greece,two in Hungary,one in Latvia,one in Lithuania,one in Moldova,one in Slovakia,one in Spain,two in Turkey,six in Ukraine,five in Uzbekistan,two in Tajikistan,four in Azerbaijan,one in Georgia,one in Armenia and charter only to two in Pakistan,two in Thailand,and one in India. It was founded in 1967." />
+</profile>
+   <info real="True" from="1967" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-500,Boeing 737-800,Boeing 737-900ER,Bombardier CRJ200,Boeing 737-400,Boeing 757-200,Airbus A321-200,Boeing 767-200ER,Boeing 767-300ER,ATR 42-300,ATR 72-500,ATR 72-600,Boeing 737 MAX 8,Boeing 737 MAX 9,Airbus A321neo,Sukhoi 100-95LR,Sukhoi 100-75LR,Sukhoi 100-75,Sukhoi 100-95"></prefereds>
+<focusairports>
+                <focusairport airport="HMA"></focusairport>
+                 <focusairport airport="VKO"></focusairport>
+	        <focusairport airport="SGC"></focusairport>
+	        <focusairport airport="NOJ"></focusairport>
+		  <focusairport airport="DME"></focusairport>
+		   <focusairport airport="SCW"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="2" late="34"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2018)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="8" late="39"></airliner>
+	     </airliners>
+	            <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2018)-->
+	         <airliners>
+	    <airliner type="Boeing 737-900ER" early="0" late="7"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="6" late="6"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-200ER" early="2" late="7"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200" early="2" late="4"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="10" late="7"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="5"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2018)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="4" late="17"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-134B" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="2" late="0"></airliner>
+	     </airliners>
+	          	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2019)-->
+	         <airliners>
+	    <airliner type="Sukhoi 100-95LR" early="0" late="12"></airliner>
+	     </airliners>
+	               	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2019)-->
+	         <airliners>
+	    <airliner type="Sukhoi 100-75LR" early="0" late="12"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="TJM" destination2="VKO"   />
+                <route destination1="TJM" destination2="HMA"   />  
+	        <route destination1="TJM" destination2="SGC"   />
+                <route destination1="TJM" destination2="NUX"   />
+                <route destination1="TJM" destination2="EYK"   />
+                <route destination1="TJM" destination2="NOJ"   />
+	        <route destination1="TJM" destination2="URJ"   />
+	        <route destination1="TJM" destination2="OVS"   />  
+                <route destination1="TJM" destination2="GYD"   />
+                <route destination1="TJM" destination2="LBD"   />
+                <route destination1="TJM" destination2="MUC"   />
+                <route destination1="TJM" destination2="AER"  season="Summer"  />
+                <route destination1="TJM" destination2="AAQ"  season="Summer"  />
+                <route destination1="TJM" destination2="MRV"  season="Summer"  />
+                <route destination1="TJM" destination2="KRR"  season="Summer"  />
+                <route destination1="TJM" destination2="KVD"  season="Summer"  />
+                <route destination1="HMA" destination2="VKO"   />
+	        <route destination1="HMA" destination2="LED"   />
+                <route destination1="HMA" destination2="SVX"   />
+	        <route destination1="HMA" destination2="OVB"   />
+                <route destination1="HMA" destination2="NJC"   />
+	        <route destination1="HMA" destination2="OMS"   />
+	        <route destination1="HMA" destination2="EYK"   />
+                <route destination1="HMA" destination2="URJ"   />
+                <route destination1="HMA" destination2="GYD"   />
+	        <route destination1="HMA" destination2="AAQ"  season="Summer"  />
+                <route destination1="VKO" destination2="SGC"   />
+	        <route destination1="VKO" destination2="NOJ"   />
+                <route destination1="VKO" destination2="SCW"   />
+	        <route destination1="VKO" destination2="LED"   />
+	        <route destination1="VKO" destination2="SVX"   />
+                <route destination1="VKO" destination2="CEK"   />
+                <route destination1="VKO" destination2="MMK"   />
+	        <route destination1="VKO" destination2="ROV"   />
+                <route destination1="VKO" destination2="UFA"   />
+	        <route destination1="VKO" destination2="KJA"   />
+	        <route destination1="VKO" destination2="KRR"   />
+                <route destination1="VKO" destination2="PEE"   />
+                <route destination1="VKO" destination2="OMS"   />
+	        <route destination1="VKO" destination2="AER"   />
+                <route destination1="VKO" destination2="KZN"   />
+	        <route destination1="VKO" destination2="ARH"   />
+	        <route destination1="VKO" destination2="NBC"   />
+                <route destination1="VKO" destination2="JOK"   />
+                <route destination1="VKO" destination2="KGD"   />
+	        <route destination1="VKO" destination2="EGO"   />
+                <route destination1="VKO" destination2="KUF"   />
+	        <route destination1="VKO" destination2="VOG"   />
+	        <route destination1="VKO" destination2="ULV"   />
+                <route destination1="VKO" destination2="STW"   />
+	         <route destination1="VKO" destination2="OVB"   />
+	        <route destination1="VKO" destination2="NJC"   />
+                <route destination1="VKO" destination2="TOF"   />
+	        <route destination1="VKO" destination2="OGZ"   />
+	        <route destination1="VKO" destination2="USK"   />
+                <route destination1="VKO" destination2="KRO"   />
+                <route destination1="VKO" destination2="ASF"   />
+		  <route destination1="VKO" destination2="VOZ"   />  
+	        <route destination1="VKO" destination2="IKT"   />
+                <route destination1="VKO" destination2="NNM"   />
+	        <route destination1="VKO" destination2="MQF"   />
+	        <route destination1="VKO" destination2="MCX"   />
+                <route destination1="VKO" destination2="NYA"   />
+                <route destination1="VKO" destination2="KGP"   />
+		 <route destination1="VKO" destination2="KVX"   />
+		  <route destination1="VKO" destination2="URS"   />
+		 <route destination1="VKO" destination2="BAX"   />
+	        <route destination1="VKO" destination2="NAL"   />
+                <route destination1="VKO" destination2="MSQ"   />
+	        <route destination1="VKO" destination2="RIX"   />
+	        <route destination1="VKO" destination2="VNO"   />
+                <route destination1="VKO" destination2="EVN"   />
+		<route destination1="VKO" destination2="GYD"   />
+                <route destination1="VKO" destination2="TAS"   />
+	        <route destination1="VKO" destination2="TLL"   />
+                <route destination1="VKO" destination2="HAJ"   />
+	        <route destination1="VKO" destination2="BTS"   />
+	        <route destination1="VKO" destination2="TBS"   />
+                <route destination1="VKO" destination2="KIV"   />
+		<route destination1="VKO" destination2="DRS"   />
+	        <route destination1="VKO" destination2="BRQ"   />
+                <route destination1="VKO" destination2="DOK"   />
+	        <route destination1="VKO" destination2="SKG"   />
+	        <route destination1="VKO" destination2="DYU"   />
+                <route destination1="VKO" destination2="KVD"   />
+	        <route destination1="VKO" destination2="SKD"   />
+	        <route destination1="VKO" destination2="BHK"   />
+                <route destination1="VKO" destination2="LLK"   />
+	        <route destination1="VKO" destination2="NAJ"   />
+	        <route destination1="VKO" destination2="FEG"   />
+		<route destination1="VKO" destination2="SOB"   />
+		<route destination1="VKO" destination2="AAQ"  season="Summer"  />
+		<route destination1="VKO" destination2="SIP"  season="Summer"  />
+		<route destination1="VKO" destination2="GDZ"  season="Summer"  />
+		<route destination1="VKO" destination2="HKT"  season="Summer"  />
+		<route destination1="VKO" destination2="DPS"  season="Summer"  />
+		<route destination1="VKO" destination2="EYK"  season="Summer"  />
+	         <route destination1="SGC" destination2="DME"   />
+                <route destination1="SGC" destination2="LED"   />
+	        <route destination1="SGC" destination2="SVX"   />
+	        <route destination1="SGC" destination2="OVB"   />
+		<route destination1="SGC" destination2="KRR"   />
+		<route destination1="SGC" destination2="KJA"   />
+                <route destination1="SGC" destination2="MRV"   />
+	        <route destination1="SGC" destination2="KZN"   />
+	        <route destination1="SGC" destination2="UFA"   />
+		<route destination1="SGC" destination2="VOG"   />
+	        <route destination1="SGC" destination2="KUF"   />
+                <route destination1="SGC" destination2="MCX"   />
+	        <route destination1="SGC" destination2="IAA"   />
+	        <route destination1="SGC" destination2="GOJ"   />
+		<route destination1="SGC" destination2="BAX"   />
+                <route destination1="SGC" destination2="OMS"   />
+                <route destination1="SGC" destination2="GRV"   />
+	        <route destination1="SGC" destination2="DOK"   />
+	        <route destination1="SGC" destination2="KBP"   />
+		<route destination1="SGC" destination2="GYD"   />
+	        <route destination1="SGC" destination2="LBD"   />
+                <route destination1="SGC" destination2="EVN"   />
+		<route destination1="SGC" destination2="AER"  season="Summer"  />
+		<route destination1="SGC" destination2="AAQ"  season="Summer"  />
+		<route destination1="SGC" destination2="GDZ"  season="Summer"  />
+		<route destination1="SGC" destination2="SIP"  season="Summer"  />
+		<route destination1="SGC" destination2="ROV"  season="Summer"  />
+		<route destination1="SGC" destination2="KIV"  season="Summer"  />
+		<route destination1="SGC" destination2="LWO"  season="Summer"  />
+		<route destination1="SGC" destination2="LLK"  season="Summer"  />
+		<route destination1="SGC" destination2="UUA"  season="Summer"  />
+		<route destination1="SGC" destination2="CSY"  season="Summer"  />
+		<route destination1="NOJ" destination2="LED"   />
+		<route destination1="NOJ" destination2="OVB"   />
+	        <route destination1="NOJ" destination2="SVX"   />
+                <route destination1="NOJ" destination2="SLY"   />
+	        <route destination1="SCW" destination2="LED"   />
+	        <route destination1="SCW" destination2="UTS"   />
+            	  <route destination1="SCW" destination2="PEX"   />
+           	<route destination1="SCW" destination2="AAQ"  season="Summer"  />
+		<route destination1="SCW" destination2="AER"  season="Summer"  />
+		<route destination1="SCW" destination2="KRR"  season="Summer"  />
+	        <route destination1="IKT" destination2="UKX"   />
+		  <route destination1="OVB" destination2="NJC"   />  
+		    <route destination1="OVB" destination2="NUX"   />  
+                <route destination1="OVS" destination2="EYK"   />
+		<route destination1="TJM" destination2="THX"   />
+		<route destination1="IAA" destination2="THX"   />
+
+
+
+        </routes>
+  
+
+
+</airline>

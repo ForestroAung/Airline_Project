@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Malift Air" iata="MLC" color="Purple" area="358" CEO="Unknown" mentality="Safe" market="Domestic"  preferedairport="NLO" routefocus="Mixed">
+  <narrative narrative="Malift Air was a domestic cargo and passenger airline based at N'Dolo Airport, the smaller of Kinshasa,Democratic Republic of Congo's two airports. It got its start in 1995 and ceased in November 2009. At the end its fleet had one each of an Antonov 28,Antonov 32 and BN Islander. It also had
+  at least one Antonov 26 and Antonov 24 in its life that were lost in crashes." />
+</profile>
+   <info real="True" from="1995" to="2010"></info>
+  <prefereds aircrafts="Antonov An-28,Antonov An-32,Antonov An-24,Antonov An-26,BN-2A Islander"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-28" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-32" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2008)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="1"></airliner>
+	     </airliners>
+
+</airline>

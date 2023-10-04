@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="ALMA de Mexico" iata="MSO" color="Red" area="403" CEO="Pablo Peralta" mentality="Moderate" market="Domestic" preferedairport="GDL">
+  <narrative narrative="ALMA de Mexico, which is short for Aerolineas Mesoamericanas, was an airline based at Guadalajara,Mexico and operated from June 12,2006 to November 7,2008. From GDL it operated to about 20 domestic destinations. It had plans to go to the USA but these never happened. The airline started with six Bombardier CRJ200's and two CRJ100's in 2006. In its last year in operation it had at its peak 17 CRJ200's and still two CRJ100's. It had also had two CRJ900's on order. The airline closed citing financial problems arising from the global recession."/>
+</profile>
+  <info real="True" from="2006" to="2009" />
+  <prefereds aircrafts="Bombardier CRJ200"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="6" late="17"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ100" early="2" late="2"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="GDL" destination2="MTY"  />
+                <route destination1="GDL" destination2="TIJ"  />	
+		<route destination1="GDL" destination2="CUN"  />
+		<route destination1="GDL" destination2="CJS"  />
+		<route destination1="GDL" destination2="LAP"  />
+		<route destination1="GDL" destination2="VER"  />
+		<route destination1="GDL" destination2="PVR"  />
+		<route destination1="GDL" destination2="TGZ"  />
+		<route destination1="GDL" destination2="MID"  />
+		<route destination1="GDL" destination2="CUU"  />
+		<route destination1="GDL" destination2="TLC"  />
+		<route destination1="GDL" destination2="PBC"  />
+		<route destination1="GDL" destination2="TRC"  />
+		<route destination1="GDL" destination2="LMM"  />
+		<route destination1="GDL" destination2="QRO"  />
+		<route destination1="GDL" destination2="REX"  />
+		<route destination1="GDL" destination2="TAM"  />
+		<route destination1="GDL" destination2="MZT"  />
+		<route destination1="GDL" destination2="VSA"  />
+	        </routes>
+
+
+
+
+</airline>

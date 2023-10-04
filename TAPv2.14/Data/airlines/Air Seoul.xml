@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Seoul" iata="ASV"  color="PaleGreen" area="219" CEO="Kim Soo-Cheon" mentality="Moderate" market="Regional" preferedairport="ICN"> 
+  <narrative narrative="Air Seoul is a subsidiary of Asiana Airlines, who owns it 100%. It began flying in July 2016 and has its main base at Seoul-Incheon Airport, but its initial route is from
+  Seoul Gimpo Airport, a domestic route in South Korea to the island of Jeju. Seoul-Incheon service launched in October and November 2016 to seven airports in Japan which are
+  Hiroshima,Nagasaki,Shizuoka,Takamatsu,Toyama,Yamaguchi-Ube,and Yonago. Services to Siem Reap,Cambodia Kota Kinabalu,Malaysia and Macau,China also commenced.
+  The airlines focus is aimed at smaller airports in smaller metropolitan areas, as evidenced in its choice of routes to Japan, none of those are places like Tokyo,Osaka,Nagoya and Sapporo for example,
+  they are smaller yet still fairly busy airports, but not on the scale of an airport like Tokyo Haneda or Osaka Kansai. Its initial plane is an Airbus A321-200 of its parent." />
+</profile>
+   <info real="True" from="2016" to="2199"></info>
+   <prefereds aircrafts="Airbus A321-200,Airbus A321neo"></prefereds>
+     <focusairports>
+        <focusairport airport="GMP"></focusairport>
+     </focusairports>
+<routes>
+          <route destination1="GMP" destination2="CJU"/>
+	        <route destination1="ICN" destination2="MFM"/>
+	        <route destination1="ICN" destination2="HIJ"/>
+	        <route destination1="ICN" destination2="UBJ"/>
+          <route destination1="ICN" destination2="NGS"/>
+          <route destination1="ICN" destination2="TAK"/>
+          <route destination1="ICN" destination2="FSZ"/>
+          <route destination1="ICN" destination2="TOY"/>
+          <route destination1="ICN" destination2="YGJ"/>
+          <route destination1="ICN" destination2="BKI"/>
+          <route destination1="ICN" destination2="REP"/>
+	             </routes>
+
+
+</airline>

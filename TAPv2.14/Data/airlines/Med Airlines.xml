@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Med Airlines" iata="MED" color="Red" area="317" CEO="Mahomet Mohammed" mentality="Safe" market="Global"  preferedairport="CMN" routefocus="Cargo">
+  <narrative narrative="Med Airlines is a cargo airline based at Casablanca,Morocco. It also has another base at Tangier,Morocco. It flies from Casablanca to Tangier, Paris Orly,France Lisbon,Portugal Dakar,Senegal and Bamako,Mali scheduled wise.
+  And Tangier to Paris Orly,Lisbon, Porto,Portugal and Zaragoza,Spain. It operates charters to up to 550 destinations on 6 continents. It started in 2010. At October 2011 its fleet had four Fokker F27's and a 737-400." />
+</profile>
+   <info real="True" from="2010" to="2199"></info>
+  <prefereds aircrafts="Fokker F27,Boeing 737-400"></prefereds>
+  <focusairports>
+                 <focusairport airport="TNG"></focusairport>
+     </focusairports>
+ <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="4" late="4"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="CMN" destination2="TNG" opened="2010" closed="2199"/>
+	        <route destination1="CMN" destination2="ORY" opened="2010" closed="2199"/>
+		<route destination1="CMN" destination2="LIS" opened="2010" closed="2199"/>
+		<route destination1="CMN" destination2="DKR" opened="2010" closed="2199"/>
+	        <route destination1="CMN" destination2="BKO" opened="2010" closed="2199"/>
+	         <route destination1="TNG" destination2="ZAZ" opened="2010" closed="2199"/>
+		 <route destination1="TNG" destination2="ORY" opened="2010" closed="2199"/>
+	         <route destination1="TNG" destination2="LIS" opened="2010" closed="2199"/>
+	         <route destination1="TNG" destination2="OPO" opened="2010" closed="2199"/>
+              </routes>
+  
+
+
+</airline>

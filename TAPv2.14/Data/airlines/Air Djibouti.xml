@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="Air Djibouti" iata="IV" logo="IV" color="MediumBlue" area="351" CEO="Aboubaker Omar Hadi" mentality="Safe" market="Regional" preferedairport="JIB" >
+<narrative
+narrative="Air Djibouti was established in April 1963. Scheduled operations commenced in April of the following year, with a fleet of Bristol 170, De Havilland Dragon Rapide and Beechcraft Model 18 aircraft.[5] In 1970, the airline was taken over by the Air France subsidiary Air Somali, which was founded in 1962. Both airlines merged in 1971.[6] The company operated in connection besides national routes and international scheduled flights to Aden, Asmara, Dire Dawa, Hargeisa, Mogadishu, Sanaa and Taizz. in addition, Air Djibouti from April 1974 had two airplanes of the Douglas DC-6 type which operated on charter flights to Europe as well as for cargo shipments to Nairobi, the remaining Douglas DC-3 were replaced in 1975 by two De Havilland Canada DHC-6 Twin Otters. The newly independent Republic of Djibouti participated in 1977 with a 62.5% share in the company. The state later acquired a 90% stake in the carrier when in early 1981 it bought additional shares from Air France. Air Djibouti ceased operations in 2002. In 2015 the airline was once again relaunched as a cargo airline and has plans to start passenger flights in the first quarter of 2016. It is headquartered in the capital, Djibouti City. " />
+</profile>
+<info real="True" from="2015" to="2199" />
+<prefereds aircrafts="Boeing 737-400, Boeing 767-200ER"></prefereds>
+
+<routes>
+<route destination1="JIB" destination2="ADD" />
+<route destination1="JIB" destination2="DIR" />
+<route destination1="JIB" destination2="BBO" />
+<route destination1="JIB" destination2="HGA" />
+</routes>
+
+
+
+</airline>

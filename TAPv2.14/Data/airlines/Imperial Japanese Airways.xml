@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Imperial Japanese Airways" iata="NH" logo="NH2" color="Orange" area="220" CEO="Kodama Tsuneo"
+           mentality="Moderate" market="Global" preferedairport="HND">
+    <narrative
+      narrative="Imperial Japanese Airways was a national airline of the Empire of Japan during the Sino-Japanese War and World War II." />
+  </profile>
+     <info real="True" from="1938" to="1945"></info>
+  <prefereds aircrafts="Douglas DC-2,Douglas DC-4-1009,Ki-59,Ki-57,Ki-6,Ki-34">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="HND"></focusairport>
+    <focusairport airport="ITM"></focusairport>
+    <focusairport airport="TSA"></focusairport>
+    <focusairport airport="ICN"></focusairport>
+    <focusairport airport="FUK"></focusairport>
+  </focusairports>
+  
+</airline>
+  

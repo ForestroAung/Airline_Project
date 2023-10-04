@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hongtu Airlines" iata="HTU" color="Crimson" area="209" CEO="Tang Longcheng" mentality="Moderate" market="Domestic" preferedairport="KMG"> 
+  <narrative narrative="Hontu Airlines is a Chinese airline based at Kunming in the Yunnan Province. It started operations on May 21st,2016 with its first flight being from Kunming to Nanchang. As of October 2016 from Kunming it is still serving Nanchang as well as
+  Zhengzhou,Taiyuan,Changchun,Hefei,Shenyang and Linyi. Its fleet had two A321-200's and one A320-200 as of October 2016. The airline is 30% owned by  Kunming Evergreen Financing,20% by local entrepreneur Tang Longcheng, and five other companies. Hongtu
+  in Chinese means red soil, which is a well known trait of the Kunming area, that the soil is red there. That is also what the red in the airlines logo represents." />
+</profile>
+   <info real="True" from="2016" to="2199"></info>
+   <prefereds aircrafts="Airbus A321-200,Airbus A321neo,Airbus A321neoLR,Airbus A320-200,Airbus A320neo"></prefereds>
+       
+  <routes>
+    <route destination1="KMG" destination2="KHN"/>
+    <route destination1="KMG" destination2="CGO"/>
+    <route destination1="KMG" destination2="TYN"/>
+    <route destination1="KMG" destination2="CGQ"/>
+    <route destination1="KMG" destination2="HFE"/>
+    <route destination1="KMG" destination2="SHE"/>
+    <route destination1="KMG" destination2="LYI"/>
+     </routes>
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+	         	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="2"></airliner>
+	     </airliners>
+
+
+
+
+</airline>

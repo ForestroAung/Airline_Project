@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Thomas Cook Airlines Scandinavia" iata="DK" color="Yellow" area="107" CEO="Tom Clausen" mentality="Safe"
+           market="Global" preferedairport="CPH">
+    <narrative narrative="Thomas Cook Airlines is a newly built airline specificaly for charters." />
+  </profile>
+  <info real="True" from="2008" to="2199" />
+  <focusairports>
+	<focusairport airport="CPH"></focusairport>
+	<focusairport airport="ARN"></focusairport>
+	<focusairport airport="OSL"></focusairport>
+	<focusairport airport="HEL"></focusairport>
+	<focusairport airport="GOT"></focusairport>
+	<focusairport airport="MMX"></focusairport>
+	<focusairport airport="BLL"></focusairport>
+</focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A321-200" early="8" late="8"></airliner>
+      <airliner type="Airbus A330-200" early="2" late="2"></airliner>
+      <airliner type="Airbus A330-200" early="3" late="3"></airliner>
+    </airliners>
+  </startdata>
+</airline>

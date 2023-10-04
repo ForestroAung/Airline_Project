@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sol del Paraguay Lineas Aereas" iata="SGU" color="SlateBlue" area="434" CEO="Julio Koropeski" mentality="Safe" market="Regional" preferedairport="ASU">
+  <narrative narrative="Sol del Paraguay was around from July 15,2011 to August 1,2012. It flew from Asuncion,Paraguay to Buenos Aires,Argentina at Ministro Pistarini International Airport and domestic to Ciudad del Este. It did the Ciudad del Este route on Monday,Wednesday and Friday and twice each of those days. It did Buenos Aires all week twice a day. It used three Fokker 100's and had another on order. This airline became the first flag carrier of Paraguay since Lineas Aereas Paraguayas has merged with TAM 15 years earlier. It also came as Paraguay was celebrating 200 years being independant. Each plane was named after an important symbol Paraguay history. Lago de Ypacarai, a lake which has inspired many songs,Itapua Poty, a flower,and Heroes del Chaco, the heroes who deafeated Bolivia in a war in the 1930's. An economic downturn caused financial problems and it had to shut down."/>
+</profile>
+  <info real="True" from="2011" to="2013" />
+  <prefereds aircrafts="Fokker 100"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="3" late="3"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="ASU" destination2="EZE" />
+	       	  <route destination1="ASU" destination2="AGT" />
+			 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Helitours" iata="HLT" color="GreenYellow" area="230" CEO="Rasanga de Zoysa" mentality="Moderate" market="Domestic" preferedairport="RML" routefocus="Mixed_Passenger">
+  <narrative narrative="Helitours is an airline based at Colombo,Sri Lanka's older Ratmalana Airport and is part of the countries Air Force using aircraft not required for military use. It uses both normal planes and helicopters. It got its start in 1972. In the 1980's-2009 it didn't operate much due to the Sri Lankan civil war. The Air Force kept service to Jaffna but it wasn't considered part of Helitours. At May 2015 it serves about 7 other airports from RML, and it considers Hambantota a secondary hub. Its fixed wing fleet around 2013 was four Harbin Y-12's,two Xian MA60's and one Antonov 32. Its helicopter fleet was three Mil Mi-17's,which is a version of the Mi-8,and two each of the Bell 412,Bell 212,and Bell 206. From 1973 to 1980 it had a Convair 440. They have also used the DC-3 and DH 104 Dove. It has served the international destination Male,Maldives before also, and it may restart, but this is the only international destination it has ever served." />
+ </profile>
+    <info real="True" from="1972" to="2199" />
+       <prefereds aircrafts="Harbin Y-12 II,Mi-8P,Bell 412,Bell 212,Bell 206,Xian MA60,Antonov An-32,Convair 440,Douglas DC-3,DH 104 Dove,Harbin Y-12 IV"></prefereds>
+       <focusairports>
+                 <focusairport airport="HRI"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1985) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Harbin Y-12 II" early="2" late="4"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Mi-8P" early="1" late="3"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1981) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Bell 412" early="0" late="2"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1972) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Bell 212" early="1" late="2"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1972) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Bell 206" early="1" late="2"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-32" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Xian MA60" early="0" late="2"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1973) late (1981)-->
+	     	         <airliners>
+	    <airliner type="Convair 440" early="1" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="RML" destination2="ADP"    />	
+	    <route destination1="RML" destination2="ACJ"    />	
+	    <route destination1="RML" destination2="BTC"    />	
+	    <route destination1="RML" destination2="HRI"    />
+	    <route destination1="RML" destination2="JAF"    />	
+	    <route destination1="RML" destination2="TRR"    />
+	    <route destination1="RML" destination2="VVV"    />
+                   </routes>
+</airline>

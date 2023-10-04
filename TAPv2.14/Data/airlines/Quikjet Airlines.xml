@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Quikjet Airlines" iata="FQA"  color="Blue" area="224" CEO="Nirvan Veerasamy" mentality="Safe" market="Domestic" preferedairport="DEL" routefocus="Cargo"> 
+  <narrative narrative="Quikjet Airlines is a cargo airline based at Delhi,India. It started in 2007 and in 2013 suspended operation. In February 2016 it resumed operations with a 737-400F.
+  It is serving 3 routes from Delhi, all domestic. These are to Bangaluru/Bangalore,Chennai and Hyderabad. It used an ATR 72-200 until 2013. Swiss airline Farnair bought a 36.2% stake
+  in February 2012. And then they had a 50.93% stake, and then in May 2015 the India Foreign Investment Promotion Board approved an increase to 72.59%. Farnair itself changed names to
+  ASL Airlines Switzerland in June of 2015. " />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-700C"></prefereds>
+<routes>
+          <route destination1="DEL" destination2="BLR"/>
+          <route destination1="DEL" destination2="MAA"/>
+          <route destination1="DEL" destination2="HYD"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700C" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

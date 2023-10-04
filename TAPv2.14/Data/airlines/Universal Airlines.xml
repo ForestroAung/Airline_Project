@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Universal Airlines" iata="UW" color="Yellow" area="427" CEO="Chandramattie Harpaul" mentality="Moderate"
+           market="Regional" preferedairport="GEO">
+    <narrative
+      narrative="Universal Airlines was an airline based in Georgetown, Guyana. The airline operated a scheduled passenger service to the USA and to nearby Trinidad and Tobago. Operations were suspended in 2005." />
+  </profile>
+  <info real="True" from="2001" to="2005" />
+</airline>

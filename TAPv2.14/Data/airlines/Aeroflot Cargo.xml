@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Aeroflot Cargo" iata="SU2" logo="SU" color="DarkSlateBlue" area="177" CEO="Vitaly Gennadyevich Savelyev" mentality="Aggressive" market="Global" preferedairport="SVO" routefocus="Cargo">
+    <narrative narrative="Aeroflot Cargo was the cargo division of Aeroflot, the flag carrier of Russia."/>
+  </profile>
+  <info real="True" from="1995" to="2010"/>
+</airline>

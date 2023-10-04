@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gazpromavia" iata="4G" color="Cyan" area="177" CEO="Andrei Ovcharenko" mentality="Moderate" market="Global" preferedairport="VKO" routefocus="All">  <narrative narrative="Gazpromavia is an airline based at Moscow Vnukovo and it is owned by Gazprom,the worlds largest natural gas extrator. It does passengers and cargo,and charters for each also. It does most of its flights for the oil and gas industry including ferrying thier own workers to their mines. It also operates many scheduled routes out of VKO. At December 2012 it was flying to 13 domestic destinations on a scheduled basis,and to Belgrade,Serbia and Nukus,Uzbekistan. It also serves Pisa,Italy and on the island of Sardinia in Italy,Cagliari. Both of those are seasonal. It owns the airport at Yamburg in extreme north Russia where it has a large operation at. It also owns Ostafyevo Airport near Moscow. It operates many helicopters, 45 Mi-8's,39 Mi-2's,32 Ka-226's,22 Ka-26's and 8 EC135's. The EC135's were all delivered in 2010. At January 2015 its fixed wing fleet was nine Sukoi 100-95LR's, with two more on order,three 737-700's,four Dassault Falcon 900's in 8 seat VIP config,and one Yak-42D. Past planes include Tu-154M's,An-74's,and Il-76's. Besides Vnukovo its second most served airport on number of flights offered is Sovetsky. In total it serves about 25 scheduled passenger routes,15 of them being from and to Vnukovo and 6 Sovetsky. It was founded in 1995." />
+</profile>
+   <info real="True" from="1995" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-700,Dassault Falcon 900,Mi-8P,Mi-2,EC135,Sukhoi 100-95LR,Boeing 737 MAX 7,Tupolev Tu-154M,Antonov An-74,Il-76,Il-76TD,Yak-42D"></prefereds>
+
+   <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-8P" early="5" late="45"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Mi-2" early="5" late="39"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Ka-26" early="5" late="22"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Ka-226" early="5" late="32"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	         <airliners>
+	    <airliner type="EC135" early="8" late="8"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	         <airliners>
+	    <airliner type="Sukhoi 100-95LR" early="8" late="11"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	         <airliners>
+	    <airliner type="Yak-42D" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Dassault Falcon 900" early="0" late="4"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Antonov An-74" early="5" late="0"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Il-76TD" early="2" late="0"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="VKO" destination2="OVS" opened="1995" closed="2199"  routetype="Passenger"/>
+                <route destination1="VKO" destination2="NUX" opened="1995" closed="2199"  routetype="Passenger"/>
+		<route destination1="VKO" destination2="EGO" opened="1995" closed="2199"  routetype="Passenger"/>
+       	        <route destination1="VKO" destination2="UFA" opened="1995" closed="2199" routetype="Passenger"/>
+	        <route destination1="VKO" destination2="SVX" opened="1995" closed="2199" routetype="Passenger"/>
+	        <route destination1="VKO" destination2="TJM" opened="1995" closed="2199"  routetype="Passenger"/>
+	        <route destination1="VKO" destination2="NYM" opened="1995" closed="2199"  routetype="Passenger"/>
+	        <route destination1="VKO" destination2="UCT" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="VKO" destination2="LED" opened="1995" closed="2199"  routefocus="Passenger"/>
+	        <route destination1="VKO" destination2="NCU" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="VKO" destination2="AER" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="VKO" destination2="MCX" opened="1995" closed="2199"  routefocus="Passenger"/>
+		  <route destination1="VKO" destination2="EYK" opened="1995" closed="2199"  routefocus="Passenger"/>
+	         <route destination1="LED" destination2="NUX" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="LED" destination2="EGO" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="LED" destination2="NYA" opened="1995" closed="2199"  routefocus="Passenger"/>
+		  <route destination1="OVS" destination2="SVX" opened="1995" closed="2199"  routefocus="Passenger"/>
+		   <route destination1="OVS" destination2="NYM" opened="1995" closed="2199"  routefocus="Passenger"/>
+		   <route destination1="OVS" destination2="AER" opened="1995" closed="2199"  routefocus="Passenger" />
+		   <route destination1="OVS" destination2="KRR" opened="1995" closed="2199"  routefocus="Passenger" />
+		   <route destination1="OVS" destination2="AAQ" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="NUX" destination2="EGO" opened="1995" closed="2199"  routefocus="Passenger"/>
+		 <route destination1="EGO" destination2="NYA" opened="1995" closed="2199"  routefocus="Passenger" />
+		 <route destination1="VKO" destination2="CAG" opened="1995" closed="2199" season="Summer"  routefocus="Passenger"/>
+	          <route destination1="VKO" destination2="PSA" opened="1995" closed="2199" season="Summer" routefocus="Passenger"/>
+
+        </routes>
+  
+
+
+</airline>

@@ -1,0 +1,60 @@
+﻿<airline>
+  <profile name="Carnival Air Lines" iata="CAR" color="MediumBlue" area="402" CEO="Micky Arison" mentality="Moderate" market="Regional" preferedairport="FLL">
+    <narrative narrative="Carnival Air Lines was around from 1988 to February 1998. Its owner was Carnival Cruise Lines, one of the worlds largest cruise ship operators. Its hubs were Fort Lauderdale and Miami,Florida. It had many routes into New York City area and operated at JFK,Laguardia,Islip,Newark,White Plains and Newburgh Airports which are all
+    in the greater New York CIty metro area. It also focused on many of Florida's other airports outsides its hubs, such as West Palm Beach,Tampa,Fort Myers, and Orlando. In 1996s schedule or so its routes from Fort Lauderdale were to New York City,San Juan in Puerto Rico,Washington DC's Dulles Airport,
+    Nassau,Bahamas Los Angeles,California Newark,New Jersey White Plains,New York and seasonal ones to Hartford,Connecticut and Newburgh,New York. Miami's offerings were San Juan,Newark,and Los Angeles and in the past it had also gone to Port-au-Prince,Haiti and Punta Cana,Dominican Republic from Miami.
+    New York City offerings were Nassau,Palm Beach,Aguadilla in Puerto Rico and Ponce in Puerto Rico. Newarks were Nassau,Tampa,Palm Beach,Fort Myers,and Aguadilla. Islip's were Orlando,Tampa and Palm Beach. The airline traced its roots to 1984 when Pacific Interstate Airlines began in Las Vegas,NV. It did charters between Vegas
+    and LA. In 1987 it became Bahamas Express and had expanded to the East Coast with a focus on Freeport,Bahamas. In 1988 Carnival bought the airline. It was named Fun Air but was operated by Majestic Air using a 727-100 flying cruise ship passengers. In 1989 it became Carnival Air Lines
+    and started flying out of Miami and Fort Lauderdale. In September 1997 the reincarnation of Pan Am bought it but before a merger could happen both airlines ceased in February 1998. But the Pan Am name would be sold yet again and a third version would operate until 2004 as a charter airline using the Carnival
+    operating certificate. Its fleet at the end consisted of about six A300B4's,four 737-400's,two 737-200's,and some 727-200's. It had up to 25 planes at one time at its peak."/>
+  </profile>
+    <info real="True" from="1988" to="1998"/>
+           <prefereds aircrafts="Airbus A300B4,Boeing 737-400,Boeing 737-200 Adv.,Boeing 727-200 Adv."/>
+	   	   	     	              <focusairports>
+	 <focusairport airport="MIA"></focusairport>
+     </focusairports>
+  <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1997)-->
+	         <airliners>
+	    <airliner type="Airbus A300B4" early="3" late="6"></airliner>
+	    	     </airliners>
+	    	     <!--the airliners the airline would start with which isn't on a route earyl (1992) late (1997)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="4"></airliner>
+	    	     </airliners>
+	    	      	     <!--the airliners the airline would start with which isn't on a route earyl (1990) late (1997)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="2"></airliner>
+	    	     </airliners>
+	    	       	      	     <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1997)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="4" late="7"></airliner>
+	    	     </airliners>
+	     	         	      <routes>  
+	     <route destination1="FLL" destination2="JFK"/>
+	     <route destination1="FLL" destination2="SJU"/>
+	     <route destination1="FLL" destination2="IAD"/>
+	     <route destination1="FLL" destination2="NAS"/>
+	     <route destination1="FLL" destination2="LAX"/>
+	     <route destination1="FLL" destination2="EWR"/>
+       <route destination1="FLL" destination2="HPN"/>
+	     <route destination1="MIA" destination2="SJU"/>
+	     <route destination1="MIA" destination2="EWR"/>
+	     <route destination1="MIA" destination2="LAX"/>
+	     <route destination1="JFK" destination2="NAS"/>
+	     <route destination1="JFK" destination2="PBI"/>
+	     <route destination1="JFK" destination2="BQN"/>
+	     <route destination1="JFK" destination2="PSE"/>
+	     <route destination1="EWR" destination2="NAS"/>
+	     <route destination1="EWR" destination2="TPA"/>
+	     <route destination1="EWR" destination2="PBI"/>
+	     <route destination1="EWR" destination2="RSW"/>
+	     <route destination1="EWR" destination2="BQN"/>
+	     <route destination1="ISP" destination2="MCO"/>
+	     <route destination1="ISP" destination2="TPA"/>
+	     <route destination1="ISP" destination2="PBI"/>
+	     <route destination1="MIA" destination2="PAP"/>
+	     <route destination1="MIA" destination2="PUJ"/>
+	     <route destination1="FLL" destination2="BDL" season="Summer"/>
+	     <route destination1="FLL" destination2="SWF" season="Summer"/>
+                   </routes>
+</airline>

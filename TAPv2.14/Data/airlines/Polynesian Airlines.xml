@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Polynesian Airlines" iata="PH"  color="SkyBlue" area="449" CEO="Taua Fatu Tielu" mentality="Safe" market="Local" preferedairport="FGI">
+  <narrative narrative="Polynesian Airlines is based in Samoa at Fagali'i International Airport, the much smaller of Apia's two airports. Polynesian in fact owned its base for awhile, and as of March 2015 is the only airline operating scheduled flights there. Its only route is to the neighboring US territory American Samoa and its main city of Pago Pago which is 123km long. It has been doing this route since the start in 1959. It used to do other international routes to Auckland and Wellington,New Zealand and in Australia it flew to Brisbane,Sydney and Melbourne. Also the Cook Islands and French Polynesia and Honolulu,Hawaii and Los Angeles via codeshares with Air New Zealand but also it had a leased 767-200 for a while. This operation bankrupted the airline. Its fleet at March 2015 was two Twin Otter 100's. It has used 737's and the 727 type before also and BN Islanders and HS 748's and DC-3's. Ansett Australia ran the airline from a management perspective from 1982 to at least 1997 under contract for the Samoan government.  "/>
+   </profile>
+    <info real="True" from="1959" to="2017" />
+       <prefereds aircrafts="DHC-6-100 Twin Otter,DHC-6-400 Twin Otter,Douglas DC-3,BN-2A Islander,HS.748"></prefereds>
+    
+    <!--the airliners the airline would start with which isn't on a route earyl (1965) late (2015)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="2" late="2"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+	    	<route destination1="FGI" destination2="PPG"  opened="1959" closed="2017"  />
+
+              </routes>
+</airline>

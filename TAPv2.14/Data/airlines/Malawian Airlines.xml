@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Malawian Airlines" iata="3W"  color="Green" area="368" CEO="Kassim Geresu" mentality="Moderate" market="Regional"  preferedairport="LLW"> 
+  <narrative narrative="Malawian Airlines is the flag carrier of Malawi and is based at Lilongwe with another base at Blantyre. It is 49% owned by Ethiopian Airlines and 51% by the government. It is operated under a management contract by Ethiopian and thats who owns the airlines one 737-800 and one Dash 8-400. The domestic Lilongwe-Blantyre route started January 31,2014. A few days later Harare,Zimbabwe started from both bases. In fact the only destination not offered at both airports is the Lilongwe-Dar es Salaam,Tanzania route which started February 17th. The next day Lusaka,Zambia and Johannesburg,South Africa routes commenced. On November 1st three Mozambique routes started, to Beira,Nampula and Tete. Maputo,Mozambique has also been started since then. The former flag carrier was Air Malawi from 1964-2013. Future destinations in mind include Luanda,Angola." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-800,Bombardier Dash 8-400,Boeing 737 MAX 8"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="BLZ"></focusairport>
+	     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="1" late="1"></airliner>
+	     </airliners>
+
+<routes>
+		<route destination1="LLW" destination2="BLZ" opened="2014" closed="2199"/>
+		<route destination1="LLW" destination2="HRE" opened="2014" closed="2199"/>
+	       <route destination1="BLZ" destination2="HRE" opened="2014" closed="2199"/>
+	       <route destination1="LLW" destination2="JNB" opened="2014" closed="2199"/>
+	       	<route destination1="BLZ" destination2="JNB" opened="2014" closed="2199"/>
+	       <route destination1="LLW" destination2="LUN" opened="2014" closed="2199"/>
+	        <route destination1="BLZ" destination2="LUN" opened="2014" closed="2199"/>
+		<route destination1="LLW" destination2="DAR" opened="2014" closed="2199"/>
+		<route destination1="LLW" destination2="TET" opened="2014" closed="2199"/>
+	       <route destination1="BLZ" destination2="TET" opened="2014" closed="2199"/>
+	       <route destination1="LLW" destination2="BEW" opened="2014" closed="2199"/>
+	       	<route destination1="BLZ" destination2="BEW" opened="2014" closed="2199"/>
+	       <route destination1="LLW" destination2="APL" opened="2014" closed="2199"/>
+	        <route destination1="BLZ" destination2="APL" opened="2014" closed="2199"/>
+	       <route destination1="LLW" destination2="MPM" opened="2015" closed="2199"/>
+	        <route destination1="BLZ" destination2="MPM" opened="2015" closed="2199"/>
+	       <route destination1="LLW" destination2="LAD" opened="2016" closed="2199"/>
+	        <route destination1="BLZ" destination2="LAD" opened="2016" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

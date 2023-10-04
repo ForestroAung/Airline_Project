@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Garuda Indonesia" iata="GA" color="LightSlateGray" area="246" region="109" CEO="Muhammad Arif Wibowo"
+           mentality="Aggressive" market="Global " preferedairport="CGK">
+           
+    <narrative narrative="Garuda Indonesia is the flag carrier of Indonesia. Named after the holy bird Garuda of Hinduism and Buddhism, and the national emblem of Indonesia, the airline is headquartered at Soekarno-Hatta International Airport in Tangerang, near Jakarta. As of 11 December 2014, the airline is rated as a 5-star airline by the international airline review firm Skytrax. Founded in 1949 as KLM Interinsulair Bedrijf, the airline is now one of the world's leading airlines and the 20th member of the global airline alliance SkyTeam. It operates regularly scheduled flights to a large number of destinations in Southeast Asia, East Asia, Australia and Europe from its main hub in Jakarta, Soekarno-Hatta International Airport, as well as services to Australia and Asia from Ngurah Rai International Airport (Bali) and a large number of domestic flights from both Sultan Hasanuddin International Airport (Makassar) and Kuala Namu International Airport (Medan).[3]" />
+  <info real="True" from="1996" to="2199"></info>
+  </profile>    
+  <info real="True" from="1949" to="2199" />
+  <prefereds aircrafts="ATR 72-600,Airbus A330-300,Airbus A330-200,Airbus A300B4,Boeing 737-300,Boeing 737-500,Boeing 737-800,Boeing 777-200,Boeing 747-400,Boeing 777-300ER,Bombardier CRJ1000,MD-90-30">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="DPS"></focusairport>
+    <focusairport airport="CGK"></focusairport>
+    <focusairport airport="UPG"></focusairport>
+    <focusairport airport="KNO"></focusairport>
+    <focusairport airport="SUB"></focusairport>
+    <focusairport airport="HLP"></focusairport>
+  </focusairports>
+
+  <startdata>
+    <airliners>
+      <airliner type="ATR 72-600" early="0" late="11"></airliner>
+      <airliner type="Airbus A330-300" early="6" late="6"></airliner>
+      <airliner type="Airbus A330-200" early="5" late="5"></airliner>
+      <airliner type="Airbus A300B4" early="8" late="0"></airliner>
+      <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+      <airliner type="Boeing 737-500" early="2" late="0"></airliner>
+      <airliner type="Boeing 737-800" early="15" late="64"></airliner>
+      <airliner type="Boeing 777-200" early="2" late="0"></airliner>
+      <airliner type="Boeing 747-400" early="2" late="0"></airliner>
+      <airliner type="Boeing 777-300ER" early="4" late="4"></airliner>
+      <airliner type="Bombardier CRJ1000" early="6" late="10"></airliner>
+      <airliner type="MD-90-30" early="8" late="10"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="CGK" destination2="BNE" opened="1990" closed="2014"/>
+      <route destination1="CGK" destination2="CNS" opened="1990" closed="2003"/>
+      <route destination1="CGK" destination2="DRW" opened="1992" closed="2004"/>
+      <route destination1="CGK" destination2="MEL"/>
+      <route destination1="CGK" destination2="PER"/>
+      <route destination1="CGK" destination2="SYD"/>
+      <route destination1="CGK" destination2="PEK"/>
+      <route destination1="CGK" destination2="CAN"/>
+      <route destination1="CGK" destination2="PVG"/>
+      <route destination1="CGK" destination2="FRA" opened="1995" closed="2003"/>
+      <route destination1="CGK" destination2="HKG"/>
+      <route destination1="CGK" destination2="AMQ"/>
+      <route destination1="CGK" destination2="BPN"/>
+      <route destination1="CGK" destination2="BTJ"/>
+      <route destination1="CGK" destination2="TKG"/>
+      <route destination1="CGK" destination2="BDJ"/>
+      <route destination1="CGK" destination2="BTH"/>
+      <route destination1="CGK" destination2="BKS"/>
+      <route destination1="CGK" destination2="BIK"/>
+      <route destination1="CGK" destination2="DPS"/>
+      <route destination1="CGK" destination2="GTO"/>
+      <route destination1="CGK" destination2="DJB"/>
+      <route destination1="CGK" destination2="DJJ"/>
+      <route destination1="CGK" destination2="KDI"/>
+      <route destination1="CGK" destination2="KOE"/>
+      <route destination1="CGK" destination2="UPG"/>
+      <route destination1="CGK" destination2="MDC"/>
+      <route destination1="CGK" destination2="LOP"/>
+      <route destination1="CGK" destination2="MLG"/>
+      <route destination1="CGK" destination2="KNO"/>
+      <route destination1="CGK" destination2="MKQ"/>
+      <route destination1="CGK" destination2="PDG"/>
+      <route destination1="CGK" destination2="PKY"/>
+      <route destination1="CGK" destination2="PLM"/>
+      <route destination1="CGK" destination2="PLW"/>
+      <route destination1="CGK" destination2="PKG"/>
+      <route destination1="CGK" destination2="PKU"/>
+      <route destination1="CGK" destination2="PNK"/>
+      <route destination1="CGK" destination2="SRG"/>
+      <route destination1="CGK" destination2="FLZ"/>
+      <route destination1="CGK" destination2="SOC"/>
+      <route destination1="CGK" destination2="SUB"/>
+      <route destination1="CGK" destination2="TNJ"/>
+      <route destination1="CGK" destination2="PDG"/>
+      <route destination1="CGK" destination2="TNJ"/>
+      <route destination1="CGK" destination2="TRK"/>
+      <route destination1="CGK" destination2="TTE"/>
+      <route destination1="CGK" destination2="TIM"/>
+      <route destination1="CGK" destination2="JOG"/>
+      <route destination1="CGK" destination2="HND"/>
+      <route destination1="CGK" destination2="NRT"/>
+      <route destination1="CGK" destination2="ICN"/>
+      <route destination1="CGK" destination2="KUL"/>
+      <route destination1="CGK" destination2="AMS"/>
+      <route destination1="CGK" destination2="AUK" opened="1996" closed="2006"/>
+      <route destination1="CGK" destination2="JED"/>
+      <route destination1="CGK" destination2="SIN"/>
+      <route destination1="CGK" destination2="ZRH" opened="1994" closed="1997"/>
+      <route destination1="CGK" destination2="TPE" opened="1990" closed="2014"/>
+      <route destination1="CGK" destination2="DMK" opened="1999" closed="2006"/>
+      <route destination1="CGK" destination2="BKK"/>
+      <route destination1="CGK" destination2="LGW"/>
+      <route destination1="BPN" destination2="BDO"/>
+      <route destination1="BPN" destination2="DJJ"/>
+      <route destination1="BPN" destination2="KOE"/>
+      <route destination1="BPN" destination2="UPG"/>
+      <route destination1="BPN" destination2="MDC"/>
+      <route destination1="BPN" destination2="LOP"/>
+      <route destination1="BPN" destination2="PLM"/>
+      <route destination1="BPN" destination2="SRG"/>
+      <route destination1="BPN" destination2="SUB"/>
+      <route destination1="BPN" destination2="TIM"/>
+      <route destination1="BPN" destination2="JOG"/>
+      <route destination1="BPN" destination2="PEK"/>
+      <route destination1="BPN" destination2="DIL"/>
+      <route destination1="BPN" destination2="CAN"/>
+      <route destination1="BPN" destination2="HKG"/>
+      <route destination1="BPN" destination2="MEL"/>
+      <route destination1="BPN" destination2="KIX"/>
+      <route destination1="BPN" destination2="PER"/>
+      <route destination1="BPN" destination2="ICN"/>
+      <route destination1="BPN" destination2="SIN"/>
+      <route destination1="BPN" destination2="SYD"/>
+      <route destination1="BPN" destination2="NRT"/>
+      <route destination1="UPG" destination2="JED"/>
+      <route destination1="UPG" destination2="AMQ"/>
+      <route destination1="UPG" destination2="BIK"/>
+      <route destination1="UPG" destination2="GTO"/>
+      <route destination1="UPG" destination2="KDI"/>
+      <route destination1="UPG" destination2="MDC"/>
+      <route destination1="UPG" destination2="LOP"/>
+      <route destination1="UPG" destination2="KNO"/>
+      <route destination1="UPG" destination2="PLW"/>
+      <route destination1="UPG" destination2="SRG"/>
+      <route destination1="UPG" destination2="SUB"/>
+      <route destination1="UPG" destination2="TTE"/>
+      <route destination1="UPG" destination2="JOG"/>
+      <route destination1="KNO" destination2="JED"/>
+      <route destination1="KNO" destination2="SUB"/>
+      <route destination1="SUB" destination2="AMQ"/>
+      <route destination1="SUB" destination2="BDO"/>
+      <route destination1="SUB" destination2="BDJ"/>
+      <route destination1="SUB" destination2="BTH"/>
+      <route destination1="SUB" destination2="KOE"/>
+      <route destination1="SUB" destination2="LOP"/>
+      <route destination1="SUB" destination2="MDC"/>
+      <route destination1="SUB" destination2="SRG"/>
+    </routes>
+  </startdata>
+    
+</airline>

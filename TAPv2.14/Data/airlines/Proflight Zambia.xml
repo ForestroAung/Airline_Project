@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Proflight Zambia" iata="P0" color="MediumBlue" area="365" CEO="Tony Irwin" mentality="Safe" market="Regional"  preferedairport="LUN">
+  <narrative narrative="Proflight Zambia, or Proflight Commuter Services,is based at Lusaka,Zambia with other bases at Ndola and Mfuwe. At March 2015 it was serving 10 domestic airports including bases and Lilongwe,Malawi. Its fleet has
+  one Bombardier CRJ100,four Cessna 208B's,three BAe Jetstream 41's,three BAe Jetstream 31's,three Cessna 402/401's,two BN Islanders and twoo Beechcraft Baron's. It had a 737-200 from 2013 to 2014. It started the
+  route to Malawi in 2013.The airline was founded in 1991 by an ex Zambian Airways pilot,Tony Irwin. It did charters and then in 1997 started scheduled service to Mfuwe. In 2004 it got new investors and opened up many more routes. 
+  Today it has the largest fleet in Zambia. It still does many charters and is one of the main parts of the business. In 2013 it carried 136,000 passengers and in 2011 had 181 employees." />
+</profile>
+   <info real="True" from="1991" to="2199"></info>
+  <prefereds aircrafts="Bombardier CRJ100,BAe Jetstream 41,BAe Jetstream 31,Cessna 208B,BN-2A Islander"></prefereds>
+  <focusairports>
+                 <focusairport airport="NLA"></focusairport>
+	         <focusairport airport="MFU"></focusairport>
+     </focusairports>
+ <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="1" late="3"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="1" late="3"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="4"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="0" late="2"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 402C" early="2" late="3"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft Baron 58" early="2" late="3"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ100" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="LUN" destination2="NLA" opened="1997" closed="2199"/>
+	        <route destination1="LUN" destination2="MFU" opened="1997" closed="2199"/>
+		<route destination1="LUN" destination2="LVI" opened="2004" closed="2199"/>
+		<route destination1="LUN" destination2="LLW" opened="2013" closed="2199"/>
+	        <route destination1="LUN" destination2="SLI" opened="2004" closed="2199"/>
+	        <route destination1="LUN" destination2="CIP" opened="2004" closed="2199"/>
+	        <route destination1="NLA" destination2="CIP" opened="2004" closed="2199"/>
+              </routes>
+  
+
+
+</airline>

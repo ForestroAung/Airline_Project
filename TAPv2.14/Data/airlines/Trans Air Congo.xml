@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Trans Air Congo" iata="TSG" color="MediumBlue" area="347" CEO="El-Hage" mentality="Safe" market="Regional"  preferedairport="PNR">
+  <narrative narrative="Trans Air Congo is based at Pointe Noire,Republic of the Congo. It started in 1994 with a Let 410 and later in the same year an Antonov 24. Its main routes are Pointe Noire-Brazzaville domestic wise, and
+  from Pointe Noire it goes to Cotonou,Benin Douala,Cameroon and Libreville,Gabon also. From Brazzaville it also goes to Douala and Libreville. Plans to start flights to the cities of Kinshasa,Lubumbashi and Goma in neighboring and larger Democratic Republic of the Congo may start in 2015.
+ Its fleet at October 2014 was  two 737-200 Adv.'s,a 737-300,an MD-82 and two Embraer 120 Brasilia's. In 1996 it got a Boeing 727 and Yak-42D. " />
+</profile>
+   <info real="True" from="1994" to="2199"></info>
+  <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-300,EMB 120 Brasilia,MD-82 (DC-9-82),Antonov An-24,Boeing 727-200 Adv.,Yak-42D,Let L-410,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+
+<focusairports>
+                 <focusairport airport="BZV"></focusairport>
+     </focusairports>
+ <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="2"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="1" late="0"></airliner>
+	     </airliners>
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="0" late="2"></airliner>
+	     </airliners>
+	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="0" late="1"></airliner>
+	     </airliners> 
+	     	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="0"></airliner>
+	     </airliners> 
+	          	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Yak-42D" early="1" late="0"></airliner>
+	     </airliners> 
+	     	          	     	     	      <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="0"></airliner>
+	     </airliners> 
+
+
+
+
+<routes>
+                <route destination1="PNR" destination2="BZV" opened="1994" closed="2199"/>
+		<route destination1="PNR" destination2="LBV" opened="1994" closed="2199" />
+	        <route destination1="PNR" destination2="DLA" opened="1996" closed="2199" />
+	        <route destination1="PNR" destination2="COO"  opened="1996" closed="2199"/>
+	        <route destination1="BZV" destination2="LBV" opened="1996" closed="2199" />
+	        <route destination1="BZV" destination2="DLA" opened="1996" closed="2199" />
+	        <route destination1="PNR" destination2="FIH" opened="2015" closed="2199" />
+	        <route destination1="PNR" destination2="FBM"  opened="2015" closed="2199"/>
+		<route destination1="PNR" destination2="GOM"  opened="2015" closed="2199"/>
+	        <route destination1="BZV" destination2="FBM"  opened="2016" closed="2199"/>
+		<route destination1="BZV" destination2="GOM"  opened="2016" closed="2199"/>
+              </routes>
+  
+
+
+</airline>

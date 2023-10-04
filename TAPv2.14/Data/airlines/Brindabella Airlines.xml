@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Brindabella Airlines" iata="BRI" color="Crimson" area="251" CEO="Paul Schutz" mentality="Safe" market="Local" preferedairport="CBR">
+  <narrative narrative="Brindabella Airlines was an Australian airline around from 1994 to December 14,2013. It's headquarters were at Canberra. It's  other bases were Brisbane,Newcastle, and Sydney. It spent its first 9 years as a charter airline. It started scheduled service in April 2003. In 2000 it opened a flight training school. That closed in 2010. The  original owners, Jeff Boyd and his wife Lara
+  ran a maintenance business on the side until 2000 when they merged it with the airline. Some of the last routes it did scheduled wise were between Canberra and Newcastle,Canberra and Albury,Brisbane and Tamworth,Brisbane and Coffs Harbour and Coffs Harbour and Port Macquarie.
+  It also served Sydney,Cobar,Cooma,Moree,Mudgee,Narrabri,and Orange. Charter wise it did on a regular basis mining charters. Such as from Brisbane to Emerald and Townsville and Latrobe Valley. In May 2008 it introduced BAe Jetstream 41's to its fleet. In 2011 the Boyd's sold the airline to
+  Business Air Holdings Pty Ltd. That also owned Aeropelican Air Services, a competitor of Brindabella's. In July 2013 Aeropelican combined with Brindabella, and Brindabella kept using its name. The same month it entered a codeshare agreement with Qantas. However in November 2013 the airline
+  was grounded by the Civil Aviation Safety Authority for overdue engine inspections. The codeshare was revoked as a result. On December 12th the same issue happened, and two days later service was suspended. The airline didn't fly again. It's final fleet was five Fairchile Metroliner's,
+  four BAe Jetstream 41's, and three Jetstream 32's." />
+</profile>
+   <info real="True" from="1994" to="2014"></info>
+   <prefereds aircrafts="BAe Jetstream 31,BAe Jetstream 41,Fairchild Swearingen Metroliner"></prefereds>
+     <focusairports>
+	 <focusairport airport="BNE"></focusairport>
+     </focusairports>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2013)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="0" late="3"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2013)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="2" late="4"></airliner>
+	     </airliners>
+	   		       	     <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2013)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="5" late="5"></airliner>
+	     </airliners>
+	
+
+
+<routes>
+    <route destination1="CBR" destination2="NTL"  opened="2003" closed="2199"/>
+    <route destination1="CBR" destination2="ABX" />
+		<route destination1="BNE" destination2="TMW" />
+		<route destination1="BNE" destination2="CFS" />
+		<route destination1="BNE" destination2="PQQ" />
+		<route destination1="BNE" destination2="MRZ"  opened="2010" closed="2199"/>
+		
+
+        </routes>
+  
+
+
+</airline>

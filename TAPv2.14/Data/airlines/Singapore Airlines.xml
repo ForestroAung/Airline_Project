@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Singapore Airlines" iata="SQ" color="Indigo" area="243" CEO="Wu Junpeng" mentality="Aggressive"
+           market="Global" preferedairport="SIN">
+            <narrative
+      narrative="Singapore Airlines began with the incorporation of Malayan Airways Limited (MAL) on 1 May 1947, by the Ocean Steamship Company of Liverpool, the Straits Steamship Company of Singapore and Imperial Airways. The airline's first flight was a chartered flight from the British Straits Settlement of Singapore to Kuala Lumpur on 2 April 1947 using an Airspeed Consul twin-engined aircraft." />
+  </profile>
+   <info real="True" from="1972" to="2199"></info>
+  <prefereds aircrafts="Airbus A300B4,Airbus A330-300,Airbus A340-300,Airbus A340-500,Airbus A380-800,Boeing 747-400,Boeing 777-200,Boeing 777-200ER,Boeing 777-300,Boeing 777-300ER">
+    <aircrafts>
+      <aircraft type="Boeing 747-400" from="1989" to="2012"></aircraft>
+      <aircarft type="Airbus A300B4" from="1980" to="1985"></aircarft>
+      <aircarft type="Airbus A340-300" from="1996" to="2003"></aircarft>
+      <aircarft type="Airbus A340-500" from="2003" to="2013"></aircarft>
+    </aircrafts> 
+  </prefereds>
+  <focusairports>
+    <focusairport airport="SYD"></focusairport>
+    <focusairport airport="MEL"></focusairport>
+    <focusairport airport="PER"></focusairport>
+    <focusairport airport="BKK"></focusairport>
+    <focusairport airport="KUL"></focusairport>
+    <focusairport airport="LHR"></focusairport>
+    <focusairport airport="AMS"></focusairport>
+    <focusairport airport="DME"></focusairport>
+  </focusairports>
+<startdata>
+  <airliners>
+    <airliner type="Airbus A300B4" early="8" late="0"></airliner>
+    <airliner type="Airbus A330-300" early="10" late="22"></airliner>
+    <airliner type="Airbus A340-300" early="18" late="0"></airliner>
+    <airliner type="Airbus A340-500" early="4" late="0"></airliner>
+    <airliner type="Airbus A380-800" early="10" late="9"></airliner>
+    <airliner type="Boeing 747-400" early="22" late="20"></airliner>
+    <airliner type="Boeing 777-200" early="11" late="0"></airliner>
+    <airliner type="Boeing 777-200ER" early="10" late="4"></airliner>
+    <airliner type="Boeing 777-300" early="4" late="3"></airliner>
+    <airliner type="Boeing 777-300ER" early="10" late="16"></airliner>
+    </airliners>
+  
+  <routes>
+    <route destination1="SIN" destination2="ADL"/>
+    <route destination1="SIN" destination2="BNE"/>
+    <route destination1="SIN" destination2="CNS" opened="1995" closed="1999"/>
+    <route destination1="SIN" destination2="DRW" opened="1996" closed="1999"/>
+    <route destination1="SIN" destination2="MEL"/>
+    <route destination1="SIN" destination2="PER"/>
+    <route destination1="SIN" destination2="SYD"/>
+    <route destination1="SIN" destination2="VIE" opened="1998" closed="2004"/>
+    <route destination1="SIN" destination2="DAC"/>
+    <route destination1="SIN" destination2="BRU" opened="1997" closed="2003"/>
+    <route destination1="SIN" destination2="BCN" destination3="GRU"/>
+    <route destination1="SIN" destination2="BWN"/>
+    <route destination1="SIN" destination2="RGN"/>
+    <route destination1="SIN" destination2="YYZ" opened ="1990" closed="1994"/>
+    <route destination1="SIN" destination2="CPH"/>
+    <route destination1="SIN" destination2="DXB"/>
+    <route destination1="SIN" destination2="CDG"/>
+    <route destination1="SIN" destination2="FRA"/>
+    <route destination1="SIN" destination2="MUC"/>
+    <route destination1="SIN" destination2="ATH" season="Summer"/>
+    <route destination1="SIN" destination2="HKG"/>
+    <route destination1="SIN" destination2="AMD"/>
+    <route destination1="SIN" destination2="BLR"/>
+    <route destination1="SIN" destination2="MAA"/>
+    <route destination1="SIN" destination2="DEL"/>
+    <route destination1="SIN" destination2="HYD" opened="1998" closed="2002"/>
+    <route destination1="SIN" destination2="COK" opened="1995" closed="2005"/>
+    <route destination1="SIN" destination2="CCU"/>
+    <route destination1="SIN" destination2="BOM"/>
+    <route destination1="SIN" destination2="DPS"/>
+    <route destination1="SIN" destination2="CGK"/>
+    <route destination1="SIN" destination2="SUB"/>
+    <route destination1="SIN" destination2="MXP"/>
+    <route destination1="SIN" destination2="CIA"/>
+    <route destination1="SIN" destination2="FUK"/>
+    <route destination1="SIN" destination2="NGO"/>
+    <route destination1="SIN" destination2="OKA"/>
+    <route destination1="SIN" destination2="KIX"/>
+    <route destination1="SIN" destination2="CTS" season="Winter"/>
+    <route destination1="SIN" destination2="HND"/>
+    <route destination1="SIN" destination2="ICN"/>
+    <route destination1="SIN" destination2="KUL"/>
+    <route destination1="SIN" destination2="KCH" opened="2001" closed="2005"/>
+    <route destination1="SIN" destination2="MLE"/>
+    <route destination1="SIN" destination2="AMS"/>
+    <route destination1="SIN" destination2="AKL"/>
+    <route destination1="SIN" destination2="CHC"/>
+    <route destination1="SIN" destination2="PEK"/>
+    <route destination1="SIN" destination2="CAN"/>
+    <route destination1="SIN" destination2="SHA"/>
+    <route destination1="SIN" destination2="SZX" opened="2001" closed="2005"/>
+    <route destination1="SIN" destination2="CEB" opened="2001" closed="2005"/>
+    <route destination1="SIN" destination2="MNL"/>
+    <route destination1="SIN" destination2="DME"/>
+    <route destination1="SIN" destination2="JED"/>
+    <route destination1="SIN" destination2="CPT"/>
+    <route destination1="SIN" destination2="JNB"/>
+    <route destination1="SIN" destination2="BCN"/>
+    <route destination1="SIN" destination2="MAD" opened="1999" closed="2004"/>
+    <route destination1="SIN" destination2="CMB"/>
+    <route destination1="SIN" destination2="ZRH"/>
+    <route destination1="SIN" destination2="KHH" opened="2000" closed="2003"/>
+    <route destination1="SIN" destination2="TPE"/>
+    <route destination1="SIN" destination2="BKK"/>
+    <route destination1="SIN" destination2="IST"/>
+    <route destination1="SIN" destination2="DXB"/>
+    <route destination1="SIN" destination2="LHR"/>
+    <route destination1="SIN" destination2="MAN"/>
+    <route destination1="SIN" destination2="DME" destination3="IAH"/>
+    <route destination1="SIN" destination2="NRT" destination3="LAX"/>
+    <route destination1="SIN" destination2="NRT" destination3="SFO"/>
+    <route destination1="SIN" destination2="FRA" destination3="JFK"/>
+    <route destination1="SIN" destination2="HAN"/>
+    <route destination1="SIN" destination2="SGN"/>
+     </routes>
+</startdata>
+  
+</airline>

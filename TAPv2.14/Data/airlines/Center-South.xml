@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Center-South" iata="CTS" color="Blue" area="177" CEO="Alexei I. Hamnagadaev" mentality="Moderate" market="Regional" preferedairport="VKO">
+  <narrative narrative="Center-South is an airline in Russia that has its base at Belgorod, but does not fly scheduled flights from there. It's main hub is Moscow Vnukovo with focus cities at Samara and Magadan. From Moscow Vnukovo it goes to Kyzyl,Novosibirsk,Tyumen and seasonally to Ulan-Ude and Simferopol,Ukraine.
+  From Samara it goes to Chelyabinsk,Kazan and Novy Urengoy. Tyumen is also served to Novosibirsk,Ulan-Ude,Vladivostok and seasonal to Magadan and Simferopol,Ukraine. Ulan-Ude is also served to Novosibirsk,Vladivostok and Magadan. Magadan also has flights to Vladivostok and Simferopol,Ukraine. All flights in Magadan started on June 11,2015. The airline started in 1993. It got two Sukhoi 100-95 Superjets in 2014 and has another at June 2015, two are leased from Atlas jet. It also has two active Yak-40's with three in storage. And two active Tupolev Tu-134's with twelve in storage. Ten were of the A type and four of the B."/>
+</profile>
+  <info real="True" from="1993" to="2199" />
+  <prefereds aircrafts="Tupolev Tu-134B,Tupolev Tu-134A,Yak-40,Sukhoi 100-95,Sukhoi 100-95LR"></prefereds>
+            <focusairports>
+                 <focusairport airport="KUF"></focusairport> 
+		 <focusairport airport="GDX"></focusairport> 
+		 <focusairport airport="TJM"></focusairport> 
+		 <focusairport airport="UUD"></focusairport>
+		 <focusairport airport="VVO"></focusairport>
+		 <focusairport airport="OVB"></focusairport>
+		 <focusairport airport="KYZ"></focusairport>
+     </focusairports>
+          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Sukhoi 100-95" early="2" late="3"></airliner>
+	     </airliners>
+		     	               <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="5" late="5"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="10" late="10"></airliner>
+	     </airliners>
+	     	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134B" early="4" late="4"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="VKO" destination2="KYZ" />
+			  <route destination1="VKO" destination2="OVB" />
+			  <route destination1="OVB" destination2="UUD" />
+			  <route destination1="OVB" destination2="KYZ" />
+	      	          <route destination1="KUF" destination2="CEK" />
+			  <route destination1="KUF" destination2="KZN" />
+			  <route destination1="KUF" destination2="NUX" />
+			  <route destination1="TJM" destination2="OVB" />
+			  <route destination1="TJM" destination2="UUD" />
+			  <route destination1="TJM" destination2="VKO" />
+			  <route destination1="TJM" destination2="VVO" />
+			  <route destination1="UUD" destination2="VVO" />
+			  <route destination1="GDX" destination2="VKO" opened="2015" closed="2199" />
+			  <route destination1="GDX" destination2="OVB" opened="2015" closed="2199" />
+		          <route destination1="GDX" destination2="TJM" opened="2015" closed="2199" />
+			  <route destination1="GDX" destination2="SIP" opened="2015" closed="2199" />
+			  <route destination1="GDX" destination2="UUD" opened="2015" closed="2199" />
+		          <route destination1="GDX" destination2="VVO" opened="2015" closed="2199" />
+			  <route destination1="VKO" destination2="SIP" season="Summer" />
+			  <route destination1="VKO" destination2="UUD" season="Summer" />
+			  <route destination1="TJM" destination2="SIP" season="Summer" />
+        </routes>
+</airline>

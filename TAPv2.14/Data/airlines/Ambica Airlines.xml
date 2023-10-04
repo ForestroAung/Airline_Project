@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Ambica Airlines" iata="AMB" color="Indigo" area="224" CEO="Jagmal Raja Chauhan" mentality="Safe" market="Local" preferedairport="BOM" schedule="Business">
+    <narrative narrative="Ambica Airlines existed from March 10th,1947 until December 1949. Its base was Mumbai/bay,India. Its routes were  Bombay to Vadodara onto Ahemedabad which totaled 464 kilometers and was done twice a week. Its other route was BOM to Rajkot onto Jamnagar onto Bhuj onto Morbi. This is 596 kilometers not including Morbi, which     is the only one of these airports no longer around at 2016. That route was three times a week. The airline used mostly DC-3's and had three Beechcraft Model 18's as well. It had other planes but it is not recorded what kind. It closed due to low passenger numbers and legal problems."/>
+  </profile>
+    <info real="True" from="1947" to="1950"/>
+           <prefereds aircrafts="Douglas DC-3,Beechcraft Model 18"/>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1947) late (1949)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft Model 18" early="3" late="3"/>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="BOM" destination2="BDQ" destination3="AMD"/>	
+	    <route destination1="BOM" destination2="RAJ" destination3="JGA" destination4="BHJ"/>
+                   </routes>
+</airline>

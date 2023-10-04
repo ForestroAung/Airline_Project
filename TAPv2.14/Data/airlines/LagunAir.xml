@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="LagunAir" iata="LGA"  color="GreenYellow" area="117" CEO="Ignacio Tejera Montano" mentality="Moderate" market="Domestic" preferedairport="LEN">
+  <narrative narrative="LagunAir was based at Leon,Spain with focus cities at Valladolid and Salamanca. It operated from September 29,2003 to October 9,2008. From Leon it served Madrid,Barcelona,Malaga,Palma de Mallorca,Ibiza,Valencia,Menorca and Jerez. From Valladolid it served Barcelona,Malaga,Palma de Mallorca,Valencia and Menorca. From Salamanca it served Barcelona,Malaga and Palma. It also served Burgos with routes to Barcelona and Palma. At the end its fleet had three Embraer 145's and a Saab 340."/>
+   </profile> 
+    <info real="True" from="2003" to="2009" />
+       <prefereds aircrafts="Embraer ERJ145 LR,Saab 340B"></prefereds>
+	<focusairports>
+			       <focusairport airport="VLL"></focusairport>
+			       <focusairport airport="SLM"></focusairport>
+		     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="1" late="3"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="1"></airliner>
+	     </airliners>
+	
+    <routes>
+	        <route destination1="LEN" destination2="MAD"  />
+	       	<route destination1="LEN" destination2="BCN"    />
+		<route destination1="LEN" destination2="AGP"    />
+                <route destination1="LEN" destination2="PMI"  />
+	       	<route destination1="LEN" destination2="IBZ"    />
+		<route destination1="LEN" destination2="VLC"    />
+	        <route destination1="LEN" destination2="MAH"  />
+	       	<route destination1="LEN" destination2="XRY"    />
+		<route destination1="VLL" destination2="BCN"    />
+		<route destination1="VLL" destination2="PMI"    />
+		<route destination1="VLL" destination2="AGP"    />
+		<route destination1="VLL" destination2="VLC"    />
+		<route destination1="VLL" destination2="MAH"    />
+		<route destination1="SLM" destination2="BCN"    />
+		<route destination1="SLM" destination2="PMI"    />
+		<route destination1="SLM" destination2="AGP"    />
+		<route destination1="RGS" destination2="BCN"    />
+		<route destination1="RGS" destination2="PMI"    />
+	
+              </routes>
+</airline>

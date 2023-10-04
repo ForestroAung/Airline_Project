@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--AgustaWestland-->
+<configuration type="AgustaWestland AW139" economy="-1" premium="0" first="0" business="0" exitrows="142" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.3" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="AgustaWestland AW189" economy="-1" premium="0" first="0" business="0" exitrows="144" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

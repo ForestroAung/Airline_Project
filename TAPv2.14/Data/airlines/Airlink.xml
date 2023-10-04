@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airlink" iata="4Z" color="Red" area="371" CEO="Chris Johnson" mentality="Moderate" market="Regional" preferedairport="JNB"> 
+  <narrative narrative="Airlink is based at Johannesburg with focus cities at Durban and Cape Town. It is not owned by South African Airways but it is  part of a close knit strategic alliance with them and South African Express, another independant airline. As of December 2012 it serves 13 other domestic airports besides those already mentioned,and internationally it
+ serves internationally two in Botswana,one in Lesotho,one in Madagascar,six in Mozambique,one in Swaziland,three in Zambia,two in Zimbabwe,and one in Namibia.It was founded in 1995 and started the alliance in 1997. At May 2014 it had twelve Avro RJ 85's,thirteen Embraer ERJ 135's,
+ eight BAe Jetstream 41's and one Embraer ERJ 145. It also has the subsidiary Swaziland Airlink since 1999,which was only doing the Manzini,Swaziland to Johannesburg route with a single ERJ 135. As of 2015 this is the flag carrier of Swaziland. " />
+</profile>
+   <info real="True" from="1995" to="2199"></info>
+   <prefereds aircrafts="Embraer ERJ135 ER,Avro RJ 85,BAe Jetstream 41"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="DUR"></focusairport>
+		  <focusairport airport="CPT"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="5" late="8"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="5" late="13"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Avro RJ 85" early="2" late="12"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ 145 LR" early="0" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+       	        <route destination1="JNB" destination2="HRE" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="LUN" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="MSU" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="TNR" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="BUQ" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="BEW" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="BBK" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="MUB" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="APL" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="NLA" opened="1995" closed="2199"/>
+	        <route destination1="JNB" destination2="POL" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="TET" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="VNX" opened="1996" closed="2199"/>
+		<route destination1="JNB" destination2="MQP" opened="1995" closed="2199"/>
+		<route destination1="JNB" destination2="PHW" opened="1997" closed="2199"/>
+		<route destination1="JNB" destination2="PZB" opened="1997" closed="2199"/>
+		<route destination1="JNB" destination2="PTG" opened="1998" closed="2199"/>
+		<route destination1="JNB" destination2="SZK" opened="1998" closed="2199"/>
+		<route destination1="JNB" destination2="UTT" opened="1999" closed="2199"/>
+		<route destination1="JNB" destination2="UTN" opened="1999" closed="2199"/>
+		<route destination1="DUR" destination2="MPM" opened="2000" closed="2199"/>
+		<route destination1="DUR" destination2="GRJ" opened="2000" closed="2199"/>
+		<route destination1="DUR" destination2="BFN" opened="2001" closed="2199"/>
+		<route destination1="DUR" destination2="MQP" opened="2001" closed="2199"/>
+	        <route destination1="CPT" destination2="WDH" opened="2002" closed="2199"/>
+		<route destination1="CPT" destination2="GRJ" opened="2002" closed="2199"/>
+		<route destination1="CPT" destination2="UTN" opened="2003" closed="2199"/>
+		<route destination1="CPT" destination2="MQP" opened="2003" closed="2199"/>
+		<route destination1="CPT" destination2="KIM" opened="2003" closed="2199"/>
+		<route destination1="MQP" destination2="LVI" opened="2004" closed="2199"/>
+		<route destination1="MQP" destination2="VNX" opened="2004" closed="2199"/>
+		<route destination1="ELS" destination2="PLZ" opened="2005" closed="2199"/>
+
+        </routes>
+  
+
+
+</airline>

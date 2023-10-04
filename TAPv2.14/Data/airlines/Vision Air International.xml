@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Vision Air International" iata="VIS" color="Yellow" area="221" CEO="Aijaz Ali Faizi" mentality="Safe" market="Regional" preferedairport="KHI" routefocus="Mixed" schedule="Charter">
+  <narrative narrative="Vision Air International is a mixed passenger and cargo airline that mostly does charters. Its base is Karachi,Pakistan. At June 2015 it was offering charters to four domestic cities from Karachi, these would be Islamabad,Lahore,Peshawar and Faisalabad. The international one is to Dubai,United Arab Emirates. The airline started flying in 2008. Its fleet at April 2015 was two 737-200C's,a 747-200F and an Il-76TD."/>
+</profile>
+  <info real="True" from="2008" to="2199" />
+  <prefereds aircrafts="Boeing 737-200C,Boeing 747-200F,Il-76TD"></prefereds>
+          <focusairports>
+		 <focusairport airport="ISB"></focusairport>
+		 <focusairport airport="LHE"></focusairport>
+		 <focusairport airport="PEW"></focusairport>
+				      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200C" early="1" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200F" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Il-76TD" early="1" late="1"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="KHI" destination2="DXB" routefocus="Passenger,Cargo"  />
+		<route destination1="KHI" destination2="ISB"  routefocus="Passenger,Cargo" />
+		<route destination1="KHI" destination2="LHE"  routefocus="Passenger,Cargo" />
+                <route destination1="KHI" destination2="PEW" routefocus="Passenger,Cargo"  />
+		<route destination1="KHI" destination2="LYP"  routefocus="Passenger" />
+	        </routes>
+
+
+
+
+</airline>

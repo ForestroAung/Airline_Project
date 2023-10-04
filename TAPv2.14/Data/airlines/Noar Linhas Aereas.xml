@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Noar Linhas Aereas" iata="NRA" color="SlateBlue" area="431" CEO="Vincente Jorge Espindola" mentality="Safe" market="Local" preferedairport="REC">
+  <narrative narrative="Noar Linhas Aereas was around for a very short time from 2010 to September 2011. Its name NOAR stood for Nordeste Aviacao Regional. Its base was Recife. It flew to Aracaju,Caruaru,Joao Pessoa,Maceio,Mossoro,Natal,and Paulo Afonso. At the end it had one Let 410."/>
+</profile>
+  <info real="True" from="2010" to="2012" />
+  <prefereds aircrafts="Let L-410"></prefereds>
+               <routes>
+	       	  <route destination1="REC" destination2="NAT"/>
+		  <route destination1="REC" destination2="MCZ"/>
+		  <route destination1="REC" destination2="AJU"/>
+		 		        </routes>
+
+
+
+
+</airline>

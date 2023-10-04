@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Int'Air Illes" iata="IIA" logo="IIA2" color="BlueViolet" area="376" CEO="Ahmed Inzoudine" mentality="Moderate" market="Local"  preferedairport="HAH">
+  <narrative narrative="Int'Air Illes is based at Moroni,Comoros, which is an island nation between mainland Africa and Madagascar in the Indian Ocean. It was founded in 2007 as Inter Iles Air and changed its name in March 2015 to the current variation. From its hub it goes to the other domestic airports at Anjouan and Moheli and international to
+  Dar es Salaam,Tanzania  Majunga,Madagascar and the French island territory of Mayotte near Comoros.It also goes between Anjouan and Moheli and from each of those domestic airports to Mayotte. As well as Anjouan to Majunga,Madagascar. At late 2015 its fleet had two Cessna 208 Caravan's,one Embraer 120,one Cessna 207,one Let 410,
+  and one Cessna 404 Titan. It expects arrival of an Avro RJ 85 or 100 in 2016. It leased a Saab 340 from 2013 to 2014 and an Embraer 110 for a short time.It was one of the five founding airlines of the Vanilla Alliance in September 2015 which aims to improve air service to the area of the Indian Ocean they serve along with Air Austral,Air Madagascar,Air Mauritius,and 
+  Air Seychelles, in an effort to cooperate with each other." />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+  <prefereds aircrafts="Cessna 208B,Cessna 207,Cessna 404 Titan,Let L-410,EMB 120 Brasilia,Avro RJ100 Avroliner,EMB 110 Bandeirante,Saab 340B"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Cessna 207" early="2" late="2"></airliner>
+	     </airliners>
+	     	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Cessna 404 Titan" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="0" late="1"></airliner>
+	     </airliners>
+	          	     	     	 <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ100 Avroliner" early="0" late="1"></airliner>
+	     </airliners>
+<routes>
+          <route destination1="HAH" destination2="DAR" />
+          <route destination1="HAH" destination2="AJN" />
+          <route destination1="HAH" destination2="NWA" />
+          <route destination1="HAH" destination2="MJN" />
+          <route destination1="AJN" destination2="NWA" />
+          <route destination1="AJN" destination2="DZA" />
+          <route destination1="NWA" destination2="DZA" />
+          <route destination1="AJN" destination2="MJN" />
+              </routes>
+  
+
+
+</airline>

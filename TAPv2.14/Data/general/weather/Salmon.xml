@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Salmon, ID">
+  <months>
+    <month month="1" precipitation="23">
+      <temp min="-8" max="2" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="18">
+      <temp min="-7" max="4" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="24">
+      <temp min="-4" max="11" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="36">
+      <temp min="-1" max="16" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="48">
+      <temp min="3" max="21" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="59">
+      <temp min="7" max="25" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="25">
+      <temp min="10" max="31" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="27">
+      <temp min="9" max="31" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="25">
+      <temp min="5" max="24" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="27">
+      <temp min="-1" max="15" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="29">
+      <temp min="-5" max="6" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="26">
+      <temp min="-8" max="1" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+  </months>
+</weather>

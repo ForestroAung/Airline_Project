@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Varig Logistica" iata="VLO" color="Gold" area="431" CEO="Chan Lup Wai Ohira" mentality="Safe" market="Domestic" preferedairport="GRU" routefocus="Cargo">
+  <narrative narrative="Varis Logistica, doing business as VarigLog, was a cargo airline based at Sao Paulo,Brazil at Guarulhos Airport from 2001 to February 2012. It was a subsidiary of Varig until Varig ceased in 2006. Logistica had been bought for 48.2 USD in December 2005 and split from Varig. Gol Transportes Aereos would go on to buy Varig and restart them and eventually absorb them. Logistica was on its own now though. In October 2009 Synergy Group bought a majority of Log. It had a deal with FedEx between June 2007 and June 2009. The Synergy Group in 2011 gave up on taking complete control and in February 2011 it ceased operation. In September 2012 it was declared bankrupt. It's final fleet had a 757-200 and two 737-400's. It had two MD-11F's between 2005 and 2009, and three DC-10-30F's between 2001 and 2009 and six 757-200's in 2007 which went down to the one by the end. At the end it was serving domestic only at Belem,Brasilia,Campinas,Fortaleza,Manaus,Recife and Salvador da Bahia besides Sao Paulo."/>
+</profile>
+  <info real="True" from="2001" to="2011" />
+  <prefereds aircrafts="Boeing 757-200PF,MD-11F,MD DC-10-30F,Boeing 737-400,Boeing 727-200 Adv."></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2011)-->
+	     	         <airliners>
+	    <airliner type="MD DC-10-30F" early="2" late="0"></airliner>
+	     </airliners>  
+	               <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2011)-->
+	     	         <airliners>
+	    <airliner type="MD-11F" early="2" late="0"></airliner>
+	     </airliners>  
+	               <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="6" late="1"></airliner>
+	     </airliners>  
+	               <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="2"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="GRU" destination2="BSB"/>
+	       	  <route destination1="GRU" destination2="SSA"/>
+		  <route destination1="GRU" destination2="FOR"/>
+		  <route destination1="GRU" destination2="MAO"/>
+		  <route destination1="GRU" destination2="REC"/>
+		  <route destination1="GRU" destination2="BEL"/>
+		  <route destination1="VCP" destination2="MAO"/>
+		  <route destination1="VCP" destination2="REC"/>
+		  <route destination1="VCP" destination2="SSA"/>
+
+
+
+
+
+		 		        </routes>
+
+
+
+
+</airline>

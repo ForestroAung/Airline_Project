@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Karat" iata="AKT" color="Maroon" area="177" CEO="Leonid Dyachenko" mentality="Safe" market="Global" preferedairport="VKO">
+  <narrative narrative="Karat, or Karat Air, was formed as the Karat Air Company in 1993. It united with Tulpar Aviation in 2004. The airline ceased in 2007. Moscow Vnukov was its base with a hub at Kazan.
+  At January 2005 it was going from Moscow to Cheboksary,Kazan,Nadym,Nizhny Novgorod,Novy Urengoy and Rostov and to Baku,Azerbaijian. It did mostly charters from Kazan. Its fleet at the end was eight Tu-134A's,
+  six Yak-42D's,five Yak-40's,four Tu-154B's,and three Antonov 24's."/>
+</profile>
+  <info real="True" from="1993" to="2007" />
+  <prefereds aircrafts="Tupolev Tu-134A,Tupolev Tu-154B,Yak-42D,Yak-40,Antonov An-24"></prefereds>
+<focusairports>
+                 <focusairport airport="KZN"></focusairport> 
+     </focusairports>
+        	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="3" late="5"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="4" late="8"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-154B" early="0" late="4"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Yak-42D" early="3" late="7"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="5" late="5"></airliner>
+	     </airliners>
+	     
+               <routes>
+	          <route destination1="VKO" destination2="KZN"   />
+		  <route destination1="VKO" destination2="GOJ"   />
+		  <route destination1="VKO" destination2="ROV"   />
+		  <route destination1="VKO" destination2="NYM"   />
+		  <route destination1="VKO" destination2="CSY"   />
+		  <route destination1="VKO" destination2="NUX"   />
+	          <route destination1="KZN" destination2="GYD" type="Charter" />
+		 		        </routes>
+
+
+
+
+</airline>

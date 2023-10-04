@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Bergen Air Transport" iata="BGT" color="SlateBlue" area="104" CEO="Geir Hellsten" mentality="Safe" market="Regional" preferedairport="BGO" schedule="Charter">
+  <narrative narrative="Bergen Air Transport is based at Bergen,Norway and does charters and one scheduled route as of 2015. It started operations in 1999 doing charters with a Cessna 421B. In 2000 it replaced that with a newer Cessna 421C.
+  It also began its scheduled route from Bergen to Notodden this year. It had 11 employees and 2.6 Norweigian Krones in revenue at this time. It started with 4 times a week on this route and increased it to 5 in 2001 due to good ridership. It carried 1,500
+  in 2001 on this route. In the summer of 2002 it began flying between Nortodden and Kristiansund but stopped due to lack of passengers. A new hanger opened at Bergen in 2003 and the airline was certified as a mechanical aviation workshop.
+  In 2004 it replaced the Cessna 421C with a Cessna 441 Conquest II. In 2006 it replaced that with two Beechcraft King Air 200's. In 2003 Nortodden was closed by the Norway Civil Aviation Authorirt due to safety requirements that were not met.
+  The airline invested 500,000 krones and the municipality that owns it invested 1.2 million to bring it back in operation. In 2004 BGT again invested 250,000 into NTB. Its revenue in 2005 was 10.3 million and in 2006 20.1. A profit of 2.8 million.
+  It transported 2,841 8in 2006. In 2007 it nought a new hanger at Nortodden, which included new arrival and departure areas. In 2007 it also got its first jet, a Cessna CitationJet CJ2. " />
+   </profile>
+    <info real="True" from="1999" to="2199" />
+       <prefereds aircrafts="Beechcraft King Air B200,Cessna 441 Conquest II,Cessna 421 Golden Eagle,Cessna CitationJet CJ2"></prefereds>
+
+     <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="2" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Cessna 421 Golden Eagle" early="1" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Cessna 441 Conquest II" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ2" early="1" late="1"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="BGO" destination2="NTB" type="Regular" opened="2000" closed="2199"  />
+		 <route destination1="KSU" destination2="NTB" type="Regular" opened="2002" closed="2003"  />
+              </routes>
+</airline>

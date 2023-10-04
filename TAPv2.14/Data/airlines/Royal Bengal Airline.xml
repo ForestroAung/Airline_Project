@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Royal Bengal Airline" iata="RRY" color="Gold" area="226" CEO="A.K. Choudhury" mentality="Safe" market="Domestic" preferedairport="DAC"> 
+  <narrative narrative="Royal Bengal Airline operated from January 31st,2008 to sometime around October 2009. It was based at Dhaka,Bangladesh and flew domestic routes to Chittagong,Cox's Bazar and
+  Sylhet. Sylhet had been operated for awhile but the route was cut sometime in early 2009 and Cox's Bazar was started. It had one Bombardier Dash 8-100 its whole life that was delivered before the airline
+  began flying in October 2007 from Cirrus Airlines,which seated 37 passengers. The airline itself was owned by a British company based in London, and its owners were British born and living in Sylhet. It had planned on getting planes that
+  could fly between Bangladesh and the UK." />
+</profile>
+   <info real="True" from="2008" to="2010"></info>
+   <prefereds aircrafts="Bombardier Dash 8-100"></prefereds>
+       
+  <routes>
+    <route destination1="DAC" destination2="CGP" opened="2008" closed="2010"/>
+    <route destination1="DAC" destination2="CXB" opened="2009" closed="2010"/>
+    <route destination1="DAC" destination2="ZYL" opened="2008" closed="2009"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

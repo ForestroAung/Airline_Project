@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="EuroBelgian Airlines" iata="EBA"  color="Blue" area="112" CEO="Unknown" mentality="Moderate" market="Regional" preferedairport="BRU" schedule="Charter">
+  <narrative narrative="EuroBelgian Airlines was a leisure airline that operated Charter flights from Brussels Airport to European destinations. It was later taken over to form Virgin Express."/>
+   </profile>
+    <info real="True" from="1991" to="1996" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-300"></prefereds>
+	
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="9"></airliner>
+	     </airliners>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="0" late="5"></airliner>
+	     </airliners>
+	
+
+	       <routes>
+	       	<route destination1="BRU" destination2="NCE" />
+		<route destination1="BRU" destination2="CPH"  />
+		<route destination1="BRU" destination2="MUC"  />
+		<route destination1="BRU" destination2="BCN"  />
+		<route destination1="BRU" destination2="MAD"  />
+		<route destination1="BRU" destination2="GVA"  />
+		<route destination1="BRU" destination2="LIS"  />
+		<route destination1="BRU" destination2="FCO"  />
+		<route destination1="BRU" destination2="PMI"  />
+	        <route destination1="BRU" destination2="HAM" />
+		<route destination1="BRU" destination2="ATH"  />
+		<route destination1="BRU" destination2="MRS"  />
+		<route destination1="BRU" destination2="AGP"  />
+		<route destination1="BRU" destination2="VLC"  />
+		<route destination1="BRU" destination2="FAO"  />
+		<route destination1="BRU" destination2="PMO"  />
+		<route destination1="BRU" destination2="SXF"  />
+		<route destination1="BRU" destination2="BGY"  />
+		<route destination1="BRU" destination2="CTA"  />
+		<route destination1="BRU" destination2="NAP"  />
+		<route destination1="BRU" destination2="BRI"  />
+		<route destination1="BRU" destination2="MJV"  />
+		<route destination1="BRU" destination2="LHR"  />
+		<route destination1="BRU" destination2="LGW"  />
+		<route destination1="BRU" destination2="STN"  />
+		<route destination1="BRU" destination2="AMS"  />
+		<route destination1="BRU" destination2="ARN"  />
+		<route destination1="BRU" destination2="GOT"  />
+		<route destination1="BRU" destination2="SNN"  />
+		<route destination1="BRU" destination2="RTM"  />
+	
+              </routes>
+</airline>

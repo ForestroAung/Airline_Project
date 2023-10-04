@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eram Air" iata="IRY" color="Brown" area="205" CEO="Mohammad Ali Shafiei" mentality="Safe" market="Global" preferedairport="TBZ" schedule="Charter">
+  <narrative narrative="Eram Air was a charter airline based at Tabriz,Iran from December 2005 until 2013. It operated domestic to Tehran,Kish Island and Mashhad and international to Izmir,Turkey and
+  Damascus,Syria. At June 2012 it had three wet leased MD-82's. It also used at least one Tupolev Tu-154M in its earlier years. The MD-82 entered its fleet in 2008."/>
+</profile>
+  <info real="True" from="2005" to="2013" />
+  <prefereds aircrafts="MD-82 (DC-9-82),Tupolev Tu-154M"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2008) late (2012)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="3" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2009)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="3" late="0"></airliner>
+	     </airliners>
+	                      <routes>
+                <route destination1="TBZ" destination2="THR"   />
+		<route destination1="TBZ" destination2="KIH" />
+		<route destination1="TBZ" destination2="MHD"  />
+		<route destination1="TBZ" destination2="ADB"   />
+                <route destination1="TBZ" destination2="DAM"  />
+	        </routes>
+
+
+
+
+</airline>

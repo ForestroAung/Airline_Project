@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ethiopian Airlines Cargo" iata="ETH" logo="ET"  color="Gold" area="352" CEO="Addisu Legesse" mentality="Safe" market="Global" preferedairport="ADD" routefocus="Cargo" schedule="Business"> 
+  <narrative narrative="Ethiopian Airlines Cargo is the cargo division of Ethiopian Airlines and is also based at Addis Ababa. It was serving about 30 destinations as of early 2015 including African,European and Asian places. Such as Brussels,Luxembourg,Liege in Belgium,and Maastricht in Germany for Europe. In Asia, Hong Kong,Delhi and Mumbai and Chennai in India,Shanghai Pudong in China,and Jeddah in Saudia Arabia. At January 2015 its fleet was five 777F's,two MD-11F's and two 757-200's. It has another 777F on order." />
+</profile>
+   <info real="True" from="1945" to="2199"></info>
+   <prefereds aircrafts="Boeing 777F,MD-11F,Boeing 757-200PF"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2017)-->
+	         <airliners>
+	    <airliner type="Boeing 777F" early="2" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200PF" early="2" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-11F" early="1" late="2"></airliner>
+	     </airliners>
+<routes>
+                <route destination1="ADD" destination2="LGG" />
+                <route destination1="ADD" destination2="BOM" />
+		<route destination1="ADD" destination2="JNB"   />
+		<route destination1="ADD" destination2="LOS" />
+	        <route destination1="ADD" destination2="DWC" />
+		<route destination1="ADD" destination2="DXB" />
+		<route destination1="ADD" destination2="CAI" />
+		<route destination1="ADD" destination2="LUX" />
+		<route destination1="ADD" destination2="BZV" />
+		<route destination1="ADD" destination2="ACC" />
+		<route destination1="ADD" destination2="PVG" />
+	        <route destination1="ADD" destination2="JUB" />
+		<route destination1="ADD" destination2="KAN" />
+		<route destination1="ADD" destination2="LUN" />
+		<route destination1="ADD" destination2="LLW" />
+		<route destination1="ADD" destination2="BEY" />
+		<route destination1="ADD" destination2="LFW" />
+		<route destination1="ADD" destination2="JED" />
+		<route destination1="ADD" destination2="RUH" />
+		<route destination1="ADD" destination2="FIH" />
+		<route destination1="ADD" destination2="BJM" />
+         	<route destination1="ADD" destination2="BLR" />
+		<route destination1="ADD" destination2="DEL" />
+		<route destination1="ADD" destination2="KGL" />
+		<route destination1="ADD" destination2="MST" />
+		<route destination1="ADD" destination2="KRT" />
+		<route destination1="ADD" destination2="NBO" />
+		<route destination1="ADD" destination2="PNR" />
+		<route destination1="ADD" destination2="HKG" />
+		<route destination1="ADD" destination2="MAA" />
+		<route destination1="ADD" destination2="BRU" />
+		<route destination1="PNR" destination2="LUX" />
+        </routes>
+ 
+
+
+</airline>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="DBA" iata="BAG" color="YellowGreen" area="108" CEO="Carl Michel" mentality="Moderate" market="Regional" preferedairport="MUC"> 
+  <narrative narrative="DBA was an airline based in Germany that operated from 1992 to November 30th,2008 when it was dissolved into its parent Air Berlin. The airline began service in June 1992 as a subsidiary of British Airways,DBA being short for Deutshe BA,with its hub being Munich and another at Berlin Tegel. BA had bought 49% of a small airline named Delta Air and renamed it. In April 1997 it became the complete owner of DBA. BA used the airline
+  to feed passengers between Germany and London Gatwick and to serve domestic German routes. BA sold DBA in June 2003 to a company called Intro Verwaltungsgesellschaft for 1 Euro. Part of the deal was BA would invest 25 million Pounds into the airline and let the new owner use its planes for a year and that BA would get 25% of DBA profits until June 2006. In March 2005 dba bought rival German airline Germania Express creating the third largest German airline and recieved its routes and 14 Fokker 100 planes which were phased out in the following year. At 2002 DBA had 18 Boeing 737-300;s and at 2005 it had grown to 29. DBA also announced its first profit ever since its creation in 2005, making between 1 and 2 million Euros. It had flown 3 million passengers that year and had 660 employees. 
+  In February 2006 it bought 60% of the airline LTU whoses bases were Dusseldorf and Munich. DBA would focus on domestic routes and LTU would focus on international ones. Places the LTU subsidiary served were Paris-Orly and Nice,France. Zurich,Switzerland. Madrid,Palma de Mallorca,Alicante,Malaga,Barcelona,Valencia,Seville and Bilbao,Spain Lisbon,Portugal Copenhagen,Denmark Budapest,Hungary Rome,Rimini,Bergamo and Catania,
+  Italy Vienna,Austria Helsinki,Finland  London,Manchester,Belfast and Glasgow,UK and in Russia it served Moscow and St. Petersburg. Domestic airports DBA served besides the two bases were Frankfurt,Dusseldorf,Stuttgart,Cologne,Nuremburg,Baden Baden,Hanover,Dresden,Leipzig,Munster,Bremen,Hamburg, and Dortmund. In August 2006 Air Berlin bought 100% of DBA including LTU. On November 30th,2008 DBA ceased using its own name and its fleet and
+  assets were all merged into Air Berlin permanently." />
+</profile>
+   <info real="True" from="1992" to="2009"></info>
+   <prefereds aircrafts="Boeing 737-300"></prefereds>
+         <focusairports>
+    <focusairport airport="TXL"></focusairport>
+  </focusairports>
+    <routes>
+    <route destination1="TXL" destination2="LGW"/>
+    <route destination1="MUC" destination2="LGW"/>
+    <route destination1="TXL" destination2="FRA"/>
+    <route destination1="TXL" destination2="DUS"/>
+    <route destination1="TXL" destination2="MUC"/>
+    <route destination1="TXL" destination2="STR"/>
+    <route destination1="TXL" destination2="CGN"/>
+    <route destination1="TXL" destination2="NUE"/>
+    <route destination1="TXL" destination2="FKB"/>
+    <route destination1="MUC" destination2="DUS"/>
+    <route destination1="MUC" destination2="CGN"/>
+    <route destination1="MUC" destination2="HAM"/>
+  </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="18" late="29"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Fokker 100" early="5" late="14"></airliner>
+	     </airliners>
+  </airline>

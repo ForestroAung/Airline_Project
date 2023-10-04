@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Korean Air" iata="KE" color="RoyalBlue" area="219" CEO="Cho Yangho" mentality="Aggressive"
+           market="Global" preferedairport="ICN">
+            <narrative
+      narrative="Korean Air is both the flag carrier and the largest airline of South Korea, with global headquarters located in Gonghang-dong, Gangseo-gu, Seoul, South Korea. Korean Air's international passenger division and related subsidiary cargo division together serve 130 cities in 45 countries, while its domestic division serves 20 destinations. It is among the top 20 airlines in the world in terms of passengers carried and is also the top-ranked international cargo airline. Incheon International Airport serves as Korean Air's international hub. Korean Air also maintains a satellite headquarters campus at Incheon.." />
+  </profile>
+     <info real="True" from="1962" to="2199"></info>
+  <prefereds aircrafts="Airbus A330-200,Airbus A330-300,Airbus A380-800,Boeing 737-800,Boeing 737-900,Boeing 747-400,Boeing 747-8I,Boeing 777-200ER,Boeing 777-300,Boeing 777-300,Boeing 777-300ER,Boeing 787-8">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="ICN"></focusairport>
+    <focusairport airport="GMP"></focusairport>
+    <focusairport airport="CJU"></focusairport>
+    <focusairport airport="PUS"></focusairport>
+    <focusairport airport="LAX"></focusairport>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-200" early="4" late="8"></airliner>
+      <airliner type="Airbus A330-300" early="10" late="11"></airliner>
+      <airliner type="Airbus A380-800" early="5" late="5"></airliner>
+      <airliner type="Boeing 737-800" early="14" late="9"></airliner>
+      <airliner type="Boeing 737-900" early="8" late="8"></airliner>
+      <airliner type="Boeing 747-400" early="5" late="8"></airliner>
+      <airliner type="Boeing 747-8I" early="2" late="0"></airliner>
+      <airliner type="Boeing 777-200ER" early="8" late="8"></airliner>
+      <airliner type="Boeing 777-300" early="2" late="2"></airliner>
+      <airliner type="Boeing 777-300ER" early="8" late="8"></airliner>
+      <airliner type="Boeing 787-8" early="0" late="3"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="ICN" destination2="AXT"/>
+      <route destination1="ICN" destination2="AMS"/>
+      <route destination1="ICN" destination2="AOJ"/>
+      <route destination1="ICN" destination2="ATL" airliner="Airbus A380-800"/>
+      <route destination1="ICN" destination2="BKK" airliner="Airbus A380-800"/>
+      <route destination1="ICN" destination2="PER"/>
+      <route destination1="ICN" destination2="BNE"/>
+      <route destination1="ICN" destination2="PUS"/>
+      <route destination1="ICN" destination2="CEB" airliner="Boeing 737-800"/>
+      <route destination1="ICN" destination2="CSX"/>
+      <route destination1="ICN" destination2="CNX"/>
+      <route destination1="ICN" destination2="ORD" airliner="Airbus A380-800"/>
+      <route destination1="ICN" destination2="CMB"/>
+      <route destination1="ICN" destination2="DAN"/>
+      <route destination1="ICN" destination2="TAE"/>
+      <route destination1="ICN" destination2="DLC"/>
+      <route destination1="ICN" destination2="DFW"/>
+      <route destination1="ICN" destination2="DPS"/>
+      <route destination1="ICN" destination2="DXB"/>
+      <route destination1="ICN" destination2="FRA"/>
+      <route destination1="ICN" destination2="FUK"/>
+      <route destination1="ICN" destination2="GUM"/>
+      <route destination1="ICN" destination2="CAN"/>
+      <route destination1="ICN" destination2="HKD"/>
+      <route destination1="ICN" destination2="HAN"/>
+      <route destination1="ICN" destination2="HFE"/>
+      <route destination1="ICN" destination2="SGN"/>
+      <route destination1="ICN" destination2="HKG"/>
+      <route destination1="ICN" destination2="HNL"/>
+      <route destination1="ICN" destination2="IAH"/>
+      <route destination1="ICN" destination2="TXN"/>
+      <route destination1="ICN" destination2="IKT"/>
+      <route destination1="ICN" destination2="IST"/>
+      <route destination1="ICN" destination2="CGK"/>
+      <route destination1="ICN" destination2="RUH" destination3="JED" airliner="Airbus A330-300"/>
+      <route destination1="ICN" destination2="CJU"/>
+      <route destination1="ICN" destination2="TNA"/>
+      <route destination1="ICN" destination2="KOJ"/>
+      <route destination1="ICN" destination2="KTM"/>
+      <route destination1="ICN" destination2="KMQ"/>
+      <route destination1="ICN" destination2="ROR"/>
+      <route destination1="ICN" destination2="BKI"/>
+      <route destination1="ICN" destination2="KUL"/>
+      <route destination1="ICN" destination2="KMG"/>
+      <route destination1="ICN" destination2="LAS"/>
+      <route destination1="ICN" destination2="LHR" airliner= "Airbus A380-800"/>
+      <route destination1="ICN" destination2="LAX"/>
+      <route destination1="ICN" destination2="LAX" destination3="GRU"/>
+      <route destination1="ICN" destination2="MAD"/>
+      <route destination1="ICN" destination2="MLE"/>
+      <route destination1="ICN" destination2="MNL"/>
+      <route destination1="ICN" destination2="MXP"/>
+      <route destination1="ICN" destination2="SVO"/>
+      <route destination1="ICN" destination2="BOM"/>
+      <route destination1="ICN" destination2="NAN"/>
+      <route destination1="ICN" destination2="NGO"/>
+      <route destination1="ICN" destination2="NNG"/>
+      <route destination1="ICN" destination2="JFK" airliner="Airbus A380-800"/>
+      <route destination1="ICN" destination2="CRX"/>
+      <route destination1="ICN" destination2="KIJ"/>
+      <route destination1="ICN" destination2="OIT"/>
+      <route destination1="ICN" destination2="OKJ"/>
+      <route destination1="ICN" destination2="KIX"/>
+      <route destination1="ICN" destination2="CDG" airliner="Airbus A380-800"/>\
+      <route destination1="ICN" destination2="PNH"/>
+      <route destination1="ICN" destination2="HKT"/>
+      <route destination1="ICN" destination2="PRG"/>
+      <route destination1="ICN" destination2="TAO"/>
+      <route destination1="ICN" destination2="FCO"/>
+      <route destination1="ICN" destination2="SFO"/>
+      <route destination1="ICN" destination2="CTS"/>
+      <route destination1="ICN" destination2="SEA"/>
+      <route destination1="ICN" destination2="PVG"/>
+      <route destination1="ICN" destination2="SHE"/>
+      <route destination1="ICN" destination2="SZX"/>
+      <route destination1="ICN" destination2="REP"/>
+      <route destination1="ICN" destination2="SIN"/>
+      <route destination1="ICN" destination2="SYD" airliner="Airbus A380-800"/>
+      <route destination1="ICN" destination2="TPE"/>
+      <route destination1="ICN" destination2="TAS"/>
+      <route destination1="ICN" destination2="TLV"/>
+      <route destination1="ICN" destination2="TSN"/>
+      <route destination1="ICN" destination2="HND"/>
+      <route destination1="ICN" destination2="NRT"/>
+      <route destination1="ICN" destination2="YYZ"/>
+      <route destination1="ICN" destination2="ULN"/>
+      <route destination1="ICN" destination2="YVR"/>
+      <route destination1="ICN" destination2="VIE"/>
+      <route destination1="ICN" destination2="VVO"/>
+      <route destination1="ICN" destination2="IAD"/>
+      <route destination1="ICN" destination2="WEH"/>
+      <route destination1="ICN" destination2="WUH"/>
+      <route destination1="ICN" destination2="XIY"/>
+      <route destination1="ICN" destination2="XMN"/>
+      <route destination1="ICN" destination2="RGN"/>
+      <route destination1="ICN" destination2="YNJ"/>
+      <route destination1="ICN" destination2="CGO"/>
+      <route destination1="ICN" destination2="ZRH"/>
+      <route destination1="PUS" destination2="BKK"/>
+      <route destination1="PUS" destination2="PEK"/>
+      <route destination1="PUS" destination2="CEB"/>
+      <route destination1="PUS" destination2="FUK"/>
+      <route destination1="PUS" destination2="GUM"/>
+      <route destination1="PUS" destination2="HKG"/>
+      <route destination1="PUS" destination2="NGO"/>
+      <route destination1="PUS" destination2="NKG"/>
+      <route destination1="PUS" destination2="KIX"/>
+      <route destination1="PUS" destination2="TAO"/>
+      <route destination1="PUS" destination2="PVG"/>
+      <route destination1="PUS" destination2="NRT"/>
+      <route destination1="GMP" destination2="PUS"/>
+      <route destination1="GMP" destination2="KWE"/>
+      <route destination1="GMP" destination2="CJU"/>
+      <route destination1="GMP" destination2="KPO"/>
+      <route destination1="GMP" destination2="HIN"/>
+      <route destination1="GMP" destination2="USN"/>
+      <route destination1="GMP" destination2="RSU"/>
+      <route destination1="GMP" destination2="PEK"/>
+      <route destination1="GMP" destination2="KIX"/>
+      <route destination1="GMP" destination2="SHA"/>
+      <route destination1="GMP" destination2="HND"/>
+      <route destination1="CJU" destination2="PUS"/>
+      <route destination1="CJU" destination2="CJJ"/>
+      <route destination1="CJU" destination2="TAE"/>
+      <route destination1="CJU" destination2="KUV"/>
+      <route destination1="CJU" destination2="KWJ"/>
+      <route destination1="CJU" destination2="HIN"/>
+      <route destination1="CJU" destination2="WJU"/>
+      <route destination1="CJU" destination2="RSU"/>
+      <route destination1="CJU" destination2="PEK"/>
+      <route destination1="CJU" destination2="KWI"/>
+      <route destination1="CJU" destination2="KIX"/>
+      <route destination1="CJU" destination2="NRT"/>
+    </routes>
+  </startdata>
+</airline>

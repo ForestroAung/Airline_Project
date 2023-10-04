@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Lockheed JetStar-->
+<configuration type="Lockheed JetStar" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="380" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed Air Express-->
+<configuration type="Lockheed Air Express" economy="0" premium="0" first="-1" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed Constellation-->
+<configuration type="Lockheed L-049 Constellation" economy="0" premium="0" first="-1" business="0" exitrows="1185" emergencyrows="-1" toiletrows="180,1185" kitchenrows="180,1185">
+<seats>
+<seat class="First_Class" type="Standard" pitch="84.6" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-649 Constellation" economy="0" premium="0" first="-1" business="0" exitrows="1185" emergencyrows="-1" toiletrows="180,1185" kitchenrows="180,1185">
+<seats>
+<seat class="First_Class" type="Standard" pitch="84.6" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-749 Constellation" economy="0" premium="0" first="-1" business="0" exitrows="1185" emergencyrows="-1" toiletrows="180,1185" kitchenrows="180,1185">
+<seats>
+<seat class="First_Class" type="Standard" pitch="84.6" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-1049 Super Constellation" economy="0" premium="0" first="-1" business="0" exitrows="0,1630" emergencyrows="-1" toiletrows="428,1630" kitchenrows="428,1630">
+<seats>
+<seat class="First_Class" type="Standard" pitch="85.7" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-1649 Starliner" economy="0" premium="0" first="-1" business="0" exitrows="0,1151" emergencyrows="740,822" toiletrows="247,1480" kitchenrows="1151">
+<seats>
+<seat class="First_Class" type="Standard" pitch="82.2" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed Electra-->
+<configuration type="Lockheed Model 10 Electra" economy="0" premium="0" first="-1" business="0" exitrows="360" emergencyrows="-1" toiletrows="360" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed Model 12 Electra Junior" economy="0" premium="0" first="-1" business="0" exitrows="220" emergencyrows="-1" toiletrows="220" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.3" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed Model 14 Super Electra" economy="0" premium="0" first="-1" business="0" exitrows="515" emergencyrows="-1" toiletrows="515" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="85.8" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed Model 18 Lodestar" economy="0" premium="0" first="-1" business="0" exitrows="650" emergencyrows="-1" toiletrows="650" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="81.2" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed L-188-->
+<configuration type="Lockheed L-188A" economy="-1" premium="0" first="3" business="0" exitrows="270,1545" emergencyrows="780,865,1800" toiletrows="270,1800" kitchenrows="1545">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="85" width="49"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed Orion-->
+<configuration type="Lockheed Model 9 Orion" economy="0" premium="0" first="-1" business="0" exitrows="220" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.3" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed L-1011-->
+<configuration type="Lockheed L-1011-1" economy="-1" premium="0" first="6" business="0" exitrows="0,1525,3700" emergencyrows="2975" toiletrows="0,3700" kitchenrows="0,1525,3700">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="120" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-1011-100" economy="-1" premium="0" first="6" business="0" exitrows="0,1525,3700" emergencyrows="2975" toiletrows="0,3700" kitchenrows="0,1525,3700">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="120" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-1011-200" economy="-1" premium="0" first="6" business="0" exitrows="0,1525,3700" emergencyrows="2975" toiletrows="0,1525,3700" kitchenrows="0,1525,3700">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="120" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed L-1011-500" economy="-1" premium="0" first="6" business="5" exitrows="0,3295" emergencyrows="720" toiletrows="0,720,1195,3295" kitchenrows="0,720,3295">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="95" width="59"></seat>
+<seat class="First_Class" type="Recliner" pitch="120" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Lockheed Vega-->
+<configuration type="Lockheed Vega 1" economy="0" premium="0" first="-1" business="0" exitrows="73" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Lockheed Vega 5" economy="0" premium="0" first="-1" business="0" exitrows="73" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="50.8"></seat>
+</seats>
+</configuration>
+</configurations>

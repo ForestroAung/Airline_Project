@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Genex" iata="GNX" color="MidnightBlue" area="169" CEO="Yasha Zolnerowich" mentality="Safe" market="Regional" preferedairport="MSQ" routefocus="Cargo">
+  <narrative narrative="Genex is a cargo airline based at Minsk,Belarus. At July 2015 it was going from Minsk to Warsaw,Poland Prague,Czech Republic and Belgrade,Serbia. It had two Antonov 26's. It was founded in 1997 as a customs agent
+  and transport expediting enterprise in both the aircraft field and automobile. It started international cargo flights in 2006. "/>
+</profile>
+  <info real="True" from="2006" to="2199" />
+  <prefereds aircrafts="Antonov An-26"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="MSQ" destination2="WAW"/>
+	          <route destination1="MSQ" destination2="PRG"/>
+		  <route destination1="MSQ" destination2="BEG"/>
+        </routes>
+</airline>

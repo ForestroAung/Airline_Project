@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeroquetzal" iata="AQZ" color="Green" area="404" CEO="Fernando Garcia" mentality="Safe" market="Regional" preferedairport="GUA">
+  <narrative narrative="Aeroquetzal was an airline that only operated from 1991 until 1992. Its base was Guatemala City. It flew domestic to Flores, its most important route as is common with Gutemalan airlines, and also flew international
+  to Cancun,Mexico and Los Angeles,USA. It was the first Guatemalan airline besides Aviateca to serve scheduled passenger flights to Los Angeles. Its fleet was made of one DC-9-15,a leased A320-200 and a Convair 580."/>
+</profile>
+  <info real="True" from="1991" to="1992" />
+  <prefereds aircrafts="Douglas DC-9-15,Airbus A320-200"></prefereds>
+    <focusairports>
+		 <focusairport airport="FRS"></focusairport>
+					      </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-15" early="1" late="0"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="0"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	         <airliners>
+	    <airliner type="Convair 240" early="1" late="0"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="GUA" destination2="FRS"   />
+		<route destination1="GUA" destination2="CUN" />
+		<route destination1="GUA" destination2="LAX" />
+	        </routes>
+
+</airline>

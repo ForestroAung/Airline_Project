@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Viking-->
+<!--DHC-2-->
+<configuration type="DHC-2T Turbo Beaver" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77" width="49"></seat>
+</seats>
+</configuration>
+
+<!--DHC-6-->
+<configuration type="DHC-6-400 Twin Otter" economy="-1" premium="0" first="0" business="0" exitrows="520" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

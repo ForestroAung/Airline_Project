@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Brava Linhas Aereas" iata="NHG" color="Gold" area="431" CEO="Jorge Barouki" mentality="Safe" market="Domestic" preferedairport="POA">
+  <narrative narrative="Brava Linhas Aereas is based at Porto Alegre in southern Brazil. It began in 2006 as NHT Linhas Aereas and changed its name in 2013. At July 2015 it was going from Porto Alegre to Pelotas about 220km
+  southwest of Porto Alegre and Rio Grande which is about 250km southwest of Porto Alegre. Each route is done on behalf of TAM Airlines. At February 2014 it had two Let 410's and an Embraer Brasilia. The Brasilia entered the fleet
+  in 2013 and the 410 has been used since the start. It served 19 other domestic airports at one time or another."/>
+      <names>
+<name value="NHT Linhas Aereas" from="1.1.2006 00:00:00"></name>
+<name value="Brava Linhas Aereas" from="1.1.2013 00:00:00"></name>
+</names>
+<logos>
+      <logo from="2006" to="2013" path="NHG2006-2013"></logo>
+    </logos>
+</profile>
+  <info real="True" from="2006" to="2199" />
+  <prefereds aircrafts="Let L-410,EMB 120 Brasilia"></prefereds>
+        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="2" late="2"></airliner>
+	     </airliners>  
+	             <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="2" late="2"></airliner>
+	     </airliners> 
+               <routes>
+	       	  <route destination1="POA" destination2="RIG"/>
+		  <route destination1="POA" destination2="PET"/>
+		 		        </routes>
+
+
+
+
+</airline>

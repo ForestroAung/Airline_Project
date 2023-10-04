@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Euroberlin" iata="EBR" color="RoyalBlue" area="108" CEO="Pierre Francois Riolacci" mentality="Moderate" market="Domestic" preferedairport="TXL"> 
+  <narrative narrative="Euroberlin France, or also known as just Euroberlin, was a domestic German airline that was a joint venture between Air France and the German flag carrier of Lufthansa. Its base when it was founded was Berlin Tegel which was the airport serving the part of Berlin that was part of West Germany. It remained at this base its whole life,
+  but would see the transitian of Germany and the city of Berlin back to being united as one country. The airline began flying in November 1988 with Boeing 737-300s leased from the English carrier Monarch Airlines, as well as wet leasing pilots and maintenance facilities from Monarch. Local flight attendants and managers were hired but most other functions were also outsourced.
+  Its initual destinations were to Cologne/Bonn,Frankfurt,Munich and Stuttgart all in West Germany. In 1989 it would add a fifth leased 737-300 and add Dusseldorf and Hamburg,West Germany. It also began offering charter service. In 1990 it had seven 737-300's. It had also grown at this point to be the third largest carrier based at Berlin Tegel. In October 1990 Germany reunified.
+  To start Air France had owned 51% of the airline and Lufthansa 49%, after reunification Lufthansa recieved the other 1% to make it equally owned by both of them and getting rid of the France part of its name. In the Winter of 1990/91 it leased three more 737-300s making it a fleet of 10. Lufthansas continued having Euroberlin fly some routes for it but gradually began takinf over Euroberlin, replacing
+  Euroberlin aircraft and employees with Lufthansa's own. In December 1994 Euroberlin was shutdown and the remaining three planes were given back to Monarch." />
+  <names>
+<name value="Euroberlin France" from="1.1.1988 00:00:00"></name>
+<name value="Euroberlin" from="10.3.1990 00:00:00"></name>
+</names>
+</profile>
+   <info real="True" from="1988" to="1995"></info>
+   <prefereds aircrafts="Boeing 737-300"></prefereds>
+  <routes>
+    <route destination1="TXL" destination2="CGN" opened="1988" closed="2199"/>
+    <route destination1="TXL" destination2="FRA"  opened="1988" closed="2199"/>
+    <route destination1="TXL" destination2="MUC" opened="1988" closed="2199"/>
+    <route destination1="TXL" destination2="STR" opened="1988" closed="2199"/>
+    <route destination1="TXL" destination2="DUS" opened="1989" closed="2199"/>
+    <route destination1="TXL" destination2="HAM" opened="1989" closed="2199"/>
+  </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1990)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="10"></airliner>
+	     </airliners>
+  </airline>

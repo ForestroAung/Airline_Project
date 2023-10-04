@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Buffalo Airways" iata="J4" color="Green" area="400" CEO="Joe McBryan" mentality="Moderate" market="Local" preferedairport="YZF" routefocus="Mixed"> 
+  <narrative narrative="Buffalo Airways is a mixed passenger and cargo airline based at Yellowknife,Northwest Territories with another base at Hay River which is 194 kilometers across the Great Slave Lake from Yellowknife Airport. Hay River being on the south shore.
+  That is also its passenger route. The airlines main cargo routes are from Yellowknife to Deline,Fort Good Hope,Norman Wells,and Tulita all in the NT also. The airline also has a maintenance and storage base at Red Deer,Alberta. It was founded in 1970. It also does charters. It has an aviation school which
+  offers an aircraft maintenance engineer program among several others. The school has several small prop planes and some helicopters. At January 2014 it had ten DC-3's,thirteen C-54's,two C-47's,six Lockheed L-188's,three
+  C-46 Commando's for cargo,a Convair 240,eight CL-215 waterbombers for fighting fires,four Beechcraft King Air's,three Beechcraft Travel Airs,two Beechcraft Baron's,a Cessna 185,a Cessna 310,a DC-6,an Aero Commander 500 and a Noorduyn Norseman. Some of the L-188's are also
+  being converted to be waterbombers. The airline was the subject of the History Channel show Ice Pilots NWT. It has become famous for its old WW2 planes that are still in use and that are in great shape still." />
+</profile>
+   <info real="True" from="1970" to="2199"></info>
+   <prefereds aircrafts="Douglas DC-3,C-54 Skymaster,Lockheed L-188A,Commando C-46 Cargo,Convair 240,Douglas DC-6B"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="YHY"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Douglas DC-3" early="10" late="12"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="C-54 Skymaster" early="0" late="13"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Commando C-46 Cargo" early="3" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Douglas DC-6B" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Lockheed L-188A" early="0" late="6"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Convair 240" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Aero Commander 500/600" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Noorduyn Norseman" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 310" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 185 Skywagon" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft King Air 90" early="0" late="4"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft Travel Air" early="0" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft Baron 58" early="0" late="2"></airliner>
+	     </airliners>
+
+<routes>
+       	        <route destination1="YZF" destination2="YHY" opened="1970" closed="2199" routefocus="Passenger"/>
+	        <route destination1="YZF" destination2="YWJ" opened="1970" closed="2199" routefocus="Cargo"/>
+	        <route destination1="YZF" destination2="YGH" opened="1970" closed="2199" routefocus="Cargo"/>
+	        <route destination1="YZF" destination2="YVQ" opened="1970" closed="2199" routefocus="Cargo"/>
+	        <route destination1="YZF" destination2="ZFN" opened="1970" closed="2199" routefocus="Cargo"/>
+
+        </routes>
+  
+
+
+</airline>

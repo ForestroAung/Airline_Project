@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Wimbi Dira Airways" iata="9C" logo="9C2" color="RoyalBlue" area="358" CEO="David Mavinga" mentality="Moderate" market="Domestic"  preferedairport="FIH" routefocus="Mixed">
+  <narrative narrative="Wimbi Dira Airways was a domestic airline for the Democratic Republic of the Congo that flew from August 2003 to late 2011 or early 2012. It did passengers and cargo. Its hub was Kinshasa's N'djili Airport. At the end it was serving 11 other domestic airports.
+  Its fleet consisted of four 707-300 cargo variants,four DC-9's,three Antonov 12's,a 727,a DC-3,and an MD-83." />
+</profile>
+   <info real="True" from="2003" to="2012"></info>
+  <prefereds aircrafts="Boeing 707-320C,Douglas DC-9-30,Antonov An-12 Passenger,Antonov An-12 Cargo,Douglas DC-3,Boeing 727-200 Adv.,MD-83 (DC-9-83)"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 707-320C" early="4" late="4"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="4" late="4"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Passenger" early="3" late="3"></airliner>
+	     </airliners>
+
+	         	      <routes>  
+	    <route destination1="FIH" destination2="GOM"/>
+	    <route destination1="FIH" destination2="FBM"/>
+	    <route destination1="FIH" destination2="FMI"/>
+	    <route destination1="FIH" destination2="IRP"/>
+	    <route destination1="FIH" destination2="KGA"/>
+	    <route destination1="FIH" destination2="FKI"/>
+	    <route destination1="FIH" destination2="GMA"/>
+	    <route destination1="FIH" destination2="KND"/>
+	    <route destination1="FIH" destination2="MJM"/>
+	    <route destination1="FIH" destination2="MDK"/>
+	    <route destination1="FIH" destination2="BDT"/>
+                   </routes>
+
+</airline>

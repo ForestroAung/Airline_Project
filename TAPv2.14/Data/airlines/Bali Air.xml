@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Bali Air" iata="BLN" color="Purple" area="246" CEO="Jarry Albert Sumendap" mentality="Moderate" market="Local" preferedairport="CGK">
+  <narrative narrative="Bali Air was around from 1973 to 2006. It was a subsidiary of Bouraq Indonesia Airlines its whole life, except its last year after Bouraq ceased operation in 2005. Bouraq had started in 1970.
+  Bali Air made its base at Jakarta on the island of Java and not on the island of Bali at Denpensar like its name may suggest. It did operate there however. It operated at 8 domestic airports, at least near the end.
+  It's fleet at the end was four 737-200's and four Hawker 748's." />
+  <airports>
+<airport  preferedairport="HLP" date="1.01.1973 00:00:00"></airport>
+<airport   preferedairport="CGK" date="5.01.1985 00:00:00"></airport>
+</airports>
+ </profile>
+    <info real="True" from="1973" to="2006" />
+       <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-200,HS.748"></prefereds>
+<focusairports>
+                 <focusairport airport="DPS"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="4"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1973) late (2005)-->
+	     	         <airliners>
+	    <airliner type="HS.748" early="4" late="4"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="CGK" destination2="DPS" opened="1985" closed="2199" />	
+	    <route destination1="HLP" destination2="DPS" opened="1973" closed="1986" />	
+            <route destination1="DPS" destination2="BPN" />	
+	    <route destination1="CGK" destination2="BTH" opened="1985" closed="2199" />	
+	    <route destination1="HLP" destination2="BTH" opened="1973" closed="1986" />
+            <route destination1="BPN" destination2="BDJ"  />
+	    <route destination1="CGK" destination2="PKN" opened="1985" closed="2199" />	
+	    <route destination1="HLP" destination2="PKN" opened="1973" closed="1986" />
+	   <route destination1="CGK" destination2="PGK" opened="1985" closed="2199" />	
+	    <route destination1="HLP" destination2="PGK" opened="1973" closed="1986" />
+
+              </routes>
+</airline>

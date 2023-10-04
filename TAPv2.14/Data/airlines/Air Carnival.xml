@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Carnival" iata="ACV"  color="HotPink" area="224" CEO="Manish Kumar Singh" mentality="Safe" market="Domestic" preferedairport="MAA"> 
+  <narrative narrative="Air Carnival is an Indian airline that started flying in July 2016. Its hub is Chennai and it has another base at Coimbatore. It only charged the equal value
+  of 1 and a half cents for its first flight between its two bases. Besides the route between its bases it flies the routes of Chennai-Madurai,Chennai-Tiruchirapalli,and Coimbatore-Madurai.
+  At September 2016 it had one ATR 72-500." />
+</profile>
+   <info real="True" from="2016" to="2017"></info>
+   <prefereds aircrafts="ATR 42-500,ATR 42-600"></prefereds>
+  <focusairports>
+        <focusairport airport="CJB"></focusairport>
+     </focusairports>
+<routes>
+          <route destination1="MAA" destination2="CJB"/>
+	        <route destination1="MAA" destination2="IXM"/>
+	        <route destination1="CJB" destination2="IXM"/>
+	        <route destination1="MAA" destination2="TRZ"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

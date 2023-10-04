@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Solenta Aviation" iata="SET" color="NavajoWhite" area="371" CEO="John Smith" mentality="Moderate" market="Global" onlyfromhome="False" preferedairport="JNB" routefocus="Cargo" schedule="Business"> 
+  <narrative narrative="Solenta Aviation is a cargo airline based at Johannesburg,South Africa. It has other bases at Libreville,Gabon Abidjan,Ivory Coast Nairobi,Kenya Hassi Messaoud,Algeria  Harare,Zimbabwe Accra,Ghana and Lome,Togo. The branches in Gabon,Ivory Coast,Kenya and Zimbabwe
+  are considered subsidiaries. Its Accra operations are for the oil and tourism industries doing passenger charters. It operates out of Erbil,Iraq for humanitarian aid. Conakry,Guinea is done for a mining company. It operates at Kabul,Afghanistan and Peshawar,Pakistan for the Red Cross. Its fleet is Twenty Beechcraft 1900's.
+  Four ATR 72's. Eight ATR 42's.Five Cessna 208's. Four Embraer ERJ 145's. And one Embraer ERJ 135. It was founded in 2002." />
+</profile>
+   <info real="True" from="2002" to="2199"></info>
+   <prefereds aircrafts="Beechcraft 1900D,Cessna 208B Super Cargomaster,ATR 72-500,ATR 72-600,ATR 42-300,Embraer ERJ145 LR,Embraer ERJ135 ER,ATR 42-500"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="LBV"></focusairport>
+		  <focusairport airport="NBO"></focusairport>
+		  <focusairport airport="HRE"></focusairport>
+		 <focusairport airport="ABJ"></focusairport>
+		  <focusairport airport="HME"></focusairport>
+		    <focusairport airport="LFW"></focusairport>
+		   <focusairport airport="ACC"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-500" early="1" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 42-300" early="3" late="8"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="6" late="20"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="2" late="4"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 208B Super Cargomaster" early="0" late="5"></airliner>
+	     </airliners>
+ 
+
+
+</airline>

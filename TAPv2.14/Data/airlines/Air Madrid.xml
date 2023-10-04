@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Madrid" iata="NM" color="RED" area="117" CEO="José Luis Carrillo" mentality="Safe" market="Global"
+           preferedairport="DRD">
+    <narrative
+      narrative="Air Madrid was a holiday airline headquartered in Madrid, operating services to Spain, Tenerife, Mexico, South America, Central America, Europe and Israel." />
+ 	</profile>
+  <info real="True" from="2003" to="2006" />
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A310-300" early="0" late="1"></airliner>
+      <airliner type="Airbus A319-100" early="0" late="2"></airliner>
+      <airliner type="Airbus A330-200" early="2" late="3"></airliner>
+      <airliner type="Airbus A330-300" early="0" late="2"></airliner>
+      <airliner type="Airbus A340-300" early="0" late="1"></airliner>
+    </airliners>
+  </startdata>
+</airline>

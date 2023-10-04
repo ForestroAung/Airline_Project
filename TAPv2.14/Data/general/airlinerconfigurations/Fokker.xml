@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Fokker 100-->
+<configuration type="Fokker 70" economy="-1" premium="0" first="0" business="5" exitrows="0" emergencyrows="801" toiletrows="0,1260" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.3" width="49"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="84" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker 100" economy="-1" premium="0" first="0" business="10" exitrows="0" emergencyrows="-1" toiletrows="0,1825" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.7" width="49"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="84" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Fokker F.V-->
+<configuration type="Fokker F.V" economy="0" premium="0" first="-1" business="0" exitrows="290" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72.5" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F.VII" economy="0" premium="0" first="-1" business="0" exitrows="290" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72.5" width="55"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F.VIII" economy="0" premium="0" first="-1" business="0" exitrows="360" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F.10" economy="0" premium="0" first="-1" business="0" exitrows="360" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Fokker F27-->
+<configuration type="Fokker F27" economy="-1" premium="0" first="0" business="0" exitrows="0,825" emergencyrows="600" toiletrows="825" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker 50" economy="-1" premium="0" first="0" business="0" exitrows="0,1110" emergencyrows="-1" toiletrows="0" kitchenrows="1110">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Fokker F28-->
+<configuration type="Fokker F28-1000" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="518" toiletrows="815" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F28-2000" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="592" toiletrows="1185" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F28-3000" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="518" toiletrows="815" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F28-4000" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="666" toiletrows="1260" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.1" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker F28-6000" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="592" toiletrows="1185" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Fokker Universal-->
+<configuration type="Fokker Universal" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Fokker Super Universal" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.3" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Fokker VFW 614-->
+<configuration type="Fokker VFW 614" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="76" toiletrows="805" kitchenrows="805">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.1" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

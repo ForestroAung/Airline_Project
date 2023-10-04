@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Arab Wings" iata="AWS" color="Gray" area="301" CEO="Ahmad Abu Ghazaleh" mentality="Safe" market="Global" preferedairport="ADJ" schedule="Charter">
+  <narrative narrative="Arab Wings is a charter airline based at Amman Civil Airport in Jordan. It started in 1975 and was the first private jet charter operator in the Middle East. At June 2016 its fleet of business and private type jets were four Bombardier Challenger 600's,two Beechcraft Hawker 800's,two Embraer Legacy 600's,
+  a Beechcraft Hawker 4000,a Gulfstream G450,a Bombardier Global 5000 and a Beechcraft King Air 200."/>
+</profile>
+  <info real="True" from="1975" to="2199" />
+  <prefereds aircrafts="Challenger 600,Hawker 800,Embraer Legacy 600,Hawker 4000,Beechcraft King Air B200,Bombardier Global 5000,Gulfstream G450"></prefereds>
+	      <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Hawker 800" early="0" late="2"></airliner>
+	     </airliners>  
+	     	      <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Hawker 4000" early="0" late="1"></airliner>
+	     </airliners>  
+	      	      <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="1" late="1"></airliner>
+	     </airliners>  
+	       	      <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Challenger 600" early="0" late="4"></airliner>
+	     </airliners> 
+	       <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Bombardier Global 5000" early="0" late="1"></airliner>
+	     </airliners> 
+	            <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Gulfstream G450" early="0" late="1"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1975) late (2016)-->
+	         <airliners>
+	    <airliner type="Embraer Legacy 600" early="0" late="2"></airliner>
+	     </airliners>
+</airline>

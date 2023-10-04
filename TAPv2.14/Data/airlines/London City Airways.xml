@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="London City Airways" iata="LCY" color="MediumBlue" area="102" CEO="Michael Bishop" mentality="Safe" market="Local" preferedairport="LCY">
+  <narrative narrative="London City Airways was a subsidiary of British Midland that was based at London City Airport from the airports opening in October 1987 until 1990. It was called Eurocity Express
+  to start and was changed in 1988 to help it identify more with its hub. It began with two De Havilland Dash 7's and in 1988 ordered three new ones of which they were the last three Dash 7's ever made. It sold the two old ones
+  and bought another used one from Maersk Air to make it four Dash 7's. It flew to Paris,Brussels and Amsterdam. It added Jersey later seasonal wise and did ad hoc charters too. It competed with Brymon Airways on the Paris
+  route. It closed due to sustained financial losses in 1990 and the planes were transferred to its parent."/>
+</profile>
+  <info real="True" from="1988" to="1990" />
+  <prefereds aircrafts="DHC-7-100"></prefereds> 
+  <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1989)-->
+	     	         <airliners>
+	    <airliner type="DHC-7-100" early="4" late="4"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="LCY" destination2="AMS"   />
+	          <route destination1="LCY" destination2="ORY"  />
+                  <route destination1="LCY" destination2="ANR"  />
+		  <route destination1="LCY" destination2="JER"  />
+		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Dauair" iata="DAU" color="Maroon" area="108" CEO="Hans Fritts" mentality="Safe" market="Local" preferedairport="DTM">
+  <narrative narrative="Dauair was around for a short time from April 18,2005 at operations start to August 9,2006. Its base was Dortmund with corporate HQ at Lubeck. It started with a Saab 340 from DTM to Berlin Tempelhof,DTM to Poznan in Poland and Berlin Tempelhof to Poznan. On September 5,2005 services started from DTM to Zurich,Switzerland and Tempelhof to Warsaw,Poland and Hanover to Poznan. On September 12th with a Fairchild Metroliner it began a route between Paderborn and Stuttgart. It had three Saab 340's and the Metroliner at the end."/>
+</profile>
+  <info real="True" from="2005" to="2007" />
+  <prefereds aircrafts="Saab 340B"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	         <airliners>
+	    <airliner type="Saab 340B" early="3" late="3"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="1" late="1"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="DTM" destination2="THF"  />
+		<route destination1="DTM" destination2="POZ"  />
+		<route destination1="THF" destination2="POZ"  />
+		<route destination1="DTM" destination2="ZRH"  />
+		<route destination1="THF" destination2="WAW"  />
+		<route destination1="HAJ" destination2="POZ"  />
+		<route destination1="PAD" destination2="STR"  />
+	        </routes>
+
+
+
+
+</airline>

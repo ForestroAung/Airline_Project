@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Comox, BC ">
+  <months>
+    <month month="1" precipitation="182">
+      <temp min="1" max="7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="113">
+      <temp min="1" max="8" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="104">
+      <temp min="2" max="10" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="62">
+      <temp min="4" max="14" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="38">
+      <temp min="8" max="17" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="50">
+      <temp min="11" max="20" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="28">
+      <temp min="13" max="23" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="35">
+      <temp min="13" max="23" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="44">
+      <temp min="10" max="20" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="123">
+      <temp min="6" max="14" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="182">
+      <temp min="3" max="9" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="189">
+      <temp min="1" max="7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+  </months>
+</weather>

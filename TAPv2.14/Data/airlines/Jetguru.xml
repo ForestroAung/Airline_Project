@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="Jetguru" iata="TI" logo="TI2" color="Cyan" area="119" CEO="Tobias Lienhard" mentality="Moderate" market="Global" preferedairport="BRN">
+<narrative narrative="Jetguru is a fictional airline named after Tobias Lienhard, for supporting our Kickstarter Campaign."> </narrative>
+</profile>
+<info real="false" from="1979" to="2199" > </info>
+ <prefereds aircrafts="Boeing 737-300,Boeing 737-700,Boeing 757-200"></prefereds>
+<focusairports>
+                 <focusairport airport="GVA"></focusairport>
+                   <focusairport airport="ZRH"></focusairport>
+	     </focusairports>
+	 <airliners>
+     	 <airliner type="Boeing 737-300" early="0" late="2"></airliner>
+     	 <airliner type="Boeing 737-700" early="0" late="2"></airliner>
+     	 <airliner type="Boeing 757-200" early="0" late="2"></airliner>
+     	 <airliner type="Boeing 767-300ER" early="0" late="1"></airliner>
+     	 <airliner type="Boeing 787-8" early="0" late="2"></airliner>
+	</airliners>
+</airline>

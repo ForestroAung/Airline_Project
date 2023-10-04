@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Nova Airways" iata="NOV"  color="SlateBlue" area="348" CEO="Capt. Widaa M. Nour" mentality="Safe" market="Regional" preferedairport="KRT">
+    <narrative narrative="Nova Airways is based at Khartoum,Sudan with a secondary hub at Juba,South Sudan. It was founded in 2000. Its routes at June 2016 from Khartoum include to Juba,Port Sudan,El Fasher,Nyala and its other international route besides Juba is to Asmara,Eritrea. It also goes between El Fasher and Nyala which is the shortest route at 177km. Outside of that its shortest is 654km and longest is 1,190km.
+    Its fleet at June 2016 was four Bombardier CRJ200's which it got its first in 2007 and the fourth in 2013. It has one CRJ100 which it was leasing to Kenyan airline fly540 which it got in 2013. It has one 737-500 which it got in 2012. And it had a Fokker 50 from 2008 to 2011."/>
+  </profile>
+  <info real="True" from="2000" to="2199"/>
+  <prefereds aircrafts="Bombardier CRJ100,Bombardier CRJ200,Boeing 737-500,Fokker 50,Boeing 737 MAX 7,Airbus A319neo"/>
+          <focusairports>
+	 <focusairport airport="JUB"></focusairport>
+     </focusairports>
+         <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+  <airliners>
+    <airliner type="Bombardier CRJ100" early="1" late="1"/>
+  </airliners>
+           <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2013)-->
+  <airliners>
+    <airliner type="Bombardier CRJ200" early="1" late="4"/>
+  </airliners>
+             <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-500" early="1" late="1"/>
+  </airliners>
+  <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+  <airliners>
+    <airliner type="Fokker 50" early="1" late="0"/>
+  </airliners>
+  <routes>
+    <route destination1="KRT" destination2="JUB"/>
+    <route destination1="KRT" destination2="PZU"/>
+    <route destination1="KRT" destination2="ELF"/>
+    <route destination1="KRT" destination2="UYL"/>
+    <route destination1="KRT" destination2="ASM"/>
+    <route destination1="ELF" destination2="UYL"/>
+  </routes>
+</airline>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="West Wing Aviation" iata="WWA" color="Blue" area="251" CEO="Peter Collings" mentality="Safe" market="Domestic" preferedairport="TSV">
+  <narrative narrative="West Wing Aviation is based at Townsville,Queensland,Australia. It was founded and started flying in 2000. Its main route from Townsville is to Palm Island off the east coast of Queensland. In March 2015 it bought the other Queensland airline Skytrans Airlines. As a result West Wing has flights that Skytrans
+  operates under the West Wing brand. These are all to islands in the ocean north of Queensland, in the Torres Strait. It main base is Horn Island for that area. The other islands it goes to include Badu,Boigu,Coconut,Darnley,Moa (Kubin),Mabuiag,Murray,Saibai,Warraber,Yam, and Yorke islands.
+  The West Wing fleet has six Cessna 208B Grand Caravans and two Beechcraft 1900D's. It also has at least one Aero Commander 500,Beechcraft Super King Air B200,BN Islander,Cessna 182,Cessna 402 and Cessna 404 Titan. In 2015 the Skytrans branch leased two Bombardier Dash 8 100's." />
+</profile>
+   <info real="True" from="2000" to="2199"></info>
+    <focusairports>
+                 <focusairport airport="HID"></focusairport>
+		     </focusairports>
+   <prefereds aircrafts="Cessna 208B,Beechcraft 1900D,BN-2A Islander,Cessna 182 Skylane,Cessna 402C,Cessna 404 Titan,Beechcraft King Air B200,Aero Commander 500/600"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 208B" early="2" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="0" late="2"></airliner>
+	     </airliners>
+	     	
+	     	
+
+
+<routes>
+    <route destination1="TSV" destination2="PMK" />
+        </routes>
+  
+
+
+</airline>

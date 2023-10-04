@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Jeju Air" iata="7C" color="Orange" area="219" CEO="Kyu Nam Choi" mentality="Moderate" market="Regional" preferedairport="ICN" businessmodel="LCC">
+  <narrative narrative="Jeju Air is a South Korean airline that is based at Jeju City on the island of Jeju, and has hubs at Seoul-Incheon and Seoul-Gimpo in addition to Jeju. Jeju is the hub for its domestic operations.
+  It was founded in 2005 and began operations on June 2,2006 with five Bombardier Dash 8-400's. It did its first international flight on July 11,2008 from Jeju to Hiroshima,Japan but that is not a flight they offer as of May 2015.
+  It began getting Boeing 737-800's in 2008 and got two that year, and as of May 2015 it now has 19 of them with nine more on order. It sold all five Dash 8-400's in June 2010 to Aires Colombia. Its routes as of May 2015
+  were as follows. Jeju to Seoul-Gimpo,Busan,Cheongju and Daegu which are all domestic. From Seoul-Gimpo to Osaka-Kansai and Nagoya-Centrair in Japan. And its main point of operations at Seoul-Incheon to Tokyo-Narita,
+  Osaka-Kansai,Nagoya-Centrair,Okinawa-Naha,Fukuoka in Japan. Hong Kong. Bangkok,Thailand. Manila and Cebu Philippines. Qingdao,Yantai,Weihai,Jiamusi,and Shijiazhuang in China. Hanoi,Vietnam. And Guam and Saipan
+  each the US territories of the Marianas Islands. It also flies between Daegu and Beijing,China." />
+ </profile>
+    <info real="True" from="2006" to="2199" />
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+       <focusairports>
+                 <focusairport airport="CJU"></focusairport> 
+		 <focusairport airport="GMP"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="28"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="5" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="CJU" destination2="GMP"    />	
+	    <route destination1="CJU" destination2="PUS"    />	
+	    <route destination1="CJU" destination2="CJJ"    />	
+	    <route destination1="CJU" destination2="TAE"    />
+	    <route destination1="GMP" destination2="KIX"    />	
+	    <route destination1="GMP" destination2="NGO"    />	
+	    <route destination1="ICN" destination2="NRT"   />
+	    <route destination1="ICN" destination2="KIX"    />	
+	    <route destination1="ICN" destination2="NGO"    />
+	    <route destination1="ICN" destination2="OKA"    />
+	    <route destination1="ICN" destination2="FUK"    />
+	    <route destination1="ICN" destination2="HKG"    />
+	    <route destination1="ICN" destination2="BKK"    />
+	    <route destination1="ICN" destination2="MNL"    />
+	    <route destination1="ICN" destination2="CEB"    />
+            <route destination1="ICN" destination2="TAO"    />
+	    <route destination1="ICN" destination2="GUM"    />
+	    <route destination1="ICN" destination2="YNT"    />
+	    <route destination1="ICN" destination2="SJW"    />
+	    <route destination1="ICN" destination2="HAN"    />
+	    <route destination1="ICN" destination2="WEH"    />
+	    <route destination1="ICN" destination2="JMU"    />
+	    <route destination1="ICN" destination2="SPN"    />
+	    <route destination1="TAE" destination2="PEK"    />
+                   </routes>
+</airline>

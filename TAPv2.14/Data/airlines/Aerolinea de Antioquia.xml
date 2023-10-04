@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aerolinea de Antioquia" iata="1DA" color="MediumBlue" area="425" CEO="Galo Torres" mentality="Moderate" market="Domestic" preferedairport="EOH">
+  <narrative narrative="Aerolinea de Antioquia is a domestic Colombian airline based at the smaller of Medellin's airports, Enrique Olaya Herrera Airport. It started in 1987. It has focus cities at Barranquilla and Quibdo. It was doing about 16 routes from its hub at July 2015. And 4 from Barranquilla and Quibdo. A route between Cartegena and Monteria is also done. Here is a list of cities and towns it serves besides the hub and focus cities. Acandi,Apartado,Armenia,Bahia Solano,Bucaramanag,Capurgana,Cartegena,Cali,Caucasia,Corozal,Cucuta,El Bagre,Manizales,Monteria,Nuqui,Pereira,Remedios,Riohacha and Tolu. Its fleet
+  at December 2011 was eight BAe Jetstream 32's and four Dornier 328-110's."/>
+</profile>
+  <info real="True" from="1987" to="2199" />
+  <prefereds aircrafts="BAe Jetstream 31,Dornier 328-110"></prefereds>
+    <focusairports>
+                 <focusairport airport="UIB"></focusairport> 
+		 <focusairport airport="BAQ"></focusairport>
+     </focusairports>
+          <!--the airliners the airline would start with which isn't on a route earyl (1987) late (2012)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="4" late="8"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1987) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-110" early="2" late="4"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="EOH" destination2="BAQ" />
+	          <route destination1="EOH" destination2="UIB" />
+	          <route destination1="EOH" destination2="CAQ" />
+		  <route destination1="EOH" destination2="AXM" />
+	          <route destination1="EOH" destination2="MTR" />
+		  <route destination1="EOH" destination2="BGA" />
+		  <route destination1="EOH" destination2="CTG" />
+	          <route destination1="EOH" destination2="OTU" />
+		  <route destination1="EOH" destination2="ACD" />
+		  <route destination1="EOH" destination2="CZU" />
+	          <route destination1="EOH" destination2="APO" />
+		  <route destination1="EOH" destination2="BSC" />
+		  <route destination1="EOH" destination2="CUC" />
+		  <route destination1="EOH" destination2="EBG" />
+		  <route destination1="EOH" destination2="PEI" />
+		  <route destination1="EOH" destination2="TLU" />
+		  <route destination1="BAQ" destination2="BGA" />
+	          <route destination1="BAQ" destination2="MTR" /> 
+		  <route destination1="BAQ" destination2="CUC" />
+	          <route destination1="UIB" destination2="CLO" />
+		  <route destination1="UIB" destination2="BSC" />
+		  <route destination1="UIB" destination2="NQU" />
+	          <route destination1="CTG" destination2="MTR" />
+        </routes>
+</airline>

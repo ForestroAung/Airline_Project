@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<weather type="town" value="Blanc-Sablon, QC">
+  <months>
+    <month month="1" precipitation="97">
+      <temp min="-18" max="-7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="84">
+      <temp min="-17" max="-7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="80">
+      <temp min="-12" max="-3" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="50">
+      <temp min="-5" max="3" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="70">
+      <temp min="-1" max="8" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="92">
+      <temp min="4" max="13" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="102">
+      <temp min="8" max="16" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="96">
+      <temp min="9" max="17" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="89">
+      <temp min="5" max="13" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="88">
+      <temp min="0" max="7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="75">
+      <temp min="-5" max="2" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="100">
+      <temp min="-13" max="-4" />
+      <wind min="Calm" max="Near_Gale" />
+      </month>
+  </months>
+</weather>

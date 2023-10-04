@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Trigana Air Service" iata="IL" color="RoyalBlue" area="246" CEO="Rubijanto Adisarwono" mentality="Safe" market="Domestic" preferedairport="CGK">
+  <narrative narrative="Trigana Air Service is a domestic Indonesian airline based at Jakarta. It serves 21 domestic airports. Its fleet at September 2015 is five 737-300's,four 737-200's,five ATR 42-300's and three ATR 72-200's. It started in 1991 with two Beechcraft King Air 200's."/>
+</profile>
+  <info real="True" from="1991" to="2199" />
+  <prefereds aircrafts="ATR 42-300,ATR 72-200,ATR 72-600,Boeing 737-200 Adv.,Boeing 737-400"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="4"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2014)-->
+	          	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="5"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2006)-->
+	          	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="5"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2008)-->
+	          	         <airliners>
+	    <airliner type="ATR 72-200" early="1" late="3"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	          	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="2" late="0"></airliner>
+	     </airliners>
+
+</airline>

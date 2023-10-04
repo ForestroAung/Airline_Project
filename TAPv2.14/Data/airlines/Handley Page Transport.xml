@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Handley Page Transport" iata="HP" logo="HP2" color="Black" area="102" CEO="Frederick Handley Page" mentality="Safe" market="Regional" preferedairport="LHR">
+    <narrative narrative="Handley Page Transport was an airline founded in 1919 by Frederick Handley Page in the new era of civil flying after the First World War. The first planes were a small number of Handley Page Type O/400. These flew London-Paris and London-Brussels. In 1924 Handley Page Transport was merged with a few other British airlines to form Imperial Airways."/>
+  </profile>
+<info real="True" from="1919" to="1924"></info>
+<prefereds aircrafts="HP Type O/400,HP Type W"/>
+</airline>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airliners>
+<airliner type="Airbus A319-100,Airbus A319neo">
+  <groups rows="26">
+   <group seats="3" type="Seat"/>
+   <group seats="1" type="Empty"/>
+   <group seats="3" type="Seat"></group>
+  </groups>
+</airliner>
+<airliner type="Airbus A320-100,Airbus A320-200,Airbus A320neo">
+  <groups rows="30">
+   <group seats="3" type="Seat"/>
+   <group seats="1" type="Empty"/>
+   <group seats="3" type="Seat"></group>
+  </groups>
+</airliner>
+<airliner type="Airbus A330-300">
+  <groups rows="55">
+   <group seats="2" type="Seat"/>
+   <group seats="1" type="Empty"/>
+   <group seats="4" type="Seat"></group>
+      <group seats="1" type="Empty"/>
+   <group seats="2" type="Seat"/>
+  </groups>
+</airliner>
+</airliners>

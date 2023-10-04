@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Cobalt Air " iata="FCB" color="Blue" area="146" CEO="Gregory Diacou" mentality="Moderate" market="Global" preferedairport="LCA">
+  <narrative narrative="Cobalt Air is an airline based at Larnaca,Cyprus. Services commenced on June 1st,2016. It has one A320-200 and wil get three more by the end of June. Initial routes from Larnaca are to Athens,Greece Dublin,Ireland Heraklion,Greece London-Stansted,England Manchester,England 
+  and Thessaloniki,Greece. Other planned ones are Paris,France Tel-Aviv,Israel Beirut,Lebanon Chania,Greece Cardiff,Wales East Midlands,England and Glasgow,Scotland. It has plans for 2017 to become to first airline to offer non-stop flights between Cyprus and China, using A330 aircraft.
+  Cobalt is one of two airlines founded to fill the void left in Cyprus air service after the closure of Cyprus Airways, the other is Tus Airways. " />
+</profile>
+   <info real="True" from="2016" to="2199"></info>
+   <prefereds aircrafts="Airbus A320-200,Airbus A320neo,Airbus A330-300,Airbus A330-800neo"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="4" late="4"></airliner>
+	     </airliners>
+	     	
+
+
+<routes>
+   
+    <route destination1="LCA" destination2="ATH" />
+    <route destination1="LCA" destination2="STN" />
+		<route destination1="LCA" destination2="HER" />
+		<route destination1="LCA" destination2="SKG" />
+		<route destination1="LCA" destination2="MAN" />
+		<route destination1="LCA" destination2="DUB" />
+		 <route destination1="LCA" destination2="TLV" />
+		<route destination1="LCA" destination2="CHQ" />
+    <route destination1="LCA" destination2="CDG" />
+    <route destination1="LCA" destination2="BEY" />
+		<route destination1="LCA" destination2="GLA" />
+		<route destination1="LCA" destination2="EMA" />
+		<route destination1="LCA" destination2="CWL" />
+        </routes>
+  
+
+
+</airline>

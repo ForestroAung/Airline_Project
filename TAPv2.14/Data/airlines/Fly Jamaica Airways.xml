@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fly Jamaica Airways" iata="OJ" logo="OJ3" color="Yellow" area="413" CEO="Paul Ronald Reece" mentality="Safe" market="Regional" preferedairport="KIN">
+  <narrative narrative="Fly Jamaica was a short lived airline based at Kingston in Jamaica. They also operated flights from Havana, Cuba."/>
+</profile>
+  <info real="True" from="2013" to="2019" />
+  <prefereds aircrafts="Boeing 767-300ER"></prefereds>
+          
+		  <focusairports>
+	<focusairport airport="KIN"></focusairport>
+	<focusairport airport="HAV"></focusairport>
+</focusairports>
+
+
+
+</airline>

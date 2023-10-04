@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aerocancun" iata="ACU" color="Teal" area="403" CEO="Carlos Alba" mentality="Safe" market="Global" preferedairport="CUN">
+  <narrative narrative="Aerocancun was around from 1989 until near the end of 1996. Its base was Cancun,Mexico as its name suggest. It was a subsidiary of Spanish airline Oasis Airlines which also ceased at the same time.
+  Aerocancun did charters to and from Cancun on routes between such places as Miami,Boston,New York,the Bay area of California,New Orleans and in Canada places like Edmonton and Calgary. It also went to South America
+  and Europe, Europe was not served after 1994. The airline started with two MD-83's and had 5 or so by 1992. In 1991 it got an Airbus A310-300 and had another by 1996. It had an Airbus A300-600 the last two years. And in its last year
+  it also had a DC-10-10."/>
+</profile>
+  <info real="True" from="1989" to="1997" />
+  <prefereds aircrafts="MD-83 (DC-9-83),Airbus A310-300"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1989) late (1992)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="2" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1991) late (1996)-->
+	         <airliners>
+	    <airliner type="Airbus A310-300" early="1" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1996)-->
+	         <airliners>
+	    <airliner type="Airbus A300-600" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (1997)-->
+	         <airliners>
+	    <airliner type="MD DC-10-10" early="1" late="1"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="CUN" destination2="JFK"  />
+                <route destination1="CUN" destination2="BOS"  />	
+		<route destination1="CUN" destination2="MIA"  />
+		<route destination1="CUN" destination2="YYC"  />
+		<route destination1="CUN" destination2="YEG"  />
+		<route destination1="CUN" destination2="MSY"  />
+		<route destination1="CUN" destination2="SFO"  />
+		<route destination1="CUN" destination2="FLL"  />
+		<route destination1="CUN" destination2="BOG"  />
+		<route destination1="CUN" destination2="LIM"  />
+		<route destination1="CUN" destination2="MAD"  />
+		<route destination1="CUN" destination2="MAN"  />
+		<route destination1="CUN" destination2="LGW"  />
+		<route destination1="CUN" destination2="YUL"  />
+		<route destination1="CUN" destination2="YVR"  />
+	        </routes>
+
+
+
+
+</airline>

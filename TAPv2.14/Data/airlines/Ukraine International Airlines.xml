@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ukraine International Airlines" logo="PS2" iata="PS" color="Yellow" area="164" CEO="Yuri Miroshnikov"
+           mentality="Safe" market="Regional" preferedairport="KBP">
+    <narrative
+      narrative="Ukraine International Airlines is one of the flag carriers of Ukraine.  It operates scheduled domestic and international passenger and cargo services to cities in Europe. ">
+    </narrative>
+  </profile>
+  <info real="True" from="1992" to="2199" />
+</airline>

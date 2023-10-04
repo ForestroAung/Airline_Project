@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Korea Express Air" iata="XE" color="Purple" area="219" CEO="Hwan Ji Lee" mentality="Safe" market="Domestic" preferedairport="YNY">
+  <narrative narrative="Korea Express Air is a very small airline based at Yangyang,South Korea. It was founded in 2005 and flies from YNY to Busan and Gwangju and has two Beechcraft 1900D's." />
+ </profile>
+    <info real="True" from="2005" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="YNY" destination2="PUS"    />	
+	    <route destination1="YNY" destination2="KWJ"    />	
+                   </routes>
+</airline>

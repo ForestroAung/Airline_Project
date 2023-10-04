@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Tennessee Airways" iata="TEN" color="Brown" area="402" CEO="Stuart Adcock" mentality="Safe" market="Local" preferedairport="TYS">
+  <narrative narrative="Tennessee Airways was based at Knoxville in its named after state. It had a hub at Memphis also. It was around from 1978 to 1987. It also flew to the TN cities of Chattanooga,Nashville and
+  the Tri-Cities. It went to Huntsville,AL Atlanta,GA Cincinatti,OH Lexington,KY London,KY Charlotte,NC Greensboro,NC Pinehurst,NC Greenville-Spartanburg,SC and Washington D.C. Its main fleet consisted of
+  Embraer 110 Bandeirante's while it also used Piper PA-31's. Stuart Adcock was the president and major shareholder, he even flew the planes sometimes and cleaned them after flights."/>
+</profile>
+  <info real="True" from="1978" to="1987" />
+  <prefereds aircrafts="EMB 110 Bandeirante"></prefereds>
+  <focusairports>
+                 <focusairport airport="MEM"></focusairport> 
+     </focusairports>
+ <routes>
+ 	        <route destination1="TYS" destination2="CLT"  />
+	     	<route destination1="TYS" destination2="IAD"  />
+                <route destination1="BNA" destination2="CVG"  />
+                <route destination1="TYS" destination2="DCA"  />
+                <route destination1="TYS" destination2="ATL"  />
+		<route destination1="CHA" destination2="CLT"  />
+                <route destination1="TRI" destination2="ATL"  />
+               <route destination1="CHA" destination2="ATL"  />	
+	        </routes>
+
+
+
+
+</airline>

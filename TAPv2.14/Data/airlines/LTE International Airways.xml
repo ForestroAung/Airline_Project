@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="LTE International Airways" iata="LTE" color="DarkGreen" area="117" CEO="Sebastian Cruz" mentality="Safe" market="Global" preferedairport="PMI" schedule="Charter">
+  <narrative narrative="LTE International Airways was a charter airline around from 1987 to November 2008. It was based at Palma de Mallorca with other bases at the Canary Island airports at Gran Canaria,Lanzarote,Fuerteventura,and Tenerife South, and also at Barcelona. It was founded with the German LTU being a main owner along with Spanish businessmen. In 1993 LTU bought the other shares and became sole owner. In May 2001 it sold it to a group of Spanish and Italian businessmen, including the Volare Group. It took on the name Volar Airlines but it would be changed back to LTE in 2005. One of its last flight schedules was flying between Norwich,England and Barcelona,Alicante and Palma. In October 2008 it suspended all flights. It went on doing ACMI service for other airlines like Nouvelair. It had three A320'S at the end. Its first plane in 1987 was a 757 which it used that type off and on up through the 2000's. It also used A321's for a short time in 2005 and 2006. It had seven A320's at the peak for that type. Other destinations being served near the end were Tolouse,France Hamburg,Frankfurt and Dusseldorf,Germany Warsaw,Poland Faro,Portugal Glasgow Prestwick,Scotland Agadir,Morocco and Riyadh,Saudia Arabia. It ventured into the Cape Verde islands also at three airports there in cooperation with TACV." />
+   </profile>
+    <info real="True" from="1987" to="2009" />
+       <prefereds aircrafts="Airbus A320-200,Boeing 757-200"></prefereds>
+	           <focusairports>
+		 <focusairport airport="TFS"></focusairport>
+		 <focusairport airport="LPA"></focusairport>
+		 <focusairport airport="ACE"></focusairport>
+		 <focusairport airport="FUE"></focusairport>
+		 <focusairport airport="BCN"></focusairport>
+		      </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="7"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="0"></airliner>
+	     </airliners>
+		 	          <!--the airliners the airline would start with which isn't on a route earyl (1987) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="0"></airliner>
+	     </airliners>
+	       <routes>
+       	 <route destination1="PMI" destination2="NWI" opened="2008" closed="2199" />
+	     <route destination1="BCN" destination2="NWI" opened="2008" closed="2199" />
+	     <route destination1="ALC" destination2="NWI" opened="2008" closed="2199" />
+              </routes>
+</airline>

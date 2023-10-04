@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Venezolana" iata="VNE"  color="GreenYellow" area="426" CEO="Eustaquio Alves" mentality="Moderate" market="Local" preferedairport="MAR">
+  <narrative narrative="Venezolana is based at Maracaibo,Venezuela with a focus city at Caracas. It was founed in 2001 but did not get off the ground until 2007. From January 2014 to March 26,2014 it was grounded but was bought by new private investors that started it back up. As of March of 2015 it was serving about 4 other domestic airports,and international to Panama City,Panama Santo Domingo,Dominican Republic Aruba and Port of Spain,Trinidad and Tobago. It has about 6 routes of of its hub and focus city each. The Port of Spain route is done from Maturin instead of the bases. It plans on serving the Colombian cities of Cartagena and
+ Valledupar in the near future. Curacao is also one it has visited before and may again. At October 2014 its fleet had nine 737-200 Adv.'s,of which four were being stored,along with an MD-83 and a stored MD-82 and a BAe Jetstream 41."/>
+   </profile>
+    <info real="True" from="2007" to="2199" />
+       <prefereds aircrafts="Boeing 737-200 Adv.,MD-83 (DC-9-83),MD-82 (DC-9-82),Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+	      <focusairports>
+                 <focusairport airport="CCS"></focusairport>
+     </focusairports>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="5" late="9"></airliner>
+	     </airliners>
+	     	              <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+         <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="1" late="1"></airliner>
+	     </airliners>
+	              <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 41" early="1" late="1"></airliner>
+	     </airliners>
+	       <routes>
+       	 	<route destination1="MAR" destination2="CCS" opened="2007" closed="2199" />
+		<route destination1="MAR" destination2="PMV" opened="2007" closed="2199"  />
+		<route destination1="MAR" destination2="MUN" opened="2007" closed="2199"  />
+		<route destination1="MAR" destination2="AUA" opened="2007" closed="2199"  />
+		<route destination1="MAR" destination2="PTY" opened="2007" closed="2199"  />
+		<route destination1="MAR" destination2="STB" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="MUN" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="CUM" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="SDQ" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="PMV" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="AUA" opened="2007" closed="2199"  />
+		<route destination1="CCS" destination2="SVZ" opened="2007" closed="2199"  />
+		<route destination1="MUN" destination2="POS" opened="2007" closed="2199"  />
+		<route destination1="MUN" destination2="PMV" opened="2007" closed="2199"  />
+		<route destination1="CUM" destination2="PMV" opened="2007" closed="2199"  />
+	        <route destination1="CCS" destination2="CTG" opened="2016" closed="2199"  />
+		<route destination1="MAR" destination2="CTG" opened="2016" closed="2199"  />
+		<route destination1="CCS" destination2="VUP" opened="2016" closed="2199"  />
+		<route destination1="MAR" destination2="VUP" opened="2016" closed="2199"  />
+		<route destination1="CCS" destination2="CUR" opened="2017" closed="2199"  />
+		<route destination1="MAR" destination2="CUR" opened="2017" closed="2199"  />
+		
+              </routes>
+</airline>

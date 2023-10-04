@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Southern Star Airlines" iata="SSR"  color="SlateBlue" area="349" CEO="Ahmad Issa" mentality="Safe" market="Domestic" preferedairport="JUB">
+    <narrative narrative="Southern Star Airlines was a very short lived domestic carrier for South Sudan shortly after its independance from Sudan. It's base was Juba. It only flew for a few months in 2011. It used one Dash 8-100. It flew to Malakal,Rumbek,Aweil,and Wau."/>
+  </profile>
+  <info real="True" from="2011" to="2012"/>
+  <prefereds aircrafts="Bombardier Dash 8-100"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+  <airliners>
+    <airliner type="Bombardier Dash 8-100" early="1" late="0"/>
+  </airliners>
+  <routes>
+    <route destination1="JUB" destination2="RBX"/>
+    <route destination1="JUB" destination2="MAK"/>
+    <route destination1="JUB" destination2="WUU"/>
+ 
+  </routes>
+</airline>

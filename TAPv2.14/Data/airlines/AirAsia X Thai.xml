@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="AirAsia X" iata="XJ" color="Black" area="234" CEO="Tony Fernandes" mentality="Safe" market="Global"
+           preferedairport="KUL" businessmodel="LCC">
+    <narrative narrative="Thai Air Asia X  is a joint venture of Malaysian long haul low-fare airline AirAsia X. It serves Thai AirAsia's regularly scheduled long haul international flights from Bangkok's Don Mueang International Airport." />
+  </profile>
+  <info real="True" from="2014" to="2199" />
+  <prefereds aircrafts="Airbus A330-300"></prefereds>
+  
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-300" early="2" late="3"></airliner>
+    </airliners>  
+    <routes>
+      <route destination1="DMK" destination2="KIX"></route>
+      <route destination1="DMK" destination2="ICN"></route>
+      <route destination1="DMK" destination2="NRT"></route>
+    </routes>
+  </startdata>  
+</airline>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aero Mongolia" iata="M0" color="LightBlue" area="208" CEO="G. Munkhbaatar" mentality="Moderate"
+           market="Global" preferedairport="ULN">
+  <narrative narrative="Aero Mongolia is based at Chinggis Khan Airport in the countries capital and largest city of Ulan Bator. They were founded in 2002. They serve 11 domestic destinations and Hohhot,China and Irkutsk,Russia. They used to serve Urumqi and Tianjin in China, and Cheongju,South Korea. They have 4 Fokker 50's and had some Fokker 100's at one time too."/>
+</profile>
+  <info real="True" from="2002" to="2199"></info>
+     <prefereds aircrafts="Fokker 50,Fokker 100"></prefereds>
+
+                <airliners>
+     <airliner type="Fokker 50" early="1" late="4"></airliner>
+      </airliners>
+                <airliners>
+     <airliner type="Fokker 100" early="2" late="0"></airliner>
+      </airliners>
+<routes>
+        <route destination1="ULN" destination2="HET"  opened="2003" closed="2199"   />
+        <route destination1="ULN" destination2="IKT"  opened="2004" closed="2199"   />
+        <route destination1="ULN" destination2="CJJ"  opened="2006" closed="2199"   />
+        <route destination1="ULN" destination2="TSN"  opened="2006" closed="2199"   />
+ <route destination1="ULN" destination2="ULG"  />
+ <route destination1="ULN" destination2="HVD"  />
+ <route destination1="ULN" destination2="ULO"  />
+ <route destination1="ULN" destination2="LTI"  />
+ <route destination1="ULN" destination2="ULZ"  />
+ <route destination1="ULN" destination2="MXV"  />
+ <route destination1="ULN" destination2="DLZ"  />
+ <route destination1="ULN" destination2="COQ"  />
+                   </routes>
+</airline> 

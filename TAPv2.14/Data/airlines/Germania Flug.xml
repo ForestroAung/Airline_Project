@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Germania Flug" iata="GSW" logo="ST" color="LimeGreen" area="119" CEO="Tobias Somandin" mentality="Moderate" market="Global" preferedairport="ZRH">
+    <narrative narrative="Germania Flug is based at Zurich,Switzerland and was founded in cooperation with German airline Germania. Its first flight was March 26th,2015. As of June 2016 it is going from Zurich to Larnaca,Cyprus Palma de Mallorca,Spain Pristina,Kosovo Beirut,Lebanon and Skopje,Macedonia all year round.
+    It is seasonally serving Antalya,Turkey  Burgas,Bulgaria Calvi,France Heraklion,Greece Kos,Greece Rhodes,Greece Split,Croatia Varna,Bulgaria and Vilnius,Lithuania. In November 2016 seasonal flights will start to Agadir,Morocco Fuerteventura,Spain Gran Canaria,Spain Hurghada,Egypt La Palma,Spain
+    and Madeira,Portugal. It is also flying between Bern,Swizterland and Calvi,France. The flights to Pristina and Skopje are flown for  Air Prishtina. In its first year it operated a brand called HolidayJet which used its own livery. That only lasted from March to November 2015.  Its fleet at April 2016 was three A319's and one A321. The A321 is painted in Germania livery. "/>
+  </profile>
+  <info real="True" from="2015" to="2199"/>
+  <prefereds aircrafts="Airbus A319-100,Airbus A321-200,Airbus A321neo,Airbus A319neo"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+  <airliners>
+    <airliner type="Airbus A321-200" early="1" late="1"/>
+  </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2017)-->
+  <airliners>
+    <airliner type="Airbus A319-100" early="2" late="3"/>
+  </airliners>
+  <routes>
+    <route destination1="ZRH" destination2="LCA"/>
+    <route destination1="ZRH" destination2="PMI"/>
+    <route destination1="ZRH" destination2="PRN"/>
+    <route destination1="ZRH" destination2="BEY"/>
+    <route destination1="ZRH" destination2="SKP"/>
+    <route destination1="ZRH" destination2="AYT" season="Summer"/>
+     <route destination1="ZRH" destination2="BOJ" season="Summer"/>
+    <route destination1="ZRH" destination2="CLY" season="Summer"/>
+    <route destination1="ZRH" destination2="HER" season="Summer"/>
+    <route destination1="ZRH" destination2="KGS" season="Summer"/>
+    <route destination1="ZRH" destination2="RHO" season="Summer"/>
+    <route destination1="ZRH" destination2="SPU" season="Summer"/>
+    <route destination1="ZRH" destination2="VAR" season="Summer"/>
+    <route destination1="ZRH" destination2="VNO" season="Summer"/>
+    <route destination1="BRN" destination2="CLY" season="Summer"/>
+    <route destination1="ZRH" destination2="AGA" season="Winter"/>
+    <route destination1="ZRH" destination2="FUE" season="Winter" />
+    <route destination1="ZRH" destination2="LPA" season="Winter" />
+    <route destination1="ZRH" destination2="HRG" season="Winter" />
+    <route destination1="ZRH" destination2="SPC" season="Winter" />
+    <route destination1="ZRH" destination2="FNC" season="Winter" />
+  </routes>
+</airline>

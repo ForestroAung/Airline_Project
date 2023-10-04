@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Guna Airlines" iata="GNA" color="Yellow" area="228" CEO="Purna Tandukar" mentality="Safe" market="Domestic" preferedairport="KTM">
+  <narrative narrative="Guna Airlines was based at Kathmandu,Nepal and was around from 2009 to 2013. It flew to the domestic airports at Pokhara,Bhairahawa,Biratnagar and Birgunj. It used two Beechcraft 1900D's which had belonged to Buddha Air beforehand. It was bought by another domestic Nepal airline called Simrik Airlines in 2013."/>
+</profile>
+  <info real="True" from="2009" to="2013" />
+  <prefereds aircrafts="Beechcraft 1900D"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="KTM" destination2="PKR" />
+	       	  <route destination1="KTM" destination2="BWA" />
+		  <route destination1="KTM" destination2="BIR" />
+		  <route destination1="KTM" destination2="SIF" />
+			 		        </routes>
+
+
+
+
+</airline>

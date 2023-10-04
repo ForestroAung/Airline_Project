@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="Golden Age of Aviation in Eastern Europe" startyear="1930" shortname="Aeroflot" logo="aeroflot" description="You will play in what is considered the Golden Age of Aviation where you have been hired as in charge of Aeroflot. You will compete against mainly Eastern European airlines in Europe. You have been given 25 years to become a success. Good luck!.">
+<airportssettings majorairports="false" regions="113;114;115;116"></airportssettings>
+<airlines>
+<airline name="SU" ishuman="True">
+<destinations>
+<destination airport="KHB" slots="5"></destination>
+</destinations>
+   <routes>
+     </routes>
+    </airline>
+<airline name="LO">
+<destinations>
+<destination airport="WAW" slots="6"></destination>
+</destinations>
+<routes>
+      <route origin="WAW" destination="KXZ" airliner="Fokker F.VIII"/>
+        <route origin="WAW" destination="BZG" airliner="Fokker F.VIII"   />
+        <route origin="WAW" destination="KRK" airliner="Fokker Universal"   />
+ </routes>
+<airliners>
+<airliner type="Fokker Universal" quantity="4"></airliner>
+<airliner type="Fokker F.VIII" quantity="6"></airliner>
+</airliners>
+</airline>
+<airline name="OK">
+<destinations>
+<destination airport="PRG" slots="7"></destination>
+</destinations>
+<routes>
+      <route origin="PRG" destination="BTS" airliner="Fokker Universal"   />
+        <route origin="PRG" destination="KLV" airliner="Fokker Universal"  />
+        <route origin="PRG" destination="KSC" airliner="Fokker Universal"   />
+</routes>
+<airliners>
+<airliner type="Fokker Universal" quantity="3"></airliner>
+</airliners>
+</airline>
+<airline name="JU">
+<destinations>
+<destination airport="BEG" slots="4"></destination>
+</destinations>
+<routes>
+        <route origin="BEG" destination="DBV" airliner="Fokker F.10"   />
+        <route origin="BEG" destination="SKP" airliner="Fokker F.10"   />
+        <route origin="BEG" destination="SPU" airliner="Fokker Universal"   />
+      </routes>
+<airliners>
+<airliner type="Fokker F.10" quantity="3"></airliner>
+</airliners>
+</airline>
+<airline name="AY">
+<destinations>
+<destination airport="HEM" slots="20"></destination>
+<destination airport="OUL" slots="3"></destination>
+</destinations>
+<routes>
+        <route origin="HEM" destination="TLL" airliner="Fokker Universal"   />
+        <route origin="HEM" destination="OUL" airliner="Fokker Universal"   />
+        <route origin="HEM" destination="VAA" airliner="Fokker Universal"   />
+      </routes>
+<airliners>
+<airliner type="Fokker Universal" quantity="3"></airliner>
+<airliner type="Fokker F.10" quantity="4"></airliner>
+<airliner type="Fokker F.VIII" quantity="4"></airliner>
+</airliners>
+</airline>
+</airlines>
+<parameters>
+<!--<parameter parametertype="Success" type="Opponents" rounds="-1" value="4" interval="Daily" text="Congratulations! You have managed to eliminate all other airlines."></parameter>
+--><parameter parametertype="Failure" value="50" type="TotalRoutes" interval="Yearly" description="Having over 50 routes after 25 years of playing" rounds="25" text="You have failed the scenario because you didn't successfully set up and operate 50 routes in 25 years!"></parameter>
+<parameter parametertype="Success" type="EndOfScenario" value="0" interval="Yearly" description="" rounds="25" text="Congratulations! You have managed to create 50 routes after 25 years of playing."></parameter>
+<parameter parametertype="Failure" type="Cash" value="10000000" rounds="-1" startround="36" interval="Monthly" description="Having a positive balance after three years and maintain the positive balance for 22 years" text="You have failed the scenario since you haven't created a positive balance after 3 years!"></parameter>
+
+</parameters>
+</scenario>

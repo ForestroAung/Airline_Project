@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FaroeJet" iata="RCK" color="Yellow" area="103" CEO="Johan Simonsen" mentality="Safe" market="Domestic" preferedairport="FAE">
+  <narrative narrative="FaroeJet was only in operation from May 15,2006 to January 1st,2007. It was based in the Faroe Islands, an autonomous country within the kingdom of Denmark, that is located halfway between 
+  Norway and Iceland. Vagar is the airport of the islands, and it flew once a day from Vagar to Copenhagen,Denmark every day but Saturday. It used one Avro RJ100."/>
+</profile>
+  <info real="True" from="2006" to="2007" />
+  <prefereds aircrafts="Avro RJ100 Avroliner"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ100 Avroliner" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="FAE" destination2="CPH" />
+        </routes>
+</airline>

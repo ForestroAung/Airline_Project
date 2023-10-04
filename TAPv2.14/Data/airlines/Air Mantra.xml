@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Air Mantra" iata="M1" color="Gold" area="224" CEO="Sunil Godhwani" mentality="Safe" market="Local" preferedairport="IXC">
+    <narrative narrative="Air Mantra was a short lived airline based at Chandigarh,India. It started on July 23,2012 with two daily flights to Amritsar and suspended operations on March 31,2013. It failed due to poor booking numbers. It also served Delhi and Dehra Dun. It used two Beechcraft 1900D's. Its growth plan envisioned ATR 72 and Bombardier Dash 8-400's to be its main fleet. It was liquidated. It was owned by Indian conglomerate Religare which had done air charter stuff in 2006 also." />
+  </profile>
+    <info real="True" from="2012" to="2013" />
+           <prefereds aircrafts="Beechcraft 1900D"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="2" late="2"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="IXC" destination2="ATQ"    />	
+	    <route destination1="IXC" destination2="DEL"    />	
+	    <route destination1="IXC" destination2="DED"    />	
+                   </routes>
+</airline>

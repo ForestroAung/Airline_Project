@@ -1,0 +1,25 @@
+﻿<airline>
+  <profile name="Alberta Citylink" iata="ACL" logo="ACL2" color="Orange" area="400" CEO="Johnny Appleseed" mentality="Safe" market="Local" preferedairport="YXH">
+    <narrative narrative="Alberta Citylink was a small commuter airline based in Medicine Hat,Alberta from 1996 to 2004. It did code sharing with Air Canada. In 1999 it was mostly flying out of Calgary to its Medicine Hat base as well as the other Alberta cities of Lethbridge,Llyodminster and Cold Lake as well
+    at to the British Columbia city of Cranbrook. It also went between Edmonton and Cold Lake. Air Canada stopped contracting it in 2000 and then they flew on behalf of Peace Air until 2004. Its fleet consisted of three BAe Jetstream types." />
+  </profile>
+  <info real="True" from="1996" to="2004" />
+  <prefereds aircrafts="BAe Jetstream 31"></prefereds>
+     	              <focusairports>
+	 <focusairport airport="YYC"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1996) late (2003)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="3" late="3"></airliner>
+	     </airliners>
+	  <routes>
+	      <route destination1="YXH" destination2="YYC" opened="1996" closed="2004"/>
+	  		<route destination1="YCC" destination2="YXC" opened="1996" closed="2004"/>
+		    <route destination1="YCC" destination2="YQL" opened="1996" closed="2004"/>
+		    <route destination1="YCC" destination2="YLL" opened="1996" closed="2004"/>
+		
+	  </routes>
+	  
+
+ </airline>
+

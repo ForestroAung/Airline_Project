@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="ModiLuft" iata="MOD" color="MediumBlue" area="224" CEO="SK Modi" mentality="Safe" market="Domestic" preferedairport="DEL">
+    <narrative narrative="ModiLuft was an airline based at Delhi,India from May 1993 to mid 1996. It was founded by industrialist SK Modi in a partnership with Germany's flagship airline Lufthansa. Lufthansa provided pilots,trained Indian staff,provided maintenance and overhaul at its main facility in Germany.     Its fleet started as three 737-200's all leased from Lufthansa and shortly later it got a fourth. May 5,1993 was its first flight from Delhi to Bombay/Mumbai. Other routes from DEL served were Bangalore,Srinagar,Jammu and Leh. It's relationship  with Lufthansa would sour in mid 1996. The Indian side accused Lufthansa     of not meeting its funding goals. They countered by claiming ModiLuft had defaulted on lease payments for the four 737's. ModiLuft wanted Lufthansa to buy a 40 percent stake in the airline but instead in May 1996 they termitnated their partnership entirely. The 737-200's of Lufthansa were grounded and replaced by     new leased 737-400's from Air UK, three of them. But by the end of 1996 the airline ceased operations. Lufthansa got their planes back by September 30th,1997 in an out of court settlement. It's  Air operator's certificate was never expired and eventually went to the promoter's of low cost carrier SpiceJet. ModiLuft was the only Indian airline     at its time to have a three class config for first,business and economy class."/>
+  </profile>
+    <info real="True" from="1993" to="1997"/>
+           <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-400"/>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="4" late="4"/>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="3" late="3"/>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DEL" destination2="BOM"/>	
+	    <route destination1="DEL" destination2="BLR"/>
+	    <route destination1="DEL" destination2="SXR"/>
+	    <route destination1="DEL" destination2="IXJ"/>
+	    <route destination1="DEL" destination2="IXL"/>
+                   </routes>
+</airline>

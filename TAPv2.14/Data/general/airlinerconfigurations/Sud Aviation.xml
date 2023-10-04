@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Sud Aviation Caravelle-->
+<configuration type="Sud Aviation Caravelle I" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="1260" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="96.9" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Sud Aviation Super Caravelle 10B" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="754,942" toiletrows="1790" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="94.2" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Sud Aviation Super Caravelle 12" economy="-1" premium="0" first="3" business="0" exitrows="0" emergencyrows="596,753" toiletrows="2010" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Recliner" pitch="78.5" width="49"></seat>
+<seat class="First_Class" type="Recliner" pitch="94.2" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

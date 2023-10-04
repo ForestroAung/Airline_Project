@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Bee" iata="OBE" color="Yellow" area="121" CEO="Paolo Rubino" mentality="Safe" market="Regional" preferedairport="FCO">
+  <narrative narrative="Air Bee was around from 2007 until September 2008. It was based at Rome Fiumcino with a hub at Brescia. It served domestic airports at Bari,Crotone,Milan Linate,Naples,Olbia,Trapani and Venice mostly from Rome and international ones at Berlin Tegel,Germany Prague,Czech Republic and Birmingham,UK. It used five MD-82's."/>
+</profile>
+  <info real="True" from="2007" to="2009" />
+  <prefereds aircrafts="MD-82 (DC-9-82)"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="5" late="5"></airliner>
+	     </airliners>
+              <routes>
+	        <route destination1="FCO" destination2="LIN"   />
+		<route destination1="FCO" destination2="NAP"   />
+                <route destination1="FCO" destination2="VCE"   />
+		<route destination1="FCO" destination2="BRI" />
+		<route destination1="FCO" destination2="OLB" />
+		<route destination1="FCO" destination2="TXL" />
+		<route destination1="FCO" destination2="PRG" />
+		<route destination1="FCO" destination2="BHX" />
+	        </routes>
+
+
+
+
+</airline>

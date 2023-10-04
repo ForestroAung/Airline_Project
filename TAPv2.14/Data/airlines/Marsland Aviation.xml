@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Marsland Aviation" iata="MSL"  color="OrangeRed" area="348" CEO="El Rasheed A. Azim Ortashi" mentality="Safe" market="Regional" preferedairport="KRT" wealth="Low">
+    <narrative narrative="Marsland Avitation was based at Khartoum,Sudan and flew from 2001 to November 2013.It had another hub at Juba in what is now South Sudan. Domestic airports besides its hubs it served were El Fasher,El Obeid,Nyala,Malakal,and Rumbek. It also served Cairo,Egypt and Nairobi,Kenya.
+    This schedule was as of December 2012. Some of the domestic airports were also part of the independant South Sudan towards the end of the airlines life. Its fleet at December 2012 was one Yak 42D,a 737-200 which was operated by Sun Air of Sudan,and a Tu-134 which was operated on behalf of
+    Dove Air Services."/>
+  </profile>
+  <info real="True" from="2001" to="2014"/>
+  <prefereds aircrafts="Boeing 737-200 Adv.,Yak-42D,Tupolev Tu-134A"/>
+          <focusairports>
+	 <focusairport airport="JUB"></focusairport>
+     </focusairports>
+           <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2013)-->
+  <airliners>
+    <airliner type="Boeing 737-200 Adv." early="0" late="1"/>
+  </airliners>
+               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2013)-->
+  <airliners>
+    <airliner type="Yak-42D" early="1" late="1"/>
+  </airliners>
+                 <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2013)-->
+  <airliners>
+    <airliner type="Tupolev Tu-134A" early="1" late="1"/>
+  </airliners>
+  <routes>
+    <route destination1="KRT" destination2="UYL"/>
+    <route destination1="KRT" destination2="ELF"/>
+    <route destination1="KRT" destination2="EBD"/>
+    <route destination1="JUB" destination2="RBX"/>
+    <route destination1="JUB" destination2="MAK" />
+    <route destination1="KRT" destination2="NBO" />
+    <route destination1="KRT" destination2="CAI" />
+  </routes>
+</airline>

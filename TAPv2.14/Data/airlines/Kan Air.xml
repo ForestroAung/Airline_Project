@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Kan Air" iata="K8" color="SlateBlue" area="234" CEO="Somphong Sooksanguan" mentality="Moderate" market="Domestic" preferedairport="CNX">
+  <narrative narrative="Kan Air is a domestic Thailand carrier based at Chiang Mai in northwest Thailand. It began in September 2010. As of May 2015 it is serving 11 destinations from Chiang Mai and from Bangkok Don Muang is was serving two which it doesn't serve Chiang Mai from Bangkok. At March 2015 its fleet had two ATR 72-500's,a Cessna 208B and a business jet mostly used for charters, a Beechcraft Premier I." />
+ </profile>
+    <info real="True" from="2010" to="2199" />
+       <prefereds aircrafts="ATR 72-500,Cessna 208B,ATR 72-600"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="1" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="1" late="1"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft Premier I" early="1" late="1"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="CNX" destination2="UTP"  />	
+	    <route destination1="CNX" destination2="UBP"  />	
+            <route destination1="CNX" destination2="CEI" />
+            <route destination1="CNX" destination2="KKC" />	
+	    <route destination1="CNX" destination2="NNT" />
+	    <route destination1="CNX" destination2="PHS" />
+	    <route destination1="CNX" destination2="MAQ" />
+	    <route destination1="CNX" destination2="NAK" />
+	    <route destination1="CNX" destination2="HGN" />
+	    <route destination1="CNX" destination2="HHQ" />
+	    <route destination1="DMK" destination2="UTP" />
+	    <route destination1="DMK" destination2="MAQ" />
+              </routes>
+</airline>

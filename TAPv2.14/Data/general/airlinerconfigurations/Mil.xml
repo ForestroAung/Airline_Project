@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Mi-->
+<configuration type="Mi-8P" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Mi-26P" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.1" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Mi-2" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="292" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Mi-6" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="640,1280" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.1" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Mi-10 Passenger" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.1" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Mi-8P ER" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

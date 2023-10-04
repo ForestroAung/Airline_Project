@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ecuatoriana de Aviacion" iata="EEA" color="Cyan" area="429" CEO="Fernando Levano Castillo" mentality="Moderate" market="Global" preferedairport="UIO">
+  <narrative narrative="Ecuatoriana was the national airline of Ecuador from 1957 to around 2004. It was based at the countries two main airports at Quito and Guayaquil. It was a subsidiary of VASP of Brazil from June 1996 to the end which owned it 50.1%. It had a operational hiatus from September 1993 to August 1995. At the start it was half owned by Americans. It began in August 1957 and used Curtiss Commando's,Douglas DC-4's,Douglas DC-6's,and one Junkers K16. It began international routes pretty much right away. This included Quito to Miami with a stopover in Panama City. Also Quito and Guayaquil to Santiago,Chile via Lima,Peru. Between March 1967 and March 1975 it used Lockheed Electra's on the Quito-Bogota-Miami route. In July 1974 it became state owned. They also had Boeing 707 jets by this time which had rainbow colored paint jobs. It also began flying to New York City and Buenos Aires,Argentina around this time. Other routes were Mexico City and Madrid,Spain. It competed with Iberia on the routes to Madrid from the two Ecaudor airports. Braniff was a major competitor on routes to the US as well. It used a DC-10-30 starting in 1983 until the end. It used two leased Airbus A310-300's from 1991 to 1993 and got another in 1997 to 2001. Around 1996 when VASP became the parent 727's entered the fleet. In 2000 the planes were repossesed and LAN Chile began flying to the USA on behalf of Ecuatoriana. LAN Chile later started LAN Ecuador to take over many of the routes. VASP itself had gone under in January 2005 as well. Other places served over time not already mentioned included Nassau,Bahamas La Paz and Santa Cruz,Bolivia in Brazil Manaus,Rio de Janeiro and Sao Paulo. In Canada Montreal and Toronto. Antofagasta,Chile. Cali,Colombia. San Jose,Costa Rica. Tel Aviv,Israel. Cancun,Mexico. Caracas,Venezuela. Chicago,Los Angeles,San Francisco, and Washington DC in the USA. Asuncion,Paraguay. And Montevideo,Uruguay."/>
+</profile>
+  <info real="True" from="1957" to="2004" />
+  <prefereds aircrafts="Airbus A310-300,MD DC-10-30,Boeing 727-200,Boeing 727-200 Adv.,Boeing 720B (707-020B),Boeing 707-320B,Douglas DC-6,Douglas DC-6B,Douglas DC-4-1009,Lockheed L-188A"></prefereds>
+    
+		      <focusairports>
+                 <focusairport airport="GYE"></focusairport> 
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-300" early="2" late="1"></airliner>
+	     </airliners>  
+	               	      <!--the airliners the airline would start with which isn't on a route earyl (1983) late (2005)-->
+	     	         <airliners>
+	    <airliner type="MD DC-10-30" early="1" late="1"></airliner>
+	     </airliners>  
+               <routes>
+	       	  <route destination1="UIO" destination2="MIA"    />
+		  <route destination1="GYE" destination2="MIA"   />
+		  <route destination1="UIO" destination2="PTY"   />
+		  <route destination1="GYE" destination2="PTY"   />
+	          <route destination1="UIO" destination2="BOG"   />
+	          <route destination1="GYE" destination2="BOG"   />
+                  <route destination1="UIO" destination2="LIM"   />
+		  <route destination1="GYE" destination2="LIM"   />
+		  <route destination1="UIO" destination2="SCL"   />
+		  <route destination1="GYE" destination2="SCL"   />
+		  <route destination1="UIO" destination2="GRU"   />
+		  <route destination1="UIO" destination2="CLO"   />
+		  <route destination1="GYE" destination2="CLO"   />
+		  <route destination1="UIO" destination2="CCS"   />
+		  <route destination1="UIO" destination2="EZE"   />
+		  <route destination1="GYE" destination2="EZE"   />
+		  <route destination1="UIO" destination2="VVI"   />
+		  <route destination1="GYE" destination2="VVI"   />
+		  <route destination1="GYE" destination2="LPB"   />
+		  <route destination1="UIO" destination2="MEX"   />
+		  <route destination1="UIO" destination2="MAD"   />
+		  <route destination1="GYE" destination2="MAD"   />
+		  <route destination1="UIO" destination2="JFK"   />
+		  <route destination1="GYE" destination2="JFK"   />
+		 		        </routes>
+
+
+
+
+</airline>

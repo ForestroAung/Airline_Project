@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="REDjet" iata="RDJ" color="Tomato" area="421" CEO="Ian Burns" mentality="Safe" market="Global" preferedairport="BGI">
+  <narrative narrative="REDjet was based at Grantley Adams International Airport in the Caribbean country of Barbados from May 10,2011 to March 16,2012. It began flying with a route to Georgetown,Guyana on the South American 
+  continent. On July 28,2011 it began going to Port of Spain,Trinidad and Tobago. On November 20,2011 to Kingston,Jamaica. On November 22,2011 to Saint John's,Antigua and Barbuda. And on December 16,2011 to
+  St. Lucia. It operated with two MD-82's and an MD-83 all in a 149 passenger economy only configuration. It had planned on being based at Kingston,Jamaica but changed to Barbados when Jamaica denied
+permission to set up. Even after ceasing operations it had hoped to get govenment help to continue but it officially shut down on June 8th,2012."/>
+</profile>
+  <info real="True" from="2011" to="2013" />
+  <prefereds aircrafts="MD-82 (DC-9-82),MD-83 (DC-9-83)"></prefereds>
+        	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="2"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+	     
+               <routes>
+	          <route destination1="BGI" destination2="GEO"   />
+		  <route destination1="BGI" destination2="POS"   />
+		  <route destination1="BGI" destination2="KIN"   />
+		  <route destination1="BGI" destination2="ANU"   />
+		  <route destination1="BGI" destination2="UVF"   />
+		 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="AOM French Airlines" iata="IW" logo="IW2" color="Blue" area="113" CEO="Jean-Marc Janaillac" mentality="Moderate" market="Domestic" preferedairport="ORY">
+  <narrative narrative="Air Outre Mer (AOM) was founded in 1988 in the French overseas département of the island of Réunion and began scheduled passenger service in 1990 with a McDonnell Douglas DC-10-30 and a Dornier Do 228. Its head office was located in Building 363 at Orly Airport, Paray-Vieille-Poste." />
+ </profile>
+    <info real="True" from="1990" to="2001" />
+       <prefereds aircrafts="MD DC-10-30,MD-83 (DC-9-83)"></prefereds>
+       <focusairports>
+            <focusairport airport="RUN"></focusairport>
+                 <focusairport airport="MRS"></focusairport>
+                   <focusairport airport="PGF"></focusairport>
+	     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="1" late="0"></airliner>
+	    <airliner type="MD DC-10-30" early="1" late="15"></airliner>
+	      <airliner type="MD-83 (DC-9-83)" early="0" late="12"></airliner>
+	     </airliners>
+	
+</airline>

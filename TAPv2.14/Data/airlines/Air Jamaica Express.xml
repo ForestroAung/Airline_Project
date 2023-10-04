@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Jamaica Express" iata="JMX" color="Magenta" area="413" CEO="Gordon Stewart" mentality="Safe" market="Local" preferedairport="KIN">
+  <narrative narrative="Air Jamaica Express was a subsidiary of Air Jamaica that operated from April 18,1996 to October 14,2005. It started in 1973 as Jamaica Air Taxi, and then it was called Trans-Jamaican Airline.
+  In 1994 the owner of Air Jamaica, Gordon Stewart, took it over and turned it into a subsidiary of Air Jamaica and commenced operations in April 1996. Its base was Kingston. It flew to other domestic airports at
+  Montego Bay,Negril,Ocho Rios and Port Antonio. It also went to George Town,Cayman Islands and Havana,Cuba all year. Seasonal ones were Nassau,Bahamas Santo Domingo,Dominican Republic Port-au-Prince,Haiti
+  Santiago,Cuba and Providenciales,Turks and Caicos. Its fleet in 2002 was six 37 passenger Bombardier Dash 8-100's and two DH Twin Otters for 19 people. Britten Norman Islanders and Trislanders had been used
+  in the past as well."/>
+</profile>
+  <info real="True" from="1996" to="2006" />
+  <prefereds aircrafts="Bombardier Dash 8-100,DHC-6-100 Twin Otter,BN-2A Islander,BN Trislander"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2002)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-100" early="0" late="6"></airliner>
+	     </airliners>  
+	               <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2002)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="0" late="2"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="KIN" destination2="MBJ"/>
+	       	  <route destination1="KIN" destination2="NEG"/>
+		  <route destination1="KIN" destination2="GCM"/>
+		  <route destination1="KIN" destination2="HAV"/>
+		  <route destination1="KIN" destination2="OCJ"/>
+		  <route destination1="KIN" destination2="POT"/>
+		  <route destination1="KIN" destination2="NAS" season="Summer" />
+		  <route destination1="KIN" destination2="PAP" season="Summer" />
+		  <route destination1="KIN" destination2="SDQ" season="Summer" />
+		  <route destination1="KIN" destination2="PLS" season="Summer" />
+		  <route destination1="KIN" destination2="SCU" season="Summer" />
+		 		        </routes>
+
+
+
+
+</airline>

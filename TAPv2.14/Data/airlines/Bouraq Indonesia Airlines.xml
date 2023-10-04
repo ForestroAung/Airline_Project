@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Bouraq Indonesia Airlines" iata="BOU" color="Chartreuse" area="246" CEO="Jarry Albert Sumendap" mentality="Moderate" market="Regional" preferedairport="BPN">
+  <narrative narrative="Bouraq Indonesia Airlines operated from 1970 until 2005. Its hubs were Balikpapen on the island of Borneo, or Kalimantan as it is called in Indonesia and in Jakarta, the countries largest city which is located on the island of Java. Bouraq was serving about 35-40 routes around 1984-1985 and served around 29 domestic airports and one in Malaysia,the one in Singapore and one in the Philippines. In the 2000s this had shrunk to 12 domestic and Singapore. Its initial fleet was DC-3's with Hawker 748s being introduced in 1973. It started using Boeing 737-200's in 1993 and had about 5 to start with. It had around 10 by the airlines demise. It also got three MD-82's in 2002 and had those until the end. The Boeing 707 series was used also. Other types used were the Vickers Viscount,Aerospatiale N262,the NAMC YS-11,the BAC One Eleven and the Fokker F28. It had the subsidiary called Bali Air which had the same owner, which served several domestic airports starting in 1973. Bali Air lasted a year after Bouraq however and shut down in 2006, lasting another year. Its name comes from al-Buraq, a flying horse in the Muslim tradition." />
+   </profile>
+    <info real="True" from="1970" to="2005" />
+       <prefereds aircrafts="Boeing 737-200 Adv.,Vickers Viscount 800,HS.748,Aerospatiale N 262,NAMC YS-11,Boeing 707-120B,Boeing 707-220,Boeing 707-120,BAC One-Eleven 475,BAC One-Eleven 500,Fokker F28-1000,Fokker F28-3000,Douglas DC-3"></prefereds>
+<focusairports>
+                 <focusairport airport="CGK"></focusairport>
+		 <focusairport airport="HLP"></focusairport>
+		  <focusairport airport="BDO"></focusairport>
+		  <focusairport airport="SUB"></focusairport>
+		 <focusairport airport="SRG"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="5" late="10"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2004)-->
+	     	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="3" late="3"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="4" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="CGK" destination2="BPN" />	
+	    <route destination1="CGK" destination2="SRG" />	
+            <route destination1="CGK" destination2="BDO" />	
+            <route destination1="BDO" destination2="SUB" />	
+            <route destination1="BDO" destination2="JOG" />
+            <route destination1="BDO" destination2="SRG" />	
+            <route destination1="SUB" destination2="DPS" />	
+            <route destination1="SRG" destination2="BDJ"  />
+            <route destination1="SRG" destination2="PKN"  />	
+	    <route destination1="SUB" destination2="BDJ"  />
+	    <route destination1="JOG" destination2="BDJ"  />
+            <route destination1="SUB" destination2="BPN"  />
+            <route destination1="PKN" destination2="PKY"  />
+	    <route destination1="BDJ" destination2="PKY"  />
+	    <route destination1="SUB" destination2="SMQ"  />
+            <route destination1="PKN" destination2="SMQ"  />
+	    <route destination1="BDJ" destination2="SMQ"  />
+	    <route destination1="BPN" destination2="MDC"  />
+	    <route destination1="BPN" destination2="TRK"  />
+	    <route destination1="BPN" destination2="PLW"   />
+	    <route destination1="BPN" destination2="SRI" />
+	    <route destination1="PLW" destination2="GTO"   />
+	    <route destination1="MDC" destination2="GTO" />
+	    <route destination1="TRK" destination2="SRI"   />
+	    <route destination1="TRK" destination2="TWU" />
+	    <route destination1="MDC" destination2="TTE"   />
+	    <route destination1="PLW" destination2="UPG" />
+	    <route destination1="DPS" destination2="WGP"   />
+	    <route destination1="DPS" destination2="MOF" />
+	    <route destination1="KOE" destination2="WGP"   />
+	    <route destination1="KOE" destination2="MOF" />
+	    <route destination1="CGK" destination2="PGK"   />
+	    <route destination1="PKN" destination2="SIN" />
+	    <route destination1="HLP" destination2="BPN" />	
+	    <route destination1="HLP" destination2="SRG" />	
+            <route destination1="HLP" destination2="BDO" />
+            <route destination1="HLP" destination2="PGK"   />	
+
+              </routes>
+</airline>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--HS.748-->
+<configuration type="HS.748" economy="0" premium="0" first="-1" business="0" exitrows="1070" emergencyrows="71" toiletrows="1070" kitchenrows="1070">
+<seats>
+<seat class="First_Class" type="Standard" pitch="71.3" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Trident-->
+<configuration type="Trident 1C" economy="0" premium="0" first="-1" business="0" exitrows="0,483" emergencyrows="-1" toiletrows="0,1450" kitchenrows="0,483">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="85.2" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Trident 1E" economy="-1" premium="0" first="0" business="0" exitrows="0,483" emergencyrows="-1" toiletrows="0,1450" kitchenrows="0,483">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Trident 2E" economy="-1" premium="0" first="2" business="0" exitrows="0,483" emergencyrows="-1" toiletrows="0,1500" kitchenrows="0,483">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82.5" width="48"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Trident 3B" economy="-1" premium="0" first="3" business="0" exitrows="0,414" emergencyrows="-1" toiletrows="0,1500" kitchenrows="0,414">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78" width="48"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Super Trident 3B" economy="-1" premium="0" first="3" business="0" exitrows="0,414" emergencyrows="-1" toiletrows="0,1500" kitchenrows="0,414">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78" width="48"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

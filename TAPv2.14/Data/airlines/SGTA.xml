@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Societé Generale des Transports Aériens" iata="AF" logo="AF2" color="LimeGreen" area="113" CEO="Alexandre de Juniac" mentality="Aggressive"
+           market="Global" preferedairport="ORY">
+    <narrative
+      narrative="The Société Générale des Transports Aériens (SGTA) was a French airline founded in 1919. It operated until 1933 when its assets were incorporated in the newly created Air France airline." />
+  </profile>
+
+<info real="True" from="1919" to="1933"></info>
+<startdata>
+<prefereds aircrafts="Farman F.60 Goliath,Farman F.70,Farman F.121 Jabiru,Farman F.170 Jabiru"></prefereds>
+<focusairports>
+        <focusairport airport="ORY"></focusairport>
+</focusairports>
+</startdata>
+</airline>

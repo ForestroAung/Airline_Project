@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Boom-->
+<!--Boom-->
+<configuration type="Overture" economy="-1" premium="0" first="5" business="0" exitrows="0" emergencyrows="1570" toiletrows="0,2355" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Recliner" pitch="86" width="60"></seat>
+<seat class="First_Class" type="Open Suites" pitch="185" width="66"></seat>
+</seats>
+</configuration>
+</configurations>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Fuzhou Airlines" iata="FU" color="Red" area="209" CEO="Chen Feng" mentality="Moderate" market="Domestic" preferedairport="FOC">
+  <narrative narrative="Fuzhou Airlines is a subsidiary of Hainan Airlines that began in 2014. It is based at Fuzhou,China. It started on October 30,2014 with flights to Haikou,Chongqing,Tianjin,Kunming,Shanghai Pudong,
+  Hefei,Taiyuan,and Xian. It began with two of its parents 737-800's. It is planned for it to have 40 by 2020. It plans on serving at least over a dozen routes in the near future." />
+ </profile>
+    <info real="True" from="2014" to="2199" />
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="40"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="FOC" destination2="HAK"    />	
+	    <route destination1="FOC" destination2="CKG"   />	
+            <route destination1="FOC" destination2="TSN"    />	
+	    <route destination1="FOC" destination2="KMG"    />	
+	    <route destination1="FOC" destination2="PVG"    />	
+	    <route destination1="FOC" destination2="HFE"    />	
+	    <route destination1="FOC" destination2="TYN"    />	
+	    <route destination1="FOC" destination2="XIY"    />	
+                   </routes>
+</airline>

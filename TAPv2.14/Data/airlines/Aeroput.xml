@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeroput" iata="JU" logo="JU_Aeroput" color="DarkBlue" country="1005" CEO="Unknown" mentality="Moderate" market="Regional" preferedairport="BEG">
+    <narrative
+      narrative="Society for Air traffic AD Aeroput was the first Serbian company for civil air traffic, which was founded on 17 June 1927 as Društvo za Vazdušni Saobraćaj (English: Society for Air Traffic Aeroput), in the palace of the Adriatic-Danube Bank in Belgrade. Aeroput was the national carrier of the Kingdom of SHS, and then the Kingdom of Yugoslavia. Aeroput was among the first civilian aircraft carriers, being the 10th airline company founded in Europe and the 21st in the world. The airline ceased to exist during World War II in Yugoslavia, but was renewed after the war under the new name Jugoslovenski Aerotransport (abbreviated JAT; English: Yugoslav Air Transport)."/>
+  </profile>
+  <info real="True" from="1927" to="1948"></info>
+  <prefereds aircrafts="Lockheed Model 10 Electra"></prefereds>
+</airline>

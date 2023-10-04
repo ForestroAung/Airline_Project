@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Century" iata="CEY"  color="Red" area="415" CEO="Omar Chahin" mentality="Safe" market="Regional" preferedairport="JBQ">
+  <narrative narrative="Air Century is based at La Isabela Intl. Airport, Santo Domingo's smaller airport. The airline started in 1991 and was based at Herrera Intl. Airport until February 23,2006 when La Isabela replaced it as Santo Domingos second airport. It does have another hub at the main airport of Las Americas. It has secondary hubs at Constanza,Santiago and Samana. It has three scheduled flights from JBQ to the three domestic destinations of
+  Santiago,Punta Cana and Puerto Plata. From SDQ it does Santiago and Constanza,while Constanza and Santiagi are also connected. The airline offers many charters from JBQ to Antigua,Barbados,the Cuban cities of Havana,
+Holguin and Varadero,Fort Lauderdale and Miami in Florida,Nassau in the Bahamas,Providenciales in the Turks and Caicos and Sint Marteen. Its fleet had three Jetstream 31's,two Cessna 401's,two Dassault 20's,a Grumman Gulfstream II and a Cessna Citation II."/>
+ <airports>
+<airport  preferedairport="HEX" date="1.01.1991 00:00:00"></airport>
+<airport   preferedairport="JBQ" date="2.23.2006 00:00:00"></airport>
+</airports>
+   </profile>
+    <info real="True" from="1991" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31,Cessna 401,Dassault Falcon 20,Gulfstream II,Cessna Citation II"></prefereds>
+             <focusairports>
+                               <focusairport airport="SDQ"></focusairport>
+				 <focusairport airport="STI"></focusairport>
+				 <focusairport airport="COZ"></focusairport>
+				 <focusairport airport="EPS"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="2" late="3"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 401" early="2" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dassault Falcon 20" early="0" late="2"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream II" early="1" late="1"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation II" early="0" late="1"></airliner>
+	     </airliners>
+
+	       <routes>
+	       	<route destination1="JBQ" destination2="STI"  />
+		<route destination1="JBQ" destination2="PUJ" />
+		<route destination1="JBQ" destination2="POP"  />
+		<route destination1="SDQ" destination2="STI" />
+		<route destination1="SDQ" destination2="COZ"  />
+		<route destination1="COZ" destination2="POP"  />
+		<route destination1="HEX" destination2="STI"  />
+		<route destination1="HEX" destination2="PUJ" />
+		<route destination1="HEX" destination2="POP"  />
+		<route destination1="JBQ" destination2="ANU" type="Charter"   />
+		<route destination1="JBQ" destination2="BGI" type="Charter"   />
+		<route destination1="JBQ" destination2="HAV" type="Charter"  />
+		<route destination1="JBQ" destination2="HOG" type="Charter"  />
+		<route destination1="JBQ" destination2="MIA" type="Charter"  />
+		<route destination1="JBQ" destination2="FLL" type="Charter"  />
+		<route destination1="JBQ" destination2="NAS" type="Charter"  />
+		<route destination1="JBQ" destination2="SXM" type="Charter"  />
+		<route destination1="JBQ" destination2="PLS" type="Charter"  />
+		<route destination1="JBQ" destination2="VRA" type="Charter"  />
+		<route destination1="HEX" destination2="ANU" type="Charter"   />
+		<route destination1="HEX" destination2="BGI" type="Charter"   />
+		<route destination1="HEX" destination2="HAV" type="Charter"  />
+		<route destination1="HEX" destination2="HOG" type="Charter"  />
+		<route destination1="HEX" destination2="MIA" type="Charter"  />
+		<route destination1="HEX" destination2="FLL" type="Charter"  />
+		<route destination1="HEX" destination2="NAS" type="Charter"  />
+		<route destination1="HEX" destination2="SXM" type="Charter"  />
+		<route destination1="HEX" destination2="PLS" type="Charter"  />
+		<route destination1="HEX" destination2="VRA" type="Charter"  />
+              </routes>
+</airline>

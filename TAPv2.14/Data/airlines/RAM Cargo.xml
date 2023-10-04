@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="RAM Cargo" iata="AT2"  logo="AT" color="Tomato" area="317" CEO="Driss Benhima" mentality="Moderate" market="Global" preferedairport="CMN" routefocus="Cargo">
+  <narrative narrative="RAM Cargo is the cargo division of Royal Air Maroc and is based at Casablanca,Morocco. It was established in 2010. At April 2015 it was flying from Casablanca to London Heathrow,UK Milan,Italy
+  Rome,Italy Brussels,Belgium Zaragoza,Spain Barcelona,Spain Lisbon,Portugal Paris,France Dubai,United Arab Emirates New York,USA Washington DC,USA Algiers,Algeria Cairo,Egypt Adis Ababa,Ethiopia Libreville,Gabon Hong Kong
+Beijing,China and domestic to Tangier and El Aaiun. It had two 767-300F's and a 737-300.  " />
+   </profile>
+    <info real="True" from="2010" to="2199" />
+       <prefereds aircrafts="Boeing 767-300F,Boeing 737-300"></prefereds>
+
+     <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300F" early="2" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="CMN" destination2="LHR" />	
+	    <route destination1="CMN" destination2="MXP" />
+            <route destination1="CMN" destination2="BRU" />	
+            <route destination1="CMN" destination2="DXB" />	
+            <route destination1="CMN" destination2="ZAZ" />
+            <route destination1="CMN" destination2="JFK" />	
+            <route destination1="CMN" destination2="BCN" />	
+            <route destination1="CMN" destination2="FCO"  />
+            <route destination1="CMN" destination2="CAI"  />	
+	    <route destination1="CMN" destination2="ALG"  />
+	    <route destination1="CMN" destination2="HKG"  />
+            <route destination1="CMN" destination2="PEK"  />
+            <route destination1="CMN" destination2="IAD"  />
+	    <route destination1="CMN" destination2="CDG"  />
+	    <route destination1="CMN" destination2="LIS"  />
+	    <route destination1="CMN" destination2="ADD"  />
+            <route destination1="CMN" destination2="TNG"  />
+	    <route destination1="CMN" destination2="LBV"  />
+	    <route destination1="CMN" destination2="EUN"  />
+              </routes>
+</airline>

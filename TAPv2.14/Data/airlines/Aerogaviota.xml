@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aerogaviota" iata="GTV"  color="Blue" area="411" CEO="Ana B. Sanz" mentality="Moderate" market="Domestic" preferedairport="UPB">
+  <narrative narrative="Aerogaviota is based at Havana's smaller Playa Baracoa Airport. It started in 1994 and it owned by the government. It is mainly a domestic carrier. From its base it flies to Cayo Largo and Baracoa. It does serve more routes from Havana's Jose Marti Airport. These include Holguin,Baracoa,Cayo Largo and Santiago de Cuba. It used to serve international destinations to Trinidad and Tobago,Jamaica and the Bahama's. It's fleet at February 2015 was four ATR 42-500's which it has been using the type since 1999 and had these same four since 2002. Also it had six Antonov 26's,two Antonov 24's and at least one Antonov 2. The Mil-8 helicopter is also used."/>
+   </profile>
+    <info real="True" from="1994" to="2199" />
+       <prefereds aircrafts="Antonov An-26,ATR 42-500,Antonov An-24,ATR 42-600,Antonov An-2"></prefereds>
+             <focusairports>
+			       <focusairport airport="HAV"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-500" early="1" late="4"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="6" late="6"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="2" late="2"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-2" early="1" late="1"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+	        <route destination1="HAV" destination2="HOG"  />
+		<route destination1="HAV" destination2="SCU"  />
+	        <route destination1="HAV" destination2="BCA"  />
+		<route destination1="HAV" destination2="CYO"  />
+	       	<route destination1="UPB" destination2="BCA"  />
+		<route destination1="UPB" destination2="CYO"  />
+
+              </routes>
+</airline>

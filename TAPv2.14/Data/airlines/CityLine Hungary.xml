@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="CityLine Hungary" iata="ZM" color="Gray" area="129" CEO="Andras Vinnai" mentality="Moderate"
+           market="Regional" preferedairport="BUD">
+    <narrative
+      narrative="Hungarian charter airline based in Budapest. They operate 3 aircrafts to several regional destinations." />
+  </profile>
+  <info real="True" from="2003" to="2199"></info>
+</airline>

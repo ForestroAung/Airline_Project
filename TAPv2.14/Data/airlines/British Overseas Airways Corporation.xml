@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="British Overseas Airways Corporation" iata="BA" logo="BOAC" color="Navy" area="102" CEO="Whitney Straight"
+           mentality="Aggressive" market="Global" preferedairport="LHR">
+    <narrative
+      narrative="British Overseas Airways Corporation (BOAC) was the British state-owned airline created by Imperial Airways and British Airways. BOAC operated flights to overseas territories, while British European Airways (BEA) flew to European destinations. In 1974 BOAC and BEA merged to form today's British Airways." />
+  </profile>
+  <info real="True" from="1939" to="1974"></info>
+  
+
+</airline>

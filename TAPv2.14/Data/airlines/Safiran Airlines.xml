@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Safiran Airlines" iata="SFN" color="Yellow" area="205" CEO="M.B. Nahvi" mentality="Safe" market="Global" preferedairport="THR" routefocus="Cargo" schedule="Charter">
+  <narrative narrative="Safiran Airlines was a charter cargo airline based at Tehran Mehrabad Airport,Iran from 1990 until 2013. It did international service focusing mainly on outsized cargo and it wet leased aircraft when
+  required. It had three Antonov An-140's at March 2008."/>
+</profile>
+  <info real="True" from="1990" to="2013" />
+  <prefereds aircrafts="Antonov An-140,Antonov An-124,Il-76TD"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (1997) late (2008)-->
+	         <airliners>
+	    <airliner type="Antonov An-140" early="1" late="3"></airliner>
+	     </airliners>
+
+
+
+
+</airline>

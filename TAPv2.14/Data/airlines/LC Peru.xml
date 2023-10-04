@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="LC Peru" iata="W4" color="Red" area="430" CEO="Carlos Carmona" mentality="Safe" market="Regional" preferedairport="LIM">
+  <narrative narrative="LC Peru is based at Lima,Peru and does mostly domestic routes. It started in 1993. At July 2015 it was flying from Lima to Andahuaylas,Ayacucho,Cajamarca,Cuzco,Huanuco,Huaraz,Juaja,Pisco and Tingo Maria. It was also going between Iquito and Leticia,Colombia, its only international route at this time. It was using six Bombardier Dash 8-200's."/>
+</profile>
+  <info real="True" from="1993" to="2199" />
+  <prefereds aircrafts="Bombardier Dash 8-200"></prefereds>
+        <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="3" late="6"></airliner>
+	     </airliners>  
+               <routes>
+	       	  <route destination1="LIM" destination2="CUZ"    />
+		  <route destination1="LIM" destination2="CJA"   />
+		  <route destination1="LIM" destination2="HUU"   />
+		  <route destination1="LIM" destination2="PIO"   />
+		  <route destination1="LIM" destination2="ANS"   />
+	          <route destination1="LIM" destination2="AYP"   />
+	          <route destination1="LIM" destination2="ATA"   />
+                  <route destination1="LIM" destination2="JAU"   />
+		  <route destination1="LIM" destination2="TGI"   />
+		  <route destination1="IQT" destination2="LET"   />
+		 		        </routes>
+
+
+
+
+</airline>

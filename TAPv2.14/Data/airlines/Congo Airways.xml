@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Congo Airways" iata="CAW" logo="CAW2" color="Cyan" area="358" CEO="Desire Balazire" mentality="Moderate" market="Global"  preferedairport="FIH">
+  <narrative narrative="Congo Airways is based at N'djili Airport in Kinshasa,Democratic Repunlic of Congo and began flying in October 2015. As of June 2015 it is only doing domestic routes but plans to expand to South Africa,Angola,Republic of Congo,Ethiopia,Kenya,Nigeria and Ivory Coast soon. Long term plans are for Dubai and Guangzhou,China.
+  Direct routes from its hub at June 2016 were to Goma,Kananga,Kindu,Kisangani,Lubumbashi,Mbandaka,and Mbuji-Mayi. Other routes from Goma were to Kindu and Kisangani. And other routes from Lubumbashi were to Kananga and Mbuji-Mayi. Kindu-Kisangani was another route. Its fleet at the time is two A320's both acquired in 2015 while its waiting for
+  two Dash 8-400's that are used." />
+</profile>
+   <info real="True" from="2015" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo,Bombardier Dash 8-400,Bombardier Dash 8-400NextGen"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="0" late="2"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+	         	      <routes>  
+	    <route destination1="FIH" destination2="GOM"/>
+      <route destination1="FIH" destination2="FBM"/>
+	    <route destination1="FIH" destination2="FKI"/>
+      <route destination1="FIH" destination2="KGA"/>
+      <route destination1="FIH" destination2="KND"/>
+      <route destination1="FIH" destination2="MJM"/>
+      <route destination1="FIH" destination2="MDK"/>
+      <route destination1="GOM" destination2="FKI"/>
+      <route destination1="GOM" destination2="KND"/>
+       <route destination1="FBM" destination2="KGA"/>
+        <route destination1="FBM" destination2="MJM"/>
+         <route destination1="FKI" destination2="KND"/>
+                   </routes>
+
+</airline>

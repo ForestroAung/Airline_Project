@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kenn Borek Air" iata="4K" color="Sienna" area="400" CEO="Brian Crocker" mentality="Safe" market="Domestic" preferedairport="YYC" routefocus="Mixed">
+  <narrative narrative="Kenn Borek Air is based at Calgary,Alberta,Canada and has been around since 1970. It does both passengers and cargo. It also operates in the Arctic and Antarctic and leases planes to other airlines. It does charters for scientists,oil exploration and air ambulance service as well. At 2015 it is operating scheduled passenger service between Resolute Bay and Grise Fiord in the province of Nunavut. It uses the name Unaalik Aviation for that service.  Since 1994 it has had an agreement with Aklak Air to operate planes for them and operates from Aklaks's hub of Inuvik,Northwest Territories to six other airports in the Norhwest Territories northern part and arctic islands. Kenn Borek's fleet at December 2011 was 25 DH 300 Twin Otters, a Beechctaft 1900D, three Beechcraft King Air 200's,three Beechcraft King Air 100's,two Beechcraft 99's,a Beechcraft King Air 90 and seven Basler BT-67. Basler BT-67's are Douglas DC-3's that have been refurbished."/>
+</profile>
+  <info real="True" from="1970" to="2199" />
+  <prefereds aircrafts="DHC-6-400 Twin Otter,DHC-6-300 Twin Otter,Basler BT-67,Beechcraft King Air B200,Beechcraft 99,Beechcraft King Air 90,Douglas DC-3"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2011)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="1" late="25"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="0" late="1"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Basler BT-67" early="0" late="7"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1972) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="1" late="6"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air 90" early="0" late="1"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1970) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 99" early="1" late="2"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="YRB" destination2="YGZ" />
+	        </routes>
+</airline>

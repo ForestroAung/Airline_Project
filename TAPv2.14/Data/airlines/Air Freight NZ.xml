@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Freight NZ" iata="AFN" color="Yellow" area="252" CEO="William Olsen" mentality="Safe" market="Domestic" preferedairport="AKL" routefocus="Cargo">
+  <narrative narrative="Air Freight NZ is a domestic cargo carrier in New Zealand. It flies from Auckland to Christchurch and Palmerston North, and between CHC and PMR. It had five Convair's at June 2014. All
+  580 upgrades of the original 240's and 440's. It also does domestic charters. Freightways Express is its owner. It started in July 1989."/>
+</profile>
+  <info real="True" from="1989" to="2199" />
+  <prefereds aircrafts="Convair 440,Convair 240"></prefereds>
+            	      <!--the airliners the airline would start with which isn't on a route earyl (1989) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Convair 440" early="5" late="5"></airliner>
+	     </airliners>   
+               <routes>
+	          <route destination1="AKL" destination2="CHC"   />
+                  <route destination1="AKL" destination2="PMR"   />
+		  <route destination1="CHC" destination2="PMR"   />
+		 		        </routes>
+
+
+
+
+</airline>

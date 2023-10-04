@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Boeing Clipper-->
+<configurations>
+<configuration type="Boeing Clipper" economy="-1" premium="0" first="16" business="0" exitrows="300" emergencyrows="-1" toiletrows="200" kitchenrows="1200">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="100" width="52"></seat>
+</seats>
+</configuration>
+<!--Boeing Model-->
+<configuration type="Boeing Model 40A" economy="-1" premium="0" first="2" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing Model 40B" economy="-1" premium="0" first="2" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing Model 80A" economy="-1" premium="0" first="6" business="0" exitrows="470" emergencyrows="-1" toiletrows="470" kitchenrows="470">
+<seats>
+<seat class="First_Class" type="Standard" pitch="78.3" width="45"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 247-->
+<configuration type="Boeing 247" economy="-1" premium="0" first="5" business="0" exitrows="400" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="46"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 307-->
+<configuration type="Boeing 307 Stratoliner" economy="-1" premium="0" first="10" business="0" exitrows="950" emergencyrows="-1" toiletrows="0,950" kitchenrows="950">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="95" width="67.5"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 377-->
+<configuration type="Boeing 377 Stratocruiser" economy="-1" premium="0" first="22" business="0" exitrows="1563" emergencyrows="-1" toiletrows="196,2150" kitchenrows="1563">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="97.7" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 707-->
+<configuration type="Boeing 720 (707-020)" economy="-1" premium="0" first="10" business="0" exitrows="0,2090" emergencyrows="-1" toiletrows="0,2090" kitchenrows="0,2090">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 720B (707-020B)" economy="-1" premium="0" first="5" business="0" exitrows="0,2090" emergencyrows="-1" toiletrows="0,2090" kitchenrows="0,2090">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.5" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="90" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 707-120" economy="-1" premium="0" first="4" business="0" exitrows="0,2520" emergencyrows="752,915" toiletrows="0,2520" kitchenrows="0,2520">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 707-120B" economy="-1" premium="0" first="4" business="0" exitrows="0,2520" emergencyrows="752,915" toiletrows="0,2520" kitchenrows="0,2520">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 707-220" economy="-1" premium="0" first="4" business="0" exitrows="0,2600" emergencyrows="752,915" toiletrows="0,2600" kitchenrows="0,2600">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 707-320" economy="-1" premium="0" first="4" business="0" exitrows="0,2680" emergencyrows="752,915" toiletrows="0,2680" kitchenrows="0,2680">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.3" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 707-320B" economy="-1" premium="0" first="4" business="0" exitrows="0,2665" emergencyrows="752,915" toiletrows="0,2665" kitchenrows="0,2665">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.9" width="45.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="106.7" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 717-->
+<configuration type="Boeing 717-200" economy="-1" premium="0" first="0" business="3" exitrows="0" emergencyrows="990,1070" toiletrows="0,1945" kitchenrows="0,1945">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 727-->
+<configuration type="Boeing 727-100" economy="-1" premium="0" first="3" business="0" exitrows="0,1815" emergencyrows="607,849,1010" toiletrows="0,1815" kitchenrows="285,607">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 727-100C" economy="-1" premium="0" first="3" business="0" exitrows="0" emergencyrows="568,810" toiletrows="0,810" kitchenrows="285,568">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 727-200" economy="-1" premium="0" first="3" business="0" exitrows="0,2280" emergencyrows="1090,1251" toiletrows="0,2280" kitchenrows="0,2280">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.8" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 727-200 Adv." economy="-1" premium="0" first="3" business="0" exitrows="0,2280" emergencyrows="1090,1251" toiletrows="0,2280" kitchenrows="0,2280">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.5" width="50.8"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 737-->
+<configuration type="Boeing 737-100" economy="-1" premium="0" first="3" business="0" exitrows="0,1525" emergencyrows="700" toiletrows="0,1525" kitchenrows="0,1525">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82.6" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-200" economy="-1" premium="0" first="3" business="0" exitrows="0,1680" emergencyrows="777" toiletrows="0,1680" kitchenrows="0,1680">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-200 Adv." economy="-1" premium="0" first="3" business="0" exitrows="0,1680" emergencyrows="777" toiletrows="0,1680" kitchenrows="0,1680">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-300" economy="-1" premium="0" first="3" business="0" exitrows="0,1905" emergencyrows="852" toiletrows="0,1905" kitchenrows="0,1905">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-400" economy="-1" premium="0" first="3" business="0" exitrows="0,2335" emergencyrows="941,1023" toiletrows="0,2335" kitchenrows="0,2335">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-400M" economy="-1" premium="0" first="2" business="0" exitrows="1370" emergencyrows="0" toiletrows="1370" kitchenrows="1370">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-500" economy="-1" premium="0" first="2" business="0" exitrows="0,1825" emergencyrows="604" toiletrows="0,1825" kitchenrows="0,1825">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="81.7" width="49.3"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-600" economy="-1" premium="0" first="0" business="3" exitrows="0,1805" emergencyrows="733" toiletrows="0,1805" kitchenrows="0,1805">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="91.4" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-700" economy="-1" premium="0" first="0" business="5" exitrows="0,1905" emergencyrows="801" toiletrows="0,1905" kitchenrows="0,1905">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-800" economy="-1" premium="0" first="0" business="5" exitrows="0,2365" emergencyrows="1031,1107" toiletrows="0,2365" kitchenrows="0,2365">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Standard" blocked="True" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-900" economy="-1" premium="0" first="0" business="7" exitrows="0,2440" emergencyrows="1045,1122" toiletrows="0,2440" kitchenrows="0,2440">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737-900ER" economy="-1" premium="0" first="0" business="5" exitrows="0,2635" emergencyrows="1232,1308" toiletrows="0,2635" kitchenrows="0,2635">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.2" width="49.3"></seat>
+<seat class="Business_Class" type="Recliner" pitch="94" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737 MAX 7" economy="-1" premium="0" first="0" business="3" exitrows="0,2075" emergencyrows="870,947" toiletrows="0,2075" kitchenrows="0,2075">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Recliner" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737 MAX 8" economy="-1" premium="0" first="0" business="4" exitrows="0,2290" emergencyrows="870,947" toiletrows="0,2290" kitchenrows="0,2290">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Recliner" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737 MAX 9" economy="-1" premium="0" first="0" business="5" exitrows="0,2650" emergencyrows="954,1031" toiletrows="0,419,2650" kitchenrows="0,2650">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Recliner" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737 MAX 10" economy="-1" premium="0" first="0" business="6" exitrows="0,2790" emergencyrows="1115,1191" toiletrows="0,503,2790" kitchenrows="0,2790">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.5" width="49.3"></seat>
+<seat class="Business_Class" type="Recliner" pitch="83.8" width="49.3"></seat>
+</seats>
+</configuration>
+<configuration type="Boeing 737 MAX 200" economy="-1" premium="0" first="0" business="0" exitrows="0,2435" emergencyrows="936,1012" toiletrows="0,2435" kitchenrows="0,2435">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.6" width="49.3"></seat>
+</seats>
+</configuration>
+
+<!--Boeing 747-->
+<configuration type="Boeing 747-100" economy="-1" premium="0" first="15" business="0" exitrows="420,1050,4265" emergencyrows="1970,2806" toiletrows="-1,420,1970,4265" kitchenrows="-1,1050,2806">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="86.8" width="50.8"></seat><!--333Y-->
+<seat class="First_Class" type="Recliner" pitch="105" width="60"></seat><!--100F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-100B" economy="-1" premium="0" first="15" business="0" exitrows="420,1050,4265" emergencyrows="1970,2806" toiletrows="-1,420,1970,4265" kitchenrows="-1,1050,2806">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84.6" width="50.8"></seat><!--342Y-->
+<seat class="First_Class" type="Recliner" pitch="105" width="60"></seat><!--100F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-100SR" economy="-1" premium="0" first="0" business="0" exitrows="420,1050,4260" emergencyrows="1970,2806" toiletrows="-1,420,1970,4260" kitchenrows="-1,1050,2806">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.7" width="50.8"></seat><!--546Y-->
+</seats>
+</configuration>
+<configuration type="Boeing 747SP" economy="-1" premium="0" first="13" business="0" exitrows="420,840,3330" emergencyrows="2109" toiletrows="-1,420,2109,3330" kitchenrows="-1,420,840,3330">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.3" width="50.8"></seat><!--279Y-->
+<seat class="First_Class" type="Recliner" pitch="105" width="60"></seat><!--84F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-200B" economy="-1" premium="0" first="15" business="0" exitrows="420,1050,4265" emergencyrows="1970,2806" toiletrows="-1,420,1970,4265" kitchenrows="-1,1050,2806">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82.4" width="50.8"></seat><!--351Y-->
+<seat class="First_Class" type="Recliner" pitch="105" width="58.3"></seat><!--105F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-300" economy="-1" premium="0" first="11" business="13" exitrows="-518,460,1196,4265" emergencyrows="2232,3029" toiletrows="-1,460,1196,2232,4265" kitchenrows="-1140,1196,3029,4265">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.7" width="50"></seat><!--380Y-->
+<seat class="Business_Class" type="Recliner" pitch="92" width="60"></seat><!--104J-->
+<seat class="First_Class" type="Recliner" pitch="103.6" width="60"></seat><!--55F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-400" economy="-1" premium="0" first="10" business="10" exitrows="-570,440,880,4260" emergencyrows="2197,3050" toiletrows="-1,440,880,2197,4260" kitchenrows="-1140,880,3050,4260">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.4" width="50"></seat><!--420Y-->
+<seat class="Business_Class" type="Recliner" pitch="88" width="60"></seat><!--80J-->
+<seat class="First_Class" type="Angle Lie-Flat" pitch="114" width="67.8"></seat><!--50F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-400D" economy="-1" premium="0" first="0" business="14" exitrows="-570,440,880,4260" emergencyrows="2232,3029" toiletrows="-1,440,880,2232,4260" kitchenrows="-1140,880,3029,4260">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.7" width="50"></seat><!--570Y-->
+<seat class="Business_Class" type="Recliner" pitch="81.4" width="58.3"></seat><!--84J-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-400M" economy="-1" premium="0" first="10" business="10" exitrows="-570,440,880" emergencyrows="1597,2450" toiletrows="-1,440,880,1597" kitchenrows="-1140,880,2450">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.5" width="50"></seat><!--200-->
+<seat class="Business_Class" type="Recliner" pitch="88" width="60"></seat><!--80J-->
+<seat class="First_Class" type="Angle Lie-Flat" pitch="114" width="67.8"></seat><!--50F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-400ER" economy="-1" premium="0" first="7" business="8" exitrows="-570,440,880,4260" emergencyrows="2197,3050" toiletrows="-1,440,880,2197,4260" kitchenrows="-1140,880,3050,4260">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.4" width="50"></seat><!--420Y-->
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="110" width="67.8"></seat><!--56J-->
+<seat class="First_Class" type="Flat Bed" pitch="162.8" width="78.9"></seat><!--28F-->
+</seats>
+</configuration>
+<configuration type="Boeing 747-8I" economy="-1" premium="4" first="3" business="15" exitrows="-615,748,1870,4460" emergencyrows="2630,3574" toiletrows="-1550,-1,748,1870,2630,4460" kitchenrows="-1550,748,1870,3574">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="50"></seat><!--280Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--32W-->
+<seat class="Business_Class" type="Flat Bed" pitch="187" width="78.9"></seat><!--80J-->
+<seat class="First_Class" type="Open Suites" pitch="205" width="87.5"></seat><!--12F-->
+</seats>
+</configuration>
+
+
+<!--Boeing 757-->
+<configuration type="Boeing 757-200" economy="-1" premium="0" first="6" business="0" exitrows="0,570,2860" emergencyrows="1164,1248" toiletrows="0,570,2860" kitchenrows="0,570,2860">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.9" width="50.8"></seat><!--174Y-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+<configuration type="Boeing 757-300" economy="-1" premium="5" first="0" business="6" exitrows="0,570,3555" emergencyrows="1631,1710,2732" toiletrows="0,570,2732" kitchenrows="0,570,3555">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.3" width="50.8"></seat><!--198Y-->
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="86.3" width="50.8"></seat><!--30W-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+
+<!--Boeing 767-->
+<configuration type="Boeing 767-200" economy="-1" premium="0" first="4" business="0" exitrows="0,2670" emergencyrows="1228" toiletrows="0,1228,2670" kitchenrows="0,1228,2670">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.9" width="50.8"></seat><!--203Y-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+<configuration type="Boeing 767-200ER" economy="-1" premium="0" first="4" business="0" exitrows="0,2670" emergencyrows="1228" toiletrows="0,1228,2670" kitchenrows="0,1228,2670">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.9" width="50.8"></seat><!--203Y-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+<configuration type="Boeing 767-300" economy="-1" premium="0" first="4" business="0" exitrows="0,3150" emergencyrows="1184" toiletrows="0,1184,3150" kitchenrows="0,1184,3150">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.1" width="50.8"></seat><!--245Y-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+<configuration type="Boeing 767-300ER" economy="-1" premium="0" first="4" business="0" exitrows="0,3150" emergencyrows="1184" toiletrows="0,1184,3150" kitchenrows="0,1184,3150">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.1" width="50.8"></seat><!--245Y-->
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat><!--24F-->
+</seats>
+</configuration>
+<configuration type="Boeing 767-400ER" economy="-1" premium="4" first="0" business="6" exitrows="0,1143,3420" emergencyrows="2196" toiletrows="1143,2196,3420" kitchenrows="0,1143,2196,3420">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.4" width="50.8"></seat><!--175Y-->
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="91.4" width="51.7"></seat><!--28W-->
+<seat class="Business_Class" type="Flat Bed" pitch="190.5" width="72.4"></seat><!--30J-->
+</seats>
+</configuration>
+
+<!--Boeing 777-->
+<configuration type="Boeing 777-200" economy="-1" premium="0" first="2" business="8" exitrows="0,590,3620" emergencyrows="2136" toiletrows="0,590,2136,3620" kitchenrows="0,590,3620">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79" width="50.8"></seat><!--288Y-->
+<seat class="Business_Class" type="Recliner" pitch="100" width="60"></seat><!--56J-->
+<seat class="First_Class" type="Angle Lie-Flat" pitch="145" width="67.8"></seat><!--14F-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-200ER" economy="-1" premium="0" first="2" business="8" exitrows="0,590,3620" emergencyrows="2136" toiletrows="0,590,2136,3620" kitchenrows="0,590,3620">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79" width="50.8"></seat><!--288Y-->
+<seat class="Business_Class" type="Recliner" pitch="100" width="60"></seat><!--56J-->
+<seat class="First_Class" type="Angle Lie-Flat" pitch="145" width="67.8"></seat><!--14F-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-200LR" economy="-1" premium="4" first="0" business="10" exitrows="0,790,3620" emergencyrows="2136" toiletrows="0,790,2136,3620" kitchenrows="0,790,2136,3620">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="80.2" width="50.8"></seat><!--144Y-->
+<seat class="Premium_Economy_Class" type="Standard" recline="True" pitch="88.9" width="52"></seat><!--36W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="78.9"></seat><!--60J-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-300" economy="-1" premium="4" first="0" business="7" exitrows="0,1386,4660" emergencyrows="2692,3828" toiletrows="0,1386,2692,4660" kitchenrows="0,1386,3828,4660">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.9" width="50.8"></seat><!--333Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="59.3"></seat><!--32W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="78.9"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-300ER" economy="-1" premium="4" first="0" business="10" exitrows="0,1386,4660" emergencyrows="2692,3828" toiletrows="0,1386,2692,4660" kitchenrows="0,1386,3828,4660">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79" width="47.4"></seat><!--290Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="59.2"></seat><!--32W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="78.9"></seat><!--60J-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-8X" economy="-1" premium="4" first="0" business="7" exitrows="0,1386,3850" emergencyrows="2171,3050" toiletrows="0,1386,2171,3850" kitchenrows="0,1386,3050,3850">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.8" width="50.8"></seat><!--234Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--32W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="78.9"></seat><!--42J-->
+</seats>
+</configuration>
+<configuration type="Boeing 777-9X" economy="-1" premium="4" first="0" business="10" exitrows="0,1386,4990" emergencyrows="2692,3828" toiletrows="0,1386,2692,4990" kitchenrows="0,1386,3828,4990">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.1" width="48.6"></seat><!--340Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="96.5" width="60"></seat><!--32W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="78.9"></seat><!--60J-->
+</seats>
+</configuration>
+
+<!--Boeing 787-->
+<configuration type="Boeing 787-8" economy="-1" premium="4" first="0" business="6" exitrows="0,594,3150" emergencyrows="2112" toiletrows="0,594,2112,3150" kitchenrows="0,594,2112,3150">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76.4" width="50"></seat><!--189Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="88.9" width="50"></seat><!--36W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="75"></seat><!--36J-->
+</seats>
+</configuration>
+<configuration type="Boeing 787-9" economy="-1" premium="5" first="0" business="8" exitrows="0,990,3600" emergencyrows="2435" toiletrows="0,990,2435,3600" kitchenrows="0,990,2435,3600">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.5" width="50"></seat><!--180Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="88.9" width="50"></seat><!--45W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="75"></seat><!--48W-->
+</seats>
+</configuration>
+<configuration type="Boeing 787-10" economy="-1" premium="5" first="0" business="9" exitrows="0,1783,4050" emergencyrows="3120" toiletrows="0,1783,3120,4050" kitchenrows="0,1783,3120,4050">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="79.2" width="50"></seat><!--207Y-->
+<seat class="Premium_Economy_Class" type="Recliner" pitch="88.9" width="50"></seat><!--45W-->
+<seat class="Business_Class" type="Flat Bed" pitch="198.1" width="75"></seat><!--54J-->
+</seats>
+</configuration>
+
+<!--CH-46 Sea Knight-->
+<configuration type="CH-46 Sea Knight" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78" width="50"></seat>
+</seats>
+</configuration>
+
+<!--CH-47 Chinook-->
+<configuration type="CH-47 Chinook" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

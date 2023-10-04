@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Pan Pacific Airlines" iata="8Y" logo="8Y2" color="Blue" area="240" CEO="Donald G.Dee" mentality="Aggressive" market="Global " preferedairport="KLO">
+    <narrative narrative="Pan Pacific Airlines is a full-service airline based in Kalibo of the Philippines. It was established in 1973 under the name Astro Air International. The airline commenced operations on 27 April 2017 with its inaugural flight between Kalibo and Seoul."/>
+   </profile>
+  <info real="True" from="2017" to="2199"/>
+
+	<prefereds aircrafts="Airbus A320-200">
+	</prefereds>
+    
+	<focusairports>
+		<focusairport airport="KLO"/>
+	</focusairports>
+	
+	<startdata>
+	<airliners>
+      <airliner type="Airbus A320-200" early="3" late="0"/>
+	</airliners>
+	<routes>
+        <route destination1="KLO" destination2="CEB"/>
+		<route destination1="KLO" destination2="PUS"/>
+		<route destination1="KLO" destination2="MWX"/>
+		<route destination1="KLO" destination2="ICN"/>
+		</routes>
+	</startdata>  
+</airline>

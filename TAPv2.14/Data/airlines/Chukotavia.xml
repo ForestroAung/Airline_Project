@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Chukotavia" iata="CHK" color="MediumBlue" area="177" CEO="Gennady Aleksandrovich Baibarodov" mentality="Safe" market="Local" preferedairport="DYR">
+    <narrative narrative="Chukotavia is based at Anadyr,Russia in the Chukotka Autonomous Okrug, the eastern most region of Russia. It goes from there to six other Chukotka airports at Egvekinot,Keperveyem,Lavrentiya,
+      Markovo,Pevek and Provideniya. Its shortest route is 232km and the longest is 641. The mean distance among all six is 469.333km's. The airline started in 1996. At November 2012 it had three Antonov 26's, an Antonov 24
+      and two Mil Mi-8 helicopters. It was planning on replacing the helicopters with new DHC-6-400 Twin Otters made by Viking Air from Canada." />
+  </profile>
+   <info real="True" from="1996" to="2199"></info>
+     <prefereds aircrafts="Antonov An-26,Antonov An-24,DHC-6-400 Twin Otter"></prefereds>
+     	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="3" late="3"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DYR" destination2="PWE"    />	
+	    <route destination1="DYR" destination2="PVS"    />	
+	    <route destination1="DYR" destination2="KPW"    />	
+	    <route destination1="DYR" destination2="UHM"    />
+	    <route destination1="DYR" destination2="KVM"    />	
+	    <route destination1="DYR" destination2="UHL"    />	
+                   </routes>
+</airline>

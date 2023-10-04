@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--BAe Jetstream-->
+<configuration type="BAe Jetstream 31" economy="-1" premium="0" first="0" business="0" exitrows="515" emergencyrows="-1" toiletrows="515" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.5" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="BAe Jetstream 41" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="365" toiletrows="730" kitchenrows="730">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="48"></seat>
+</seats>
+</configuration>
+
+<!--BAe ATP-->
+<configuration type="BAe ATP" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="1250" toiletrows="1250" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.1" width="49.5"></seat>
+</seats>
+</configuration>
+
+<!--BAe 146-->
+<configuration type="BAe 146-100" economy="-1" premium="0" first="0" business="0" exitrows="0,1100" emergencyrows="-1" toiletrows="0,1100" kitchenrows="0,1100">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.5" width="48.8"></seat>
+</seats>
+</configuration>
+<configuration type="BAe 146-200" economy="-1" premium="0" first="0" business="0" exitrows="0,1340" emergencyrows="-1" toiletrows="0,1340" kitchenrows="0,1340">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.8" width="48.8"></seat>
+</seats>
+</configuration>
+<configuration type="BAe 146-300" economy="-1" premium="0" first="0" business="0" exitrows="0,1500" emergencyrows="-1" toiletrows="0,1500" kitchenrows="0,1500">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.9" width="48.8"></seat>
+</seats>
+</configuration>
+
+<!--Avro RJ-->
+<configuration type="Avro RJ70" economy="-1" premium="0" first="0" business="2" exitrows="0,1150" emergencyrows="-1" toiletrows="0,1150" kitchenrows="0,1150">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.8" width="48.8"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="82" width="48.8"></seat>
+</seats>
+</configuration>
+<configuration type="Avro RJ85" economy="-1" premium="0" first="0" business="3" exitrows="0,1360" emergencyrows="-1" toiletrows="0,1360" kitchenrows="0,1360">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="48.8"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="82" width="48.8"></seat>
+</seats>
+</configuration>
+<configuration type="Avro RJ100 Avroliner" economy="-1" premium="0" first="0" business="4" exitrows="0,1575" emergencyrows="-1" toiletrows="0,1575" kitchenrows="0,1575">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="48.8"></seat>
+<seat class="Business_Class" type="Standard" recline="True" blocked="True" pitch="82" width="48.8"></seat>
+</seats>
+</configuration>
+</configurations>

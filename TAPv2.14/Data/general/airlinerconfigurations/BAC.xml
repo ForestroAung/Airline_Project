@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--BAC One-Eleven-->
+<configuration type="BAC One-Eleven 200" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="677" toiletrows="1525" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84.7" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="BAC One-Eleven 300" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="677" toiletrows="1525" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84.7" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="BAC One-Eleven 400" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="677" toiletrows="1525" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84.7" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="BAC One-Eleven 475" economy="-1" premium="0" first="5" business="0" exitrows="0" emergencyrows="895,1063" toiletrows="1735" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="84" width="54"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="BAC One-Eleven 500" economy="-1" premium="0" first="7" business="0" exitrows="0" emergencyrows="1076,1240" toiletrows="0,2145" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="82.2" width="54"></seat>
+<seat class="First_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+</configurations>

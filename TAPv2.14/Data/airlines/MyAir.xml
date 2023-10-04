@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="MyAir.com" iata="MYW" color="Red" area="122" CEO="Carlo Bernini" mentality="Moderate" market="Global" preferedairport="BGY">
+  <narrative narrative="MyAir.com was based at Bergamo near Milan,Italy and was around from operations start on December 17th,2004 until July 24th,2009. It also had a hub at Venice and focused heavily on Bari and Brindisi. Around the end it was serving 12 routes from BGY, seven domestic to Palermo,Catania,Olbia,Bari,Naples,Brindisi,Foggia and Reggio and international ones to Istanbul,Turkey Ibiza,Spain Bucharest,Romania Casablanca,Morocco and Marrakech,Morocco. From Venice it was six of the same domestic destinations and Ibiza,Spain Bucharest,Romania Paris Orly,France Barcelona,Spain and the same two in Morocco. It served Ibiza from Bologna. Torino to Brindisi and Foggia was more domestic ones. It also served from Brindisi international to Paris CDG,France Vienna,Austria and Geneva,Switzerland. Bari was served to Genoa and Catania domestic wise also, but internationally it had Athens,Greece Istanbul,Turkey Barcelona and Madrid,Spain Paris CDG,France Amsterdam,Netherlands Brussels,Belgium and Bucharest,Romania. Bucharest was also served from Catania and Naples. Foggia also served Geneva. Rimini has routes to Bucharest,Amsterdam and  Paris CDG. The airport in Bucharest it served was the smaller Aurel Vlaicu Airport which closed to commericial traffic in 2012, and in Istanbul it served the smaller Sabiha Gokcen and not Ataturk. Its fleet at the end was about 4 or 5 A320-200's and four Bombardier CRJ900's. It had fifteen CRJ1000's on order at the time of closing."/>
+</profile>
+  <info real="True" from="2004" to="2010" />
+  <prefereds aircrafts="Airbus A320-200,Bombardier CRJ900"></prefereds>
+       <focusairports>
+		 <focusairport airport="VCE"></focusairport>
+		 <focusairport airport="BRI"></focusairport>
+		 <focusairport airport="BDS"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2009)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="4" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	         <airliners>
+	    <airliner type="Bombardier CRJ900" early="4" late="4"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="BGY" destination2="PMO"  />
+		<route destination1="BGY" destination2="CTA"  />
+		<route destination1="BGY" destination2="OLB" />
+		<route destination1="BGY" destination2="BRI"  />
+		<route destination1="BGY" destination2="NAP"  />
+		<route destination1="BGY" destination2="BDS"  />
+		<route destination1="BGY" destination2="REG"  />
+		<route destination1="BGY" destination2="SAW"  />
+		<route destination1="BGY" destination2="IBZ"  />
+		<route destination1="BGY" destination2="CMN"  />
+		<route destination1="BGY" destination2="RAK"  />
+		<route destination1="BGY" destination2="BBU"  />
+		<route destination1="VCE" destination2="PMO"  />
+		<route destination1="VCE" destination2="CTA"  />
+		<route destination1="VCE" destination2="OLB"  />
+		<route destination1="VCE" destination2="BDS" />
+		<route destination1="VCE" destination2="BRI" />
+		<route destination1="VCE" destination2="IBZ" />
+		<route destination1="VCE" destination2="ORY" />
+		<route destination1="VCE" destination2="CMN" />
+		<route destination1="VCE" destination2="RAK" />
+		<route destination1="VCE" destination2="BCN" />
+		<route destination1="VCE" destination2="BBU" />
+		<route destination1="BLQ" destination2="IBZ" />
+		<route destination1="TRN" destination2="BDS" />
+		<route destination1="GOA" destination2="BRI" />
+		<route destination1="NAP" destination2="BBU" />
+		<route destination1="CTA" destination2="BBU" />
+		<route destination1="BRI" destination2="ATH" />
+		<route destination1="BDS" destination2="CDG" />
+		<route destination1="BDS" destination2="VIE" />
+		<route destination1="BDS" destination2="GVA" />
+		<route destination1="BRI" destination2="CTA" />
+		<route destination1="BRI" destination2="SAW" />
+		<route destination1="BRI" destination2="BCN" />
+		<route destination1="BRI" destination2="MAD" />
+		<route destination1="BRI" destination2="CDG" />
+		<route destination1="BRI" destination2="AMS" />
+		<route destination1="BRI" destination2="BRU" />
+		<route destination1="BRI" destination2="BBU" />
+	        </routes>
+
+
+
+
+</airline>

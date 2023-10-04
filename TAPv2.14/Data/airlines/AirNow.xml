@@ -1,0 +1,16 @@
+﻿<airline>
+  <profile name="AirNow" iata="RLR" color="SpringGreen" area="402" CEO="David Corey" mentality="Safe" market="Domestic" preferedairport="BUF"  routefocus="Cargo">
+    <narrative narrative="AirNow was a cargo airline that operated from 1957 to February 2011. Its hub was in Bennington,Vermont at William H. Morse State Airport with many of its cargo operations taking place out of Buffalo,New York and Albany,NY. It flew on behalf of UPS most of its life and the reason it shut down was
+    because UPS pulled its contract from AirNow. Besides New York and Vermont it flew to Maine,Pennsylvania,North Carolina,South Carolina, and Florida. It had 30 employees at the end. Its fleet had five Cessna 208's and twelve Embraer 110 Bandairantes at the end. "/>
+  </profile>
+    <info real="True" from="1957" to="2011"/>
+           <prefereds aircrafts="Cessna 208B Super Cargomaster,EMB 110 Bandeirante"/>
+	   	   	     	              <focusairports>
+	 <focusairport airport="ALB"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1957) late (2010)-->
+	         <airliners>
+	    <airliner type="Cessna 208B Super Cargomaster" early="0" late="5"></airliner>
+	    <airliner type="EMB 110 Bandeirante" early="0" late="12"></airliner>
+	     </airliners>
+</airline>

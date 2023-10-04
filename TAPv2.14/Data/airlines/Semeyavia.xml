@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Semeyavia" iata="SMK" color="Red" area="200" CEO="Unknown" mentality="Safe" market="Domestic" preferedairport="PLX"> 
+  <narrative narrative="Semeyavia was a domestic Kazakhstan airline based at Semey in the northeast of Kazakhstan near the Russian border. It operated from around 1991 until July 2013.
+  Its only scheduled route was to the countrys largest city of Almaty which is on the otherside of the country in the extreme south near the Kyrgyzstan border, an 815km/506mi flight. It had two
+  Yak 40's most of its life and from December 2010 to the end had an Embraer 145 to renew its fleet." />
+</profile>
+   <info real="True" from="1991" to="2014"></info>
+   <prefereds aircrafts="Yak-40,Embraer ERJ145 LR"></prefereds>
+       
+  <routes>
+    <route destination1="PLX" destination2="ALA"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Embraer ERJ145 LR" early="1" late="1"></airliner>
+	     </airliners>
+	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="2" late="2"></airliner>
+	     </airliners>
+
+
+</airline>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Paradise International" iata="PRZ" color="MediumBlue" area="246" CEO="Wira Cahaya" mentality="Safe" market="Global" preferedairport="DPS">
+  <narrative narrative="Air Paradise International was around from operations start at February 16,2003 to November 24,2005. It was based at Denpasar,Indonesia on the island of Bali. It began flying wth a route to Perth,Australia. A route to Osaka,Japan opened December 27th,2004. It flew to many other Australian cities besides Perth, it went to Sydney,Melbourne,Brisbane and Adelaide as well. It also served Seoul,South Korea and Tokyo,Japan. It started with one Airbus A310-300. It got an A300-600 and a Boeing 737-800 by the end of 2003. Another A310 was got in November 2004 and another A300 in August 2005. The 737 exited in April 2005. It was thinking of starting up again in March 2007 but this never happened."/>
+</profile>
+  <info real="True" from="2003" to="2006" />
+  <prefereds aircrafts="Airbus A310-300,Airbus A300-600"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-300" early="1" late="2"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600" early="1" late="2"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="DPS" destination2="PER" opened="2003" closed="2199" />
+			  <route destination1="DPS" destination2="SYD" opened="2003" closed="2199" />
+			  <route destination1="DPS" destination2="MEL" opened="2003" closed="2199" />
+			  <route destination1="DPS" destination2="BNE" opened="2003" closed="2199" />
+			  <route destination1="DPS" destination2="ADL" opened="2003" closed="2199" />
+		          <route destination1="DPS" destination2="KIX" opened="2004" closed="2199"  />
+			  <route destination1="DPS" destination2="ICN" opened="2004" closed="2199"  />
+                          <route destination1="DPS" destination2="NRT" opened="2004" closed="2199"  />
+        </routes>
+</airline>

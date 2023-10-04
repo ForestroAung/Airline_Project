@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Wataniya Airways" iata="WAN" color="Purple" area="309" CEO="Abdulsalam al-Bahar" mentality="Moderate" market="Global" preferedairport="KWI">
+  <narrative narrative="Wataniya Airways was an airline based in Kuwait from operations start in January 2009 until March 2011. At March 2011 it was serving Dubai,UAE Istanbul,Turkey
+  Cairo and Sharm el-Sheikh,Egypt Beirut,Lebanon and Vienna,Austria. It had previously also served Bahrain Alexandria,Egypt Athens,Greece Rome,Italy Amman,Jordan Jeddah,Saudi Arabia and Damascus,Syria. It leased 5 A320's
+  to satrt and got three more in 2010. It had all eight at the end. Its planes used dual class seating with Business First and Premium Economy being the options. It also operated from a private terminal at Kuwait Airport
+  being the only commercial airline to do so and the first there also. Its livery was white near the front with the airline name painted near the front and the back was painted purple with the tail featuring the Kuwait Towers."/>
+</profile>
+  <info real="True" from="2009" to="2011" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2009) late (2010)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="5" late="8"></airliner>
+	     </airliners>
+	 	                      <routes>
+                <route destination1="KWI" destination2="DXB"   />
+		<route destination1="KWI" destination2="IST" />
+		<route destination1="KWI" destination2="CAI"  />
+		<route destination1="KWI" destination2="BEY"  />
+		<route destination1="KWI" destination2="SSH"  />
+		<route destination1="KWI" destination2="VIE"  />
+		<route destination1="KWI" destination2="BAH"  />
+		<route destination1="KWI" destination2="JED"  />
+		<route destination1="KWI" destination2="AMM"  />
+		<route destination1="KWI" destination2="FCO"  />
+		<route destination1="KWI" destination2="ATH"  />
+		<route destination1="KWI" destination2="HBE"  />
+		<route destination1="KWI" destination2="DAM"  />
+	        </routes>
+
+
+
+
+</airline>

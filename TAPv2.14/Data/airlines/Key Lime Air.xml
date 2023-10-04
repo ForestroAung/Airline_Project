@@ -1,0 +1,30 @@
+﻿<airline>
+  <profile name="Key Lime Air" iata="LYM" color="LimeGreen" area="402" CEO="Cliff Honeycutt" mentality="Safe" market="Domestic" preferedairport="APA" schedule="Charter" routefocus="Mixed">
+    <narrative narrative="Key Lime Air, which is also doing business as Denver Air Connection, is a mostly charter airline that deals in both passengers and cargo. Its hub is Denver's Centennial Airport with other hubs at Denver's main International Airport and at Denver's Rocky Mountain Metropolitan Airport and
+    Grand Junction, CO. It started doing scheduled passenger service in November 2015 from Denver Intl to Sheridan,Wyoming. In July 2016 it will start serving Riverton,Wyoming as well. It offers charters to most of the west and midwest US while it has official charter service on a regular basis between its hubs in Denver
+    to its Grand Junction one. It carries overnight and express cargo for UPS in Colorado,Wyoming,Nebraska,Kansas and Montana. At January 2016 its passenger aircraft were two Fairchild Metroliners,four Fairchild Dornier 328 Jet's and one Embraer 120. For cargo it uses 27 Fairchild Metroliners and eight Piper Navajo's."/>
+  </profile>
+    <info real="True" from="1997" to="2199"/>
+           <prefereds aircrafts="Fairchild Swearingen Metroliner,PA-31 Navajo,EMB 120 Brasilia,Fairchild-Dornier 328JET"/>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1947) late (1949)-->
+	     	   
+	     	              <focusairports>
+	 <focusairport airport="BJC"></focusairport>
+	 <focusairport airport="DEN"></focusairport>
+	 <focusairport airport="GJT"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1997) late (2010)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="3" late="29"></airliner>
+	    <airliner type="PA-31 Navajo" early="3" late="8"></airliner>
+	    <airliner type="Fairchild-Dornier 328JET" early="0" late="4"></airliner>
+	    <airliner type="EMB 120 Brasilia" early="0" late="1"></airliner>	    
+	     </airliners>
+    	      <routes>  
+	    <route destination1="APA" destination2="GJT"/>
+	    <route destination1="BJC" destination2="GJT"/>
+	    <route destination1="DEN" destination2="SHR" opened="2015" closed="2199" type="Regular"/>
+      <route destination1="DEN" destination2="RIW" opened="2016" closed="2199" type="Regular"/>
+                   </routes>
+           
+</airline>

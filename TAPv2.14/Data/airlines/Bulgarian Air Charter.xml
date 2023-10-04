@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bulgarian Air Charter" iata="H6" color="Lime" area="147" CEO="Filip Mustakov" mentality="Moderate" market="Global" preferedairport="SOF" schedule="Charter">
+  <narrative narrative="Bulgarian Air Charter is based at Sofia,Bulgaria with other bases at Burgas,Varna and Plovdiv. It does mostly all seasonal charters and for the 2015 season is it going from Sofia to 3 destinations all in Greece.
+  From Burgas 29 destinations. Various European destinations mostly in Germany, and ones such as Tel Aviv, Yevevan,Armenia and Kuwait. And from Varna 25 of mostly the same places, only a few different than Burgas. At June 2014
+  its fleet had twelve MD-82's. It has used MD-83's before and when it started in 2000 its fleet was five Tupolev Tu-154's." />
+</profile>
+   <info real="True" from="2000" to="2199"></info>
+   <prefereds aircrafts="MD-82 (DC-9-82),MD-83 (DC-9-83),Tupolev Tu-154M"></prefereds>
+ <focusairports>
+                 <focusairport airport="BOJ"></focusairport>
+		 <focusairport airport="VAR"></focusairport>
+		 <focusairport airport="PDV"></focusairport>
+     </focusairports>
+
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="4" late="12"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="3" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="5" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="SOF" destination2="HER" season="Summer"/>
+		<route destination1="SOF" destination2="RHO" season="Summer"/>
+		<route destination1="SOF" destination2="JTR" season="Summer"/>
+		<route destination1="BOJ" destination2="FRA" season="Summer"/>
+		<route destination1="BOJ" destination2="WAW" season="Summer"/>
+		<route destination1="BOJ" destination2="TXL" season="Summer"/>
+		<route destination1="BOJ" destination2="SXF" season="Summer"/>
+		<route destination1="BOJ" destination2="VIE" season="Summer"/>
+		<route destination1="BOJ" destination2="DUS" season="Summer"/>
+		<route destination1="BOJ" destination2="MUC" season="Summer"/>
+		<route destination1="BOJ" destination2="KTW" season="Summer"/>
+		<route destination1="BOJ" destination2="RIX" season="Summer"/>
+		<route destination1="BOJ" destination2="PRG" season="Summer"/>
+		<route destination1="BOJ" destination2="TLV" season="Summer"/>
+		<route destination1="BOJ" destination2="BTS" season="Summer"/>
+		<route destination1="BOJ" destination2="HAM" season="Summer"/>
+		<route destination1="BOJ" destination2="CGN" season="Summer"/>
+		<route destination1="BOJ" destination2="RZE" season="Summer"/>
+		<route destination1="BOJ" destination2="LEJ" season="Summer"/>
+		<route destination1="BOJ" destination2="STR" season="Summer"/>
+		<route destination1="BOJ" destination2="BSL" season="Summer"/>
+		<route destination1="BOJ" destination2="DEB" season="Summer"/>
+		<route destination1="BOJ" destination2="EVN" season="Summer"/>
+		<route destination1="BOJ" destination2="GRZ" season="Summer"/>
+		<route destination1="BOJ" destination2="DRS" season="Summer"/>
+		<route destination1="BOJ" destination2="NUE" season="Summer"/>
+		<route destination1="BOJ" destination2="KSC" season="Summer"/>
+		<route destination1="BOJ" destination2="FMO" season="Summer"/>
+		<route destination1="BOJ" destination2="PAD" season="Summer"/>
+		<route destination1="BOJ" destination2="SLD" season="Summer"/>
+		<route destination1="BOJ" destination2="TAT" season="Summer"/>
+		<route destination1="BOJ" destination2="KWI" season="Summer"/>
+		<route destination1="VAR" destination2="TXL" season="Summer"/>
+		<route destination1="VAR" destination2="SXF" season="Summer"/>
+		<route destination1="VAR" destination2="WAW" season="Summer"/>
+		<route destination1="VAR" destination2="VIE" season="Summer"/>
+		<route destination1="VAR" destination2="FRA" season="Summer"/>
+		<route destination1="VAR" destination2="ZRH" season="Summer"/>
+		<route destination1="VAR" destination2="TLV" season="Summer"/>
+		<route destination1="VAR" destination2="MUC" season="Summer"/>
+		<route destination1="VAR" destination2="WRO" season="Summer"/>
+		<route destination1="VAR" destination2="TLL" season="Summer"/>
+		<route destination1="VAR" destination2="DUS" season="Summer"/>
+		<route destination1="VAR" destination2="HAM" season="Summer"/>
+		<route destination1="VAR" destination2="STR" season="Summer"/>
+		<route destination1="VAR" destination2="KTW" season="Summer"/>
+		<route destination1="VAR" destination2="BSL" season="Summer"/>
+		<route destination1="VAR" destination2="BTS" season="Summer"/>
+		<route destination1="VAR" destination2="CGN" season="Summer"/>
+		<route destination1="VAR" destination2="HAJ" season="Summer"/>
+		<route destination1="VAR" destination2="DRS" season="Summer"/>
+		<route destination1="VAR" destination2="LEJ" season="Summer"/>
+		<route destination1="VAR" destination2="EVN" season="Summer"/>
+		<route destination1="VAR" destination2="KWI" season="Summer"/>
+		<route destination1="VAR" destination2="ERF" season="Summer"/>
+		<route destination1="VAR" destination2="NUE" season="Summer"/>
+		<route destination1="VAR" destination2="FMO" season="Summer"/>
+
+        </routes>
+  
+
+
+</airline>

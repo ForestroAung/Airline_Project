@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aerolineas Peruanas" iata="PRU" color="Red" area="430" CEO="Donato Trujillo" mentality="Safe" market="Global" preferedairport="LIM">
+  <narrative narrative="Aerolineas Peruanas was the flag carrier of Peru from 1957 to May 1971. In mid 1957 it started with routes to Miami,FL,USA and Santiago,Chile. In 1958 it started Guayaquil,Ecuador and
+  Buenos Aires,Argentina and Tegucigalpa,Honduras. In 1960 to Panama City,Mexico City and a domestic one to Talara. 1962 to Barranquilla,Colombia. 1965 to Rio de Janeiro,Brazil. 1966 to Sao Paulo,Brazil Bogota,Colombia Acapulco,Mexico and Los Angeles,CA,USA. And in 1970 to Paris,France Madrid,Spain London,England La Paz,Bolivia Caracas,Venezuela and Port of Spain,Trinidad and Tobago. From the start the planes it used were Curtiss Commando's, which wrere used to 1970. The Douglas DC-6 type from 1960 to 1966. The Convair Coronado 990 jet from 1963 to the end. The Douglas DC-7 from 1967 to 1970. And the DC-8-50 jet from 1969 to the end. It had partnerships with TAN of Honduras and CEA of Ecuador. Iberia and the government of Peru were planning on taking over APSA but it ceased on May 2,1971."/>
+</profile>
+  <info real="True" from="1957" to="1971" />
+  <prefereds aircrafts="Commando C-46,Douglas DC-8-51,Douglas DC-6,Douglas DC-7,Douglas DC-7C,Convair 990,Convair 990A"></prefereds>
+        <!--the airliners the airline would start with which isn't on a route earyl (1969) late (1970)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-8-51" early="2" late="2"></airliner>
+	     </airliners>  
+               <routes>
+	       	  <route destination1="LIM" destination2="MIA" opened="1957" closed="2199"   />
+		  <route destination1="LIM" destination2="SCL" opened="1957" closed="2199"   />
+	       	  <route destination1="LIM" destination2="EZE" opened="1958" closed="2199"   />
+		  <route destination1="LIM" destination2="GYE" opened="1958" closed="2199"   />
+		  <route destination1="LIM" destination2="PTY" opened="1960" closed="2199"   />
+		  <route destination1="LIM" destination2="MEX" opened="1960" closed="2199"   />
+		  <route destination1="LIM" destination2="TYL" opened="1960" closed="2199"   />
+	          <route destination1="LIM" destination2="GIG" opened="1965" closed="2199"   />
+	          <route destination1="LIM" destination2="BOG" opened="1966" closed="2199"   />
+                  <route destination1="LIM" destination2="LAX" opened="1966" closed="2199"   />
+		  <route destination1="LIM" destination2="MAD" opened="1970" closed="2199"   />
+		  <route destination1="LIM" destination2="CCS" opened="1970" closed="2199"   />
+	          <route destination1="LIM" destination2="LPB" opened="1970" closed="2199"   />
+		 		        </routes>
+
+
+
+
+</airline>

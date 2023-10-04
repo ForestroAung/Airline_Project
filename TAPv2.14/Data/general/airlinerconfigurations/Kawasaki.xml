@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Kawasaki-->
+<!--Ki-->
+<configuration type="Ki-56" economy="0" premium="0" first="-1" business="0" exitrows="520" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74.2" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

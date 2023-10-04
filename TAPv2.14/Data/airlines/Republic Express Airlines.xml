@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Republic Express Airlines" iata="RPH" color="Goldenrod" area="246" CEO="Susilo Wahyu" mentality="Moderate" market="Regional" preferedairport="CGK" routefocus="Cargo">
+  <narrative narrative="Republic Express Airlines is a cargo airline based at Jakarta,Indonesia. It started in 2001. Its owner is the RPX Group, which has been a licencee for FedEx since 1985. From Jarkarta it flies to
+  Kuala Lumpur,Malaysia and Singapore international wise, while domestic wise it goes to Batam,Surabaya,Balikpapan,Pekanbaru,Makassar and Surakarta. At December 2012 it had three 737-200C's." />
+ </profile>
+    <info real="True" from="2001" to="2199" />
+       <prefereds aircrafts="Boeing 737-200C"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200C" early="3" late="3"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="CGK" destination2="KUL"  />	
+	    <route destination1="CGK" destination2="SIN"  />	
+            <route destination1="CGK" destination2="SUB" />	
+	    <route destination1="CGK" destination2="BPN" />	
+	    <route destination1="CGK" destination2="UPG"  />
+            <route destination1="CGK" destination2="SOC"  />
+	    <route destination1="CGK" destination2="BTH"  />
+            <route destination1="BTH" destination2="PKU"  />
+
+              </routes>
+</airline>

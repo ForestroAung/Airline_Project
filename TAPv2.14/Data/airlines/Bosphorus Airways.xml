@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Bosphorus Airways" iata="BSP" color="Maroon" area="143" CEO="Riza Binici" mentality="Safe" market="Global" preferedairport="IST" schedule="Charter">
+  <narrative narrative="Bosphorus Airways was only around from 1992 to 1993, it was a charter airline from Turkey. It used two 737-300's and two 727's. It had planned on using DC-10's before it ceased. One of the causes of the airline closing was effects of the Second Gulf War. A 737 also got impounded a short time for violating embargos on flight into Serbia."/>
+</profile>
+  <info real="True" from="1992" to="1994" />
+  <prefereds aircrafts="Boeing 737-300,Boeing 727-200 Adv.,Boeing 727-200"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="2"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (1992) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="2" late="2"></airliner>
+	     </airliners>
+</airline>

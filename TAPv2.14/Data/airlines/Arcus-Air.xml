@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Arcus-Air" iata="AZE" color="Yellow" area="108" CEO="Steffen Fries" mentality="Safe" market="Regional" preferedairport="MHG" schedule="Charter" routefocus="Mixed"> 
+  <narrative narrative="Arcus-Air is a charter airline that deals in both cargo and passengers that is based at Mannheim,Germany. It was founded in 1973. It can be found throughout Germany and operates many flights out of Frankfurt-Hahn and Saarbruecken, and can be seen at many others like Berlin Schonfeld,
+  Hanover,Stuttgart,Essen,Cologne,Dusseldorf,Baden Baden,Erfurt and Bremen to name some. It also goes all around Europe and has been seen at such places as Zurich and Geneva,Switzerland Innsbruck,Salzburg and Linz,Austria  Amsterdam,Netherlands Krakow,Poland  Budapest,Hungary Malta  London Luton,England
+  Rennes,France Porto,Portugal Santiago,Spain as well the Italian cities of Bergamo,Verona and Treviso. At September 2015 its fleet was made up of four Dornier Do 228's and two Embraer Phenom 100's." />
+</profile>
+   <info real="True" from="1973" to="2199"></info>
+   <prefereds aircrafts="Dornier 228-212,Embraer Phenom 100"></prefereds>
+         <focusairports>
+    <focusairport airport="HHN"></focusairport>
+    <focusairport airport="SCN"></focusairport>
+    <focusairport airport="HAJ"></focusairport>
+    <focusairport airport="ESS"></focusairport>
+    <focusairport airport="SXF"></focusairport>
+    <focusairport airport="ERF"></focusairport>
+    <focusairport airport="FKB"></focusairport>
+    <focusairport airport="CGN"></focusairport>
+    <focusairport airport="DUS"></focusairport>
+    <focusairport airport="STR"></focusairport>
+    <focusairport airport="BRE"></focusairport>
+  </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1973) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="0" late="4"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1973) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Embraer Phenom 100" early="0" late="1"></airliner>
+	     </airliners>
+  </airline>

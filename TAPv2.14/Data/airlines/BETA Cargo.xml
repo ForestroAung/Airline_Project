@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="BETA Cargo" iata="BET" color="MidnightBlue" area="431" CEO="Jose Garcia" mentality="Safe" market="Global" preferedairport="GRU" routefocus="Cargo" schedule="Charter">
+  <narrative narrative="BETA Cargo was a cargo airline based at Sao Paulo,Brazil at Guarulhos Airport. It operated cargo charters internationally in the Americas and domestically. Its name stands for Brasair Transportes Aereos.
+The airline ceased on July 10,2012 after losing its license. As of 2008 it had four DC-8's and in the past it had also used 707's. It started in 1990. "/>
+</profile>
+  <info real="True" from="1990" to="2012" />
+  <prefereds aircrafts="Douglas DC-8-62F,Boeing 707-320C"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2008)-->
+	         <airliners>
+	    <airliner type="Douglas DC-8-62F" early="1" late="4"></airliner>
+	     </airliners>
+
+              <routes>
+                <route destination1="GRU" destination2="MAO"  />	
+	        </routes>
+
+
+
+
+</airline>

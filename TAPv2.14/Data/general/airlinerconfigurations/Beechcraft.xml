@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Beechcraft 1900-->
+<configuration type="Beechcraft 1900C" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="720" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Beechcraft 1900D" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="720" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft 99-->
+<configuration type="Beechcraft 99" economy="-1" premium="0" first="0" business="0" exitrows="435" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Baron-->
+<configuration type="Beechcraft Baron 55" economy="-1" premium="0" first="0" business="0" exitrows="72" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Beechcraft Baron 58" economy="-1" premium="0" first="0" business="0" exitrows="75" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Bonanza-->
+<configuration type="Beechcraft Bonanza" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="72" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Beechcraft Travel Air" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="72" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Duke-->
+<configuration type="Beechcraft Duke" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="73" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft King Air-->
+<configuration type="Beechcraft King Air B200" economy="0" premium="0" first="0" business="-1" exitrows="410" emergencyrows="-1" toiletrows="410" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="102.5" width="56"></seat>
+</seats>
+</configuration>
+<configuration type="Beechcraft King Air 90" economy="0" premium="0" first="-1" business="0" exitrows="220" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="100" width="52"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Model-->
+<configuration type="Beechcraft Model 18" economy="0" premium="0" first="-1" business="0" exitrows="217" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72.5" width="51"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Musketeer-->
+<configuration type="Beechcraft Musketeer" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Beechcraft Duchess" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Premier-->
+<configuration type="Beechcraft Premier I" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="280" kitchenrows="280">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="93.3" width="54"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Queen Air-->
+<configuration type="Beechcraft Queen Air B80" economy="-1" premium="0" first="0" business="0" exitrows="292" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Beechcraft Starship-->
+<configuration type="Beechcraft Starship" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="0" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="54"></seat>
+</seats>
+</configuration>
+
+<!--Hawker-->
+<configuration type="Hawker 400" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="380" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="95" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Hawker 800" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="540" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="135" width="62"></seat>
+</seats>
+</configuration>
+<configuration type="Hawker 1000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="600" kitchenrows="600">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="150" width="62"></seat>
+</seats>
+</configuration>
+<configuration type="Hawker 4000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="700" kitchenrows="0,700">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="140" width="62"></seat>
+</seats>
+</configuration>
+ </configurations>

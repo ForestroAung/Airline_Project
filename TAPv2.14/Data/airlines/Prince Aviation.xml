@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Prince Aviation" iata="PNC" color="Black" area="133" CEO="Slobodan Stricevic" mentality="Moderate" market="Global" preferedairport="BEG" schedule="Charter">
+  <narrative narrative="Prince Aviation is a charter airline based out of Belgrade,Serbia. It uses business jets and business props. Founded in 1989, it began services in 1991 as Prince Air and in 1993 it first flew from Belgrade with its first plane, a Cessna 421 Golden Eagle which would get the nickname Old Betsy. It as of 2014 is the largest VIP airline based in the Balkans and it was also the first. It has operated at more than 300 airports in Europe,North Africa,the Near East and Middle East. It flies to anyplace in Europe normally while select destinations in North Africa and Asia are honored on request. It also has a well renowned flight school and a Part 145 maintenance center which is used mostly for its own planes. As of about May 2015 its fleet had four Cessna Citation 560XL's,a Piper PA-44 Seminole,a Piper PA-34 Seneca,a Cessna Citation Mustang and four Cessna 172's. It has had a Cessna Citation I and Citation II before also." />
+ </profile>
+    <info real="True" from="1991" to="2199" />
+       <prefereds aircrafts="Cessna 560XL,Cessna 421 Golden Eagle,Cessna Citation Mustang,Cessna Citation I,Cessna Citation II,PA-44 Seminole"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 421 Golden Eagle" early="1" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 560XL" early="2" late="4"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="0" late="4"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-44 Seminole" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-34 Seneca" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation Mustang" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation I" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation II" early="1" late="0"></airliner>
+	     </airliners>
+</airline>

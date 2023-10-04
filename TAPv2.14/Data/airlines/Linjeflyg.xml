@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Linjeflyg" iata="LF" logo="LF2" color="Yellow" area="105" CEO="Sven Östling" mentality="Moderate" market="Regional" preferedairport="ARN">
+  <narrative narrative="Linjeflyg was formed in 1957 as a Swedish domestic airline by Swedish airlines Scandinavian Airlines System and Airtaco as well as by newspaper publishers Dagens Nyheter AB and Stockholms-Tidningen AB."/>
+</profile>
+  <info real="True" from="1957" to="1993" />
+      <focusairports>
+      <focusairport airport="BMA"></focusairport>
+     </focusairports>
+  <prefereds aircrafts="Convair 440,Douglas DC-3,Fokker F28-4000"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="0" late="10"></airliner>
+	    	    <airliner type="Boeing 737-300" early="0" late="2"></airliner>
+	    	    	    <airliner type="Convair 440" early="20" late="2"></airliner>
+	    	    	    	    <airliner type="Douglas DC-3" early="14" late="1"></airliner>
+	    	    	    	    	    <airliner type="Fokker F28-4000" early="10" late="8"></airliner>
+	 	     </airliners>
+</airline>

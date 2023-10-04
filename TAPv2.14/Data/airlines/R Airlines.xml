@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="R Airlines" iata="RK" color="SpringGreen" area="234" CEO="Sunan Metharom" mentality="Moderate" market="Regional" preferedairport="DMK" schedule="Charter">
+  <narrative narrative="R Airlines is the operating name of Skyview Airways,its base is Bangkok,Thailand's older airport,Don Mueang Airport. It is a charter airline. It began operation on January 24,2013 with a charter to Gaya,India with Thai monks and Chinese tourists. Macau, one of the Special Administrative Regions of China is also a main destination. In 2014 it began flying domestic to Chiang Mai and Phuket. Gaya,India is still a main destination. Its initial plane was a 737-400, but in 2014 it got rid of it and got an A321-200 and an A320-200. As of June 2014 it still had them and was planning on getting an A340-300 also." />
+ </profile>
+    <info real="True" from="2013" to="2199" />
+       <prefereds aircrafts="Airbus A320-200,Airbus A321-200,Boeing 737-400,Airbus A320neo,Airbus A321neo,Airbus A340-300"></prefereds>
+       <focusairports>
+                 <focusairport airport="CNX"></focusairport>
+		 <focusairport airport="HKT"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="1" late="1"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A340-300" early="1" late="1"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="DMK" destination2="GAY"  opened="2013" closed="2199"   />	
+	    <route destination1="DMK" destination2="MFM"  opened="2013" closed="2199"   />	
+	    <route destination1="DMK" destination2="CNX" opened="2014" closed="2199"  />
+	    <route destination1="DMK" destination2="HKT" opened="2014" closed="2199"  />
+                   </routes>
+</airline>

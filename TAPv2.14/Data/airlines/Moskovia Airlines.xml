@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Moskovia Airlines" iata="GAI" color="SkyBlue" area="177" CEO="Mikhail Alexeev" mentality="Safe" market="Global" preferedairport="DME">
+    <narrative
+      narrative="Moskovia Airlines was around from October 1995 to August 2014 and was based at Moscow Domodedovo. It was called Gromov Air until 2006, and was a subsidiary of Gromov Flight Research Institute. It did cargo only its first five years and started scheduled passenger service in 2000. At December 2013 it was going domestic to Belgorod and Stavropol, but most of its routes were international. These were Berlin Tegel,Germany Munich,Germany Prague,Czech Republic Sarajevo,Bosnia and Herzegovina Tivat,Montenegro Yerevan,Armenia Ganja,Azerbaijian Antalya,Turkey and many in Uzbekistan. In Uzbekistan it served Bukhara,Fergana,Karshi,Namangan,Navoiy and Samarkand. Its fleet at the end was three Antonov 12's, two 737-700's,two Sukhoi Superjet 100-95LR's and on order
+      were three Antonov An-148B's. It leased two 737-800's from 2009 to 2011. Before 2009 it used An-12's,An-24's,Tu-134's,Tu-154's and Yak-40's." />
+  </profile>
+   <info real="True" from="1995" to="2015"></info>
+     <prefereds aircrafts="Sukhoi 100-95LR,Antonov An-12 Passenger,Boeing 737-700,Antonov An-24,Tupolev Tu-154M,Tupolev Tu-134B,Yak-42D"></prefereds>
+     	          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Sukhoi 100-95LR" early="3" late="3"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="2"></airliner>
+	     </airliners>
+	          	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="1"></airliner>
+	     </airliners>
+	           	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="2" late="0"></airliner>
+	     </airliners>
+	     	           	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-12 Passenger" early="3" late="3"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DME" destination2="TXL"    />	
+	    <route destination1="DME" destination2="MUC"    />	
+	    <route destination1="DME" destination2="EVN"    />	
+	    <route destination1="DME" destination2="AYT"    />
+	    <route destination1="DME" destination2="KVD"    />	
+	    <route destination1="DME" destination2="EGO"    />	
+	    <route destination1="DME" destination2="STW"   />
+	    <route destination1="DME" destination2="TIV"    />	
+	    <route destination1="DME" destination2="SKD"    />
+	    <route destination1="DME" destination2="BHK"    />
+	    <route destination1="DME" destination2="FEG"    />
+	    <route destination1="DME" destination2="NVI"    />
+	    <route destination1="DME" destination2="KSQ"    />
+	    <route destination1="DME" destination2="PRG"    />
+	    <route destination1="DME" destination2="SJJ"    />
+                   </routes>
+</airline>

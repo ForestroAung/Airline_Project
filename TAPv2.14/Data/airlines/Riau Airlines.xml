@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Riau Airlines" iata="RIU" color="Purple" area="246" CEO="Teguh Triyanto" mentality="Safe" market="Regional" preferedairport="PKU">
+  <narrative narrative="Riau Airlines was in operation from 2002 to 2012. It was based at Pekanbaru,Indonesia in the province it takes its name, Riau, on the island of Sumatra. At January 2011 it was serving Natuna,Tanjung Pinang,Jakarta Soekarno Hatta,Medan,Batam,Denpasar and an international one to Malacca,Malaysia. It started with one Fokker 50 and it had five by the end of 2006. It had most of them at the end still. It had two Avro RJ 100's from 2008 to 2010. And it had one 737-500 from 2010 to 2011."/>
+</profile>
+  <info real="True" from="2002" to="2012" />
+  <prefereds aircrafts="Fokker 50,Avro RJ100 Avroliner"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="1" late="5"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ100 Avroliner" early="1" late="2"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="1" late="0"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="PKU" destination2="CGK" />
+			  <route destination1="PKU" destination2="MES" />
+			  <route destination1="PKU" destination2="BTH" />
+			  <route destination1="PKU" destination2="MKZ" />
+			  <route destination1="PKU" destination2="TNJ" />
+			  <route destination1="PKU" destination2="NTX" />
+        </routes>
+</airline>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Belgium" iata="KF"  color="Firebrick" area="112" CEO="Niky Terzakis" mentality="Safe" market="Global" preferedairport="CRL" schedule="Charter">
+  <narrative narrative="Air Belgium is a Belgian airline headquartered in Mont-Saint-Guibert and based at Brussels South Charleroi Airport."/>
+   </profile>
+    <info real="True" from="2018" to="2199" />
+       <prefereds aircrafts="Airbus A340-300"></prefereds>
+        <focusairports>
+			       <focusairport airport="CRL"></focusairport>
+     </focusairports>
+	     	         <airliners>
+	    <airliner type="Airbus A340-300" early="4" late="4"></airliner>
+	     </airliners>
+	       <routes>
+	       	<route destination1="CRL" destination2="HKG" opened="2018" closed="2019" airliner="Airbus A340-300"/>
+              </routes>
+</airline>

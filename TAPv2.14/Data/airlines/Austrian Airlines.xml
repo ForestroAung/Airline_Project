@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Austrian Airlines" iata="OS" color="Red" area="120" CEO="Jaan Albrecht" mentality="Aggressive" market="Global" preferedairport="VIE">
+    <narrative
+      narrative="Austrian Airlines is the flag carrier airline of Austria, headquartered in Office Park 2 on the grounds of Vienna International Airport in Schwechat and a subsidiary of Deutsche Lufthansa AG. Since July 1, 2012 all flights are operated by subsidiary Tyrolean Airways under the brand name Austrian. It operates scheduled services to over 130 destinations. Its hub is Vienna International Airport, with a focus city at Innsbruck Airport. It is a member of Star Alliance." />
+  </profile>
+  <info real="True" from="1957" to="2199" />
+  <startdata>
+    <airliners>
+      <airliner type="Vickers Viscount 800" early="6" late="0"></airliner>
+	  <airliner type="Sud Aviation Caravelle I" early="4" late="0"></airliner>
+	  <airliner type="Boeing 707-320" early="0" late="2"></airliner>
+	  <airliner type="Douglas DC-9-30" early="0" late="5"></airliner>
+	  <airliner type="MD DC-9-50" early="0" late="8"></airliner>
+	  <airliner type="MD-81 (DC-9-81)" early="0" late="6"></airliner>
+	  <airliner type="MD-82 (DC-9-82)" early="0" late="8"></airliner>
+	  <airliner type="MD-83 (DC-9-83)" early="0" late="11"></airliner>
+	  <airliner type="MD-87 (DC-9-87)" early="0" late="10"></airliner>
+	  <airliner type="Airbus A310-300" early="0" late="15"></airliner>
+	  <airliner type="Airbus A340-200" early="0" late="7"></airliner>
+	  <airliner type="Airbus A330-200" early="0" late="22"></airliner>
+	  <airliner type="Boeing 737-600" early="0" late="15"></airliner>
+	  <airliner type="Boeing 737-700" early="0" late="13"></airliner>
+	  <airliner type="Boeing 737-800" early="0" late="8"></airliner>
+	  <airliner type="Fokker 50" early="0" late="11"></airliner>
+	  <airliner type="Fokker 70" early="0" late="5"></airliner>
+	  <airliner type="Fokker 100" early="0" late="9"></airliner>
+	  <airliner type="Douglas DC-8-63" early="0" late="12"></airliner>
+	  <airliner type="Bombardier CRJ200" early="0" late="21"></airliner>
+	  <airliner type="Airbus A319-100" early="0" late="7"></airliner>
+      <airliner type="Airbus A320-200" early="0" late="23"></airliner>
+      <airliner type="Airbus A321-100" early="0" late="3"></airliner>
+      <airliner type="Airbus A321-200" early="0" late="3"></airliner>
+	  <airliner type="Boeing 767-300ER" early="0" late="6"></airliner>
+	  <airliner type="Boeing 777-200ER" early="0" late="6"></airliner>
+	  <airliner type="Bombardier Dash 8-400" early="0" late="18"></airliner>
+      <airliner type="Embraer E-195" early="0" late="17"></airliner>
+    </airliners>
+	    <routes>   
+		 <route destination1="VIE" destination2="TIA"/>
+		 <route destination1="VIE" destination2="EVN"/>
+		 <route destination1="VIE" destination2="GRZ"/>
+		 <route destination1="VIE" destination2="INN"/>
+		 <route destination1="VIE" destination2="KLU"/>
+		 <route destination1="VIE" destination2="LNZ"/>
+		 <route destination1="VIE" destination2="SZG"/>
+		 <route destination1="VIE" destination2="MSQ"/>
+		 <route destination1="VIE" destination2="BRU"/>
+		 <route destination1="VIE" destination2="SJJ"/>
+		 <route destination1="VIE" destination2="SOF"/>
+		 <route destination1="VIE" destination2="VAR"/>
+		 <route destination1="VIE" destination2="YYZ"/>
+		 <route destination1="VIE" destination2="PEK"/>
+		 <route destination1="VIE" destination2="PVG"/>
+		 <route destination1="VIE" destination2="ZAG"/>
+		 <route destination1="VIE" destination2="HAV"/>
+		 <route destination1="VIE" destination2="LCA"/>
+		 <route destination1="VIE" destination2="PRG"/>
+		 <route destination1="VIE" destination2="CPH"/>
+		 <route destination1="VIE" destination2="CAI"/>
+		 <route destination1="VIE" destination2="BSL"/>
+		 <route destination1="VIE" destination2="LYS"/>
+		 <route destination1="VIE" destination2="NCE"/>
+		 <route destination1="VIE" destination2="CDG"/>
+		 <route destination1="VIE" destination2="TXL"/>
+		 <route destination1="VIE" destination2="CGN"/>
+		 <route destination1="VIE" destination2="DUS"/>
+		 <route destination1="VIE" destination2="FRA"/>
+		 <route destination1="VIE" destination2="HAM"/>
+		 <route destination1="VIE" destination2="LEJ"/>
+		 <route destination1="VIE" destination2="MUC"/>
+		 <route destination1="VIE" destination2="STR"/>
+		 <route destination1="VIE" destination2="ATH"/>
+		 <route destination1="VIE" destination2="SKG"/>
+		 <route destination1="VIE" destination2="BUD"/>
+		 <route destination1="VIE" destination2="IFN" destination3="SYZ"/>
+		 <route destination1="VIE" destination2="IKA"/>
+		 <route destination1="VIE" destination2="EBL"/>
+		 <route destination1="VIE" destination2="TLV"/>
+		 <route destination1="VIE" destination2="BLQ"/>
+		 <route destination1="VIE" destination2="MXP"/>
+		 <route destination1="VIE" destination2="NAP"/>
+		 <route destination1="VIE" destination2="VCE"/>
+		 <route destination1="VIE" destination2="AMM"/>
+		 <route destination1="VIE" destination2="PRN"/>
+		 <route destination1="VIE" destination2="VNO"/>
+		 <route destination1="VIE" destination2="SKP"/>
+		 <route destination1="VIE" destination2="MLE"/>
+		 <route destination1="VIE" destination2="MRU"/>
+		 <route destination1="VIE" destination2="KIV"/>
+		 <route destination1="VIE" destination2="TGD"/>
+		 <route destination1="VIE" destination2="RAK"/>
+		 <route destination1="VIE" destination2="AMS"/>
+		 <route destination1="VIE" destination2="OSL"/>
+		 <route destination1="VIE" destination2="KRK"/>
+		 <route destination1="VIE" destination2="WAW"/>
+		 <route destination1="VIE" destination2="FNC"/>
+		 <route destination1="VIE" destination2="OTP"/>
+		 <route destination1="VIE" destination2="IAS"/>
+		 <route destination1="VIE" destination2="SBZ"/>
+		 <route destination1="VIE" destination2="KRR"/>
+		 <route destination1="VIE" destination2="DME"/>
+		 <route destination1="VIE" destination2="BEG"/>
+		 <route destination1="VIE" destination2="SEZ"/>
+		 <route destination1="VIE" destination2="BTS"/>
+		 <route destination1="VIE" destination2="KSC"/>
+		 <route destination1="VIE" destination2="FUE"/>
+		 <route destination1="VIE" destination2="LPA"/>
+		 <route destination1="VIE" destination2="TFS"/>
+		 <route destination1="VIE" destination2="CMB"/>
+		 <route destination1="VIE" destination2="ARN"/>
+		 <route destination1="VIE" destination2="GVA"/>
+		 <route destination1="VIE" destination2="ZRH"/>
+		 <route destination1="VIE" destination2="BKK"/>
+		 <route destination1="VIE" destination2="DNK"/>
+		 <route destination1="VIE" destination2="KBP"/>
+		 <route destination1="VIE" destination2="LWO"/>
+		 <route destination1="VIE" destination2="ODS"/>
+		 <route destination1="VIE" destination2="LHR"/>
+		 <route destination1="VIE" destination2="MAN"/>
+		 <route destination1="VIE" destination2="ORD"/>
+		 <route destination1="VIE" destination2="MIA"/>
+		 <route destination1="VIE" destination2="JFK"/>
+		 <route destination1="VIE" destination2="EWR"/>
+		 <route destination1="VIE" destination2="IAD"/>
+		 <route destination1="GRZ" destination2="DUS"/>
+		 <route destination1="GRZ" destination2="FRA"/>
+		 <route destination1="GRZ" destination2="STR"/>
+		 <route destination1="LNZ" destination2="DUS"/>
+		 <route destination1="SZG" destination2="FRA"/>
+		 <route destination1="INN" destination2="FRA"/>
+		 <route destination1="INN" destination2="OSL"/>
+		 <route destination1="INN" destination2="DME"/>
+		 <route destination1="INN" destination2="KBP"/>
+		 <route destination1="INN" destination2="LGW"/>
+		 <route destination1="KIV" destination2="SAW"/>
+		</routes>   
+  </startdata>
+</airline>

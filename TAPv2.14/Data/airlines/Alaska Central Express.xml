@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Alaska Central Express" iata="KO"  color="Blue" area="402" CEO="Steve Melchert" mentality="Safe" market="Domestic"  preferedairport="ANC" routefocus="Cargo" schedule="Business"> 
+  <narrative narrative="Alaska Centreal Express is a cargo airline based at Anchorage that was founded in 1996. As of 2008 it was flying to 21 Alaskan airports from ANC.Twelve of them 6 times a week,seven 3 times and two of them twice a week. At March 2014 its fleet was
+  seven Beechcraft 1900C's." />
+</profile>
+   <info real="True" from="1996" to="2199"></info>
+   <prefereds aircrafts="Beechcraft 1900C"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="3" late="7"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="ANC" destination2="JNU" opened="1996" closed="2199"/>
+                <route destination1="ANC" destination2="BET" opened="1996" closed="2199"/>
+		<route destination1="ANC" destination2="KTN" opened="1996" closed="2199"/>
+		<route destination1="ANC" destination2="PSG" opened="1996" closed="2199"/>
+                <route destination1="ANC" destination2="DUT" opened="1996" closed="2199"/>
+		<route destination1="ANC" destination2="AKN" opened="1997" closed="2199"/>
+		<route destination1="ANC" destination2="SIT" opened="1998" closed="2199"/>
+		<route destination1="ANC" destination2="YAK" opened="1998" closed="2199"/>
+	       <route destination1="ANC" destination2="DLG" opened="1999" closed="2199"/>
+	       <route destination1="ANC" destination2="ADQ" opened="2000" closed="2199"/>
+	       <route destination1="ANC" destination2="CDV" opened="2001" closed="2199"/>
+	       <route destination1="ANC" destination2="WRG" opened="2001" closed="2199"/>
+	        <route destination1="ANC" destination2="ANI" opened="2002" closed="2199"/>
+		<route destination1="ANC" destination2="SDP" opened="2002" closed="2199"/>
+	       <route destination1="ANC" destination2="CDB" opened="2003" closed="2199"/>
+	       <route destination1="ANC" destination2="ILI" opened="2004" closed="2199"/>
+	       <route destination1="ANC" destination2="SNP" opened="2005" closed="2199"/>
+        </routes>
+  
+
+
+</airline>

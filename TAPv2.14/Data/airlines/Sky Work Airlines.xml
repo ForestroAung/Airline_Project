@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sky Work Airlines" iata="SX" color="Chartreuse" area="119" CEO="Rolf Hartleb" mentality="Safe" market="Regional" preferedairport="BRN" >
+  <narrative narrative="Sky Work Airlines is based at Bern,Switzerland. It was founded in 1983 and as of October 2014 it uses five Dornier 328-110's. It had some Bombardier Dash 8-400's from 2008 to 2014.
+  From Bern it goes to many European destinations. These are Vienna,Berlin,Colgne/Bonn,Hamburg,Munich,Amsterdam,Barcelona,Palma de Mallorca and London Southend all year round. In the summer season mostly it goes to
+  Rijeka,Split, and Zadar in Croatia, and Cagliari,Elba,and Olbia in Italy, and Ibiza and Mahon in Spain,and the island of Jersey of the UK,and Figari in France, and lastly Heringsdorf in Germany. All as of April 2013." />
+</profile>
+   <info real="True" from="1983" to="2199"></info>
+   <prefereds aircrafts="Dornier 328-110"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	         <airliners>
+	    <airliner type="Dornier 328-110" early="1" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-400" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+<routes>
+     		<route destination1="BRN" destination2="VIE"   />
+		<route destination1="BRN" destination2="MUC"   />
+		<route destination1="BRN" destination2="TXL"   />
+		<route destination1="BRN" destination2="HAM"   />
+		<route destination1="BRN" destination2="CGN"   />
+		<route destination1="BRN" destination2="AMS"   />
+		<route destination1="BRN" destination2="BCN"   />
+		<route destination1="BRN" destination2="SEN"   />
+		<route destination1="BRN" destination2="PMI"   />
+		<route destination1="BRN" destination2="IBZ"   season="Summer" />
+		<route destination1="BRN" destination2="MAH"   season="Summer" />
+		<route destination1="BRN" destination2="OLB"   season="Summer" />
+		<route destination1="BRN" destination2="JER"   season="Summer" />
+		<route destination1="BRN" destination2="CAG"   season="Summer" />
+		<route destination1="BRN" destination2="SPU"   season="Summer" />
+		<route destination1="BRN" destination2="ZAD"   season="Summer" />
+		<route destination1="BRN" destination2="RJK"   season="Summer" />
+		<route destination1="BRN" destination2="FSC"   season="Summer" />
+
+        </routes>
+  
+
+
+</airline>

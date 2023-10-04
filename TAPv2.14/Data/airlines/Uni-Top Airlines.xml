@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Uni-Top Airlines" iata="UTP" color="Orange" area="209" CEO="Dong Zhou Kuang" mentality="Safe" market="Global" preferedairport="WUH" routefocus="Cargo">
+    <narrative narrative="Uni-Top Airlines is a cargo airline based at Wuhan,China. It began flying in April 2011 to Delhi and Chennai,India. As of early 2015 it is also now serving Tokyo-Narita,Japan and 
+    Luxembourg. It also has plans to serve the domestic airport at Shenzhen. And to Almaty,Kazakhstan Bishkek,Kyrgyzstan and Dubai,UAE. Its initial fleet was three 747-200F's which it still had at March 2015, and it also got an A300-600F
+    in 2014. It plans on getting five more A300-600's." />
+  </profile>
+    <info real="True" from="2011" to="2199" />
+           <prefereds aircrafts="Boeing 747-200F,Airbus A300-600F"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-200F" early="3" late="3"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600F" early="1" late="6"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="WUH" destination2="DEL"    />	
+	    <route destination1="WUH" destination2="MAA"    />	
+	    <route destination1="WUH" destination2="NRT"    />	
+	    <route destination1="WUH" destination2="LUX"    />
+	    <route destination1="WUH" destination2="SZX" opened="2016" closed="2199"    />		
+	    <route destination1="WUH" destination2="ALA" opened="2016" closed="2199"    />
+            <route destination1="WUH" destination2="FRU" opened="2016" closed="2199"    />		
+	    <route destination1="WUH" destination2="DXB" opened="2016" closed="2199"    />	
+                   </routes>
+</airline>

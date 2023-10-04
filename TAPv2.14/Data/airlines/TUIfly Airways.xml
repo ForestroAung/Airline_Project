@@ -1,0 +1,242 @@
+<airline>
+ <profile name="TUIfly Airways" iata="BY" logo="X3" color="Black" area="102" CEO="John Murphy" mentality="Aggressive" market="Global" preferedairport="LTN">
+  <narrative narrative="TUI Airways, formerly Thomson Airways and often referred to as TUI UK, is the world's largest charter airline, offering scheduled and charter flights from the United Kingdom and the Republic of Ireland to destinations in Europe, Africa, Asia and North America. The airline carried 10.9 million passengers in 2016, making it the third-largest UK airline by total passengers, after EasyJet and British Airways."/>
+ </profile>
+  <prefereds aircrafts="Boeing 737-800,Boeing 757-200,Boeing 767-300ER,Boeing 787-8,Boeing 787-9"></prefereds>
+   <info real="True" from="2017" to="2199">
+   </info>
+   <focusairports>
+	<focusairport airport="ABZ"></focusairport>
+	<focusairport airport="BFS"></focusairport>
+	<focusairport airport="BHX"></focusairport>
+	<focusairport airport="BOH"></focusairport>
+	<focusairport airport="CWL"></focusairport>
+	<focusairport airport="DSA"></focusairport>
+	<focusairport airport="EMA"></focusairport>
+	<focusairport airport="EDI"></focusairport>
+	<focusairport airport="EXT"></focusairport>
+	<focusairport airport="GLA"></focusairport>
+	<focusairport airport="LBA"></focusairport>
+	<focusairport airport="LTN"></focusairport>
+	<focusairport airport="STN"></focusairport>
+	<focusairport airport="MAN"></focusairport>
+	<focusairport airport="NCL"></focusairport>
+	<focusairport airport="NWI"></focusairport>
+   </focusairports>
+    <startdata>
+    <airliners>
+     <airliner type="Boeing 737-800" early="5" late="33"></airliner>
+	 <airliner type="Boeing 757-200" early="8" late="14"></airliner>
+	 <airliner type="Boeing 767-300ER" early="0" late="4"></airliner>
+	 <airliner type="Boeing 787-8" early="3" late="9"></airliner>
+	 <airliner type="Boeing 787-9" early="0" late="2"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="ABZ" destination2="TFS"/>
+	  <route destination1="EDI" destination2="INN"/>
+	  <route destination1="EDI" destination2="PFO"/>
+	  <route destination1="EDI" destination2="LPA"/>
+	  <route destination1="EDI" destination2="TFS"/>
+	  <route destination1="EDI" destination2="GVA"/>
+	  <route destination1="GLA" destination2="BGI"/>
+	  <route destination1="GLA" destination2="SID"/>
+	  <route destination1="GLA" destination2="PFO"/>
+	  <route destination1="GLA" destination2="CMF"/>
+	  <route destination1="GLA" destination2="TRN"/>
+	  <route destination1="GLA" destination2="ALC"/>
+	  <route destination1="GLA" destination2="LPA"/>
+	  <route destination1="GLA" destination2="ACE"/>
+	  <route destination1="GLA" destination2="AGP"/>
+	  <route destination1="GLA" destination2="TFS"/>
+	  <route destination1="NCL" destination2="INN"/>
+	  <route destination1="NCL" destination2="PFO"/>
+	  <route destination1="NCL" destination2="TRN"/>
+	  <route destination1="NCL" destination2="MBJ"/>
+	  <route destination1="NCL" destination2="ALC"/>
+	  <route destination1="NCL" destination2="LPA"/>
+	  <route destination1="NCL" destination2="ACE"/>
+	  <route destination1="NCL" destination2="AGP"/>
+	  <route destination1="NCL" destination2="TFS"/>
+	  <route destination1="NCL" destination2="GVA"/>
+	  <route destination1="LBA" destination2="TFS"/>
+	  <route destination1="DSA" destination2="PFO"/>
+	  <route destination1="DSA" destination2="CMF"/>
+	  <route destination1="DSA" destination2="ALC"/>
+	  <route destination1="DSA" destination2="LPA"/>
+	  <route destination1="DSA" destination2="ACE"/>
+	  <route destination1="DSA" destination2="AGP"/>
+	  <route destination1="DSA" destination2="PMI"/>
+	  <route destination1="DSA" destination2="TFS"/>
+	  <route destination1="DUB" destination2="INN"/>
+	  <route destination1="DUB" destination2="CMF"/>
+	  <route destination1="DUB" destination2="TRN"/>
+	  <route destination1="DUB" destination2="LPA"/>
+	  <route destination1="DUB" destination2="ACE"/>
+	  <route destination1="DUB" destination2="TFS"/>
+	  <route destination1="MAN" destination2="INN"/>
+	  <route destination1="MAN" destination2="SZG"/>
+	  <route destination1="MAN" destination2="BGI"/>
+	  <route destination1="MAN" destination2="BVC"/>
+	  <route destination1="MAN" destination2="SID"/>
+	  <route destination1="MAN" destination2="PFO"/>
+	  <route destination1="MAN" destination2="POP"/>
+	  <route destination1="MAN" destination2="PUJ"/>
+	  <route destination1="MAN" destination2="HRG"/>
+	  <route destination1="MAN" destination2="CMF"/>
+	  <route destination1="MAN" destination2="TLS"/>
+	  <route destination1="MAN" destination2="KEF"/>
+	  <route destination1="MAN" destination2="GOI"/>
+	  <route destination1="MAN" destination2="TRN"/>
+	  <route destination1="MAN" destination2="VRN"/>
+	  <route destination1="MAN" destination2="MBJ"/>
+	  <route destination1="MAN" destination2="MLA"/>
+	  <route destination1="MAN" destination2="CUN"/>
+	  <route destination1="MAN" destination2="PVR"/>
+	  <route destination1="MAN" destination2="AGA"/>
+	  <route destination1="MAN" destination2="RAK"/>
+	  <route destination1="MAN" destination2="FNC"/>
+	  <route destination1="MAN" destination2="ALC"/>
+	  <route destination1="MAN" destination2="FUE"/>
+	  <route destination1="MAN" destination2="LPA"/>
+	  <route destination1="MAN" destination2="SPC"/>
+	  <route destination1="MAN" destination2="ACE"/>
+	  <route destination1="MAN" destination2="AGP"/>
+	  <route destination1="MAN" destination2="PMI"/>
+	  <route destination1="MAN" destination2="TFS"/>
+	  <route destination1="MAN" destination2="GVA"/>
+	  <route destination1="NWI" destination2="TFS"/>
+	  <route destination1="EMA" destination2="PFO"/>
+	  <route destination1="EMA" destination2="CMF"/>
+	  <route destination1="EMA" destination2="FNC"/>
+	  <route destination1="EMA" destination2="ALC"/>
+	  <route destination1="EMA" destination2="FUE"/>
+	  <route destination1="EMA" destination2="LPA"/>
+	  <route destination1="EMA" destination2="ACE"/>
+	  <route destination1="EMA" destination2="AGP"/>
+	  <route destination1="EMA" destination2="TFS"/>
+	  <route destination1="BHX" destination2="INN"/>
+	  <route destination1="BHX" destination2="SZG"/>
+	  <route destination1="BHX" destination2="BGI"/>
+	  <route destination1="BHX" destination2="BVC"/>
+	  <route destination1="BHX" destination2="SID"/>
+	  <route destination1="BHX" destination2="PFO"/>
+	  <route destination1="BHX" destination2="HRG"/>
+	  <route destination1="BHX" destination2="CMF"/>
+	  <route destination1="BHX" destination2="GOI"/>
+	  <route destination1="BHX" destination2="TRN"/>
+	  <route destination1="BHX" destination2="VRN"/>
+	  <route destination1="BHX" destination2="MBJ"/>
+	  <route destination1="BHX" destination2="CUN"/>
+	  <route destination1="BHX" destination2="RAK"/>
+	  <route destination1="BHX" destination2="ALC"/>
+	  <route destination1="BHX" destination2="FUE"/>
+	  <route destination1="BHX" destination2="LPA"/>
+	  <route destination1="BHX" destination2="ACE"/>
+	  <route destination1="BHX" destination2="AGP"/>
+	  <route destination1="BHX" destination2="TFS"/>
+	  <route destination1="BHX" destination2="GVA"/>
+	  <route destination1="BHX" destination2="HKT"/>
+	  <route destination1="CWL" destination2="BGI"/>
+	  <route destination1="CWL" destination2="PFO"/>
+	  <route destination1="CWL" destination2="ALC"/>
+	  <route destination1="CWL" destination2="LPA"/>
+	  <route destination1="CWL" destination2="ACE"/>
+	  <route destination1="CWL" destination2="AGP"/>
+	  <route destination1="CWL" destination2="TFS"/>
+	  <route destination1="BRS" destination2="SID"/>
+	  <route destination1="BRS" destination2="PFO"/>
+	  <route destination1="BRS" destination2="HRG"/>
+	  <route destination1="BRS" destination2="CMF"/>
+	  <route destination1="BRS" destination2="TRN"/>
+	  <route destination1="BRS" destination2="VRN"/>
+	  <route destination1="BRS" destination2="FUE"/>
+	  <route destination1="BRS" destination2="LPA"/>
+	  <route destination1="BRS" destination2="ACE"/>
+	  <route destination1="BRS" destination2="AGP"/>
+	  <route destination1="BRS" destination2="TFS"/>
+	  <route destination1="BRS" destination2="GVA"/>
+	  <route destination1="LTN" destination2="FUE"/>
+	  <route destination1="LTN" destination2="LPA"/>
+	  <route destination1="LTN" destination2="ACE"/>
+	  <route destination1="LTN" destination2="TFS"/>
+	  <route destination1="STN" destination2="INN"/>
+	  <route destination1="STN" destination2="PFO"/>
+	  <route destination1="STN" destination2="TRN"/>
+	  <route destination1="STN" destination2="FUE"/>
+	  <route destination1="STN" destination2="LPA"/>
+	  <route destination1="STN" destination2="ACE"/>
+	  <route destination1="STN" destination2="TFS"/>
+	  <route destination1="EXT" destination2="CMF"/>
+	  <route destination1="EXT" destination2="LPA"/>
+	  <route destination1="EXT" destination2="ACE"/>
+	  <route destination1="EXT" destination2="TFS"/>
+	  <route destination1="BOH" destination2="PFO"/>
+	  <route destination1="BOH" destination2="LPA"/>
+	  <route destination1="BOH" destination2="ACE"/>
+	  <route destination1="BOH" destination2="TFS"/>
+	  <route destination1="LGW" destination2="INN"/>
+	  <route destination1="LGW" destination2="SZG"/>
+	  <route destination1="LGW" destination2="BGI"/>
+	  <route destination1="LGW" destination2="BVC"/>
+	  <route destination1="LGW" destination2="SID"/>
+	  <route destination1="LGW" destination2="LIR"/>
+	  <route destination1="LGW" destination2="VRA"/>
+	  <route destination1="LGW" destination2="PFO"/>
+	  <route destination1="LGW" destination2="LRM"/>
+	  <route destination1="LGW" destination2="POP"/>
+	  <route destination1="LGW" destination2="PUJ"/>
+	  <route destination1="LGW" destination2="HRG"/>
+	  <route destination1="LGW" destination2="RMF"/>
+	  <route destination1="LGW" destination2="CMF"/>
+	  <route destination1="LGW" destination2="GNB"/>
+	  <route destination1="LGW" destination2="TLS"/>
+	  <route destination1="LGW" destination2="KEF"/>
+	  <route destination1="LGW" destination2="GOI"/>
+	  <route destination1="LGW" destination2="TRN"/>
+	  <route destination1="LGW" destination2="VRN"/>
+	  <route destination1="LGW" destination2="MBJ"/>
+	  <route destination1="LGW" destination2="MLA"/>
+	  <route destination1="LGW" destination2="MRU"/>
+	  <route destination1="LGW" destination2="CUN"/>
+	  <route destination1="LGW" destination2="PVR"/>
+	  <route destination1="LGW" destination2="AGA"/>
+	  <route destination1="LGW" destination2="RAK"/>
+	  <route destination1="LGW" destination2="FNC"/>
+	  <route destination1="LGW" destination2="UVF"/>
+	  <route destination1="LGW" destination2="ALC"/>
+	  <route destination1="LGW" destination2="FUE"/>
+	  <route destination1="LGW" destination2="LPA"/>
+	  <route destination1="LGW" destination2="SPC"/>
+	  <route destination1="LGW" destination2="ACE"/>
+	  <route destination1="LGW" destination2="AGP"/>
+	  <route destination1="LGW" destination2="PMI"/>
+	  <route destination1="LGW" destination2="TFS"/>
+	  <route destination1="LGW" destination2="GVA"/>
+	  <route destination1="LGW" destination2="KBV"/>
+	  <route destination1="LGW" destination2="HKT"/>
+	  <route destination1="LGW" destination2="PQC"/>
+	  <route destination1="CPH" destination2="PUJ"/>
+	  <route destination1="CPH" destination2="MRU"/>
+	  <route destination1="CPH" destination2="CUN"/>
+	  <route destination1="CPH" destination2="KBV"/>
+	  <route destination1="CPH" destination2="HKT"/>
+	  <route destination1="GOT" destination2="KBV"/>
+	  <route destination1="GOT" destination2="HKT"/>
+	  <route destination1="ARN" destination2="SID"/>
+	  <route destination1="ARN" destination2="PUJ"/>
+	  <route destination1="ARN" destination2="MRU"/>
+	  <route destination1="ARN" destination2="LPA"/>
+	  <route destination1="ARN" destination2="TFS"/>
+	  <route destination1="ARN" destination2="CMB"/>
+	  <route destination1="ARN" destination2="KBV"/>
+	  <route destination1="ARN" destination2="HKT"/>
+	  <route destination1="ARN" destination2="PQC"/>
+	  <route destination1="HEL" destination2="SID"/>
+	  <route destination1="HEL" destination2="KBV"/>
+	  <route destination1="HEL" destination2="HKT"/>
+	  <route destination1="OUL" destination2="KBV" destination3="HKT"/>
+	  <route destination1="LLA" destination2="SID"/>
+	  <route destination1="LLA" destination2="MRU"/>
+     </routes>
+    </startdata>
+</airline>

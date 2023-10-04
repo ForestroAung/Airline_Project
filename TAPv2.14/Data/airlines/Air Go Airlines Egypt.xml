@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Go Airlines Egypt" iata="EO" logo="EO3" color="Gold" area="323" CEO="Dina Sadek" mentality="Moderate" onlyfromhome="True"
+           market="Regional" preferedairport="HBE">
+    <narrative
+      narrative="Air Go Airlines Egypt is an Egyptian Airline which are operating regular and charter flights. " />
+  </profile>
+   <info real="True" from="2013" to="2199"></info>
+   	<prefereds aircrafts="Airbus A320-200">
+	</prefereds>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="0" late="5"></airliner>
+    </airliners>
+  </startdata>
+</airline>

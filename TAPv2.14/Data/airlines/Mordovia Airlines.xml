@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mordovia Airlines" iata="MOD" color="Purple" area="177" CEO="Dimitri Federov" mentality="Safe" market="Domestic" preferedairport="SKX">
+  <narrative narrative="Mordovia Airlines, also called the Saransk Air Enterprise, was around from 1992 to February 2013. It was the Saransk division of Aeroflot before becoming independant. Saransk is the capital
+  of the Mordovia Republic region of Russia. Its last schedule had it going from Saransk to Moscow Domodedovo and seasonally to Sochi. It had five Antonov 24's, and RusLike operated Bombardier CRJ100 and CRJ200's
+  on its behalf as well. Its license was revoked due to violating pilots worktime limits and other safety issues."/>
+</profile>
+  <info real="True" from="1992" to="2013" />
+  <prefereds aircrafts="Antonov An-24"></prefereds> 
+       	      <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="2" late="5"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="SKX" destination2="DME"   />
+	          <route destination1="SKX" destination2="AER" season="Summer"  />
+		 		        </routes>
+
+
+
+
+</airline>

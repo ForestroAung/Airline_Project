@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Best Air" iata="BES" color="Tomato" area="226" CEO="Anonymous" mentality="Safe" market="Regional" preferedairport="DAC"> 
+  <narrative narrative="Best Air was an airline based at Dhaka,Bangladesh from 2007 to 2009. It began with a 737-200 on the domestic route to Chittagong. Then it leased an MD-83 and began international
+  service to places like Dubai,UAE Kuala Lumpur,Malaysia Singapore and Bangkok,Thailand. After it stopped flying in 2009 it attempted to restart in March 2011 after getting a large investment
+  from a company, the plan was to get three new ATR 72's and start domestic flights again. It had also intended to eventually get three A320's an A330 or B777 for long and medium haul routes.
+  The closest it got was with its leased MD-83. And it never restarted after 2009. " />
+</profile>
+   <info real="True" from="2007" to="2009"></info>
+   <prefereds aircrafts="Boeing 737-200 Adv.,MD-83 (DC-9-83)"></prefereds>
+       
+  <routes>
+    <route destination1="DAC" destination2="CGP" opened="2007" closed="2009"/>
+    <route destination1="DAC" destination2="DXB" opened="2007" closed="2009"/>
+     </routes>
+                  	     	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

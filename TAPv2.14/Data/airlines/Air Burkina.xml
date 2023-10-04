@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+	<profile name="Air Burkina" iata="2J" color="Black" area="335" CEO="Abderrahmane Berthé" mentality="Safe" market="Regional" preferedairport="OUA">
+	<narrative narrative="Air Burkina is the national airline of Burkina Faso it runs domestic and regional services." />
+	<info real="true" from="1967" to="2199"></info>
+	
+	<names>
+	<name value="Air Volta" from="1.1.1967 00:00:00"></name>
+	<name value="Air Burkina" from="1.1.1985 00:00:00"> </name>
+	</names>
+	
+	</profile>
+	
+	<airliners>
+		<!--the airliners the airline would start with which isn't on a route early (1978) late (1983)-->
+     		 <airliner type="EMB 110 Bandeirante" early="1" late="0"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (1983) late (2008)-->
+     		 <airliner type="Fokker F28-4000" early="2" late="0"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2001) late (2006)-->
+     		 <airliner type="Fokker F28-2000" early="1" late="0"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2004) late (2010)-->
+     		 <airliner type="Airbus A319-100" early="1" late="2"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2010) late (2015)-->
+     		 <airliner type="Bombardier CRJ200" early="1" late="1"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2015) late (2025)-->
+     		 <airliner type="Embraer E-170" early="0" late="2"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2009) late (2012)-->
+     		 <airliner type="MD-83 (DC-9-83)" early="1" late="0"></airliner>
+     		 
+     		 <!--the airliners the airline would start with which isn't on a route early (2007) late (2018)-->
+     		 <airliner type="MD-87 (DC-9-87)" early="2" late="1"></airliner>
+     		 
+	</airliners>
+	
+	<routes>
+		<route destination1="OUA" destination2="BOY" />
+		<route destination1="OUA" destination2="ABJ" />
+		<route destination1="BOY" destination2="ABJ" />
+	</routes>
+</airline>

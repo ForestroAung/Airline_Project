@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Jet Time" iata="JO" color="RosyBrown" area="107" CEO="Klaus Ren" mentality="Moderate" market="Global"  preferedairport="CPH" routefocus="Mixed" schedule="Charter">
+  <narrative narrative="Jet Time is a charter airline based at Copenhagen,Denmark with other bases at Billund,Denmark and Helsinki,Finland. It also heavily operates out of Stockholm Arlanda,Sweden and Oslo Gardermoen,Norway. It also does cargo. It operates from 5 Danish airports,5 in Sweden,4 in Norway and Helsinki,Finland. It operates to 9 in Greece,6 in Spain,5 in Turkey,3 in Egypt,2 in Austria,2 in Croatia,2 in France,2 in Greenland and one each in Malta,Portugal (the Azores islands),Cyprus,Bulgaria,Italy,Cape Verde,and Jordan. As of early 2015 it was offering 32 routes from Copenhagen,6 from Billund,13 from Stockholm,9 from Oslo,and 3 from Helsinki. As far as availible charters go. It was also wet lease charter on short notice to airlines like SAS,Air Greenland,Blue1,Norwegian Aier Shuttle,etc. It has many corporate users, like sports teams and car companies such as Volkswagen and Mercedes-Benz. The airline was founded in September 2006. At October 2014 its fleet had seven 737-300's,five 737-700's,three 737-400 freighter versions,and ten ATR 72's which operate for SAS in the SAS paint. Two are the ATR 72-500 and eight are the ATR 72-600." />
+</profile>
+   <info real="True" from="2006" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-300,Boeing 737-400,Boeing 737-700,ATR 72-500,ATR 72-600,Boeing 737 MAX 7"></prefereds>
+  
+<focusairports>
+                 <focusairport airport="BLL"></focusairport>
+		 <focusairport airport="ARN"></focusairport>
+		 <focusairport airport="OSL"></focusairport>
+		 <focusairport airport="HEL"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="7"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="5"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-500" early="2" late="2"></airliner>
+	     </airliners>
+	        	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-600" early="8" late="8"></airliner>
+	     </airliners>
+
+
+<routes>
+       	        <route destination1="CPH" destination2="PMI" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="RHO" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="SSH" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="LPA"  routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="AYT" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="MLA" routefocus="Passenger" />
+	        <route destination1="CPH" destination2="TFS" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="HER" routefocus="Passenger"/>
+		<route destination1="CPH" destination2="INN" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="DBV" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="AGP" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="KGS" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="BJV" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="LCA" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="HRG" routefocus="Passenger"/>
+		<route destination1="CPH" destination2="FUE" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="CFU" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="SZG" routefocus="Passenger" />
+		<route destination1="CPH" destination2="CHQ" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="DLM" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="BOJ" routefocus="Passenger"/>
+		<route destination1="CPH" destination2="ACE" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="CMF" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="EFL" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="JSI" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="GNB" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="ADB" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="AQJ" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="SMI" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="RMF" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="GZP" routefocus="Passenger"/>
+	        <route destination1="CPH" destination2="PDL" routefocus="Passenger"/>
+		<route destination1="CPH" destination2="SFJ" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="IBZ" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="TFS" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="LPA" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="ACE" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="AHO" routefocus="Passenger"/>
+	        <route destination1="BLL" destination2="SID" routefocus="Passenger"/>
+	        <route destination1="HEL" destination2="SPU" routefocus="Passenger"/>
+	        <route destination1="HEL" destination2="GZP" routefocus="Passenger"/>
+		<route destination1="HEL" destination2="KVA" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="PMI" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="LCA" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="CTA" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="BOJ" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="BJV"  routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="DLM" routefocus="Passenger"/>
+		<route destination1="OSL" destination2="CFU" routefocus="Passenger"/>
+                <route destination1="OSL" destination2="ADB" routefocus="Passenger"/>
+	        <route destination1="OSL" destination2="CHQ" routefocus="Passenger"/>
+		<route destination1="ARN" destination2="TFS" routefocus="Passenger"/>
+	        <route destination1="ARN" destination2="PMI" routefocus="Passenger"/>
+		<route destination1="ARN" destination2="AYT" routefocus="Passenger"/>
+                <route destination1="ARN" destination2="LPA" routefocus="Passenger"/>
+		<route destination1="ARN" destination2="LCA" routefocus="Passenger"/>
+	        <route destination1="ARN" destination2="HRG" routefocus="Passenger"/>
+                <route destination1="ARN" destination2="SPU" routefocus="Passenger"/>
+		<route destination1="ARN" destination2="FUE" routefocus="Passenger"/>
+	        <route destination1="ARN" destination2="BJV" routefocus="Passenger"/>
+                <route destination1="ARN" destination2="CFU" routefocus="Passenger"/>
+		<route destination1="ARN" destination2="ADB" routefocus="Passenger"/>
+	        <route destination1="ARN" destination2="DLM" routefocus="Passenger"/>
+                <route destination1="ARN" destination2="CHQ" routefocus="Passenger"/>
+
+        </routes>
+ 
+</airline>

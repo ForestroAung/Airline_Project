@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hellenic Airlines" iata="HT" logo="HT2" color="Orange" area="139" CEO="General Tsarpalis" mentality="Safe"
+           market="Regional" preferedairport="ATH">
+    <narrative
+      narrative="Hellenic Airlines, also known as Hellas, was a Greek airline that operated domestic and international airline service from 1947 to 1951. It was absorbed into TAE Greek National Airlines in 1951." />
+  </profile>
+  <info real="True" from="1947" to="1951"></info>
+  <prefereds aircrafts="Douglas DC-3"></prefereds>
+  <startdata>
+  <routes>      
+	<route destination1="ATH" destination2="CIA" destination3="ORY" destination4="GCR" destination5="PIK"/>
+	<route destination1="ATH" destination2="NIC" destination3="TLV" />
+	<route destination1="ATH" destination2="ALY" destination3="CAI" />
+	<route destination1="ATH" destination2="HER" />
+	<route destination1="ATH" destination2="RHO" />
+	<route destination1="ATH" destination2="SKG" />
+	<route destination1="ATH" destination2="KVA" />
+  </routes>
+  </startdata>
+</airline>

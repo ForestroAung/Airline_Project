@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Thomas Cook Airlines Balearics" iata="TBA" color="Yellow" area="117" CEO="Juan Manuel Gallego" mentality="Safe"
+           market="Regional" preferedairport="PMI">
+    <narrative narrative="Thomas Cook Airlines is a newly built airline specificaly for charters." />
+  </profile>
+  <info real="True" from="2017" to="2199" />
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="4" late="4"></airliner>
+    </airliners>
+  </startdata>
+</airline>

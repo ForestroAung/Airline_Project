@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Transavia.com" iata="HV" color="Black" area="111" CEO="Skúli Mogensen" mentality="Safe" market="Global" preferedairport="AMS" businessmodel="LCC">
+  <narrative narrative="The first brainstorming sessions about starting a second charter company in the Netherlands, after Martinair, started in spring 1966, when the American Chalmers Goodlin met with captain Pete Holmes. 'Slick' Goodlin had recently bought the dormant small company Transavia Limburg, based in Maastricht, which had 3 DC6's available. The Dutch Government needed to be approached in order to obtain an operating license for the airline, both in order to be allowed to operate out of Amsterdam Airport, and for these DC6s." />
+    <logos>
+     <logo from="1966" to="1986" path="HV1966-1986"></logo>
+      <logo from="1987" to="1994" path="HV1987-1994"></logo>
+      <logo from="1995" to="2005" path="HV1995-2005"></logo>
+      <logo from="2006" to="2014" path="HV2006-2014"></logo>
+      <logo from="2015" to="2199" path="HV2015-2199"></logo>
+    </logos>
+  </profile>
+ <prefereds aircrafts="Sud Aviation Caravelle 10B,Boeing 737–200, Boeing 737–300,Boeing 757–200,Boeing 737–700,Boeing 737–800"></prefereds>
+ <focusairports>
+  <focusairport airport="EIN"></focusairport>
+  <focusairport airport="RTM"></focusairport>
+ </focusairports>
+  <info real="True" from="1966" to="2199"/>
+    <airliners>
+     <airliner type="Sud Aviation Caravelle 10B" early="15" late="0"></airliner>
+	 <airliner type="Boeing 737–200" early="21" late="0"></airliner>
+	 <airliner type="Boeing 737–300" early="0" late="16"></airliner>
+	 <airliner type="Boeing 757–200" early="0" late="8"></airliner>
+	 <airliner type="Boeing 737–700" early="3" late="8"></airliner>
+	 <airliner type=" Boeing 737–800" early="32" late="65"></airliner>
+    </airliners>
+	 <routes>
+      <route destination1="GRQ" destination2="LPA"/>
+	  <route destination1="GRQ" destination2="ACE"/>
+	  <route destination1="EIN" destination2="INN"/>
+	  <route destination1="EIN" destination2="SZG"/>
+	  <route destination1="EIN" destination2="PRG"/>
+	  <route destination1="EIN" destination2="CPH"/>
+	  <route destination1="EIN" destination2="NCE"/>
+	  <route destination1="EIN" destination2="ATH"/>
+	  <route destination1="EIN" destination2="TLV"/>
+	  <route destination1="EIN" destination2="RAK"/>
+	  <route destination1="EIN" destination2="FAO"/>
+	  <route destination1="EIN" destination2="LIS"/>
+	  <route destination1="EIN" destination2="ALC"/>
+	  <route destination1="EIN" destination2="BCN"/>
+	  <route destination1="EIN" destination2="LPA"/>
+	  <route destination1="EIN" destination2="IBZ"/>
+	  <route destination1="EIN" destination2="ACE"/>
+	  <route destination1="EIN" destination2="AGP"/>
+	  <route destination1="EIN" destination2="PMI"/>
+	  <route destination1="EIN" destination2="SVQ"/>
+	  <route destination1="EIN" destination2="TFS"/>
+	  <route destination1="EIN" destination2="VLC"/>
+	  <route destination1="EIN" destination2="ARN"/>
+	  <route destination1="RTM" destination2="INN"/>
+	  <route destination1="RTM" destination2="SZG"/>
+	  <route destination1="RTM" destination2="VIE"/>
+	  <route destination1="RTM" destination2="EGC"/>
+	  <route destination1="RTM" destination2="CMF"/>
+	  <route destination1="RTM" destination2="GNB"/>
+	  <route destination1="RTM" destination2="BUD"/>
+	  <route destination1="RTM" destination2="FCO"/>
+	  <route destination1="RTM" destination2="VCE"/>
+	  <route destination1="RTM" destination2="AHU"/>
+	  <route destination1="RTM" destination2="FAO"/>
+	  <route destination1="RTM" destination2="LIS"/>
+	  <route destination1="RTM" destination2="ALC"/>
+	  <route destination1="RTM" destination2="BCN"/>
+	  <route destination1="RTM" destination2="LPA"/>
+	  <route destination1="RTM" destination2="AGP"/>
+	  <route destination1="RTM" destination2="TFS"/>
+	  <route destination1="RTM" destination2="VLC"/>
+	  <route destination1="RTM" destination2="GVA"/>
+	  <route destination1="AMS" destination2="TIA"/>
+	  <route destination1="AMS" destination2="INN"/>
+	  <route destination1="AMS" destination2="SZG"/>
+	  <route destination1="AMS" destination2="BOJ" destination3="DXB"/>
+	  <route destination1="AMS" destination2="SOF"/>
+	  <route destination1="AMS" destination2="SID"/>
+	  <route destination1="AMS" destination2="LCA"/>
+	  <route destination1="AMS" destination2="HEL"/>
+	  <route destination1="AMS" destination2="CMF"/>
+	  <route destination1="AMS" destination2="NCE"/>
+	  <route destination1="AMS" destination2="ORY"/>
+	  <route destination1="AMS" destination2="MUC"/>
+	  <route destination1="AMS" destination2="ATH"/>
+	  <route destination1="AMS" destination2="HER"/>
+	  <route destination1="AMS" destination2="SKG"/>
+	  <route destination1="AMS" destination2="TLV"/>
+	  <route destination1="AMS" destination2="BRI"/>
+	  <route destination1="AMS" destination2="CTA"/>
+	  <route destination1="AMS" destination2="NAP"/>
+	  <route destination1="AMS" destination2="OLB"/>
+	  <route destination1="AMS" destination2="PSA"/>
+	  <route destination1="AMS" destination2="VRN"/>
+	  <route destination1="AMS" destination2="AGA"/>
+	  <route destination1="AMS" destination2="CMN"/>
+	  <route destination1="AMS" destination2="RAK"/>
+	  <route destination1="AMS" destination2="KTW"/>
+	  <route destination1="AMS" destination2="FAO"/>
+	  <route destination1="AMS" destination2="FNC"/>
+	  <route destination1="AMS" destination2="LIS"/>
+	  <route destination1="AMS" destination2="OPO"/>
+	  <route destination1="AMS" destination2="BEG"/>
+	  <route destination1="AMS" destination2="LJU"/>
+	  <route destination1="AMS" destination2="ALC"/>
+	  <route destination1="AMS" destination2="BCN"/>
+	  <route destination1="AMS" destination2="FUE"/>
+	  <route destination1="AMS" destination2="LPA"/>
+	  <route destination1="AMS" destination2="IBZ"/>
+	  <route destination1="AMS" destination2="SPC"/>
+	  <route destination1="AMS" destination2="ACE"/>
+	  <route destination1="AMS" destination2="AGP"/>
+	  <route destination1="AMS" destination2="PMI"/>
+	  <route destination1="AMS" destination2="SVQ"/>
+	  <route destination1="AMS" destination2="TFS"/>
+	  <route destination1="AMS" destination2="VLC"/>
+	  <route destination1="AMS" destination2="ZRH"/>
+     </routes>
+</airline>

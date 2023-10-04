@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Sky Shuttle Helicopters" iata="3E" color="LightBlue" area="209" CEO="Cheyenne Chan" mentality="Moderate" market="Local" preferedairport="HHM" routefocus="Helicopter">
+  <narrative narrative="Sky Shuttle Helicopters is a helicopter airline based in Macau, a Special Administrative Region of China, that is lcoated across the Pearl River Delta from Hong Kong and near Shenzhen and Guangzhou also. It flies from the ferry terminal at Macau to the ferry terminal in Hong Kong, and from Macau to the airport at Shenzhen. It uses six AgustaWestland AW139's. It had replaced Sikorsky S-76's in 2009 with those. It traces its roots back to 1988 when East Asia Airlines Limited was founded, that started service between Macau and Hong Kong in 1990. It used two Bell 222's on six flights a day. Helicopters Hong Kong Limited started in 1997 and formed a partnership with East Asia and formed Sky Shuttle. This is also when the S-76's began to be its fleet. The Sky Shuttle Helicopters Limited name came into play in 2008.
+  Other helicopters used had been the Aerospatiale SA 315B Lama,Eurocopter AS350 and Bell 206." />
+ </profile>
+    <info real="True" from="1997" to="2199" />
+       <prefereds aircrafts="AgustaWestland AW139,Sikorsky S-76"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="AgustaWestland AW139" early="6" late="6"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Sikorsky S-76" early="6" late="0"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="HHM" destination2="HHP"  />	
+	    <route destination1="HHM" destination2="SZX" />	
+                   </routes>
+</airline>

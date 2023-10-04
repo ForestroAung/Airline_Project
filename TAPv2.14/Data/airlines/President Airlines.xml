@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="President Airlines" iata="PSD" color="Orange" area="236" CEO="Vibol Dara" mentality="Safe" market="Local" preferedairport="PNH">
+  <narrative narrative="President Airlines was an airline in Cambodia based at Phnom Penh that operated from October 1998 to March 2007. It operated domestic to Siem Reap. It started international flying in 2002 and served Bangkok,Thailand in March 2007. It had an Antonov 24 at the end. It also had a Fokker F27 and Fokker F28-1000 in August 2006. It leased a 737-200 from March 2003 to October 2004."/>
+</profile>
+  <info real="True" from="1998" to="2007" />
+  <prefereds aircrafts="Fokker F27,Fokker F28-1000,Antonov An-24"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Fokker F28-1000" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="PNH" destination2="REP" />
+			  <route destination1="PNH" destination2="DMK" opened="2002" closed="2199" />
+	        </routes>
+</airline>

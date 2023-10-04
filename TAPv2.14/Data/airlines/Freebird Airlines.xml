@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Freebird Airlines" iata="FHY" color="Orange" area="143" CEO="Selim Tukenmez" mentality="Safe" market="Global" preferedairport="IST" schedule="Charter">
+  <narrative narrative="Freebird Airlines is a Turkish charter airline based at Istanbul Ataturk with secondary hubs at Antalya and Dalaman. It began on April 5th,2001 on a flight between IST and Lyon,France. It used three MD-83's to start and got another in 2002. It got its first Airbus A320-200 in 2003 and has nine at July 2015. It got two A321-200's on 2006 but now have one at July 2015. It stopped using the MD-83's by the end of 2005. Besides being charters, it only really offers seasonal ones. At 2015 from Istanbul its seasonal charters were to Amsterdam,Barcelona,Belgrade,Berlin Tegel,Brussels,Budapest,Cologne,Dortmund,Dusseldorf,Frankfurt,Hamburg,Lyon,Madrid,Malaga,Marseille,Milan Malpensa,Munich,Nantes,Oslo,Paris,Prague,Seville,Stockholm,Stuttgart,Toulouse,Vienna,and Zurich. From Antalya it was Amsterdam,Billund,Brussels,Bucharest,Cluj-Napoca,Copenhagen,Debrecen,Dusseldorf,Ercan,Erfurt,Frankfurt,Friedrichshafen,Helsinki,Heviz-Balaton,Leipzig,Munich,Munster,Nuremburg,Oslo,Oulu,Paderborn,Sandefjord,Stuttgart,Timisoara,Tirana,Tuzla,Vaasa,Vienna and Zurich. And from Dalaman it was Aberdeen,Birmingham,Brussels,East Midlands,Kosice,London Gatwick,London Stansted,Paris,and Tel Aviv."/>
+</profile>
+  <info real="True" from="2001" to="2199" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A321-200,Airbus A320neo,Airbus A321neo,MD-83 (DC-9-83)"></prefereds>
+              <focusairports>
+                 <focusairport airport="AYT"></focusairport> 
+		 <focusairport airport="DLM"></focusairport> 
+     </focusairports>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="9"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="2" late="1"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2007)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="4" late="0"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="IST" destination2="LYS" season="Summer" />
+			  <route destination1="IST" destination2="CDG" season="Summer" />
+			  <route destination1="IST" destination2="FRA" season="Summer" />
+			  <route destination1="IST" destination2="MUC" season="Summer" />
+			  <route destination1="IST" destination2="AMS" season="Summer" />
+			  <route destination1="IST" destination2="BRU" season="Summer" />
+			  <route destination1="IST" destination2="MAD" season="Summer" />
+			  <route destination1="IST" destination2="BCN" season="Summer" />
+			  <route destination1="IST" destination2="ZRH" season="Summer" />
+			  <route destination1="IST" destination2="VIE" season="Summer" />
+			  <route destination1="IST" destination2="MXP" season="Summer" />
+			  <route destination1="IST" destination2="TXL" season="Summer" />
+			  <route destination1="IST" destination2="DUS" season="Summer" />
+			  <route destination1="IST" destination2="STR" season="Summer" />
+			  <route destination1="IST" destination2="HAM" season="Summer" />
+			  <route destination1="IST" destination2="CGN" season="Summer" />
+			  <route destination1="IST" destination2="ARN" season="Summer" />
+			  <route destination1="IST" destination2="OSL" season="Summer" />
+			  <route destination1="IST" destination2="PRG" season="Summer" />
+			  <route destination1="IST" destination2="BEG" season="Summer" />
+			  <route destination1="IST" destination2="AGP" season="Summer" />
+			  <route destination1="IST" destination2="TLS" season="Summer" />
+			  <route destination1="IST" destination2="MRS" season="Summer" />
+			  <route destination1="IST" destination2="DTM" season="Summer" />
+			  <route destination1="IST" destination2="SVQ" season="Summer" />
+			  <route destination1="AYT" destination2="DUS" season="Summer" />
+			  <route destination1="AYT" destination2="FRA" season="Summer" />
+			  <route destination1="AYT" destination2="AMS" season="Summer" />
+			  <route destination1="AYT" destination2="ZRH" season="Summer" />
+			  <route destination1="AYT" destination2="VIE" season="Summer" />
+			  <route destination1="AYT" destination2="BRU" season="Summer" />
+			  <route destination1="AYT" destination2="STR" season="Summer" />
+			  <route destination1="AYT" destination2="OSL" season="Summer" />
+			  <route destination1="AYT" destination2="HEL" season="Summer" />
+		          <route destination1="AYT" destination2="MUC" season="Summer" />
+			  <route destination1="AYT" destination2="CPH" season="Summer" />
+			  <route destination1="AYT" destination2="OTP" season="Summer" />
+			  <route destination1="AYT" destination2="LEJ" season="Summer" />
+			  <route destination1="AYT" destination2="NUE" season="Summer" />
+			  <route destination1="AYT" destination2="TIA" season="Summer" />
+			  <route destination1="AYT" destination2="ERF" season="Summer" />
+			  <route destination1="AYT" destination2="DEB" season="Summer" />
+		          <route destination1="AYT" destination2="ECN" season="Summer" />
+			  <route destination1="AYT" destination2="PAD" season="Summer" />
+		          <route destination1="AYT" destination2="BLL" season="Summer" />
+			  <route destination1="AYT" destination2="FDH" season="Summer" />
+			  <route destination1="AYT" destination2="CLJ" season="Summer" />
+			  <route destination1="AYT" destination2="SOB" season="Summer" />
+			  <route destination1="AYT" destination2="TSR" season="Summer" />
+			  <route destination1="AYT" destination2="VAA" season="Summer" />
+			  <route destination1="AYT" destination2="TZL" season="Summer" />
+			  <route destination1="DLM" destination2="LGW" season="Summer" />
+			  <route destination1="DLM" destination2="STN" season="Summer" />
+			  <route destination1="DLM" destination2="EMA" season="Summer" />
+			  <route destination1="DLM" destination2="CDG" season="Summer" />
+			  <route destination1="DLM" destination2="TLV" season="Summer" />
+			  <route destination1="DLM" destination2="BRU" season="Summer" />
+			  <route destination1="DLM" destination2="BHX" season="Summer" />
+			  <route destination1="DLM" destination2="ABZ" season="Summer" />
+			  <route destination1="DLM" destination2="KSC" season="Summer" />
+	        </routes>
+</airline>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Togo" iata="TGA" logo="TGA2" color="SlateBlue" area="337" CEO="Arnaud Larue" mentality="Safe" market="Global" preferedairport="LFW">
+  <narrative narrative="Air Togo was around from 1998 to 2000. It was the country of Togo's flag carrier during this time and flew from the main city of Lome. It flew to Paris,France and other close by African cities like Accra,Ghana Bamako,Mali Cotonou,Benin and Ouagadougou,Burkina Faso in addtion to other domestic airports. It used an Airbus A300B4 most of the time and had an A310-300 for a few months also."/>
+</profile>
+  <info real="True" from="1998" to="2001" />
+  <prefereds aircrafts="Airbus A300B4,Airbus A310-300"></prefereds> 
+       	      <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2000)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300B4" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="LFW" destination2="CDG"  />
+	          <route destination1="LFW" destination2="ACC"   />
+	          <route destination1="LFW" destination2="OUA"  />
+                  <route destination1="LFW" destination2="BKO"  />
+		  <route destination1="LFW" destination2="COO"  />
+		 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="GoJet Airlines" iata="G7" color="LightBlue" area="402" CEO="Hulas Kanodia" mentality="Moderate" market="Regional" preferedairport="ORD">
+  <narrative narrative="GoJet Airlines LLC is a company headquartered in Bridgeton, Missouri, United States. Wholly owned by Trans States Holdings, it has 1670 employees. It operates commuter feeder services under the United Express and Delta Connection names.."/>
+</profile>
+  <info real="True" from="2004" to="2199" />
+  <prefereds aircrafts="Bombardier CRJ700,Bombardier CRJ900"></prefereds> 
+  <focusairports>
+                 <focusairport airport="DEN"></focusairport> 
+		 <focusairport airport="STL"></focusairport> 
+		 <focusairport airport="RDU"></focusairport> 
+		 <focusairport airport="CVG"></focusairport> 
+		 	      </focusairports>
+       	      <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ700" early="5" late="24"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ900" early="3" late="7"></airliner>
+	    </airliners>
+</airline>

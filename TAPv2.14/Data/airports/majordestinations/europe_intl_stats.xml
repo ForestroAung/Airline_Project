@@ -1,0 +1,54 @@
+
+
+<majordestinations>
+  <majordestination airport="CDG">
+    <destinations> ams
+      <destination airport="MAD" pax="2117" />
+      <destination airport="FCO" pax="1744" />
+      <destination airport="BCN" pax="1591" />
+      <destination airport="LIN" pax="1535" />
+      <destination airport="YUL" pax="1233" />
+      <destination airport="CAS" pax="1142" />
+      <destination airport="LIS" pax="1126" />
+      <destination airport="TUN" pax="993" />
+      <destination airport="ALG" pax="952" />
+      <destination airport="HND" pax="869" />
+      <destination airport="TLV" pax="769" />
+      <destination airport="DXB" pax="716" />
+      <destination airport="HKG" pax="601" />
+      <destination airport="GRU" pax="527" />
+      <destination airport="BEY" pax="524" />
+      <destination airport="PVG" pax="512" />
+      <destination airport="GIG" pax="505" />
+      <destination airport="BOG" pax="482" />
+         <destination airport="CAI" pax="418" />
+      <destination airport="MEX" pax="411" cargo="63" />
+      <destination airport="DKR" pax="320" />
+          </destinations>
+  </majordestination>
+<majordestination airport="MAD">
+    <destinations>
+         <destination airport="MEX" pax="488" cargo="75" />
+    </destinations>
+  </majordestination>
+    <majordestination airport="FRA">
+    <destinations>
+       <destination airport="MEX" pax="237" cargo="36" />
+    </destinations>
+  </majordestination>
+      <majordestination airport="OSL">
+    <destinations>
+       <destination airport="BKK" pax="202"/>
+    </destinations>
+  </majordestination>
+     <majordestination airport="UUS">
+    <destinations>
+      <destination airport="HRB" pax="20"  />
+    </destinations>
+  </majordestination>
+        <majordestination airport="VVO">
+    <destinations>
+      <destination airport="HRB" pax="29"  />
+    </destinations>
+  </majordestination>
+</majordestinations>

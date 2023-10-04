@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Express Air Cargo" iata="7A" color="Red" area="320" CEO="Anis Riahi" mentality="Safe" market="Regional" preferedairport="FAE" routefocus="Cargo">
+  <narrative narrative="Express Air Cargo is an airline based in Tunis, Tunisia that was founded in 2015"/>
+</profile>
+  <info real="True" from="2016" to="2199" />
+  <prefereds aircrafts="Boeing 737-300F"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300F" early="1" late="1"></airliner>
+	     </airliners>
+</airline>

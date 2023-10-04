@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kartika Airlines" iata="KAE" color="Yellow" area="246" CEO="Buana Sukarno" mentality="Safe" market="Regional" preferedairport="HLP">
+  <narrative narrative="Kartika Airlines was around from 2001 to 2010. It was based at the smaller of Jakarta's two main airports,Halim Perdanakusuma Airport. It also used the main Jakarta Airport too. At the end it was serving both Jakarta airports, and the domestic airports at Medan,Palembang,Semarang,Yogyakarta and Pangkalan Bun. It had previously served the domestic destinations of Denpasar,Tarakan,Manado,Makassar,Banjarmasin,Balikpapan,Ternate,Surabaya,Pontianak and Palangkaraya and the international ones of Singapore, Kuala Lumpur,Malaysia Ipoh,Malaysia Johor Bharu,Malaysia Penang,Malaysia Hong Kong and Taipei,Taiwan. Its fleet at the end was four 737-500's,two 737-200 Adv.'s,one 737-400 and one MD-83. It had 15 Sukhoi Superjet 100's on order. It started with one 737-200 Adv. The airline was not in operation from November 2004 to June 15,2005 but resumed service."/>
+</profile>
+  <info real="True" from="2001" to="2010" />
+  <prefereds aircrafts="Boeing 737-500,Boeing 737-400,Boeing 737-200 Adv.,MD-83 (DC-9-83)"></prefereds>
+            <focusairports>
+                 <focusairport airport="CGK"></focusairport> 
+     </focusairports>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="3"></airliner>
+	     </airliners>
+	          	               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="0" late="4"></airliner>
+	     </airliners>
+	     	          	               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="0" late="1"></airliner>
+	     </airliners>
+	     	          	               <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2009)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="0" late="1"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="HLP" destination2="MES" />
+	                  <route destination1="HLP" destination2="PLM" />
+			  <route destination1="HLP" destination2="JOG" />
+			  <route destination1="HLP" destination2="SRG" />
+			  <route destination1="HLP" destination2="UPG" />
+	      	          <route destination1="HLP" destination2="BPN" />
+			  <route destination1="HLP" destination2="SUB" />
+			  <route destination1="HLP" destination2="TRK" />
+		          <route destination1="CGK" destination2="PKN" />
+			  <route destination1="CGK" destination2="DPS" />
+			  <route destination1="CGK" destination2="BDJ" />
+			  <route destination1="CGK" destination2="MDC" />
+			  <route destination1="CGK" destination2="TTE" />
+			  <route destination1="CGK" destination2="PNK" />
+			  <route destination1="CGK" destination2="PKY" />
+			  <route destination1="CGK" destination2="SIN" />
+			  <route destination1="CGK" destination2="KUL" />
+			  <route destination1="CGK" destination2="HKG" />
+			  <route destination1="CGK" destination2="TPE" />
+			  <route destination1="CGK" destination2="PEN" />
+        </routes>
+</airline>

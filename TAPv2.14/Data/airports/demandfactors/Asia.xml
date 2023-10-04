@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airports>
+<!--Asia-->
+<!--China-->
+<!--Beijing-->
+<airport iata="PEK">
+<factors>
+<factor type="BusinessNationalArriving" value="15"/>
+<factor type="BusinessNationalDeparting" value="20"/>
+<factor type="BusinessTotalArriving" value="15"/>
+<factor type="BusinessTotalDeparting" value="15"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="10"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="20"/>
+<factor type="HolidayTouristSummerArriving" value="25"/>
+<factor type="HolidayTouristSummerDeparting" value="25"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Chengdu-->
+<airport iata="CTU">
+<factors>
+<factor type="BusinessNationalArriving" value="20"/>
+<factor type="BusinessNationalDeparting" value="20"/>
+<factor type="BusinessTotalArriving" value="20"/>
+<factor type="BusinessTotalDeparting" value="20"/>
+<factor type="CityTouristTotal" value="0"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="0"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="15"/>
+<factor type="HolidayTouristSummerArriving" value="0"/>
+<factor type="HolidayTouristSummerDeparting" value="40"/>
+<factor type="HolidayTouristWinterArriving" value="0"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Chongqing-->
+<airport iata="CKG">
+<factors>
+<factor type="BusinessNationalArriving" value="35"/>
+<factor type="BusinessNationalDeparting" value="35"/>
+<factor type="BusinessTotalArriving" value="10"/>
+<factor type="BusinessTotalDeparting" value="10"/>
+<factor type="CityTouristTotal" value="0"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="5"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="5"/>
+<factor type="HolidayTouristSummerArriving" value="5"/>
+<factor type="HolidayTouristSummerDeparting" value="5"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="5"/>
+</factors>
+</airport>
+
+<!--Guangzhou-->
+<airport iata="CAN">
+<factors>
+<factor type="BusinessNationalArriving" value="10"/>
+<factor type="BusinessNationalDeparting" value="10"/>
+<factor type="BusinessTotalArriving" value="25"/>
+<factor type="BusinessTotalDeparting" value="25"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="10"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="10"/>
+<factor type="HolidayTouristSummerArriving" value="20"/>
+<factor type="HolidayTouristSummerDeparting" value="25"/>
+<factor type="HolidayTouristWinterArriving" value="10"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Hangzhou-->
+<airport iata="HGH">
+<factors>
+<factor type="BusinessNationalArriving" value="30"/>
+<factor type="BusinessNationalDeparting" value="30"/>
+<factor type="BusinessTotalArriving" value="10"/>
+<factor type="BusinessTotalDeparting" value="10"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="5"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="10"/>
+<factor type="HolidayTouristSummerArriving" value="10"/>
+<factor type="HolidayTouristSummerDeparting" value="15"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="5"/>
+</factors>
+</airport>
+
+<!--Kunming-->
+<airport iata="KMG">
+<factors>
+<factor type="BusinessNationalArriving" value="30"/>
+<factor type="BusinessNationalDeparting" value="30"/>
+<factor type="BusinessTotalArriving" value="5"/>
+<factor type="BusinessTotalDeparting" value="5"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="10"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="10"/>
+<factor type="HolidayTouristSummerArriving" value="20"/>
+<factor type="HolidayTouristSummerDeparting" value="30"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Shanghai-->
+<airport iata="PVG">
+<factors>
+<factor type="BusinessNationalArriving" value="5"/>
+<factor type="BusinessNationalDeparting" value="5"/>
+<factor type="BusinessTotalArriving" value="30"/>
+<factor type="BusinessTotalDeparting" value="25"/>
+<factor type="CityTouristTotal" value="10"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="10"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="20"/>
+<factor type="HolidayTouristSummerArriving" value="15"/>
+<factor type="HolidayTouristSummerDeparting" value="20"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<airport iata="SHA">
+<factors>
+<factor type="BusinessNationalArriving" value="20"/>
+<factor type="BusinessNationalDeparting" value="20"/>
+<factor type="BusinessTotalArriving" value="5"/>
+<factor type="BusinessTotalDeparting" value="5"/>
+<factor type="CityTouristTotal" value="15"/>
+<factor type="CityTouristWinter" value="5"/>
+<factor type="HolidayTouristOffSeasonArriving" value="15"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="25"/>
+<factor type="HolidayTouristSummerArriving" value="20"/>
+<factor type="HolidayTouristSummerDeparting" value="30"/>
+<factor type="HolidayTouristWinterArriving" value="10"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Shenzhen-->
+<airport iata="SZX">
+<factors>
+<factor type="BusinessNationalArriving" value="5"/>
+<factor type="BusinessNationalDeparting" value="10"/>
+<factor type="BusinessTotalArriving" value="30"/>
+<factor type="BusinessTotalDeparting" value="30"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="5"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="10"/>
+<factor type="HolidayTouristSummerArriving" value="15"/>
+<factor type="HolidayTouristSummerDeparting" value="25"/>
+<factor type="HolidayTouristWinterArriving" value="5"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Urumqi-->
+<airport iata="URC">
+<factors>
+<factor type="BusinessNationalArriving" value="10"/>
+<factor type="BusinessNationalDeparting" value="45"/>
+<factor type="BusinessTotalArriving" value="10"/>
+<factor type="BusinessTotalDeparting" value="10"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="5"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="15"/>
+<factor type="HolidayTouristSummerArriving" value="10"/>
+<factor type="HolidayTouristSummerDeparting" value="25"/>
+<factor type="HolidayTouristWinterArriving" value="0"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Xi'an-->
+<airport iata="XIY">
+<factors>
+<factor type="BusinessNationalArriving" value="15"/>
+<factor type="BusinessNationalDeparting" value="40"/>
+<factor type="BusinessTotalArriving" value="10"/>
+<factor type="BusinessTotalDeparting" value="10"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="5"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="15"/>
+<factor type="HolidayTouristSummerArriving" value="10"/>
+<factor type="HolidayTouristSummerDeparting" value="25"/>
+<factor type="HolidayTouristWinterArriving" value="0"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+
+<!--Xiamen-->
+<airport iata="XMN">
+<factors>
+<factor type="BusinessNationalArriving" value="20"/>
+<factor type="BusinessNationalDeparting" value="20"/>
+<factor type="BusinessTotalArriving" value="10"/>
+<factor type="BusinessTotalDeparting" value="15"/>
+<factor type="CityTouristTotal" value="5"/>
+<factor type="CityTouristWinter" value="0"/>
+<factor type="HolidayTouristOffSeasonArriving" value="10"/>
+<factor type="HolidayTouristOffSeasonDeparting" value="10"/>
+<factor type="HolidayTouristSummerArriving" value="20"/>
+<factor type="HolidayTouristSummerDeparting" value="45"/>
+<factor type="HolidayTouristWinterArriving" value="10"/>
+<factor type="HolidayTouristWinterDeparting" value="10"/>
+</factors>
+</airport>
+</airports>

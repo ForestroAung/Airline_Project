@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Bristol-->
+<!--Bristol Britannia-->
+<configuration type="Bristol Britannia 310" economy="0" premium="0" first="-1" business="0" exitrows="800" emergencyrows="-1" toiletrows="800" kitchenrows="800">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="86.1" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Bristol Type 170-->
+<configuration type="Bristol Type 170 Wayfarer" economy="0" premium="0" first="-1" business="0" exitrows="592" emergencyrows="-1" toiletrows="740" kitchenrows="740">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Bristol Type 170 Freighter" economy="0" premium="0" first="-1" business="0" exitrows="222" emergencyrows="-1" toiletrows="370" kitchenrows="370">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

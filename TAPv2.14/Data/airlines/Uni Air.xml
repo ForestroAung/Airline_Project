@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Uni Air" iata="B7"  color="Green" area="217" CEO="Peter Chen" mentality="Moderate" market="Regional" preferedairport="TPE"> 
+  <narrative narrative="Uni Air is a subsidiary of EVA Air and is based at Taipei Taoyuan and Taipei Songshan airports with another base at Kaohsiung and a focus city at Taichung. In 1996 EVA bought Makung International Airlines making them Uni Air. In 1998 Uni merged with Taiwan Airways and Grand China Airlines. At February 2015 it was serving 12 domestic airports including the bases,and about 15 or 16 in China. Former destinations include Ho Chi Minh and Hanoi in Vietnam,Kota Kinabalu in Malaysia and Wuhan in China. At January 2013 it had codeshares with of course its parent and Air China,Hainan Airlines,Shandong Airlines,Shezhen Airlines and Xiamen Airlines. At December 2014 it had 12 ATR 72-600's and three MD-90's. It is in the prcoess of replacing the MD-90 series and will get more ATR 72's and some A321's are also planned. In the past it has also had about four  BAe 146-300's and about 12 Bombardier Dash 8-300's and one 200 series." />
+</profile>
+   <info real="True" from="1996" to="2199"></info>
+   <prefereds aircrafts="ATR 72-600,MD-90-30,Airbus A321neo,BAe 146-200,Bombardier Dash 8-300"></prefereds>
+<focusairports>
+                 <focusairport airport="TSA"></focusairport>
+		 <focusairport airport="KHH"></focusairport>
+		 <focusairport airport="RMQ"></focusairport>
+     </focusairports>
+
+<routes>
+                <route destination1="TPE" destination2="SZX" opened="1996" closed="2199"/>
+	        <route destination1="TPE" destination2="TAO" opened="1996" closed="2199"/>
+	        <route destination1="TPE" destination2="NKG" opened="1996" closed="2199"/>
+	        <route destination1="TPE" destination2="FOC" opened="1996" closed="2199"/>
+	        <route destination1="TPE" destination2="CKG" opened="1996" closed="2199"/>
+		<route destination1="TPE" destination2="NGB" opened="1997" closed="2199"/>
+		<route destination1="TPE" destination2="DLC" opened="1997" closed="2199"/>
+	        <route destination1="TPE" destination2="WNZ" opened="1997" closed="2199"/>
+		<route destination1="TPE" destination2="XIY" opened="1997" closed="2199"/>
+		<route destination1="TPE" destination2="SHE" opened="1997" closed="2199"/>
+		<route destination1="TPE" destination2="YNZ" opened="2000" closed="2199"/>
+		<route destination1="TSA" destination2="TTT" opened="1998" closed="2199"/>
+		<route destination1="TSA" destination2="KNH" opened="1998" closed="2199"/>
+		<route destination1="TSA" destination2="MZG" opened="1998" closed="2199"/>
+		<route destination1="TSA" destination2="LZN" opened="1998" closed="2199"/>
+		<route destination1="TSA" destination2="MFK" opened="1998" closed="2199"/>
+		<route destination1="TSA" destination2="HCN" opened="2004" closed="2199"/>
+		<route destination1="TSA" destination2="XMN" opened="1999" closed="2199"/>
+		<route destination1="TSA" destination2="PVG" opened="1999" closed="2199"/>
+		<route destination1="KHH" destination2="FOC" opened="1999" closed="2199"/>
+		<route destination1="KHH" destination2="HGH" opened="1999" closed="2199"/>
+		<route destination1="KHH" destination2="TAO" opened="1999" closed="2199"/>
+		<route destination1="KHH" destination2="SHE" opened="2000" closed="2199"/>
+		<route destination1="KHH" destination2="KMG" opened="2000" closed="2199"/>
+		<route destination1="KHH" destination2="KNH" opened="2000" closed="2199"/>
+		<route destination1="KHH" destination2="MZG" opened="2000" closed="2199"/>
+		<route destination1="RMQ" destination2="CAN" opened="2000" closed="2199"/>
+		<route destination1="RMQ" destination2="SZX" opened="2001" closed="2199"/>
+		<route destination1="RMQ" destination2="XMN" opened="2001" closed="2199"/>
+		<route destination1="RMQ" destination2="HGH" opened="2001" closed="2199"/>
+		<route destination1="RMQ" destination2="CSX" opened="2002" closed="2199"/>
+		<route destination1="RMQ" destination2="NKG" opened="2002" closed="2199"/>
+		<route destination1="RMQ" destination2="KNH" opened="2003" closed="2199"/>
+		<route destination1="RMQ" destination2="MZG" opened="2004" closed="2199"/>
+		<route destination1="RMQ" destination2="LZN" opened="2005" closed="2199"/>
+		<route destination1="TNN" destination2="KNH" opened="2006" closed="2199"/>
+		<route destination1="TNN" destination2="MZG" opened="2007" closed="2199"/>
+	        <route destination1="CYI" destination2="KNH" opened="2008" closed="2199"/>
+		<route destination1="CYI" destination2="MZG" opened="2008" closed="2199"/>
+        </routes>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="ATR 72-600" early="2" late="12"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-90-30" early="13" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2015)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="12" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2011)-->
+	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2003)-->
+	         <airliners>
+	    <airliner type="BAe 146-200" early="4" late="0"></airliner>
+	     </airliners>
+
+
+
+
+
+
+
+</airline>

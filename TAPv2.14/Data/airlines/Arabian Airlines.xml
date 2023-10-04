@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Arabian Airlines" iata="AR" logo="AR1" color="Gold" area="313" CEO="Unknown" mentality="Safe" market="Regional" preferedairport="ADE">
+<narrative narrative=""/>
+</profile>
+
+<info real="True" from="1930" to="1940" />
+</airline>

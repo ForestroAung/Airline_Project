@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Paramount Airways" iata="PMW"  color="DeepPink" area="224" CEO="M. Thiagarajan" mentality="Moderate" market="Domestic" preferedairport="MAA"> 
+  <narrative narrative="Paramount Airways was around from October 2005 when it started flying and ceased in August 2010. Its base was Chennai,India and it served domestic destinations
+  in the southern and eastern parts of India. Its corporate headquarters were in Madurai. It used three Embraer 175s and two Emnraer 170s and were the first Indian airline to use the types.
+  Besides its initial routes, in 2009 it also began servong Kolkata,Guwahati and Agartala in extreme eastern India, the last of those 2 being in the state of Assam which stretches to the other side of Bangladesh as sort of an exclave of India.
+  The company had ordered ten Airbus A321-200's in June 2009 and six Bombardier Dash 8-400's, but none were paid for before the company failed. It tried restarting in May 2013 with six ATR 72-600's but the six Indian
+  banks that had loaned them money asked the Civil Aviation authorities of India not to allow them to fly because of unpaid debts. And in 2016 charges were filed and searches were carried out at the owners residence and offices
+  at seven locations in Madurai and Chennai, the charges being cheating the public banks,diverting loans,and defrauding." />
+</profile>
+   <info real="True" from="2005" to="2011"></info>
+   <prefereds aircrafts="Embraer E-175,Embraer E-170"></prefereds>
+<routes>
+          <route destination1="MAA" destination2="IXM"/>
+          <route destination1="MAA" destination2="COK"/>
+          <route destination1="MAA" destination2="CCJ"/>
+          <route destination1="MAA" destination2="IXE"/>
+          <route destination1="MAA" destination2="VTZ"/>
+          <route destination1="MAA" destination2="CCU" opened="2009" closed="2011"/>
+	        <route destination1="MAA" destination2="IXA" opened="2009" closed="2011"/>
+	        <route destination1="MAA" destination2="GAU" opened="2009" closed="2011"/>
+	        
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Embraer E-170" early="2" late="2"></airliner>
+	     </airliners>
+	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Embraer E-175" early="5" late="5"></airliner>
+	     </airliners>
+
+
+</airline>

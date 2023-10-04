@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aryan Cargo Express" iata="AIC"  color="Orange" area="224" CEO="Rohit Nandan" mentality="Safe" market="Global" preferedairport="DEL" routefocus="Cargo"> 
+  <narrative narrative="Aryan Cargo Express was around for just around a year in 2010. It was a subsidiary of Air India and flew cargo globally and domestically, to places like Frankfurt-Hahn,Germany.
+  It used a single Airbus A310-300F. Its base was Delhi. It is known to have had at least 5 regular destinations." />
+</profile>
+   <info real="True" from="2010" to="2011"></info>
+   <prefereds aircrafts="Airbus A300-600F"></prefereds>
+<routes>
+          <route destination1="DEL" destination2="HHN"/>
+	             </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600F" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

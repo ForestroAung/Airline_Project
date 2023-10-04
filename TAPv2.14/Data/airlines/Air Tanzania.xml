@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+	<profile name="Air Tanzania" iata="TC" color="darkblue" area="362" CEO="Lusajo Lazaro" mentality="Safe" market="Regional" preferedairport="DAR" >
+	<narrative narrative="Air Tanzania is the flag carrier of Tanzania, it is restructed after bankruptcy in 2002 but the company is started in 1977 after the dissolution of Eastern African Airways.">
+	</narrative>
+	</profile>
+	<info real="true" from="1977" to="2199"></info>
+	<logos>
+		<logo from="1977" to="2002" path="TC (1977-2002)"></logo>
+		<logo from="2002" to ="2199" path="TC (2002-)"></logo>
+	</logos>
+	
+	<airliners>
+	
+		<!--the airliners the airline would start with which isn't on a route early (2004) late (2020)-->
+      		 <airliner type="Bombardier Dash 8-300" early="2" late="1"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (2014) late (2024)-->
+      		 <airliner type="Bombardier CRJ100" early="0" late="1"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (2014) late (2024)-->
+      		 <airliner type="Bombardier CRJ200" early="0" late="1"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (1977) late (2008)-->
+      		 <airliner type="Boeing 737-200Adv." early="2" late="0"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (2002) late (2010)-->
+      		 <airliner type="Boeing 737-200" early="2" late="0"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (2007) late (2009)-->
+      		 <airliner type="Airbus A320-200" early="1" late="0"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (1977) late (1994)-->
+      		 <airliner type="DHC-6-300 Twin Otter " early="4" late="0"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (1977) late (2002)-->
+      		 <airliner type="Fokker F27" early="5" late="0"></airliner>
+      		 
+      		 <!--the airliners the airline would start with which isn't on a route early (2002) late (2007)-->
+      		 <airliner type="Fokker F28-4000" early="2" late="0"></airliner>
+      		</airliners>
+      		
+      		<routes>
+      			<route destination1="DAR" destination2="TKQ" opened="1977" closed="2199" />
+      			<route destination1="DAR" destination2="MYW" opened="1977" closed="2199" />
+      			<route destination1="DAR" destination2="HAH" opened="1977" closed="2199" />
+      			<route destination1="TKQ" destination2="MYW" opened="1977" closed="2199" />
+      			<route destination1="DAR" destination2="TNR" opened="1977" closed="2002" />
+      			<route destination1="DAR" destination2="LGW" opened="1977" closed="1998" />
+      		</routes>
+</airline>

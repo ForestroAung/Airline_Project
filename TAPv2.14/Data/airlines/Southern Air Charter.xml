@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Southern Air Charter" iata="SOA"  color="DarkGreen" area="412" CEO="Nathaniel Gibbs" mentality="Safe" market="Regional" preferedairport="NAS">
+  <narrative narrative="Southern Air Charter is based at Nassau in the Bahama's. It started in 1998. As of March 2015 ot flies scheduled domestic service to four destinations at Deadman's Cay,Governor's Harbour,Long Island and North Eleuthera. It also was offering charters to 13 other domestic airports and international ones to Ft. Lauderdale,Florida,USA Havana,Cuba Port-au-Prince,Haiti and Cap-Haitien,Haiti. It has operated to the Dominican Republic and the Turks and Caicos also. It has two Beechcraft 1900's."/>
+   </profile>
+    <info real="True" from="1998" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D,Beechcraft 1900C"></prefereds>
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="2" late="2"></airliner>
+	     </airliners>
+
+
+	       <routes>
+	    	<route destination1="NAS" destination2="ELH"  opened="1998" closed="2199"  />
+	        <route destination1="NAS" destination2="LGI"  opened="2002" closed="2199"  />
+		<route destination1="NAS" destination2="GHB"  opened="1998" closed="2199"  />
+		<route destination1="NAS" destination2="SML"  opened="2004" closed="2199"  />
+		<route destination1="NAS" destination2="RSD" type="Charter"  />
+		<route destination1="NAS" destination2="GGT" type="Charter"  />
+		<route destination1="NAS" destination2="FPO" type="Charter"  />
+		<route destination1="NAS" destination2="MHH" type="Charter"  />
+		<route destination1="NAS" destination2="TBI" type="Charter"  />
+		<route destination1="NAS" destination2="SAQ" type="Charter"  />
+		<route destination1="NAS" destination2="ZSA" type="Charter"  />
+		<route destination1="NAS" destination2="MYG" type="Charter"  />
+		<route destination1="NAS" destination2="SML" type="Charter"  />
+		<route destination1="NAS" destination2="IGA" type="Charter"  />
+		<route destination1="NAS" destination2="BIM" type="Charter"  />
+		<route destination1="NAS" destination2="ATC" type="Charter"  />
+		<route destination1="NAS" destination2="AXP" type="Charter"  />
+		<route destination1="NAS" destination2="TCB" type="Charter"  />
+		<route destination1="NAS" destination2="FLL" type="Charter"  />
+		<route destination1="NAS" destination2="HAV" type="Charter"  />
+		<route destination1="NAS" destination2="PAP" type="Charter"  />
+		<route destination1="NAS" destination2="CAP" type="Charter"  />
+
+              </routes>
+</airline>

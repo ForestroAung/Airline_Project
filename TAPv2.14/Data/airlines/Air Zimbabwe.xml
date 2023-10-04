@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+	<profile name="Air Zimbabwe" iata="UM" color="Gold" area="367" mentality="Safe" market="Global" preferedairport="HRE" CEO="Valentine Sinemane">
+	<narrative narrative="Air Zimbabwe is the flag carrier of Zimbabwe, it operates a network in southern Africa and flights to London." />
+	</profile>
+	<info real="True" from="1980" to="2199" />
+	
+	<airliners>
+		
+		 <!--the airliners the airline would start with which isn't on a route early (2013) late (2023)-->
+   		   <airliner type="Airbus A320-200" early="0" late="2"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (1985) late (2020)-->
+   		   <airliner type="Boeing 737-200" early="0" late="3"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (1989) late (2020)-->
+   		   <airliner type="Boeing 767-200ER" early="0" late="2"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (1989) late (2010)-->
+   		   <airliner type="BAe 146-200" early="0" late="1"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (1995) late (2000)-->
+   		   <airliner type="Fokker 50" early="2" late="0"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (1980) late (1997)-->
+   		   <airliner type="Vickers Viscount  800" early="6" late="0"></airliner>
+   		   
+   		   <!--the airliners the airline would start with which isn't on a route early (2005) late (2020)-->
+   		   <airliner type="Xian MA60" early="0" late="3"></airliner>
+   		   
+	</airliners>
+	<routes>
+		<route destination1="HRE" destination2="BUQ" />
+		<route destination1="HRE" destination2="JNB" />
+		<route destination1="HRE" destination2="VFA" />
+		<route destination1="HRE" destination2="KAB" />
+		<route destination1="BUQ" destination2="HLA" />
+		<route destination1="BUQ" destination2="VFA" />
+		<route destination1="VFA" destination2="JNB" />
+		<route destination1="HRE" destination2="LGW" />
+	</routes>
+</airline>

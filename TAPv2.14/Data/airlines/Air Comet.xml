@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Comet" iata="A7"  color="GreenYellow" area="117" CEO="Gerardo Diaz Ferran" mentality="Moderate" market="Global" preferedairport="MAD" schedule="Charter">
+  <narrative narrative="Air Comet was in operation from March 1,1997 to December 2009. It was based at Madrid and flew to Latin America mostly. Its routes at the end went to Buenos Aires,Argentina Santa Cruz,Bolivia
+  Bogota and Medellin,Colombia Guayaquil and Quito,Ecuador Lima,Peru and Havana,Cuba. It did charters to the Caribbean from its hub and Palma de Mallorca most of its life from the start to January 2007 under the name Air Plus Comet. 
+It then started full scheduled service. Its fleet at the end was four A330-200's, three A320-200's and two A340-300's. As Air Plus Comet it used around five A310's,a few 747-200's,a couple of 737-300's,and the two years before the brand switch two MD-88's.
+It did still have at least one A310 as Air Comet until the very end."/>
+      <names>
+<name value="Air Plus Comet" from="1.1.1997 00:00:00"></name>
+<name value="Air Comet" from="1.1.2007 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1997" to="2007" path="A71997-2007"></logo>
+    </logos>
+   </profile> 
+    <info real="True" from="1997" to="2010" />
+       <prefereds aircrafts="Airbus A330-200,Airbus A320-200,Airbus A340-300,Airbus A310-300,Boeing 747-200B"></prefereds>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-300" early="5" late="1"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Boeing 747-200B" early="3" late="0"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	     	         <airliners>
+	    <airliner type="MD-88 (DC-9-88)" early="2" late="0"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="3" late="3"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Airbus A330-200" early="4" late="4"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Airbus A340-300" early="3" late="3"></airliner>
+	     </airliners>
+	
+    <routes>
+	        <route destination1="MAD" destination2="EZE" type="Regular"  />
+	       	<route destination1="MAD" destination2="BOG" type="Regular"   />
+		<route destination1="MAD" destination2="UIO" type="Regular"    />
+                <route destination1="MAD" destination2="LIM" type="Regular"  />
+	       	<route destination1="MAD" destination2="MDE"  type="Regular"   />
+		<route destination1="MAD" destination2="GYE" type="Regular"    />
+	        <route destination1="MAD" destination2="VVI" type="Regular"  />
+	       	<route destination1="MAD" destination2="HAV" type="Regular"    />
+              </routes>
+</airline>

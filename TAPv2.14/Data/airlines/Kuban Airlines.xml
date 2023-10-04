@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kuban Airlines" iata="KIL" color="DarkGreen" area="177" CEO="Sergey Mordvintsev" mentality="Moderate" market="Global" preferedairport="KRR">
+  <narrative narrative="Kuban Airlines was around from its split as a division of Aeroflot in 1992 until December 11,2012. It was based at Krasnodar in a region which is historically called Kuban. It also had a base at
+  Moscow Vnukovo. Near the end some of its routes were from KRR to Moscow Vnukovo,St. Petersburg,Sochi,Anapa and international ones to Istanbul,Turkey Yerevan,Armenia and Tel Aviv,Israel, on a scheduled basis.
+  Seasonal routes included Larnaca,Cyprus Antalya,Turkey and Sharm el Sheikh,Egypt. Other scheduled domestic routes were Moscow Vnukovo to Chelyabinsk,Kaliningrad and Nalchik and from St. Petersburg it served
+  Nizhnevartovsk. At the end its fleet had five 737-300's,two 737-500's and three A319-100's. It had got three of the 737-300's in 2010. In September 2011 low cost carrier Sky Express merged into Kuban giving them two more 737-300's
+  ,the 737-500's and A319's. Previously it operated Russian and Soviet made planes, like the Yak-42D,Tupolev Tu-154M and Antonov 24. It had ordered 12 Sukoi Superjets but these were not delievered before its demise."/>
+</profile>
+  <info real="True" from="1992" to="2013" />
+  <prefereds aircrafts="Boeing 737-300,Boeing 737-500,Airbus A319-100,Yak-42D,Tupolev Tu-154M,Antonov An-24"></prefereds>
+      <focusairports>
+		 <focusairport airport="VKO"></focusairport>
+		      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2011)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="3" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	         <airliners>
+	    <airliner type="Airbus A319-100" early="3" late="3"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="KRR" destination2="VKO"  />
+		<route destination1="KRR" destination2="LED"  />
+		<route destination1="KRR" destination2="AER"  />
+		<route destination1="KRR" destination2="IST"  />
+		<route destination1="KRR" destination2="EVN"  />
+		<route destination1="KRR" destination2="TLV"  />
+		<route destination1="VKO" destination2="CEK"  />
+                <route destination1="VKO" destination2="KGD"  />
+		<route destination1="VKO" destination2="NAL"  />
+                <route destination1="LED" destination2="NJC"  />
+		<route destination1="KRR" destination2="AYT" season="Summer"  />
+		<route destination1="KRR" destination2="LCA" season="Summer"  />
+		<route destination1="KRR" destination2="SSH" season="Summer"  />
+	        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Copterline Oy" iata="AAQ" color="MediumBlue" area="106" CEO="Kaj Takolander" mentality="Safe" market="Local" preferedairport="FHE" routefocus="Helicopter"> 
+  <narrative narrative="Copterline Oy was as its name suggests, a helicopter airline that operated from Helsinki,Finlands Hernesaari Heliport. Its sole route was from there to Tallinn,Estonias Linnahall Heliport, about an 18 minute flight across the Gulf of Finland in the Baltic Sea which is what seperates Finland and Estonia.
+  The airline began in 2002 using Sikorsky S-76's. It flew 75,000 passengers in 2004. On weekdays it did 14 roundtrips between 7 AM and 8 PM. On Saturday 9 roundtrips between 9 AM and 5 PM and on Sunday 7 roundtrips between 10 AM and 4 PM. In August 2006 it sold its S-76's and started focusing on charters.
+  However in April 2008 it resumed its normal scheduled route using a new Agusta Westland AW139, and got a second in August 2008. But on December 19th,2008 the airline stopped service. In September 2011 the airline came back with a subsidiary called Copterline OU based at Tallinn using the Agusta AW139. They did 5 flights 
+  on weekdays without weekend service but this was suspended by 2013. It planned on coming back in August 2013 but did not. It focused instead on serving the oil and energy industry in the North Sea. In March 2016 it filed for bankruptcy a second time. Copterline Oy also had four EC 135's used for medical and emergency services
+  in Finland stationed at 3 different bases throughout Finland besides its Helsinki base." />
+</profile>
+   <info real="True" from="2002" to="2009"></info>
+   <prefereds aircrafts="Sikorsky S-76,AgustaWestland AW139"></prefereds>
+       
+  <routes>
+    <route destination1="FHE" destination2="FHF"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="AgustaWestland AW139" early="2" late="2"></airliner>
+	     </airliners>
+
+</airline>

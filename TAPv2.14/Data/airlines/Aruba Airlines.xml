@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aruba Airlines" iata="ARU"  color="Yellow" area="422" CEO="Henrie Coffie" mentality="Safe" market="Global" preferedairport="AUA">
+  <narrative narrative="Aruba Airlines is based at Queen Beatrix Intl. Airport on the island of Aruba in the Caribbean and which is part of the Kingdom of the Netherlands. It started doing charters with a Piper Navajo in 2010. In 2012 it got its economic Airline Operation Certificate making the airline an offcial commercial carrier. I leased two A320's right away. Scheduled operations started in February 2013 to Maracaibo,Venezuela. In July 2013 it started Panama City. As of March 2015 it was also serving Valencia,Venezuela. It plans on starting Miami,FL,USA and Sao Paulo Guarulhos,Brazil soon."/>
+   </profile>
+    <info real="True" from="2012" to="2199" />
+       <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+
+	       <routes>
+	       	<route destination1="AUA" destination2="MAR" opened="2013" closed="2199" />
+		<route destination1="AUA" destination2="PTY" opened="2013" closed="2199" />
+		<route destination1="AUA" destination2="VLN" opened="2014" closed="2199"  />
+		<route destination1="AUA" destination2="GRU" opened="2015" closed="2199"  />
+		<route destination1="AUA" destination2="MIA" opened="2015" closed="2199"  />
+		
+              </routes>
+</airline>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Atlantis" iata="AAT" color="DarkGreen" area="118" CEO="Bernardino Pereira" mentality="Moderate" market="Regional" preferedairport="FAO" schedule="Charter">
+  <narrative narrative="Air Atlantis was a charter airline based in Faro,Portugal from May 1985 until 1993. It flew charters mostly to Faro but also other Portugal cities from other places in Europe. Common places
+  were London,Manchester,Newcastle,Glasgow,Bristol and Exeter in the UK, Munich,Stuttgart,Frankfurt,Hamburg and Dusseldorf in Germany, Amsterdam in the Netherlands,Brussels in Belgium,Copenhagen in Denmark,
+ Stockholm in Sweden, and Zurich in Switzerland. It used two 737-200 Adv.'s at the start. It then used 727-100's and 727-200's. In 1988 it started using 737-300's which it had five of at the airlines end. It also used a 707-320B 
+ near the start."/>
+</profile>
+  <info real="True" from="1985" to="1994" />
+  <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-200,Boeing 727-100,Boeing 727-200,Boeing 727-200 Adv.,Boeing 737-300,Boeing 707-320B"></prefereds>
+    <focusairports>
+		 <focusairport airport="LIS"></focusairport>
+		 <focusairport airport="OPO"></focusairport>
+					      </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1985) late (1993)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="0"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1988) late (1993)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="5"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1986) late (1990)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="FAO" destination2="STN"   />
+		<route destination1="FAO" destination2="LGW" />
+		<route destination1="FAO" destination2="MAN" />
+		<route destination1="FAO" destination2="NCL" />
+		<route destination1="FAO" destination2="BRS" />
+		<route destination1="FAO" destination2="GLA" />
+		<route destination1="FAO" destination2="MUC" />
+		<route destination1="FAO" destination2="DUS" />
+		<route destination1="FAO" destination2="STR" />
+		<route destination1="FAO" destination2="FRA" />
+		<route destination1="FAO" destination2="CPH" />
+		<route destination1="FAO" destination2="ARN" />
+		<route destination1="FAO" destination2="BRU" />
+		<route destination1="FAO" destination2="AMS" />
+		<route destination1="FAO" destination2="HAM" />
+		<route destination1="FAO" destination2="ZRH" />
+		<route destination1="FAO" destination2="EXT" />
+	        </routes>
+
+</airline>

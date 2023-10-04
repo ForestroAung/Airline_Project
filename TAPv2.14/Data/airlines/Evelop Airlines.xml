@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Evelop!" iata="E9" color="LightSeaGreen" area="117" CEO="Barcelo Group" mentality="Safe" market="Global" preferedairport="MAD" schedule="Charter">
+    <narrative
+      narrative="Evelop airlines is a Spanish charter airline that operates short- and long-haul flights out of Spain and Portugal." />
+  </profile>
+  <info real="True" from="2013" to="2019" />
+     <prefereds aircrafts="Airbus A320-200,Airbus A330-200,Airbus A330-300,Airbus A330-900neo,Airbus A350-900"></prefereds>
+	 <focusairports>
+	<focusairport airport="MAD"></focusairport>
+	<focusairport airport="LIS"></focusairport>
+</focusairports>
+</airline>

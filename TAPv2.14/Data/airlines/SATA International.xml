@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="SATA International" iata="S4" color="Blue" area="118"
+           CEO="António José Vasconcelos Franco Gomes de Menezes" mentality="Moderate" market="Global"
+           preferedairport="PDL">
+    <narrative
+      narrative="SATA International (full name SATA Internacional - Sociedade Açoriana de Transportes Aéreos) is an airline based in São Sebastião, Ponta Delgada, in the Azores, Portugal. It operates scheduled flights to the Madeira Islands, mainland Portugal and other destinations in Europe and North America, as well as charter flights." />
+  </profile>
+  <info real="True" from="1990" to="2199"></info>
+  <focusairports>
+        <focusairport airport="LIS"></focusairport>
+    </focusairports>
+        
+</airline>

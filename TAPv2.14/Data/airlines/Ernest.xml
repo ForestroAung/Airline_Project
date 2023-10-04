@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+ <profile name="Ernest" iata="EG" logo="EGB" color="Red" area="122" CEO="David Girhammar" mentality="Aggressive" market="Global" businessmodel="LCC" preferedairport="MXP">
+  <narrative narrative="Ernest S.p.A., trading as Ernest Airlines and formerly Fly Ernest, is an Italian airline with headquarters in Milan. It is a low-cost carrier that serves the Italian-Albanian and Italian-Ukrainian markets."/>
+ </profile>
+  <prefereds aircrafts="Airbus A319-100, Airbus A320-200"></prefereds>
+   <info real="true" from="2016" to="2199">
+   </info>
+   <focusairports>
+	<focusairport airport="TIA"></focusairport>
+	<focusairport airport="LWO"></focusairport>
+	<focusairport airport="IEV"></focusairport>
+   </focusairports>
+    <startdata>
+     <airliners>
+     <airliner type="Airbus A319-100" early="1" late="1"></airliner>
+	 <airliner type="Airbus A320-200" early="1" late="3"></airliner>
+    </airliners>
+       <routes>
+			<route destination1="BGY" destination2="IBZ" opened="2018" closed="2199"/>
+			<route destination1="VRN" destination2="IAS" opened="2018" closed="2199"/>
+			<route destination1="CUF" destination2="IAS" opened="2018" closed="2199"/>
+			<route destination1="VRN" destination2="OTP" opened="2018" closed="2199"/>		
+			<route destination1="GOA" destination2="OTP" opened="2018" closed="2199"/>
+			<route destination1="BGY" destination2="IEV" opened="2018" closed="2199"/>
+			<route destination1="BLQ" destination2="IEV" opened="2018" closed="2199"/>
+			<route destination1="NAP" destination2="IEV" opened="2018" closed="2199"/>
+			<route destination1="MXP" destination2="LWO" opened="2018" closed="2199"/>
+			<route destination1="BGY" destination2="LWO" opened="2018" closed="2199"/>
+			<route destination1="VCE" destination2="LWO" opened="2018" closed="2199"/>			
+			<route destination1="FCO" destination2="LWO" opened="2018" closed="2199"/>
+			<route destination1="NAP" destination2="LWO" opened="2018" closed="2199"/>
+			<route destination1="MXP" destination2="TIA" opened="2018" closed="2199"/>			
+			<route destination1="BGY" destination2="TIA" opened="2018" closed="2199"/>
+			<route destination1="VCE" destination2="TIA" opened="2018" closed="2199"/>
+			<route destination1="BLQ" destination2="TIA" opened="2018" closed="2199"/>
+			<route destination1="PSA" destination2="TIA" opened="2018" closed="2199"/>
+			<route destination1="VRN" destination2="TIA" opened="2018" closed="2199"/>			
+			<route destination1="CUF" destination2="TIA" opened="2018" closed="2199"/>
+       </routes>
+    </startdata>
+</airline>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Islas Airways" iata="IF" logo="IF2" color="DarkOrange" area="117" CEO="Miguel Concepcion Cacares" mentality="Safe" market="Local" preferedairport="TFN">
+  <narrative narrative="Islas Airways,or Islas Lineas Aereas,was an airline that operated in the Canary Islands of Spain from February 2003 to October 2012. It was based at Tenerife North and flew to Arrecife,El Hierro,
+  Fuerteventura,Gran Canaria and Santa Cruz de la Palma. Its fleet at the end had three ATR 72-500's,two ATR 72-210's and an ATR 72-200. It began with two ATR 72-200's."/>
+   </profile>
+    <info real="True" from="2003" to="2013" />
+       <prefereds aircrafts="ATR 72-200,ATR 72-210,ATR 72-500"></prefereds>
+	<focusairports>
+			       <focusairport airport="LPA"></focusairport>
+		     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2010)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="1"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-210" early="1" late="2"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2011)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="2" late="3"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="TFN" destination2="LPA"  />
+		<route destination1="TFN" destination2="ACE"  />
+		<route destination1="TFN" destination2="FUE"  />
+		<route destination1="TFN" destination2="SPC"  />
+		<route destination1="TFN" destination2="VDE"  />
+              </routes>
+</airline>

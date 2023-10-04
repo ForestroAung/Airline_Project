@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Copterline OU" iata="AAQ" color="MediumBlue" area="173" CEO="Kaj Takolander" mentality="Safe" market="Local" preferedairport="FHF" routefocus="Helicopter"> 
+  <narrative narrative="Copterline OU was a helicopter airline that was started after its parents other airline, Copterline Oy, ceased in December 2008, which was based at Helsinki,Finlands Hernesaari Heliport. Copterline OU was based at Tallinn,Estonia's Linnahall Heliport, which is the only scheduled route
+  the previous airline also flew from its Helsinki base. As did Copterline OU, its only route was from Tallinn to Helsinki, which is only 18 minutes on average, returning service to the route starting in September 2011 with the previous airlines Agusta Westland AW139. The route was done 5 times a day except weekends, which was far less than the previous airlines
+  14 times on weekdays, 9 on Saturdays and 7 on Sundays. That airline had began in 2002 and flew 75,000 people in 2004. But the new Estonian based airline would not fare any better and would cease its scheduled service by 2013. Hopes to start again in August 2013 failed and it kept using its helicopters
+  to serve the oil industry in the North Sea. And in March 2016 a second bankrupty was filed, pretty much ending the second version of Copterline." />
+</profile>
+   <info real="True" from="2011" to="2013"></info>
+   <prefereds aircrafts="AgustaWestland AW139"></prefereds>
+       
+  <routes>
+    <route destination1="FHF" destination2="FHE"/>
+  </routes>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2013)-->
+	     	         <airliners>
+	    <airliner type="AgustaWestland AW139" early="1" late="1"></airliner>
+	     </airliners>
+
+</airline>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Aero Caribbean" iata="7L"  color="Yellow" area="411" CEO="Sergio Ortiz" mentality="Moderate" market="Regional" preferedairport="HAV">
+  <narrative narrative="Aero Caribbean is based at Havana,Cuba at Jose Marti Airport. It has a focus city at Santiago,Cuba. It started in 1982. At March 2015 from Havana it was going to the domestic airports at Baracoa,Cayo Coco,Holguin and Sasntiago. International ones were Managua,Nicaragua and San Pedro Sula,Honduras. From Santiago it also goes to Port-au-Prince,Haiti. Other domestic routes include Cayo Coco-Holguin and Holguin-Santiago. The fleet at November 2012 was four ATR 72-210's and three ATR 42-300's. Past planes inlude an Antonov 26,a 737-200,two DC-3's,a Fokker F27,five Il-18V and D's,an Il-14M,six Yak-40's,four Embraer 110 Bandeirantes and two Bristol Britannia's. It is owned by the government like its sister airline Cubana. "/>
+   </profile>
+    <info real="True" from="1982" to="2199" />
+       <prefereds aircrafts="ATR 72-210,ATR 42-300,ATR 72-600,ATR 42-600,Yak-40,EMB 110 Bandeirante,Il-18V,Il-18D"></prefereds>
+             <focusairports>
+			       <focusairport airport="SCU"></focusairport>
+     </focusairports>
+ 
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-210" early="2" late="4"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="3"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Yak-40" early="6" late="0"></airliner>
+	     </airliners>
+	      	         <!--the airliners the airline would start with which isn't on a route earyl (1985) late (2015)-->
+	     	         <airliners>
+	    <airliner type="EMB 110 Bandeirante" early="4" late="0"></airliner>
+	     </airliners>
+	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Il-18V" early="2" late="0"></airliner>
+	     </airliners>
+	     	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Il-18D" early="3" late="0"></airliner>
+	     </airliners>
+	     	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Il-14M" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Antonov An-26" early="1" late="0"></airliner>
+	     </airliners>
+	     	     	      	         <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Fokker F27" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+
+
+
+
+
+
+	       <routes>
+	       	<route destination1="HAV" destination2="CCC"  />
+		<route destination1="HAV" destination2="HOG"  />
+		<route destination1="HAV" destination2="SCU"  />
+		<route destination1="HAV" destination2="SAP"  />
+		<route destination1="HAV" destination2="MGA"  />
+		<route destination1="HAV" destination2="BCA" />
+		<route destination1="CCC" destination2="HOG"  />
+		<route destination1="SCU" destination2="HOG"  />
+		<route destination1="SCU" destination2="PAP"   />
+
+              </routes>
+</airline>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Rio Linhas Aereas" iata="RIO" color="DarkGreen" area="431" CEO="Jose Rodrigues Cordeiro" mentality="Safe" market="Domestic" preferedairport="GIG" routefocus="Cargo">
+  <narrative narrative="Rio Linhas Aereas is a cargo airline with an operating base at Curitiba,Brazil and hubs at Rio de Janeiro Galeao and Porto Alegre. However it's most served airport is Sao Paulo's Guarulhos. From Rio de Janeiro it goes to Recife,Salvador da Bahia,and Sao Paulo. From Sao Paulo besides Rio it goes to Brasilia,Manaus,Recife,Salvador da Bahia,and Cuiaba. It goes between Brasilia and Cuiaba as well. At March 2015 its fleet had five 727-200's,a 767-200F and a 737-400F. It started in 2008. It has roots in JetSul which it operated as starting in 1998 for a while, JetSul is a charter airline for businessd people ran by the same guy and is also still around as of July 2015."/>
+</profile>
+  <info real="True" from="2008" to="2017" />
+  <prefereds aircrafts="Boeing 727-200 Adv.,Boeing 737-400,Boeing 767-200,Boeing 767-300F,Boeing 757-200PF"></prefereds>
+  		      <focusairports>
+		 <focusairport airport="GRU"></focusairport> 
+                 <focusairport airport="POA"></focusairport> 
+		 <focusairport airport="CWB"></focusairport> 
+     </focusairports>
+               <routes>
+	          <route destination1="GIG" destination2="GRU"/>
+	       	  <route destination1="GIG" destination2="SSA"/>
+		  <route destination1="GIG" destination2="REC"/>
+		  <route destination1="GRU" destination2="SSA"/>
+		  <route destination1="GRU" destination2="REC"/>
+		  <route destination1="GRU" destination2="BSB"/>
+		  <route destination1="GRU" destination2="MAO"/>
+		  <route destination1="GRU" destination2="CGB"/>
+		  <route destination1="BSB" destination2="CGB"/>
+
+
+
+
+
+		 		        </routes>
+
+
+
+
+</airline>

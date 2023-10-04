@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Aden Airways" iata="AR" logo="BOAC2" color="Black" area="313" CEO="Unknown" mentality="Safe" market="Regional" preferedairport="ADE">
+<narrative narrative="Aden Airways was a subsidiary of BOAC, based in Aden."/>
+</profile>
+
+<info real="True" from="1949" to="1967" />
+
+<prefereds aircrafts="Douglas DC-3,Canadair North Star,Vickers Viscount 700"></prefereds> 
+</airline>

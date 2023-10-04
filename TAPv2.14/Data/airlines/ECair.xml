@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+<profile name="ECAir" iata="LC" logo="LC2" color="Darkgreen" area="347" CEO="Fatima Beyina-Moussa" mentality="Safe" market="Global" preferedairport="BZV">
+<narrative narrative="Equatorial Congo Airlines operating as ECAir is the flag carrier of Equatorial Congo. Flying domestic and in Africa, the Middle East and Europe."> </narrative>
+</profile>
+<info real="true" from="2011" to="2199" > </info>
+
+
+
+	 <airliners>
+     	<!--the airliners the airline would start with which isn't on a route early (2011) late (2016)-->
+     	 <airliner type="Boeing 737-300" early="0" late="2"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2014) late (2030)-->
+     	 <airliner type="Boeing 737-700" early="0" late="2"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2012) late (2020)-->
+     	 <airliner type="Boeing 757-200" early="0" late="2"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2014) late (2017)-->
+     	 <airliner type="Boeing 767-300ER" early="0" late="1"></airliner>
+     	 
+     	 
+<!--the airliners the airline would start with which isn't on a route early (2016) late (2036)-->
+     	 <airliner type="Boeing 787-8" early="0" late="2"></airliner>
+	</airliners>
+
+<routes>
+	<route destination1="BZV" destination2="CDG" />
+	<route destination1="BVZ" destination2="DKR" />
+	<route destination1="BVZ" destination2="OYO" />
+	<route destination1="BVZ" destination2="DXB" />
+	<route destination1="BVZ" destination2="PNR" />
+	<route destination1="PNR" destination2="CDG" />
+	<route destination1="PNR" destination2="COO" />
+	<route destination1="BVZ" destination2="COO" />
+	<route destination1="BVZ" destination2="BEY" />
+
+</routes>
+
+</airline>

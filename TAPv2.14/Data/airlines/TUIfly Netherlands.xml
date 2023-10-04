@@ -1,0 +1,32 @@
+<airline>
+ <profile name="TUIfly Netherlands" iata="OR" logo="X3" color="Black" area="111" CEO="Elie Bruyninckx" mentality="Aggressive" market="Global" preferedairport="AMS">
+  <narrative narrative="TUI fly Netherlands, legally incorporated as TUI Airlines Netherlands (formerly branded as Arkefly and Arke), is a Dutch charter airline headquartered in Schiphol-Rijk on the grounds of Amsterdam Airport Schiphol in Haarlemmermeer, Netherlands. It is the charter carrier of the Dutch arm of the German travel conglomerate TUI Group and its main base is Schiphol Airport."/>
+ </profile>
+  <prefereds aircrafts="Boeing 737-800,Boeing 767-300ER,Boeing 787-8"></prefereds>
+   <info real="True" from="2005" to="2199">
+   </info>
+    <startdata>
+    <airliners>
+     <airliner type="Boeing 737-800" early="2" late="5"></airliner>
+	 <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	 <airliner type="Boeing 787-8" early="1" late="3"></airliner>
+    </airliners>
+	 <routes>
+	 <route destination1="AMS" destination2="AUA"/>
+	 <route destination1="AMS" destination2="CUR"/>
+	 <route destination1="AMS" destination2="BON"/>
+      <route destination1="AMS" destination2="AUA" destination3="CUR"/>
+	  <route destination1="AMS" destination2="CUR" destination3="AUA"/>
+	  <route destination1="AMS" destination2="CUR" destination3="BON"/>
+	  <route destination1="AMS" destination2="AUA" destination3="BON"/>
+	  <route destination1="AMS" destination2="MBJ" destination3="PUJ"/>
+	  <route destination1="AMS" destination2="HOG" destination3="CUN"/>
+	  <route destination1="AMS" destination2="VRA" destination3="CUN"/>
+	  <route destination1="AMS" destination2="MIA" destination3="SFB"/>
+	  <route destination1="AMS" destination2="PBM"/>
+	  <route destination1="AMS" destination2="SID" destination3="BVC"/>
+	  <route destination1="AMS" destination2="SID" destination3="RAI"/>
+	  <route destination1="AMS" destination2="SID" destination3="VXE"/>
+     </routes>
+    </startdata>
+</airline>

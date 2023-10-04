@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Azzurra Air" iata="AZI" color="Blue" area="122" CEO="Fausto Capalbo" mentality="Safe" market="Regional" preferedairport="BGY" schedule="Charter">
+  <narrative narrative="Azzurra Air was a mostly charter airline arond from operations start in December 1996 until March 2004. Its only scheduled flight was from Bergamo near Milan to Rome. The rest were charters to places around the Mediterranean like Spain and Greece and other places in Europe like Portugal,the Netherlands and the UK. At the end its fleet had four 737-700's,two A320-200's,and about seven BAe 146-200 types including RJ70 and RJ85's. It also had five A320s on order. The airline was a joint venture between the 51% owner Air International Services, an Italian investment group, and Air Malta the 49% owner."/>
+</profile>
+  <info real="True" from="1996" to="2004" />
+  <prefereds aircrafts="Boeing 737-700,BAe 146-200"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2003)-->
+	         <airliners>
+	    <airliner type="Boeing 737-700" early="2" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1996) late (2003)-->
+	         <airliners>
+	    <airliner type="BAe 146-200" early="2" late="7"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2005)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="0"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2002)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="0"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="BGY" destination2="FCO" type="Regular" />
+	        </routes>
+
+
+
+</airline>

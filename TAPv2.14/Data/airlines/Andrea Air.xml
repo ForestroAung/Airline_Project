@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Andrea Air" iata="AND" color="Crimson" area="430" CEO="Custodio Santiago" mentality="Safe" market="Domestic" preferedairport="LIM">
+  <narrative narrative="Andrea Air was a very short lived airline that did domestic flights in Peru. It only flew in 1991. It flew between Lima,Cuzco,and Arequipa. It used two Fokker F28-1000's
+  that were leased from a subsidiary of SAS in Sweden called Linjeflyg. They were reposessed after the airline ceased and given back to SAS."/>
+</profile>
+  <info real="True" from="1991" to="1992" />
+  <prefereds aircrafts="Fokker F28-1000"></prefereds>
+            	      <!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	     	         <airliners>
+	    <airliner type="Fokker F28-1000" early="2" late="2"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="LIM" destination2="CUZ"   />
+                  <route destination1="LIM" destination2="AQP"   />
+		  <route destination1="CUZ" destination2="AQP"   />
+		 		        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Girjet" iata="GJT" color="Red" area="117" CEO="Fidel Bermudez" mentality="Safe" market="Global" preferedairport="BCN" routefocus ="Mixed" schedule="Charter">
+  <narrative narrative="Girjet was a charter airline that operated from July 31st,2003 until April 2008. It was based at Barcelona,Spain. It flew under its own name and for other airlines like Spanair. In its last two years it also did cargo using a 747-200F. It started with one Fokker 100 in 2003 and had five at the end along with two 757-200's and the 747-200F. It flew outside of Europe also. Its name stands for Gestion Aerea Ejecutiva."/>
+</profile>
+  <info real="True" from="2003" to="2008" />
+  <prefereds aircrafts="Fokker 100,Boeing 757-200"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2007)-->
+	         <airliners>
+	    <airliner type="Fokker 100" early="1" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	         <airliners>
+	    <airliner type="Boeing 757-200" early="1" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200F" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

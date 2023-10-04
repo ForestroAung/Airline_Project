@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mann Yadanarpon Airlines" iata="MYP" color="Gold" area="233" CEO="Kyaw Myo" mentality="Safe" market="Domestic" preferedairport="MDL">
+  <narrative narrative="Mann Yadanarpon Airlines is based at Mandalay,Myanmar aka Burma. It began in February 2014. It started with two ATR 72-600's and still uses them at July 2015. It was serving 15 domestic airports at this time including the MDL hub and Yangon hub. It wants to expand with service to Thailand one day in the near future."/>
+</profile>
+  <info real="True" from="2014" to="2199" />
+  <prefereds aircrafts="ATR 72-600"></prefereds>
+              <focusairports>
+                 <focusairport airport="RGN"></focusairport> 
+     </focusairports>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-600" early="2" late="2"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="MDL" destination2="RGN" />
+			  <route destination1="MDL" destination2="NYU" />
+			  <route destination1="MDL" destination2="HEH" />
+			  <route destination1="MDL" destination2="SNW" />
+			  <route destination1="MDL" destination2="KET" />
+			  <route destination1="MDL" destination2="THL" />
+			  <route destination1="MDL" destination2="MYT" />
+			  <route destination1="MDL" destination2="LSH" />
+			  <route destination1="MDL" destination2="KHM" />
+			  <route destination1="RGN" destination2="NYU" />
+			  <route destination1="RGN" destination2="AKY" />
+			  <route destination1="RGN" destination2="HEH" />
+			  <route destination1="RGN" destination2="SNW" />
+			  <route destination1="RGN" destination2="KET" />
+			  <route destination1="RGN" destination2="THL" />
+			  <route destination1="RGN" destination2="MYT" />
+			  <route destination1="RGN" destination2="TVY" />
+			  <route destination1="RGN" destination2="KAW" />
+			  <route destination1="RGN" destination2="LSH" />
+			  <route destination1="RGN" destination2="MNU" />
+	        </routes>
+</airline>

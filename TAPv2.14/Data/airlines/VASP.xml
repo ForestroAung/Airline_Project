@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="VASP" logo="VP2" iata="VP"  color="Cyan" area="431" CEO="Wagner Canhedo" mentality="Aggressive" market="Global" preferedairport="CGH">
+  <narrative narrative="VASP was a Brazilian airline based at Sao Paulo, at Congongas and Guarulhos airports. It was founded in 1933 and ceased on January 27,2005. Its name stands for Via Area Sao Paulo.
+  At founding it was the only land plane carrier in Brazil at this time,every other one using water planes. Its insistance on using land planes lead to Congonhas airport in Sao Paulo to be built and was opened April 12,1936 as Sao Paulos first airport which is still one of its main airports. 
+  It was a private airport for VASP at first even having the nickname VASP's Airfield by many. Is first route from here was to Rio de Janeiro. In 1939 VASP bought Aerolloyd Iguassu giving it the license to fly to the states of Parana and Santa Clarita. In 1962 VASP acquired Lide Areo Nacional which had a license to operate nationwide. VASP was therefore able to operate in the entire Brazilian territory. It used the Saab 90 Scandia in the 50's or 60's. Its fleet in 1970 was two BAC 1-11 400's,ten DC-3's,five 737-200's,four DC-6's,six Vickers Viscounts,and seven NAMC YS-11's. In 1974 it would start getting the 737-200 Adv. series also which it had about 18 of coming out the mid 70's,and had 21 of still by the end in 2005. It also had the normal 200 still at the end. It also had about six MD-11's for much of the 90's. The Airbus A300 series was also used of which it had at least two A300B2's at the end also. From 1986 it had about seven 737-300's and still had two at the end. 2002 saw the cancellation of all international routes. By 2004 only 10% of the domestic market share belonged to them. During the last few months after ceasing it did charters to try and keep its flying certificate. Its maintenance division lasted until 2008 working for other airlines. It's routes served at the end were to 15 domestic destinations besides Sao Paulo. International destinations included Buenos Aires,Quito,Miami,New York,Los Angeles,San Francisco,Toronto,Seoul,Casablanca,Barcelona,Brussels,Osaka,Athens,Frankfurt and Zurich. At its height it served virtually every domestic airport there was to serve."/>
+   </profile>
+    <info real="True" from="1936" to="2005" />
+       <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-200,MD-11,Airbus A300B2,Boeing 737-300,Douglas DC-3,NAMC YS-11,Douglas DC-6,Vickers Viscount 800,Saab 90 Scandia"></prefereds>
+        <focusairports>
+			       <focusairport airport="GRU"></focusairport>
+     </focusairports>
+      	     	         <!--the airliners the airline would start with which isn't on a route earyl (1969) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200" early="5" late="5"></airliner>
+	     </airliners>
+	      	     	         <!--the airliners the airline would start with which isn't on a route earyl (1974) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="18" late="21"></airliner>
+	     </airliners>
+
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="7" late="2"></airliner>
+	     </airliners>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2004)-->
+	     	         <airliners>
+	    <airliner type="MD-11" early="6" late="0"></airliner>
+	     </airliners>
+	         	     	         <!--the airliners the airline would start with which isn't on a route earyl (1955) late (1970)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="10" late="10"></airliner>
+	     </airliners>
+	           	     	         <!--the airliners the airline would start with which isn't on a route earyl (1965) late (1970)-->
+	     	         <airliners>
+	    <airliner type="NAMC YS-11" early="7" late="7"></airliner>
+	     </airliners>
+	           	     	         <!--the airliners the airline would start with which isn't on a route earyl (1955) late (1970)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-6" early="4" late="4"></airliner>
+	     </airliners>
+	           	     	         <!--the airliners the airline would start with which isn't on a route earyl (1950) late (1970)-->
+	     	         <airliners>
+	    <airliner type="Vickers Viscount 800" early="6" late="6"></airliner>
+	     </airliners>
+	           	     	         <!--the airliners the airline would start with which isn't on a route earyl (1966) late (1970)-->
+	     	         <airliners>
+	    <airliner type="BAC One-Eleven 400" early="2" late="2"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (1980) late (2004)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300B2" early="2" late="2"></airliner>
+	     </airliners>
+
+</airline>

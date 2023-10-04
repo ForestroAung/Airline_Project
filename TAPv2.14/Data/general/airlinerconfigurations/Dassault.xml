@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Dassault Mercure-->
+<configuration type="Dassault Mercure" economy="-1" premium="0" first="3" business="0" exitrows="0,1985" emergencyrows="633,708" toiletrows="0,1985" kitchenrows="0,1985">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+<seat class="First_Class" type="Recliner" pitch="86" width="60"></seat>
+</seats>
+</configuration>
+
+<!--Dassault Falcon-->
+<configuration type="Dassault Falcon 900" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="850" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="121" width="56"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 10" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="96.6" width="56"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 20" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="515" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="103" width="56"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 7X" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="1190" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="198.3" width="61.3"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 2000" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="400" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="53"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 50" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="315" kitchenrows="315">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="53"></seat>
+</seats>
+</configuration>
+<configuration type="Dassault Falcon 50EX" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="315" kitchenrows="315">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="53"></seat>
+</seats>
+</configuration>
+</configurations>

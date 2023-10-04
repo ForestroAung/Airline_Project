@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Apsara International Air" iata="AQQ" color="SlateBlue" area="236" CEO="Pich Soun" mentality="Safe" market="Regional" preferedairport="PNH">
+  <narrative narrative="Apsara International Air is based at Siem Reap,Cambodia and started on October 8th,2014 flying between Siem Reap and Phnom Penh domestically. At July 2015 it is also now offering charters from REP to Krabi,Thailand. It uses one leased A320-200."/>
+</profile>
+  <info real="True" from="2014" to="2199" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A320neo"></prefereds>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="1"></airliner>
+	     </airliners>
+	               <routes>
+	                  <route destination1="REP" destination2="PNH" />
+			  <route destination1="REP" destination2="KBV" type="Charter" />
+	        </routes>
+</airline>

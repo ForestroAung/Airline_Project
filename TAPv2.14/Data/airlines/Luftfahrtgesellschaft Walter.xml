@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Luftfahrtgesellschaft Walter" iata="HE" color="Red" area="108" CEO="Peter Knecht" mentality="Aggressive"
+           market="Global " preferedairport="DTM">
+    <narrative
+      narrative="Luftfahrtgesellschaft Walter mbH, commonly abbreviated LGW, is a German regional airline headquartered in Dortmund. Originally an independent provider of scheduled and chartered low-volume passenger flights. After years of cooperation with Air Berlin and becoming a subsidiary hereof in 2017, it has been purchased by Lufthansa in October 2017 for integration into the group's low-cost carrier Eurowings. The acquisition is expected to be closed in January 2018 after receiving approval from the European Commission on 21 December 2017." />
+  </profile>
+  <info real="True" from="1978" to="2199" />
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="0" late="33"></airliner>
+      <airliner type="Airbus A319-100" early="0" late="9"></airliner>
+      <airliner type="Bombardier Dash 8-400" early="0" late="10"></airliner>
+    </airliners>
+  </startdata>
+</airline>

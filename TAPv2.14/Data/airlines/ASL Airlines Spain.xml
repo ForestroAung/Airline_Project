@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="PAN Air Lineas Aéreas S.A." iata="PV" color="Orange" area="117" CEO="John Rawl" mentality="Moderate" market="Regional"  preferedairport="MAD" routefocus="Cargo"> 
+  <narrative narrative="PAN Air Lineas Aéreas S.A. was a subsidiary of TNT Express Spain. ASL Airlines Ireland took over the airline in 2016." />
+
+<names>
+	<name value="PAN Air Lineas Aéreas S.A." from="02.01.1988 00:00:00"/>
+	<name value="ASL Airlines Spain" from="02.01.2016 00:00:00"/>
+</names>
+  </profile>
+  
+   <info real="True" from="1988" to="2199"></info>
+   
+   <focusairports>
+	<focusairport airport="BCN"></focusairport>
+	<focusairport airport="SVQ"></focusairport>
+	<focusairport airport="VLC"></focusairport>
+	<focusairport airport="VIT"></focusairport>
+	<focusairport airport="ZAZ"></focusairport>
+</focusairports>
+</airline>

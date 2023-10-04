@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Golden Bay Air" iata="GBA" color="Sienna" area="252" CEO="Lisa Sheppard" mentality="Safe" market="Local" preferedairport="KTF">
+  <narrative narrative="Golden Bay Air is a small airline based at Takaka,New Zealand on the South Island. It started in 2006 as Capital Air and changed name in 2009. It flies to Wellington which is a 180km flight and to Karamea which is 73km. It also does charters to Nelson which is 66km. The two majority shareholders are Lisa Sheppard and Richard Molloy. It uses three Piper's, one Piper PA-32R Saratoga aka Cherokee Six for 5 passengers, one Piper PA-34 Seneca for six passengers and one Piper PA-28 Archer aka Cherokee."/>
+</profile>
+  <info real="True" from="2006" to="2199" />
+  <prefereds aircrafts="PA-34 Seneca,PA-28 Cherokee,PA-32 Cherokee Six"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-34 Seneca" early="1" late="1"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-28 Cherokee" early="1" late="1"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="PA-32 Cherokee Six" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="KTF" destination2="WLG" />
+	          <route destination1="KTF" destination2="NSN" />
+        </routes>
+</airline>

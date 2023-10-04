@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Alitalia" iata="AZ" logo="AZ" color="Green" area="121" CEO="Andrea Ragnetti" mentality="Aggressive" market="Global" preferedairport="FCO">
+    <narrative narrative="Alitalia is a major Italian airline based in Rome, in operation since 1947. They fly to 86 destinations throughout the world on a fleet of 120 aircraft. The fleet primarily consists of Airbus aircraft."/>
+  </profile>
+<info real="True" from="1947" to="2199"></info>
+<prefereds aircrafts="Vickers Viscount 800,Sud Aviation Caravelle I,MD-82 (DC-9-82),MD-11,MD DC-10-10,Fokker F27,Fiat G12,Douglas DC-9-30,Douglas DC-8-61,Douglas DC-8-40,Douglas DC-7C,Douglas DC-6B,Douglas DC-6,Douglas DC-4-1009,Douglas DC-3,Commando C-46,Airbus A300B2,Avro Lancastrian,Boeing 727-200,Boeing 747-100,Boeing 747-200B,Convair 240,Convair 440,Airbus A319-100,Airbus A320-200,Airbus A320neo,Airbus A321-100,Airbus A321neo,Airbus A330-200,Boeing 777-8X,Boeing 777-200ER"/>
+<focusairports>
+        <focusairport airport="FCO"/>
+        <focusairport airport="LIN"/>
+        <focusairport airport="MXP"/>
+        <focusairport airport="CTA"/>
+        <focusairport airport="VCE"/>     
+        <focusairport airport="PMO"/>                    	   
+		<focusairport airport="PSA"/> 
+        <focusairport airport="TIA"/>                     	   
+		<focusairport airport="TRN"/>     
+</focusairports>
+    <airliners>
+      <airliner type="Airbus A300B2" early="0" late="12"/>
+      <airliner type="Avro Lancastrian" early="1" late="6"/>
+      <airliner type="Boeing 727-200" early="0" late="11"/>
+      <airliner type="Boeing 747-100" early="0" late="8"/>
+      <airliner type="Boeing 747-200B" early="0" late="6"/>
+      <airliner type="Convair 240" early="0" late="7"/>
+      <airliner type="Convair 440" early="0" late="9"/>
+      <airliner type="Commando C-46" early="0" late="8"/>
+      <airliner type="Douglas DC-3" early="0" late="11"/>
+      <airliner type="Douglas DC-4-1009" early="0" late="13"/>
+      <airliner type="Douglas DC-6" early="0" late="8"/>
+      <airliner type="Douglas DC-6B" early="0" late="9"/>
+      <airliner type="Douglas DC-7C" early="0" late="12"/>
+      <airliner type="Douglas DC-8-40" early="0" late="9"/>
+      <airliner type="Douglas DC-8-61" early="0" late="15"/>
+      <airliner type="Douglas DC-9-30" early="0" late="19"/>
+      <airliner type="Fiat G12" early="1" late="8"/>
+      <airliner type="Fokker F27" early="0" late="12"/>
+      <airliner type="MD DC-10-10" early="0" late="19"/>
+      <airliner type="MD-11" early="0" late="9"/>
+      <airliner type="MD-82 (DC-9-82)" early="0" late="41"/>
+      <airliner type="Sud Aviation Caravelle I" early="0" late="6"/>
+      <airliner type="Vickers Viscount 800" early="0" late="9"/>
+      <airliner type="Airbus A319-100" early="0" late="22"/>
+	  <airliner type="Airbus A320-200" early="0" late="36"/>
+	  <airliner type="Airbus A321-100" early="0" late="12"/>
+	  <airliner type="Airbus A330-200" early="0" late="14"/>
+	  <airliner type="Boeing 777-200ER" early="0" late="11"/>
+	  <airliner type="Boeing 777-300ER" early="0" late="1"/>
+	  <airliner type="Embraer E-190" early="0" late="5"/>
+	  <airliner type="Embraer E-175" early="0" late="15"/>
+    </airliners>
+<routes>
+		<route destination1="FCO" destination2="TIA"/>
+		<route destination1="FCO" destination2="ALG"/>
+		<route destination1="FCO" destination2="ORN"/>
+		<route destination1="FCO" destination2="EZE"/>
+		<route destination1="FCO" destination2="BRU"/>
+		<route destination1="FCO" destination2="GIG"/>
+		<route destination1="FCO" destination2="GRU"/>
+		<route destination1="FCO" destination2="SOF"/>
+		<route destination1="FCO" destination2="SCL"/>
+		<route destination1="FCO" destination2="PEK"/>
+		<route destination1="FCO" destination2="HAV"/>
+		<route destination1="FCO" destination2="PRG"/>
+		<route destination1="FCO" destination2="CAI"/>
+		<route destination1="FCO" destination2="MRS"/>
+		<route destination1="FCO" destination2="NCE"/>
+		<route destination1="FCO" destination2="CDG"/>
+		<route destination1="FCO" destination2="TLS"/>
+		<route destination1="FCO" destination2="TXL"/>
+		<route destination1="FCO" destination2="DUS"/>
+		<route destination1="FCO" destination2="FRA"/>
+		<route destination1="FCO" destination2="MUC"/>
+		<route destination1="FCO" destination2="ATH"/>
+		<route destination1="FCO" destination2="BUD"/>
+		<route destination1="FCO" destination2="DEL"/>
+		<route destination1="FCO" destination2="IKA"/>
+		<route destination1="FCO" destination2="TLV"/>
+		<route destination1="FCO" destination2="BRI"/>
+		<route destination1="FCO" destination2="BLQ"/>
+		<route destination1="FCO" destination2="BDS"/>
+		<route destination1="FCO" destination2="CAG"/>
+		<route destination1="FCO" destination2="CTA"/>
+		<route destination1="FCO" destination2="FLR"/>
+		<route destination1="FCO" destination2="GOA"/>
+		<route destination1="FCO" destination2="SUF"/>
+		<route destination1="FCO" destination2="LIN"/>
+		<route destination1="FCO" destination2="NAP"/>
+		<route destination1="FCO" destination2="PMO"/>
+		<route destination1="FCO" destination2="PSA"/>
+		<route destination1="FCO" destination2="REG"/>
+		<route destination1="FCO" destination2="TRS"/>
+		<route destination1="FCO" destination2="TRN"/>
+		<route destination1="FCO" destination2="VCE"/>
+		<route destination1="FCO" destination2="VRN"/>
+		<route destination1="FCO" destination2="NRT"/>
+		<route destination1="FCO" destination2="BEY"/>
+		<route destination1="FCO" destination2="MLE"/>
+		<route destination1="FCO" destination2="MLA"/>
+		<route destination1="FCO" destination2="TGD"/>
+		<route destination1="FCO" destination2="CMN"/>
+		<route destination1="FCO" destination2="AMS"/>
+		<route destination1="FCO" destination2="WAW"/>
+		<route destination1="FCO" destination2="SVO"/>
+		<route destination1="FCO" destination2="BEG"/>
+		<route destination1="FCO" destination2="ICN"/>
+		<route destination1="FCO" destination2="BCN"/>
+		<route destination1="FCO" destination2="MAD"/>
+		<route destination1="FCO" destination2="AGP"/>
+		<route destination1="FCO" destination2="TFN"/>
+		<route destination1="FCO" destination2="GVA"/>
+		<route destination1="FCO" destination2="ZRH"/>
+		<route destination1="FCO" destination2="TUN"/>
+		<route destination1="FCO" destination2="IEV"/>
+		<route destination1="FCO" destination2="AUH"/>
+		<route destination1="FCO" destination2="LCY"/>
+		<route destination1="FCO" destination2="LHR"/>
+		<route destination1="FCO" destination2="MIA"/>
+		<route destination1="FCO" destination2="JFK"/>
+		<route destination1="LIN" destination2="BRU"/>
+		<route destination1="LIN" destination2="CDG"/>
+		<route destination1="LIN" destination2="ORY"/>
+		<route destination1="LIN" destination2="DUS"/>
+		<route destination1="LIN" destination2="FRA"/>
+		<route destination1="LIN" destination2="ATH"/>
+		<route destination1="LIN" destination2="AHO"/>
+		<route destination1="LIN" destination2="BRI"/>
+		<route destination1="LIN" destination2="BDS"/>
+		<route destination1="LIN" destination2="CAG"/>
+		<route destination1="LIN" destination2="CTA"/>
+		<route destination1="LIN" destination2="SUF"/>
+		<route destination1="LIN" destination2="NAP"/>
+		<route destination1="LIN" destination2="PMO"/>
+		<route destination1="LIN" destination2="PSR"/>
+		<route destination1="LIN" destination2="REG"/>
+		<route destination1="LIN" destination2="TPS"/>
+		<route destination1="LIN" destination2="TRS"/>
+		<route destination1="LIN" destination2="AMS"/>
+		<route destination1="LIN" destination2="BCN"/>
+		<route destination1="LIN" destination2="LCY"/>
+		<route destination1="LIN" destination2="LHR"/>
+		<route destination1="NAP" destination2="CTA"/>
+		<route destination1="NAP" destination2="PMO"/>
+		<route destination1="NAP" destination2="TRN"/>
+		<route destination1="REG" destination2="TRN"/>
+		<route destination1="CTA" destination2="BLQ"/>
+		<route destination1="MXP" destination2="EZE"/>
+		<route destination1="MXP" destination2="NRT"/>
+		<route destination1="MXP" destination2="AUH"/>
+		<route destination1="MXP" destination2="JFK"/>
+		<route destination1="ATH" destination2="TLV"/>
+</routes>
+</airline>

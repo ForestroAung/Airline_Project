@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Fly Romania" iata="X5" color="Blue" area="148" CEO="Ovidiu Tender" mentality="Moderate" market="Regional"
+           preferedairport="OTP">
+            <narrative narrative="Fly Romania was Romanian brand Ten Airways low-cost carrier. It was established in May 2014. All flights suspended from Octomber 2014"></narrative>
+  </profile>
+  <info real="True" from="2014" to="2015" />
+</airline>

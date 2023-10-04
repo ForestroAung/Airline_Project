@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Wamos Air" iata="PLM"  color="Purple" area="117" CEO="Antonio Gomez" mentality="Safe" market="Global"  preferedairport="MAD" schedule="Charter"> 
+  <narrative narrative="Wamos Air is a charter airlines based at Madrid. From its founding in 2003 to December 2014 it was known as Pullmantur Air. Many of its flights are done for Pullmantur Cruises,who have been owned by Royal
+  Caribbean Cruises since November 2006, making the airline also owned by them. Its first route was MAD-Cancun,Mexico which it still does once a week and also Punta Cana,Dominican Republic. Other common routes from Madrid include 
+  Santo Domingo,Dominican Republic, Santa Cruz,Bolivia Bogota,Columbia Aruba Tallinn,Estonia Helsinki,Finland Athens,Greece Bologna,Italy Marrakech,Morocco Trondheim,Norway Malmo,Sweden Denpasar,Indonesia and
+in the US, Miami and New York JFK. At January 2015 it has five 747-400's. It had a 747-300 and 747-200 at the start. It was operating one 747-400 for Saudia and another for Garuda Indonesia as of December 2014. " />
+<names>
+<name value="Pullmantur Air" from="1.1.2003 00:00:00"></name>
+<name value="Wamos Air" from="12.1.2014 00:00:00"></name>
+</names>
+</profile>
+   <info real="True" from="2003" to="2199"></info>
+   <prefereds aircrafts="Boeing 747-400,Boeing 747-200B,Boeing 747-300"></prefereds>
+     <logos>
+      <logo from="2003" to="2014" path="PLM2003-2014"></logo>
+    </logos>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-300" early="1" late="0"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2011)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200B" early="1" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 747-400" early="3" late="5"></airliner>
+	     </airliners>
+
+<routes>
+		<route destination1="MAD" destination2="CUN" opened="2003" closed="2199"/>
+		<route destination1="MAD" destination2="PUJ" opened="2003" closed="2199" />
+	       <route destination1="MAD" destination2="SDQ" opened="2008" closed="2199"/>
+	       <route destination1="MAD" destination2="VVI" opened="2008" closed="2199"/>
+	       	<route destination1="MAD" destination2="BOG" opened="2008" closed="2199"/>
+		<route destination1="MAD" destination2="AUA" opened="2007" closed="2199"/>
+		<route destination1="MAD" destination2="HEL" opened="2005" closed="2199" />
+	       <route destination1="MAD" destination2="ATH" opened="2005" closed="2199"/>
+	       <route destination1="MAD" destination2="BLQ" opened="2009" closed="2199"/>
+	       	<route destination1="MAD" destination2="TLL" opened="2010" closed="2199"/>
+		<route destination1="MAD" destination2="TRD" opened="2010" closed="2199"/>
+		<route destination1="MAD" destination2="MMX" opened="2010" closed="2199" />
+	       <route destination1="MAD" destination2="RAK" opened="2010" closed="2199" season="Summer"/>
+	       <route destination1="MAD" destination2="DPS" opened="2010" closed="2199" season="Summer"/>
+	       <route destination1="MAD" destination2="MIA" opened="2010" closed="2199" season="Summer"/>
+	        <route destination1="MAD" destination2="JFK" opened="2010" closed="2199" season="Summer"/>
+        </routes>
+</airline>

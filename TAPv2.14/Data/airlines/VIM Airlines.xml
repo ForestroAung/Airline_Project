@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="VIM Airlines" iata="NN" color="Red" area="177" CEO="Alexander Kochnev" mentality="Moderate" market="Global" preferedairport="DME">
+  <narrative narrative="VIM Airlines is based at Moscow Domodovo,Russia and started in 2000. VIM stands for the founder, Viktor Ivanovich Merkulov. At July 2015 from Moscow it was serving the domestic destinations of
+  Anadyr,Barnaul,Blagoveshchensk,Gelendzhik,Komsomolsk-on-Amur,Krasnodar,Magadan,Makhachkala,Novosibirsk,Pevek,Sochi,and Yekaterinburg. Seasonally it was serving Khabarovsk and Petropavlovsk.
+  International ones were Andizhan,Uzbekistan Barcelona,Spain Chisinau,Moldova Dushanbe,Tajikistan Eilat,Israel Fergana,Uzbekistan Ganja,Azerbaijian Gyumri,Armenia Namangan,Uzbekistan Osh,Kyrgyzstan Rhodes,Greece Samarkand,Uzbekistan
+  Simferopol,Ukraine Termez,Uzbekistan Thessaloniki,Greece Tivat,Montenegro and Yerevan,Armenia. Rhodes and Simferopol were seasonal. It also does seasonal charters to places like Rimini,Italy Alicante,Spain
+  and the Canary Islands to name a few. Its fleet at March 2015 was eight 757-200's,four A319-100's and a 767-300. It was the first Russian airline to use the 757. It also had five Bombardier CS300's on order and five
+  Tupolev Tu-204SM's on order. Previous types it had include Tu-154M's,Il-62M's and Yak-42D's. It has the subsidiary AeroBratsk which it bought in 2004. It also got Chitaavia in 2004 and in 2005 Russian Sky Airlines.
+  It also had a subsidiary it founded called Air Bashkorotostan based in Ufa from 2006 to 2013. It also offers other airlines wet leasing."/>
+</profile>
+  <info real="True" from="2000" to="2017" />
+  <prefereds aircrafts="Boeing 757-200,Airbus A319-100,Bombardier CS-300,Tupolev Tu-204SM,Tupolev Tu-154M,Il-62M,Airbus A319neo"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="10" late="8"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A319-100" early="4" late="4"></airliner>
+	     </airliners>
+	               <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2020)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CS-300" early="1" late="5"></airliner>
+	     </airliners>
+	     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2018)-->
+	     	         <airliners>
+	    <airliner type="Tupolev Tu-204SM" early="1" late="5"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="DME" destination2="SVX" />
+		  <route destination1="DME" destination2="KRR" />
+		  <route destination1="DME" destination2="AER" />
+		  <route destination1="DME" destination2="OVB" />
+		  <route destination1="DME" destination2="BAX" />
+		  <route destination1="DME" destination2="GDX" />
+		  <route destination1="DME" destination2="MCX" />
+		  <route destination1="DME" destination2="BQS" />
+		  <route destination1="DME" destination2="KXK" />
+		  <route destination1="DME" destination2="PWE" />
+		  <route destination1="DME" destination2="DYR" />
+	          <route destination1="DME" destination2="BCN" />
+		  <route destination1="DME" destination2="EVN" />
+	          <route destination1="DME" destination2="TFS"/>
+		  <route destination1="DME" destination2="KIV" />
+		  <route destination1="DME" destination2="DYU" />
+		  <route destination1="DME" destination2="SKD" />
+		  <route destination1="DME" destination2="AZN" />
+		  <route destination1="DME" destination2="SKG" />
+		  <route destination1="DME" destination2="KVD" />
+		  <route destination1="DME" destination2="OSS" />
+		  <route destination1="DME" destination2="TIV" />
+		  <route destination1="DME" destination2="FEG" />
+		  <route destination1="DME" destination2="NMA" />
+		  <route destination1="DME" destination2="TMJ" />
+		  <route destination1="DME" destination2="LWN" />
+                  <route destination1="DME" destination2="KQT" />
+		  <route destination1="LED" destination2="GBB" />
+		  <route destination1="DME" destination2="KHV" season="Summer" />
+		  <route destination1="DME" destination2="PKC" season="Summer" />
+		  <route destination1="DME" destination2="SIP" season="Summer" />
+		  <route destination1="DME" destination2="VDA" season="Summer" />
+		  <route destination1="DME" destination2="ALC" season="Summer" />
+		  <route destination1="DME" destination2="RHO" season="Summer" />
+        </routes>
+</airline>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Delta Air Transport" iata="QG" logo="QG2"  color="SlateBlue" area="112" CEO="Freddy Van Gaever" mentality="Moderate" market="Regional" preferedairport="BRU">
+  <narrative narrative="Delta Air Transport was a Belgian airline based in Antwerp most of its life with a main hub at Brussels. It started in 1966 as an air taxi with a Cessna Skymaster,a 206 and a 210. On September 19,1967 it started scheduled service from Antwerp to Amsterdam on behalf of KLM and used two Beechcraft Queen Air's. It grew with Douglas DC-3's and DC-6's over the next few years. Many flights were charters for KLM who owned exactly one third of the airline. Others were flown for Belgian flag carrier Sabena,and Crossair and BIAS. In 1973 Compagnie Maritime Belge bught the majority stake,a ship company based in Antwerp. A very short lived attempt at global operations with a leased Boeing 720 lasted only during a time in 1974. In 1986 Sabena bought 49% and DAT even adopted the Sabena IATA and ICAO codes at this time. Starting in 1990 it began getting BAe 146's having about seven in 1990. Sabena bought the rest of the airline in 1996 and the HQ was moved to Brussels. The DAT fleet was repainted into Sabena colors. On November 1,2001 Sabena collapsed from financial problems. DAT had the oppurtunity to start flying again November 10th because they got all the Brussels Airports slots from Sabena. DAT came under the control of SN Airholding, the liquidator to Sabena in 2002 nd the airline was reorganized into SN Brussels Airlines, the new Belgian flag carrier. In 2007 they would merge with Virgin Express to bcome Brussels Airlines. Other planes it used were Fokker 28's until 1997,Embraer Brasilia's from 1988 to 1997,Aerospatiale N 262 starting in 1976,Convair 440 from 1972 to 1977,Fairchild FH-227 starting in 1977,and Fairchild Metroliner aircraft. Its fleet at the end was eighten BAe 146 and Avro 100 types,and fourteen Avro 85's,and one leased Dash 8-300.At its peak it served 1.7 million passengers a year and was the 10th largest regional European airline and had 800 employees. At its peak from Brussels it served seven French destinations,seven German,seven Italian,eight in the UK,six in Spain,three in Switzerland,two in Sweden,two in Portugal,and one each in Austria,Bulgaria,Croatia,Czech Republic,Denmark,Finland,Greece,Hungary,Ireland,Luxembourg,Netherlands,Norway,Poland,and Romania."/>
+   </profile>
+    <info real="True" from="1966" to="2002" />
+       <prefereds aircrafts="Douglas DC-3,Douglas DC-6,Convair 440,BAe 146-200,Avro RJ 85,EMB 120 Brasilia,Fokker F28-1000,Fokker F28-2000,Fokker F28-3000,Fokker F28-4000,Aerospatiale N 262,Fairchild FH-227"></prefereds>
+	<focusairports>
+			       <focusairport airport="ANR"></focusairport>
+     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1967) late (2002)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft Queen Air B80" early="2" late="0"></airliner>
+	     </airliners>
+	            <!--the airliners the airline would start with which isn't on a route earyl (1990) late (2001)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="7" late="18"></airliner>
+	     </airliners>
+	                 <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2001)-->
+	     	         <airliners>
+	    <airliner type="Avro RJ 85" early="4" late="14"></airliner>
+	     </airliners>
+	     	                 <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2002)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="1" late="1"></airliner>
+	     </airliners>
+	        	                 <!--the airliners the airline would start with which isn't on a route earyl (1966) late (1969)-->
+	     	         <airliners>
+	    <airliner type="Cessna 210 Centurion" early="1" late="0"></airliner>
+	     </airliners>
+	             	                 <!--the airliners the airline would start with which isn't on a route earyl (1966) late (1969)-->
+	     	         <airliners>
+	    <airliner type="Cessna 206" early="1" late="0"></airliner>
+	     </airliners>
+	             	                 <!--the airliners the airline would start with which isn't on a route earyl (1966) late (1969)-->
+	     	         <airliners>
+	    <airliner type="Cessna Skymaster" early="1" late="0"></airliner>
+	     </airliners>
+	
+	
+	
+
+	       <routes>
+	        <route destination1="ANR" destination2="AMS" opened="1967" closed="2199" />
+	       	<route destination1="BRU" destination2="CDG" />
+		<route destination1="BRU" destination2="AMS"  />
+		<route destination1="BRU" destination2="LHR"  />
+		<route destination1="BRU" destination2="TXL"  />
+		<route destination1="BRU" destination2="FRA"  />
+		<route destination1="BRU" destination2="MAN"  />
+		<route destination1="BRU" destination2="NCE"  />
+		<route destination1="BRU" destination2="MAD"  />
+		<route destination1="BRU" destination2="BCN"  />
+	        <route destination1="BRU" destination2="ZRH" />
+		<route destination1="BRU" destination2="MUC"  />
+		<route destination1="BRU" destination2="FCO"  />
+		<route destination1="BRU" destination2="CPH"  />
+		<route destination1="BRU" destination2="VIE"  />
+		<route destination1="BRU" destination2="GVA"  />
+		<route destination1="BRU" destination2="DUS"  />
+		<route destination1="BRU" destination2="MXP"  />
+		<route destination1="BRU" destination2="VCE"  />
+		<route destination1="BRU" destination2="LYS"  />
+		<route destination1="BRU" destination2="GLA"  />
+		<route destination1="BRU" destination2="EDI"  />
+		<route destination1="BRU" destination2="PRG"  />
+		<route destination1="BRU" destination2="DUB"  />
+		<route destination1="BRU" destination2="LUX"  />
+		<route destination1="BRU" destination2="TLS"  />
+		<route destination1="BRU" destination2="OSL"  />
+		<route destination1="BRU" destination2="WAW"  />
+		<route destination1="BRU" destination2="LIS"  />
+		<route destination1="BRU" destination2="ARN"  />
+		<route destination1="BRU" destination2="HAM"  />
+		<route destination1="BRU" destination2="STR"  />
+		<route destination1="BRU" destination2="MRS"  />
+		<route destination1="BRU" destination2="BOD"  />
+		<route destination1="BRU" destination2="NCL"  />
+		<route destination1="BRU" destination2="BHX"  />
+		<route destination1="BRU" destination2="VLC"  />
+		<route destination1="BRU" destination2="AGP"  />
+		<route destination1="BRU" destination2="TRN"  />
+		<route destination1="BRU" destination2="BLQ"  />
+		<route destination1="BRU" destination2="HAJ"  />
+		<route destination1="BRU" destination2="BSL"  />
+		<route destination1="BRU" destination2="HEL"  />
+		<route destination1="BRU" destination2="NAP"  />
+		<route destination1="BRU" destination2="LBA"  />
+		<route destination1="BRU" destination2="ATH"  />
+		<route destination1="BRU" destination2="SXB"  />
+		<route destination1="BRU" destination2="OTP"  />
+		<route destination1="BRU" destination2="BUD"  />
+		<route destination1="BRU" destination2="SOF"  />
+		<route destination1="BRU" destination2="ZAG"  />
+		<route destination1="BRU" destination2="BIO"  />
+		<route destination1="BRU" destination2="OPO"  />
+		<route destination1="BRU" destination2="GOT"  />
+		<route destination1="BRU" destination2="FLR"  />
+		<route destination1="BRU" destination2="BRS"  />
+		<route destination1="BRU" destination2="SVQ"  />
+		<route destination1="BRU" destination2="SEN"  />
+	
+              </routes>
+</airline>

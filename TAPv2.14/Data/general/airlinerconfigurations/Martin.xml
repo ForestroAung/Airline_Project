@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Martin 2-0-2-->
+<configuration type="Martin 2-0-2" economy="0" premium="0" first="-1" business="0" exitrows="0,595" emergencyrows="-1" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74.3" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Martin 4-0-4" economy="0" premium="0" first="-1" business="0" exitrows="0,740" emergencyrows="-1" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Martin M-->
+<configuration type="Martin M-130" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="720" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Comfort" pitch="90" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

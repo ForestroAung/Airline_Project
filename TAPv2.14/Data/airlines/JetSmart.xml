@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="JetSmart" iata="JA" color="White" area="435" CEO="Estuardo Ortiz Porras" mentality="Safe"
+           market="Global" preferedairport="SCL" businessmodel="LCC">
+                   <narrative narrative="JetSmart is an ultra low-cost Chilean airline created by US investment fund Indigo Partners, which also controls US airline Frontier Airlines, Mexico's Volaris and Hungarian airline Wizz Air. Its primary base of operations is Comodoro Arturo Merino Benítez International Airport, in Santiago, Chile."></narrative>
+  </profile>
+  <info real="True" from="2017" to="2199" />
+<focusairports>
+      <focusairport airport="SCL"></focusairport>
+     </focusairports>
+       <prefereds aircrafts="Airbus A321neo,Airbus A320neo"></prefereds>
+       <airliners>
+     <airliner type="Airbus A320-200" early="5" late="4"></airliner>
+<airliner type="Airbus A320neo" early="0" late="56"></airliner>
+<airliner type="Airbus A321neo" early="0" late="14"></airliner>
+      </airliners>
+<routes>     
+       <route destination1="SCL" destination2="ANF"/>
+       <route destination1="SCL" destination2="CJC"/>
+       <route destination1="SCL" destination2="CPO"/>
+       <route destination1="SCL" destination2="CCP"/>
+       <route destination1="SCL" destination2="LSC"/>
+       <route destination1="SCL" destination2="PMC"/>
+              <route destination1="SCL" destination2="ZCO"/>
+       <route destination1="SCL" destination2="PUQ"/>
+       <route destination1="SCL" destination2="IQQ"/>
+        <route destination1="SCL" destination2="LIM"/>
+                   </routes>
+</airline>

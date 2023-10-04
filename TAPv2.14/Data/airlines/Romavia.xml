@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Romavia" iata="WQ" color="White" area="148" CEO="Romanian Ministry of Defence" mentality="Safe" market="Regional" preferedairport="OTP">
+            <narrative narrative="Romavia governmental airline based in Romania. Operated VIP and charter flights serving demands from Romanian government."></narrative>
+  </profile>
+  <info real="True" from="1991" to="2010" />
+</airline>

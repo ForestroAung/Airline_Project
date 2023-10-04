@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Ishtar Airlines" iata="ISH" color="Gold" area="304" CEO="Moayad Hassan" mentality="Safe" market="Regional" preferedairport="BGW">
+  <narrative narrative="Ishtar Airlines was an airlines that operated between Baghdad,Iraq and Dubai,United Arab Emirates which was its only route. It began in March 2005 by a group of former Iraqi Airways pilots.
+  It used a 727-200 Adv. at the end of its life which was operated by African Express Airways. In 2005 and 2006 in the first two years of operation it used 2 seperate 737-200 Adv.'s, but not at the same time.
+  The airline seemed to stop operating around October 2009 but no news came out as to why or if it would start again. But at June 2015 it is obvious it is not going to do so."/>
+</profile>
+  <info real="True" from="2005" to="2010" />
+  <prefereds aircrafts="Boeing 727-200 Adv.,Boeing 737-200 Adv."></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+	 	                      <routes>
+                <route destination1="BGW" destination2="DXB"   />
+	        </routes>
+
+
+
+
+</airline>

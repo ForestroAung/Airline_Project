@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="ATA Airlines" iata="I3" color="Tomato" area="206" CEO="Mahdi Dadpei" mentality="Moderate" market="Global" preferedairport="TBZ">
+  <narrative narrative="ATA Airlines of Iran is based at Tabriz,Iran with another hub at Tehran Mehrabad Airport. It began in 2010. As of about June 2015 from Tehran Mehrabad it was flying domestic to Ahwaz,Ardabil,Kish Island,Mashhad,Shiraz,Tabriz and Urmia. From Tabriz besides Tehran it was flying domestic to Ahwaz,Kish Island,Mashhad and Shiraz and international to Istanbul,Turkey. Besides Tehran it was flying at Mashhad domestic to Isfahan and international to Bahrain and Kuwait. From Tehrans other aiport Imam Khomeini it was going to Tbilisi and Batumi,Georgia. It began with four MD-83's and now has 6. It got three A320's in 2011 which it still has at June 2015 also. It does charters to Europe as well."/>
+</profile>
+  <info real="True" from="2010" to="2199" />
+  <prefereds aircrafts="MD-83 (DC-9-83),Airbus A320-200,Airbus A320neo"></prefereds>
+          <focusairports>
+		 <focusairport airport="THR"></focusairport>
+					      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2012)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="4" late="6"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="3" late="3"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="TBZ" destination2="THR"   />
+		<route destination1="TBZ" destination2="MHD" />
+		<route destination1="TBZ" destination2="KIH"  />
+		<route destination1="TBZ" destination2="AWZ"   />
+                <route destination1="TBZ" destination2="IST"  />
+		<route destination1="TBZ" destination2="SYZ"  />
+		<route destination1="THR" destination2="MHD"  />
+		<route destination1="THR" destination2="KIH"  />
+		<route destination1="THR" destination2="AWZ"  />
+		<route destination1="THR" destination2="ADU"  />
+		<route destination1="THR" destination2="SYZ"  />
+		<route destination1="THR" destination2="OMH"  />
+		<route destination1="IKA" destination2="TBS"  />
+		<route destination1="IKA" destination2="BUS"  />
+		<route destination1="MHD" destination2="IFN"  />
+		<route destination1="MHD" destination2="BAH"  />
+		<route destination1="MHD" destination2="KWI"  />
+	        </routes>
+
+
+
+
+</airline>

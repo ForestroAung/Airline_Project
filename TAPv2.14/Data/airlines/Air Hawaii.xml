@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Hawaii" iata="AHC" color="Orange" area="402" CEO="Michael Hartley" mentality="Safe" market="Domestic" preferedairport="HNL" >
+    <narrative narrative="Air Hawaii was a very short lived airline that flew from November 22,1985 to February 19,1986. It began the route from Honolulu to Los Angeles at the start and in December added
+    San Francisco. It had one DC-10-10 at the start and on January 13th got another. The planes had been part of Michael Hartleys previous airline The Hawaii Express which was around from August 1982 to December 1983.
+    Air Hawaii ceased due to financial problems it had from the start. Michael Hartley would go on to be a co founder of ticket website CheapTickets." />
+  </profile>
+     <info real="True" from="1985" to="1986"></info>
+     <prefereds aircrafts="MD DC-10-10"></prefereds>
+		      	      <!--the airliners the airline would start with which isn't on a route earyl (1985) late (1986)-->
+	         <airliners>
+	    <airliner type="MD DC-10-10" early="2" late="2"></airliner>
+	     </airliners>
+
+      <routes>  
+	    <route destination1="HNL" destination2="LAX"  />
+            <route destination1="HNL" destination2="SFO"  />	
+                   </routes>
+</airline>

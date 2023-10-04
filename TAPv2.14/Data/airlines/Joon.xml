@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Joon" iata="JN" color="White" area="113" mentality="Aggressive" market="Regional" preferedairport="CDG" CEO="Jean-Michel Mathieu" businessmodel="LCC">
+           <narrative
+      narrative="Joon is a French airline based at Paris' Charles de Gaulle Airport. It is a subsidiary of France's flag carrier, Air France." />
+  
+  </profile>
+  <info real="True" from="2017" to="2019" />
+<airliners>
+<airliner type="Airbus A320-200" early="7" late="0"></airliner>
+<airliner type="Airbus A321-200" early="4" late="0"></airliner>
+<airliner type="Airbus A340-300" early="1" late="3"></airliner>
+</airliners>
+<routes>
+<route destination1="CDG" destination2="BCN" />
+<route destination1="CDG" destination2="TXL" />
+<route destination1="CDG" destination2="CAI" />
+<route destination1="CDG" destination2="IST" />
+<route destination1="CDG" destination2="LIS" />
+<route destination1="CDG" destination2="NAP" />
+<route destination1="CDG" destination2="OSL" />
+<route destination1="CDG" destination2="OPO" />
+<route destination1="CDG" destination2="FCO" />
+
+<route destination1="CDG" destination2="CPT" opened="2018" closed="2199"/>
+<route destination1="CDG" destination2="FOR" opened="2018" closed="2199"/>
+<route destination1="CDG" destination2="SEZ" opened="2018" closed="2199"/>
+<route destination1="CDG" destination2="BOM" opened="2018" closed="2199"/>
+<route destination1="CDG" destination2="IKA" opened="2018" closed="2199"/>
+</routes>
+</airline>

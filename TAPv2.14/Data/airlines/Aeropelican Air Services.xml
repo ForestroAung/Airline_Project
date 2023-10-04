@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aeropelican Air Services" iata="PEL" color="SlateBlue" area="251" CEO="Ian Vanderbeek" mentality="Safe" market="Local" preferedairport="NTL">
+  <narrative narrative="Aeropelican Air Services was an airline based at Newcastle,New South Wales,Australia from 1971 until around December 2013. Its main route was to Sydney its whole life. It used DH Twin Otters from the start until 2005. From around 1980 or 1981 until September 2001 it was a subsidiary of Ansett Australia,
+  it survived its parents collapse. It started merging with Brindebella Airlines in October 2011 but it would not be complete until June 2013. It started doing flights for Regional Express Airlines in June 2013. On June 24,2013 it merged with Brindebella Airlines totally and ceased the Aeropelican brand. Brindebella would only be around 6 more months until it too ceased on December 15,2013.
+  In 2004 it began using an Embraer 110 Bandeirante. In 2005 a Fairchild Metroliner was added and this is when the Twin Otters were withdrawn from service. It recieved two new BAe Jetstream 32's in 2007 and withdrew the Metroliner from service. At the end it had three Jetstream 32's. Besides its flagship route at the end it was also serving
+  Sydney to Mudgee,Sydney to Narrabri and Brisbane to Narrabri. Some of its former staff founded the new airline FlyPelican in 2015 and is using the same Jetstream 32's in addition to a 4th and is serving most of the same routes and calls Newcastle and Sydney its two homes as well. So the spirit of Aeropelican is living on
+  through FlyPelican as of June 2016." />
+</profile>
+   <info real="True" from="1971" to="2014"></info>
+   <prefereds aircrafts="BAe Jetstream 31,DHC-6-300 Twin Otter,DHC-6-100 Twin Otter,EMB 110 Bandeirante,Fairchild Swearingen Metroliner"></prefereds>
+     <focusairports>
+	 <focusairport airport="SYD"></focusairport>
+     </focusairports>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2014)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="2" late="3"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (1971) late (2014)-->
+	         <airliners>
+	    <airliner type="DHC-6-300 Twin Otter" early="1" late="0"></airliner>
+	     </airliners>
+	       	     <!--the airliners the airline would start with which isn't on a route earyl (1971) late (2014)-->
+	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="1" late="0"></airliner>
+	     </airliners>
+	   		       	     <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="1" late="0"></airliner>
+	     </airliners>
+	     	   		       	     <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2014)-->
+	         <airliners>
+	    <airliner type="EMB 110 Bandeirante" early="1" late="1"></airliner>
+	     </airliners>
+	
+
+
+<routes>
+    <route destination1="NTL" destination2="SYD" />
+		<route destination1="BNE" destination2="NAA" />
+		<route destination1="SYD" destination2="NAA" />
+		<route destination1="SYD" destination2="DGE" />
+		
+
+        </routes>
+  
+
+
+</airline>

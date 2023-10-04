@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Colón">
+  <months>
+    <month month="1" precipitation="109">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="50">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="36">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="94">
+      <temp min="25" max="30" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="274">
+      <temp min="24" max="31" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="368">
+      <temp min="24" max="30" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="419">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="417">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="292">
+      <temp min="24" max="31" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="467">
+      <temp min="23" max="30" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="620">
+      <temp min="23" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="320">
+      <temp min="24" max="29" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+  </months>
+</weather>

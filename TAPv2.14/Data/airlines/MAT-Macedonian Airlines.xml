@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="MAT-Macedonian Airlines" iata="MAK" color="Magenta" area="137" CEO="Zlatko Petrovski" mentality="Moderate" market="Regional" preferedairport="SKP">
+  <narrative narrative="MAT Macedonian Airlines was the flag carrier of the Republic of Macedonia from 1994 until 2009. Its main base was Skopje with another at Ohrid. Near the end the direct routes it served were to Belgrade,Serbia Zurich,Switzerland Vienna,Austria Amsterdam,Netherlands Frankfurt,Germany Berlin Tegel,Germany Hamburg,Germany Dusseldorf,Germany and Rome,Italy. Its only plane at the very end was a 737-500. Other planes it had were two 737-200's near the start of its life, two 737-300's starting in about 1999 and it had one until about 2008.It had a Bombardier CRJ900 from 2006 to just a few months before its official closing down. And in the lates 90s to early 2000's it used a few Douglas DC-9-30's. It also used a Tu-154 and Yak-42 at some point and an ERJ 170 and 727-200. It lost its Air Operators Certificate on September 1,2009 and talks of JAT Airways of Serbia acquiring it never came into fruition. It had to suspend all operations to Germany and Rome in December 2008 after being banned from entering Germany and Italy after not paying ATC fees from 1999 to 2005. Most of its life it was also banned from entering Greek airspace, and even after this was lifted it could only fly over and not land in Greece, due to the disupute between Macedonia and Greece over the name Macedonia which Greece feels is historical to Greece and not the area of which the current Republic of Macedonia is claiming it to be asscociated with just north of Greece. MAT served other places at times too. It also served Prague,Czech Republic Copenhagen,Denmark Stuttgart,Germany Karlsruhe,Germany Budapest,Hungary 
+  Milan,Italy Luxembourg Madrid,Spain Palma de Mallorca,Spain Gothenburg,Sweden Stockholm,Sweden Geneva,Switzerland and Istanbul,Turkey." />
+ </profile>
+    <info real="True" from="1994" to="2010" />
+       <prefereds aircrafts="Boeing 737-300,Bombardier CRJ900,Boeing 737-500,Boeing 737-200 Adv.,Douglas DC-9-30"></prefereds>
+       <focusairports>
+                 <focusairport airport="OHD"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="2" late="0"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ900" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2002)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="3" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	      
+	    <route destination1="SKP" destination2="BEG"    />	
+	    <route destination1="SKP" destination2="ZRH"    />	
+	    <route destination1="SKP" destination2="VIE"    />	
+	    <route destination1="SKP" destination2="AMS"    />
+	    <route destination1="SKP" destination2="FRA"    />	
+	    <route destination1="SKP" destination2="FCO"    />	
+	    <route destination1="SKP" destination2="TXL"   />
+	    <route destination1="SKP" destination2="DUS"    />	
+	    <route destination1="SKP" destination2="HAM"    />
+	    <route destination1="SKP" destination2="BUD"    />
+	    <route destination1="SKP" destination2="IST"    />
+	    <route destination1="SKP" destination2="MAD"    />
+	    <route destination1="SKP" destination2="PRG"    />
+	    <route destination1="SKP" destination2="MXP"    />
+	    <route destination1="SKP" destination2="GVA"    />
+            <route destination1="SKP" destination2="CPH"    />
+	    <route destination1="SKP" destination2="STR"    />
+	    <route destination1="SKP" destination2="PMI"    />
+	    <route destination1="SKP" destination2="ARN"    />
+	    <route destination1="SKP" destination2="GOT"    />
+	    <route destination1="SKP" destination2="FKB"    />
+                   </routes>
+</airline>

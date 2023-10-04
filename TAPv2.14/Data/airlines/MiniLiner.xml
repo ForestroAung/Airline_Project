@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="MiniLiner" iata="MNL" color="Red" area="122" CEO="Giuseppe Berlusconi" mentality="Safe" market="Global" preferedairport="BGY" routefocus="Cargo">
+  <narrative narrative="MiniLiner was a cargo airline around from operations start in 1982 until January 31,2015. Its base was Orio al Serio Airport at Bergamo near Milan. At May 2010 it used three Fokker 50's which could hold 7 tons and had five Fokker 27's which could hold 6 tons. In 1982 it was the first Italian airline to do overnight flights and in 1988 it started operations on behalf of FedEx,UPS and the Italian Post. It had 90 employees in March 2007."/>
+</profile>
+  <info real="True" from="1982" to="2015" />
+  <prefereds aircrafts="Fokker F27,Fokker 50"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2014)-->
+	         <airliners>
+	    <airliner type="Fokker 50" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1982) late (2010)-->
+	         <airliners>
+	    <airliner type="Fokker F27" early="3" late="5"></airliner>
+	     </airliners>
+
+
+
+
+</airline>

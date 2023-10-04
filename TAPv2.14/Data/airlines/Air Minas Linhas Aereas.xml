@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Minas Linhas Aereas" iata="6M" color="SlateBlue" area="431" CEO="Urubatan Helou Teixeira" mentality="Safe" market="Local" preferedairport="PLU">
+  <narrative narrative="Air Minas Linhas Aereas was around from 2002 to operations suspension on May 30th,2010. It was based at Belo Horizonte,Brazil's Pampulha Airport. At the end it was serving Ipatinga,Montes Claros,Sao Paulo Guarulhos,Uberlandia and Uberaba. It had served Aracatuba,Campinas-Viracopas,Cuiaba,Divinopolis,Rondonopolis,Sao Jose dos Campos and Varginha before also. It had six Embraer 120 Brasilia's at the end. It had started as a general aviation carrier and started doing more regional domestic stuff in August 2006."/>
+</profile>
+  <info real="True" from="2002" to="2011" />
+  <prefereds aircrafts="EMB 120 Brasilia"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2010)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="6" late="6"></airliner>
+	     </airliners>  
+               <routes>
+	          <route destination1="PLU" destination2="GRU"/>
+	       	  <route destination1="PLU" destination2="IPN"/>
+		  <route destination1="PLU" destination2="MOC"/>
+		  <route destination1="PLU" destination2="UDI"/>
+		  <route destination1="PLU" destination2="VCP"/>
+		 		        </routes>
+
+
+
+
+</airline>

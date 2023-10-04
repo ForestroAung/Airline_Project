@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="French Bee" iata="BF" logo="BF2" color="Blue" area="113" CEO="Marc Rochet" mentality="Aggressive" businessmodel="LCC"
+           market="Global" preferedairport="ORY">
+    <narrative
+      narrative="French Bee, formerly French Blue, is a French low-cost, long-haul airline headquartered in Paris and based at Paris Orly Airport. It operates a scheduled network between France and worldwide leisure destinations." />
+  </profile>
+  <info real="True" from="2016" to="2199"></info>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-300" early="0" late="1"></airliner>
+<airliner type="Airbus A350-900" early="0" late="2"></airliner>
+    </airliners>
+<routes>
+	     <route destination1="ORY" destination2="PUJ" />
+		 <route destination1="ORY" destination2="SFO" />
+		 <route destination1="ORY" destination2="PPT" />
+		 <route destination1="ORY" destination2="RUN" />
+<route destination1="PPT" destination2="SFO" />
+</routes>
+  </startdata>
+</airline>

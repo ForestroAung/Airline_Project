@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Vanguard Airlines" iata="VGD" color="Maroon" area="402" CEO="Scott Dickson" mentality="Moderate" market="Domestic" preferedairport="MCI">
+  <narrative narrative="Vanguard Airlines was based at Kansas City,Missouri from 1994 to July 2002. It had a focus city at Chicago Midway. Outside of those 2 it served 26 other domestic airports in its life.
+It was a low cost airline, having fares for around 29$ was normal, even as little as 10$ were seen sometimes. But by 2000 this model was not working as planned and it started switching to a low cost model which charge
+more close to the major airlines. The airline declared bankruptcy and ceased on July 29,2002. It had been losing money with each ticket sold due to credit card processors requiring a 125% surety bond. Its fleet
+at the end was six 737-200's,three MD-82's,two 727-200's,two MD-87's,an MD-83 and an MD-81. "/>
+</profile>
+  <info real="True" from="1994" to="2003" />
+  <prefereds aircrafts="Boeing 737-200 Adv.,MD-82 (DC-9-82)"></prefereds>
+    <focusairports>
+		 <focusairport airport="MDW"></focusairport>
+					      </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (1994) late (2002)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="4" late="6"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (1991) late (1992)-->
+	         <airliners>
+	    <airliner type="MD-87 (DC-9-87)" early="2" late="2"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (2001) late (2002)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="5"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2002)-->
+	         <airliners>
+	    <airliner type="MD-81 (DC-9-81)" early="1" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2002)-->
+	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2002)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="0" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1998)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="0"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="MCI" destination2="MDW"   />
+		<route destination1="MCI" destination2="DFW" />
+		<route destination1="MCI" destination2="ATL" />
+		<route destination1="MCI" destination2="DEN" />
+		<route destination1="MCI" destination2="LGA" />
+		<route destination1="MCI" destination2="LAX" />
+		<route destination1="MCI" destination2="SFO" />
+		<route destination1="MCI" destination2="SLC" />
+		<route destination1="MCI" destination2="MSP" />
+		<route destination1="MCI" destination2="LAS" />
+		<route destination1="MCI" destination2="MCO" />
+		<route destination1="MCI" destination2="FLL" />
+		<route destination1="MCI" destination2="MSY" />
+		<route destination1="MCI" destination2="CVG" />
+		<route destination1="MCI" destination2="MKE" />
+		<route destination1="MDW" destination2="AUS" />
+		<route destination1="MDW" destination2="PIT" />
+		<route destination1="MDW" destination2="BUF" />
+		<route destination1="MDW" destination2="RSW" />
+	        </routes>
+
+</airline>

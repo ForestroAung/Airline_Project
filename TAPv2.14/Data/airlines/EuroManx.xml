@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="EuroManx" iata="EMX" color="Red" area="102" CEO="John Seymour" mentality="Moderate" market="Local" preferedairport="IOM">
+  <narrative narrative="EuroManx was around from August 2002 to May 2008. Its base was the Isle of Man. On August 31st,2002 right after EuroManx commenced operations, the other Isle of Man carrier Manx Airlines ceased after being bought out by British Airways. EuroManx flew to Dublin,Glasgow,London Stansted,Southampton,Bristol,Belfast City,Manchester,London City and Liverpool. In October 2005 ot restructured and shut down service to Bristol,Southampton,Glasgow and London Stansted,with Dublin being dropped in February 2006. In June 2005 it had acquired the passenger operations of Liverpool based Emerald Airways giving them the route to LPL. EuroManx at the end had a Bombardier Dash 8-300 and Dash 8-200. Other planes it used over its history include two ATR 72's,three ATR 42's,two Avro RJ70's,two Dornier 328-110's,Beechcraft 1900's,and a Fokker 50."/>
+   </profile>
+    <info real="True" from="2002" to="2009" />
+       <prefereds aircrafts="ATR 42-300,Bombardier Dash 8-200,Bombardier Dash 8-300,Dornier 328-110,BAe 146-200,Beechcraft 1900D,ATR 72-200"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="3" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2008)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="2" late="0"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-110" early="2" late="0"></airliner>
+	     </airliners>
+		   	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="1" late="1"></airliner>
+	     </airliners>
+		    	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-200" early="1" late="1"></airliner>
+	     </airliners>
+		    	         <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="1" late="0"></airliner>
+	     </airliners>
+		 
+	       <routes>
+		 <route destination1="IOM" destination2="DUB" opened="2002" closed="2006"  />
+	     <route destination1="IOM" destination2="GLA" opened="2002" closed="2005"  />
+		 <route destination1="IOM" destination2="STN" opened="2002" closed="2005"  />
+		 <route destination1="IOM" destination2="SOU" opened="2002" closed="2005"  />
+		 <route destination1="IOM" destination2="BRS" opened="2002" closed="2005"  />
+       	 <route destination1="IOM" destination2="BHD"  />
+	     <route destination1="IOM" destination2="MAN"  />
+		 <route destination1="IOM" destination2="LCY"  />
+		 <route destination1="IOM" destination2="LPL" opened="2005" closed="2199" />
+              </routes>
+</airline>

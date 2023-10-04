@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--DH 104-->
+<configuration type="DH 114 Heron" economy="0" premium="0" first="-1" business="0" exitrows="535" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76.4" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="DH 104 Dove" economy="0" premium="0" first="-1" business="0" exitrows="535" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.5" width="49"></seat>
+</seats>
+</configuration>
+
+<!--DH 106 Comet-->
+<configuration type="DH 106 Comet 1" economy="0" premium="0" first="-1" business="0" exitrows="850" emergencyrows="0" toiletrows="850" kitchenrows="850">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="DH 106 Comet 1A" economy="0" premium="0" first="-1" business="0" exitrows="850" emergencyrows="0" toiletrows="850" kitchenrows="850">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="DH 106 Comet 4" economy="0" premium="0" first="-1" business="0" exitrows="1235" emergencyrows="463,540,694" toiletrows="1235" kitchenrows="1235">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.1" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="DH 106 Comet 4B" economy="0" premium="0" first="-1" business="0" exitrows="0,1460" emergencyrows="617,694,848" toiletrows="1460" kitchenrows="1460">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76.8" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="DH 106 Comet 4C" economy="0" premium="0" first="-1" business="0" exitrows="0,1460" emergencyrows="617,694,848" toiletrows="1460" kitchenrows="1460">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="91.2" width="47"></seat>
+</seats>
+</configuration>
+
+<!--DH 89-->
+<configuration type="DH 89 Dragon Rapide" economy="0" premium="0" first="-1" business="0" exitrows="305" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76.2" width="45"></seat>
+</seats>
+</configuration>
+
+<!--DH 91-->
+<configuration type="DH 91 Albatross" economy="0" premium="0" first="-1" business="0" exitrows="480" emergencyrows="-1" toiletrows="480" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="80" width="56"></seat>
+</seats>
+</configuration>
+
+<!--DHC-2-->
+<configuration type="DHC-2 Beaver" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.5" width="49"></seat>
+</seats>
+</configuration>
+
+<!--DHC-3-->
+<configuration type="DHC-3 Otter" economy="0" premium="0" first="-1" business="0" exitrows="288" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--DHC-6-->
+<configuration type="DHC-6-100 Twin Otter" economy="-1" premium="0" first="0" business="0" exitrows="445" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="DHC-6-300 Twin Otter" economy="-1" premium="0" first="0" business="0" exitrows="445" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+</seats>
+</configuration>
+
+<!--DHC-7-->
+<configuration type="DHC-7-100" economy="-1" premium="0" first="0" business="0" exitrows="1040" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="DHC-7-150" economy="-1" premium="0" first="0" business="0" exitrows="1080" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.1" width="47"></seat>
+</seats>
+</configuration>
+
+<!--DH 66-->
+<configuration type="DH 66 Hercules" economy="0" premium="0" first="-1" business="0" exitrows="520" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74" width="47"></seat>
+</seats>
+</configuration>
+</configurations>

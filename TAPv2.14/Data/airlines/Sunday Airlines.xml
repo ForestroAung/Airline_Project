@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sunday Airlines" iata="VSV" color="Magenta" area="200" CEO="Vladimir Denissov" mentality="Moderate" market="Global" preferedairport="CIT" schedule="Charter"> 
+  <narrative narrative="Sunday Airlines is a subsidiary of Kazakhstan airline SCAT Airlines and is based at its parents base of Shymkent. Sunday is the charter part of SCAT. It began flying in April 2013
+  and flys charters on a global scale to places like Turkey. It has a 767-300 and four 757-200's as of June 2015." />
+</profile>
+   <info real="True" from="2013" to="2199"></info>
+   <prefereds aircrafts="Boeing 757-200,Boeing 767-300"></prefereds>
+	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 757-200" early="4" late="4"></airliner>
+	     </airliners>
+	     	             	     	          <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300" early="1" late="1"></airliner>
+	     </airliners>
+
+
+</airline>

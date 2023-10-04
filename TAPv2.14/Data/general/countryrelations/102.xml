@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country id="102">
+<relations>
+<!--Africa-->
+<!--East Africa-->
+<!--Burundi-->
+<relation id="295" business="5" holiday="10" from="1962" to="2003"></relation>
+<relation id="295" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Comoros-->
+<relation id="1127" business="2" holiday="2" from="1946" to="1975"></relation><!--French Comores-->
+<relation id="271" business="2" holiday="2" from="1975" to="2003"></relation>
+<relation id="271" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Democratic Republic of the Congo-->
+<relation id="1112" business="2" holiday="5" from="1900" to="1960"></relation><!--Belgian Congo-->
+<relation id="1114" business="2" holiday="5" from="1960" to="1963"></relation><!--Katanga-->
+<relation id="1113" business="2" holiday="5" from="1971" to="1997"></relation><!--Zaire-->
+<relation id="221" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="221" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Djibouti-->
+<relation id="1106" business="2" holiday="2" from="1900" to="1977"></relation><!--French Somaliland-->
+<relation id="298" business="2" holiday="2" from="1977" to="2003"></relation>
+<relation id="298" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Eritrea-->
+<relation id="1104" business="2" holiday="5" from="1900" to="1936"></relation><!--Italian Eritrea-->
+<relation id="1107" business="2" holiday="5" from="1936" to="1941"></relation><!--Italian East Africa-->
+<relation id="1105" business="2" holiday="5" from="1941" to="1952"></relation><!--British Eritrea-->
+<relation id="264" business="2" holiday="5" from="1993" to="2003"></relation>
+<relation id="264" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Ethiopia-->
+<relation id="124" business="2" holiday="10" from="1900" to="1936"></relation>
+<relation id="124" business="2" holiday="10" from="1941" to="2003"></relation>
+<relation id="124" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Kenya-->
+<relation id="1111" business="10" holiday="5" from="1900" to="1963"></relation><!--British Kenya-->
+<relation id="146" business="10" holiday="5" from="1963" to="2003"></relation>
+<relation id="146" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Madagascar-->
+<relation id="1125" business="2" holiday="2" from="1900" to="1960"></relation><!--French Madagascar-->
+<relation id="260" business="2" holiday="2" from="1960" to="2003"></relation>
+<relation id="260" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Malawi-->
+<relation id="286" business="5" holiday="10" from="1964" to="2003"></relation>
+<relation id="286" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Mauritius-->
+<relation id="1126" business="2" holiday="5" from="1900" to="1968"></relation><!--British Mauritius-->
+<relation id="206" business="2" holiday="5" from="1968" to="2003"></relation>
+<relation id="206" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Mayotte-->
+<relation id="1164" business="2" holiday="2" from="1900" to="2011"></relation><!--French Mayotte-->
+<!--Mozambique-->
+<relation id="1122" business="2" holiday="5" from="1900" to="1975"></relation><!--Portuguese Mozambique-->
+<relation id="283" business="2" holiday="5" from="1975" to="2003"></relation>
+<relation id="283" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Niue-->
+<relation id="320" business="2" holiday="2" from="1900" to="2199"></relation>
+<!--Reunion-->
+<relation id="1165" business="2" holiday="2" from="1900" to="1946"></relation>
+<!--Rwanda-->
+<relation id="1115" business="2" holiday="5" from="1960" to="1962"></relation><!--Belgian Ruanda-Urundi-->
+<relation id="293" business="2" holiday="5" from="1962" to="2199"></relation>
+<!--Seychelles-->
+<relation id="1128" business="2" holiday="10" from="1900" to="1976"></relation><!--British Seychelles-->
+<relation id="306" business="2" holiday="10" from="1976" to="2003"></relation>
+<relation id="306" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Somalia-->
+<relation id="1108" business="2" holiday="2" from="1900" to="1960"></relation><!--British Somaliland-->
+<relation id="1109" business="2" holiday="2" from="1900" to="1936"></relation><!--Italian Somaliland-->
+<relation id="1110" business="2" holiday="2" from="1950" to="1960"></relation><!--Italian Somalia-->
+<relation id="262" business="2" holiday="2" from="1960" to="2199"></relation>
+<!--Tanzania-->
+<relation id="1116" business="5" holiday="5" from="1900" to="1961"></relation><!--British Tanganyika-->
+<relation id="1117" business="5" holiday="5" from="1961" to="1964"></relation><!--Tanganyika-->
+<relation id="1118" business="5" holiday="5" from="1961" to="1964"></relation><!--Zanzibar-->
+<relation id="222" business="5" holiday="5" from="1964" to="2003"></relation>
+<relation id="222" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Uganda-->
+<relation id="261" business="2" holiday="10" from="1962" to="2003"></relation>
+<relation id="261" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Zambia-->
+<relation id="225" business="2" holiday="10" from="1964" to="2003"></relation>
+<relation id="225" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Zimbabwe-->
+<relation id="1120" business="2" holiday="5" from="1900" to="1964"></relation><!--British Rhodesia-->
+<relation id="1121" business="2" holiday="5" from="1964" to="1966"></relation><!--British Rhodesia (2)-->
+<relation id="1012" business="2" holiday="5" from="1965" to="1979"></relation><!--Rhodesia-->
+<relation id="255" business="2" holiday="5" from="1979" to="2003"></relation>
+<relation id="255" business="2" holiday="5" from="2004" to="2199"></relation>
+
+
+<!--Central Africa-->
+<!--Angola-->
+<relation id="1119" business="2" holiday="5" from="1900" to="1975"></relation><!--Portuguese Angola-->
+<relation id="224" business="2" holiday="5" from="1975" to="2003"></relation>
+<relation id="224" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Cameroon-->
+<relation id="1099" business="2" holiday="10" from="1900" to="1959"></relation><!--French Cameroon-->
+<relation id="296" business="2" holiday="10" from="1959" to="2003"></relation>
+<relation id="296" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Central African Republic-->
+<relation id="220" business="2" holiday="2" from="1960" to="2003"></relation>
+<relation id="220" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Chad-->
+<relation id="1100" business="2" holiday="5" from="1900" to="1960"></relation><!--French Equatorial Africa-->
+<relation id="265" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="265" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Congo-->
+<relation id="309" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="309" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Equatorial Guinea-->
+<relation id="1101" business="2" holiday="2" from="1900" to="1968"></relation><!--Spanish Guinea-->
+<relation id="304" business="2" holiday="2" from="1968" to="2003"></relation>
+<relation id="304" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Gabon-->
+<relation id="300" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="300" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Sao Tomé & Principe-->
+<relation id="1102" business="2" holiday="2" from="1900" to="1975"></relation><!--Portuguese Sao Tome and Principe-->
+<relation id="308" business="2" holiday="2" from="1975" to="2003"></relation>
+<relation id="308" business="2" holiday="2" from="2004" to="2199"></relation>
+
+
+
+<!--North Africa-->
+<!--Algeria-->
+<relation id="142" business="15" holiday="5" from="1962" to="2003"></relation>
+<relation id="142" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Morocco-->
+<relation id="1083" business="5" holiday="10" from="1900" to="1956"></relation><!--French Morocco-->
+<relation id="133" business="5" holiday="10" from="1956" to="2003"></relation>
+<relation id="133" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--South Sudan-->
+<relation id="263" business="2" holiday="10" from="2011" to="2199"></relation>
+<!--Sudan-->
+<relation id="1103" business="2" holiday="10" from="1900" to="1955"></relation><!--British Sudan-->
+<relation id="223" business="2" holiday="10" from="1956" to="2003"></relation>
+<relation id="223" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Tunisia-->
+<relation id="1085" business="2" holiday="10" from="1900" to="1956"></relation><!--French Tunisia-->
+<relation id="144" business="2" holiday="10" from="1956" to="2003"></relation>
+<relation id="144" business="5" holiday="10" from="2004" to="2199"></relation>
+
+
+<!--Southern Africa-->
+<!--Botswana-->
+<relation id="258" business="2" holiday="2" from="1966" to="2003"></relation>
+<relation id="258" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Lesotho-->
+<relation id="1123" business="2" holiday="5" from="1900" to="1966"></relation><!--British Lesotho-->
+<relation id="257" business="2" holiday="5" from="1966" to="2003"></relation>
+<relation id="257" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Namibia-->
+<relation id="259" business="2" holiday="10" from="1990" to="2003"></relation>
+<relation id="259" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--South Africa-->
+<relation id="1167" business="5" holiday="10" from="1900" to="1931"></relation>
+<relation id="1168" business="5" holiday="10" from="1931" to="1994"></relation>
+<relation id="158" business="5" holiday="10" from="1994" to="2003"></relation>
+<relation id="158" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Swaziland-->
+<relation id="1124" business="2" holiday="5" from="1900" to="1968"></relation><!--British Swaziland-->
+<relation id="256" business="2" holiday="10" from="1968" to="2199"></relation>
+
+
+<!--West Africa-->
+<!--Benin-->
+<relation id="187" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="187" business="10" holiday="2" from="2004" to="2199"></relation>
+<!--Burkina Faso-->
+<relation id="190" business="2" holiday="5" from="1960" to="2003"></relation>
+<relation id="190" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Cape Verde-->
+<relation id="1129" business="2" holiday="2" from="1900" to="1975"></relation><!--Portuguese Cape Verde-->
+<relation id="285" business="2" holiday="2" from="1975" to="2003"></relation>
+<relation id="285" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Cote D'ivoire-->
+<relation id="275" business="15" holiday="2" from="1960" to="2003"></relation>
+<relation id="275" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Gambia-->
+<relation id="1093" business="2" holiday="10" from="1900" to="1965"></relation><!--British Gambia-->
+<relation id="301" business="2" holiday="10" from="1965" to="2003"></relation>
+<relation id="301" business="5" holiday="20" from="2004" to="2199"></relation>
+<!--Ghana-->
+<relation id="1096" business="10" holiday="10" from="1900" to="1957"></relation><!--British Ghana-->
+<relation id="189" business="10" holiday="10" from="1957" to="2003"></relation>
+<relation id="189" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Guinea-->
+<relation id="302" business="2" holiday="2" from="1958" to="2003"></relation>
+<relation id="302" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Guinea-Bissau-->
+<relation id="1094" business="2" holiday="2" from="1900" to="1974"></relation><!--Portuguese Guinea-Bissau-->
+<relation id="305" business="2" holiday="2" from="1974" to="2199"></relation>
+<!--Liberia-->
+<relation id="303" business="5" holiday="2" from="1900" to="2003"></relation>
+<relation id="303" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Mali-->
+<relation id="268" business="2" holiday="10" from="1960" to="2003"></relation>
+<relation id="268" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Mauritania-->
+<relation id="1092" business="2" holiday="2" from="1900" to="1961"></relation><!--French West Africa-->
+<relation id="269" business="2" holiday="2" from="1960" to="2199"></relation>
+<!--Niger-->
+<relation id="267" business="5" holiday="10" from="1960" to="2003"></relation>
+<relation id="267" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Nigeria-->
+<relation id="1097" business="15" holiday="5" from="1900" to="1960"></relation><!--British Nigeria-->
+<relation id="1098" business="15" holiday="5" from="1967" to="1970"></relation><!--Biafra-->
+<relation id="145" business="15" holiday="5" from="1960" to="2003"></relation>
+<relation id="145" business="10" holiday="5" from="2004" to="2199"></relation>
+<!--Senegal-->
+<relation id="101" business="5" holiday="10" from="1960" to="2003"></relation>
+<relation id="101" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Sierra Leone-->
+<relation id="1095" business="2" holiday="10" from="1900" to="1961"></relation><!--British Sierra Leone-->
+<relation id="270" business="2" holiday="10" from="1961" to="2003"></relation>
+<relation id="270" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Togo-->
+<relation id="188" business="2" holiday="2" from="1960" to="2003"></relation>
+<relation id="188" business="2" holiday="2" from="2004" to="2199"></relation>
+
+
+
+
+
+
+<!--America-->
+<!--Caribbean-->
+<!--Antigua & Barbuda-->
+<relation id="1135" business="2" holiday="5" from="1900" to="1981"></relation><!--British Antigua and Barbuda-->
+<relation id="243" business="2" holiday="5" from="1981" to="2003"></relation>
+<relation id="243" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Bahamas-->
+<relation id="1133" business="2" holiday="5" from="1900" to="1973"></relation><!--British Bahamas-->
+<relation id="203" business="2" holiday="5" from="1973" to="2003"></relation>
+<relation id="203" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Barbados-->
+<relation id="1140" business="2" holiday="5" from="1900" to="1966"></relation><!--British Barbados-->
+<relation id="227" business="2" holiday="5" from="1966" to="2003"></relation>
+<relation id="227" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Cuba-->
+<relation id="198" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="198" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Dominica-->
+<relation id="1136" business="2" holiday="5" from="1900" to="1978"></relation><!--British Dominica-->
+<relation id="228" business="2" holiday="5" from="1978" to="2003"></relation>
+<relation id="228" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Dominican Republic-->
+<relation id="207" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="207" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Grenada-->
+<relation id="1139" business="2" holiday="10" from="1900" to="1974"></relation><!--British Grenada-->
+<relation id="229" business="2" holiday="10" from="1974" to="2003"></relation>
+<relation id="229" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Guadeloupe-->
+<relation id="1162" business="5" holiday="10" from="1900" to="2003"></relation>
+<relation id="1162" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Haiti-->
+<relation id="111" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="111" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Jamaica-->
+<relation id="1134" business="2" holiday="15" from="1900" to="1962"></relation><!--British Jamaica-->
+<relation id="199" business="2" holiday="15" from="1962" to="2003"></relation>
+<relation id="199" business="2" holiday="15" from="2004" to="2199"></relation>
+<!--French Martinique-->
+<relation id="1158" business="5" holiday="30" from="1900" to="1973"></relation>
+<!--Netherlands Antilles-->
+<relation id="246" business="2" holiday="10" from="1900" to="2003"></relation><!--Curacao-->
+<relation id="246" business="2" holiday="5" from="2004" to="2199"></relation>
+<relation id="245" business="5" holiday="5" from="2010" to="2199"></relation><!--Caribbean Netherlands-->
+<relation id="109" business="2" holiday="2" from="2010" to="2199"></relation><!--Sint Maarten-->
+<relation id="244" business="2" holiday="5" from="1986" to="2003"></relation><!--Aruba-->
+<relation id="244" business="2" holiday="5" from="2004" to="2199"></relation>
+<relation id="1009" business="2" holiday="5" from="1954" to="2003"></relation><!--Netherlands Antilles-->
+<relation id="1009" business="2" holiday="5" from="2004" to="2010"></relation>
+<!--Saint Kitts & Nevis-->
+<relation id="1147" business="2" holiday="2" from="1900" to="1983"></relation><!--British Saint Kitts-->
+<relation id="230" business="2" holiday="2" from="1983" to="2003"></relation>
+<relation id="230" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Saint Lucia-->
+<relation id="1137" business="2" holiday="5" from="1900" to="1979"></relation><!--British Saint Lucia-->
+<relation id="108" business="2" holiday="5" from="1979" to="2003"></relation>
+<relation id="108" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Saint Vincent and the Grenadines-->
+<relation id="1138" business="2" holiday="5" from="1900" to="1979"></relation><!--British Saint Vincent-->
+<relation id="310" business="2" holiday="5" from="1979" to="2003"></relation>
+<relation id="310" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Trinidad & Tobago-->
+<relation id="1141" business="2" holiday="2" from="1900" to="1962"></relation><!--British Trinidad and Tobago-->
+<relation id="205" business="2" holiday="2" from="1962" to="2003"></relation>
+<relation id="205" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Turks and Caicos Islands-->
+<relation id="1166" business="2" holiday="5" from="1959" to="2003"></relation>
+<relation id="1166" business="2" holiday="2" from="2004" to="2199"></relation>
+
+
+<!--Central America-->
+<!--Belize-->
+<relation id="1131" business="2" holiday="5" from="1900" to="1973"></relation><!--British Honduras-->
+<relation id="1132" business="2" holiday="5" from="1973" to="1981"></relation><!--British Belize-->
+<relation id="197" business="2" holiday="5" from="1981" to="2003"></relation>
+<relation id="197" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Costa Rica-->
+<relation id="192" business="5" holiday="15" from="1900" to="2003"></relation>
+<relation id="192" business="2" holiday="15" from="2004" to="2199"></relation>
+<!--El Salvador-->
+<relation id="193" business="5" holiday="2" from="1900" to="2003"></relation>
+<relation id="193" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Honduras-->
+<relation id="196" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="196" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Guatemala-->
+<relation id="194" business="10" holiday="2" from="1900" to="2003"></relation>
+<relation id="194" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Nicaragua-->
+<relation id="195" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="195" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Panama-->
+<relation id="191" business="10" holiday="10" from="1900" to="2003"></relation>
+<relation id="191" business="10" holiday="10" from="2004" to="2199"></relation>
+
+
+<!--North America-->
+<!--Canada-->
+<relation id="1130" business="5" holiday="5" from="1900" to="1949"></relation><!--British Labrador-->
+<relation id="113" business="25" holiday="10" from="1900" to="2003"></relation>
+<relation id="113" business="15" holiday="10" from="2004" to="2199"></relation>
+<!--Mexico-->
+<relation id="157" business="10" holiday="15" from="1900" to="2003"></relation>
+<relation id="157" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Saint Pierre and Miquelon-->
+<relation id="1161" business="2" holiday="2" from="1900" to="2003"></relation>
+<!--United States-->
+<relation id="122" business="80" holiday="30" from="1900" to="2003"></relation>
+<relation id="122" business="80" holiday="25" from="2004" to="2199"></relation>
+
+
+<!--South America-->
+<!--Argentina-->
+<relation id="106" business="5" holiday="10" from="1900" to="2003"></relation>
+<relation id="106" business="2" holiday="15" from="2004" to="2199"></relation>
+<!--Bolivia-->
+<relation id="211" business="2" holiday="10" from="1900" to="2003"></relation>
+<relation id="211" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Brazil-->
+<relation id="138" business="5" holiday="10" from="1900" to="2003"></relation>
+<relation id="138" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Chile-->
+<relation id="160" business="5" holiday="2" from="1900" to="2003"></relation>
+<relation id="160" business="10" holiday="2" from="2004" to="2199"></relation>
+<!--Colombia-->
+<relation id="183" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="183" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Ecuador-->
+<relation id="210" business="2" holiday="10" from="1900" to="2003"></relation>
+<relation id="210" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--French Guyana-->
+<relation id="1163" business="2" holiday="2" from="1900" to="1945"></relation>
+<!--Guyana-->
+<relation id="1142" business="2" holiday="5" from="1900" to="1966"></relation><!--British Guyana-->
+<relation id="215" business="2" holiday="5" from="1966" to="2199"></relation>
+<!--Paraguay-->
+<relation id="213" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="213" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Peru-->
+<relation id="182" business="2" holiday="10" from="1900" to="2003"></relation>
+<relation id="182" business="10" holiday="10" from="2004" to="2199"></relation>
+<!--Suriname-->
+<relation id="1143" business="2" holiday="2" from="1900" to="1975"></relation><!--Netherlands Suriname-->
+<relation id="214" business="2" holiday="2" from="1975" to="2003"></relation>
+<relation id="214" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Uruguay-->
+<relation id="212" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="212" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Venezuela-->
+<relation id="184" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="184" business="2" holiday="2" from="2004" to="2199"></relation>
+
+
+
+
+
+
+<!--East Asia and the Pacific-->
+<!--North East Asia-->
+<!--China-->
+<relation id="1042" business="5" holiday="5" from="1932" to="1945"></relation><!--Manchukuo (Japanese Puppet)-->
+<relation id="148" business="5" holiday="15" from="1900" to="2003"></relation>
+<relation id="148" business="10" holiday="20" from="2004" to="2199"></relation>
+<!--Hong Kong-->
+<relation id="1043" business="5" holiday="5" from="1900" to="1997"></relation><!--British Hong Kong-->
+<relation id="176" business="5" holiday="5" from="1997" to="2003"></relation>
+<relation id="176" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Japan-->
+<relation id="171" business="15" holiday="10" from="1900" to="2003"></relation>
+<relation id="171" business="25" holiday="10" from="2004" to="2199"></relation>
+<!--Mongolia-->
+<relation id="241" business="2" holiday="2" from="1921" to="2003"></relation>
+<relation id="241" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--North Korea-->
+<relation id="311" business="2" holiday="2" from="1945" to="2003"></relation>
+<relation id="311" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--South Korea-->
+<relation id="165" business="5" holiday="15" from="1945" to="2003"></relation>
+<relation id="165" business="10" holiday="20" from="2004" to="2199"></relation>
+<!--Taiwan-->
+<relation id="172" business="2" holiday="10" from="1945" to="2003"></relation>
+<relation id="172" business="2" holiday="10" from="2004" to="2199"></relation>
+
+
+<!--South East Asia-->
+<!--Brunei-->
+<relation id="1060" business="2" holiday="10" from="1953" to="1983"></relation><!--British Brunei-->
+<relation id="277" business="2" holiday="5" from="1983" to="2199"></relation>
+<!--Cambodia-->
+<relation id="294" business="2" holiday="5" from="1953" to="2003"></relation>
+<relation id="294" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--East Timor-->
+<relation id="1062" business="2" holiday="2" from="1900" to="1975"></relation><!--Portuguese Timor-->
+<relation id="312" business="2" holiday="2" from="1975" to="2199"></relation>
+<!--Indonesia-->
+<relation id="1061" business="5" holiday="10" from="1900" to="1949"></relation><!--East Indies (Netherlands)-->
+<relation id="162" business="5" holiday="10" from="1949" to="2003"></relation>
+<relation id="162" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Laos-->
+<relation id="1052" business="2" holiday="10" from="1900" to="1953"></relation><!--Indochina (France)-->
+<relation id="279" business="2" holiday="10" from="1953" to="2003"></relation>
+<relation id="279" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Malaysia-->
+<relation id="1055" business="5" holiday="10" from="1900" to="1957"></relation><!--British Malaya-->
+<relation id="1058" business="5" holiday="10" from="1900" to="1963"></relation><!--British North Borneo-->
+<relation id="1059" business="5" holiday="10" from="1942" to="1945"></relation><!--Japanese Borneo-->
+<relation id="1056" business="5" holiday="10" from="1957" to="1963"></relation><!--Malaya-->
+<relation id="173" business="5" holiday="10" from="1963" to="2003"></relation>
+<relation id="173" business="5" holiday="15" from="2004" to="2199"></relation>
+<!--Myanmar-->
+<relation id="1049" business="2" holiday="5" from="1937" to="1948"></relation><!--British Burma-->
+<relation id="1050" business="2" holiday="5" from="1948" to="1989"></relation><!--Burma-->
+<relation id="278" business="2" holiday="5" from="1989" to="2003"></relation>
+<relation id="278" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Philippines-->
+<relation id="1053" business="2" holiday="10" from="1900" to="1946"></relation><!--Philippines (USA)-->
+<relation id="131" business="2" holiday="10" from="1946" to="2003"></relation>
+<relation id="131" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Signapore-->
+<relation id="1057" business="5" holiday="10" from="1957" to="1963"></relation><!--British Signapore-->
+<relation id="174" business="5" holiday="10" from="1965" to="2003"></relation>
+<relation id="174" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Thailand-->
+<relation id="1051" business="2" holiday="15" from="1900" to="1948"></relation>
+<relation id="175" business="2" holiday="15" from="1948" to="2003"></relation>
+<relation id="175" business="10" holiday="20" from="2004" to="2199"></relation>
+<!--Vietnam-->
+<relation id="1007" business="5" holiday="2" from="1945" to="1976"></relation><!--North Vietnam-->
+<relation id="1008" business="5" holiday="10" from="1945" to="1976"></relation><!--South Vietnam-->
+<relation id="170" business="5" holiday="10" from="1976" to="2003"></relation>
+<relation id="170" business="5" holiday="10" from="2004" to="2199"></relation>
+
+<!--Australia-->
+<!--Australia-->
+<relation id="116" business="10" holiday="10" from="1900" to="2003"></relation>
+<relation id="116" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--New Zealand-->
+<relation id="186" business="5" holiday="5" from="1900" to="2003"></relation>
+<relation id="186" business="5" holiday="5" from="2004" to="2199"></relation>
+
+
+<!--Melanesia-->
+<!--Fiji-->
+<relation id="1144" business="2" holiday="5" from="1900" to="1970"></relation><!--British Fiji-->
+<relation id="114" business="2" holiday="5" from="1970" to="2003"></relation>
+<relation id="114" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--New Caledonia-->
+<relation id="1159" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="1159" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Papua New Guinea-->
+<relation id="1063" business="2" holiday="5" from="1900" to="1975"></relation><!--New Guinea (Australia)-->
+<relation id="1064" business="2" holiday="5" from="1900" to="1975"></relation><!--Papua (Australia)-->
+<relation id="280" business="2" holiday="5" from="1975" to="2003"></relation>
+<relation id="280" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Solomon Islands-->
+<relation id="1065" business="2" holiday="2" from="1900" to="1978"></relation><!--British Solomon Islands-->
+<relation id="289" business="2" holiday="2" from="1978" to="2003"></relation>
+<relation id="289" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Vanuatu-->
+<relation id="1152" business="2" holiday="2" from="1900" to="1980"></relation><!--British Vanautu-->
+<relation id="292" business="2" holiday="2" from="1980" to="2003"></relation>
+<relation id="292" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Wallis and Futuna-->
+<relation id="1160" business="2" holiday="2" from="1961" to="2003"></relation>
+
+
+<!--Micronesia-->
+<!--Federated States of Micronesia-->
+<relation id="1150" business="2" holiday="5" from="1945" to="1986"></relation><!--Micronesia (USA)-->
+<relation id="290" business="2" holiday="5" from="1986" to="2199"></relation>
+<!--Kiribati-->
+<relation id="1145" business="2" holiday="5" from="1900" to="1979"></relation><!--British Kiribati-->
+<relation id="115" business="2" holiday="5" from="1979" to="2003"></relation>
+<relation id="115" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Marshall Islands-->
+<relation id="1148" business="2" holiday="2" from="1944" to="1986"></relation><!--Marshall Islands (USA)-->
+<relation id="287" business="2" holiday="2" from="1986" to="2003"></relation>
+<relation id="287" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--Nauru-->
+<relation id="1151" business="2" holiday="2" from="1900" to="1968"></relation><!--Australian Nauru-->
+<relation id="291" business="2" holiday="2" from="1968" to="2199"></relation>
+<!--Palau-->
+<relation id="1149" business="2" holiday="5" from="1944" to="1994"></relation><!--Palau (USA)-->
+<relation id="288" business="2" holiday="5" from="1994" to="2003"></relation>
+<relation id="288" business="2" holiday="5" from="2004" to="2199"></relation>
+
+
+<!--Polynesia-->
+<!--Cook Islands-->
+<relation id="297" business="2" holiday="10" from="1900" to="2003"></relation>
+<relation id="297" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--French Polynesia-->
+<relation id="1156" business="2" holiday="5" from="1900" to="1945"></relation>
+<relation id="1157" business="2" holiday="5" from="1945" to="2003"></relation>
+<!--Samoa-->
+<relation id="1153" business="2" holiday="5" from="1900" to="1961"></relation><!--Samoa (NZ)-->
+<relation id="1154" business="2" holiday="5" from="1962" to="1997"></relation><!--Western Samoa-->
+<relation id="307" business="2" holiday="5" from="1997" to="2199"></relation>
+<!--Tonga-->
+<relation id="1146" business="2" holiday="2" from="1900" to="1970"></relation><!--British Tonga-->
+<relation id="208" business="2" holiday="2" from="1970" to="2199"></relation>
+<!--Tuvalu-->
+<relation id="299" business="2" holiday="2" from="1978" to="2199"></relation>
+
+
+
+
+
+
+<!--Europe-->
+<!--Central/Eastern Europe-->
+<!--Armenia-->
+<relation id="1019" business="5" holiday="2" from="1900" to="1920"></relation>
+<relation id="234" business="5" holiday="2" from="1991" to="2003"></relation>
+<relation id="234" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Azerbaijan-->
+<relation id="1029" business="5" holiday="5" from="1900" to="1920"></relation>
+<relation id="235" business="5" holiday="5" from="1991" to="2003"></relation>
+<relation id="235" business="10" holiday="5" from="2004" to="2199"></relation>
+<!--Belarus-->
+<relation id="217" business="25" holiday="25" from="1991" to="2003"></relation>
+<relation id="217" business="40" holiday="20" from="2004" to="2199"></relation>
+<!--Bulgaria-->
+<relation id="185" business="5" holiday="10" from="1900" to="2003"></relation>
+<relation id="185" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Czech Republic-->
+<relation id="1003" business="20" holiday="40" from="1900" to="1993"></relation><!--Czechoslovakia-->
+<relation id="166" business="20" holiday="40" from="1993" to="2003"></relation>
+<relation id="166" business="15" holiday="30" from="2004" to="2199"></relation>
+<!--Estonia-->
+<relation id="1027" business="100" holiday="80" from="1900" to="1940"></relation>
+<relation id="117" business="100" holiday="80" from="1991" to="2003"></relation>
+<relation id="117" business="100" holiday="95" from="2004" to="2199"></relation>
+<!--Georgia-->
+<relation id="1028" business="5" holiday="10" from="1900" to="1922"></relation>
+<relation id="233" business="5" holiday="10" from="1991" to="2003"></relation>
+<relation id="233" business="10" holiday="10" from="2004" to="2199"></relation>
+<!--Hungary-->
+<relation id="159" business="10" holiday="50" from="1900" to="2003"></relation>
+<relation id="159" business="15" holiday="60" from="2004" to="2199"></relation>
+<!--Kazakhstan-->
+<relation id="236" business="10" holiday="10" from="1991" to="2003"></relation>
+<relation id="236" business="20" holiday="10" from="2004" to="2199"></relation>
+<!--Kyrgyzstan-->
+<relation id="239" business="5" holiday="5" from="1991" to="2003"></relation>
+<relation id="239" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Latvia-->
+<relation id="1026" business="100" holiday="100" from="1900" to="1940"></relation>
+<relation id="102" business="100" holiday="100" from="1991" to="2003"></relation>
+<relation id="102" business="100" holiday="100" from="2004" to="2199"></relation>
+<!--Lithuania-->
+<relation id="1025" business="100" holiday="70" from="1900" to="1940"></relation>
+<relation id="103" business="100" holiday="70" from="1991" to="2003"></relation>
+<relation id="103" business="100" holiday="95" from="2004" to="2199"></relation>
+<!--Moldova-->
+<relation id="232" business="10" holiday="5" from="1991" to="2003"></relation>
+<relation id="232" business="10" holiday="5" from="2004" to="2199"></relation>
+<!--Poland-->
+<relation id="135" business="40" holiday="200" from="1900" to="2003"></relation>
+<relation id="135" business="60" holiday="150" from="2004" to="2199"></relation>
+<!--Romania-->
+<relation id="147" business="5" holiday="10" from="1900" to="2003"></relation>
+<relation id="147" business="5" holiday="15" from="2004" to="2199"></relation>
+<!--Russia-->
+<relation id="1021" business="90" holiday="150" from="1900" to="1922"></relation><!--Russian Republic-->
+<relation id="1004" business="90" holiday="150" from="1922" to="1991"></relation><!--Soviet Union-->
+<relation id="149" business="90" holiday="150" from="1991" to="2003"></relation>
+<relation id="149" business="100" holiday="150" from="2004" to="2199"></relation>
+<!--Slovakia-->
+<relation id="1020" business="20" holiday="15" from="1939" to="1945"></relation><!--Slovak Republic (German Puppet) 1939-1945-->
+<relation id="231" business="20" holiday="15" from="1993" to="2003"></relation>
+<relation id="231" business="10" holiday="30" from="2004" to="2199"></relation>
+<!--Slovenia-->
+<relation id="105" business="15" holiday="10" from="1991" to="2003"></relation>
+<relation id="105" business="10" holiday="10" from="2004" to="2199"></relation>
+<!--Tajikistan-->
+<relation id="240" business="5" holiday="2" from="1991" to="2003"></relation>
+<relation id="240" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Turkmenistan-->
+<relation id="238" business="5" holiday="2" from="1991" to="2003"></relation>
+<relation id="238" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Tuva-->
+<relation id="1039" business="2" holiday="2" from="1921" to="1944"></relation>
+<!--Ukraine-->
+<relation id="1022" business="50" holiday="90" from="1900" to="1921"></relation><!--Ukraine 1900-1921-->
+<relation id="134" business="50" holiday="90" from="1991" to="2003"></relation>
+<relation id="134" business="30" holiday="60" from="2004" to="2199"></relation>
+<!--Uzbekistan-->
+<relation id="237" business="15" holiday="5" from="1991" to="2003"></relation>
+<relation id="237" business="10" holiday="5" from="2004" to="2199"></relation>
+
+
+
+<!--Northern Europe-->
+<!--Denmark-->
+<relation id="110" business="100" holiday="15" from="1900" to="2003"></relation>
+<relation id="110" business="95" holiday="15" from="2004" to="2199"></relation>
+<!--Finland-->
+<relation id="167" business="40" holiday="100" from="1900" to="2003"></relation>
+<relation id="167" business="50" holiday="95" from="2004" to="2199"></relation>
+<!--Iceland-->
+<relation id="121" business="15" holiday="10" from="1900" to="2003"></relation>
+<relation id="121" business="20" holiday="10" from="2004" to="2199"></relation>
+<!--Ireland-->
+<relation id="137" business="40" holiday="15" from="1900" to="2003"></relation>
+<relation id="137" business="30" holiday="15" from="2004" to="2199"></relation>
+<!--Norway-->
+<relation id="139" business="20" holiday="10" from="1900" to="2003"></relation>
+<relation id="139" business="50" holiday="10" from="2004" to="2199"></relation>
+<!--Sweden-->
+<relation id="168" business="100" holiday="15" from="1900" to="2003"></relation>
+<relation id="168" business="100" holiday="15" from="2004" to="2199"></relation>
+<!--United Kingdom-->
+<relation id="130" business="100" holiday="100" from="1900" to="2003"></relation>
+<relation id="130" business="100" holiday="60" from="2004" to="2199"></relation>
+
+
+<!--Southern Europe-->
+<!--Albania-->
+<relation id="242" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="242" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Andorra-->
+<relation id="318" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="318" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Bosnia & Herzegovina-->
+<relation id="248" business="5" holiday="5" from="1992" to="2003"></relation>
+<relation id="248" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Croatia-->
+<relation id="1015" business="5" holiday="10" from="1941" to="1945"></relation><!--Croatia (German Puppet) 1941-1945-->
+<relation id="120" business="5" holiday="10" from="1991" to="2003"></relation>
+<relation id="120" business="5" holiday="25" from="2004" to="2199"></relation>
+<!--Greece-->
+<relation id="118" business="5" holiday="20" from="1900" to="1941"></relation>
+<relation id="1037" business="5" holiday="20" from="1941" to="1943"></relation><!--Greece (Italian Puppet) 1941-1943-->
+<relation id="1038" business="5" holiday="20" from="1943" to="1944"></relation><!--Greece (German Puppet) 1943-1944-->
+<relation id="118" business="5" holiday="20" from="1944" to="2003"></relation>
+<relation id="118" business="10" holiday="25" from="2004" to="2199"></relation>
+<!--Italy-->
+<relation id="141" business="40" holiday="100" from="1900" to="1945"></relation>
+<relation id="1035" business="40" holiday="100" from="1943" to="1945"></relation><!--Italy (German Puppet) 1943-1945-->
+<relation id="141" business="40" holiday="100" from="1945" to="2003"></relation>
+<relation id="141" business="40" holiday="100" from="2004" to="2199"></relation>
+<!--Kosovo-->
+<relation id="313" business="5" holiday="5" from="2008" to="2199"></relation>
+<!--Macedonia-->
+<relation id="284" business="2" holiday="5" from="1991" to="2003"></relation>
+<relation id="284" business="2" holiday="5" from="2004" to="2019"></relation>
+<relation id="1169" business="2" holiday="5" from="2019" to="2199"></relation>
+<!--Malta-->
+<relation id="132" business="5" holiday="10" from="1964" to="2003"></relation>
+<relation id="132" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Monaco-->
+<relation id="314" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="314" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Montenegro-->
+<relation id="1017" business="5" holiday="5" from="1941" to="1944"></relation><!--Montenegro (German Puppet) 1941-1944-->
+<relation id="249" business="5" holiday="5" from="2006" to="2199"></relation>
+<!--Portugal-->
+<relation id="150" business="10" holiday="15" from="1900" to="2003"></relation>
+<relation id="150" business="20" holiday="15" from="2004" to="2199"></relation>
+<!--Serbia-->
+<relation id="1036" business="5" holiday="5" from="1944" to="1945"></relation><!--Liberated Serbia 1944-1945-->
+<relation id="1006" business="5" holiday="5" from="1992" to="2003"></relation><!--Serbia & Montenegro 1992-2006-->
+<relation id="1006" business="5" holiday="10" from="2004" to="2006"></relation>
+<relation id="104" business="5" holiday="10" from="2006" to="2199"></relation>
+<!--Spain-->
+<relation id="123" business="20" holiday="20" from="1900" to="2003"></relation>
+<relation id="123" business="15" holiday="20" from="2004" to="2199"></relation>
+<!--Yugoslavia-->
+<relation id="1005" business="5" holiday="5" from="1900" to="1992"></relation>
+
+
+<!--Western Europe-->
+<!--Austria-->
+<relation id="169" business="20" holiday="20" from="1900" to="2003"></relation>
+<relation id="169" business="15" holiday="20" from="2004" to="2199"></relation>
+<!--Belgium-->
+<relation id="107" business="30" holiday="10" from="1900" to="2003"></relation>
+<relation id="107" business="20" holiday="20" from="2004" to="2199"></relation>
+<!--France-->
+<relation id="1014" business="40" holiday="50" from="1940" to="1944"></relation><!--Vichy France 1940-1944-->
+<relation id="140" business="40" holiday="50" from="1900" to="2003"></relation>
+<relation id="140" business="40" holiday="40" from="2004" to="2199"></relation>
+<!--Germany-->
+<relation id="163" business="100" holiday="100" from="1900" to="1940"></relation><!--Weimar Republic 1900-1933(40)-->
+<relation id="1013" business="100" holiday="100" from="1933" to="1940"></relation><!--Nazi Germany 1933-1945-->
+<relation id="1013" business="100" holiday="100" from="1940" to="1945"></relation>
+<relation id="163" business="100" holiday="100" from="1940" to="1949"></relation><!--Allied Germany 1945(40)-1949-->
+<relation id="1001" business="100" holiday="100" from="1949" to="1990"></relation><!--East Germany 1949-1990-->
+<relation id="1002" business="100" holiday="100" from="1949" to="1990"></relation><!--West Germany 1949-1990-->
+<relation id="163" business="100" holiday="100" from="1990" to="2003"></relation><!--Germany 1990-2199-->
+<relation id="163" business="100" holiday="100" from="2004" to="2199"></relation>
+<!--German Occupations-->
+<relation id="1032" business="5" holiday="5" from="1940" to="1945"></relation><!--Occupied Denmark 1940-1945-->
+<relation id="1033" business="5" holiday="5" from="1940" to="1945"></relation><!--Occupied Norway 1940-1945-->
+<relation id="1030" business="5" holiday="5" from="1940" to="1945"></relation><!--Occupied Netherlands 1940-1945-->
+<relation id="1031" business="5" holiday="5" from="1940" to="1945"></relation><!--Occupied Belgium 1940-1945-->
+<relation id="1034" business="5" holiday="5" from="1940" to="1944"></relation><!--Occupied France 1940-1944-->
+<relation id="1023" business="5" holiday="5" from="1941" to="1944"></relation><!--Occupied Ukraine 1941-1944-->
+<relation id="1024" business="5" holiday="5" from="1941" to="1944"></relation><!--Occupied Ostland 1941-1944-->
+<relation id="1016" business="5" holiday="5" from="1941" to="1944"></relation><!--Occupied Serbia 1941-1944-->
+<!--Luxembourg-->
+<relation id="119" business="5" holiday="2" from="1900" to="2003"></relation>
+<relation id="119" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Netherlands-->
+<relation id="179" business="90" holiday="15" from="1900" to="2003"></relation>
+<relation id="179" business="50" holiday="10" from="2004" to="2199"></relation>
+<!--Switzerland-->
+<relation id="164" business="15" holiday="15" from="1900" to="2003"></relation>
+<relation id="164" business="25" holiday="15" from="2004" to="2199"></relation>
+
+
+<!--East Mediterranean Europe-->
+<!--Cyprus-->
+<relation id="1044" business="5" holiday="10" from="1900" to="1960"></relation><!--British Cyprus 1900-1960-->
+<relation id="154" business="5" holiday="10" from="1960" to="2003"></relation>
+<relation id="154" business="10" holiday="10" from="2004" to="2199"></relation>
+<!--Israel-->
+<relation id="1066" business="10" holiday="20" from="1900" to="1948"></relation><!--British Palesine-->
+<relation id="128" business="10" holiday="20" from="1948" to="2003"></relation>
+<relation id="128" business="10" holiday="15" from="2004" to="2199"></relation>
+<!--Turkey-->
+<relation id="1018" business="5" holiday="20" from="1900" to="1923"></relation><!--Ottoman Empire 1900-1923-->
+<relation id="161" business="5" holiday="20" from="1923" to="2003"></relation>
+<relation id="161" business="10" holiday="15" from="2004" to="2199"></relation>
+
+
+
+
+
+
+<!--Middle East-->
+<!--Bahrain-->
+<relation id="1078" business="2" holiday="5" from="1900" to="1971"></relation><!--British Bahrain-->
+<relation id="151" business="2" holiday="5" from="1971" to="2003"></relation>
+<relation id="151" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Egypt-->
+<relation id="1091" business="20" holiday="15" from="1900" to="1922"></relation><!--British Egypt-->
+<relation id="155" business="20" holiday="15" from="1922" to="1958"></relation>
+<relation id="1086" business="20" holiday="15" from="1958" to="1971"></relation><!--United Arab Republic-->
+<relation id="155" business="20" holiday="15" from="1971" to="2003"></relation>
+<relation id="155" business="10" holiday="15" from="2004" to="2199"></relation>
+<!--Iran-->
+<relation id="177" business="10" holiday="2" from="1900" to="2003"></relation>
+<relation id="177" business="15" holiday="2" from="2004" to="2199"></relation>
+<!--Iraq-->
+<relation id="1070" business="2" holiday="2" from="1900" to="1932"></relation><!--British Iraq-->
+<relation id="1071" business="2" holiday="2" from="1932" to="1941"></relation><!--Kingdom of Iraq-->
+<relation id="1070" business="2" holiday="2" from="1941" to="1947"></relation><!--British Iraq-->
+<relation id="1071" business="2" holiday="2" from="1947" to="1958"></relation><!--Kingdom of Iraq-->
+<relation id="127" business="2" holiday="2" from="1958" to="2003"></relation>
+<relation id="127" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Jordan-->
+<relation id="1067" business="5" holiday="5" from="1900" to="1946"></relation><!--British Transjordan-->
+<relation id="274" business="5" holiday="5" from="1946" to="2003"></relation>
+<relation id="274" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Kuwait-->
+<relation id="1076" business="2" holiday="5" from="1900" to="1961"></relation><!--British Kuwait-->
+<relation id="126" business="2" holiday="5" from="1961" to="2003"></relation>
+<relation id="126" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Lebanon-->
+<relation id="129" business="5" holiday="5" from="1946" to="2003"></relation>
+<relation id="129" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Libya-->
+<relation id="1087" business="2" holiday="5" from="1900" to="1934"></relation><!--Italian North Africa-->
+<relation id="1088" business="2" holiday="5" from="1934" to="1943"></relation><!--Italian Libya-->
+<relation id="1089" business="2" holiday="5" from="1943" to="1951"></relation><!--British Libya-->
+<relation id="1090" business="2" holiday="5" from="1943" to="1951"></relation><!--French Libya-->
+<relation id="1010" business="2" holiday="5" from="1951" to="2003"></relation>
+<relation id="1010" business="2" holiday="5" from="2004" to="2011"></relation>
+<relation id="125" business="2" holiday="5" from="2011" to="2199"></relation>
+<!--Oman-->
+<relation id="178" business="2" holiday="10" from="1900" to="2003"></relation>
+<relation id="178" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Qatar-->
+<relation id="1077" business="2" holiday="10" from="1900" to="1971"></relation><!--British Qatar-->
+<relation id="180" business="2" holiday="10" from="1971" to="2003"></relation>
+<relation id="180" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--Saudi Arabia-->
+<relation id="1072" business="10" holiday="5" from="1900" to="1926"></relation><!--Hejaz-->
+<relation id="1073" business="10" holiday="5" from="1900" to="1934"></relation><!--Asir-->
+<relation id="1074" business="10" holiday="5" from="1900" to="1921"></relation><!--Hail-->
+<relation id="1075" business="10" holiday="5" from="1921" to="1926"></relation><!--Saudi-->
+<relation id="136" business="10" holiday="5" from="1926" to="2003"></relation>
+<relation id="136" business="5" holiday="5" from="2004" to="2199"></relation>
+<!--Syria-->
+<relation id="1068" business="2" holiday="10" from="1900" to="1946"></relation><!--French Syria-->
+<relation id="281" business="2" holiday="10" from="1946" to="2003"></relation>
+<relation id="281" business="2" holiday="10" from="2004" to="2199"></relation>
+<!--United Arab Emirates-->
+<relation id="1082" business="2" holiday="40" from="1900" to="1971"></relation><!--British Trucial Oman-->
+<relation id="156" business="2" holiday="40" from="1971" to="2003"></relation>
+<relation id="156" business="5" holiday="50" from="2004" to="2199"></relation>
+<!--Yemen-->
+<relation id="1079" business="2" holiday="5" from="1900" to="1990"></relation><!--North Yemen-->
+<relation id="1080" business="10" holiday="5" from="1937" to="1967"></relation><!--British Aden-->
+<relation id="1081" business="10" holiday="5" from="1967" to="1990"></relation><!--South Yemen-->
+<relation id="282" business="10" holiday="5" from="1990" to="2003"></relation>
+<relation id="282" business="5" holiday="5" from="2004" to="2199"></relation>
+
+
+
+
+
+
+<!--South Asia-->
+<!--Afghanistan-->
+<relation id="253" business="5" holiday="2" from="1900" to="2003"></relation>
+<relation id="253" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Bangladesh-->
+<relation id="216" business="2" holiday="2" from="1971" to="2003"></relation>
+<relation id="216" business="5" holiday="2" from="2004" to="2199"></relation>
+<!--Bhutan-->
+<relation id="252" business="2" holiday="2" from="1900" to="2003"></relation>
+<relation id="252" business="2" holiday="2" from="2004" to="2199"></relation>
+<!--India-->
+<relation id="1045" business="5" holiday="5" from="1900" to="1947"></relation><!--British India-->
+<relation id="152" business="5" holiday="5" from="1947" to="2003"></relation>
+<relation id="152" business="10" holiday="10" from="2004" to="2199"></relation>
+<!--Maldives-->
+<relation id="1048" business="2" holiday="5" from="1948" to="1965"></relation><!--British Maldives-->
+<relation id="276" business="2" holiday="5" from="1965" to="2003"></relation>
+<relation id="276" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Nepal-->
+<relation id="251" business="2" holiday="5" from="1900" to="2003"></relation>
+<relation id="251" business="2" holiday="5" from="2004" to="2199"></relation>
+<!--Pakistan-->
+<relation id="202" business="5" holiday="10" from="1947" to="2003"></relation>
+<relation id="202" business="5" holiday="10" from="2004" to="2199"></relation>
+<!--Sri Lanka-->
+<relation id="1046" business="5" holiday="5" from="1900" to="1948"></relation><!--British Ceylon-->
+<relation id="1047" business="5" holiday="5" from="1948" to="1972"></relation><!--Ceylon-->
+<relation id="153" business="5" holiday="5" from="1972" to="2003"></relation>
+<relation id="153" business="2" holiday="10" from="2004" to="2199"></relation>
+</relations>
+</country> 

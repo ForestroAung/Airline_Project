@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Saha Airlines" iata="IRZ" color="Cyan" area="205" CEO="Hassan Shah-Safi" mentality="Moderate" market="Domestic" preferedairport="THR">
+  <narrative narrative="Saha Airlines was an airline based at Tehran Mehrabad Airport,Iran and was owned by the Iran Air Force. It was founded in 1990 and lasted until May 3,2013. It did domestic passenger service
+  to Ahwaz,Assalouyeh,Isfahan,Kish Island,Masshad and Shiraz. It did charters for cargo at times too. Over its life it used at least five 707-320's being the last civil operated of the type up to the end. It also had two A300-600's
+  for a while between 2010 and 2012. It had three 747-200's in its early years and still had one at the end,it also had a 747-100 from the start until around 2008 also."/>
+</profile>
+  <info real="True" from="1990" to="2013" />
+  <prefereds aircrafts="Boeing 707-320B,Airbus A300-600,Boeing 747-200B,Boeing 747-100"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (1991) late (2013)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200B" early="3" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1991) late (2008)-->
+	         <airliners>
+	    <airliner type="Boeing 747-100" early="1" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2013)-->
+	         <airliners>
+	    <airliner type="Airbus A300-600" early="2" late="0"></airliner>
+	     </airliners>
+	 	                      <routes>
+                <route destination1="THR" destination2="IFN"   />
+		<route destination1="THR" destination2="MHD" />
+		<route destination1="THR" destination2="KIH"  />
+		<route destination1="THR" destination2="AWZ"   />
+		<route destination1="THR" destination2="PGU"   />
+		<route destination1="THR" destination2="SYZ"   />
+	        </routes>
+
+
+
+
+</airline>

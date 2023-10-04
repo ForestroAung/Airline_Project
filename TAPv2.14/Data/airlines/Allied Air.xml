@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Allied Air" iata="AJK" color="Navy" area="339" CEO="Val Tongo" mentality="Safe" market="Global" onlyfromhome="False" preferedairport="LOS" routefocus="Cargo" schedule="Business"> 
+  <narrative narrative="Allied Air is a cargo airline based at Lagos,Nigeria. Usual routes include Accra,Ghana, Monrovia,Liberia Freetown,Sierra Leone Malabo,Equatorial Guinea Entebbe,Uganda and in Europe Ostend,Belgium. From Ostend besides Lagos it flies to Nairobi,Kenya Entebbe,Uganda Miami,Florida,USA and Benghazi,Libya. At October 2014 its fleet was three  
+  Boeing 737-400's. One was operating on behalf of DHL for Solenta Aviation of South Africa. It has had Boeing 727-200's in the past and has leased DC-10-30's,747-200's and Il-76's." />
+</profile>
+   <info real="True" from="1998" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-400,Boeing 737 MAX 8,Boeing 737 MAX 200,Boeing 737 MAX 9,Boeing 727-200 Adv.,MD DC-10-30,Boeing 747-200F,Il-76TD"></prefereds>
+   
+<focusairports>
+                 <focusairport airport="OST"></focusairport>
+     </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="3"></airliner>
+	     </airliners>
+<routes>  <route destination1="LOS" destination2="OST" started="1998" closed="2199" />
+                <route destination1="LOS" destination2="ACC" started="1998" closed="2199" />
+		<route destination1="LOS" destination2="ROB"  started="1998" closed="2199"  />
+		<route destination1="LOS" destination2="FNA"  started="1998" closed="2199"/>
+	        <route destination1="LOS" destination2="EBB" started="1998" closed="2199" />
+		<route destination1="LOS" destination2="SSG"  started="1998" closed="2199"/>
+		<route destination1="OST" destination2="NBO" started="1998" closed="2199" />
+		<route destination1="OST" destination2="BEN" started="1998" closed="2199"/>
+		<route destination1="OST" destination2="EBB" started="1998" closed="2199" />
+		<route destination1="OST" destination2="MIA" started="1998" closed="2199" />
+
+        </routes>
+ 
+
+
+</airline>

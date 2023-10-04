@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Eagle Air" iata="H7" color="BlueViolet" area="357" CEO="Charles Muthama" mentality="Safe" market="Local"  preferedairport="EBB" schedule="Business"> 
+  <narrative narrative="Eagle Air is an airline based at Entebbe,Uganda. It was founded in 1994 and as of early 2015 was serving 2 domestic and one South Sudan airport scheduled. Charters are availible for 8 other domestic airports.
+  At August 2010 its fleet was three Let L-410's,a Beechcraft 1900,a Cessna 206 and a Piper PA-34 Seneca." />
+</profile>
+   <info real="True" from="1994" to="2199"></info>
+   <prefereds aircrafts="Beechcraft 1900D,Cessna 206,Let L-410,PA-34 Seneca"></prefereds>
+   
+   <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Let L-410" early="2" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="PA-34 Seneca" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="0" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 206" early="0" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="EBB" destination2="RUA" opened="1994" closed="2199"/>
+	        <route destination1="EBB" destination2="ULU" opened="1994" closed="2199"/>
+	        <route destination1="EBB" destination2="JUB" opened="1994" closed="2199"/>
+        </routes>
+ 
+
+
+</airline>

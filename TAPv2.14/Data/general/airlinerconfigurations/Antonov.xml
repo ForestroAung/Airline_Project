@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Antonov An-2-->
+<configuration type="Antonov An-2" economy="0" premium="0" first="-1" business="0" exitrows="430" emergencyrows="-1" toiletrows="430" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="71.6" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-10-->
+<configuration type="Antonov An-10" economy="0" premium="0" first="-1" business="0" exitrows="1131" emergencyrows="323" toiletrows="0,1131" kitchenrows="323">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80.8" width="48.3"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-12" economy="0" premium="0" first="-1" business="0" exitrows="960" emergencyrows="323" toiletrows="0,960" kitchenrows="323">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="48.8"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-14-->
+<configuration type="Antonov An-14" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.2" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-28" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="445" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.1" width="44"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-38" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="660" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="45"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-24-->
+<configuration type="Antonov An-24" economy="0" premium="0" first="-1" business="0" exitrows="0,965" emergencyrows="-1" toiletrows="965" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80.4" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-26" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="0,730" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-32" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="940" toiletrows="0,940" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.3" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-72-->
+<configuration type="Antonov An-74" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="965" toiletrows="965" kitchenrows="0">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="47"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-140-->
+<configuration type="Antonov An-140" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="965" toiletrows="965" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74.2" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Antonov An-148-->
+<configuration type="Antonov An-148 100A" economy="-1" premium="0" first="0" business="2" exitrows="0" emergencyrows="-1" toiletrows="0,1305" kitchenrows="0,1305">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="88.9" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-148 100B" economy="-1" premium="0" first="0" business="2" exitrows="0" emergencyrows="-1" toiletrows="0,1305" kitchenrows="0,1305">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="88.9" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-148 100E" economy="-1" premium="0" first="0" business="2" exitrows="0" emergencyrows="-1" toiletrows="0,1305" kitchenrows="0,1305">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="88.9" width="60"></seat>
+</seats>
+</configuration>
+<configuration type="Antonov An-158" economy="-1" premium="0" first="0" business="2" exitrows="0" emergencyrows="1530" toiletrows="0,1530" kitchenrows="0,1530">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75.1" width="50.8"></seat>
+<seat class="Business_Class" type="Recliner" pitch="88.9" width="60"></seat>
+</seats>
+</configuration>
+
+
+
+
+
+
+</configurations>

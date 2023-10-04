@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Piaggio-->
+<!--P180-->
+<configuration type="P180 Avanti" economy="0" premium="0" first="0" business="-1" exitrows="0,595" emergencyrows="-1" toiletrows="0" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Standard" pitch="73" width="50.8"></seat>
+</seats>
+</configuration>
+</configurations>

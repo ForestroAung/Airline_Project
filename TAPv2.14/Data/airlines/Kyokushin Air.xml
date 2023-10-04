@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kyokushin Air" iata="KYO" color="Salmon" area="220" CEO="Ryu Matsui" mentality="Safe" market="Local" preferedairport="SDS">
+  <narrative narrative="Kyoskushin Air was a very small Japanese airline that operated between Sado Island and Niigata and ceased in October 2008. That is a 63 kilometer flight. It used at least one BN-2A Islander."/>
+</profile>
+  <info real="True" from="1959" to="2009" />
+  <prefereds aircrafts="BN-2A Islander"></prefereds>
+ <routes>
+                <route destination1="SDS" destination2="KIJ"  />
+	        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="European Air Express" iata="EAL"  color="Crimson" area="108" CEO="Albrecht Rose" mentality="Safe" market="Local" preferedairport="CGN">
+  <narrative narrative="European Air Express was around from February 1999 to July 2007. Its operating base was Dusseldorf Monchengladbach Airport but none of it scheduled service was from there. Its scheduled
+  service was from Cologne/Bonn,Munster/Osnabruck and Stuttgart. From CGN it flew to Nuremburg,Stuttgart,Munster domestic wise and Geneva,Switzerland and Poznan,Poland internationally. From Munster besides CGN
+  it went to Berlin,Stuttgart, Amsterdam in the Netherlands and Zurich in Switzerland. The only Stuttgart route besides the other two hubs was to Leipzig. Its fleet at the end was five ATR 42-300's and a Fairchild Metroliner.
+  It had two ATR 72's from 2000 to 2002 and a few leased Fokker 50's starting in 1999 to May 2000." />
+   </profile>
+    <info real="True" from="1999" to="2008" />
+       <prefereds aircrafts="ATR 42-300"></prefereds>
+        <focusairports>
+		 <focusairport airport="FMO"></focusairport>
+		 <focusairport airport="STR"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2007)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="7" late="5"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2003)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="0"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="0" late="1"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1999) late (2001)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="2" late="0"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="CGN" destination2="POZ" />
+	        <route destination1="CGN" destination2="GVA" />
+		<route destination1="CGN" destination2="NUE" />
+		<route destination1="CGN" destination2="STR" />
+		<route destination1="CGN" destination2="FMO" />
+		<route destination1="FMO" destination2="STR" />
+		<route destination1="FMO" destination2="ZRH" />
+		<route destination1="FMO" destination2="AMS" />
+		<route destination1="FMO" destination2="TXL" />
+		<route destination1="STR" destination2="LEJ" />
+              </routes>
+</airline>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="NAM Air" iata="NIH" color="MidnightBlue" area="246" CEO="Jefferson Jauwena" mentality="Moderate" market="Domestic" preferedairport="CGK">
+  <narrative narrative="NAM Air is an Indoenesian airline that is a subsidiary of the other Indonesian airline Sriwijaya Air. NAM began operations on December 11,2013 and is based at Jakarta's Soekarno-Hatta airport. At September 2015 it has around 10 routes from CGK. It has 4 other routes in Batam and a few at a few others such as Denpasar and Surabaya. Its July 2015 fleet was nine 737-500's and a 737-300, some of which it owns and some of which its parent owns. NAM has ordered 50 Indonesian Aerospace RAI R-80 regional turboprops, these are expected to enter production in 2017 or 2018 and will hold 70 people. It has the option for 50 more also."/>
+</profile>
+  <info real="True" from="2013" to="2199" />
+  <prefereds aircrafts="RAI R-80,Boeing 737-500,Boeing 737-300"></prefereds>
+              <focusairports>
+                 <focusairport airport="BTH"></focusairport> 
+		 <focusairport airport="SUB"></focusairport> 
+		 <focusairport airport="DPS"></focusairport> 
+		 <focusairport airport="PLM"></focusairport>
+     </focusairports>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-500" early="2" late="9"></airliner>
+	     </airliners>
+     	     	               <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="1" late="1"></airliner>
+	     </airliners>
+	          	     	               <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2022)-->
+	     	         <airliners>
+	    <airliner type="RAI R-80" early="1" late="50"></airliner>
+	     </airliners>
+               <routes>
+	                  <route destination1="CGK" destination2="BTH" />
+	       	          <route destination1="CGK" destination2="BKS" />
+			  <route destination1="CGK" destination2="DJB" />
+	                  <route destination1="CGK" destination2="PLM" />
+			  <route destination1="CGK" destination2="PGK" />
+			  <route destination1="CGK" destination2="SOC" />
+			  <route destination1="CGK" destination2="SUB" />
+			  <route destination1="CGK" destination2="TJQ" />
+			  <route destination1="CGK" destination2="TNJ" />
+			  <route destination1="CGK" destination2="LLG" />
+			  <route destination1="BTH" destination2="KNO" />
+			  <route destination1="BTH" destination2="SUB" />
+			  <route destination1="BTH" destination2="PDG" />
+			  <route destination1="BTH" destination2="DJB" />
+			  <route destination1="SUB" destination2="DPS" />
+			  <route destination1="PLM" destination2="PGK" />
+			  <route destination1="DPS" destination2="MOF" />
+			  <route destination1="DPS" destination2="WGP" />
+		        </routes>
+</airline>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Avior Airlines" iata="9V"  color="Red" area="426" CEO="Jorge Anez Dager" mentality="Safe" market="Global" preferedairport="BLA">
+  <narrative narrative="Avior Airlines is based at Barcelona,Venezuela. It began in 1994 doing charters to Isla Margarita and Canaima National Park with a single Cessna Skymaster. Today it flies about 8 routes for its hub along with 6 from Caracas,4 from Valencia,Venezuela and one seasonal one from Barquisometo. 9 or so domestic airports
+  are served along with Miami,FL,USA from its hub and Valencia,Aruba from the hub and Caracas,Curacao from the hub and Caracas and Barquisometo,Panama City from the hub and Manta,Ecuador from the hub. Its fleet at October 2014 was eight 737-200 Adv.'s,four 737-400's,and six Fokker 50's. It operates the Fokker's
+  under the name Avior Regional.  It has used Cessna 208's before also.  "/>
+   </profile>
+    <info real="True" from="1994" to="2199" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-200 Adv.,Fokker 50,Cessna 208B,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+	      <focusairports>
+		 <focusairport airport="VLN"></focusairport>
+		 <focusairport airport="CCS"></focusairport>
+     </focusairports>
+ 
+    <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Fokker 50" early="1" late="6"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="4"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="8"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Cessna Skymaster" early="1" late="0"></airliner>
+	     </airliners>
+
+
+
+	       <routes>
+       	 	<route destination1="BLA" destination2="CCS" />
+		<route destination1="BLA" destination2="VLN"  />
+		<route destination1="BLA" destination2="PMV" opened="1994" closed="2199"  />
+		<route destination1="BLA" destination2="AUA"  />
+		<route destination1="BLA" destination2="CUR"  />
+		<route destination1="BLA" destination2="MIA"  />
+		<route destination1="BLA" destination2="PTY"  />
+		<route destination1="BLA" destination2="MEC"  />
+		<route destination1="CCS" destination2="PMV" />
+		<route destination1="CCS" destination2="AUA"  />
+		<route destination1="CCS" destination2="CUR"  />
+		<route destination1="CCS" destination2="BRM"  />
+		<route destination1="CCS" destination2="VLV"  />
+		<route destination1="VLN" destination2="MAR"  />
+		<route destination1="VLN" destination2="PZO"  />
+		<route destination1="VLN" destination2="MIA"  />
+		<route destination1="BRM" destination2="CUR" season="Summer"  />
+		
+              </routes>
+</airline>

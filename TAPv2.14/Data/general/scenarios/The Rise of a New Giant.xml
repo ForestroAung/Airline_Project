@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="The Rise of a New Giant" startyear="2003" shortname="WizzAir" logo="wizzair" description="The year is 2003. The airline industry is thriving and reaching new, yet unseen frontiers. It's the best moment to jump in and make a fortune. 
+You have been elected as a CEO of a new airline called WizzAir and your goal is to become the biggest airline in Europe based on number of routes and wealth. 
+However, your work will not be as easy as you may think. There is too much competition on the market, and Ryanair just strenghtened their position on the European Aviation market. 
+You have to find a way to dominate all of your oponents and conquer the market by creating better coverage all over Europe with fiendlier prices.
+But be careful, the others will try to supress you by trying to create more lines, lovering their prices, and, maybe creating lines there, where you would like to do so too.">
+<airportssettings majorairports="False" regions="113;114;115;116"></airportssettings>
+<airlines>
+<airline name="W6" ishuman="True">
+<destinations>
+<destination airport="BUD" slots="20"></destination>
+</destinations>
+<routes>
+        <route origin="BUD" destination="OTP" airliner="Airbus A320-200"   />
+        <route origin="BUD" destination="IEV" airliner="Airbus A320-200"   />
+        <route origin="BUD" destination="BEG" airliner="Airbus A320-200"   />
+        <route origin="BUD" destination="SOF" airliner="Airbus A320-200"   />
+      </routes>
+<airliners>
+<airliner type="Airbus A320-200" quantity="4"></airliner>
+</airliners>
+</airline>
+<airline name="FR">
+<destinations>
+<destination airport="DUB" slots="30"></destination>
+</destinations>
+<routes>
+      <route origin="DUB" destination="BRU" airliner="Boeing 737-200"/>
+        <route origin="DUB" destination="SZG" airliner="Boeing 737-300"   />
+        <route origin="DUB" destination="CRL" airliner="Boeing 737-300"   />
+<route origin="DUB" destination="SOF" airliner="Boeing 737-300"/>
+        <route origin="DUB" destination="PRG" airliner="Boeing 737-200"   />
+        <route origin="DUB" destination="CPH" airliner="Boeing 737-200"   />
+<route origin="DUB" destination="BSL" airliner="Boeing 737-300"/>
+        <route origin="DUB" destination="GNB" airliner="Boeing 737-300"   />
+        <route origin="DUB" destination="NTE" airliner="Boeing 737-200"   />
+<route origin="DUB" destination="NCE" airliner="Boeing 737-300"   />
+ </routes>
+<airliners>
+<airliner type="Boeing 737-200" quantity="4"></airliner>
+<airliner type="Boeing 737-300" quantity="6"></airliner>
+</airliners>
+</airline>
+<airline name="U2">
+<destinations>
+<destination airport="LGW" slots="7"></destination>
+</destinations>
+<routes>
+      <route origin="LGW" destination="CDG" airliner="Airbus A319-100"   />
+        <route origin="CDG" destination="AMS" airliner="Airbus A319-100"  />
+        <route origin="MXP" destination="NCE" airliner="Airbus A319-100"   />
+<route origin="STN" destination="AMS" airliner="Airbus A320-200"   />
+        <route origin="STN" destination="VIE" airliner="Airbus A320-200"  />
+        <route origin="LTN" destination="TXL" airliner="Airbus A320-200"   />
+</routes>
+<airliners>
+<airliner type="Airbus A319-100" quantity="3"></airliner>
+<airliner type="Airbus A320-200" quantity="3"></airliner>
+</airliners>
+</airline>
+</airlines>
+<parameters>
+<!--<parameter parametertype="Success" type="Opponents" rounds="-1" value="4" interval="Daily" text="Congratulations! You have managed to eliminate all other airlines."></parameter>
+--><parameter parametertype="Failure" value="Airbus" description="Only using Airbus as aircraft manufacturer throughout the game" type="ManufacturerOnly" interval="Daily" rounds="-1" text="You have failed the scenario because you are using other aircrafts than the ones from Airbus!"></parameter>
+<parameter parametertype="Failure" value="1" type="CarrierSizeRoutes" description="Being the carrier with most routes after 50 years" interval="Yearly" rounds="50" text="You have failed the scenario because you are not the largest carrier!"></parameter>  
+  <parameter parametertype="Failure" value="1" type="CarrierSizeMoney" description="Being the carrier with most cash after 50 years" interval="Yearly" rounds="50" text="You have failed the scenario because you are not the largest carrier!"></parameter>
+  <parameter parametertype="Success" type="EndOfScenario" description="" value="0" interval="Yearly" rounds="50" text="Congratulations! You have managed to become the number one European carrier"></parameter>
+</parameters>
+</scenario>

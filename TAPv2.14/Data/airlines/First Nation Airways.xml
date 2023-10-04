@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="First Nation Airways" iata="FRN" color="LawnGreen" area="339" CEO="Kayode Odukoya" mentality="Safe" market="Domestic" preferedairport="LOS">
+  <narrative narrative="First Nations Airways is a domestic Nigerian airline based at Lagos that was founded in 2011. It ceased from October 2012 to October 2013 when it started flying again. At March 2015 it had
+  two leased A319's. The first year in operation it had three leased A320's. It flies from Lagos to Abuja and Port Harcourt." />
+</profile>
+   <info real="True" from="2011" to="2199"></info>
+   <prefereds aircrafts="Airbus A319-100,Airbus A320-100,Airbus A319neo,Airbus A320neo"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A319-100" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="3" late="0"></airliner>
+	     </airliners>
+
+
+
+<routes>
+	        <route destination1="LOS" destination2="ABV" opened="2011" closed="2199" />
+	        <route destination1="LOS" destination2="PHC" opened="2011" closed="2199" />
+              </routes>
+  
+
+
+</airline>

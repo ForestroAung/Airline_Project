@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="MHS Aviation" iata="MHV" color="SteelBlue" area="108" CEO="Andreas Otto" mentality="Safe" market="Regional" preferedairport="MUC" schedule="Charter"> 
+  <narrative narrative="MHS Aviation is a charter airline and fleet management company based at Munich,Germany. It does charters all over Europe and will operate scheduled flights on behalf of other airlines as well.As of November 2016 it is flying two routes for Rhein-Neckar Air between Mannheim and Berlin Tegel, a domestic route, which it has done since 
+  March 2014, and Mannheim-Hamburg which is started October 2014. It uses two Dornier 328-110's for this route, and has a total of six of them. It also has a Dornier 328JET,three Bombardier Challenger 604's,a Learjet 55,a Learjet 45,a Learjet 31,a Gulfstream V,a Gulfstream G550,an Embraer Phenom 300,an Embraer Phenom 100
+  and two helicopters, which are Agusta A109's. There are pictures of the airline at places outside Germany such as Salzburg and Innsbruck,Austria Eindhoven,Netherlands Zurich and Geneva,Switzerland Brussels,Belgium London City and London Luton,England  Gran Canaria,Spain Budapest,Hungary and Satu Mare,Romania, giving an idea of
+  that it does indeed fly charters all over Europe.Other German airports it frequents outside of Munich and the scheduled routes it provides for Rhein-Neckar are Hanover,Frankfurt,Dusseldorf,Hamburg,Cologne,Bremen Saarbruecken and Erfurt. The airline started flying in 1979." />
+</profile>
+   <info real="True" from="1979" to="2199"></info>
+   <prefereds aircrafts="Dornier 328-110,Fairchild-Dornier 328JET,Challenger 300,Embraer Phenom 300,Embraer Phenom 100,Gulfstream G550,Gulfstream V,Learjet 55,Learjet 31,Learjet 45"></prefereds>
+         <focusairports>
+    <focusairport airport="HAJ"></focusairport>
+    <focusairport airport="FRA"></focusairport>
+    <focusairport airport="DUS"></focusairport>
+    <focusairport airport="HAM"></focusairport>
+    <focusairport airport="CGN"></focusairport>
+    <focusairport airport="BRE"></focusairport>
+    <focusairport airport="SCN"></focusairport>
+    <focusairport airport="ERF"></focusairport>
+  </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-110" early="4" late="6"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 45" early="0" late="1"></airliner>
+	     </airliners>
+	           <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 55" early="0" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Fairchild-Dornier 328JET" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Embraer Phenom 300" early="0" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 31" early="0" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Embraer Phenom 100" early="0" late="1"></airliner>
+	     </airliners>
+	       	        <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Challenger 300" early="0" late="3"></airliner>
+	     </airliners>
+	     	       	        <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream G550" early="0" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1979) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream V" early="0" late="3"></airliner>
+	     </airliners>
+  </airline>

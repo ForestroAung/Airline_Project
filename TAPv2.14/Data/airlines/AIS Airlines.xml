@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="AIS Airlines" iata="PNX"  color="DarkCyan" area="111" CEO="Kai Heeren" mentality="Safe" market="Regional" preferedairport="FMO">
+  <narrative narrative="AIS Airlines is based at Lelystad Airport in the Netherlands, however it has no scheduled flights from here, and starting in 2014 has a base in Germany at Munster/Osnabruck and in Sweden at Borlange Dala Airport. From Munster it flies to Stuttgart,Bremen and seasonally to the island of Sylt by the German and Danish border. Besides Munster it flies from Bremen to Zurich and seasonally to Sylt. In Sweden from Borlange it flies to Gothenburg and Malmo. From Malmo it also flies to Orebro. There were plans for flights from Bremen to Malmo,Nuremberg and Luxembourg but these have not happened as of April 2015. It has eight Jetstream 31/32's. At its home it runs a flight school, the AIS Flight Academy which was around before the airlines founding in 2009. Its flight school owns eight Socata TB-9's, three TB-10's,a TB-20 and a Cessna T303. It has the only certified full Jestream 32 flight simulator in the world."/>
+   </profile>
+    <info real="True" from="2009" to="2199" />
+       <prefereds aircrafts="BAe Jetstream 31"></prefereds>
+	<focusairports>
+			       <focusairport airport="BLE"></focusairport>
+			       <focusairport airport="BRE"></focusairport>
+			       <focusairport airport="MMX"></focusairport>
+     </focusairports>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="8" late="8"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="FMO" destination2="STR" opened="2014" closed="2199" />
+	       	<route destination1="FMO" destination2="BRE"  opened="2014" closed="2199"  />
+		<route destination1="FMO" destination2="GWT"  opened="2014" closed="2199"  season="Summer"  />
+		<route destination1="BRE" destination2="GWT"  opened="2014" closed="2199"  season="Summer"  />
+		<route destination1="BRE" destination2="ZRH"  opened="2014" closed="2199"   />
+		<route destination1="BLE" destination2="GOT"  opened="2014" closed="2199"   />
+		<route destination1="BLE" destination2="MMX"  opened="2014" closed="2199"  />
+		<route destination1="MMX" destination2="ORB"  opened="2014" closed="2199"   />
+		<route destination1="BRE" destination2="MMX"  opened="2016" closed="2199"   />
+		<route destination1="BRE" destination2="NUE"  opened="2016" closed="2199"   />
+		<route destination1="BRE" destination2="LUX"  opened="2016" closed="2199"   />
+	
+              </routes>
+</airline>

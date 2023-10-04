@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Megantara Air" iata="MKE" logo="TSE" color="Goldenrod" area="246" CEO="Sofyan Danu Siswantoro" mentality="Safe" market="Regional" preferedairport="CGK" routefocus="Cargo">
+  <narrative narrative="Megantara Air was a cargo airline from May 2007 to May 2009 and was a subsidiary of Kuala Lumpur,Malaysia based Transmile Air Services, and was based at Jakarta,Indonesia. Transmile still has a subsidiary based in Bankok,Thailand called K-Mile Air. Mengantara's main route was to Singapore and it also did charters. At the end it had a 737-200 and a 727-200, both of which were owned by the parent." />
+ </profile>
+    <info real="True" from="2007" to="2010" />
+       <prefereds aircrafts="Boeing 727-200 Adv.,Boeing 737-200C"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200C" early="1" late="1"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="1" late="1"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="CGK" destination2="SIN"  />	
+	              </routes>
+</airline>

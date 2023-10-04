@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Go2Sky" iata="RLX" color="MediumVioletRed" area="153" CEO="Daniel Ferjancek" mentality="Safe" market="Global" preferedairport="BTS"  routefocus="Mixed"  Schedule="Charter">
+    <narrative narrative="Go2Sky is based at Bratislava,Slovakia. It was founded on February 14th,2013. It does charters for passengers and cargo and mail. It also allows other airline to lease their planes.  Italian airline Mistral Air has leased it's three 737-400's for non-scheduled service since 2014 and was still doing so at 2016.
+    Go2Sky has a 737-800 it also has that isn't being leased as of March 2016."/>  </profile>
+  <info real="True" from="2013" to="2199"/>
+  <prefereds aircrafts="Boeing 737-400,Boeing 737-800,Boeing 737 MAX 8"/>
+  <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-400" early="3" late="3"/>
+  </airliners>
+    <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2016)-->
+  <airliners>
+    <airliner type="Boeing 737-800" early="1" late="1"/>
+  </airliners>
+</airline>

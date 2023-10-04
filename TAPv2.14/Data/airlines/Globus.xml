@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Globus" iata="GH" color="Orange" area="177" CEO="Vladimir Obyedkov" mentality="Moderate" market="Global" preferedairport="DME">
+  <narrative narrative="Globus is a subsidiary of S7 Airlines and is based at Moscow Domodedovo and Novosibirsk. It started in 2008. As of early 2015 from Novosibirsk it was operating to 6 domestic destinations and 4 international, 2 of them seasonal.
+  The all year ones are Frankfurt and Munich,Germany and the seasonal Simferopol,Ukraine and Hong Kong. The domestic are Irkutsk,Moscow,Norilsk,Saint Petersburg,Ulan-Ude and Yakutsk. Its fleet at January 2015 was
+  two 737-400's,three 737-800's, and two A319's. It had three Tupolev Tu-154M's the first two years." />
+</profile>
+   <info real="True" from="2008" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-400,Boeing 737-800,Airbus A319-100,Boeing 737 MAX 8,Airbus A319neo"></prefereds>
+ 
+<focusairports>
+                 <focusairport airport="OVB"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="4" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2010)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="3" late="0"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Airbus A319-100" early="0" late="2"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-800" early="0" late="3"></airliner>
+	     </airliners>
+	
+<routes>
+     		<route destination1="OVB" destination2="DME" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="LED" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="YKS" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="IKT" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="UUD" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="NSK" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="FRA" opened="2008" closed="2199"  />
+		<route destination1="OVB" destination2="MUC" opened="2009" closed="2199"  />
+		<route destination1="OVB" destination2="HKG" opened="2009" closed="2199" season="Summer"/>
+		<route destination1="OVB" destination2="SIP" opened="2014" closed="2199" season="Summer"/>
+
+        </routes>
+ 
+
+
+</airline>

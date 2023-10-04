@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Corendon Dutch Airlines" iata="CD" color="Tomato" area="111" CEO="Michiel Meijer" mentality="Safe" market="Global"
+           preferedairport="AMS">
+             <narrative narrative="Corendon Dutch Airlines is a Dutch branch of the Corendon Group (which also operates Corendon Airlines in Turkey) which started operations under its own AOC in April 2011 using a single Boeing 737–800 aircraft serving European holiday destinations from Amsterdam Airport Schiphol." />
+   </profile>
+  <startdata>
+    <airliners>
+      <airliner type="Boeing 737-800" early="2" late="4"></airliner>
+    </airliners>
+    <routes>
+    	<route destination1="AMS" destination2="LPA"/>
+    	<route destination1="AMS" destination2="BJV"/>
+    	<route destination1="AMS" destination2="SAW"/>
+    	<route destination1="AMS" destination2="HRG"/>
+    </routes>
+  </startdata>
+
+  <info real="True" from="2010" to="2199" />
+</airline>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Etihad Airways" iata="EY" color="Gold" area="315" CEO="James Hogan" mentality="Aggressive" market="Global" preferedairport="AUH">
+           <narrative narrative="Etihad Airways is the second largest carrier of the Unitaed Arab Emirates and is based at Abu Dhabi, the countries capital and second largest city. It began in 2003. At March 2015 it is serving
+	   120 destinations worldwide and has codeshares with 45 other airlines. It is the fastest growing airline in the history of commercial aviation. It also has a cargo division. The number of airports in each country it is setving are India at 11 served cities,the USA at 6,
+	   Australia at 4,Saudia Arabia at 4,Pakistan at 4,China at 3,Germany at 3,Iraq at 3,Italy at 2,Japan at 2,Kazakhstan at 2,Switzerland at 2,2 in Thailand,2 in the UK and one each in Armenia,Bahrain,Bangladesh,Belarus,Belgium,Brazil,Canada,Cyprus,Egypt,France,Greece,
+	   Indonesia,Iran,Ireland,Jordan,Kenya,Kuwait,Lebanon,Malaysia,Maldives,Morocco,Nepal,Netherlands,Nigeria,Oman,Philippines,Qatar,Russia,Serbia,Seychelles,Singapore,South Africa,South Korea,Sri Lanka,Sudan,Turkey,Vietnam and Yemen. There were also 24 cities being served 
+	   by the cargo division only. These would be 2 domestic ones besides the hub,2 in the USA,2 in China,and one each in Austria,Bangladesh,Brazil,Columbia,Djibouti,Ecuador,Ethiopia,Kenya,Libya,Luxembourg,Peru,Turkey,Vietnam and passenger operations start to Hong Kong, Entebbe,Uganda
+	   Tbilisi,Georgia between May to October 2015 but were being served by the cargo division beforehand. Other new passenger rouetes start to Madrid,Spain Edinburgh,Scotland Baku,Azerbaijian and Dar es Salaeem,Tanzania all in 2015. There are 12 airports that it once served but have been terminated also. 
+	   Some of them include one in Syria,Chad,and Myanmar. Its very first commerical flight was to Beirut,Lebanon on November 12,2003. Its fleet at February 28,2015 was 23 777-300ER's,24 A320's,21 A330-200's,7 A340-600's,6 A330-300's,4 A321-200's,5 777-200LR's,4 A340-500's,2 787-9's,2 A319's, and one A380.
+	   It has orders for 39 more 787-9's,30 787-10's,40 A350-900's,22 A350-1000's,17 777-9X's,8 777-8X's,26 A321neo's,10 A320neo's,6 A321-200's,1 A320,and 9 A380's. This does not include the cargo fleet. Past planes include some A300's and a 767-300. "/>
+  </profile>
+  <info real="True" from="2003" to="2199" />
+    <prefereds aircrafts="Boeing 777-300ER,Airbus A320-200,Boeing 787-9,Airbus A330-200,Airbus A330-300,Boeing 777-200LR,Airbus A340-600,Airbus A340-500,Airbus A321-200,Airbus A320neo,Airbus A321neo,Airbus A380-800,Airbus A350-900,Airbus A350-1000,Boeing 787-10,Boeing 777-9X,Boeing 777-8X"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 777-200LR" early="5" late="5"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 777-300ER" early="5" late="23"></airliner>
+	     </airliners>
+	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="25"></airliner>
+	     </airliners>
+	     	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A330-200" early="2" late="21"></airliner>
+	     </airliners>
+	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A330-300" early="3" late="6"></airliner>
+	     </airliners>
+	     	     	         <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A340-500" early="4" late="4"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A340-600" early="3" late="7"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="1" late="10"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2021)-->
+	     	         <airliners>
+	    <airliner type="Boeing 787-9" early="2" late="41"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="Airbus A380-800" early="4" late="9"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A319-100" early="2" late="2"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="0"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600" early="3" late="0"></airliner>
+	     </airliners>
+	          	     	         <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2019)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320neo" early="0" late="10"></airliner>
+	     </airliners>
+	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2021)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321neo" early="1" late="26"></airliner>
+	     </airliners>
+	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2022)-->
+	     	         <airliners>
+	    <airliner type="Airbus A350-900" early="1" late="40"></airliner>
+	     </airliners>
+	     	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2024)-->
+	     	         <airliners>
+	    <airliner type="Airbus A350-100" early="1" late="22"></airliner>
+	     </airliners>
+	     	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2016) late (2022)-->
+	     	         <airliners>
+	    <airliner type="Boeing 787-10" early="1" late="30"></airliner>
+	     </airliners>
+	      	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2022)-->
+	     	         <airliners>
+	    <airliner type="Boeing 777-9X" early="1" late="17"></airliner>
+	     </airliners>
+	     	      	               	     	         <!--the airliners the airline would start with which isn't on a route earyl (2017) late (2022)-->
+	     	         <airliners>
+	    <airliner type="Boeing 777-8X" early="1" late="8"></airliner>
+	     </airliners>
+	     <routes>
+                <route destination1="AUH" destination2="BEG" opened="2003" closed="2199" />
+	        <route destination1="AUH" destination2="DOH"/>
+		<route destination1="AUH" destination2="BAH"/>
+		<route destination1="AUH" destination2="JED"/>
+	        <route destination1="AUH" destination2="DEL"/>
+	        <route destination1="AUH" destination2="BOM"/>
+	        <route destination1="AUH" destination2="IST"/>
+	        <route destination1="AUH" destination2="KHI"/>
+	        <route destination1="AUH" destination2="CAI"/>
+		<route destination1="AUH" destination2="LHR"/>
+		<route destination1="AUH" destination2="CDG"/>
+		<route destination1="AUH" destination2="RUH"/>
+		<route destination1="AUH" destination2="AMM"/>
+		<route destination1="AUH" destination2="FRA"/>
+		<route destination1="AUH" destination2="ISB"/>
+		<route destination1="AUH" destination2="MAA"/>
+		<route destination1="AUH" destination2="MCT"/>
+		<route destination1="AUH" destination2="AMS"/>
+		<route destination1="AUH" destination2="JNB"/>
+		<route destination1="AUH" destination2="FCO"/>
+		<route destination1="AUH" destination2="BLR"/>
+		<route destination1="AUH" destination2="DMK" opened="2003" closed="2006"/>
+		<route destination1="AUH" destination2="BKK" opened="2006" closed="2199"/>
+		<route destination1="AUH" destination2="MAN"/>
+		<route destination1="AUH" destination2="MUC"/>
+		<route destination1="AUH" destination2="JFK"/>
+		<route destination1="AUH" destination2="LAX"/>
+		<route destination1="AUH" destination2="BEY"/>
+		<route destination1="AUH" destination2="KWI"/>
+		<route destination1="AUH" destination2="AMD"/>
+		<route destination1="AUH" destination2="ALA"/>
+		<route destination1="AUH" destination2="TSE"/>
+		<route destination1="AUH" destination2="ATH"/>
+		<route destination1="AUH" destination2="BGW"/>
+		<route destination1="AUH" destination2="GYD" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="BSR"/>
+		<route destination1="AUH" destination2="PEK"/>
+		<route destination1="AUH" destination2="BNE"/>
+		<route destination1="AUH" destination2="BRU"/>
+		<route destination1="AUH" destination2="CMN"/>
+		<route destination1="AUH" destination2="CTU"/>
+		<route destination1="AUH" destination2="ORD"/>
+		<route destination1="AUH" destination2="CMB"/>
+		<route destination1="AUH" destination2="DFW"/>
+		<route destination1="AUH" destination2="DMM"/>
+		<route destination1="AUH" destination2="DAR" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="DAC"/>
+		<route destination1="AUH" destination2="DUB"/>
+		<route destination1="AUH" destination2="DUS"/>
+		<route destination1="AUH" destination2="EDI" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="GVA"/>
+		<route destination1="AUH" destination2="SGN"/>
+		<route destination1="AUH" destination2="HKG" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="HYD"/>
+		<route destination1="AUH" destination2="JAI"/>	
+        	<route destination1="AUH" destination2="CGK"/>
+		<route destination1="AUH" destination2="KTM"/>
+		<route destination1="AUH" destination2="KRT"/>
+		<route destination1="AUH" destination2="COK"/>
+		<route destination1="AUH" destination2="CCU"/>
+		<route destination1="AUH" destination2="CCJ"/>
+		<route destination1="AUH" destination2="KUL"/>
+		<route destination1="AUH" destination2="LOS"/>
+		<route destination1="AUH" destination2="LHE"/>
+		<route destination1="AUH" destination2="LCA"/>
+		<route destination1="AUH" destination2="MAD" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="SEZ"/>
+		<route destination1="AUH" destination2="MLE"/>
+		<route destination1="AUH" destination2="MNL"/>
+		<route destination1="AUH" destination2="MED"/>
+		<route destination1="AUH" destination2="MEL"/>
+		<route destination1="AUH" destination2="MXP"/>
+		<route destination1="AUH" destination2="MSQ"/>
+		<route destination1="AUH" destination2="DME"/>
+		<route destination1="AUH" destination2="NGO"/>
+		<route destination1="AUH" destination2="NBO"/>
+		<route destination1="AUH" destination2="PER"/>
+		<route destination1="AUH" destination2="HKT"/>
+		<route destination1="AUH" destination2="SFO"/>
+		<route destination1="AUH" destination2="GRU"/>
+		<route destination1="AUH" destination2="ICN"/>
+		<route destination1="AUH" destination2="PVG"/>
+		<route destination1="AUH" destination2="SIN"/>
+		<route destination1="AUH" destination2="SYD"/>
+		<route destination1="AUH" destination2="TBS" opened="2015" closed="2199"/>
+		<route destination1="AUH" destination2="IKA"/>
+		<route destination1="AUH" destination2="TRV"/>
+		<route destination1="AUH" destination2="NRT"/>
+		<route destination1="AUH" destination2="YYZ"/>
+		<route destination1="AUH" destination2="TIP"/>
+		<route destination1="AUH" destination2="IAD"/>
+		<route destination1="AUH" destination2="EVN"/>
+		<route destination1="AUH" destination2="ZRH"/>
+		<route destination1="AUH" destination2="PEW"/>
+		<route destination1="AUH" destination2="EBL"/>
+              </routes>
+</airline>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+ <profile name="Northeast Airlines" iata="NE" color="Yellow" area="402" CEO="Michael Stone" mentality="Moderate" market="Regional" preferedairport="BOS">
+           <narrative narrative="Northeast Airlines was a major U.S. air carrier based in Boston, Massachusetts that chiefly operated in the northeastern United States, as well as to Canada, Florida, the Bahamas, Los Angeles and other destinations. The airline was acquired by and merged into Delta Air Lines in August 1972." />
+ </profile>
+ <startdata>
+   <routes>      
+    <route destination1="BOS" destination2="LAX"/>
+<route destination1="BOS" destination2="MIA"/>
+<route destination1="BOS" destination2="MDW"/>
+<route destination1="BOS" destination2="EWR"/>
+<route destination1="BOS" destination2="PHL"/>
+       </routes>
+ </startdata>
+    <info real="True" from="1940" to="1972"></info>
+  <prefereds aircrafts="Convair 880,Convair 990,Boeing 727-100,Boeing 727-200,Douglas DC-9-15,Douglas DC-9-30,Douglas DC-6B"></prefereds>
+</airline>

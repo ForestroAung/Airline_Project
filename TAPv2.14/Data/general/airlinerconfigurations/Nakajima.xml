@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Ki-->
+<configuration type="Ki-6" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="47"></seat>
+</seats>
+</configuration>
+<configuration type="Ki-34" economy="0" premium="0" first="-1" business="0" exitrows="295" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.7" width="46"></seat>
+</seats>
+</configuration>
+
+</configurations>

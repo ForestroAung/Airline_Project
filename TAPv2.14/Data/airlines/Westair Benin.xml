@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Westair Benin" iata="WH" color="Turquoise" area="338" CEO="Jabdoulaye Sene" mentality="Safe" market="Regional"  preferedairport="COO">
+  <narrative narrative="Westair Benin is based at Cotonou,Benin in West Africa and started in 2002. As of March 2015 it was flying from COO to 11 other West African airports in 10 countries, with only the Republic of the Congo having 2 served. It plans on opening routes to Lagos,Nigeria Dakar,Senegal Banjul,Gambia and Conakry,Guinea soon.  It also operates one Bombardier CRJ200 at this time. It had used at least one 737-400 and one 737-200 before also." />
+</profile>
+   <info real="True" from="2002" to="2199"></info>
+  <prefereds aircrafts="Bombardier CRJ200,Boeing 737-400,Boeing 737-200 Adv.,Boeing 737 MAX 8"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Bombardier CRJ200" early="1" late="1"></airliner>
+	     </airliners>
+	     
+ <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="0"></airliner>
+	     </airliners>
+	      <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="0"></airliner>
+	     </airliners>
+
+<routes>
+	        <route destination1="COO" destination2="LBV" opened="2002" closed="2199" />
+	        <route destination1="COO" destination2="FIH"  opened="2002" closed="2199"  />
+	        <route destination1="COO" destination2="ABJ" opened="2002" closed="2199" />
+	        <route destination1="COO" destination2="DLA"  opened="2002" closed="2199"  />
+         	 <route destination1="COO" destination2="NIM"  opened="2002" closed="2199"  />
+	        <route destination1="COO" destination2="BZV" opened="2002" closed="2199" />
+	        <route destination1="COO" destination2="BGF"  opened="2013" closed="2199"  />
+	        <route destination1="COO" destination2="OUA" opened="2002" closed="2199" />
+	        <route destination1="COO" destination2="PNR"  opened="2002" closed="2199"  />
+         	 <route destination1="COO" destination2="BKO"  opened="2002" closed="2199"  />
+		  <route destination1="COO" destination2="SSG"  opened="2014" closed="2199"  />
+		  <route destination1="COO" destination2="LOS"  opened="2016" closed="2199"  />
+	           <route destination1="COO" destination2="DKR"  opened="2016" closed="2199"  />
+		   <route destination1="COO" destination2="BJL"  opened="2016" closed="2199"  />
+		    <route destination1="COO" destination2="CKY"  opened="2016" closed="2199"  />
+              </routes>
+  
+
+
+</airline>

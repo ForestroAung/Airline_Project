@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Holland" iata="HD" logo="HD2" color="Orange" area="111" CEO="John Block" mentality="Safe" market="Global" preferedairport="AMS" schedule="Charter">
+    <narrative narrative="Air Holland was an airline based in the Netherlands. It operated passenger and cargo charters to Africa, Asia and the Mediterranean." />
+  </profile>
+     <info real="True" from="1985" to="2004"></info>
+     <prefereds aircrafts="Boeing 727-200,Boeing 737-300,Boeing 757-200,Boeing 767-200ER,Boeing 767-300ER"></prefereds>
+		
+</airline>

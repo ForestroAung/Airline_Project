@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="White Eagle Aviation" iata="WEA" color="Snow" area="157" CEO="Ewa Kolowiecka" mentality="Safe" market="Regional" preferedairport="WAW" routefocus="Mixed">
+  <narrative narrative="White Eagle Aviation was around from 1993 to 2010 and was based at Warsaw Chopin,Poland. It catered to passengers and cargo. It began in 1993 doing sightseeing tours. In 1995 it started doing cargo on behalf of UPS. Its fleet at the end was
+  three ATR 42-300's and a Beechcraft King Air 350. Other planes it had used were a few 737-400's from 2000 to 2003 in a partnership with the TUI Group and a single 737-800 for a few months. It had seven Let 410's around 2003 also. 
+  Near the end its focus was ACMI service, full charter options primarily to airlines, tour operators and advertising/incentive agencies. WEA cooperates mainly at B2B level but also sells a lot of activity through air brokerage companies. From May 29,2007 to December 7,2007 it
+  did domestic UK service for Flywhoosh from Dundee to Birmingham and Belfast. Flywhoosh was only around from those dates as WEA's ATR 42 was the only plane that ever operated for them." />
+   </profile>
+    <info real="True" from="1993" to="2010" />
+       <prefereds aircrafts="ATR 42-300,Let L-410"></prefereds>
+     <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="1" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2008)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-300" early="1" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2009)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2003)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="7"></airliner>
+	     </airliners>
+</airline>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Gulf Traveller" iata="GFA" color="Gold" area="316" CEO="Ahmed Al Hammadi" mentality="Moderate" market="Global" preferedairport="AUH">
+  <narrative narrative="Gulf Traveller was a subsidiary of Gulf Air of Bahrain, it operated from Abu Dhabi,United Arab Emirates for most of its life. It began operations on June 15,2003 on a flight from AUH to Jeddah,Saudi Arabia. It used three 767-300ER's to start and had six in 2006. It ceased sometime around March 2007. This was mostly because in 2005 Abu Dhabi had pulled put of the Gulf Air consortium, and so did Oman in 2007, where Muscat,Oman was another base for Traveller. Bahrain was of course another hub due to that being the parents home. Besides the three bases and Jeddah,Saudi Arabia it served as follows: Dhaka,Bangladesh Mumbai and Thiruvananthapuram,India Jakarta,Indonesia Amman,Jordan Nairobi,Kenya Kathmandu,Nepal Islamabad,Karachi,Lahore and Peshawar,Pakistan Dammam and Riyadh,Saudi Arabia and Dar es Salaam and Zanzibar,Tanzania. It had planned serving Birmingham,England but this never came true."/>
+</profile>
+  <info real="True" from="2003" to="2007" />
+  <prefereds aircrafts="Boeing 767-300ER"></prefereds>
+          <focusairports>
+		 <focusairport airport="MCT"></focusairport>
+		 <focusairport airport="BAH"></focusairport>
+					      </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="3" late="6"></airliner>
+	     </airliners>
+              <routes>
+                <route destination1="AUH" destination2="JED"   />
+		<route destination1="AUH" destination2="RUH" />
+		<route destination1="AUH" destination2="DMM"  />
+		<route destination1="AUH" destination2="BOM"   />
+                <route destination1="AUH" destination2="KHI"  />
+		<route destination1="AUH" destination2="CGK"  />
+		<route destination1="AUH" destination2="ISB"  />
+		<route destination1="AUH" destination2="LHE"  />
+		<route destination1="AUH" destination2="PEW"  />
+		<route destination1="AUH" destination2="TRV"  />
+		<route destination1="AUH" destination2="AMM"  />
+		<route destination1="AUH" destination2="NBO"  />
+		<route destination1="AUH" destination2="KTM"  />
+		<route destination1="AUH" destination2="DAR"  />
+		<route destination1="AUH" destination2="ZNZ"  />
+		<route destination1="AUH" destination2="DAC"  />
+	        </routes>
+
+
+
+
+</airline>

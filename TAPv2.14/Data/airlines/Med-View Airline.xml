@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Med-View Airline" iata="VL" logo="VL2" color="Lime" area="339" CEO="Alhaji Muneer Alade Bankole" mentality="Safe" market="Regional" preferedairport="LOS">
+  <narrative narrative="Med-View Airline is based at Lagos,Nigeria and was founded in 2007. It flies to four other domestic airports from Lagos at Abuja,Port Harcourt,Yola and Enugu and to Accra,Ghana as of September 2014. It started most of these flights in 2012. Its original use from founding was charters for mainly Haji flights. At January 2015 it had three 737-400's,a 737-500 and a 767-300ER." />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+   <prefereds aircrafts="Boeing 737-400,Boeing 737-500,Boeing 767-300ER,Boeing 737 MAX 8,Boeing 737 MAX 7"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="2" late="3"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="1" late="1"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	     </airliners>
+
+
+<routes>
+                <route destination1="LOS" destination2="ABV" opened="2012" closed="2199" />
+	        <route destination1="LOS" destination2="PHC" opened="2012" closed="2199" />
+	        <route destination1="LOS" destination2="ACC" opened="2007" closed="2199" />
+	        <route destination1="LOS" destination2="YOL" opened="2012" closed="2199" />
+	        <route destination1="LOS" destination2="ENU" opened="2012" closed="2199" />
+              </routes>
+  
+
+
+</airline>

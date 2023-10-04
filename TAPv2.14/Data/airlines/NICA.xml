@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Nicaraguense de Aviacion" iata="NIS" color="Green" area="408" CEO="Eustaquio Aiza" mentality="Safe" market="Regional" preferedairport="MGA">
+  <narrative narrative="NICA, or Nicaraguense de Aviacion, was around from 1994 to 2004 and was a subsidiary of El Salvador airline TACA. It was a spiritual succesor to Aeronica
+  which TACA had a 49% stake in in its final year in 1992. NICA served San Jose,Costa Rica San Salvador,El Salvador Guatemala City,Guatemala San Pedro Sula,Hoduras and Panama City,Panama.
+  Aeronica had served much the same but served Mexico City and Miami,USA and not Honduras. NICA used at least one Boeing 737-200 Adv. from the start to end in October 2004. It was merged into TACA
+  at the end."/>
+</profile>
+  <info real="True" from="1994" to="2005" />
+  <prefereds aircrafts="Boeing 737-200 Adv."></prefereds>
+          	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2005)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="1"></airliner>
+	     </airliners>   
+               <routes>
+	          <route destination1="MGA" destination2="GUA"   />
+                  <route destination1="MGA" destination2="SAL"   />
+		  <route destination1="MGA" destination2="SJO"   />
+		  <route destination1="MGA" destination2="PTY"   />
+		  <route destination1="MGA" destination2="SAP"   />
+		 		        </routes>
+
+
+
+
+</airline>

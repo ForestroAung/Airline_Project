@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mahalo Air" iata="MLH" color="MidnightBlue" area="402" CEO="Bob Johnson" mentality="Moderate" market="Local" preferedairport="HNL" >
+    <narrative narrative="Mahalo Air was a Hawaiian airline that flew between the states islands. It was around from 1993 until the summer of 1997. From Honolulu it went to Kahului,Kapalua,Molokai,Kona and Lihue. It also went from
+    Kahului to Kona and Molokai. At the end it had eight ATR 42-300's. From its start on October 4,1993 to May 31,1994 the airline was operated by Empire Airlines and its Fokker F27's. After that agreement ran out Mahalo was not in operation until October 1994
+    when it got six ATR 42-300's." />
+  </profile>
+     <info real="True" from="1993" to="1998"></info>
+     <prefereds aircrafts="ATR 42-300"></prefereds>
+		      	      <!--the airliners the airline would start with which isn't on a route earyl (1994) late (1997)-->
+	         <airliners>
+	    <airliner type="ATR 42-300" early="6" late="8"></airliner>
+	     </airliners>
+	     	      	      <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1994)-->
+	         <airliners>
+	    <airliner type="Fokker F27" early="3" late="0"></airliner>
+	     </airliners>
+      <routes>  
+	    <route destination1="HNL" destination2="OGG"  />
+            <route destination1="HNL" destination2="LIH"  />	
+	    <route destination1="HNL" destination2="KOA"  />	
+	    <route destination1="HNL" destination2="JHM"  />
+            <route destination1="HNL" destination2="MKK"  />
+            <route destination1="OGG" destination2="KOA"  />		
+            <route destination1="OGG" destination2="MKK"  />		
+                   </routes>
+</airline>

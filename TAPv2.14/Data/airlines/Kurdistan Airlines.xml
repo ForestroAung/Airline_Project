@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Kurdistan Airlines" iata="KUR" color="Yellow" area="304" CEO="Yahya M. Ali" mentality="Safe" market="Regional" preferedairport="EBL">
+  <narrative narrative="Kurdistan Airlines was an airline based in the Kurdistan Region of Iraq, in the northeast of the country, at the regions capital of Erbil. Its corporate HQ was in Dubai,United Arab Emirates.
+  Dubai is also the main route it did from Erbil. The airline made its first flight on September 20th,2005 from Frankfurt,Germany with 40 people on board. It used a Boeing 737-200 for a time. The airline had no planes
+  in 2010 and has gone inactive. It most likely has ceased."/>
+</profile>
+  <info real="True" from="2005" to="2010" />
+  <prefereds aircrafts="Boeing 737-200 Adv."></prefereds> 
+               <routes>
+	          <route destination1="EBL" destination2="DXB"    />
+		        </routes>
+
+
+
+
+</airline>

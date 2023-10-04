@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Imair Airlines" iata="ITX" color="MediumTurquoise" area="181" CEO="Fizouli Alakbarov" mentality="Safe" market="Global"  preferedairport="GYD">
+  <narrative narrative="Imair Airlines was an airline based at Baku,Azerbaijan from operations start in July 1995 until November 23,2009. At the end it was going to Almaty and Astana,Kazakhstan,
+  Surgut,Russia Tashkent,Uzbekistan and Milas-Bodrum,Turkey. It had two Tupolev Tu-154M's at the end." />
+</profile>
+   <info real="True" from="1995" to="2010"></info>
+   <prefereds aircrafts="Tupolev Tu-154M"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2009)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="5" late="2"></airliner>
+	     </airliners>
+	
+<routes>
+	        <route destination1="GYD" destination2="ALA" opened="1995" closed="2199"  />
+		<route destination1="GYD" destination2="TSE" opened="1995" closed="2199"  />
+     		<route destination1="GYD" destination2="SGC" opened="1995" closed="2199"  />
+		<route destination1="GYD" destination2="TAS" opened="1995" closed="2199"  />
+	        <route destination1="GYD" destination2="BJV" opened="1995" closed="2199"  />
+        </routes>
+ 
+
+
+</airline>

@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Akutan, AK">
+  <months>
+    <month month="1" precipitation="54">
+      <temp min="-1" max="2" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="58">
+      <temp min="-1" max="3" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="48">
+      <temp min="0" max="3" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="33">
+      <temp min="1" max="5" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="72">
+      <temp min="3" max="7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="67">
+      <temp min="6" max="11" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="48">
+      <temp min="8" max="13" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="27">
+      <temp min="10" max="14" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="59">
+      <temp min="8" max="12" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="56">
+      <temp min="4" max="8" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="46">
+      <temp min="2" max="5" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="58">
+      <temp min="0" max="3" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+  </months>
+</weather>

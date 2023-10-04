@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Business Air" iata="8B" color="DodgerBlue" area="234" CEO="Pong Maneesilp" mentality="Safe" market="Regional" preferedairport="BKK" schedule="Business">
+  <narrative narrative="Business Air is based at Bangkok,Thailand and began operations in December 2009. It is described as a charter airline on Wikipedia however most of its flights are done 3-5 times a week making them a scheduled airline with a business schedule in TAP. From Bangkok-Suvarnabhumi it goes to Seoul-Incheon,South Korea Chongqing,China Jakarta,Indonesia and Yangoon,Myanmar. It does charters from Phuket to Chongqing,China Seoul-Incheon,South Korea and Busan,South Korea as well. Its fleet at early 2015 was two 767-300ER's, a plane type it has used since 2010. It also used a 767-200 the first two years or so." />
+ </profile>
+    <info real="True" from="2009" to="2199" />
+       <prefereds aircrafts="Boeing 767-300ER,Boeing 767-200ER"></prefereds>
+       <focusairports>
+ 		 <focusairport airport="HKT"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="2" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-200ER" early="1" late="0"></airliner>
+	     </airliners>
+
+	      <routes>  
+	    <route destination1="BKK" destination2="ICN"    />	
+	    <route destination1="BKK" destination2="CKG"    />	
+	    <route destination1="BKK" destination2="CGK"  />
+	    <route destination1="BKK" destination2="RGN"  />
+	    <route destination1="HKT" destination2="ICN" type="Charter"  />
+	    <route destination1="HKT" destination2="CKG" type="Charter"  />
+	    <route destination1="HKT" destination2="PUS" type="Charter"  />
+	     
+                   </routes>
+</airline>

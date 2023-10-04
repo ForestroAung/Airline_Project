@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Concorde-->
+<configuration type="Aerospatiale-BAC Concorde" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="1032,2755" toiletrows="0,1032" kitchenrows="0,2755">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="86" width="59"></seat>
+</seats>
+</configuration>
+
+<!--Aerospatiale Corvette-->
+<configuration type="Aerospatiale Corvette" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="510" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="127.5" width="46"></seat>
+</seats>
+</configuration>
+
+<!--Aerospatiale N-->
+<configuration type="Aerospatiale N 262" economy="-1" premium="0" first="0" business="0" exitrows="715" emergencyrows="0" toiletrows="715" kitchenrows="715">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="49"></seat>
+</seats>
+</configuration>
+
+<!--AS350-->
+<configuration type="AS350" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--AS355-->
+<configuration type="AS355" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--EC120-->
+<configuration type="EC120 Colibri" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--SA 330 Puma-->
+<configuration type="SA 330 Puma" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--SA 365 Dauphin 2-->
+<configuration type="SA 365 Dauphin 2" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="148" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="74" width="50"></seat>
+</seats>
+</configuration>
+</configurations>

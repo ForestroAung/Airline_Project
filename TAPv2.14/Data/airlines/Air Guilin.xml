@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air Guilin" iata="GT" logo="GT2" color="Orange" area="209" CEO="ZLin Yan" mentality="Moderate" market="Regional" preferedairport="KWL">
+  <narrative narrative="Air Guilin is a Chinese airline based at Guilin Liangjiang International Airport in Guangxi. It was found by the Guilin Municipal Government and HNA Group. The airline began operations in June 2016 using Airbus A319. It intends to boost the tourism industry in Guilin."/>
+</profile>
+  <info real="True" from="2016" to="2199" />
+      <focusairports>
+      <focusairport airport="HFE"></focusairport>
+      <focusairport airport="SWA"></focusairport>
+      <focusairport airport="ZHA"></focusairport>
+      <focusairport airport="SJW"></focusairport>
+      <focusairport airport="KHN"></focusairport>
+      <focusairport airport="NGB"></focusairport>
+     </focusairports>
+  <prefereds aircrafts="Airbus 319-100"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2007)-->
+	     	         <airliners>
+	    <airliner type="Airbus 319-100" early="3" late="8"></airliner>
+	 	     </airliners>
+</airline>

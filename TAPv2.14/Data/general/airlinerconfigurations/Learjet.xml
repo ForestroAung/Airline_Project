@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Learjet-->
+<configuration type="Learjet 23" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.3" width="49"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 24" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 25" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 31" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Standard" pitch="80" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 31ER" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Standard" pitch="80" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 35" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Recliner" pitch="88.3" width="55"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 36" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="0">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73.3" width="50.8"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 40" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="296" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="98.6" width="53"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 45" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="360" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="90" width="53"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 55" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="365" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="91.2" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="Learjet 60" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="305" kitchenrows="0">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="75" width="51"></seat>
+</seats>
+</configuration>
+</configurations>

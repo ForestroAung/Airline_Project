@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Jett8 Airlines" iata="JEC" color="SteelBlue" area="243" CEO="Tan HK Louis" mentality="Safe" market="Global" preferedairport="SIN" routefocus="Cargo">
+  <narrative narrative="Jett8 Airlines was a cargo airline based at Singapore from operations start at June 23,2007 until August 2012. It had two 747-200F's to start and had them at the end also. It had scheduled service
+  from SIN to Hong Kong,Dubai and Amsterdam. It did charters also and this was the focus of its last year in operations. Its founder and ceo Louis Tan was a former Singapore Airlines pilot. Both of its 747's had also belonged to
+  Nippon Cargo Airlines of Japan beforehand."/>
+</profile>
+  <info real="True" from="2007" to="2013" />
+  <prefereds aircrafts="Boeing 747-200F"></prefereds>
+<!--the airliners the airline would start with which isn't on a route earyl (2007) late (2012)-->
+	         <airliners>
+	    <airliner type="Boeing 747-200F" early="2" late="2"></airliner>
+	     </airliners>
+	 	                      <routes>
+                <route destination1="SIN" destination2="HKG"   />
+		<route destination1="SIN" destination2="DXB" />
+		<route destination1="SIN" destination2="AMS"  />
+	        </routes>
+
+
+
+
+</airline>

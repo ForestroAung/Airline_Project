@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="First Flying" iata="DAK" color="SkyBlue" area="220" CEO="Ichiro Tanaka" mentality="Safe" market="Local" preferedairport="OKA" schedule="Business"> 
+  <narrative narrative="First Flying is based at Yao Airport in the Osaka area however it operates no scheduled service from there. The base of its main operations is Naha on the island of Okinawa. Its flights are not considered scheduled because if they do not get enough booked passengers then the flight is cancelled. It flies to the islands of Aguni,Okinoerabu and Tokunoshima from Naha and between Okinoerabu and Tokunoshima. It was founded in 1966 and also uses the old Hiroshima Nishi Airport as a base but this too no longer has scheduled service since it was replaced by a new airport in the early 90's. Its fleet is five Cessna 172 Slyhawks,three Cessna 208B's,three Cessna 206's and three BN Islanders and four Robinson helicopters." />
+</profile>
+   <info real="True" from="1966" to="2199"></info>
+   <prefereds aircrafts="BN-2A Islander,Cessna 208B,Cessna 206,Cessna 172 Skyhawk"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1966) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 172 Skyhawk" early="2" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1966) late (2015)-->
+	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="3"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 208B" early="0" late="3"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (1966) late (2015)-->
+	         <airliners>
+	    <airliner type="Cessna 206" early="0" late="3"></airliner>
+	     </airliners>
+<routes>
+                <route destination1="OKA" destination2="AGJ" opened="1966" closed="2199" />
+                <route destination1="OKA" destination2="OKE"  opened="1966" closed="2199" />
+		<route destination1="OKE" destination2="TKN"  opened="1966" closed="2199"  />
+		<route destination1="OKA" destination2="TKN"  opened="1966" closed="2199" />
+        </routes>
+ 
+
+
+</airline>

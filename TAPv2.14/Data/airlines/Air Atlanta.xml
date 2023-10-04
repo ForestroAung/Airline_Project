@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Atlanta" iata="CRB" color="Red" area="402" CEO="Michael Hollis" mentality="Moderate" market="Domestic" preferedairport="ATL">
+    <narrative narrative="Air Atlanta operated from February 1,1984 to April 2,1987 due to bankruptcy. It had its base in its namesake of Atlanta,GA and flew direct from ATL to Memphis,TN Fort Myers,FL Miami,FL Tampa,FL Orlando,FL New York JFK,NY Philadelphia,PA New Orleans,LA Detroit,MI and Washington DC at National Airport. It also flew between New York and Philly,and between New York and Lewbisburg,WV and between Tampa and Orlando and between Tampa and Ft. Myers. The schedule was as of December 1986. It began with five 727-100's and got five 727-200's by the end. It provided passenger feed service to Pan Am and operated under the name Pan Am Express. It only used first class, with every seat having meals served on white linen,fine china and crystal. It served 3 million passengers by the end. KLM had offered 10 million dollars if the existing investors would match it but that didn't happen. " />
+  </profile>
+     <info real="True" from="1984" to="1987"></info>
+  <startdata>
+     <prefereds aircrafts="Boeing 727-100,Boeing 727-200"></prefereds>
+    <!--the airliners the airline would start with which isn't on a route earyl (1984) late (1986)-->
+    <airliners>
+      <airliner type="Boeing 727-100" early="5" late="5"></airliner>
+    </airliners>
+        <!--the airliners the airline would start with which isn't on a route earyl (1984) late (1986)-->
+    <airliners>
+      <airliner type="Boweing 727-200" early="0" late="5"></airliner>
+    </airliners>
+      <routes>  
+	    <route destination1="ATL" destination2="MEM"    />	
+	    <route destination1="ATL" destination2="RSW"    />	
+	    <route destination1="ATL" destination2="MIA"      />
+	    <route destination1="ATL" destination2="JFK"    />	
+	    <route destination1="ATL" destination2="MCO"    />	
+            <route destination1="ATL" destination2="PHL"      />	
+	    <route destination1="ATL" destination2="TPA"    />	
+	    <route destination1="ATL" destination2="DCA"    />	
+            <route destination1="JFK" destination2="PHL"      />	
+	    <route destination1="ATL" destination2="MSY"      />
+            <route destination1="ATL" destination2="DTW"      />		
+                   </routes>
+  </startdata>
+</airline>

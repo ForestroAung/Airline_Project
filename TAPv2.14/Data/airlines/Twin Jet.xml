@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Twin Jet" iata="T7"  color="LightBlue" area="115" CEO="Olivier Manaut" mentality="Moderate" market="Regional" preferedairport="MRS">
+  <narrative narrative="Twin Jet is an airline based at Marseille and has another base at Metz-Nancy. It began in May 2001 with charters and in March 2002 with scheduled flights. At March 2015 it was going to 9 other domestic
+  airports besides the bases and to Basel-Mulhouse on the Swiss/French border and to Milan Malpensa,Italy and Stuttgart,Germany. From Marseille it serves 8 flights a day to Metz-Nancy,and Basel-Mulhouse,Geneva,Pau and Milan.
+  From Metz it does 4 flights to Toulouse. From Paris Orly it does 2 flights a day to Perigueux,Bergerac and Limoges. From Nice it does 2 a week to Limoges and Milan. From Tolouse it also does 2 a day to Milan. Starting September 2014
+  it is doing Lyon to Stuttgart twice a day. At August 2011 its fleet had 10 Beechcraft 1900D's. It uses the Flying Blue frequent flyer program of the Air France/KLM Group." />
+   </profile>
+    <info real="True" from="2001" to="2199" />
+       <prefereds aircrafts="Beechcraft 1900D"></prefereds>
+        <focusairports>
+                 <focusairport airport="ETZ"></focusairport>
+     </focusairports>
+  
+     <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900D" early="5" late="10"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="MRS" destination2="ETZ" opened="2002" closed="2199"/>
+	        <route destination1="MRS" destination2="BSL" opened="2002" closed="2199"/>
+		<route destination1="MRS" destination2="MXP" opened="2002" closed="2199"/>
+	        <route destination1="MRS" destination2="GVA" opened="2002" closed="2199"/>
+	        <route destination1="ETZ" destination2="TLS" opened="2002" closed="2199"/>
+	        <route destination1="MRS" destination2="PUF" opened="2003" closed="2199"/>
+	        <route destination1="ORY" destination2="EGC" opened="2004" closed="2199"/>
+	        <route destination1="ORY" destination2="LIG" opened="2005" closed="2199"/>
+		<route destination1="NCE" destination2="MXP" opened="2013" closed="2199"/>
+	        <route destination1="NCE" destination2="LIG" opened="2007" closed="2199"/>
+	        <route destination1="ORY" destination2="PGX" opened="2008" closed="2199"/>
+	         <route destination1="TLS" destination2="MXP" opened="2009" closed="2199"/>
+	         <route destination1="LYS" destination2="STR" opened="2014" closed="2199"/>
+              </routes>
+</airline>

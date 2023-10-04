@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="EasyJet Europe" iata="U22" logo="U2" color="Orange" area="102" CEO="Carolyn McCall" mentality="Aggressive" onlyfromhome="False"
+           market="Regional" preferedairport="VIE">
+    <narrative
+      narrative="EasyJet Europe is a subsidiary formed by EasyJet to maintain their flying rights in Europe after Brexit is fulfilled." />
+  </profile>
+     <info real="True" from="2017" to="2199"></info>
+	 <focusairports>
+		<focusairport airport="TXL"/>
+		<focusairport airport="SXF"/>
+		<focusairport airport="CDG"/>
+		<focusairport airport="PMI"/>
+		<focusairport airport="AMS"/>
+		<focusairport airport="VIE"/>
+		<focusairport airport="MXP"/>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="1" late="90"></airliner>
+      <airliner type="Airbus A319-100" early="0" late="40"></airliner>
+    </airliners>
+  </startdata>
+</airline>

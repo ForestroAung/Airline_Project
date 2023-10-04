@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Corridor" iata="CRD" color="Red" area="369" CEO="Rafael Pereira" mentality="Moderate" market="Domestic" preferedairport="APL">
+  <narrative narrative="Air Corridor was an airline based at Nampula,Mozambique and did domestic service. It operated from August 2004 until January 2008. It used one 737-200 Adv. to start then added another in 2006. Besides Nampula it served Beira,Tete,Lichinga,Maputo,Pemba and Quelimane."/>
+</profile>
+  <info real="True" from="2004" to="2008" />
+  <prefereds aircrafts="Boeing 737-200 Adv."></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2006)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="2"></airliner>
+	     </airliners>
+              <routes>
+	        <route destination1="APL" destination2="MPM"   />
+		<route destination1="APL" destination2="TET"   />
+                <route destination1="APL" destination2="POL"   />
+		<route destination1="APL" destination2="BEW" />
+		<route destination1="APL" destination2="VXC" />
+		<route destination1="APL" destination2="UEL" />
+	        </routes>
+
+
+
+
+</airline>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Perm Airlines" iata="PGP" color="Blue" area="177" CEO="Vyacheslav Vasiliyevich Tekoyev" mentality="Moderate" market="Global" preferedairport="PEE">
+  <narrative narrative="Perm Airlines was around from 1992 to May 16,2009 as an independant airline, it had been the Perm division of Aeroflot starting in 1968 before and broke off as many other Aeroflot divisions did
+  after the fall of the USSR. Perm Airlines went from Perm to Moscow Sheremetyevo,Moscow Domodedovo,Ekaterinburg,Surgut,Novosibirsk and St. Petersburg on a scheduled domestic basis. International scheduled ones
+  were to Baku,Azerbaijian also. Charters were offered domestic to Sochi and Baikonur and international to Simferopol,Ukraine and Dubai,United Arab Emirates. Its fleet at May 2008 was four Tu-134A's,two Tu-154B's,
+  two Antonov 26's,one Tu-154M,one Antonov 24,one Yak 40 and three helicopters, Mi-8's. All the Tu-154's were leased from 2006 to 2008 by Sibir Airlines and in 2009 the engines were removed and sold and the rest of the planes
+  are still sitting at Perm. An agreement with S7 Airlines had Sibir Airlines operating Perm flights."/>
+</profile>
+  <info real="True" from="1992" to="2010" />
+  <prefereds aircrafts="Tupolev Tu-134A,Tupolev Tu-154B,Antonov An-26,Tupolev Tu-154M"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Antonov An-24" early="1" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Antonov An-26" early="2" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-134A" early="4" late="4"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154B" early="1" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Tupolev Tu-154M" early="0" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1992) late (2009)-->
+	         <airliners>
+	    <airliner type="Yak-40" early="1" late="1"></airliner>
+	     </airliners>
+ <routes>
+                <route destination1="PEE" destination2="SVO"  />
+		<route destination1="PEE" destination2="DME"  />
+		<route destination1="PEE" destination2="LED"  />
+		<route destination1="PEE" destination2="OVB"  />
+		<route destination1="PEE" destination2="SVX"  />
+		<route destination1="PEE" destination2="SGC"  />
+		<route destination1="PEE" destination2="GYD"  />
+		<route destination1="PEE" destination2="AER" type="Charter" />
+		<route destination1="PEE" destination2="SIP" type="Charter" />
+		<route destination1="PEE" destination2="DXB" type="Charter" />
+	        </routes>
+
+
+
+
+</airline>

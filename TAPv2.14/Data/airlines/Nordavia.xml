@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+<profile name="Nordavia" iata="5N" color="SkyBlue" area="177" CEO="Vladimir Antonov" mentality="Moderate" market="Regional" preferedairport="ARH">
+ <narrative narrative="Nordavia calls Talagi Airport in Arkhangelsk in Russia's north home. Formed in 1963 as Arkhangelsk United Aviation Squadron. From 2004-2009 it was a part of Aeroflot and called Aeroflot-Nord. It is now owned by Norilsk Nickel, as Russian mining company. They serves 21 destinations, all but 1 being in Russia, that being Tromso, Norway. Their fleet is nine 737-500's. "></narrative>
+ <names>
+	<name value="Nordavia" from="01.01.1963 00:00:00"/>
+	<name value="Smartavia" from="20.03.2019 00:00:00"/>
+</names>
+</profile>
+ <info real="True" from="1963" to="2199"></info>
+</airline>

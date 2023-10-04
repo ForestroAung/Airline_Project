@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+<profile name="Trans Australia Airlines" iata="TN" logo="TAA" color="Orange" area="251" CEO="John Schaarp" mentality="Aggressive" market="Domestic" preferedairport="MEL">
+<narrative narrative="Trans Australia Airlines was started shortly after World War 2 by the Australian National Airways Commission in 1946 until its merge with Qantas in 1994. Swift expansion and increasing competition with Ansett-ANA saw the development of the &quot;Two Airline Policy&quot; which severely restricted the growth and development of Australian Aviation. It also led to the bizarre period where both airlines were forced to purchase and operate the same equipment on the same flights leaving at the same times. Rebranding to &quot;Australian Airlines&quot; in 1986, the airline eventually merged with Qantas in 1994 in preparation for privatization, it's service ending with a fleet of Airbus A300's and Boeing 737's."/>
+</profile>
+<info real="True" from="1946" to="1994"/>
+</airline>

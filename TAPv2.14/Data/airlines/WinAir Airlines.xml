@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="WinAir Airlines" iata="WNA" color="SlateBlue" area="402" CEO="Richard Winwood" mentality="Safe" market="Domestic" preferedairport="LGB" schedule="Charter">
+  <narrative narrative="WinAir Airlines was around from operations start January 25th,1998 until July 6th,1999. It was a charter airline that started offering public charters out of Long Beach,CA in November 1998
+  after it had been doing charters for clients such as sports teams beforehand also. Its corporate HQ was Salt Lake City,UT. The public charters were offered to Las Vegas,NV Salt Lake City,NV Oakland,CA and
+  Sacramento,CA. The airline had personnel from other airlines like Morris Air,Key Airlines and Champion Air. Over its short life it had used five 737-200's,three 737-400's and two 737-300's. It had been planning on
+  serving Seattle,WA as well but there was too much competition from LGB on this route."/>
+</profile>
+  <info real="True" from="1998" to="2000" />
+  <prefereds aircrafts="Boeing 737-200 Adv.,Boeing 737-400,Boeing 737-300"></prefereds>
+  <!--the airliners the airline would start with which isn't on a route earyl (1998) late (1999)-->
+	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="5" late="5"></airliner>
+	     </airliners>
+<!--the airliners the airline would start with which isn't on a route earyl (1998) late (1999)-->
+	         <airliners>
+	    <airliner type="Boeing 737-400" early="3" late="3"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1998) late (1999)-->
+	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="2"></airliner>
+	     </airliners>
+
+              <routes>
+	        <route destination1="LGB" destination2="LAS" />
+	        <route destination1="LGB" destination2="SLC" />
+	        <route destination1="LGB" destination2="OAK" />
+		<route destination1="LGB" destination2="SMF" />
+	        </routes>
+
+</airline>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Mooney M20-->
+<configuration type="Mooney M20" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

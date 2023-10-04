@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="BritishJET" iata="BRJ" color="MediumBlue" area="138" CEO="Robbie Borg" mentality="Safe" market="Regional" preferedairport="MLA" schedule="Charter">
+  <narrative narrative="BritishJET was a charter airline that operated for tour company Malta Bargains Limited from May 2005 to 2008. It was based in Malta and all of its flights went to Britain aka the UK. It went to London Gatwick,London Stansted,
+  Manchester,Birmingham,Newcastle,Bristol,Leeds,East Midlands,Norwich,Exeter,Glasgow and Cardiff all in the UK. Its MD-90 was leased from the Swiss airline Hello who also provided the crew. Air Malta became the new
+  provider for the tour company after BritishJET closed."/>
+</profile>
+  <info real="True" from="2005" to="2008" />
+  <prefereds aircrafts="MD-90-30"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2007)-->
+	     	         <airliners>
+	    <airliner type="MD-90-30" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="MLA" destination2="LGW"    />
+		  <route destination1="MLA" destination2="MAN" />
+		  <route destination1="MLA" destination2="STN" />
+		  <route destination1="MLA" destination2="BHX" />
+		  <route destination1="MLA" destination2="NCL" />
+		  <route destination1="MLA" destination2="BRS" />
+		  <route destination1="MLA" destination2="LBA" />
+		  <route destination1="MLA" destination2="EMA" />
+		  <route destination1="MLA" destination2="GLA" />
+		  <route destination1="MLA" destination2="CWL" />
+		  <route destination1="MLA" destination2="NWI" />
+		  <route destination1="MLA" destination2="EXT" />
+		        </routes>
+
+
+
+
+</airline>

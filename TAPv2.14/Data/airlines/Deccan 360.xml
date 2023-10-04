@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Deccan 360" iata="DEC" color="Red" area="224" CEO="GR Gopinath" mentality="Moderate" market="Regional" preferedairport="BLR" routefocus="Cargo">
+    <narrative narrative="Deccan 360 was a cargo airline based at Bangalore,India from operations start in November 2009 until operations end at May 2011. It operated to 12 domestic destinations besides the hub at Ahmedabad,Chennai,Cochin,
+    Trivandrum,Coimbatore,Delhi,Guwahati,Belgaum,Hubli,Kolkata,Mumbai and Nagpur. It also went to Hong Kong and Dubai,UAE. It began with three Airbus A310-300's but these were grounded a lot due to problems with maintenance and they were returned to the lessor
+    in May 2011 and then teh airline folded. It had also got two ATR 72-200's for domestic use in the months prior to closing. Its owner and founder, GR Gopinath, also owned Air Deccan which he had sold to Kingfisher Airlines in December 2007, and it would be rebranded
+    as Kingfisher Red. Kingfisher Red itself closed in September 2011 and its parent Kingfisher would also do so a year later." />
+  </profile>
+    <info real="True" from="2009" to="2012" />
+           <prefereds aircrafts="ATR 72-200,Airbus A310-300"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2011)-->
+	     	         <airliners>
+	    <airliner type="Airbus A310-300" early="3" late="3"></airliner>
+	     </airliners>
+	     	   	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-200" early="2" late="2"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="BLR" destination2="BOM"    />	
+	    <route destination1="BLR" destination2="DEL"    />	
+	    <route destination1="BLR" destination2="CCU"    />	
+	    <route destination1="BLR" destination2="MAA"    />	
+	    <route destination1="BLR" destination2="COK"    />	
+	    <route destination1="BLR" destination2="AMD"    />
+	    <route destination1="BLR" destination2="TRV"    />
+	    <route destination1="BLR" destination2="CJB"    />	
+	    <route destination1="BLR" destination2="GAU"    />
+	    <route destination1="BLR" destination2="NAG"    />
+	    <route destination1="BLR" destination2="HKG"    />
+	    <route destination1="BLR" destination2="DXB"    />
+                   </routes>
+</airline>

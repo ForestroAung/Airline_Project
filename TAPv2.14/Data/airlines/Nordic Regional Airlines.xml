@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Nordic Regional Airliens" iata="N7" logo="N71" color="Black" area="106" CEO="Mika Vehvilainen" mentality="Safe" market="Regional" preferedairport="HEL"> 
+  <narrative narrative="Nordic Regional Airlines, marketed as NORRA is a Finnish regional airline based at Helsinki Airport." />
+</profile>
+   <info real="True" from="2015" to="2199"></info>
+   <prefereds aircrafts="ATR 42-500,ATR 72-500,Embraer E-170,Embraer E-190"></prefereds>
+
+</airline>

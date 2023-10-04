@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Delta Private Jets" iata="DPJ" color="MidnightBlue" area="402" CEO="Richard Anderson" mentality="Aggressive" market="Domestic" preferedairport="CVG" schedule="Charter">
+  <narrative narrative="Delta Private Jets is a subsidiary of Delta Air Lines and is based at Cincinatti/Northern Kentucky airport near Cincinatti,Ohio. It was founded in 1984 as Comair Jet Express and got its current name in 2001.
+  It caters to domestic business travelers utilizing a fleet of 52 business jets as of 2014. Delta Private Jets Card holders receive SkyMiles Diamond Medallion tier status. They also receive regular commercial flight ticket discounts.
+  Its fleet at August 2014 was a Cessna Citation Bravo,a Cessna Citation Ultra,three Bombardier Challenger 600's,two Challenger 300's,two Learjet 60's,two Learjet 45's,three Cessna Citation X's,nine Cessna 560XL's,six Cessna Citation Jet 2's,three CitationJet 3's,a Cessna 680,a Dassault Falcon 7X,a Dassault Falcon 2000,an Embraer Phenom 300,an Embraer Legacy 600,three Gulfstream IV's,a Gulfstream G550,a Gulfstream G650,five Hawker 400's and three Hawker 800's." />
+ </profile>
+    <info real="True" from="1984" to="2199" />
+       <prefereds aircrafts="Hawker 400,Hawker 800,Cessna Citation Bravo,Cessna Citation Ultra,Challenger 600,Challenger 300,Learjet 60,Learjet 45,Cessna Citation X,Cessna 560XL,Cessna CitationJet CJ2,Cessna CitationJet CJ3,Cessna 680,Dassault Falcon 7X,Dassault Falcon 2000,Embraer Phenom 300,Embraer Legacy 600,Gulfstream IV,Gulfstream G550,Gulfstream G650"></prefereds>
+       <focusairports>
+ 		 <focusairport airport="DTW"></focusairport> 
+		 <focusairport airport="ATL"></focusairport> 
+		 <focusairport airport="JFK"></focusairport> 
+		 <focusairport airport="LGA"></focusairport> 
+		 <focusairport airport="BOS"></focusairport> 
+		 <focusairport airport="LAX"></focusairport> 
+		 <focusairport airport="MSP"></focusairport> 
+		 <focusairport airport="SLC"></focusairport> 
+		 <focusairport airport="SEA"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation Bravo" early="0" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation Ultra" early="1" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2014-->
+	     	         <airliners>
+	    <airliner type="Challenger 600" early="0" late="3"></airliner>
+	     </airliners>
+	     	     	          <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Challenger 300" early="0" late="2"></airliner>
+	     </airliners>
+	 	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Learjet 60" early="0" late="2"></airliner>
+	     </airliners>
+	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1998) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Learjet 45" early="0" late="2"></airliner>
+	     </airliners>
+	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna Citation X" early="0" late="3"></airliner>
+	     </airliners>
+	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna 560XL" early="1" late="9"></airliner>
+	     </airliners>
+	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2000) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ2" early="1" late="6"></airliner>
+	     </airliners>
+	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ3" early="1" late="3"></airliner>
+	     </airliners>
+	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2004) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Cessna 680" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Dassault Falcon 7X" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Dassault Falcon 2000" early="0" late="1"></airliner>
+	     </airliners>
+	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Embraer Phenom 300" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2002) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Embraer Legacy 600" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1987) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream IV" early="0" late="3"></airliner>
+	     </airliners>
+	     	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream G650" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Gulfstream G550" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Hawker 400" early="2" late="5"></airliner>
+	     </airliners>
+	          	     	     	     	     	      	     	          <!--the airliners the airline would start with which isn't on a route earyl (1983) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Hawker 800" early="1" late="3"></airliner>
+	     </airliners>
+</airline>

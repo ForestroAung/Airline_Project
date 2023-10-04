@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Urumqi Air" iata="UQ" color="Magenta" area="209" CEO="Chen Feng" mentality="Moderate" market="Domestic" preferedairport="URC">
+  <narrative narrative="Urumqi Air is a subsidiary of Hainan Airlines that is based at its namesake of Urumqi,China. That is in the northwestern most part of China in the
+  Xinjiang province. Urumqi Air was started in 2014 and started with three 737-800's. From URC it was flying to Chengdu,Hotan,Kashgar,Xian,Yining and Zhengzhou as of about May 2015." />
+ </profile>
+    <info real="True" from="2014" to="2199" />
+       <prefereds aircrafts="Boeing 737-800,Boeing 737 MAX 8"></prefereds>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-800" early="3" late="3"></airliner>
+	     </airliners>
+<routes>      
+	    <route destination1="URC" destination2="CTU" />	
+	    <route destination1="URC" destination2="KHG" />	
+	    <route destination1="URC" destination2="XIY" />	
+	    <route destination1="URC" destination2="CGO" />	
+	    <route destination1="URC" destination2="YIN" />	
+	    <route destination1="URC" destination2="HTN" />	
+                   </routes>
+</airline>

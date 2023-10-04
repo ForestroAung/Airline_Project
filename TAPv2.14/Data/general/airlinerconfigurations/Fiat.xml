@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Fiat G12-->
+<configuration type="Fiat G12" economy="-1" premium="0" first="0" business="0" exitrows="465" emergencyrows="-1" toiletrows="465" kitchenrows="465">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.5" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Fiat G212" economy="-1" premium="0" first="0" business="0" exitrows="695" emergencyrows="-1" toiletrows="695" kitchenrows="695">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77.2" width="51"></seat>
+</seats>
+</configuration>
+
+<!--Fiat G18-->
+<configuration type="Fiat G18" economy="-1" premium="0" first="0" business="0" exitrows="385" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="77" width="51"></seat>
+</seats>
+</configuration>
+</configurations>

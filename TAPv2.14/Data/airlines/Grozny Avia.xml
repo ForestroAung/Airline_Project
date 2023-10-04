@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Grozny Avia" iata="ZG" color="MediumBlue" area="177" CEO="Akhmat Kadyrov" mentality="Safe" market="Regional" preferedairport="GRV"  schedule="Business">
+  <narrative narrative="Grozny Avia is based at Grozny,Russia of the Chechen Republic in the southern Russian region of North Caucasus. It flies to Moscow Vnukovo and Simferopol,Ukraine on the Crimean Peninsula from Grozny. It had four Yak-42's in November 2012 it owned and was leasing two others. The A319 is being looked at as a possible plane for the airlines future. The airline was founded August 17,2007." />
+</profile>
+   <info real="True" from="2007" to="2199"></info>
+   <prefereds aircrafts="Yak-42D,Airbus A319neo,Airbus A320neo"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2016)-->
+	         <airliners>
+	    <airliner type="Yak-42D" early="4" late="4"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="GRV" destination2="VKO" opened="2007" closed="2199"  />
+                <route destination1="GRV" destination2="SIP" opened="2007" closed="2199"  />
+        </routes>
+  
+
+
+</airline>

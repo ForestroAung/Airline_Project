@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Royal Air Maroc Express" iata="RXP"  logo="AT" color="Tomato" area="317" CEO="Driss Benhima" mentality="Moderate" market="Global" preferedairport="CMN">
+  <narrative narrative="Royal Air Maroc Express is a subsidiary of Royal Air Maroc started in 2009. Its hub is Casablanca and has a focus city at Marrakech. At April 2015 it was serving about 19 or 20 domestic airports
+  including the bases and five in Spain which included the Canary Island airports of Tenerife North and Las Palmas/Gran Canaria and the mainland cities of Madrid,Malaga and Valencia. It also serves Lisbon,Portugal
+  and the British Territory at Gibralter. It serves about 17 routes all year from Casablanca and five seasonally. It has about five other routes between other airports. Its fleet at April 2015 was six ATR 72-600's and it had two
+  ATR 42-600's on order. " />
+   </profile>
+    <info real="True" from="2009" to="2199" />
+       <prefereds aircrafts="ATR 72-600,ATR 42-600,ATR 72-500"></prefereds>
+<focusairports>
+                 <focusairport airport="RAK"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2014)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-600" early="2" late="6"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2017)-->
+	     	         <airliners>
+	    <airliner type="ATR 42-600" early="0" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2012)-->
+	     	         <airliners>
+	    <airliner type="ATR 72-500" early="4" late="0"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="CMN" destination2="RAK" />	
+	    <route destination1="CMN" destination2="FEZ" />
+            <route destination1="CMN" destination2="TNG" />	
+            <route destination1="CMN" destination2="AGA" />	
+            <route destination1="CMN" destination2="MAD" />
+            <route destination1="CMN" destination2="LIS" />	
+            <route destination1="CMN" destination2="TFN" />	
+            <route destination1="CMN" destination2="RBA"  />
+            <route destination1="CMN" destination2="AGP"  />	
+	    <route destination1="CMN" destination2="NDR"  />
+	    <route destination1="CMN" destination2="OUD"  />
+            <route destination1="CMN" destination2="VIL"  />
+            <route destination1="CMN" destination2="AHU"  />
+	    <route destination1="CMN" destination2="EUN"  />
+	    <route destination1="CMN" destination2="VLC"  />
+            <route destination1="CMN" destination2="LPA"  />
+	    <route destination1="CMN" destination2="GIB"  />
+	    <route destination1="TNG" destination2="GIB"  />
+	    <route destination1="AGA" destination2="VIL"  />
+	    <route destination1="RAK" destination2="OZZ" season="Summer"  />
+	    <route destination1="OZZ" destination2="ZAG" />
+	    <route destination1="RAK" destination2="AGA" season="Summer"  />
+	    <route destination1="CMN" destination2="OZZ" season="Summer"  />
+            <route destination1="CMN" destination2="OZG" season="Summer"  />	
+	    <route destination1="CMN" destination2="GLN" season="Summer"  />
+	    <route destination1="CMN" destination2="ERH" season="Summer"  />
+	    <route destination1="CMN" destination2="TTU" season="Summer" type="Charter"  />
+              </routes>
+</airline>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Air BVI" iata="BL"  color="Blue" area="468" CEO="James Masters" mentality="Safe" market="Local" preferedairport="EIS">
+  <narrative narrative="Air BVI was an airline based at Tortola,Beef Island,British Virgin Islands in the Caribbean from 1971 to 1993. Its primary route and pretty much the only one it did was from the base to San Juan,Puerto Rico of the U.S.A. It is known to have had two DC-3's starting in 1975 and also to have used Short 330's in th e 80's and early 90's." />
+   </profile>
+    <info real="True" from="1971" to="1994" />
+       <prefereds aircrafts="Douglas DC-3,Short 330"></prefereds>
+              <focusairports>
+	         <focusairport airport="SJU"></focusairport>
+     </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (1975) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Douglas DC-3" early="2" late="0"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1984) late (1993)-->
+	     	         <airliners>
+	    <airliner type="Short 330" early="2" late="2"></airliner>
+	     </airliners>
+	       <routes>
+       	        <route destination1="EIS" destination2="SJU" opened="1971" closed="2199"/>
+		              </routes>
+</airline>

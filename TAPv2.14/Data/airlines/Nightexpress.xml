@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Nightexpress" iata="EXT"  color="MediumBlue" area="108" CEO="Yvonne Boag" mentality="Safe" market="Regional" preferedairport="FRA" routefocus="Cargo">
+  <narrative narrative="Nightexpress is a cargo airline based at Frankfurt,Germany. It was founded in 1984. It goes to Birmingham,England Dublin,Ireland and Liege,Belgium on a scheduled basis and also does charters. Coventry,England is also a commonly visited airport. At December 2010 its fleet was made of two Short 360's and a Beechcraft 99."/>
+   </profile>
+    <info real="True" from="1984" to="2199" />
+       <prefereds aircrafts="Short 360,Beechcraft 99"></prefereds>
+	     
+    	     	         <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Short 360" early="2" late="2"></airliner>
+	     </airliners>
+	         	     	         <!--the airliners the airline would start with which isn't on a route earyl (1984) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 99" early="1" late="1"></airliner>
+	     </airliners>
+
+	       <routes>
+	        <route destination1="FRA" destination2="BHX" opened="1984" closed="2199" />
+	       	<route destination1="FRA" destination2="DUB"  opened="1984" closed="2199"  />
+		<route destination1="FRA" destination2="LGG"  opened="1984" closed="2199"  />
+	
+              </routes>
+</airline>

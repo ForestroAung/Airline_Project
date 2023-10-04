@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Nationale Regionale Transport" iata="NRT" color="Magenta" area="346" CEO="Unknown" mentality="Moderate" market="Domestic"  preferedairport="LBV">
+  <narrative narrative="Nationale Regionale Transport is a domestic carrier for Gabon based at the largest city of Libreville. At July 2016 its routes from Libreville were to Franceville, Koulamoutou,Makokou, Mouila,Oyem, Port-Gentil,Tchibanga as well as between Port-Gentil and Oyem. It started in 2002.
+  At February 2014 it was using two Embraer 120's and had another in storage. It also has two 737-200's in storage,a Saab 340 in storage,and a BAe 146-200 in storage." />
+</profile>
+   <info real="True" from="2002" to="2199"></info>
+  <prefereds aircrafts="EMB 120 Brasilia,Boeing 737-200 Adv.,BAe 146-200,Saab 340B"></prefereds>
+	 <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2014)-->
+	     	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="1" late="3"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2006) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-200 Adv." early="1" late="2"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2014)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="1" late="1"></airliner>
+	     </airliners>
+	     	 <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2014)-->
+	     	         <airliners>
+	    <airliner type="Saab 340B" early="1" late="1"></airliner>
+	     </airliners>
+	         	      <routes>  
+      <route destination1="LBV" destination2="POG"/>
+      <route destination1="LBV" destination2="OYE"/>
+	    <route destination1="LBV" destination2="MVB"/>
+	    <route destination1="LBV" destination2="MKU"/>
+	    <route destination1="LBV" destination2="KOU"/>
+      <route destination1="LBV" destination2="TCH"/>
+      <route destination1="LBV" destination2="MJL"/>
+      <route destination1="POG" destination2="OYE"/>
+                   </routes>
+
+</airline>

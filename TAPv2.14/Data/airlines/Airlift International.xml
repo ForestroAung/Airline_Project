@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Airlift International" iata="AIR" color="Red" area="402" CEO="John Paul Riddle" mentality="Safe" market="Global" preferedairport="MIA" routefocus="Cargo">
+  <narrative narrative="Airlift International was a cargo airline based at Miami,FL,USA. It began in 1945 as Riddle Airlines, named after the founder John Paul Riddle. It did charters as well. In 1965 it was renamed to
+  Airlift International. To start in 1945 it flew Curtiss C-46 Commandos and DC-4's and had a main route to San Juan,Puerto Rico. In 1951 it expanded service to New York and soon after to Chicago and Detroit.
+  In 1960 it got two DC-7's which did charters to Europe and for the military. It then got Armstrong Whitworth Argosy 660's but those were replaced by DC-8 jets in 1963. It also used L-1049 Super Constellations,Canadair
+  CL-44's,Lockheed Hercules,707-320's,and 727-100C's. In 1966 it bought much of Slick Airways, a California based cargo airline that had just ceased. It also did charters to South America. In 1981it went into
+Chapter 11 Bankruptcy and came out of it and kept using DC-8's but now used Fairchild F-27's and the stretched version the FH-227, American made versions of the Fokker F27 of the Netherlands. The airline ceased in June 1991. "/>
+      <names>
+<name value="Riddle Airlines" from="1.1.1945 00:00:00"></name>
+<name value="Airlift International" from="1.1.1965 00:00:00"></name>
+</names>
+<logos>
+      <logo from="1945" to="1965" path="AIR1945-1965"></logo>
+    </logos>
+</profile>
+  <info real="True" from="1945" to="1992" />
+  <prefereds aircrafts="L-1049 Super Constellation,CL-44D4,Commando C-46 Cargo,Douglas DC-4-1009,Douglas DC-8-54CF,Douglas DC-8-62F,Boeing 727-100C,Boeing 707-320C,Douglas DC-6,Douglas DC-7,Fairchild F-27,Lockheed L-100-30,Fairchild FH-227"></prefereds> 
+              <routes>
+	          <route destination1="MIA" destination2="SJU"   />
+	          <route destination1="MIA" destination2="JFK" opened="1951" closed="2199"  />
+                  <route destination1="MIA" destination2="ORD"  opened="1952" closed="2199"  />
+		  <route destination1="MIA" destination2="DTW"  opened="1952" closed="2199" />
+		        </routes>
+
+
+
+
+</airline>

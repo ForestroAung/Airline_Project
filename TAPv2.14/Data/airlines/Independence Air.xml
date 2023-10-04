@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+<profile name="Independence Air" iata="DH" logo="DH" color="Blue" area="402" CEO="Kerry Skeer" mentality="Aggressive" market="Regional" preferedairport="IAD" businessmodel="LCC">
+<narrative narrative="Independence Air was a revolutionary US low-cost airline operating out of Washingtin Dulles Airport. Emerging from the near collapse of Atlantic Coast Airlines, Independence Air paved the way for many common aspects of air travel today. These include self check-in, rental inflight entertainment and a unique in-flight service. Repossession and the subsequent PR fallout from the publicity subsequently led to the bankrupcy of the airline in 2006."/>
+</profile>
+<info real="True" from="2004" to="2006"/>
+<startdata>
+<airliners>
+<airliner type="Bombardier CRJ200" early="87" late="87"/>
+<airliner type="Airbus A319-100" early="4" late="12"/>
+</airliners>
+</startdata>
+</airline>

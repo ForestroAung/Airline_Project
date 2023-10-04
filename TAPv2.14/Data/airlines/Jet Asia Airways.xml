@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Jet Asia Airways" iata="JF" color="DodgerBlue" area="234" CEO="Jacob Saba" mentality="Moderate" market="Regional" preferedairport="BKK" schedule="Charter">
+  <narrative narrative="Jet Asia Airways is an airline based at Bangkok,Thailand that does mostly charters but does do scheduled service also. It started in September 2011. From February 2012 to May 2012 it served Tokyo Narita for H.I.S. travel agency of Japan, who have since got an airline started of their own called Asia Atlantic. It began serving Tokyo again in July 2012 and started Osaka a year later in July 2013. It also started going to the Chinese cities of Beijing,Nanjing,Chongqing,Tianjin,Shenyang,and Changsha. As of May 2015 it is also now serving the Chinese cities of Guiyang,Harbin,Hohhot,Lanzhou,Qingdao,Shijiazhuang,and Zhengzhou. Its scheduled service began in late 2014 to Tokyo Narita from BKK and has since also started doing Jakarta,Indonesia schedule while there are plans to do Tianjin,China and Jeddah,Saudi Arabia also. Its fleet at June 2014 was a 767-300ER,two 767-200ER's and two 767-200's. It began with three 767-200's. Phuket,Thailand also offers many of the same charters and is another base." />
+ </profile>
+    <info real="True" from="2011" to="2199" />
+       <prefereds aircrafts="Boeing 767-200ER,Boeing 767-300ER,Boeing 767-200,Boeing 767-300"></prefereds>
+       <focusairports>
+ 		 <focusairport airport="HKT"></focusairport> 
+     </focusairports>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-200ER" early="1" late="2"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (2011) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-200" early="2" late="2"></airliner>
+	     </airliners>
+	      <routes>  
+	    <route destination1="BKK" destination2="NRT" opened="2012" closed="2199" type="Regular"   />	
+	    <route destination1="BKK" destination2="CGK" opened="2015" closed="2199" type="Regular"  />	
+	    <route destination1="BKK" destination2="TSN" opened="2013" closed="2199"  type="Regular"   />	
+	    <route destination1="BKK" destination2="JED" opened="2016" closed="2199"  type="Regular"   />
+            <route destination1="BKK" destination2="KIX" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="PEK" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="CKG" opened="2013" closed="2199"   />
+            <route destination1="BKK" destination2="NKG" opened="2013" closed="2199"   />		
+	    <route destination1="BKK" destination2="CSX" opened="2013" closed="2199"   />	
+	    <route destination1="BKK" destination2="SHE" opened="2013" closed="2199"   />
+	    <route destination1="BKK" destination2="CGO" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="TAO" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="KWE" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="HRB" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="LHW" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="SJW" opened="2014" closed="2199"   />
+	    <route destination1="BKK" destination2="HET" opened="2014" closed="2199"   />
+                   </routes>
+</airline>

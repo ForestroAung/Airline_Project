@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Africa's Connection STP" iata="STP" color="SkyBlue" area="345" CEO="Jannie Fourie" mentality="Safe" market="Local"  preferedairport="TMS" schedule="Business">
+  <narrative narrative="Africa's Connection STP is an airline based at Sao Tome Island in the country of Sao Tome and Principe. Its key route is to the other island of Principe which is the only airline connecting the two as of 2015.
+  They are 162km from each other. It also flies from Sao Tome to Douala,Cameroon Libreville,Gabon Malabo,Equatorial Guinea and Port Harcourt,Nigeria. At May 2014 its fleet had three Dornier 228-212's. It began sometime around 2010 and also does charters. " />
+</profile>
+   <info real="True" from="2010" to="2199"></info>
+  <prefereds aircrafts="Dornier 228-212"></prefereds>
+
+
+ <!--the airliners the airline would start with which isn't on a route earyl (2010) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Dornier 228-212" early="3" late="3"></airliner>
+	     </airliners>
+
+<routes>
+	        <route destination1="TMS" destination2="PCP" opened="2010" closed="2199" />
+	        <route destination1="TMS" destination2="DLA"  opened="2010" closed="2199"  />
+	        <route destination1="TMS" destination2="LBV" opened="2010" closed="2199" />
+	        <route destination1="TMS" destination2="SSG"  opened="2013" closed="2199"  />
+		 <route destination1="TMS" destination2="PHC"  opened="2014" closed="2199"  />
+              </routes>
+  
+
+
+</airline>

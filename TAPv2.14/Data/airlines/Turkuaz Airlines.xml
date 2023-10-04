@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Turkuaz Airlines" iata="TRK" color="Cyan" area="143" CEO="Hidayet Aydogan" mentality="Safe" market="Global" preferedairport="ESB" schedule="Charter">
+  <narrative narrative="Turkuaz Airlines was a charter airline based at Ankara,Turkey. It got its first Airbus A320 in 2008 and ceased on December 17th,2010. At the end it had three A320-200's and three A321-200's.
+  From Ankara it provided charters to many European cities on behalf of many tour operators. This included the countries of Belgium,Denmark,the UK,Israel,Germany and the Netherlands. Domestic destinastions
+  were Istanbul,Izmir and Kayseri. It had been founded in 2006."/>
+</profile>
+  <info real="True" from="2008" to="2011" />
+  <prefereds aircrafts="Airbus A320-200,Airbus A321-200"></prefereds> 
+       	      <!--the airliners the airline would start with which isn't on a route earyl (2008) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A320-200" early="1" late="3"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2010)-->
+	     	         <airliners>
+	    <airliner type="Airbus A321-200" early="3" late="3"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="ESB" destination2="FRA"  />
+		  <route destination1="ESB" destination2="BRU"  />
+		  <route destination1="ESB" destination2="MUC"  />
+		  <route destination1="ESB" destination2="CPH"  />
+		  <route destination1="ESB" destination2="AMS"  />
+		  <route destination1="ESB" destination2="DUS"  />
+		  <route destination1="ESB" destination2="CGN"  />
+		  <route destination1="ESB" destination2="STR"  />
+		  <route destination1="ESB" destination2="TXL"  />
+		  <route destination1="ESB" destination2="HAM"  />
+		  <route destination1="ESB" destination2="TLV"  />
+	          <route destination1="ESB" destination2="IST"   />
+	          <route destination1="ESB" destination2="ADB"  />
+		  <route destination1="ESB" destination2="ASR"  />
+		 		        </routes>
+
+
+
+
+</airline>

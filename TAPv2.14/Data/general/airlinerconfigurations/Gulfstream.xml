@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Gulfstream-->
+<configuration type="Gulfstream III" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="740" kitchenrows="740">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="123.3" width="58"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream IV" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="750" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="125" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream V" economy="0" premium="0" first="1" business="-1" exitrows="0" emergencyrows="-1" toiletrows="800" kitchenrows="800">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="55"></seat>
+<seat class="First_Class" type="Closed Suites" pitch="200" width="120"></seat>
+</seats>
+</configuration>
+
+<!--Gulfstream G200-->
+<configuration type="Gulfstream G150" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="380" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="125" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G200" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="370" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="92.5" width="55"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G280" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="650" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="108" width="51"></seat>
+</seats>
+</configuration>
+
+<!--Gulfstream G350-->
+<configuration type="Gulfstream G350" economy="0" premium="0" first="1" business="-1" exitrows="0" emergencyrows="-1" toiletrows="750" kitchenrows="750">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="91.6" width="54"></seat>
+<seat class="First_Class" type="Open Suites" pitch="200" width="80"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G450" economy="0" premium="0" first="1" business="-1" exitrows="0" emergencyrows="-1" toiletrows="750" kitchenrows="750">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="91.6" width="54"></seat>
+<seat class="First_Class" type="Open Suites" pitch="200" width="80"></seat>
+</seats>
+</configuration>
+
+<!--Gulfstream G500-->
+<configuration type="Gulfstream G500" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="800" kitchenrows="800">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="133.3" width="55"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G550" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="800" kitchenrows="800">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="133.3" width="55"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G650" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="760" kitchenrows="760">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="95" width="56"></seat>
+</seats>
+</configuration>
+<configuration type="Gulfstream G650ER" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="760" kitchenrows="760">
+<seats>
+<seat class="Business_Class" type="Flat Bed" pitch="190" width="56"></seat>
+</seats>
+</configuration>
+</configurations>

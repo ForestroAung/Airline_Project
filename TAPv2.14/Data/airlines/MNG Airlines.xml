@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="MNG Airlines" iata="MNB" color="Blue" area="143" CEO="Sedat Ozkazanc" mentality="Safe" market="Global" preferedairport="IST" routefocus="Cargo">
+  <narrative narrative="MNG Airlines is a cargo airline based at Istanbul Ataturk,Turkey. It began in November 1997. At July 2015 it was going from IST to Frankfurt Hahn,Cologne,and Munich in Germany, Paris CDG,France
+  London Luton,UK Tripoli,Libya and Almaty,Kazakhstan. A year earlier it had also been serving Shanghai,China Leipzig,Germany Abu Dhabi,UAE and the Pakistan cities of Karachi and Lahore. Its fleet at April 2015
+  was seven A300-600F's,two A300B4's,and an A330-200F. It did passenger service using MD-82's between 2002 and February 2006. It won an award in 2005 from Airbus for 100% reliability on the 30 year old A300's.
+  In 2008 it acquired Slovenian cargo company Solinair which it still has as a subsidiary. It has also used 737-400F's before."/>
+</profile>
+  <info real="True" from="1997" to="2199" />
+  <prefereds aircrafts="Airbus A300-600F,Airbus A330-200F"></prefereds>
+	               <!--the airliners the airline would start with which isn't on a route earyl (1997) late (2013)-->
+	     	         <airliners>
+	    <airliner type="Airbus A300-600F" early="1" late="9"></airliner>
+	     </airliners>
+	     	               <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Airbus A330-200F" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="IST" destination2="HHN" />
+		  <route destination1="IST" destination2="CDG" />
+		  <route destination1="IST" destination2="CGN" />
+	          <route destination1="IST" destination2="LTN" />
+		  <route destination1="IST" destination2="MUC" />
+		  <route destination1="IST" destination2="ALA" />
+		  <route destination1="IST" destination2="AMS" />
+		  <route destination1="IST" destination2="LEJ" />
+		  <route destination1="IST" destination2="AUH" />
+		  <route destination1="IST" destination2="PVG" />
+		  <route destination1="IST" destination2="KHI" />
+		  <route destination1="IST" destination2="LHE" />
+        </routes>
+</airline>

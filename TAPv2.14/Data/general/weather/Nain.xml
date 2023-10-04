@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<weather type="town" value="Nain, NL">
+  <months>
+    <month month="1" precipitation="79">
+      <temp min="-23" max="-14" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="2" precipitation="56">
+      <temp min="-23" max="-13" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="3" precipitation="87">
+      <temp min="-18" max="-7" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="4" precipitation="72">
+      <temp min="-10" max="0" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="5" precipitation="57">
+      <temp min="-3" max="5" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="6" precipitation="80">
+      <temp min="1" max="11" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="7" precipitation="87">
+      <temp min="5" max="16" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="8" precipitation="69">
+      <temp min="5" max="16" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="9" precipitation="77">
+      <temp min="3" max="11" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="10" precipitation="65">
+      <temp min="-2" max="4" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="11" precipitation="79">
+      <temp min="-9" max="-1" />
+      <wind min="Calm" max="Near_Gale" />
+    </month>
+    <month month="12" precipitation="86">
+      <temp min="-17" max="-8" />
+      <wind min="Calm" max="Near_Gale" />
+      </month>
+  </months>
+</weather>

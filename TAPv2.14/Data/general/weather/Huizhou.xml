@@ -1,0 +1,54 @@
+﻿
+
+<weather type="town" value="Huizhou">
+  <months>
+    <month month="1" precipitation="28">
+      <temp min="12" max="20" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="2" precipitation="45">
+      <temp min="13" max="20" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="3" precipitation="60">
+      <temp min="16" max="23" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="4" precipitation="161">
+      <temp min="20" max="27" />
+      <wind min="Calm" max="Storm" />
+    </month>
+    <month month="5" precipitation="230">
+      <temp min="24" max="30" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="6" precipitation="423">
+      <temp min="26" max="31" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="7" precipitation="326">
+      <temp min="26" max="32" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="8" precipitation="385">
+      <temp min="26" max="32" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="9" precipitation="260">
+      <temp min="25" max="32" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="10" precipitation="73">
+      <temp min="22" max="30" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="11" precipitation="30">
+      <temp min="18" max="26" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+    <month month="12" precipitation="35">
+      <temp min="14" max="22" />
+      <wind min="Calm" max="Hurricane" />
+    </month>
+  </months>
+</weather>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Hermes Airlines" iata="HRM" color="SkyBlue" area="139" CEO="Spyro Michelakakis" mentality="Safe" market="Global" preferedairport="ATH" schedule="Charter">
+  <narrative narrative="Hermes Airlines is a charter airline thats based in Greece. It is a subsidiary of French charter airline Air Mediterranee. Hermes does charters within Europe and around the Mediterranean using its own name and on behalf of other airlines. It was founded in 2011. It started with an A321-200 and got another in 2013. It also got two A320's in 2015 and a 737-500 in 2014."/>
+</profile>
+  <info real="True" from="2011" to="2199" />
+  <prefereds aircrafts="Airbus A321-200,Airbus A320-200,Airbus A321neo,Airbus A320neo"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2013)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="1" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2016)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 737-500" early="1" late="1"></airliner>
+	     </airliners>
+
+
+
+</airline>

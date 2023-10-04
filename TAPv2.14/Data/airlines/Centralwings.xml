@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="Centralwings" iata="C0" color="Red" area="157" CEO="Jacek Bartminski" mentality="Moderate" market="Regional" preferedairport="WAW">
+  <narrative narrative="Centralwings was a low cost subsidiary of LOT Polish Airlines that operated from February 2005 to 2009. It was a scheduled airline except in its last year starting in October 2008 when it switched to charter. Its main base was Warsaw Chopin with hubs at Krakow and Gdansk. In total 8 domestic airports were served. It served seven in Greece,five in Spain,five in Germany,six in the UK,seven in Italy,three in France,three in Ireland,two in Portugal,two in Norway,two in Bulgaria,and one each in Czech Republic,Croatia,Malta,Netherlands,Israel and Egypt. Its fleet at September 2008 was eight 737-400's,three 737-300's and a leased MD-80. The 737's all belonged to LOT." />
+   </profile>
+    <info real="True" from="2005" to="2009" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 737-300"></prefereds>
+	           <focusairports>
+		 <focusairport airport="KRK"></focusairport>
+		 <focusairport airport="GDN"></focusairport>
+		      </focusairports>
+     <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2008)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="3" late="8"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-300" early="2" late="3"></airliner>
+	     </airliners>
+	       <routes>
+       	 <route destination1="WAW" destination2="LGW"  />
+	     <route destination1="WAW" destination2="EDI"  />
+	     <route destination1="WAW" destination2="DUB"  />
+		 <route destination1="WAW" destination2="STN"  />
+		 <route destination1="WAW" destination2="SNN"  />
+		 <route destination1="WAW" destination2="ORK"  />
+		 <route destination1="WAW" destination2="MAN"  />
+		 <route destination1="WAW" destination2="FCO"  />
+		 <route destination1="WAW" destination2="AMS"  />
+		 <route destination1="WAW" destination2="HER"  />
+	     <route destination1="WAW" destination2="BVS"  />
+		 <route destination1="WAW" destination2="MXP"  />
+		 <route destination1="WAW" destination2="BCN"  />
+		 <route destination1="WAW" destination2="PMI"  />
+		 <route destination1="WAW" destination2="AGP"  />
+		 <route destination1="WAW" destination2="GRO"  />
+	     <route destination1="WAW" destination2="LIS"  />
+		 <route destination1="WAW" destination2="FAO"  />
+		 <route destination1="WAW" destination2="MLA"  />
+		 <route destination1="WAW" destination2="CTA"  />
+		 <route destination1="WAW" destination2="BLQ"  />
+		 <route destination1="WAW" destination2="PMO"  />
+		 <route destination1="WAW" destination2="SUF"  />
+		 <route destination1="WAW" destination2="CFU"  />
+		 <route destination1="WAW" destination2="RHO"  />
+		 <route destination1="WAW" destination2="sKG"  />
+		 <route destination1="WAW" destination2="CHQ"  />
+		 <route destination1="WAW" destination2="KVA"  />
+		 <route destination1="WAW" destination2="ATH"  />
+		 <route destination1="WAW" destination2="HAM"  />
+		 <route destination1="WAW" destination2="CGN"  />
+		 <route destination1="WAW" destination2="HAJ"  />
+		 <route destination1="WAW" destination2="DTM"  />
+		 <route destination1="WAW" destination2="NUE"  />
+		 <route destination1="WAW" destination2="LIL"  />
+		 <route destination1="WAW" destination2="GNB"  />
+		 <route destination1="WAW" destination2="PRG"  />
+		 <route destination1="WAW" destination2="DBV"  />
+		 <route destination1="WAW" destination2="BOJ"  />
+		 <route destination1="WAW" destination2="VAR"  />
+		 <route destination1="WAW" destination2="TFS"  />
+		 <route destination1="WAW" destination2="HAU"  />
+		 <route destination1="WAW" destination2="MOL"  />
+		 <route destination1="WAW" destination2="LBA"  />
+		 <route destination1="WAW" destination2="BHX"  />
+		 <route destination1="WAW" destination2="TLV"  />
+	     <route destination1="WAW" destination2="CIA"  />
+              </routes>
+</airline>

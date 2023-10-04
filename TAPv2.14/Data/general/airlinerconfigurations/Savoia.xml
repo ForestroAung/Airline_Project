@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Savoia-->
+<!--Savoia-Marchetti S.55-->
+<configuration type="Savoia-Marchetti S.55" economy="0" premium="0" first="-1" business="0" exitrows="-1,0" emergencyrows="-1" toiletrows="-400,400" kitchenrows="-400,400">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="47.5"></seat>
+</seats>
+</configuration>
+<configuration type="Savoia-Marchetti S.66" economy="0" premium="0" first="-1" business="0" exitrows="-1,0" emergencyrows="-1" toiletrows="-450,450" kitchenrows="-450,450">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Savoia-Marchetti S.70-->
+<configuration type="Savoia-Marchetti S.71" economy="0" premium="0" first="-1" business="0" exitrows="300" emergencyrows="-1" toiletrows="300" kitchenrows="300">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Savoia-Marchetti S.73" economy="0" premium="0" first="-1" business="0" exitrows="670" emergencyrows="-1" toiletrows="670" kitchenrows="670">
+<seats>
+<seat class="First_Class" type="Standard" pitch="74.4" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Savoia-Marchetti S.74" economy="0" premium="0" first="-1" business="0" exitrows="670" emergencyrows="-1" toiletrows="670" kitchenrows="670">
+<seats>
+<seat class="First_Class" type="Standard" pitch="80" width="48"></seat>
+</seats>
+</configuration>
+</configurations>

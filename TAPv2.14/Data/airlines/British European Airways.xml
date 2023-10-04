@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="British European Airways" iata="BE" logo="BEA" color="Tomato" area="102" CEO="Gerard d'Erlanger" mentality="Moderate" market="Global" preferedairport="LHR">
+    <narrative narrative="British European Airways (BEA), formally British European Airways Corporation, was a British airline which existed from 1946 until 1974.
+
+BEA operated to Europe, North Africa and the Middle East from airports around the United Kingdom. The airline was also the largest UK domestic operator, serving major British cities, including London, Manchester, Glasgow, Edinburgh and Belfast, as well as remote areas of the British Isles such as the Highlands and Islands of Scotland, the Channel Islands and the Isle of Man." />
+  </profile>
+  <info real="True" from="1946" to="1974" />
+  <prefereds aircrafts="Boeing 707-320,DH 106 Comet 1A,Vickers Vanguard,Vickers VC1 Viking"></prefereds>
+  <focusairports>
+        <focusairport airport="NHT"></focusairport>
+        <focusairport airport="LPL"></focusairport>
+        <focusairport airport="MAN"></focusairport>
+        <focusairport airport="GLA"></focusairport>
+        <focusairport airport="GCI"></focusairport>     
+  </focusairports>
+</airline>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline>
+  <profile name="LOT Charters" iata="CLW" color="Salmon" area="157" CEO="Sebastian Mikosz" mentality="Moderate" market="Global" preferedairport="WAW" schedule="Charter">
+  <narrative narrative="LOT Charters is a charter subsidiary of LOT Polish Airlines based at Warsaw Chopin. It started in June 2009 with five LOT 737-400's. At 2015 it still has one assigned to it but for the most part it just uses whatever LOT planes are free to use or are borrowed as needed. So all the LOT fleet can be used by LOT Charters,including the 787-8. It has also used the 767-300ER and uses Embraer ERJ 170,175 and 195 types also. The destinations it was offering at April 2015 were to several in the Caribbean at Cancun,Mexico La Romana,Dominican Republic Varadero,Cuba Santa Clara,Cuba and in Asia it goes to Krabi,Thailand Ho Chi Minh,Vietnam Colombo,Sri Lanka and in Africa it goes to Durban,South Africa and the island of Zanzibar in Tanzania." />
+   </profile>
+    <info real="True" from="2009" to="2199" />
+       <prefereds aircrafts="Boeing 737-400,Boeing 787-8,Boeing 767-300ER,Boeing 737 MAX 8,Boeing 737 MAX 9,Embraer E-170,Embraer E-175,Embraer E-175E2,Embraer E-195,Embraer E-195E2"></prefereds>
+
+     <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Boeing 737-400" early="5" late="1"></airliner>
+	     </airliners>
+	     <routes>
+         	 <route destination1="WAW" destination2="BKK"  />
+	         <route destination1="WAW" destination2="CUN"  />
+	         <route destination1="WAW" destination2="LRM"  />
+		 <route destination1="WAW" destination2="KBV"  />
+		 <route destination1="WAW" destination2="VRA"  />
+		 <route destination1="WAW" destination2="CMB"  />
+		 <route destination1="WAW" destination2="SNU"  />
+	         <route destination1="WAW" destination2="SGN"  />
+		 <route destination1="WAW" destination2="DUR"  />
+		 <route destination1="WAW" destination2="ZNZ"  />
+              </routes>
+</airline>

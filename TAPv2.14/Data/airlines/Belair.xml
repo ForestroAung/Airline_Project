@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+ <profile name="Belair" iata="4T" logo="4T" color="Red" area="119" CEO="Bernard Herscovich" mentality="Aggressive" market="Global" preferedairport="BSL">
+  <narrative narrative="Belair, legally Belair Airlines AG, was a Swiss airline headquartered in Glattbrugg operating out of Zürich Airport and EuroAirport Basel–Mulhouse–Freiburg. Belair was a subsidiary of Air Berlin and operated under the Air Berlin brand name until the 31 March 2017. During the 2017 summer season, it flew on behalf of its sister company Niki and was shuttered by then-bankrupt Air Berlin on 28 October 2017."/>
+ </profile>
+  <prefereds aircrafts="Fokker F.VII, Douglas DC-4-1009, Douglas DC-6, Douglas DC-8-40, MD DC-9-20, MD DC-10-15, Boeing 757-200, Boeing 767-300, Airbus A320-200, Airbus A321-200"></prefereds>
+   <info real="true" from="1925" to="2017">
+   </info>
+   <focusairports>
+	<focusairport airport="ZRH"></focusairport>
+   </focusairports>
+    <startdata>
+     <airliners>
+     <airliner type="Fokker F.VII" early="1" late="7"></airliner>
+	 <airliner type="Douglas DC-4-1009" early="1" late="13"></airliner>
+	 <airliner type="Douglas DC-6" early="0" late="6"></airliner>
+	 <airliner type="Douglas DC-8-40" early="0" late="11"></airliner>
+	 <airliner type="MD DC-9-20" early="0" late="6"></airliner>
+	 <airliner type="MD DC-10-15" early="0" late="2"></airliner>
+	 <airliner type="Boeing 757-200" early="0" late="4"></airliner>
+	 <airliner type="Boeing 767-300" early="0" late="3"></airliner>
+	 <airliner type="Airbus A320-200" early="0" late="1"></airliner>
+	 <airliner type="Airbus A321-200" early="0" late="4"></airliner>
+    </airliners>
+       <routes>
+        <route destination1="BSL" destination2="QFB"/>
+		<route destination1="BSL" destination2="MHG"/>
+		<route destination1="BSL" destination2="ZRH"/>
+		<route destination1="BSL" destination2="GVA"/>
+		<route destination1="BSL" destination2="LYS"/>
+		<route destination1="BSL" destination2="FKB"/>
+		<route destination1="BSL" destination2="FRA"/>
+		<route destination1="BSL" destination2="ALC"/>
+		<route destination1="BSL" destination2="BDS"/>
+		<route destination1="BSL" destination2="CTA"/>
+		<route destination1="BSL" destination2="FAO"/>
+		<route destination1="BSL" destination2="FUE"/>
+		<route destination1="BSL" destination2="FNC"/>
+		<route destination1="BSL" destination2="LPA"/>
+		<route destination1="BSL" destination2="ACE"/>
+		<route destination1="BSL" destination2="PMI"/>
+		<route destination1="BSL" destination2="PRN"/>
+		<route destination1="BSL" destination2="SKP"/>
+		<route destination1="BSL" destination2="TFS"/>
+		<route destination1="ZRH" destination2="ALC"/>
+		<route destination1="ZRH" destination2="BDS"/>
+		<route destination1="ZRH" destination2="CTA"/>
+		<route destination1="ZRH" destination2="FAO"/>
+		<route destination1="ZRH" destination2="FUE"/>
+		<route destination1="ZRH" destination2="FNC"/>
+		<route destination1="ZRH" destination2="LPA"/>
+		<route destination1="ZRH" destination2="ACE"/>
+		<route destination1="ZRH" destination2="PMI"/>
+		<route destination1="ZRH" destination2="PRN"/>
+		<route destination1="ZRH" destination2="SKP"/>
+		<route destination1="ZRH" destination2="TFS"/>
+       </routes>
+    </startdata>
+</airline>

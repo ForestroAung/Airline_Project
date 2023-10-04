@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Cathay Pacific" iata="CX" color="MediumSeaGreen" area="215" CEO="Lance Gokongwei" mentality="Aggressive" market="Global" preferedairport="HKG">
+    <narrative narrative="s the largest airline of Hong Kong, with its head office and main hub located at Hong Kong International Airport. The airline's operations include scheduled passenger and cargo services to 200 destinations in 52 countries worldwide, codeshares, and joint ventures, with a fleet of wide-body aircraft, consisting of Airbus A330, Airbus A340, Boeing 747 and Boeing 777 equipment. Its wholly owned subsidiary, Dragonair, operates to 44 destinations in the Asia-Pacific region from its Hong Kong base"/>
+    <logos>
+      <logo from="1995" to="2014" path="CX2014"/>
+    </logos>
+  </profile>
+  <info real="True" from="1946" to="2199"/>
+  <prefereds aircrafts="Airbus A330-300,Airbus A340-300,Airbus A350-900,Boeing 747-400,Boeing 777-200,Boeing 777-300,Boeing 777-300ER,Airbus A340-600,Lockheed L-1011-1">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="TPE"/>
+    <focusairport airport="BKK"/>
+  </focusairports>
+  
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A330-300" early="10" late="33"/>
+      <airliner type="Airbus A340-300" early="3" late="4"/>
+      <airliner type="Airbus A350-900" early="0" late="10"/>
+      <airliner type="Boeing 747-400" early="1" late="3"/>
+      <airliner type="Boeing 777-200" early="2" late="3"/>
+      <airliner type="Boeing 777-300" early="5" late="7"/>
+      <airliner type="Boeing 777-300ER" early="10" late="43"/>
+      <airliner type="Airbus A340-600" early="5" late="0"/>
+      <airliner type="Lockheed L-1011-1" early="15" late="0"/>    
+    </airliners>
+  
+    <routes>
+      <route destination1="HKG" destination2="ADL"/>
+      <route destination1="HKG" destination2="BNE"/>
+      <route destination1="HKG" destination2="CNS"/>
+      <route destination1="HKG" destination2="MEL"/>
+      <route destination1="HKG" destination2="PER"/>
+      <route destination1="HKG" destination2="SYD"/>
+      <route destination1="HKG" destination2="BAH"/>
+      <route destination1="HKG" destination2="DAC"/>
+      <route destination1="HKG" destination2="YYZ"/>
+      <route destination1="HKG" destination2="YVR"/>
+      <route destination1="HKG" destination2="CDG"/>
+      <route destination1="HKG" destination2="DUS" opened="2015" closed="2199"/>
+      <route destination1="HKG" destination2="FRA"/>
+      <route destination1="HKG" destination2="BLR"/>
+      <route destination1="HKG" destination2="MAA"/>
+      <route destination1="HKG" destination2="DEL"/>
+      <route destination1="HKG" destination2="HYD"/>
+      <route destination1="HKG" destination2="BOM"/>
+      <route destination1="HKG" destination2="DPS"/>
+      <route destination1="HKG" destination2="CGK"/>
+      <route destination1="HKG" destination2="SUB"/>
+      <route destination1="HKG" destination2="MXP"/>
+      <route destination1="HKG" destination2="FCO"/>
+      <route destination1="HKG" destination2="FUK"/>
+      <route destination1="HKG" destination2="NGO"/>
+      <route destination1="HKG" destination2="KIX"/>
+      <route destination1="HKG" destination2="CTS"/>
+      <route destination1="HKG" destination2="HND"/>
+      <route destination1="HKG" destination2="NRT"/>
+      <route destination1="HKG" destination2="KUL"/>
+      <route destination1="HKG" destination2="PEN"/>
+      <route destination1="HKG" destination2="MLE" opened="2013" closed="2199"/>
+      <route destination1="HKG" destination2="AMS"/>
+      <route destination1="HKG" destination2="AKL"/>
+      <route destination1="HKG" destination2="PEK"/>
+      <route destination1="HKG" destination2="CEB"/>
+      <route destination1="HKG" destination2="PVG"/>
+      <route destination1="HKG" destination2="MNL"/>
+      <route destination1="HKG" destination2="DOH" opened="2014" closed="2199"/>
+      <route destination1="HKG" destination2="DME" opened="2015" closes="2199"/>
+      <route destination1="HKG" destination2="JED" opened="2014" closed="2199"/>
+      <route destination1="HKG" destination2="SIN"/>
+      <route destination1="HKG" destination2="RUH"/>
+      <route destination1="HKG" destination2="JNB"/>
+      <route destination1="HKG" destination2="ICN"/>
+      <route destination1="HKG" destination2="MAD" opened="2016" closed="2199"/>
+      <route destination1="HKG" destination2="CMB"/>
+      <route destination1="HKG" destination2="ARN" opened="1995" closed="1997"/>
+      <route destination1="HKG" destination2="ZRH" opened="2015" closed="2199"/>
+      <route destination1="HKG" destination2="TPE"/>
+      <route destination1="HKG" destination2="BKK"/>
+      <route destination1="HKG" destination2="AUH" opened="1985" closed="2014"/>
+      <route destination1="HKG" destination2="DXB"/>
+      <route destination1="HKG" destination2="LHR"/>
+      <route destination1="HKG" destination2="MAN"/>
+      <route destination1="HKG" destination2="BOS"/>
+      <route destination1="HKG" destination2="ORD"/>
+      <route destination1="HKG" destination2="LAX"/>
+      <route destination1="HKG" destination2="JFK"/>
+      <route destination1="HKG" destination2="EWR"/>
+      <route destination1="HKG" destination2="SFO"/>
+      <route destination1="HKG" destination2="SGN"/>
+    </routes>
+  </startdata>
+</airline>

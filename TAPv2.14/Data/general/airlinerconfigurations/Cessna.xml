@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Cessna 208-->
+<configuration type="Cessna 208B Grand Caravan" economy="-1" premium="0" first="0" business="0" exitrows="0,225" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="45"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 310-->
+<configuration type="Cessna 441 Conquest II" economy="-1" premium="0" first="0" business="0" exitrows="360" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 404 Titan" economy="-1" premium="0" first="0" business="0" exitrows="310" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="46"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 402C" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="46"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 402" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="77.5" width="46"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 401" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Recliner" pitch="90" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 421 Golden Eagle" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.3" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 425 Conquest I" economy="-1" premium="0" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.7" width="52"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 414-->
+<configuration type="Cessna 414" economy="-1" premium="0" first="0" business="0" exitrows="310" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="90" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Citation-->
+<configuration type="Cessna Citation Mustang" economy="0" premium="-1" first="0" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Premium_Economy_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation I" economy="0" premium="0" first="-1" business="0" exitrows="0" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="75" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation II" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="300" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Bravo" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="300" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation VII" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="445" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="111" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation V" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="300" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="53"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Encore" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="300" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="100" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Ultra" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="310" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="103" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Excel" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="370" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="92.5" width="51"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Sovereign" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="500" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="125" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation X" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="520" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="130" width="54"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Citation Latitude" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="370" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="123" width="49"></seat>
+</seats>
+</configuration>
+
+<!--Cessna CitationJet-->
+<configuration type="Cessna CitationJet CJ1" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="350" kitchenrows="-1">
+<seats>
+<seat class="Business_Class" type="Recliner" pitch="116" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna CitationJet CJ2" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="405" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="135" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna CitationJet CJ3" economy="0" premium="0" first="0" business="-1" exitrows="0" emergencyrows="-1" toiletrows="435" kitchenrows="0">
+<seats>
+<seat class="Business_Class" type="Angle Lie-Flat" pitch="145" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 140-->
+<configuration type="Cessna 140" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 150-->
+<configuration type="Cessna 152" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 150" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 162-->
+<configuration type="Cessna 162 Skycatcher" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 170-->
+<configuration type="Cessna 177 Cardinal" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 175 Skylark" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 172 Skyhawk" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 170" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna AT-17-->
+<configuration type="Cessna AT-17 Bobcat" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="96.5" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Cessna 195-->
+<configuration type="Cessna 195" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Centurion-->
+<configuration type="Cessna 206" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="76" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 207" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="46"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 210 Centurion" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna Pressurized 210 Centurion" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Corvalis-->
+<configuration type="Cessna 350" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.5" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 400 Corvalis TT" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72.5" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Crusader-->
+<configuration type="Cessna T303 Crusader" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Skymaster-->
+<configuration type="Cessna 336 Skymaster" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 310" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Skynight-->
+<configuration type="Cessna 320 Skynight" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="73.3" width="48"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 411" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="75" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 340" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="78.3" width="50"></seat>
+</seats>
+</configuration>
+
+<!--Cessna Skywagon-->
+<configuration type="Cessna 185 Skywagon" economy="-1" premium="0" first="0" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="Economy_Class" type="Standard" pitch="71.6" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 182 Skylane" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="50"></seat>
+</seats>
+</configuration>
+<configuration type="Cessna 180 Skywagon" economy="0" premium="0" first="-1" business="0" exitrows="-1" emergencyrows="0" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="49"></seat>
+</seats>
+</configuration>
+</configurations>

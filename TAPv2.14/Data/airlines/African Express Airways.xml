@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="African Express Airways" iata="XU"  color="Green" area="356" CEO="Abdirizak Khalif Isse" mentality="Safe" market="Global" preferedairport="NBO" schedule="Business"> <narrative narrative="African Express Airways is a Kenyan based airline that is owned by Somalians. Its hub is Nairobi with a focus city at Dubai,UAE. It serves about 3 Kenyan airports,5 or so in Somalia,two in the UAE and some in Yemen. It is geared toward business and leisure and does daily service. It was founded in 1986. At December 2014 its fleet was two 727-200 Adv.s,two MD-82's,two DC-9-30's and two Embraer 120 Brasilia's." />
+</profile>
+   <info real="True" from="1986" to="2199"></info>
+   <prefereds aircrafts="Boeing 727-200 Adv.,MD-82 (DC-9-82),Douglas DC-9-30,EMB 120 Brasilia"></prefereds>
+
+  <focusairports>
+                 <focusairport airport="DXB"></focusairport>
+     </focusairports>
+
+
+
+<!--the airliners the airline would start with which isn't on a route earyl (2002) late (2015)-->
+	         <airliners>
+	    <airliner type="Douglas DC-9-30" early="2" late="2"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2009) late (2015)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="2"></airliner>
+	     </airliners>
+	     	     <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2015)-->
+	         <airliners>
+	    <airliner type="Boeing 727-200 Adv." early="2" late="2"></airliner>
+	     </airliners>
+	          	     <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2015)-->
+	         <airliners>
+	    <airliner type="EMB 120 Brasilia" early="0" late="2"></airliner>
+	     </airliners>
+
+<random_routes>
+      <routes origin="NBO" destinations="9" minimumsize="Smallest">
+        <countries>
+          <country value="262"></country>
+          <country value="156"></country>
+          <country value="282"></country>
+          <country value="146"></country>
+        </countries>
+      </routes>
+    </random_routes>
+
+</airline>

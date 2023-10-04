@@ -1,0 +1,31 @@
+﻿<airline>
+  <profile name="Gem Air" iata="GEM" color="Orange" area="402" CEO="Dan Schroeder" mentality="Safe" market="Local" preferedairport="SMN">
+    <narrative narrative="Gem Air is based at Lemhi County Airport in Salmon, Idaho in east central Idaho near the Montana border. It formed in 2014 as a spiritual successor to Salmon Air who had the same owners which had been sold to McCall Aviation in 2009. Gem Air operates at pretty much the same airports. From Salmon it goes to the
+    main city and capitol of the state, Boise. It also offers flights between Boise and the towns of McCall and Stanley. As well it does cargo service for UPS in Salmon and  Logan,Utah. It operates the passenger service on a seasonal basis. Its fleet in 2015 had two BN Islanders,two Piper PA-31 Chieftans,a Cessna 210,
+    a Cessna 206,a Piper PA-34 Seneca and a locally Idaho built Quest Kodiak 9 seater. They offer charters between most airports in the northwest. Gem Air is named for the fact Idaho's official nickname is the Gem state." />
+  </profile>
+  <info real="True" from="2014" to="2199" />
+  
+  
+  <prefereds aircrafts="BBN-2A Islander,PA-31 Navajo,Cessna 206,Cessna 210 Centurion,PA-34 Seneca,Quest Kodiak"></prefereds>
+     	              <focusairports>
+	 <focusairport airport="BOI"></focusairport>
+     </focusairports>
+<!--the airliners the airline would start with which isn't on a route earyl (2014) late (2017)-->
+	     	         <airliners>
+	    <airliner type="BN-2A Islander" early="2" late="2"></airliner>
+	    <airliner type="Cessna 210 Centurion" early="1" late="1"></airliner>
+	    <airliner type="Cessna 206" early="1" late="1"></airliner>
+	    <airliner type="PA-34 Seneca" early="1" late="1"></airliner>
+	    <airliner type="PA-31 Navajo" early="2" late="2"></airliner>
+	      <airliner type="Quest Kodiak" early="1" late="1"></airliner>
+	     </airliners>
+	  <routes>
+	  		<route destination1="SMN" destination2="BOI" opened="2014" closed="2199" season="Summer"/>
+		
+		
+	  </routes>
+	  
+
+ </airline>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<airline>
+  <profile name="Archana Airways" iata="ACY" color="Red" area="224" CEO="Ganesh Jain" mentality="Safe" market="Local" preferedairport="DEL">
+    <narrative narrative="Archana Airways was based at Delhi,India and was around from operations start in 1993 to 2000. It started with three new Let L-410's. Routes included Kullu,Dharamsala,Shimla in the mountainous Himachal Pradesh part of India, and Chandigarh,Raipur,Bhopal,Jabalpur,Ludhiana,Udaipur,Jodhpur and Jaipur. It used two Dash 8-300's from 1995 to early 1997. It got three more Let 410's in 1996-97 to give them four, since two had been lost in accidents in 1996. " />
+  </profile>
+    <info real="True" from="1993" to="2000" />
+           <prefereds aircrafts="Let L-410"></prefereds>
+	   	          <!--the airliners the airline would start with which isn't on a route earyl (1993) late (1997)-->
+	     	         <airliners>
+	    <airliner type="Let L-410" early="3" late="4"></airliner>
+	     </airliners>
+	     	          <!--the airliners the airline would start with which isn't on a route earyl (1995) late (1998)-->
+	     	         <airliners>
+	    <airliner type="Bombardier Dash 8-300" early="2" late="0"></airliner>
+	     </airliners>
+    	      <routes>  
+	    <route destination1="DEL" destination2="KUU"    />	
+	    <route destination1="DEL" destination2="DHM"    />	
+	    <route destination1="DEL" destination2="SLV"    />	
+	    <route destination1="DEL" destination2="IXC"    />
+	    <route destination1="DEL" destination2="RPR"    />	
+	    <route destination1="DEL" destination2="LUH"    />	
+	    <route destination1="DEL" destination2="JLR"   />
+	    <route destination1="DEL" destination2="BHO"    />	
+	    <route destination1="DEL" destination2="UDR"    />
+	    <route destination1="DEL" destination2="JAI"    />
+                   </routes>
+</airline>

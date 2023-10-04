@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FARNAIR Switzerland" iata="FAT" color="LightSkyBlue" area="119" CEO="John Rawl" mentality="Moderate" market="Regional"  preferedairport="BSL" routefocus="Mixed"> 
+  <narrative narrative="ASL Airlines Switzerland, formerly FARNAIR Switzerland, was a subsidiary of ASL Airlines Ireland. It operated Feeder flights to the main hubs of ASL Airlines." />
+
+<names>
+	<name value="Europe Airpost" from="02.01.1984 00:00:00"/>
+	<name value="ASL Airlines Switzerland" from="02.01.2014 00:00:00"/>
+</names>
+  </profile>
+  
+   <info real="True" from="1984" to="2018"></info>
+   
+   <focusairports>
+	<focusairport airport="BSL"></focusairport>
+	<focusairport airport="CGN"></focusairport>
+</focusairports>
+</airline>

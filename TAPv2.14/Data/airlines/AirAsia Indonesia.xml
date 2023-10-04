@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Indonesia AirAsia" iata="QZ" color="Red" area="246" region="109" CEO="Pin Harris" mentality="Safe"
+           market="Global" preferedairport="CGK" businessmodel="LCC">
+            <narrative
+      narrative="Indonesia AirAsia  is a low-cost airline based in Jakarta, Indonesia. It operates scheduled domestic, international services and is an Indonesian associate carrier of Malaysian low-fare airline AirAsia. Its main base is Soekarno-Hatta International Airport, Jakarta." />
+  </profile>
+  <info real="True" from="2004" to="2199" />
+  <prefereds aircrafts="Airbus A320-200"></prefereds>
+  
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="10" late="19"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="CGK" destination2="BDO"/>
+      <route destination1="CGK" destination2="DMK"/>
+      <route destination1="CGK" destination2="DRW"/>
+      <route destination1="CGK" destination2="DPS"/>
+      <route destination1="CGK" destination2="HKG"/>
+      <route destination1="CGK" destination2="JHB"/>
+      <route destination1="CGK" destination2="BKI"/>
+      <route destination1="CGK" destination2="KUL"/>
+      <route destination1="CGK" destination2="UPG"/>
+      <route destination1="CGK" destination2="MES"/>
+      <route destination1="CGK" destination2="KNO"/>
+      <route destination1="CGK" destination2="PKU"/>
+      <route destination1="CGK" destination2="PEN"/>
+      <route destination1="CGK" destination2="PER"/>
+      <route destination1="CGK" destination2="HKT"/>
+      <route destination1="CGK" destination2="SRG"/>
+      <route destination1="CGK" destination2="SIN"/>
+      <route destination1="CGK" destination2="SUB"/>
+      <route destination1="CGK" destination2="JOG"/>
+      <route destination1="DPS" destination2="BDO"/>
+      <route destination1="DPS" destination2="SUB"/>
+      <route destination1="DPS" destination2="JOG"/>
+      <route destination1="DPS" destination2="SOC"/>
+      <route destination1="LOP" destination2="SUB"/>
+      <route destination1="KNO" destination2="DMK"/>
+      <route destination1="KNO" destination2="KUL"/>
+      <route destination1="KNO" destination2="PLM"/>
+      <route destination1="KNO" destination2="PEN"/>
+      <route destination1="KNO" destination2="JOG"/>
+      <route destination1="JOG" destination2="SIN"/>
+    </routes>
+  </startdata>  
+</airline>

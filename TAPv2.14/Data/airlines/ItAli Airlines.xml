@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="ItAli Airlines" iata="ACL" color="SkyBlue" area="121" CEO="Giuseppe Spadaccini" mentality="Safe" market="Regional" preferedairport="FCO">
+  <narrative narrative="ItAli Airlines was around from October 2003 until March 2011. Its hub was Rome Fiumcino. It did both scheduled and charter schedules. It was the new incarnation of two other airlines, Transporti Aerei Italiani and Air Columbia. Its initial routes were from Pescara to Milan Linate and Rome Fiumcino using two Fairchild Metroliners. In 2005 these would be replaced by Dornier 328Jets. It started a Pescara-Olbia route in July 2004 with a wet leased Dornier 328-100 from Air Alps. Later on in 1995 it started using MD-82's. It also had another branch at Rome Ciampino where Cessna business jets operated, it was called MustFly. The last destinations it was serving in the winter of 2010 was Genoa,Reggio Calabria and still Milan Linate and Rome Fiumcino with an international route to Paris CDG. At the end it had five MD-82's,five Cessna Mustangs,two Dornier 328Jets and one Cessna Citation 500 and possibly at least one Fairchild Metroliner as well. It had ordered ten of the new Russian made Sukoi Superjet 100-95's as well."/>
+</profile>
+  <info real="True" from="2003" to="2011" />
+  <prefereds aircrafts="MD-82 (DC-9-82),Fairchild-Dornier 328JET,Fairchild Swearingen Metroliner"></prefereds>
+   <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2009)-->
+	         <airliners>
+	    <airliner type="MD-82 (DC-9-82)" early="2" late="5"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2010)-->
+	         <airliners>
+	    <airliner type="Fairchild-Dornier 328JET" early="2" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2003) late (2010)-->
+	         <airliners>
+	    <airliner type="Fairchild Swearingen Metroliner" early="2" late="2"></airliner>
+	     </airliners>
+              <routes>
+	        <route destination1="FCO" destination2="PSR"   />
+		<route destination1="LIN" destination2="PSR"   />
+                <route destination1="FCO" destination2="GOA"   />
+		<route destination1="FCO" destination2="REG" />
+		<route destination1="FCO" destination2="LIN" />
+		<route destination1="FCO" destination2="CDG" />
+	        </routes>
+
+
+
+
+</airline>

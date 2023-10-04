@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="FlyPelican" iata="OT" color="Cyan" area="251" CEO="Paul Graham" mentality="Safe" market="Local" preferedairport="NTL">
+  <narrative narrative="FlyPelican is an Australian airline based at Newcastle Airport in New South Wales. It wad founded in 2014 by former Aeropelican staff and uses the former airlines planes as well. In started with charters and began scheduled service June 1st,2015. At May 2016 from Newcastle it is flying to
+  Sydney,Canberra,Ballina and starts Dubbo in July. It also flies between Sydney and Mudgee. All of those towns and airports are within New South Wales except Canberra which itself is surround by the province. Its longest route is 469 kilometers to Ballina. This makes it a local airline in terms of this game. It has
+  four BAe Jetstream 32's." />
+</profile>
+   <info real="True" from="2014" to="2199"></info>
+   <prefereds aircrafts="BAe Jetstream 31"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2016)-->
+	         <airliners>
+	    <airliner type="BAe Jetstream 31" early="4" late="4"></airliner>
+	     </airliners>
+	   	
+	
+
+
+<routes>
+    <route destination1="NTL" destination2="SYD" opened="2015" closed="2199" />
+		<route destination1="NTL" destination2="BNK" opened="2015" closed="2199" />
+		<route destination1="NTL" destination2="CBR" opened="2015" closed="2199" />
+		<route destination1="NTL" destination2="DBO" opened="2016" closed="2199" />
+		<route destination1="SYD" destination2="DGE" opened="2015" closed="2199" />
+		
+
+        </routes>
+  
+
+
+</airline>

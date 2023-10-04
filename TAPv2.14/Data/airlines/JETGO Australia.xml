@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="JETGO Australia" iata="JGO" color="OrangeRed" area="251" CEO="Jason Ryder" mentality="Moderate" market="Domestic" preferedairport="BNE">
+  <narrative narrative="JETGO Australia was founded in 2011 and got its license in 2012. It is based at Brisbane,Queensland. In its first two years it focused on charters but has done scheduled service as well since 2014. At June 2016 schduled service from Brisbane was to Avalon Airport in Melbourne,Victoria, Dubbo,New South Wales, and
+  Tamworth,NSW. It starts Albury,NSW in July. Mining charters are to Barcaldine,Queensland, Osborne,QL and Townsville,QL. There is scheduled service between Townsville and Gold Coast,QL and  Gold Coast to Rockhampton,QL. Charters from Townsville to Osborne Mine are also offered. At June 2015 the airline had three
+  Embraer 135 ER's." />
+</profile>
+   <info real="True" from="2012" to="2199"></info>
+        <focusairports>
+	 <focusairport airport="TSV"></focusairport>
+	 <focusairport airport="OOL"></focusairport>
+     </focusairports>
+   <prefereds aircrafts="Embraer ERJ135 ER,Embraer ERJ140 ER"></prefereds>
+	     <!--the airliners the airline would start with which isn't on a route earyl (2012) late (2016)-->
+	         <airliners>
+	    <airliner type="Embraer ERJ135 ER" early="3" late="3"></airliner>
+	     </airliners>
+	     	
+
+
+<routes>
+    <route destination1="BNE" destination2="AVV" />
+    <route destination1="BNE" destination2="DBO" />
+    <route destination1="BNE" destination2="TMW" />
+		<route destination1="BNE" destination2="ABX" opened="2016"  closed="2199"/>
+    <route destination1="BNE" destination2="BCI"  type="Charter"/>
+    <route destination1="BNE" destination2="TSV" type="Charter" />
+    <route destination1="OOL" destination2="TSV" />
+    <route destination1="OOL" destination2="ROK" />
+        </routes>
+  
+
+
+</airline>

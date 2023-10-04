@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Thai Airways" iata="TG" color="DarkMagenta" area="234" CEO="Ampon Kittiampon"
+           mentality="Aggressive" market="Global " preferedairport="BKK">
+            <narrative narrative="THAI Airways has its origins in 1960 as a joint venture between Scandinavian Airlines System (SAS), which held a 30 percent share of the new company valued at 2 million baht, and Thailand's domestic carrier, Thai Airways Company. The purpose of the joint venture was to create an international wing for the domestic carrier Thai Airways Company." />
+  </profile>
+  <info real="True" from="1960" to="2199"></info>
+  <prefereds aircrafts="Airbus A320-200,Airbus A330-300,Airbus A380-800,Boeing 737-400,Boeing 747-400,Boeing 777-200,Boeing 777-200ER,Boeing 777-300,Boeing 777-300ER,Boeing 787-8">
+  </prefereds>
+  <focusairports>
+    <focusairport airport="BKK"></focusairport>
+    <focusairport airport="HKT"></focusairport>
+    <focusairport airport="ICN"></focusairport>
+    <focusairport airport="CNX"></focusairport>
+  </focusairports>
+  <startdata>
+    <airliners>
+      <airliner type="Airbus A320-200" early="2" late="3"></airliner>
+      <airliner type="Airbus A330-300" early="8" late="10"></airliner>
+      <airliner type="Airbus A380-800" early="3" late="3"></airliner>
+      <airliner type="Boeing 737-400" early="2" late="0"></airliner>
+      <airliner type="Boeing 747-400" early="6" late="6"></airliner>
+      <airliner type="Boeing 777-200" early="4" late="4"></airliner>
+      <airliner type="Boeing 777-200ER" early="3" late="3"></airliner>
+      <airliner type="Boeing 777-300" early="3" late="3"></airliner>
+      <airliner type="Boeing 777-300ER" early="10" late="4"></airliner>
+      <airliner type="Boeing 787-8" early="2" late="6"></airliner>
+    </airliners>
+    <routes>
+      <route destination1="BKK" destination2="AKL"/>
+      <route destination1="BKK" destination2="BLR"/>
+      <route destination1="BKK" destination2="PEK"/>
+      <route destination1="BKK" destination2="BNE"/>
+      <route destination1="BKK" destination2="BRU"/>
+      <route destination1="BKK" destination2="PUS"/>
+      <route destination1="BKK" destination2="CSX"/>
+      <route destination1="BKK" destination2="CTU"/>
+      <route destination1="BKK" destination2="MAA"/>
+      <route destination1="BKK" destination2="CNX"/>
+      <route destination1="BKK" destination2="CKG"/>
+      <route destination1="BKK" destination2="CMB"/>
+      <route destination1="BKK" destination2="CPH"/>
+      <route destination1="BKK" destination2="DEL"/>
+      <route destination1="BKK" destination2="DAC"/>
+      <route destination1="BKK" destination2="DPS"/>
+      <route destination1="BKK" destination2="DXB"/>
+      <route destination1="BKK" destination2="FRA"/>
+      <route destination1="BKK" destination2="FUK"/>
+      <route destination1="BKK" destination2="CAN"/>
+      <route destination1="BKK" destination2="HAN"/>
+      <route destination1="BKK" destination2="SGN"/>
+      <route destination1="BKK" destination2="HKG"/>
+      <route destination1="BKK" destination2="HYD"/>
+      <route destination1="BKK" destination2="ISB"/>
+      <route destination1="BKK" destination2="CGK"/>
+      <route destination1="BKK" destination2="KHI"/>
+      <route destination1="BKK" destination2="KTM"/>
+      <route destination1="BKK" destination2="USM"/>
+      <route destination1="BKK" destination2="CCU"/>
+      <route destination1="BKK" destination2="KBV"/>
+      <route destination1="BKK" destination2="KUL"/>
+      <route destination1="BKK" destination2="KMG"/>
+      <route destination1="BKK" destination2="LHE"/>
+      <route destination1="BKK" destination2="LHR" airliner="Airbus A380-800"/>
+      <route destination1="BKK" destination2="VTE"/>
+      <route destination1="BKK" destination2="MNL" airliner="Boeing 777-200"/>
+      <route destination1="BKK" destination2="MEL"/>
+      <route destination1="BKK" destination2="MXP"/>
+      <route destination1="BKK" destination2="BOM"/>
+      <route destination1="BKK" destination2="MUN"/>
+      <route destination1="BKK" destination2="MCT"/>
+      <route destination1="BKK" destination2="NGO"/>
+      <route destination1="BKK" destination2="KIX"/>
+      <route destination1="BKK" destination2="OSL"/>
+      <route destination1="BKK" destination2="CDG"/>
+      <route destination1="BKK" destination2="PEN"/>
+      <route destination1="BKK" destination2="PER"/>
+      <route destination1="BKK" destination2="PNH"/>
+      <route destination1="BKK" destination2="HKT"/>
+      <route destination1="BKK" destination2="FCO"/>
+      <route destination1="BKK" destination2="CTS"/>
+      <route destination1="BKK" destination2="ICN"/>
+      <route destination1="BKK" destination2="PVG"/>
+      <route destination1="BKK" destination2="SIN"/>
+      <route destination1="BKK" destination2="ARN"/>
+      <route destination1="BKK" destination2="SYD"/>
+      <route destination1="BKK" destination2="TPE"/>
+      <route destination1="BKK" destination2="HND"/>
+      <route destination1="BKK" destination2="NRT"/>
+      <route destination1="BKK" destination2="VTE"/>
+      <route destination1="BKK" destination2="XMN"/>
+      <route destination1="BKK" destination2="YGN"/>
+      <route destination1="BKK" destination2="ZRH"/>
+  </routes>
+  </startdata>
+</airline>

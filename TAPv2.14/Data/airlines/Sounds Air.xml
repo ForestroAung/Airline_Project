@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Sounds Air" iata="S8" color="Orange" area="252" CEO="Cliff Marchant" mentality="Safe" market="Domestic" preferedairport="WLG">
+  <narrative narrative="Sounds Air is based at Wellington,New Zealand. From WLG it goes to Blenheim (5 a day),Nelson (3 a day),Picton (5),Taupo (3) and Westport (3). It also flies from Kapiti Coast and Blenheim and Nelson and between Blenheim and Napier. It started the Kapiti Coast-Blenheim in January 2015. Wellington-Westport started April 2015. Kapiti Coast-Nelson in June 2015 and Blenheim-Napier in August 2015. It stopped Wellington-Wanganui in May 2015. The airline itself started in 1986. It was using five Cessna 208 Caravan's and three Pilatus PC-12's, it had a PC-12 on order."/>
+</profile>
+  <info real="True" from="1986" to="2199" />
+  <prefereds aircrafts="Cessna 208B,Pilatus PC-12"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (1986) late (2015)-->
+	     	         <airliners>
+	    <airliner type="Cessna 208B" early="2" late="5"></airliner>
+	     </airliners>
+		     	               <!--the airliners the airline would start with which isn't on a route earyl (1994) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Pilatus PC-12" early="2" late="4"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="WLG" destination2="BHE" />
+	          <route destination1="WLG" destination2="NSN" />
+		  <route destination1="WLG" destination2="TUO" />
+		  <route destination1="WLG" destination2="PCN" />
+		  <route destination1="WLG" destination2="WAG"  opened="1995" closed="2015" />
+		  <route destination1="WLG" destination2="WSZ"  opened="2015" closed="2199" />
+		  <route destination1="PPQ" destination2="BHE" opened="2015" closed="2199" />
+		  <route destination1="PPQ" destination2="NSN"  opened="2015" closed="2199" />
+		  <route destination1="BHE" destination2="NPE"  opened="2015" closed="2199" />
+        </routes>
+</airline>

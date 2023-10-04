@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Lesotho Airways" iata="LAI" color="MediumBlue" area="372" CEO="Eddie Absil" mentality="Safe" market="Regional" preferedairport="MSU">
+  <narrative narrative="Lesotho Airways was the national airline of the landlocked country that is surrounded by South Africa from 1979 to October 1996. It was based at Moshoeshoe International Airport near the capital of Maseru. It had used up to four DHC-6 Twin Otters,two Beechcraft 1900's,a Fairchild FH-227 and a 707."/>
+</profile>
+  <info real="True" from="1979" to="1997" />
+  <prefereds aircrafts="DHC-6-100 Twin Otter,DHC-6-300 Twin Otter,Beechcraft 1900C,Fairchild FH-227"></prefereds> 
+       	      <!--the airliners the airline would start with which isn't on a route earyl (1979) late (1996)-->
+	     	         <airliners>
+	    <airliner type="DHC-6-100 Twin Otter" early="1" late="4"></airliner>
+	     </airliners>
+	            	      <!--the airliners the airline would start with which isn't on a route earyl (1982) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft 1900C" early="0" late="2"></airliner>
+	     </airliners>
+	     	            	      <!--the airliners the airline would start with which isn't on a route earyl (1979) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Fairchild FH-227" early="1" late="1"></airliner>
+	     </airliners>
+	     	     	            	      <!--the airliners the airline would start with which isn't on a route earyl (1979) late (1996)-->
+	     	         <airliners>
+	    <airliner type="Boeing 707-320B" early="0" late="1"></airliner>
+	     </airliners>
+</airline>

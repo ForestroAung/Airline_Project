@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Metrojet" iata="7K" color="MediumBlue" area="177" CEO="Nikolai Nikolayevich Zolnikov" mentality="Safe" market="Global" onlyfromhome="False" preferedairport="DME" >
+  <narrative narrative="Metrojet is the brand name used by Kolgalymavia also known as Kolavia. Its operating bases are Kogalym and Surgut,Russia while its main flight ops are from Moscow Domodedovo
+ with other bases at St. Petersburg,Tallinn in Estonia and Riga in Latvia. At February 2015 it was going to Qabala,Azerbaijian and Simferopol,Ukraine as scheduled from Moscow while charters to Burgas,Bulgaria
+ and Sharm el-Shiekh,Egypt were also offered. From St. Petersburg it is doing a seasonal route to Sharm el-Sheikh. It offers a summer charter to Antalya,Turkey from Samara,Russia. From Tallinn,Estonia
+ it does Sharm el-Shiekh and Hurghada,Egypt with the same at Riga,Latvia. At December 2014 its fleet had seven A321's and two A320's. It has ten more A320's on order,and nineteen more A321's,and ten A330-200's
+ and fiften A330-300's. Two Bombardier Challenger 850 business jets are also owned. The airline was founded in 1993." />
+</profile>
+   <info real="True" from="1993" to="2199"></info>
+   <prefereds aircrafts="Airbus A321-200,Airbus A320-200,Airbus A321neo,Airbus A320neo,Airbus A330-300,Airbus A330-200,Airbus A330-800neo,Airbus A330-900neo"></prefereds>
+<focusairports>
+                 <focusairport airport="LED"></focusairport>
+		 <focusairport airport="TLL"></focusairport>
+		  <focusairport airport="RIX"></focusairport>
+     </focusairports>
+ 
+   <!--the airliners the airline would start with which isn't on a route earyl (2013) late (2018)-->
+	         <airliners>
+	    <airliner type="Airbus A321-200" early="4" late="26"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (2014) late (2018)-->
+	         <airliners>
+	    <airliner type="Airbus A320-200" early="2" late="12"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	         <airliners>
+	    <airliner type="Airbus A330-200" early="0" late="10"></airliner>
+	     </airliners>
+	     	     	        <!--the airliners the airline would start with which isn't on a route earyl (2015) late (2020)-->
+	         <airliners>
+	    <airliner type="Airbus A330-300" early="0" late="15"></airliner>
+	     </airliners>
+	          	        <!--the airliners the airline would start with which isn't on a route earyl (2001) late (2015)-->
+	         <airliners>
+	    <airliner type="Challenger 800" early="0" late="2"></airliner>
+	     </airliners>
+
+<routes>
+                <route destination1="DME" destination2="GBB" opened="2011" closed="2199" />
+                <route destination1="DME" destination2="SIP" opened="1993" closed="2199" />
+		<route destination1="DME" destination2="BOJ" opened="1993" closed="2199" type="Charter" />
+       	        <route destination1="DME" destination2="SSH" opened="1993" closed="2199" type="Charter"/>
+	        <route destination1="LED" destination2="SSH" opened="1993" closed="2199" season="Summer" />
+	        <route destination1="KUF" destination2="AYT" opened="1993" closed="2199"  type="Charter" season="Summer" />
+	       <route destination1="TLL" destination2="SSH" opened="1993" closed="2199" />
+                <route destination1="TLL" destination2="HRG" opened="1993" closed="2199" />
+	        <route destination1="RIX" destination2="SSH" opened="1993" closed="2199" />
+                <route destination1="RIX" destination2="HRG" opened="1993" closed="2199" />
+        </routes>
+  
+
+
+</airline>

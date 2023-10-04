@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Aero-Dienst" iata="ADN" color="SteelBlue" area="108" CEO="Martin Bauer" mentality="Safe" market="Regional" preferedairport="NUE" schedule="Charter"> 
+  <narrative narrative="Aero-Dienst is a charter airline based at Nuremburg,Germany and has flown since 1958. It also does air ambulance work. Its main customers for charters are corporate. Charters are done throughout Europe and their planes have been seen all over Germany and in other European countries such as Austria in places like Salzburg and Innsbruck,in Spain including most of the Canary Islands and Balearic Islands and cities like Malaga,Barcelona and Alicante,in Portugal in places like
+  the islands of Funchal and vacation spot of Faro,in Malta,in Greece such as Corfu,in Hungary,in Russia such as Moscow,in Italy at cities such as Pisa,Milan,Verona and Trieste,in Turkey at places like Antalya,in Romania at places like Craiona and Satu Mare and in the Netherlands. These are not ussually done from Nuremburg, they are done from one of the many other German airports as well, such as Dusseldorf,Bremen,Hanover,Munich,Hamburg,Erfurt,Stuttgart,Frankfurt,Saarbruecken,and Leipzig. At August 2016 it had two Doriner 328JET's,two Beechcraft King Air 350's,
+  two Learjet 45s,two Learjet 31's,a Learjet 60,a Learjet 35,a Dassault Falcon 900EX,a Cessna Citation CJ3 and one helicopter, which is a Eurocopter EC 135." />
+</profile>
+   <info real="True" from="1958" to="2199"></info>
+   <prefereds aircrafts="Dornier 328-110,Learjet 45,Learjet 31,Beechcraft King Air B200,Learjet 60,Cessna CitationJet CJ3,Learjet 35,Dassault Falcon 900"></prefereds>
+         <focusairports>
+    <focusairport airport="DUS"></focusairport>
+    <focusairport airport="HAJ"></focusairport>
+    <focusairport airport="FRA"></focusairport>
+    <focusairport airport="STR"></focusairport>
+    <focusairport airport="MUC"></focusairport>
+    <focusairport airport="HAM"></focusairport>
+    <focusairport airport="BRE"></focusairport>
+     <focusairport airport="LEJ"></focusairport>
+    <focusairport airport="SCN"></focusairport>
+    <focusairport airport="ERF"></focusairport>
+  </focusairports>
+   <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Dornier 328-110" early="0" late="2"></airliner>
+	     </airliners>
+	          <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 45" early="0" late="2"></airliner>
+	     </airliners>
+	           <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 35" early="0" late="1"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Beechcraft King Air B200" early="0" late="2"></airliner>
+	     </airliners>
+	        <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 60" early="0" late="1"></airliner>
+	     </airliners>
+	     <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Learjet 31" early="0" late="2"></airliner>
+	     </airliners>
+	     	        <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Cessna CitationJet CJ3" early="0" late="1"></airliner>
+	     </airliners>
+	       	        <!--the airliners the airline would start with which isn't on a route earyl (1958) late (2016)-->
+	     	         <airliners>
+	    <airliner type="Dassault Falcon 900" early="0" late="1"></airliner>
+	     </airliners>
+  </airline>

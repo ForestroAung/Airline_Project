@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<!--Dart Herald-->
+<configuration type="Dart Herald" economy="0" premium="0" first="-1" business="0" exitrows="1065" emergencyrows="0" toiletrows="1065" kitchenrows="1065">
+<seats>
+<seat class="First_Class" type="Standard" pitch="76" width="50.8"></seat>
+</seats>
+</configuration>
+
+<!--Hermes-->
+<configuration type="Hermes" economy="0" premium="0" first="-1" business="0" exitrows="1395" emergencyrows="0" toiletrows="1395" kitchenrows="1395">
+<seats>
+<seat class="First_Class" type="Standard" pitch="82" width="48"></seat>
+</seats>
+</configuration>
+
+<!--Marathon-->
+<configuration type="Marathon" economy="0" premium="0" first="-1" business="0" exitrows="292" emergencyrows="0" toiletrows="365" kitchenrows="365">
+<seats>
+<seat class="First_Class" type="Standard" pitch="73" width="49"></seat>
+</seats>
+</configuration>
+
+<!--HP42-->
+<configuration type="HP.42" economy="0" premium="0" first="-1" business="0" exitrows="0,480" emergencyrows="-1" toiletrows="320" kitchenrows="320">
+<seats>
+<seat class="First_Class" type="Table Seat" pitch="80" width="55"></seat>
+</seats>
+</configuration>
+
+<!--Handley Page Type-->
+<configuration type="HP Type O/400" economy="0" premium="0" first="-1" business="0" exitrows="435" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="45"></seat>
+</seats>
+</configuration>
+<configuration type="HP Type W" economy="0" premium="0" first="-1" business="0" exitrows="435" emergencyrows="-1" toiletrows="-1" kitchenrows="-1">
+<seats>
+<seat class="First_Class" type="Standard" pitch="72" width="45"></seat>
+</seats>
+</configuration>
+</configurations>

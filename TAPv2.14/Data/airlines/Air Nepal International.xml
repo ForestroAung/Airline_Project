@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Air Nepal International" iata="NPL" color="MediumBlue" area="228" CEO="Manoj Karki" mentality="Safe" market="Regional" preferedairport="KTM">
+  <narrative narrative="Air Nepal International was around from July 2005 to March 2006. It flew from Kathmandu to Kuala Lumpur,Malaysia Dubai,UAE Bangkok,Thailand and Doha,Qatar using a leased 767-300 with 245 seats. 24 were business class the rest economy."/>
+</profile>
+  <info real="True" from="2005" to="2006" />
+  <prefereds aircrafts="Boeing 767-300ER"></prefereds>
+          <!--the airliners the airline would start with which isn't on a route earyl (2005) late (2006)-->
+	     	         <airliners>
+	    <airliner type="Boeing 767-300ER" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="KTM" destination2="BKK" />
+	       	  <route destination1="KTM" destination2="DXB" />
+		  <route destination1="KTM" destination2="KUL" />
+		  <route destination1="KTM" destination2="DOH" />
+			 		        </routes>
+
+
+
+
+</airline>

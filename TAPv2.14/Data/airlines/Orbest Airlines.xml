@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Orbest!" iata="6O" color="LightSeaGreen" area="118" CEO="Barcelo Group" mentality="Safe" market="Global" preferedairport="LIS" >
+    <narrative
+      narrative="Orbest airlines is a Portuguese airline that operates short- and long-haul flights out of Portugal." />
+  </profile>
+  <info real="True" from="2007" to="2019" />
+     <prefereds aircrafts="Airbus A330-300"></prefereds>
+</airline>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="Mesopotamia Air" iata="MES" color="Yellow" area="304" CEO="Bakhtiar Abdul Rahman" mentality="Safe" market="Global" preferedairport="ISU">
+  <narrative narrative="Mesopotamia Air was only around from opertations start in 2007 to 2008. It was based at Sulaimaniyah,Iraq and flew from there to London Gatwick,UK Frankfurt,Germany
+  and Amsterdam,Netherlands. It used one MD-83 and one BAe 146-200. Vienna,Austria was a stopover destination as well."/>
+</profile>
+  <info real="True" from="2007" to="2008" />
+  <prefereds aircrafts="MD-83 (DC-9-83),BAe 146-200"></prefereds> 
+  	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	     	         <airliners>
+	    <airliner type="MD-83 (DC-9-83)" early="1" late="1"></airliner>
+	     </airliners>
+	       	      <!--the airliners the airline would start with which isn't on a route earyl (2007) late (2008)-->
+	     	         <airliners>
+	    <airliner type="BAe 146-200" early="1" late="1"></airliner>
+	     </airliners>
+               <routes>
+	          <route destination1="ISU" destination2="LGW"    />
+		  <route destination1="ISU" destination2="FRA"    />
+		  <route destination1="ISU" destination2="AMS"    />
+		  <route destination1="ISU" destination2="VIE"    />
+		        </routes>
+
+
+
+
+</airline>

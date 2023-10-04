@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<airline>
+  <profile name="KLM Cityhopper" iata="KL3" color="Cyan" area="111" CEO="PF Hartman" mentality="Aggressive"  market="Regional" preferedairport="AMS" >
+ <narrative narrative="KLM Cityhopper is a regional subsidiary of KLM. It was formed when NLM Cityhopper and its parent Netherlines were bought by KLM. In 2003 KLM UK also merged with KLM Cityhopper. They fly to 44 destinations all in Europe and as of October 2014 had 28 Embraer 190ER's and 19 Fokker 70's.  Their past fleet includes many other Fokker planes and Saab 340's."/>
+<names>
+<name value="NLM" from="1.1.1966 00:00:00"></name>
+<name value="KLM Cityhopper" from="3.1.1991 00:00:00"></name>
+</names>
+</profile>
+  <info real="True" from="1966" to="2199"></info>
+     
+     <airliners>
+     	<!--the airliners the airline would start with which isn't on a route early (1966) late (1991)-->
+     	 <airliner type="Fokker F27" early="8" late="0"></airliner>
+      
+      
+	<!--the airliners the airline would start with which isn't on a route early (1978) late (1996)-->
+     	 <airliner type="Fokker F28-4000" early="4" late="0"></airliner>
+      
+      
+	<!--the airliners the airline would start with which isn't on a route early (1990) late (2010)-->
+     	 <airliner type="Fokker 50" early="10" late="0"></airliner>
+      
+	
+      
+	<!--the airliners the airline would start with which isn't on a route early (1989) late (2012)-->
+     	 <airliner type="Fokker 100" early="20" late="0"></airliner>
+      
+	
+      
+	<!--the airliners the airline would start with which isn't on a route early (1996) late (2017)-->
+     	 <airliner type="Fokker 70" early="26" late="19"></airliner>
+      
+	
+      
+	<!--the airliners the airline would start with which isn't on a route early (2008) late (2038)-->
+     	 <airliner type="Embrear E-190" early="0" late="30"></airliner>
+      
+	
+      
+	<!--the airliners the airline would start with which isn't on a route early (2016) late (2046)-->
+     	 <airliner type="Embrear E-175" early="0" late="15"></airliner>
+      
+	
+      
+	<!--the airliners the airline would start with which isn't on a route early (1990) late (1998)-->
+     	 <airliner type="Saab 340B" early="12" late="0"></airliner>
+      
+	
+     </airliners>
+     <routes>
+     	<route destination1="AMS" destination2="BRU"/>
+     	<route destination1="AMS" destination2="DUS"/>
+     	<route destination1="AMS" destination2="LUX"/>
+     	<route destination1="AMS" destination2="LHR"/>
+     	<route destination1="AMS" destination2="CGN"/>
+     	<route destination1="AMS" destination2="AAL"/>
+     	<route destination1="AMS" destination2="LBA"/>
+     	<route destination1="AMS" destination2="HUY"/>
+     	<route destination1="AMS" destination2="BHD"/>
+     	<route destination1="AMS" destination2="NWI"/>
+     	<route destination1="AMS" destination2="MME"/>
+     </routes>
+</airline>
+
